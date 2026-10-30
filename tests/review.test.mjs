@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {validDate,readField,writeField,reviewQueue} from '../src/review.mjs';
+import {validate} from '../src/domain.mjs';
+import {mountEditor} from '../src/editor.mjs';
+const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
+test('editor module loads without browser-side effects',()=>assert.equal(typeof mountEditor,'function'));
+test('review dates reject impossible dates and accept leap days',()=>{assert.equal(validDate('2026-02-30'),false);assert.equal(validDate('2025-02-29'),false);assert.equal(validDate('2024-02-29'),true);assert.equal(validDate('yesterday'),false);});
+test('nested editor fields preserve unknown metadata without mutating saved row',()=>{const original={requirements:{awakened:true,minSignature:40,notes:'Keep this'}};const row={...original};writeField(row,'requirements.minSignature',0);assert.equal(original.requirements.minSignature,40);assert.equal(readField(row,'requirements.minSignature'),0);assert.equal(row.requirements.notes,'Keep this');});
+test('review queue identifies missing evidence and roster requirements',()=>{const queue=reviewQueue(db);assert.equal(queue.length,db.counters.length);assert(queue[0].issues.includes('Gameplay test pending'));assert(queue[0].issues.includes('Roster requirements unreviewed'));});
+test('tested status needs evidence even below high confidence scores',()=>{const data=structuredClone(db);data.counters[0].review={status:'tested',reviewedAt:'2026-10-21',gameVersion:'test-version'};assert(validate(data).some(e=>e.includes('tested status')));data.sources.push({id:'test-proof',title:'Fixture test evidence',url:'https://example.com/test',kind:'test'});data.counters[0].sourceIds.push('test-proof');assert.deepEqual(validate(data),[]);data.counters[0].review.reviewedAt='2026-02-30';assert(validate(data).some(e=>e.includes('invalid review date')));});
+test('malformed requirement objects are rejected',()=>{const data=structuredClone(db);data.counters[0].requirements='unknown';assert(validate(data).some(e=>e.includes('requirements must be an object')));});

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-30",
+  "operatorCountry": "India",
+  "permissionsObtained": false,
+  "scope": "Boss-guide pilot only. Full research catalog is excluded from public output.",
+  "selectedBossIds": [
+    "gwenmaster",
+    "kang-conqueror",
+    "scytalis",
+    "bahamet"
+  ],
+  "reviews": [
+    {
+      "id": "gwenmaster",
+      "fingerprint": "609a1d400eb083108c6b22b7be6753e4a36371cbc2414f3b772a06379c2ecef1",
+      "reviewer": "Codex editorial evidence audit",
+      "reviewedAt": "2026-10-30",
+      "accuracy": {
+        "status": "pending",
+        "evidence": "Narrowed the persistence claim to avoid promising retention of partial objective progress. Explained the Invisibility timer and Doom-phase Shock/heavy hazard from the cited transcript. Reviewed 30 October 2026. This is a community-source editorial correction, not independent current-client verification. Remaining: corroborate transcript-dependent interactions and selected-path modifiers with reliable current evidence. Added preparation and failure-recovery guidance, derived from the existing cited fight loop. This does not upgrade the verification level."
+      },
+      "rights": {
+        "status": "pending",
+        "basis": "unclassified",
+        "evidence": "Manual comparison found functional terminology and encounter-order overlap. No copied artwork or distinctive equipment-flavor headings in the pilot. This is not a full plagiarism scan or a finding of independent observation. MCOCHUB terms assert ownership of its data compilation and do not provide a reuse license. Review clarification: lack of permission, shared mechanics terminology or the natural encounter order alone do not establish infringement. The pending decision concerns the actual selection/expression and provenance of this draft, not a requirement to license game facts."
+      },
+      "limitations": "Core encounter preparation only; selected-path variants and current-client testing are not covered. Transcript-dependent instructions remain provisional. Partial objective persistence after a knockout is not asserted.",
+      "attribution": "Gwenmaster boss abilities • MCOCHUB (community reference): https://mcochub.insaneskull.com/quests/gwenmaster | Act 7.2 boss walkthrough • community discussion: https://www.reddit.com/r/ContestOfChampions/comments/ng3cas/act_72_megathread/. Citations identify evidence, not permission or endorsement."
+    },
+    {
+      "id": "kang-conqueror",
+      "fingerprint": "23027f101bfc07a0b4260334e5116204fe0014dd6a15f08d7ae22e6a0c872c36",
+      "reviewer": "Codex editorial evidence audit",
+      "reviewedAt": "2026-10-30",
+      "accuracy": {
+        "status": "pending",
+        "evidence": "Added the zero-prompt distinction and power reset at phase transitions. Retained the corrected matching-special knockdown requirement. Historical ability-accuracy reports remain explicitly historical. Reviewed 30 October 2026. This is a community-source editorial correction, not independent current-client verification. Remaining: corroborate transcript-dependent interactions and selected-path modifiers with reliable current evidence. Added preparation and failure-recovery guidance, derived from the existing cited fight loop. This does not upgrade the verification level."
+      },
+      "rights": {
+        "status": "pending",
+        "basis": "unclassified",
+        "evidence": "The draft uses ordinary mechanics descriptions and encounter ordering, without importing a full ability block. Rephrasing is not proof of independent derivation. MCOCHUB compilation rights remain unresolved; no license was found in its terms. Review clarification: lack of permission, shared mechanics terminology or the natural encounter order alone do not establish infringement. The pending decision concerns the actual selection/expression and provenance of this draft, not a requirement to license game facts."
+      },
+      "limitations": "Core encounter preparation only; selected-path variants and current-client testing are not covered. Transcript-dependent instructions remain provisional. ",
+      "attribution": "Kang the Conqueror • community ability reference: https://mcochub.insaneskull.com/quests/kang-boss-tech | Act 7.3 • player mechanics discussion: https://www.reddit.com/r/ContestOfChampions/comments/q7frrk/ | Kang Power Loop • historical ability accuracy reports: https://forums.playcontestofchampions.com/en/discussion/299007/kingpin-sp1-kang-power-loop-problem. Citations identify evidence, not permission or endorsement."
+    },
+    {
+      "id": "scytalis",
+      "fingerprint": "c2a8fc0ef2b9c41ee0e13d8399158336dde128a3c0ed63aa4688bb060e142251",
+      "reviewer": "Codex editorial evidence audit",
+      "reviewedAt": "2026-10-30",
+      "accuracy": {
+        "status": "pending",
+        "evidence": "Added arming-state checks, the phase-two knockdown requirement, and the final SP2/heavy-Evade/Prowess loop. The older short source omitted important final-phase details; the new community transcript supplies them but contains suspect numerical fields. Reviewed 30 October 2026. This is a community-source editorial correction, not independent current-client verification. Remaining: corroborate transcript-dependent interactions and selected-path modifiers with reliable current evidence. Added preparation and failure-recovery guidance, derived from the existing cited fight loop. This does not upgrade the verification level."
+      },
+      "rights": {
+        "status": "pending",
+        "basis": "unclassified",
+        "evidence": "Close structural dependence on a short secondary guide remains. No reuse grant was identified on the inspected guide page; that is not a claim that no license exists anywhere. Current prose remains a research draft. Review clarification: lack of permission, shared mechanics terminology or the natural encounter order alone do not establish infringement. The pending decision concerns the actual selection/expression and provenance of this draft, not a requirement to license game facts."
+      },
+      "limitations": "Core encounter preparation only; selected-path variants and current-client testing are not covered. Transcript-dependent instructions remain provisional. ",
+      "attribution": "Scytalis fight reference • MCOC MX: https://mcoc.mx/game/boss/8-1-6/ | Scytalis ability transcript — community reference: https://mcochub.insaneskull.com/quests/scytalis. Citations identify evidence, not permission or endorsement."
+    },
+    {
+      "id": "bahamet",
+      "fingerprint": "451258e82e47ff468220153676cc2c7c194e5d0c20ebf4f86e6c4303d6f61026",
+      "reviewer": "Codex editorial evidence audit",
+      "reviewedAt": "2026-10-30",
+      "accuracy": {
+        "status": "pending",
+        "evidence": "Added Volatility setup, differentiated the two charge counters, restored the opening Removal-plus-knockdown step, and added repeat-special/phase-reset cautions. Community sources disagree on some counts; the transcript supports one opening Removal charge, not three. Reviewed 30 October 2026. This is a community-source editorial correction, not independent current-client verification. Remaining: corroborate transcript-dependent interactions and selected-path modifiers with reliable current evidence. Added preparation and failure-recovery guidance, derived from the existing cited fight loop. This does not upgrade the verification level."
+      },
+      "rights": {
+        "status": "pending",
+        "basis": "unclassified",
+        "evidence": "Structural and translated-summary dependence remains; changing synonyms would not resolve it. No reuse grant was identified on the inspected guide page. Champion recommendations and source artwork are excluded from the pilot. Review clarification: lack of permission, shared mechanics terminology or the natural encounter order alone do not establish infringement. The pending decision concerns the actual selection/expression and provenance of this draft, not a requirement to license game facts."
+      },
+      "limitations": "Core encounter preparation only; selected-path variants and current-client testing are not covered. Transcript-dependent instructions remain provisional. ",
+      "attribution": "Bahamet fight reference • MCOC MX: https://mcoc.mx/game/boss/8-2-6/ | Community discussion: Bahamet champion choices: https://forums.playcontestofchampions.com/en/discussion/352691/tips-for-bahamet | Bahamet ability transcript — community reference: https://mcochub.insaneskull.com/quests/bahamet. Citations identify evidence, not permission or endorsement."
+    }
+  ]
+}

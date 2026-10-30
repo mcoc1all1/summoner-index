@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {researchGaps} from '../src/research.mjs';
+export function writeCoverage(root,db){
+ const champions=db.champions.map(c=>({id:c.id,name:c.name,sourceChecked:c.referenceFacts?.checkedAt||null,listedAbilities:c.referenceFacts?.abilities.length||0,listedProtections:c.referenceFacts?.protections.length||0,relicShortlist:!!(c.referenceFacts?.battlecast||c.referenceFacts?.statcast),detailedGuide:c.coverage==='curated',rotationPlan:!!c.rotation?.length,focusTrial:!!(c.loadout||c.focusTrial),synergyNotes:db.synergies.filter(s=>s.championId===c.id).length,verifiedRotation:false,currentBuildTested:false,source:c.referenceFacts?.url||null}));
+ for(const row of champions){const c=db.champions.find(c=>c.id===row.id);row.remaining=researchGaps(db,c);row.researchReview=c.researchReview||null;row.loadoutException=c.loadoutException||null;}
+ const report={checkedAt:db.champions.flatMap(c=>[c.kitReview?.checkedAt,c.referenceFacts?.checkedAt,c.researchReview?.checkedAt]).filter(Boolean).sort().at(-1),scope:`${champions.length} entries from the checked community roster; not an official completeness census`,champions};
+ fs.writeFileSync(path.join(root,'content/coverage-report.json'),JSON.stringify(report,null,2)+'\n');
+ const totals={detailed:champions.filter(c=>c.detailedGuide).length,rotations:champions.filter(c=>c.rotationPlan).length,focus:champions.filter(c=>c.focusTrial).length};
+ fs.writeFileSync(path.join(root,'docs/coverage-report.md'),`# Content coverage\n\n${champions.length} source catalogues; ${totals.detailed} detailed profiles; ${totals.rotations} step-by-step plans; ${totals.focus} stat-focus trials; ${db.synergies.length} synergy notes. Generated from the catalog during every build.\n\nPlans and trials have not been verified in the current game client. Missing source lists do not establish absence of an ability. Remaining detailed guides: ${champions.length-totals.detailed}. Remaining champion-specific focus trials: ${champions.length-totals.focus}. Exact relic variants, numeric investment breakpoints, current-season results and gameplay validation remain open unless explicitly documented.\n\n| Champion | Detailed guide | Fight sequence | Focus trial | Synergy notes |\n|---|---|---|---|---:|\n`+champions.map(c=>`| [${c.name}](${c.source}) | ${c.detailedGuide?'Available':'Pending'} | ${c.rotationPlan?'Available':'Pending'} | ${c.focusTrial?'Available':c.loadoutException?'Eligibility unresolved':'Pending'} | ${c.synergyNotes} |`).join('\n')+'\n');
+ const pending=champions.filter(c=>!c.detailedGuide);
+ const cell=value=>String(value).replace(/\|/g,'\\|').replace(/[\r\n]+/g,' ');
+ fs.appendFileSync(path.join(root,'docs/coverage-report.md'),'\n## Outstanding guide research\n\n'+(pending.length?'| Champion | Last research check | Reason or next step |\n|---|---|---|\n'+pending.map(c=>`| ${cell(c.name)} | ${c.researchReview?.checkedAt||'Pending'} | ${cell(c.researchReview?.note||'Individual kit research still pending.')} |`).join('\n'):'Every roster record has an authored guide; current-game validation remains open.')+'\n');
+ return report;
+}

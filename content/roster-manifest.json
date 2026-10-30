@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "abomination",
+    "sourceSlug": "abomination",
+    "name": "Abomination",
+    "class": "Science"
+  },
+  {
+    "id": "abomination-immortal",
+    "sourceSlug": "abomination-immortal",
+    "name": "Abomination (Immortal)",
+    "class": "Science"
+  },
+  {
+    "id": "absorbing-man",
+    "sourceSlug": "absorbing-man",
+    "name": "Absorbing Man",
+    "class": "Mystic"
+  },
+  {
+    "id": "adam-warlock",
+    "sourceSlug": "adam-warlock",
+    "name": "Adam Warlock",
+    "class": "Cosmic"
+  },
+  {
+    "id": "aegon",
+    "sourceSlug": "aegon",
+    "name": "Aegon",
+    "class": "Skill"
+  },
+  {
+    "id": "agatha-harkness",
+    "sourceSlug": "agatha-harkness",
+    "name": "Agatha Harkness",
+    "class": "Mystic"
+  },
+  {
+    "id": "agent-venom",
+    "sourceSlug": "agent-venom",
+    "name": "Agent Venom",
+    "class": "Skill"
+  },
+  {
+    "id": "air-walker",
+    "sourceSlug": "air-walker",
+    "name": "Air-Walker",
+    "class": "Cosmic"
+  },
+  {
+    "id": "america-chavez",
+    "sourceSlug": "america-chavez",
+    "name": "America Chavez",
+    "class": "Mystic"
+  },
+  {
+    "id": "angela",
+    "sourceSlug": "angela",
+    "name": "Angela",
+    "class": "Cosmic"
+  },
+  {
+    "id": "annihilus",
+    "sourceSlug": "annihilus",
+    "name": "Annihilus",
+    "class": "Cosmic"
+  },
+  {
+    "id": "ant-man",
+    "sourceSlug": "ant-man",
+    "name": "Ant-Man",
+    "class": "Science"
+  },
+  {
+    "id": "ant-man-future",
+    "sourceSlug": "ant-man-future",
+    "name": "Ant-Man (Future)",
+    "class": "Tech"
+  },
+  {
+    "id": "anti-venom",
+    "sourceSlug": "anti-venom",
+    "name": "Anti-Venom",
+    "class": "Science"
+  },
+  {
+    "id": "apocalypse",
+    "sourceSlug": "apocalypse",
+    "name": "Apocalypse",
+    "class": "Mutant"
+  },
+  {
+    "id": "arcade",
+    "sourceSlug": "arcade",
+    "name": "Arcade",
+    "class": "Tech"
+  },
+  {
+    "id": "archangel",
+    "sourceSlug": "archangel",
+    "name": "Archangel",
+    "class": "Mutant"
+  },
+  {
+    "id": "arnim-zola",
+    "sourceSlug": "arnim-zola",
+    "name": "Arnim Zola",
+    "class": "Tech"
+  },
+  {
+    "id": "attuma",
+    "sourceSlug": "attuma",
+    "name": "Attuma",
+    "class": "Skill"
+  },
+  {
+    "id": "baron-zemo",
+    "sourceSlug": "baron-zemo",
+    "name": "Baron Zemo",
+    "class": "Skill"
+  },
+  {
+    "id": "bastion",
+    "sourceSlug": "bastion",
+    "name": "Bastion",
+    "class": "Tech"
+  },
+  {
+    "id": "beast",
+    "sourceSlug": "beast",
+    "name": "Beast",
+    "class": "Mutant"
+  },
+  {
+    "id": "beta-ray-bill",
+    "sourceSlug": "beta-ray-bill",
+    "name": "Beta Ray Bill",
+    "class": "Cosmic"
+  },
+  {
+    "id": "bishop",
+    "sourceSlug": "bishop",
+    "name": "Bishop",
+    "class": "Mutant"
+  },
+  {
+    "id": "black-bolt",
+    "sourceSlug": "black-bolt",
+    "name": "Black Bolt",
+    "class": "Cosmic"
+  },
+  {
+    "id": "black-cat",
+    "sourceSlug": "black-cat",
+    "name": "Black Cat",
+    "class": "Skill"
+  },
+  {
+    "id": "black-panther",
+    "sourceSlug": "black-panther",
+    "name": "Black Panther",
+    "class": "Skill"
+  },
+  {
+    "id": "black-panther-civil-war",
+    "sourceSlug": "black-panther-civil-war",
+    "name": "Black Panther (Civil War)",
+    "class": "Skill"
+  },
+  {
+    "id": "black-tarantula",
+    "sourceSlug": "black-tarantula",
+    "name": "Black Tarantula",
+    "class": "Skill"
+  },
+  {
+    "id": "black-widow",
+    "sourceSlug": "black-widow",
+    "name": "Black Widow",
+    "class": "Skill"
+  },
+  {
+    "id": "black-widow-claire-voyant",
+    "sourceSlug": "black-widow-claire-voyant",
+    "name": "Black Widow (Claire Voyant)",
+    "class": "Mystic"
+  },
+  {
+    "id": "black-widow-deadly-origin",
+    "sourceSlug": "black-widow-deadly-origin",
+    "name": "Black Widow (Deadly Origin)",
+    "class": "Skill"
+  },
+  {
+    "id": "blade",
+    "sourceSlug": "blade",
+    "name": "Blade",
+    "class": "Skill"
+  },
+  {
+    "id": "blade-stellar-forged",
+    "sourceSlug": "blade-stellar-forged",
+    "name": "Blade (Stellar Forged)",
+    "class": "Mystic"
+  },
+  {
+    "id": "blue-marvel",
+    "sourceSlug": "blue-marvel",
+    "name": "Blue Marvel",
+    "class": "Science"
+  },
+  {
+    "id": "bullseye",
+    "sourceSlug": "bullseye",
+    "name": "Bullseye",
+    "class": "Skill"
+  },
+  {
+    "id": "cable",
+    "sourceSlug": "cable",
+    "name": "Cable",
+    "class": "Mutant"
+  },
+  {
+    "id": "captain-america",
+    "sourceSlug": "captain-america",
+    "name": "Captain America",
+    "class": "Science"
+  },
+  {
+    "id": "captain-america-infinity-war",
+    "sourceSlug": "captain-america-infinity-war",
+    "name": "Captain America (Infinity War)",
+    "class": "Science"
+  },
+  {
+    "id": "captain-america-sam-wilson",
+    "sourceSlug": "captain-america-sam-wilson",
+    "name": "Captain America (Sam Wilson)",
+    "class": "Tech"
+  },
+  {
+    "id": "captain-america-wwii",
+    "sourceSlug": "captain-america-wwii",
+    "name": "Captain America (WWII)",
+    "class": "Science"
+  },
+  {
+    "id": "captain-britain",
+    "sourceSlug": "captain-britain",
+    "name": "Captain Britain",
+    "class": "Mutant"
+  },
+  {
+    "id": "captain-marvel",
+    "sourceSlug": "captain-marvel",
+    "name": "Captain Marvel",
+    "class": "Cosmic"
+  },
+  {
+    "id": "captain-marvel-classic",
+    "sourceSlug": "captain-marvel-classic",
+    "name": "Captain Marvel (Classic)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "carina-tivan",
+    "sourceSlug": "carina-tivan",
+    "name": "Carina Tivan",
+    "class": "Cosmic"
+  },
+  {
+    "id": "carnage",
+    "sourceSlug": "carnage",
+    "name": "Carnage",
+    "class": "Cosmic"
+  },
+  {
+    "id": "cassandra-nova",
+    "sourceSlug": "cassandra-nova",
+    "name": "Cassandra Nova",
+    "class": "Mutant"
+  },
+  {
+    "id": "cassie-lang",
+    "sourceSlug": "cassie-lang",
+    "name": "Cassie Lang",
+    "class": "Science"
+  },
+  {
+    "id": "cheeilth",
+    "sourceSlug": "cheeilth",
+    "name": "Chee'ilth",
+    "class": "Skill"
+  },
+  {
+    "id": "civil-warrior",
+    "sourceSlug": "civil-warrior",
+    "name": "Civil Warrior",
+    "class": "Tech"
+  },
+  {
+    "id": "colossus",
+    "sourceSlug": "colossus",
+    "name": "Colossus",
+    "class": "Mutant"
+  },
+  {
+    "id": "colossus-age-of-apocalypse",
+    "sourceSlug": "colossus-age-of-apocalypse",
+    "name": "Colossus (Age of Apocalypse)",
+    "class": "Mutant"
+  },
+  {
+    "id": "corvus-glaive",
+    "sourceSlug": "corvus-glaive",
+    "name": "Corvus Glaive",
+    "class": "Cosmic"
+  },
+  {
+    "id": "cosmic-ghost-rider",
+    "sourceSlug": "cosmic-ghost-rider",
+    "name": "Cosmic Ghost Rider",
+    "class": "Cosmic"
+  },
+  {
+    "id": "count-nefaria",
+    "sourceSlug": "count-nefaria",
+    "name": "Count Nefaria",
+    "class": "Science"
+  },
+  {
+    "id": "crossbones",
+    "sourceSlug": "crossbones",
+    "name": "Crossbones",
+    "class": "Skill"
+  },
+  {
+    "id": "cull-obsidian",
+    "sourceSlug": "cull-obsidian",
+    "name": "Cull Obsidian",
+    "class": "Cosmic"
+  },
+  {
+    "id": "cyclops-blue-team",
+    "sourceSlug": "cyclops-blue-team",
+    "name": "Cyclops (Blue Team)",
+    "class": "Mutant"
+  },
+  {
+    "id": "cyclops-new-xavier-school",
+    "sourceSlug": "cyclops-new-xavier-school",
+    "name": "Cyclops (New Xavier School)",
+    "class": "Mutant"
+  },
+  {
+    "id": "dani-moonstar",
+    "sourceSlug": "dani-moonstar",
+    "name": "Dani Moonstar",
+    "class": "Mutant"
+  },
+  {
+    "id": "daredevil-classic",
+    "sourceSlug": "daredevil-classic",
+    "name": "Daredevil (Classic)",
+    "class": "Skill"
+  },
+  {
+    "id": "daredevil-hells-kitchen",
+    "sourceSlug": "daredevil-hells-kitchen",
+    "name": "Daredevil (Hells Kitchen)",
+    "class": "Skill"
+  },
+  {
+    "id": "dark-phoenix",
+    "sourceSlug": "dark-phoenix",
+    "name": "Dark Phoenix",
+    "class": "Cosmic"
+  },
+  {
+    "id": "darkhawk",
+    "sourceSlug": "darkhawk",
+    "name": "Darkhawk",
+    "class": "Tech"
+  },
+  {
+    "id": "dazzler",
+    "sourceSlug": "dazzler",
+    "name": "Dazzler",
+    "class": "Mutant"
+  },
+  {
+    "id": "deadpool",
+    "sourceSlug": "deadpool",
+    "name": "Deadpool",
+    "class": "Mutant"
+  },
+  {
+    "id": "deadpool-x-force",
+    "sourceSlug": "deadpool-x-force",
+    "name": "Deadpool (X-Force)",
+    "class": "Mutant"
+  },
+  {
+    "id": "diablo",
+    "sourceSlug": "diablo",
+    "name": "Diablo",
+    "class": "Mystic"
+  },
+  {
+    "id": "doctor-bong",
+    "sourceSlug": "doctor-bong",
+    "name": "Doctor Bong",
+    "class": "Skill"
+  },
+  {
+    "id": "doctor-doom",
+    "sourceSlug": "doctor-doom",
+    "name": "Doctor Doom",
+    "class": "Mystic"
+  },
+  {
+    "id": "doctor-octopus",
+    "sourceSlug": "doctor-octopus",
+    "name": "Doctor Octopus",
+    "class": "Tech"
+  },
+  {
+    "id": "doctor-strange",
+    "sourceSlug": "doctor-strange",
+    "name": "Doctor Strange",
+    "class": "Mystic"
+  },
+  {
+    "id": "doctor-voodoo",
+    "sourceSlug": "doctor-voodoo",
+    "name": "Doctor Voodoo",
+    "class": "Mystic"
+  },
+  {
+    "id": "domino",
+    "sourceSlug": "domino",
+    "name": "Domino",
+    "class": "Mutant"
+  },
+  {
+    "id": "dormammu",
+    "sourceSlug": "dormammu",
+    "name": "Dormammu",
+    "class": "Mystic"
+  },
+  {
+    "id": "dracula",
+    "sourceSlug": "dracula",
+    "name": "Dracula",
+    "class": "Mystic"
+  },
+  {
+    "id": "dragon-man",
+    "sourceSlug": "dragon-man",
+    "name": "Dragon Man",
+    "class": "Mystic"
+  },
+  {
+    "id": "drax",
+    "sourceSlug": "drax",
+    "name": "Drax",
+    "class": "Cosmic"
+  },
+  {
+    "id": "dust",
+    "sourceSlug": "dust",
+    "name": "Dust",
+    "class": "Mutant"
+  },
+  {
+    "id": "ebony-maw",
+    "sourceSlug": "ebony-maw",
+    "name": "Ebony Maw",
+    "class": "Mystic"
+  },
+  {
+    "id": "electro",
+    "sourceSlug": "electro",
+    "name": "Electro",
+    "class": "Science"
+  },
+  {
+    "id": "elektra",
+    "sourceSlug": "elektra",
+    "name": "Elektra",
+    "class": "Skill"
+  },
+  {
+    "id": "elsa-bloodstone",
+    "sourceSlug": "elsa-bloodstone",
+    "name": "Elsa Bloodstone",
+    "class": "Skill"
+  },
+  {
+    "id": "emma-frost",
+    "sourceSlug": "emma-frost",
+    "name": "Emma Frost",
+    "class": "Mutant"
+  },
+  {
+    "id": "enchantress",
+    "sourceSlug": "enchantress",
+    "name": "Enchantress",
+    "class": "Mystic"
+  },
+  {
+    "id": "falcon",
+    "sourceSlug": "falcon",
+    "name": "Falcon",
+    "class": "Skill"
+  },
+  {
+    "id": "falcon-joaquin-torres",
+    "sourceSlug": "falcon-joaquin-torres",
+    "name": "Falcon (Joaquin Torres)",
+    "class": "Science"
+  },
+  {
+    "id": "franken-castle",
+    "sourceSlug": "franken-castle",
+    "name": "Franken-Castle",
+    "class": "Skill"
+  },
+  {
+    "id": "galan",
+    "sourceSlug": "galan",
+    "name": "Galan",
+    "class": "Cosmic"
+  },
+  {
+    "id": "gambit",
+    "sourceSlug": "gambit",
+    "name": "Gambit",
+    "class": "Mutant"
+  },
+  {
+    "id": "gamora",
+    "sourceSlug": "gamora",
+    "name": "Gamora",
+    "class": "Cosmic"
+  },
+  {
+    "id": "gentle",
+    "sourceSlug": "gentle",
+    "name": "Gentle",
+    "class": "Mutant"
+  },
+  {
+    "id": "ghost",
+    "sourceSlug": "ghost",
+    "name": "Ghost",
+    "class": "Tech"
+  },
+  {
+    "id": "ghost-rider",
+    "sourceSlug": "ghost-rider",
+    "name": "Ghost Rider",
+    "class": "Mystic"
+  },
+  {
+    "id": "gladiator",
+    "sourceSlug": "gladiator",
+    "name": "Gladiator",
+    "class": "Cosmic"
+  },
+  {
+    "id": "goldpool",
+    "sourceSlug": "goldpool",
+    "name": "Goldpool",
+    "class": "Mutant"
+  },
+  {
+    "id": "gorr",
+    "sourceSlug": "gorr",
+    "name": "Gorr",
+    "class": "Cosmic"
+  },
+  {
+    "id": "green-goblin",
+    "sourceSlug": "green-goblin",
+    "name": "Green Goblin",
+    "class": "Tech"
+  },
+  {
+    "id": "green-goblin-stellar-forged",
+    "sourceSlug": "green-goblin-stellar-forged",
+    "name": "Green Goblin (Stellar Forged)",
+    "class": "Science"
+  },
+  {
+    "id": "groot",
+    "sourceSlug": "groot",
+    "name": "Groot",
+    "class": "Cosmic"
+  },
+  {
+    "id": "guardian",
+    "sourceSlug": "guardian",
+    "name": "Guardian",
+    "class": "Tech"
+  },
+  {
+    "id": "guillotine",
+    "sourceSlug": "guillotine",
+    "name": "Guillotine",
+    "class": "Mystic"
+  },
+  {
+    "id": "guillotine-deathless",
+    "sourceSlug": "guillotine-deathless",
+    "name": "Guillotine (Deathless)",
+    "class": "Mystic"
+  },
+  {
+    "id": "guillotine-2099",
+    "sourceSlug": "guillotine-2099",
+    "name": "Guillotine 2099",
+    "class": "Tech"
+  },
+  {
+    "id": "gwenom",
+    "sourceSlug": "gwenom",
+    "name": "Gwenom",
+    "class": "Cosmic"
+  },
+  {
+    "id": "gwenpool",
+    "sourceSlug": "gwenpool",
+    "name": "Gwenpool",
+    "class": "Skill"
+  },
+  {
+    "id": "havok",
+    "sourceSlug": "havok",
+    "name": "Havok",
+    "class": "Mutant"
+  },
+  {
+    "id": "hawkeye",
+    "sourceSlug": "hawkeye",
+    "name": "Hawkeye",
+    "class": "Skill"
+  },
+  {
+    "id": "heimdall",
+    "sourceSlug": "heimdall",
+    "name": "Heimdall",
+    "class": "Cosmic"
+  },
+  {
+    "id": "hela",
+    "sourceSlug": "hela",
+    "name": "Hela",
+    "class": "Cosmic"
+  },
+  {
+    "id": "hercules",
+    "sourceSlug": "hercules",
+    "name": "Hercules",
+    "class": "Cosmic"
+  },
+  {
+    "id": "high-evolutionary",
+    "sourceSlug": "high-evolutionary",
+    "name": "High Evolutionary",
+    "class": "Science"
+  },
+  {
+    "id": "hit-monkey",
+    "sourceSlug": "hit-monkey",
+    "name": "Hit-Monkey",
+    "class": "Skill"
+  },
+  {
+    "id": "hobgoblin",
+    "sourceSlug": "hobgoblin",
+    "name": "Hobgoblin",
+    "class": "Tech"
+  },
+  {
+    "id": "howard-the-duck",
+    "sourceSlug": "howard-the-duck",
+    "name": "Howard The Duck",
+    "class": "Tech"
+  },
+  {
+    "id": "hulk",
+    "sourceSlug": "hulk",
+    "name": "Hulk",
+    "class": "Science"
+  },
+  {
+    "id": "hulk-immortal",
+    "sourceSlug": "hulk-immortal",
+    "name": "Hulk (Immortal)",
+    "class": "Science"
+  },
+  {
+    "id": "hulk-ragnarok",
+    "sourceSlug": "hulk-ragnarok",
+    "name": "Hulk (Ragnarok)",
+    "class": "Science"
+  },
+  {
+    "id": "hulkbuster",
+    "sourceSlug": "hulkbuster",
+    "name": "Hulkbuster",
+    "class": "Tech"
+  },
+  {
+    "id": "hulkling",
+    "sourceSlug": "hulkling",
+    "name": "Hulkling",
+    "class": "Cosmic"
+  },
+  {
+    "id": "human-torch",
+    "sourceSlug": "human-torch",
+    "name": "Human Torch",
+    "class": "Science"
+  },
+  {
+    "id": "hyperion",
+    "sourceSlug": "hyperion",
+    "name": "Hyperion",
+    "class": "Cosmic"
+  },
+  {
+    "id": "iceman",
+    "sourceSlug": "iceman",
+    "name": "Iceman",
+    "class": "Mutant"
+  },
+  {
+    "id": "ikaris",
+    "sourceSlug": "ikaris",
+    "name": "Ikaris",
+    "class": "Cosmic"
+  },
+  {
+    "id": "imperiosa",
+    "sourceSlug": "imperiosa",
+    "name": "Imperiosa",
+    "class": "Cosmic"
+  },
+  {
+    "id": "invisible-woman",
+    "sourceSlug": "invisible-woman",
+    "name": "Invisible Woman",
+    "class": "Science"
+  },
+  {
+    "id": "iron-fist",
+    "sourceSlug": "iron-fist",
+    "name": "Iron Fist",
+    "class": "Mystic"
+  },
+  {
+    "id": "iron-fist-immortal",
+    "sourceSlug": "iron-fist-immortal",
+    "name": "Iron Fist (Immortal)",
+    "class": "Mystic"
+  },
+  {
+    "id": "iron-man",
+    "sourceSlug": "iron-man",
+    "name": "Iron Man",
+    "class": "Tech"
+  },
+  {
+    "id": "iron-man-infamous",
+    "sourceSlug": "iron-man-infamous",
+    "name": "Iron Man (Infamous)",
+    "class": "Tech"
+  },
+  {
+    "id": "iron-man-infinity-war",
+    "sourceSlug": "iron-man-infinity-war",
+    "name": "Iron Man (Infinity War)",
+    "class": "Tech"
+  },
+  {
+    "id": "iron-patriot",
+    "sourceSlug": "iron-patriot",
+    "name": "Iron Patriot",
+    "class": "Tech"
+  },
+  {
+    "id": "ironheart",
+    "sourceSlug": "ironheart",
+    "name": "Ironheart",
+    "class": "Tech"
+  },
+  {
+    "id": "isophyne",
+    "sourceSlug": "isophyne",
+    "name": "Isophyne",
+    "class": "Mystic"
+  },
+  {
+    "id": "jabari-panther",
+    "sourceSlug": "jabari-panther",
+    "name": "Jabari Panther",
+    "class": "Skill"
+  },
+  {
+    "id": "jack-olantern",
+    "sourceSlug": "jack-olantern",
+    "name": "Jack O’Lantern",
+    "class": "Tech"
+  },
+  {
+    "id": "jean-grey",
+    "sourceSlug": "jean-grey",
+    "name": "Jean Grey",
+    "class": "Mutant"
+  },
+  {
+    "id": "jessica-jones",
+    "sourceSlug": "jessica-jones",
+    "name": "Jessica Jones",
+    "class": "Science"
+  },
+  {
+    "id": "joe-fixit",
+    "sourceSlug": "joe-fixit",
+    "name": "Joe Fixit",
+    "class": "Science"
+  },
+  {
+    "id": "jubilee",
+    "sourceSlug": "jubilee",
+    "name": "Jubilee",
+    "class": "Mutant"
+  },
+  {
+    "id": "juggernaut",
+    "sourceSlug": "juggernaut",
+    "name": "Juggernaut",
+    "class": "Mystic"
+  },
+  {
+    "id": "kang",
+    "sourceSlug": "kang",
+    "name": "Kang",
+    "class": "Tech"
+  },
+  {
+    "id": "karnak",
+    "sourceSlug": "karnak",
+    "name": "Karnak",
+    "class": "Skill"
+  },
+  {
+    "id": "karolina-dean",
+    "sourceSlug": "karolina-dean",
+    "name": "Karolina Dean",
+    "class": "Cosmic"
+  },
+  {
+    "id": "kate-bishop",
+    "sourceSlug": "kate-bishop",
+    "name": "Kate Bishop",
+    "class": "Skill"
+  },
+  {
+    "id": "killmonger",
+    "sourceSlug": "killmonger",
+    "name": "Killmonger",
+    "class": "Skill"
+  },
+  {
+    "id": "kindred",
+    "sourceSlug": "kindred",
+    "name": "Kindred",
+    "class": "Mystic"
+  },
+  {
+    "id": "king-groot",
+    "sourceSlug": "king-groot",
+    "name": "King Groot",
+    "class": "Cosmic"
+  },
+  {
+    "id": "king-groot-deathless",
+    "sourceSlug": "king-groot-deathless",
+    "name": "King Groot (Deathless)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "kingpin",
+    "sourceSlug": "kingpin",
+    "name": "Kingpin",
+    "class": "Skill"
+  },
+  {
+    "id": "kitty-pryde",
+    "sourceSlug": "kitty-pryde",
+    "name": "Kitty Pryde",
+    "class": "Mutant"
+  },
+  {
+    "id": "knull",
+    "sourceSlug": "knull",
+    "name": "Knull",
+    "class": "Cosmic"
+  },
+  {
+    "id": "korg",
+    "sourceSlug": "korg",
+    "name": "Korg",
+    "class": "Skill"
+  },
+  {
+    "id": "kraven",
+    "sourceSlug": "kraven",
+    "name": "Kraven",
+    "class": "Skill"
+  },
+  {
+    "id": "kushala",
+    "sourceSlug": "kushala",
+    "name": "Kushala",
+    "class": "Mystic"
+  },
+  {
+    "id": "lady-deathstrike",
+    "sourceSlug": "lady-deathstrike",
+    "name": "Lady Deathstrike",
+    "class": "Tech"
+  },
+  {
+    "id": "lizard",
+    "sourceSlug": "lizard",
+    "name": "Lizard",
+    "class": "Science"
+  },
+  {
+    "id": "loki",
+    "sourceSlug": "loki",
+    "name": "Loki",
+    "class": "Mystic"
+  },
+  {
+    "id": "longshot",
+    "sourceSlug": "longshot",
+    "name": "Longshot",
+    "class": "Mystic"
+  },
+  {
+    "id": "luke-cage",
+    "sourceSlug": "luke-cage",
+    "name": "Luke Cage",
+    "class": "Science"
+  },
+  {
+    "id": "lumatrix",
+    "sourceSlug": "lumatrix",
+    "name": "Lumatrix",
+    "class": "Skill"
+  },
+  {
+    "id": "mbaku",
+    "sourceSlug": "mbaku",
+    "name": "M'Baku",
+    "class": "Skill"
+  },
+  {
+    "id": "madelyne-pryor",
+    "sourceSlug": "madelyne-pryor",
+    "name": "Madelyne Pryor",
+    "class": "Mystic"
+  },
+  {
+    "id": "maestro",
+    "sourceSlug": "maestro",
+    "name": "Maestro",
+    "class": "Cosmic"
+  },
+  {
+    "id": "magik",
+    "sourceSlug": "magik",
+    "name": "Magik",
+    "class": "Mystic"
+  },
+  {
+    "id": "magneto",
+    "sourceSlug": "magneto",
+    "name": "Magneto",
+    "class": "Mutant"
+  },
+  {
+    "id": "magneto-house-of-x",
+    "sourceSlug": "magneto-house-of-x",
+    "name": "Magneto (House of X)",
+    "class": "Mutant"
+  },
+  {
+    "id": "man-thing",
+    "sourceSlug": "man-thing",
+    "name": "Man-Thing",
+    "class": "Mystic"
+  },
+  {
+    "id": "mangog",
+    "sourceSlug": "mangog",
+    "name": "Mangog",
+    "class": "Mystic"
+  },
+  {
+    "id": "mantis",
+    "sourceSlug": "mantis",
+    "name": "Mantis",
+    "class": "Skill"
+  },
+  {
+    "id": "masacre",
+    "sourceSlug": "masacre",
+    "name": "Masacre",
+    "class": "Skill"
+  },
+  {
+    "id": "medusa",
+    "sourceSlug": "medusa",
+    "name": "Medusa",
+    "class": "Cosmic"
+  },
+  {
+    "id": "mephisto",
+    "sourceSlug": "mephisto",
+    "name": "Mephisto",
+    "class": "Mystic"
+  },
+  {
+    "id": "mister-fantastic",
+    "sourceSlug": "mister-fantastic",
+    "name": "Mister Fantastic",
+    "class": "Science"
+  },
+  {
+    "id": "mister-negative",
+    "sourceSlug": "mister-negative",
+    "name": "Mister Negative",
+    "class": "Science"
+  },
+  {
+    "id": "mister-sinister",
+    "sourceSlug": "mister-sinister",
+    "name": "Mister Sinister",
+    "class": "Mutant"
+  },
+  {
+    "id": "misty-knight",
+    "sourceSlug": "misty-knight",
+    "name": "Misty Knight",
+    "class": "Skill"
+  },
+  {
+    "id": "modok",
+    "sourceSlug": "modok",
+    "name": "MODOK",
+    "class": "Science"
+  },
+  {
+    "id": "mojo",
+    "sourceSlug": "mojo",
+    "name": "Mojo",
+    "class": "Mystic"
+  },
+  {
+    "id": "mole-man",
+    "sourceSlug": "mole-man",
+    "name": "Mole Man",
+    "class": "Skill"
+  },
+  {
+    "id": "moon-knight",
+    "sourceSlug": "moon-knight",
+    "name": "Moon Knight",
+    "class": "Skill"
+  },
+  {
+    "id": "moondragon",
+    "sourceSlug": "moondragon",
+    "name": "Moondragon",
+    "class": "Skill"
+  },
+  {
+    "id": "morbius",
+    "sourceSlug": "morbius",
+    "name": "Morbius",
+    "class": "Science"
+  },
+  {
+    "id": "mordo",
+    "sourceSlug": "mordo",
+    "name": "Mordo",
+    "class": "Mystic"
+  },
+  {
+    "id": "morningstar",
+    "sourceSlug": "morningstar",
+    "name": "Morningstar",
+    "class": "Mystic"
+  },
+  {
+    "id": "mr-knight",
+    "sourceSlug": "mr-knight",
+    "name": "Mr. Knight",
+    "class": "Skill"
+  },
+  {
+    "id": "ms-marvel",
+    "sourceSlug": "ms-marvel",
+    "name": "Ms. Marvel",
+    "class": "Cosmic"
+  },
+  {
+    "id": "ms-marvel-kamala-khan",
+    "sourceSlug": "ms-marvel-kamala-khan",
+    "name": "Ms. Marvel (Kamala Khan)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "mysterio",
+    "sourceSlug": "mysterio",
+    "name": "Mysterio",
+    "class": "Tech"
+  },
+  {
+    "id": "namor",
+    "sourceSlug": "namor",
+    "name": "Namor",
+    "class": "Mutant"
+  },
+  {
+    "id": "nebula",
+    "sourceSlug": "nebula",
+    "name": "Nebula",
+    "class": "Tech"
+  },
+  {
+    "id": "negasonic-teenage-warhead",
+    "sourceSlug": "negasonic-teenage-warhead",
+    "name": "Negasonic Teenage Warhead",
+    "class": "Mutant"
+  },
+  {
+    "id": "nick-fury",
+    "sourceSlug": "nick-fury",
+    "name": "Nick Fury",
+    "class": "Skill"
+  },
+  {
+    "id": "nico-minoru",
+    "sourceSlug": "nico-minoru",
+    "name": "Nico Minoru",
+    "class": "Mystic"
+  },
+  {
+    "id": "night-thrasher",
+    "sourceSlug": "night-thrasher",
+    "name": "Night Thrasher",
+    "class": "Skill"
+  },
+  {
+    "id": "nightcrawler",
+    "sourceSlug": "nightcrawler",
+    "name": "Nightcrawler",
+    "class": "Mutant"
+  },
+  {
+    "id": "nimrod",
+    "sourceSlug": "nimrod",
+    "name": "Nimrod",
+    "class": "Tech"
+  },
+  {
+    "id": "northstar",
+    "sourceSlug": "northstar",
+    "name": "Northstar",
+    "class": "Mutant"
+  },
+  {
+    "id": "nova",
+    "sourceSlug": "nova",
+    "name": "Nova",
+    "class": "Cosmic"
+  },
+  {
+    "id": "odin",
+    "sourceSlug": "odin",
+    "name": "Odin",
+    "class": "Cosmic"
+  },
+  {
+    "id": "okoye",
+    "sourceSlug": "okoye",
+    "name": "Okoye",
+    "class": "Skill"
+  },
+  {
+    "id": "old-man-logan",
+    "sourceSlug": "old-man-logan",
+    "name": "Old Man Logan",
+    "class": "Mutant"
+  },
+  {
+    "id": "omega-red",
+    "sourceSlug": "omega-red",
+    "name": "Omega Red",
+    "class": "Mutant"
+  },
+  {
+    "id": "omega-sentinel",
+    "sourceSlug": "omega-sentinel",
+    "name": "Omega Sentinel",
+    "class": "Tech"
+  },
+  {
+    "id": "onslaught",
+    "sourceSlug": "onslaught",
+    "name": "Onslaught",
+    "class": "Mutant"
+  },
+  {
+    "id": "patriot",
+    "sourceSlug": "patriot",
+    "name": "Patriot",
+    "class": "Skill"
+  },
+  {
+    "id": "peni-parker",
+    "sourceSlug": "peni-parker",
+    "name": "Peni Parker",
+    "class": "Tech"
+  },
+  {
+    "id": "phoenix",
+    "sourceSlug": "phoenix",
+    "name": "Phoenix",
+    "class": "Cosmic"
+  },
+  {
+    "id": "photon",
+    "sourceSlug": "photon",
+    "name": "Photon",
+    "class": "Science"
+  },
+  {
+    "id": "phyla-vell",
+    "sourceSlug": "phyla-vell",
+    "name": "Phyla-Vell",
+    "class": "Cosmic"
+  },
+  {
+    "id": "pixie",
+    "sourceSlug": "pixie",
+    "name": "Pixie",
+    "class": "Mutant"
+  },
+  {
+    "id": "platinum-pool",
+    "sourceSlug": "platinum-pool",
+    "name": "Platinum Pool",
+    "class": "Mutant"
+  },
+  {
+    "id": "professor-x",
+    "sourceSlug": "professor-x",
+    "name": "Professor X",
+    "class": "Mutant"
+  },
+  {
+    "id": "prowler",
+    "sourceSlug": "prowler",
+    "name": "Prowler",
+    "class": "Tech"
+  },
+  {
+    "id": "proxima-midnight",
+    "sourceSlug": "proxima-midnight",
+    "name": "Proxima Midnight",
+    "class": "Cosmic"
+  },
+  {
+    "id": "psycho-man",
+    "sourceSlug": "psycho-man",
+    "name": "Psycho-Man",
+    "class": "Tech"
+  },
+  {
+    "id": "psylocke",
+    "sourceSlug": "psylocke",
+    "name": "Psylocke",
+    "class": "Mutant"
+  },
+  {
+    "id": "punisher",
+    "sourceSlug": "punisher",
+    "name": "Punisher",
+    "class": "Skill"
+  },
+  {
+    "id": "punisher-2099",
+    "sourceSlug": "punisher-2099",
+    "name": "Punisher 2099",
+    "class": "Tech"
+  },
+  {
+    "id": "purgatory",
+    "sourceSlug": "purgatory",
+    "name": "Purgatory",
+    "class": "Mystic"
+  },
+  {
+    "id": "quake",
+    "sourceSlug": "quake",
+    "name": "Quake",
+    "class": "Science"
+  },
+  {
+    "id": "quick-silver",
+    "sourceSlug": "quick-silver",
+    "name": "Quick Silver",
+    "class": "Science"
+  },
+  {
+    "id": "red-goblin",
+    "sourceSlug": "red-goblin",
+    "name": "Red Goblin",
+    "class": "Cosmic"
+  },
+  {
+    "id": "red-guardian",
+    "sourceSlug": "red-guardian",
+    "name": "Red Guardian",
+    "class": "Science"
+  },
+  {
+    "id": "red-hulk",
+    "sourceSlug": "red-hulk",
+    "name": "Red Hulk",
+    "class": "Science"
+  },
+  {
+    "id": "red-skull",
+    "sourceSlug": "red-skull",
+    "name": "Red Skull",
+    "class": "Tech"
+  },
+  {
+    "id": "rhino",
+    "sourceSlug": "rhino",
+    "name": "Rhino",
+    "class": "Science"
+  },
+  {
+    "id": "rintrah",
+    "sourceSlug": "rintrah",
+    "name": "Rintrah",
+    "class": "Mystic"
+  },
+  {
+    "id": "rocket-raccoon",
+    "sourceSlug": "rocket-raccoon",
+    "name": "Rocket Raccoon",
+    "class": "Tech"
+  },
+  {
+    "id": "rogue",
+    "sourceSlug": "rogue",
+    "name": "Rogue",
+    "class": "Mutant"
+  },
+  {
+    "id": "ronan",
+    "sourceSlug": "ronan",
+    "name": "Ronan",
+    "class": "Cosmic"
+  },
+  {
+    "id": "ronin",
+    "sourceSlug": "ronin",
+    "name": "Ronin",
+    "class": "Skill"
+  },
+  {
+    "id": "ruby-thursday",
+    "sourceSlug": "ruby-thursday",
+    "name": "Ruby Thursday",
+    "class": "Tech"
+  },
+  {
+    "id": "sabretooth",
+    "sourceSlug": "sabretooth",
+    "name": "Sabretooth",
+    "class": "Mutant"
+  },
+  {
+    "id": "sandman",
+    "sourceSlug": "sandman",
+    "name": "Sandman",
+    "class": "Science"
+  },
+  {
+    "id": "sasquatch",
+    "sourceSlug": "sasquatch",
+    "name": "Sasquatch",
+    "class": "Mystic"
+  },
+  {
+    "id": "sauron",
+    "sourceSlug": "sauron",
+    "name": "Sauron",
+    "class": "Mutant"
+  },
+  {
+    "id": "scarlet-witch-classic",
+    "sourceSlug": "scarlet-witch-classic",
+    "name": "Scarlet Witch (Classic)",
+    "class": "Mystic"
+  },
+  {
+    "id": "scarlet-witch-sigil",
+    "sourceSlug": "scarlet-witch-sigil",
+    "name": "Scarlet Witch (Sigil)",
+    "class": "Mystic"
+  },
+  {
+    "id": "scorpion",
+    "sourceSlug": "scorpion",
+    "name": "Scorpion",
+    "class": "Science"
+  },
+  {
+    "id": "scream",
+    "sourceSlug": "scream",
+    "name": "Scream",
+    "class": "Cosmic"
+  },
+  {
+    "id": "sentinel",
+    "sourceSlug": "sentinel",
+    "name": "Sentinel",
+    "class": "Tech"
+  },
+  {
+    "id": "sentry",
+    "sourceSlug": "sentry",
+    "name": "Sentry",
+    "class": "Science"
+  },
+  {
+    "id": "sersi",
+    "sourceSlug": "sersi",
+    "name": "Sersi",
+    "class": "Cosmic"
+  },
+  {
+    "id": "shang-chi",
+    "sourceSlug": "shang-chi",
+    "name": "Shang Chi",
+    "class": "Skill"
+  },
+  {
+    "id": "shathra",
+    "sourceSlug": "shathra",
+    "name": "Shathra",
+    "class": "Mystic"
+  },
+  {
+    "id": "shatterstar",
+    "sourceSlug": "shatterstar",
+    "name": "Shatterstar",
+    "class": "Mutant"
+  },
+  {
+    "id": "she-hulk",
+    "sourceSlug": "she-hulk",
+    "name": "She-Hulk",
+    "class": "Science"
+  },
+  {
+    "id": "she-hulk-deathless",
+    "sourceSlug": "she-hulk-deathless",
+    "name": "She-Hulk (Deathless)",
+    "class": "Science"
+  },
+  {
+    "id": "shocker",
+    "sourceSlug": "shocker",
+    "name": "Shocker",
+    "class": "Tech"
+  },
+  {
+    "id": "shuri",
+    "sourceSlug": "shuri",
+    "name": "Shuri",
+    "class": "Tech"
+  },
+  {
+    "id": "silk",
+    "sourceSlug": "silk",
+    "name": "Silk",
+    "class": "Science"
+  },
+  {
+    "id": "silver-centurion",
+    "sourceSlug": "silver-centurion",
+    "name": "Silver Centurion",
+    "class": "Tech"
+  },
+  {
+    "id": "silver-sable",
+    "sourceSlug": "silver-sable",
+    "name": "Silver Sable",
+    "class": "Skill"
+  },
+  {
+    "id": "silver-samurai",
+    "sourceSlug": "silver-samurai",
+    "name": "Silver Samurai",
+    "class": "Mutant"
+  },
+  {
+    "id": "silver-surfer",
+    "sourceSlug": "silver-surfer",
+    "name": "Silver Surfer",
+    "class": "Cosmic"
+  },
+  {
+    "id": "solvarch",
+    "sourceSlug": "solvarch",
+    "name": "Solvarch",
+    "class": "Tech"
+  },
+  {
+    "id": "sorcerer-supreme",
+    "sourceSlug": "sorcerer-supreme",
+    "name": "Sorcerer Supreme",
+    "class": "Mystic"
+  },
+  {
+    "id": "spider-man-stark-enhanced",
+    "sourceSlug": "spider-man-stark-enhanced",
+    "name": "Spider Man (Stark Enhanced)",
+    "class": "Tech"
+  },
+  {
+    "id": "spider-gwen",
+    "sourceSlug": "spider-gwen",
+    "name": "Spider-Gwen",
+    "class": "Science"
+  },
+  {
+    "id": "spider-ham",
+    "sourceSlug": "spider-ham",
+    "name": "Spider-Ham",
+    "class": "Science"
+  },
+  {
+    "id": "spider-man-classic",
+    "sourceSlug": "spider-man-classic",
+    "name": "Spider-Man (Classic)",
+    "class": "Science"
+  },
+  {
+    "id": "spider-man-miles-morales",
+    "sourceSlug": "spider-man-miles-morales",
+    "name": "Spider-Man (Miles Morales)",
+    "class": "Science"
+  },
+  {
+    "id": "spider-man-pavitr-prabhakar",
+    "sourceSlug": "spider-man-pavitr-prabhakar",
+    "name": "Spider-Man (Pavitr Prabhakar)",
+    "class": "Mystic"
+  },
+  {
+    "id": "spider-man-stealth-suit",
+    "sourceSlug": "spider-man-stealth-suit",
+    "name": "Spider-Man (Stealth-Suit)",
+    "class": "Skill"
+  },
+  {
+    "id": "spider-man-supreme",
+    "sourceSlug": "spider-man-supreme",
+    "name": "Spider-Man (Supreme)",
+    "class": "Mystic"
+  },
+  {
+    "id": "spider-man-symbiote",
+    "sourceSlug": "spider-man-symbiote",
+    "name": "Spider-Man (Symbiote)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "spider-man-2099",
+    "sourceSlug": "spider-man-2099",
+    "name": "Spider-Man 2099",
+    "class": "Science"
+  },
+  {
+    "id": "spider-man-noir",
+    "sourceSlug": "spider-man-noir",
+    "name": "Spider-Man Noir",
+    "class": "Skill"
+  },
+  {
+    "id": "spider-punk",
+    "sourceSlug": "spider-punk",
+    "name": "Spider-Punk",
+    "class": "Science"
+  },
+  {
+    "id": "spider-slayer-j-jonah-jameson",
+    "sourceSlug": "spider-slayer-j-jonah-jameson",
+    "name": "Spider-Slayer (J. Jonah Jameson)",
+    "class": "Tech"
+  },
+  {
+    "id": "spider-woman",
+    "sourceSlug": "spider-woman",
+    "name": "Spider-Woman",
+    "class": "Science"
+  },
+  {
+    "id": "spiral",
+    "sourceSlug": "spiral",
+    "name": "Spiral",
+    "class": "Mystic"
+  },
+  {
+    "id": "spot",
+    "sourceSlug": "spot",
+    "name": "Spot",
+    "class": "Science"
+  },
+  {
+    "id": "squirrel-girl",
+    "sourceSlug": "squirrel-girl",
+    "name": "Squirrel Girl",
+    "class": "Skill"
+  },
+  {
+    "id": "star-lord",
+    "sourceSlug": "star-lord",
+    "name": "Star-Lord",
+    "class": "Tech"
+  },
+  {
+    "id": "star-lord-stellar-forged",
+    "sourceSlug": "star-lord-stellar-forged",
+    "name": "Star-Lord (Stellar Forged)",
+    "class": "Skill"
+  },
+  {
+    "id": "storm",
+    "sourceSlug": "storm",
+    "name": "Storm",
+    "class": "Mutant"
+  },
+  {
+    "id": "storm-pyramid-x",
+    "sourceSlug": "storm-pyramid-x",
+    "name": "Storm (Pyramid X)",
+    "class": "Mutant"
+  },
+  {
+    "id": "stryfe",
+    "sourceSlug": "stryfe",
+    "name": "Stryfe",
+    "class": "Mutant"
+  },
+  {
+    "id": "sunspot",
+    "sourceSlug": "sunspot",
+    "name": "Sunspot",
+    "class": "Mutant"
+  },
+  {
+    "id": "super-skrull",
+    "sourceSlug": "super-skrull",
+    "name": "Super-Skrull",
+    "class": "Cosmic"
+  },
+  {
+    "id": "superior-iron-man",
+    "sourceSlug": "superior-iron-man",
+    "name": "Superior Iron Man",
+    "class": "Cosmic"
+  },
+  {
+    "id": "symbiote-supreme",
+    "sourceSlug": "symbiote-supreme",
+    "name": "Symbiote Supreme",
+    "class": "Mystic"
+  },
+  {
+    "id": "taskmaster",
+    "sourceSlug": "taskmaster",
+    "name": "Taskmaster",
+    "class": "Skill"
+  },
+  {
+    "id": "terrax",
+    "sourceSlug": "terrax",
+    "name": "Terrax",
+    "class": "Cosmic"
+  },
+  {
+    "id": "thanos",
+    "sourceSlug": "thanos",
+    "name": "Thanos",
+    "class": "Cosmic"
+  },
+  {
+    "id": "thanos-deathless",
+    "sourceSlug": "thanos-deathless",
+    "name": "Thanos (Deathless)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "the-champion",
+    "sourceSlug": "the-champion",
+    "name": "The Champion",
+    "class": "Cosmic"
+  },
+  {
+    "id": "the-destroyer",
+    "sourceSlug": "the-destroyer",
+    "name": "The Destroyer",
+    "class": "Mystic"
+  },
+  {
+    "id": "the-hood",
+    "sourceSlug": "the-hood",
+    "name": "The Hood",
+    "class": "Mystic"
+  },
+  {
+    "id": "the-leader",
+    "sourceSlug": "the-leader",
+    "name": "The Leader",
+    "class": "Science"
+  },
+  {
+    "id": "the-maker",
+    "sourceSlug": "the-maker",
+    "name": "The Maker",
+    "class": "Tech"
+  },
+  {
+    "id": "the-overseer",
+    "sourceSlug": "the-overseer",
+    "name": "The Overseer",
+    "class": "Science"
+  },
+  {
+    "id": "serpent",
+    "sourceSlug": "the-serpent",
+    "name": "The Serpent",
+    "class": "Cosmic"
+  },
+  {
+    "id": "thing",
+    "sourceSlug": "thing",
+    "name": "Thing",
+    "class": "Science"
+  },
+  {
+    "id": "thor",
+    "sourceSlug": "thor",
+    "name": "Thor",
+    "class": "Cosmic"
+  },
+  {
+    "id": "thor-jane-foster",
+    "sourceSlug": "thor-jane-foster",
+    "name": "Thor (Jane Foster)",
+    "class": "Mystic"
+  },
+  {
+    "id": "thor-ragnarok",
+    "sourceSlug": "thor-ragnarok",
+    "name": "Thor (Ragnarok)",
+    "class": "Skill"
+  },
+  {
+    "id": "tigra",
+    "sourceSlug": "tigra",
+    "name": "Tigra",
+    "class": "Mystic"
+  },
+  {
+    "id": "titania",
+    "sourceSlug": "titania",
+    "name": "Titania",
+    "class": "Science"
+  },
+  {
+    "id": "toad",
+    "sourceSlug": "toad",
+    "name": "Toad",
+    "class": "Mutant"
+  },
+  {
+    "id": "ultron",
+    "sourceSlug": "ultron",
+    "name": "Ultron",
+    "class": "Tech"
+  },
+  {
+    "id": "ultron-classic",
+    "sourceSlug": "ultron-classic",
+    "name": "Ultron (Classic)",
+    "class": "Tech"
+  },
+  {
+    "id": "unstoppable-colossus",
+    "sourceSlug": "unstoppable-colossus",
+    "name": "Unstoppable Colossus",
+    "class": "Mystic"
+  },
+  {
+    "id": "valkyrie",
+    "sourceSlug": "valkyrie",
+    "name": "Valkyrie",
+    "class": "Skill"
+  },
+  {
+    "id": "venom",
+    "sourceSlug": "venom",
+    "name": "Venom",
+    "class": "Cosmic"
+  },
+  {
+    "id": "venom-the-duck",
+    "sourceSlug": "venom-the-duck",
+    "name": "Venom The Duck",
+    "class": "Cosmic"
+  },
+  {
+    "id": "venompool",
+    "sourceSlug": "venompool",
+    "name": "Venompool",
+    "class": "Cosmic"
+  },
+  {
+    "id": "vision",
+    "sourceSlug": "vision",
+    "name": "Vision",
+    "class": "Tech"
+  },
+  {
+    "id": "vision-aarkus",
+    "sourceSlug": "vision-aarkus",
+    "name": "Vision (Aarkus)",
+    "class": "Cosmic"
+  },
+  {
+    "id": "vision-age-of-ultron",
+    "sourceSlug": "vision-age-of-ultron",
+    "name": "Vision (Age of Ultron)",
+    "class": "Tech"
+  },
+  {
+    "id": "vision-deathless",
+    "sourceSlug": "vision-deathless",
+    "name": "Vision (Deathless)",
+    "class": "Tech"
+  },
+  {
+    "id": "viv-vision",
+    "sourceSlug": "viv-vision",
+    "name": "Viv Vision",
+    "class": "Tech"
+  },
+  {
+    "id": "void",
+    "sourceSlug": "void",
+    "name": "Void",
+    "class": "Science"
+  },
+  {
+    "id": "vox",
+    "sourceSlug": "vox",
+    "name": "Vox",
+    "class": "Cosmic"
+  },
+  {
+    "id": "vulture",
+    "sourceSlug": "vulture",
+    "name": "Vulture",
+    "class": "Tech"
+  },
+  {
+    "id": "war-machine",
+    "sourceSlug": "war-machine",
+    "name": "War Machine",
+    "class": "Tech"
+  },
+  {
+    "id": "warlock",
+    "sourceSlug": "warlock",
+    "name": "Warlock",
+    "class": "Tech"
+  },
+  {
+    "id": "wasp",
+    "sourceSlug": "wasp",
+    "name": "Wasp",
+    "class": "Science"
+  },
+  {
+    "id": "wave",
+    "sourceSlug": "wave",
+    "name": "Wave",
+    "class": "Science"
+  },
+  {
+    "id": "werewolf-by-night",
+    "sourceSlug": "werewolf-by-night",
+    "name": "Werewolf By Night",
+    "class": "Mystic"
+  },
+  {
+    "id": "white-tiger",
+    "sourceSlug": "white-tiger",
+    "name": "White Tiger",
+    "class": "Mystic"
+  },
+  {
+    "id": "wiccan",
+    "sourceSlug": "wiccan",
+    "name": "Wiccan",
+    "class": "Mystic"
+  },
+  {
+    "id": "winter-soldier",
+    "sourceSlug": "winter-soldier",
+    "name": "Winter Soldier",
+    "class": "Skill"
+  },
+  {
+    "id": "wolverine",
+    "sourceSlug": "wolverine",
+    "name": "Wolverine",
+    "class": "Mutant"
+  },
+  {
+    "id": "wolverine-weapon-x",
+    "sourceSlug": "wolverine-weapon-x",
+    "name": "Wolverine (Weapon X)",
+    "class": "Mutant"
+  },
+  {
+    "id": "wolverine-x-23",
+    "sourceSlug": "wolverine-x-23",
+    "name": "Wolverine (X 23)",
+    "class": "Mutant"
+  },
+  {
+    "id": "wong",
+    "sourceSlug": "wong",
+    "name": "Wong",
+    "class": "Mystic"
+  },
+  {
+    "id": "yelena-belova",
+    "sourceSlug": "yelena-belova",
+    "name": "Yelena Belova",
+    "class": "Skill"
+  },
+  {
+    "id": "yellow-jacket",
+    "sourceSlug": "yellow-jacket",
+    "name": "Yellow Jacket",
+    "class": "Science"
+  },
+  {
+    "id": "yondu",
+    "sourceSlug": "yondu",
+    "name": "Yondu",
+    "class": "Tech"
+  },
+  {
+    "id": "summoned-symbioid",
+    "sourceSlug": "summoned-symbioid",
+    "name": "Summoned Symbioid",
+    "class": "Universal"
+  }
+]

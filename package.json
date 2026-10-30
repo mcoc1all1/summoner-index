@@ -1,0 +1,16 @@
+{
+  "name": "contest-fieldguide",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/serve.mjs",
+    "release:check": "node scripts/public-release.mjs --check",
+    "build:public": "node scripts/public-release.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

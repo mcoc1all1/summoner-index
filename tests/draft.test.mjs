@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {updateRecord,draftPreview} from '../src/draft.mjs';
+import {validate} from '../src/domain.mjs';
+const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
+test('moving a boss updates both quest collections without changing original',()=>{const originalQuestId=db.bosses[0].questId;const data=updateRecord(db,'quests',{id:'new-quest',name:'New quest',description:'Test'});const moved=updateRecord(data,'bosses',{...data.bosses[0],questId:'new-quest'});assert.deepEqual(validate(moved),[]);assert.deepEqual(moved.quests.find(q=>q.id==='new-quest').bossIds,[data.bosses[0].id]);assert(!moved.quests.find(q=>q.id===originalQuestId).bossIds.includes(data.bosses[0].id));assert.equal(db.bosses[0].questId,originalQuestId);});
+test('boss imports require meaningful phases, mistakes and evidence',()=>{for(const change of [{phases:'text'},{phases:[null]},{phases:[{name:'',text:'Test'}]},{mistakes:'text'},{sourceIds:[]}]){const data=structuredClone(db);Object.assign(data.bosses[0],change);assert(validate(data).length);}});
+test('inconsistent quest memberships are rejected',()=>{const data=structuredClone(db);data.quests[0].bossIds=[];assert(validate(data).some(x=>x.includes('missing boss')));});
+test('guide preview escapes user text and displays ordered phases',()=>{const row={...db.bosses[0],phases:[{name:'Opening',text:'Test opening'}],name:'<script>alert(1)</script>'};const html=draftPreview(db,'bosses',row);assert(!html.includes('<script>'));assert(html.includes('&lt;script&gt;'));assert(html.includes('1. Opening'));assert(html.includes('Common mistakes'));});
+test('new quest previews explain how to attach bosses',()=>assert.match(draftPreview(db,'quests',{id:'empty',name:'Empty',description:'Test'}),/Assign this quest in a boss form/));
