@@ -1,13 +1,7 @@
 # GitHub transfer status
 
-This package contains the local Fieldguide source and tests. The full build is a research preview with provisional content. Public publication review remains unfinished.
+The owner has approved a public testing beta and the feedback address mcoc1all1@proton.me. Source repository visibility remains private. Pages settings and plan availability still need confirmation through the owner's signed-in browser.
 
-Run with Node 22 or later:
+The included Pages workflow builds and tests before publishing. GitHub subpath support, provisional labels, restricted beta indexing and email feedback are implemented. The full source review remains unfinished; beta publication does not establish rights clearance or gameplay verification. Ads are disabled.
 
-    npm run build
-    npm test
-    npm run dev
-
-The source package deliberately excludes the previous Sites hosting identity, generated builds, local scratch files and channel-inventory exports.
-
-No GitHub Pages deployment is enabled. Private repository visibility does not make an ordinary GitHub Pages website private. A publicly accessible launch requires an explicit audience decision and deployment-path configuration; the existing build uses root-relative URLs.
+See README.md for local testing and Pages setup. Source excludes the prior Sites hosting identity, generated builds, scratch files and unchanged channel inventory exports.

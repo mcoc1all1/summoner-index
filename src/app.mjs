@@ -1,10 +1,12 @@
+const base=document.body.dataset.base||'';
+const route=document.body.dataset.page;
 import {mountLoadouts} from './loadouts.mjs';
 import {mountRoster,readRoster} from './roster.mjs';
 import {search,escapeHtml as e,validate,getCounters} from './domain.mjs';
 import {championCard,counterResults,compareTable,avatar} from './components.mjs';
 const $=s=>document.querySelector(s);
-const needsCatalog=!['/privacy','/methodology','/404'].includes(location.pathname.replace(/\/$/,''));
-const db=needsCatalog?await fetch('/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
+const needsCatalog=!['/privacy','/methodology','/404','/feedback'].includes(route);
+const db=needsCatalog?await fetch(base+'/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
 function toast(text){const t=$('#toast');t.textContent=text;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,3500);}
 function track(name,properties={}) { window.dispatchEvent(new CustomEvent('fieldguide:analytics',{detail:{name,properties}}));}
 function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?ids.filter(id=>db?.champions.some(c=>c.id===id)):[];}catch{return [];}}
@@ -39,8 +41,8 @@ if(db){
  if(finder){
   if(db.champions.some(c=>c.id===params.get('opponent'))||db.bosses.some(c=>c.id===params.get('opponent')))$('#opponent').value=params.get('opponent');
   if(db.gameModes.some(m=>m.id===params.get('mode')))$('#mode').value=params.get('mode');
-  finder.addEventListener('submit',event=>{event.preventDefault();track('counter_search',{opponent:$('#opponent').value,mode:$('#mode').value});location.href=`/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`;});
-  if(location.pathname.replace(/\/$/,'')==='/counters'&&params.has('opponent'))location.replace(`/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`);
+  finder.addEventListener('submit',event=>{event.preventDefault();track('counter_search',{opponent:$('#opponent').value,mode:$('#mode').value});location.href=`${base}/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`;});
+  if(route==='/counters'&&params.has('opponent'))location.replace(`${base}/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`);
  }
  if($('#champ-results')){
   $('#champ-query').value=params.get('q')||'';
