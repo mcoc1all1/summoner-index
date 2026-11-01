@@ -19,15 +19,21 @@ test('loadout filters intersect and preserve an explicit empty state',()=>{
  assert.match(loadoutCards(db,'unknown').html,/No matching guidance/);
  assert(loadoutCards(db,'Storm','Mutant').count>1);
 });
-test('profiles and comparisons withhold unverified focus values',()=>{
- const c=db.champions.find(c=>c.id==='bullseye');
+test('unverified profiles and comparisons withhold focus values',()=>{
+ const c=db.champions.find(c=>c.id==='spider-man-noir');
  assert.equal(focusPublicValue(c,'attack'),'Hidden — 7★ eligibility not verified');
  assert.match(loadoutPanel(db,c),/FOCUS DRAFT WITHHELD/);
- assert.match(loadoutPanel(db,c),/Exact attribute variant not reviewed/);
  const compare=compareTable(db,[c.id]);
  assert.match(compare,/Hidden — 7★ eligibility not verified/);
  assert(!compare.includes(`<td>${c.loadout.attackFocus}</td>`));
  assert.match(loadoutGuide(db),/Exact Stat Focus picks are shown only when 7★ eligibility is explicitly confirmed/);
+});
+test('verified priority profiles expose their editorial focus drafts',()=>{
+ const c=db.champions.find(c=>c.id==='bullseye');
+ assert.equal(focusPublicValue(c,'attack'),c.loadout.attackFocus);
+ assert.match(loadoutPanel(db,c),/VERIFIED-ELIGIBILITY FOCUS TRIAL/);
+ const compare=compareTable(db,[c.id]);
+ assert(compare.includes(`<td>${c.loadout.attackFocus}</td>`));
 });
 test('loadout renderer escapes imported text and supports an unreviewed record',()=>{
  const c=structuredClone(db.champions[0]);c.loadout.attackReason='<script>alert(1)</script>';
@@ -75,7 +81,8 @@ test('guidance filters separate hidden drafts from verified focus',()=>{
  const drafts=loadoutCards(db,'','',{coverage:'drafts'});
  const verified=loadoutCards(db,'','',{coverage:'verified'});
  assert(drafts.count>0);
- assert.equal(verified.count,0);
+ assert.equal(verified.count,17);
+ assert.equal(loadoutCards(db,'Bullseye','Skill',{coverage:'verified'}).count,1);
  assert.equal(loadoutCards(db,'Spider-Man Noir','Skill',{coverage:'drafts'}).count,1);
  assert.equal(loadoutCards(db,'does-not-exist','',{pageSize:12,page:900}).start,0);
  assert.equal((loadoutGuide(db).match(/class="panel loadout-card"/g)||[]).length,12);
