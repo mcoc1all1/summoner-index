@@ -15,7 +15,7 @@ if(!args.length)throw new Error('Expected a command to run after applying accura
 
 try {
   fs.writeFileSync(catalogPath,JSON.stringify(db,null,2)+'\n');
-  const command=args.map(value=>/\s|\*/.test(value)?`"${value.replaceAll('"','\\"')}"`:value).join(' ');
+  const command=args.map(value=>/\s/.test(value)?`"${value.replaceAll('"','\\"')}"`:value).join(' ');
   const result=spawnSync(command,{cwd:root,stdio:'inherit',shell:true});
   if(result.error)throw result.error;
   process.exitCode=result.status??1;
