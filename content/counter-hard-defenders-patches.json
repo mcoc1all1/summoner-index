@@ -1,1 +1,20 @@
-<PATCH_PLACEHOLDER>
+{
+  "version": 1,
+  "reviewedAt": "2026-11-01",
+  "sources": [
+    {"id":"counter-tough-defenders-20261101","title":"Player discussion: counters for difficult defenders","url":"https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p2","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-zola-balance-20261101","title":"Kabam balance update: Arnim Zola and Falcon (Joaquin Torres)","url":"https://forums.playcontestofchampions.com/en/discussion/399521/balance-update-arnim-zola-and-falcon-joaquin-torres","kind":"official","checkedAt":"2026-11-01"},
+    {"id":"counter-zola-options-20261101","title":"Player discussion: Arnim Zola fight spacing and counter options","url":"https://forums.playcontestofchampions.com/en/discussion/399709/arnim-zola-kit-doesn-t-need-nerfing-it-s-his-bs-animations-that-need-a-nerf","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-jean-balance-20261101","title":"Kabam balance update: Bastion and Jean Grey","url":"https://forums.playcontestofchampions.com/en/discussion/401987/balance-update-bastion-and-jean-grey","kind":"official","checkedAt":"2026-11-01"},
+    {"id":"counter-jean-options-20261101","title":"Player discussion: Jean Grey counter options","url":"https://forums.playcontestofchampions.com/en/discussion/392734/how-to-defeat-jean-grey-%F0%9F%A9%B6/p1","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-high-evo-options-20261101","title":"Player practice reports: High Evolutionary counter options","url":"https://forums.playcontestofchampions.com/en/discussion/399216/high-evolutionary-duel-target-is-available-if-anyone-wants-to-practice-fighting-against-him","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-high-evo-mechanics-20261101","title":"Community deep dive: High Evolutionary mechanics","url":"https://forums.playcontestofchampions.com/en/discussion/398724/deep-dive-high-evolutionary","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-dthanos-balance-20261101","title":"Kabam balance update: Isophyne and the Deathless","url":"https://forums.playcontestofchampions.com/en/discussion/395671/balance-update-isophyne-and-the-deathless","kind":"official","checkedAt":"2026-11-01"},
+    {"id":"counter-dthanos-showcase-20261101","title":"Player reports: Deathless Showcase teams and Deathless Thanos","url":"https://forums.playcontestofchampions.com/en/discussion/392916/so-what-teams-are-you-using-for-the-deathless-showcase","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-dthanos-mystic-20261101","title":"Player discussion: Mystic options for Deathless Thanos","url":"https://forums.playcontestofchampions.com/en/discussion/398555/which-mystic-to-rank-up-as-a-counter-to-serpent-maestro-dark-phoenix-and-deathless-thanos","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-nefaria-balance-20261101","title":"Kabam balance update: Count Nefaria and Shathra","url":"https://forums.playcontestofchampions.com/en/discussion/390052/balance-update-count-nefaria-and-shathra","kind":"official","checkedAt":"2026-11-01"},
+    {"id":"counter-nefaria-meta-20261101","title":"Player discussion: Count Nefaria in Battlegrounds","url":"https://forums.playcontestofchampions.com/en/discussion/385455/count-nefaria-in-this-bg-meta","kind":"community-report","checkedAt":"2026-11-01"},
+    {"id":"counter-nefaria-review-20261101","title":"Community review: Count Nefaria strengths and weaknesses","url":"https://forums.playcontestofchampions.com/en/discussion/376555/champion-review-count-nefaria","kind":"community-report","checkedAt":"2026-11-01"}
+  ],
+  "counterDeletes": ["warlock-bullseye"]
+}
