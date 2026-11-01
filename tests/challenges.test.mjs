@@ -81,7 +81,7 @@ test('guide pages render roster checks, fight tables and MCOC terminology withou
 test('hub links all guides and guide output escapes supplied content',()=>{
  const hub=challengeHub(collection);
  for(const g of collection.guides)assert.ok(hub.includes(`${challengeRoot}/${g.id}`));
- assert.match(hub,/single five-champion gauntlet/);
+ assert.match(hub,/one five-champion gauntlet/);
  const html=challengePage({...collection.guides[0],title:'<script>bad</script>'},collection,db);
  assert.ok(!html.includes('<script>bad'));assert.ok(html.includes('&lt;script&gt;'));assert.match(html,/not independently gameplay-tested/);
 });
