@@ -30,3 +30,27 @@ test('malformed parenthetical initials are repaired deterministically',()=>{
  const patched=applyAccuracyPatches(db,patches);
  for(const champion of patched.champions)assert(!champion.initials?.endsWith('('));
 });
+
+test('priority Stat Focus eligibility is evidence-backed and dated',()=>{
+ const patched=applyAccuracyPatches(db,patches);
+ const confirmed=['bullseye','serpent','onslaught','kushala','photon','silk','titania','absorbing-man','warlock','human-torch','shuri','ant-man-future','domino','bishop','dust','enchantress','the-destroyer'];
+ const ineligible=['doctor-doom','hercules','kate-bishop'];
+ for(const id of confirmed){
+  const champion=patched.champions.find(c=>c.id===id);assert(champion,id);
+  assert.equal(champion.statFocusEligibility?.status,'confirmed',id);
+  assert.equal(champion.statFocusEligibility?.checkedAt,'2026-11-01',id);
+  assert(champion.statFocusEligibility.sourceIds.length,id);
+  for(const sourceId of champion.statFocusEligibility.sourceIds)assert(patched.sources.some(source=>source.id===sourceId),`${id}: ${sourceId}`);
+ }
+ for(const id of ineligible){
+  const champion=patched.champions.find(c=>c.id===id);assert(champion,id);
+  assert.equal(champion.statFocusEligibility?.status,'ineligible',id);
+  assert.equal(champion.statFocusEligibility?.checkedAt,'2026-11-01',id);
+ }
+});
+
+test('eligibility patches reject missing evidence',()=>{
+ const broken=structuredClone(patches);
+ broken.championPatches[0].statFocusEligibility.sourceIds=['missing-source'];
+ assert.throws(()=>applyAccuracyPatches(db,broken),/unknown source/);
+});

@@ -15,7 +15,27 @@
       "url": "https://forums.playcontestofchampions.com/en/discussion/419566/stream-recap-october-2-2026",
       "kind": "official",
       "checkedAt": "2026-11-01"
-    }
+    },
+    {"id":"availability-bullseye-20261101","title":"Bullseye current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/bullseye/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-serpent-20261101","title":"The Serpent current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/the-serpent/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-onslaught-20261101","title":"Onslaught current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/onslaught/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-kushala-20261101","title":"Kushala current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/kushala/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-photon-20261101","title":"Photon current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/photon/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-silk-20261101","title":"Silk current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/silk/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-titania-20261101","title":"Titania current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/titania/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-absorbing-man-20261101","title":"Absorbing Man current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/absorbing-man/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-warlock-20261101","title":"Warlock current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/warlock/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-human-torch-20261101","title":"Human Torch current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/human-torch/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-doctor-doom-20261101","title":"Doctor Doom current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/doctor-doom/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-hercules-20261101","title":"Hercules current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/hercules/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-kate-bishop-20261101","title":"Kate Bishop current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/kate-bishop/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-shuri-20261101","title":"Shuri current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/shuri/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-ant-man-future-20261101","title":"Ant-Man (Future) current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/ant-man-future/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-domino-20261101","title":"Domino current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/domino/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-bishop-20261101","title":"Bishop current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/bishop/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-dust-20261101","title":"Dust current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/dust/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-enchantress-20261101","title":"Enchantress current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/enchantress/","kind":"community-reference","checkedAt":"2026-11-01"},
+    {"id":"availability-the-destroyer-20261101","title":"The Destroyer current rarity availability • MCOC Scout","url":"https://mcocscout.com/champions/the-destroyer/","kind":"community-reference","checkedAt":"2026-11-01"}
   ],
   "champions": [
     {
@@ -55,6 +75,28 @@
         "sourceIds": ["official-v59-release-notes-20261002","official-robbie-reyes-recap-20261002"]
       }
     }
+  ],
+  "championPatches": [
+    {"id":"bullseye","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-bullseye-20261101"]}},
+    {"id":"serpent","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-serpent-20261101"]}},
+    {"id":"onslaught","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-onslaught-20261101"]}},
+    {"id":"kushala","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-kushala-20261101"]}},
+    {"id":"photon","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-photon-20261101"]}},
+    {"id":"silk","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-silk-20261101"]}},
+    {"id":"titania","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-titania-20261101"]}},
+    {"id":"absorbing-man","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-absorbing-man-20261101"]}},
+    {"id":"warlock","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-warlock-20261101"]}},
+    {"id":"human-torch","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-human-torch-20261101"]}},
+    {"id":"doctor-doom","statFocusEligibility":{"status":"ineligible","checkedAt":"2026-11-01","sourceIds":["availability-doctor-doom-20261101"]}},
+    {"id":"hercules","statFocusEligibility":{"status":"ineligible","checkedAt":"2026-11-01","sourceIds":["availability-hercules-20261101"]}},
+    {"id":"kate-bishop","statFocusEligibility":{"status":"ineligible","checkedAt":"2026-11-01","sourceIds":["availability-kate-bishop-20261101"]}},
+    {"id":"shuri","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-shuri-20261101"]}},
+    {"id":"ant-man-future","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-ant-man-future-20261101"]}},
+    {"id":"domino","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-domino-20261101"]}},
+    {"id":"bishop","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-bishop-20261101"]}},
+    {"id":"dust","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-dust-20261101"]}},
+    {"id":"enchantress","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-enchantress-20261101"]}},
+    {"id":"the-destroyer","statFocusEligibility":{"status":"confirmed","checkedAt":"2026-11-01","sourceIds":["availability-the-destroyer-20261101"]}}
   ],
   "bossPatches": [
     {

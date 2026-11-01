@@ -6,6 +6,23 @@ function upsertById(table, records = []) {
   }
 }
 
+const validDate=value=>typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value+'T00:00:00Z'));
+
+function applyChampionPatch(db, patch) {
+  const champion=db.champions.find(item=>item.id===patch.id);
+  if(!champion)throw new Error(`Accuracy patch references unknown champion: ${patch.id}`);
+  if(patch.statFocusEligibility){
+    const x=patch.statFocusEligibility;
+    if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt)||!Array.isArray(x.sourceIds)||!x.sourceIds.length){
+      throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);
+    }
+    for(const sourceId of x.sourceIds){
+      if(!db.sources.some(source=>source.id===sourceId))throw new Error(`Stat Focus eligibility patch for ${patch.id} references unknown source: ${sourceId}`);
+    }
+    champion.statFocusEligibility=structuredClone(x);
+  }
+}
+
 export function deriveInitials(name) {
   const match = String(name || '').match(/^(.*?)\s*\(([^)]+)\)\s*$/);
   if (!match) {
@@ -21,6 +38,7 @@ export function applyAccuracyPatches(input, patches) {
   const db = structuredClone(input);
   upsertById(db.sources, patches?.sources);
   upsertById(db.champions, patches?.champions);
+  for(const patch of patches?.championPatches||[])applyChampionPatch(db,patch);
 
   for (const patch of patches?.bossPatches || []) {
     const boss = db.bosses.find(item => item.id === patch.id);
