@@ -2,10 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validate} from '../src/domain.mjs';
-import {loadoutPanel} from '../src/loadouts.mjs';
+import {loadoutPanel,focusEligibilityState} from '../src/loadouts.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
 
-test('every directory entry has a full focus trial or an explicit eligibility exception',()=>{
+test('every directory entry has a full focus draft or an explicit eligibility exception',()=>{
  for(const c of db.champions){
   assert(c.loadout||c.loadoutException,c.id);
   if(c.loadout){
@@ -22,16 +22,25 @@ test('unresolved event eligibility cannot silently acquire a focus assignment',(
  assert(validate(data).some(e=>e.includes('unresolved eligibility')));
 });
 
-test('missing sourced relic pairing stays empty without removing focus advice',()=>{
+test('unverified 7-star eligibility withholds exact focus drafts',()=>{
+ const c=db.champions.find(c=>c.loadout);
+ assert.equal(focusEligibilityState(c).confirmed,false);
+ const html=loadoutPanel(db,c);
+ assert.match(html,/FOCUS DRAFT WITHHELD/);
+ assert.match(html,/7★ eligibility not verified/);
+ assert(!html.includes(`<dd>${c.loadout.attackFocus}</dd>`));
+ assert(!html.includes(`<dd>${c.loadout.defenseFocus}</dd>`));
+});
+
+test('missing sourced relic pairing remains explicit while focus stays withheld',()=>{
  const data=structuredClone(db),c=data.champions.find(c=>c.loadout);
  c.loadout.battlecastId=null;c.loadout.statcastId=null;
  assert.deepEqual(validate(data),[]);
- const html=loadoutPanel(data,c);assert.match(html,/No sourced pairing yet/);assert.match(html,/Attacker starting point/);
+ const html=loadoutPanel(data,c);assert.match(html,/No sourced pairing yet/);assert.match(html,/FOCUS DRAFT WITHHELD/);
  c.loadout.battlecastId='invented';assert(validate(data).length);
 });
 
-
-test('defender selections reject attacker-only Adrenaline but attacker trials accept it',()=>{
+test('defender selections reject attacker-only Adrenaline but attacker drafts accept it',()=>{
  for(const field of ['defenseFocus','defenseAlternative']){
   const copy=structuredClone(db);copy.champions[0].loadout[field]='Adrenaline';
   assert(validate(copy).some(e=>e.includes('invalid '+field)));
