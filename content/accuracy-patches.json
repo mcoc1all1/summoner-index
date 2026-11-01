@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-01",
+  "sources": [
+    {
+      "id": "official-v59-release-notes-20261002",
+      "title": "V59.0 Release Notes • Marvel Contest of Champions",
+      "url": "https://playcontestofchampions.com/news/v59-0-release-notes/",
+      "kind": "official",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "official-robbie-reyes-recap-20261002",
+      "title": "Stream Recap — October 2, 2026 • Marvel Contest of Champions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/419566/stream-recap-october-2-2026",
+      "kind": "official",
+      "checkedAt": "2026-11-01"
+    }
+  ],
+  "champions": [
+    {
+      "id": "ghost-rider-robbie-reyes",
+      "name": "Ghost Rider (Robbie Reyes)",
+      "class": "Mystic",
+      "initials": "GR",
+      "coverage": "roster",
+      "rosterCheckedAt": "2026-11-01",
+      "summary": "Build Ignition Buffs and Soul Barb pressure while using Grit and Power Gain.",
+      "abilityIds": [
+        "grit",
+        "soul-barb",
+        "power-gain"
+      ],
+      "immunityIds": [
+        "bleed",
+        "incinerate"
+      ],
+      "tagIds": [],
+      "sourceIds": [
+        "official-v59-release-notes-20261002",
+        "official-robbie-reyes-recap-20261002"
+      ],
+      "relicIds": [],
+      "ratings": {},
+      "signatureTarget": null,
+      "referenceFacts": {
+        "status": "source-catalogued",
+        "checkedAt": "2026-11-01",
+        "url": "https://forums.playcontestofchampions.com/en/discussion/419566/stream-recap-october-2-2026",
+        "abilities": [
+          "Grit",
+          "Soul Barb",
+          "Ignition",
+          "Power Gain"
+        ],
+        "protections": [
+          "Bleed Immunity",
+          "Incinerate Immunity"
+        ],
+        "battlecast": null,
+        "statcast": null
+      },
+      "researchReview": {
+        "status": "source-gap",
+        "checkedAt": "2026-11-01",
+        "note": "Official October 2026 sources confirm the core mechanics and immunities. Detailed rotation, awakening, relic and matchup guidance still need individual review."
+      }
+    }
+  ],
+  "bossPatches": [
+    {
+      "id": "scytalis",
+      "phaseNames": [
+        "Opening • 100–81%",
+        "Middle • 80–41%",
+        "Late • 40–6%",
+        "Finish • 5–0%"
+      ]
+    }
+  ]
+}
