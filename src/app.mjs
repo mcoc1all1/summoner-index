@@ -3,7 +3,7 @@ const route=document.body.dataset.page;
 import {mountLoadouts} from './loadouts.mjs';
 import {mountRoster,readRoster} from './roster.mjs';
 import {search,escapeHtml as e,validate,getCounters} from './domain.mjs';
-import {championCard,counterResults,compareTable,avatar} from './components.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.mjs';
 const $=s=>document.querySelector(s);
 const needsCatalog=!['/privacy','/methodology','/404','/feedback'].includes(route);
 const db=needsCatalog?await fetch(base+'/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
@@ -37,8 +37,11 @@ if(db){
   render();
  }
  syncSaved();showSaved();mountRoster(db,toast);mountLoadouts(db);
+ for(const host of document.querySelectorAll('[data-boss-counters]'))host.innerHTML=groupedCounterResults(db,host.dataset.bossCounters,'questing',readRoster(db).champions);
  const finder=$('#finder');
  if(finder){
+  const choices=[...$('#opponent').options].map(o=>({id:o.value,label:o.textContent}));
+  $('#opponent-query')?.addEventListener('input',event=>{const q=event.target.value.toLowerCase(),previous=$('#opponent').value,matched=choices.filter(o=>o.label.toLowerCase().includes(q));$('#opponent').innerHTML=matched.map(o=>'<option value="'+e(o.id)+'">'+e(o.label)+'</option>').join('');if(matched.some(o=>o.id===previous))$('#opponent').value=previous;finder.querySelector('button').disabled=!matched.length;$('#opponent-status').textContent=matched.length+' opponents match';});
   if(db.champions.some(c=>c.id===params.get('opponent'))||db.bosses.some(c=>c.id===params.get('opponent')))$('#opponent').value=params.get('opponent');
   if(db.gameModes.some(m=>m.id===params.get('mode')))$('#mode').value=params.get('mode');
   finder.addEventListener('submit',event=>{event.preventDefault();track('counter_search',{opponent:$('#opponent').value,mode:$('#mode').value});location.href=`${base}/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`;});
@@ -57,7 +60,7 @@ if(db){
  }
  if($('#counter-results')){
   if(db.gameModes.some(m=>m.id===params.get('mode')))$('#counter-mode').value=params.get('mode');
-  const render=()=>{const target=$('#counter-results').dataset.target,mode=$('#counter-mode').value;$('#counter-results').innerHTML=counterResults(db,target,mode,$('#roster-only').checked?readRoster(db).champions:null);history.replaceState(null,'',location.pathname+(mode?'?mode='+mode:''));track('counter_tool',{target,mode,count:getCounters(db,target,mode).length});};$('#counter-mode').addEventListener('change',render);$('#roster-only').addEventListener('change',render);render();
+  const render=()=>{const target=$('#counter-results').dataset.target,mode=$('#counter-mode').value;$('#counter-results').innerHTML=($('#roster-only').checked?counterResults(db,target,mode,readRoster(db).champions):groupedCounterResults(db,target,mode,readRoster(db).champions));history.replaceState(null,'',location.pathname+(mode?'?mode='+mode:''));track('counter_tool',{target,mode,count:getCounters(db,target,mode).length});};$('#counter-mode').addEventListener('change',render);$('#roster-only').addEventListener('change',render);render();
  }
  if($('#compare-controls')){
   if(params.has('ids')){const ids=[...new Set(params.get('ids').split(','))].filter(id=>db.champions.some(c=>c.id===id)).slice(0,3);if(ids.length){$('#compare-0').value=ids[0];$('#compare-1').value=ids[1]||db.champions.find(c=>c.id!==ids[0]).id;$('#compare-2').value=ids[2]||'';}}

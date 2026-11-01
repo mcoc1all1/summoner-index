@@ -3,7 +3,9 @@ export const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&
 export const names = (db, type, ids=[]) => ids.map(id=>db[type].find(x=>x.id===id)?.name || id);
 export function search(db, query='', filters={}) {
   const text=query.toLowerCase().replace(/[^\w\s-]/g,' ').trim();
-  const tokens=text.split(/\s+/).filter(t=>!['best','champion','champions','counter','counters','immune','immunity','defenders','defender','the','for'].includes(t));
+  const clauses=text.split(/\bwith\b/);
+  const utilityTokens=clauses.length===2&&/\bimmune\b/.test(clauses[0])?clauses[1].trim().split(/\s+/).filter(Boolean):[];
+  const tokens=(utilityTokens.length?clauses[0]:text).trim().split(/\s+/).filter(t=>t&&!['best','champion','champions','counter','counters','immune','immunity','defenders','defender','the','for','and'].includes(t));
   const immune=/\b(immune|immunity)\b/.test(text);
   const defense=/\bdefenders?\b/.test(text);
   const matches=db.champions.filter(c=>{
@@ -14,7 +16,7 @@ export function search(db, query='', filters={}) {
     if(defense && !c.tagIds.includes('defender')) return false;
     const hay=[c.name,c.class,...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds),...names(db,'immunities',c.immunityIds),...names(db,'tags',c.tagIds)].join(' ').toLowerCase();
     const immunityWords=names(db,'immunities',c.immunityIds).join(' ').toLowerCase().split(/[^\w-]+/);
-    return tokens.every(t=>immune ? immunityWords.includes(t) : hay.includes(t));
+    return tokens.every(t=>immune ? immunityWords.includes(t) : hay.includes(t)) && utilityTokens.every(t=>[...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds)].join(' ').toLowerCase().includes(t));
   });
   const bosses=immune||defense?[]:db.bosses.filter(b=>tokens.every(t=>`${b.name} ${b.chapter} ${b.summary}`.toLowerCase().includes(t)));
   return {champions:matches,bosses};
@@ -135,3 +137,4 @@ export function validate(db) {
   for(const v of db.videos){if(!/^[\w-]{11}$/.test(v.youtubeId))errors.push(`Invalid YouTube ID: ${v.id}`);if(v.start!=null&&(!Number.isInteger(v.start)||v.start<0))errors.push(`${v.id}: video start must be a nonnegative whole number`);}
   return errors;
 }
+
