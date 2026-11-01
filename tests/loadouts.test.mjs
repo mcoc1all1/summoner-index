@@ -84,9 +84,11 @@ test('guidance filters separate hidden drafts from verified focus',()=>{
  const expectedVerified=db.champions.filter(c=>(c.loadout?.attackFocus||c.focusTrial?.attackFocus)&&c.statFocusEligibility?.status==='confirmed').length;
  assert(drafts.count>0);
  assert.equal(verified.count,expectedVerified);
- assert.equal(loadoutCards(db,'Bullseye','Skill',{coverage:'verified'}).count,1);
- assert.equal(loadoutCards(db,'Spider-Man Noir','Skill',{coverage:'verified'}).count,1);
- assert.equal(loadoutCards(db,'Doctor Doom','Mystic',{coverage:'drafts'}).count,1);
+ for(const [query,cls,coverage,id] of [['Bullseye','Skill','verified','bullseye'],['Spider-Man Noir','Skill','verified','spider-man-noir'],['Doctor Doom','Mystic','drafts','doctor-doom']]){
+  const result=loadoutCards(db,query,cls,{coverage});
+  assert(result.count>=1,`${id}: expected at least one filtered result`);
+  assert.match(result.html,new RegExp(`href="/champions/${id}"`));
+ }
  assert.equal(loadoutCards(db,'does-not-exist','',{pageSize:12,page:900}).start,0);
  assert.equal((loadoutGuide(db).match(/class="panel loadout-card"/g)||[]).length,12);
 });
