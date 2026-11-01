@@ -26,20 +26,10 @@
       "coverage": "roster",
       "rosterCheckedAt": "2026-11-01",
       "summary": "Build Ignition Buffs and Soul Barb pressure while using Grit and Power Gain.",
-      "abilityIds": [
-        "grit",
-        "soul-barb",
-        "power-gain"
-      ],
-      "immunityIds": [
-        "bleed",
-        "incinerate"
-      ],
+      "abilityIds": ["grit","soul-barb","power-gain"],
+      "immunityIds": ["bleed","incinerate"],
       "tagIds": [],
-      "sourceIds": [
-        "official-v59-release-notes-20261002",
-        "official-robbie-reyes-recap-20261002"
-      ],
+      "sourceIds": ["official-v59-release-notes-20261002","official-robbie-reyes-recap-20261002"],
       "relicIds": [],
       "ratings": {},
       "signatureTarget": null,
@@ -47,16 +37,8 @@
         "status": "source-catalogued",
         "checkedAt": "2026-11-01",
         "url": "https://forums.playcontestofchampions.com/en/discussion/419566/stream-recap-october-2-2026",
-        "abilities": [
-          "Grit",
-          "Soul Barb",
-          "Ignition",
-          "Power Gain"
-        ],
-        "protections": [
-          "Bleed Immunity",
-          "Incinerate Immunity"
-        ],
+        "abilities": ["Grit","Soul Barb","Ignition","Power Gain"],
+        "protections": ["Bleed Immunity","Incinerate Immunity"],
         "battlecast": null,
         "statcast": null
       },
@@ -70,23 +52,51 @@
         "reviewedAt": "2026-11-01",
         "reason": "Current 7-star Stat Focus eligibility and compatible relic options have not been verified from the cited official release material.",
         "nextStep": "Confirm current 7-star availability and owned relic compatibility before publishing Stat Focus or relic guidance.",
-        "sourceIds": [
-          "official-v59-release-notes-20261002",
-          "official-robbie-reyes-recap-20261002"
-        ]
+        "sourceIds": ["official-v59-release-notes-20261002","official-robbie-reyes-recap-20261002"]
       }
     }
   ],
   "bossPatches": [
     {
       "id": "scytalis",
-      "phaseNames": [
-        "Setup — wait for an armed trap",
-        "Opening • 100–81%",
-        "Middle • 80–41%",
-        "Late • 40–6%",
-        "Finish • 5–0%"
-      ]
+      "phaseNames": ["Setup — wait for an armed trap","Opening • 100–81%","Middle • 80–41%","Late • 40–6%","Finish • 5–0%"],
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-10-30",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "Core story mechanics were cross-checked against multiple community references. This build does not record a current-client gameplay test, and linked path modifiers remain outside the guide scope."
+      }
+    },
+    {
+      "id": "bahamet",
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-10-30",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The core 8.2.6 loop was reconciled across community transcripts. Source wording can differ around charge terminology, so the guide states whose charge each mechanic uses. No current-client gameplay test is recorded."
+      }
+    },
+    {
+      "id": "gwenmaster",
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-10-30",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The six-objective story sequence is source-reviewed. Linked-path modifiers and current-client persistence behavior are not gameplay-verified in this build."
+      }
+    },
+    {
+      "id": "kang-conqueror",
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-10-30",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The 7.3.6 Tech Kang loop and final SP3 requirement are source-reviewed. Champion-specific ability-accuracy interactions and selected-path nodes are not current-client gameplay-tested here."
+      }
     }
   ]
 }
