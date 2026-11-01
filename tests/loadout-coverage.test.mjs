@@ -23,8 +23,9 @@ test('unresolved event eligibility cannot silently acquire a focus assignment',(
 });
 
 test('unverified 7-star eligibility withholds exact focus drafts',()=>{
- const c=db.champions.find(c=>c.loadout);
- assert.equal(focusEligibilityState(c).confirmed,false);
+ const c=db.champions.find(c=>c.id==='spider-man-noir');
+ assert(c?.loadout);
+ assert.equal(focusEligibilityState(c).status,'unverified');
  const html=loadoutPanel(db,c);
  assert.match(html,/FOCUS DRAFT WITHHELD/);
  assert.match(html,/7★ eligibility not verified/);
@@ -32,8 +33,17 @@ test('unverified 7-star eligibility withholds exact focus drafts',()=>{
  assert(!html.includes(`<dd>${c.loadout.defenseFocus}</dd>`));
 });
 
+test('confirmed ineligibility stays non-actionable',()=>{
+ const c=db.champions.find(c=>c.id==='doctor-doom');
+ assert.equal(focusEligibilityState(c).status,'ineligible');
+ const html=loadoutPanel(db,c);
+ assert.match(html,/Not eligible for Stat Focus/);
+ assert(!html.includes(`<dd>${c.loadout.attackFocus}</dd>`));
+ assert(!html.includes(`<dd>${c.loadout.defenseFocus}</dd>`));
+});
+
 test('missing sourced relic pairing remains explicit while focus stays withheld',()=>{
- const data=structuredClone(db),c=data.champions.find(c=>c.loadout);
+ const data=structuredClone(db),c=data.champions.find(c=>c.id==='spider-man-noir');
  c.loadout.battlecastId=null;c.loadout.statcastId=null;
  assert.deepEqual(validate(data),[]);
  const html=loadoutPanel(data,c);assert.match(html,/No sourced pairing yet/);assert.match(html,/FOCUS DRAFT WITHHELD/);
