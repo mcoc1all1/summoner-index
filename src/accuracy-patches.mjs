@@ -31,6 +31,7 @@ export function applyAccuracyPatches(input, patches) {
       }
       boss.phases = boss.phases.map((phase, index) => ({...phase, name: patch.phaseNames[index]}));
     }
+    if (patch.verification) boss.verification=structuredClone(patch.verification);
   }
 
   for (const champion of db.champions) {
