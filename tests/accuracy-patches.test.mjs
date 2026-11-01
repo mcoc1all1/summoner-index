@@ -15,6 +15,7 @@ test('accuracy patches add Robbie Reyes and correct Scytalis phase labels',()=>{
  assert(robbie.immunityIds.includes('incinerate'));
  const scytalis=patched.bosses.find(b=>b.id==='scytalis');
  assert.deepEqual(scytalis.phases.map(p=>p.name),[
+  'Setup — wait for an armed trap',
   'Opening • 100–81%',
   'Middle • 80–41%',
   'Late • 40–6%',
