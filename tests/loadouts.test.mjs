@@ -55,7 +55,7 @@ test('verified eligibility permits exact focus display',()=>{
  const data=structuredClone(db),c=data.champions.find(c=>c.id==='bullseye');
  c.statFocusEligibility={status:'confirmed',checkedAt:'2026-11-01',sourceIds:[c.sourceIds[0]]};
  assert.equal(focusPublicValue(c,'attack'),c.loadout.attackFocus);
- assert.match(loadoutPanel(data,c),/ELIGIBILITY VERIFIED/);
+ assert.match(loadoutPanel(data,c),/VERIFIED-ELIGIBILITY FOCUS TRIAL/);
  assert.match(loadoutPanel(data,c),new RegExp(c.loadout.attackFocus));
 });
 
