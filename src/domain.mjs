@@ -77,7 +77,7 @@ export function validate(db) {
       if(typeof l!=='object'||Array.isArray(l))errors.push(`${c.id}: invalid loadout`);
       else {
         for(const kind of ['battlecast','statcast']){if(l[kind+'Id']===null)continue;const r=db.relics.find(r=>r.id===l[kind+'Id']);if(!r||r.kind!==kind||r.class!==c.class)errors.push(`${c.id}: ${kind} must match relic type and champion class`);}
-        for(const f of ['attackFocus','defenseFocus','attackAlternative','defenseAlternative'])if(!focus.includes(l[f]))errors.push(`${c.id}: invalid ${f}`);
+        for(const f of ['attackFocus','defenseFocus','attackAlternative','defenseAlternative'])if(!focus.includes(l[f])||(f.startsWith('defense')&&l[f]==='Adrenaline'))errors.push(`${c.id}: invalid ${f}`);
         for(const f of ['attackReason','defenseReason','relicNotes','eligibility'])if(typeof l[f]!=='string'||!l[f].trim())errors.push(`${c.id}: loadout needs ${f}`);
         if(l.status!=='editorial-trial'||!validDate(l.reviewedAt))errors.push(`${c.id}: loadout needs editorial-trial status and a valid source-check date`);
         if(!Array.isArray(l.sourceIds)||!l.sourceIds.length)errors.push(`${c.id}: loadout needs sources`);else l.sourceIds.forEach(id=>ref('sources',id,c.id));

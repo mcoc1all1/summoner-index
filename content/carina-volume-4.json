@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-11-01",
+  "guides": [
+    {
+      "id": "ordeal-heroes", "title": "Ordeal · Heroes", "tag": "Hero", "rarity": 7,
+      "quest": "The Ordeal (enhanced Grandmaster’s Gauntlet)",
+      "objective": "Complete the Ordeal through Thanos using only 7-star #Hero champions.",
+      "team": ["medusa", "falcon-joaquin-torres", "cheeilth", "wiccan", "professor-x"],
+      "teamNote": "Reported completion team. Medusa covers Armor Shatter fights; Joaquin provides utility across several late fights; Wiccan handles buff interactions; Professor X supplies non-debuff Evade control; Chee’ilth offers cleansing.",
+      "checks": [
+        ["Terrax", "Plan for Rock Field damage immediately. The reported Wiccan approach uses SP1 healing; test your survival before committing resources."],
+        ["Spider-Ham and Korg", "Professor X is the reported option. Learn his Evade-control requirement. For Korg, prepare parryless heavy openings rather than relying on a stun that can be purified."],
+        ["Black Panther (Civil War)", "Wiccan’s Neutralize is the reported approach. Watch Footloose and Stun Reflection; ordinary parry-combo habits are unsafe."],
+        ["Sasquatch", "Plan healing control as well as damage. The reported Joaquin approach uses Despair; Lifecycle complicates damage-over-time plans."],
+        ["Thanos", "Keep a usable closer for the final fight. Read each phase’s instructions; the team example does not replace executing Thanos’s mechanics."]
+      ],
+      "pitfall": "Do not enter the original Gauntlet and expect Ordeal objective credit.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1rq3dov/good_v_evil_carina_challenges_1_ordeal_hero/"
+    },
+    {
+      "id": "ordeal-villains", "title": "Ordeal · Villains", "tag": "Villain", "rarity": 7,
+      "quest": "The Ordeal (enhanced Grandmaster’s Gauntlet)",
+      "objective": "Complete the Ordeal through Thanos using only 7-star #Villain champions.",
+      "team": ["mister-sinister", "serpent", "scorpion", "venom", "arnim-zola"],
+      "teamNote": "Reported completion team. Sinister handles many fights, Serpent supplies another damage option, Scorpion covers selected control matchups, Venom covers Spider-Gwen and Killmonger, and Zola is a support slot.",
+      "checks": [
+        ["Dragon Man and Mojo", "The report uses Scorpion SP1. Plan power and buff management; repeated deaths against Mojo can make recovery harder through Followers."],
+        ["Sasquatch", "The report switches to Scorpion SP2. Check healing control and the Lifecycle window rather than treating this as another SP1 fight."],
+        ["Spider-Gwen and Killmonger", "Venom is the reported assignment. Review each defender’s current nodes before relying on his usual kit interactions."],
+        ["Alternative: Absorbing Man", "Another completed team uses him for Terrax and Black Panther (Civil War). Practise form management before replacing a slot."],
+        ["Alternative: Purgatory", "If choosing a soul-based route, plan who delivers each knockout. Skipping the intended soul acquisition can undermine later matchups."]
+      ],
+      "pitfall": "A support champion still has to satisfy both the 7-star and #Villain restrictions.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1rx57ic/good_v_evil_carinas_challenges_2_ordeal_villain/"
+    },
+    {
+      "id": "abyss-heroes", "title": "Abyss · Heroes", "tag": "Hero", "rarity": 7,
+      "quest": "Abyss of Legends — any completed path",
+      "objective": "Complete an Abyss path through the Nameless Collector using only 7-star #Hero champions.",
+      "team": ["sentry", "mister-fantastic", "kushala", "magneto-house-of-x", "beta-ray-bill"],
+      "teamNote": "Reported completion team: Sentry is the main ramping attacker, Kushala supplies buff control, Mister Fantastic and Magneto support the plan, and Beta Ray Bill is a Collector option.",
+      "checks": [
+        ["Route choice", "The left-side Thing route is a common starting point, not the only eligible path. Match every planned defender to your team before entry."],
+        ["Captain Marvel (Movie) and Venom the Duck", "Reserve a buff-control answer. Cosmic power interactions make a generic damage-only assignment unreliable."],
+        ["Invisible Woman", "Track passive Power Sting and its expiry condition. Avoid reflexively launching specials while the Sting is active."],
+        ["Nameless Collector", "Plan around Evade, Tenacity and Unstoppable. A debuff-based answer can be purified; Grit or suitable passive control can be valuable."],
+        ["Sentry ramp", "Assess his ramp across the route rather than expecting peak damage on the opening fight."]
+      ],
+      "pitfall": "The separate Stellar Forged Star-Lord objective is not a requirement of this Hero challenge. This boss is not Act 5’s Collector.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1s3c9dp/good_v_evil_carinas_challenges_3_abyss_heroes/"
+    },
+    {
+      "id": "abyss-villains", "title": "Abyss · Villains", "tag": "Villain", "rarity": 7,
+      "quest": "Abyss of Legends — any completed path",
+      "objective": "Complete an Abyss path through the Nameless Collector using only 7-star #Villain champions.",
+      "team": ["purgatory", "attuma", "she-hulk-deathless", "knull"],
+      "teamNote": "Reported four-champion core, not a documented five-slot completion team. Choose an eligible fifth champion for your route’s uncovered matchup; do not assume a synergy slot is unrestricted.",
+      "checks": [
+        ["Purgatory soul route", "Plan her knockouts on Aegon for a Skill soul and Ghost for a Tech soul before Collector. Merely bringing Purgatory does not collect those souls."],
+        ["Iron Man (Infinity War) and Howard", "Knull is the reported assignment. Preserve a second option if your own build cannot handle the required interaction."],
+        ["Quake and Mordo", "Attuma is the reported option; Deathless She-Hulk covers Thing and Joe Fixit in the same report."],
+        ["Cull Obsidian", "Distinguish Nullify from Neutralize. Preventing a buff can deny a node payoff that specifically rewards removing it."],
+        ["Nameless Collector", "Purgatory’s planned souls support passive Slow and sustain. Confirm those preparations before reaching the final encounter."]
+      ],
+      "pitfall": "Do not select a route first and discover that it misses the soul-acquisition fights your strategy needs.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1s9lp8g/good_v_evil_carinas_challenges_4_abyss_villains/"
+    },
+    {
+      "id": "epoch-heroes", "title": "Epoch · Heroes", "tag": "Hero", "rarity": 7,
+      "quest": "Epoch of Pain: True Olympian",
+      "objective": "Complete True Olympian’s four-path gauntlet and Ares using only 7-star #Hero champions.",
+      "team": ["heimdall", "star-lord-stellar-forged", "jean-grey", "spider-woman", "prowler"],
+      "teamNote": "Reported five-champion completion team. Plan Heimdall’s ramp, Stellar Forged Star-Lord’s assignments, Spider-Woman’s control, Jean’s utility and Prowler’s Jabari matchup before starting.",
+      "checks": [
+        ["Quest version", "True Olympian allows five champions and does not use the original Epoch class gates or original path nodes. Do not copy an old gated route plan."],
+        ["Heimdall before Nebula", "The report builds his ramp on Jessica Jones. Account for this preparation rather than reaching Nebula with an unprepared attacker."],
+        ["Adam Warlock and Annihilus", "Allocate a Buffed Up answer; damage alone is not enough if the requirement is unmet."],
+        ["Infamous Iron Man", "His reverse Buffed Up interaction makes excessive distinct buffs a liability. Do not reuse the previous buff-heavy plan automatically."],
+        ["Jabari Panther", "Prowler is the reported Falter-immune option."],
+        ["Ares", "Reserve attention and resources for the final boss. Practise his prompts and read the current abilities; a strong team does not bypass execution."]
+      ],
+      "pitfall": "Completing one original Epoch path is not completing the True Olympian gauntlet.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1sfwz57/good_v_evil_carinas_challenges_5_epoch_hero/"
+    },
+    {
+      "id": "epoch-villains", "title": "Epoch · Villains", "tag": "Villain", "rarity": 7,
+      "quest": "Epoch of Pain: True Olympian",
+      "objective": "Complete True Olympian’s four-path gauntlet and Ares using only 7-star #Villain champions.",
+      "team": ["scorpion", "venom", "onslaught", "serpent", "high-evolutionary"],
+      "teamNote": "Reported completion team. The player suggested Count Nefaria as an alternative to High Evolutionary afterwards; that suggestion is separate from the team actually used.",
+      "checks": [
+        ["Nebula", "Use Scorpion’s Rupture prefight in the reported approach. Select the protection you need before entering; do not carry over the next fight’s setting."],
+        ["Destroyer", "The report changes Scorpion to Shock prefight and uses SP2 Petrify for power control."],
+        ["Northstar and Cassie Lang", "Serpent is the reported Miss-control option. Read when the defender’s avoidance activates and plan special baiting."],
+        ["Annihilus", "Venom SP1 is the reported Control Rod-removal approach."],
+        ["Mole Man", "Scorpion is the reported answer. Account for Hubris and the interaction with debuffs rather than forcing a generic power-drain plan."],
+        ["Ares", "Serpent was used in the completion report. Learn the boss’s special prompts; the assignment does not remove those mechanics."]
+      ],
+      "pitfall": "This is the five-champion True Olympian quest, not the original class-gated Epoch. Recheck each Scorpion prefight.",
+      "source": "https://www.reddit.com/r/ContestOfChampions/comments/1smd2vr/good_v_evil_carinas_challenges_6_epoch_villains/"
+    }
+  ]
+}

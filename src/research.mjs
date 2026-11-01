@@ -7,7 +7,8 @@ export function researchGaps(db,c){
  if(!c.rotation?.length)gaps.push('Step-by-step fight sequence');
  if(c.loadoutException)gaps.push('Event identity and loadout eligibility confirmation');
  else if(!c.loadout&&!c.focusTrial)gaps.push('Champion-specific stat-focus trial');
- if(c.loadout&&(!c.loadout.battlecastId||!c.loadout.statcastId))gaps.push('Sourced named relic pairing');
+ if(c.loadout&&!c.loadout.battlecastId)gaps.push('Sourced Battlecast alternative');
+ if(c.loadout&&!c.loadout.statcastId)gaps.push('Sourced Statcast alternative');
  if(c.focusTrial&&!c.loadout)gaps.push('Defender stat-focus trial and sourced relic pairing');
  if(!db.synergies.some(s=>s.championId===c.id))gaps.push('Conditional team synergy recommendations');
  if(c.signatureTarget==null)gaps.push('Numeric signature investment breakpoint');

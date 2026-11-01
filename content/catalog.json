@@ -5591,6 +5591,559 @@
       "url": "https://forums.playcontestofchampions.com/en/discussion/405082/how-s-act-6-looking-after-the-nerf/p1",
       "kind": "community-reference",
       "checkedAt": "2026-10-30"
+    },
+    {
+      "id": "counter-research-wiccan-20261031",
+      "title": "Kabam balancing: Wiccan utility and intended matchups",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/316089/hulkling-and-wiccan-balancing-follow-up",
+      "kind": "official",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-gorr-20261031",
+      "title": "Player reports: Gorr options and Wiccan Neutralize",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/337049/gorrrrrrrrrrrrrrrrrrrr",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-spells-20261031",
+      "title": "Player explanation: maintaining Wiccan spells",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/390051/week-4-sq-phoenix-what",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-neutralize-20261031",
+      "title": "Kabam explanation: Neutralize and ability accuracy immunity",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/313445/neutralize-update-merged-threads/p2",
+      "kind": "official",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-korg-20261031",
+      "title": "Player reports: Korg options and Rock Shield handling",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/356863/best-korg-counters/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-contact-20261031",
+      "title": "Player distinction: Korg versus Attuma contact damage",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/341197/korg-vs-attuma-magnetos-thorns-damage",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-shuri-20261031",
+      "title": "Battlegrounds reports: Shuri versus Attuma and Domino",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/370375/battlegrounds-champ-relevance",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-bishop-20261031",
+      "title": "Player reports: Bishop counters and special management",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/348364/best-counters-to-bishop-absorbing-man",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-havok-20261031",
+      "title": "Player reports: Havok Armor Up options and removal risks",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/229735/best-havok-counter",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-havok2-20261031",
+      "title": "Player explanation: Havok and Crumbling Armor",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/212545/boss-rush-help",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-thing-20261031",
+      "title": "Player reports: Thing and Ebony Maw matchup options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2763842",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-falcon-20261031",
+      "title": "Falcon Recon limitations, including enhanced ability accuracy",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/234110/every-thing-new-falcon-can-cancel-with-recon",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-sinister-20261031",
+      "title": "Post-buff Sinister discussion: Warlock and non-critical options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400420/sinister",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-killmonger-20261031",
+      "title": "Player reports: Killmonger Armor Break options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/48913/who-is-a-good-counter-for-killmonger",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-killmonger-passive-20261031",
+      "title": "Kabam clarification: Armor Shatter versus Vibranium Armor",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/157739/killmonger-gaining-armor-after-medusa-armor-shatter/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-bg-20261031",
+      "title": "Player Battlegrounds matchup reports: Galan, Rintrah and Tech defenders",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/348218/help-with-bg-fights-may-be-of-interest-to-everyone",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-maw-20261031",
+      "title": "Player reports: Ebony Maw knockdowns and buff management",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/358183/the-marvelous-ebony-maw-the-joyful-journey-of-a-master-manipulator/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-mephisto-20261031",
+      "title": "Player reports: Mephisto, Torch pre-fight and Void",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/274963/can-someone-give-me-a-list-of-mephisto-counters-pls",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-nova-flame-20261031",
+      "title": "Player explanation: Nova Flame is distinct from Incinerate",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/131785/incinerate-damage-and-mephisto",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-buffs-20261031",
+      "title": "Player explanation: buff immunity versus Mojo, Dormammu and Spider-Man Supreme",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/394240/buffs-immunity-101/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-sasquatch-20261031",
+      "title": "Sasquatch report: Petrify and synergy-dependent Slow",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/353119/sasquatch-in-eq-1-2-boss",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-bill-20261031",
+      "title": "Beta Ray Bill review: Future Ant-Man, Red Skull and Nimrod",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/374015/champion-review-beta-ray-bill",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-dust-20261031",
+      "title": "Player reports: Ironheart Incinerate removes Sand",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1cu2m9h",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-ironheart-20261031",
+      "title": "Stream recap: Ironheart selectable damage and utility",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/359114/stream-recap-february-2-2024",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-spider-ham-20261031",
+      "title": "Spider-Ham fight guide: evade control and Power Sting",
+      "url": "https://www.mcoc-guide.com/spider-ham-best-counter-and-how-to-fight/",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-anti-venom-20261031",
+      "title": "Anti-Venom guide: Spider-Verse evade reduction and limits",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/310391/an-anti-venom-guide-the-remedy-for-not-knowing-how-to-use-him",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-abs-20261031",
+      "title": "Kabam balance report: Absorbing Man versus Terrax, Knull and Annihilus",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/334825/balancing-update-baron-zemo-and-absorbing-man",
+      "kind": "official",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-terrax-20261031",
+      "title": "Player reports: Terrax damage management",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/262847/terrax-counters",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-electro-20261031",
+      "title": "Player reports: Electro damage-back methods and attack selection",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/260918/counters-for-electro",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-magik-20261031",
+      "title": "Player reports: Magik Limbo counters and debuff limitations",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/945/magik-is-too-powerful",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-emma-20261031",
+      "title": "Kabam clarification: Emma Frost Armor Break and reversed controls",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/121777/emma-frost-uc",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-emma-options-20261031",
+      "title": "Player reports: Emma Frost Armor Break options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/95209/best-counters-for-emma-frost",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-omega-sentinel-20261031",
+      "title": "Player reports: Omega Sentinel and Galan Harvest",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/336736/who-are-the-best-counters-to-omega-sentinel",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-sentinel-20261031",
+      "title": "Post-buff Sentinel discussion: cold immunity, Armor Break and Heal Block",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2688299",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-dragon-man-20261031",
+      "title": "Act 7.2 guide: Dragon Man power gain and Torch pre-fight caveat",
+      "url": "https://www.mcoc-guide.com/act-7-2-all-bosses-counters/",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-held-toad-20261031",
+      "title": "Conflicting report: Toad poison during Nick Fury second-life transition",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/359389/toad-is-not-working-against-nick-fury",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-held-modok-20261031",
+      "title": "MODOK Flux can leave Auto-Block active against Falcon",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/252518/modok-defender-bug/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-held-redskull-20261031",
+      "title": "Red Skull can still damage Power Drain-immune attackers through block",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/378620/why-is-red-skull-power-draining-hulking-and-galan",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "counter-research-held-nightcrawler-20261031",
+      "title": "Ordeal planning: Venom does not bypass Nightcrawler evade",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/392206/planning-for-the-ordeal",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "act6-cap-feedback-history",
+      "title": "Captain America 6.3.6 • historical shield and critical-gate interaction (March 2024)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/363549/act-6-3-6-caiw-boss/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "act6-footage-crossbones-act6-2026",
+      "title": "Crossbones • Act 6 6.1.5 • Chewboom post-retune walkthrough (2026-03-11; 3:53–4:04)",
+      "url": "https://www.youtube.com/watch?v=owLNpi23JsQ",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-sentinel-act6-2026",
+      "title": "Sentinel 6.1.6 • Chewboom post-retune walkthrough (2026-03-13; 13:16–15:15)",
+      "url": "https://www.youtube.com/watch?v=9oQYzggEBE8",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-mister-sinister-act6-2026",
+      "title": "Mister Sinister • Act 6 6.2.2 • Chewboom post-retune walkthrough (2026-03-14; 0:12–0:21; 7:46–13:55)",
+      "url": "https://www.youtube.com/watch?v=WIPyHVtSgcA",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-champion-act6-2026",
+      "title": "The Champion 6.2.6 • Chewboom post-retune walkthrough (2026-03-16; 11:04–15:43)",
+      "url": "https://www.youtube.com/watch?v=Oxr0iZf6x60",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-medusa-act6-2026",
+      "title": "Medusa • Act 6 6.3.1 • Chewboom post-retune walkthrough (2026-03-17; 1:10; 16:01–17:20)",
+      "url": "https://www.youtube.com/watch?v=vwWf9IZUtHs",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-captain-america-iw-act6-2026",
+      "title": "Captain America (Infinity War) 6.3.6 • Chewboom post-retune walkthrough (2026-03-22; 0:16–1:25)",
+      "url": "https://www.youtube.com/watch?v=STgz7yXUwhc",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "act6-footage-grandmaster-2026",
+      "title": "The Grandmaster 6.4.6 • Chewboom post-retune walkthrough (2026-03-26; 6:49–25:41)",
+      "url": "https://www.youtube.com/watch?v=4h0yRp1kJeY",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-ntw-20261101",
+      "title": "Kabam balance review: Negasonic targets Korg and Attuma",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/379101/balance-update-negasonic-teenage-warhead-and-silver-sable",
+      "kind": "official",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-vox-20261101",
+      "title": "Kabam balance review: Vox versus Thing and Omega Sentinel",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/354542/photon-and-vox-balance-update/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-sersi-20261101",
+      "title": "First-hand Sersi fight reports: Neutralize setup and Glancing downtime",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/334221/sersi-8-2-5",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-sersi2-20261101",
+      "title": "Player comparison: Sersi and Gorr buff-control options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/333573/who-is-the-best-aw-defender",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-shathra-20261101",
+      "title": "Shathra review: Sersi and Gorr buff-duration control",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/377443/champion-review-shathra",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-nova-20261101",
+      "title": "Nova war report: Symbiote Supreme option; historical node context",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/288972/havok-vs-nova-alliance-war-boss-a-great-answer-for-high-ground",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-manthing-20261101",
+      "title": "Act 7.2 encounter guide: Red Hulk versus Man-Thing",
+      "url": "https://www.mcoc-guide.com/act-7-2-all-bosses-counters/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-mysterio-20261101",
+      "title": "Player reports: Mysterio power-control immunity does not prevent Miss",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/353124/best-tech-defender",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-mysterio2-20261101",
+      "title": "Event quest reports: Hulkling versus Mysterio and gas downtime",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/333311/eq-2-2-mysterio-how-a-fight-shouldn-039-t-be-designed",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-aarkus-20261101",
+      "title": "Player explanations: Aarkus Armor Break, Coldsnap and power-gain counters",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/199180/vision-aarkus-counters",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-hyperion-20261101",
+      "title": "Player explanation: Doom Stagger versus Hyperion without awakening",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/hev6j5",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-run-20261101",
+      "title": "First-hand Crucible run: Iceman versus Morningstar and Bill versus Vulture",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2863229",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "counter-research-crucible-20261101",
+      "title": "Crucible matchup reports: Morningstar and Vulture options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list/p3",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-agatha-harkness-20261101",
+      "title": "Agatha Harkness: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/agatha-harkness",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-blade-stellar-forged-20261101",
+      "title": "Blade (Stellar Forged): community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/blade-stellar-forged",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-blue-marvel-20261101",
+      "title": "Blue Marvel: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/blue-marvel",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-carina-tivan-20261101",
+      "title": "Carina Tivan: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/carina-tivan",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-colossus-age-of-apocalypse-20261101",
+      "title": "Colossus (Age of Apocalypse): community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/colossus-age-of-apocalypse",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-green-goblin-stellar-forged-20261101",
+      "title": "Green Goblin (Stellar Forged): community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/green-goblin-stellar-forged",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-gwenom-20261101",
+      "title": "Gwenom: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/gwenom",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-hobgoblin-20261101",
+      "title": "Hobgoblin: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/hobgoblin",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-madelyne-pryor-20261101",
+      "title": "Madelyne Pryor: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/madelyne-pryor",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-phyla-vell-20261101",
+      "title": "Phyla-Vell: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/phyla-vell",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-pixie-20261101",
+      "title": "Pixie: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/pixie",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-ruby-thursday-20261101",
+      "title": "Ruby Thursday: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/ruby-thursday",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-shatterstar-20261101",
+      "title": "Shatterstar: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/shatterstar",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-spider-man-noir-20261101",
+      "title": "Spider-Man Noir: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/spider-man-noir",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-star-lord-20261101",
+      "title": "Star-Lord: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/star-lord",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-wave-20261101",
+      "title": "Wave: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/wave",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-black-tarantula-20261101",
+      "title": "Black Tarantula: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/black-tarantula",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-doctor-bong-20261101",
+      "title": "Doctor Bong: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/doctor-bong",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "relic-review-mbaku-20261101",
+      "title": "M'Baku: community relic listing (relic fields checked November 1, 2026)",
+      "url": "https://mcocscout.com/champions/mbaku",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
     }
   ],
   "abilities": [
@@ -8290,7 +8843,9 @@
         "roster-agatha-harkness",
         "deep-agatha-harkness"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-insulated-mystic-relic-of-toughness"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Improves Energy Vulnerability and supplies conditional recovery against Incinerate and Nova Flame.",
@@ -8324,7 +8879,7 @@
           "Nova Flame Resistance"
         ],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Insulated Mystic Relic of Toughness"
       },
       "rotation": [
         "Use Special 1 to apply Atrophy and establish the prison.",
@@ -8345,14 +8900,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-insulated-mystic-relic-of-toughness",
         "attackFocus": "Special Damage",
         "attackAlternative": "Block Proficiency",
         "attackReason": "Compare empowered Special 2 direct damage with health preserved while establishing Rune Prison. Keep the Amplify and power-counter setup identical.",
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Agatha Harkness, evaluate the owned item against Rune Prison positioning. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "No Battlecast pairing is established. Insulated Mystic Relic of Toughness Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Agatha Harkness’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -8360,8 +8915,10 @@
           "roster-agatha-harkness",
           "deep-agatha-harkness",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-agatha-harkness-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -10290,7 +10847,7 @@
           "Regen Rate Mod. Immunity (conditional)",
           "Purify"
         ],
-        "battlecast": null,
+        "battlecast": "Black Panther",
         "statcast": null
       },
       "rotation": [
@@ -10319,7 +10876,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "Black Panther Battlecast is a community-listed candidate checked on 28 October; this listing does not establish tested synergy or the exact variant. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to special damage with block proficiency and verify any rune trigger against the champion’s actual rotation. Use basic combos and Special 1 to gain Cunning. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "Black Panther Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Black Tarantula’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -10328,8 +10885,10 @@
           "deep-black-tarantula",
           "loadout-focus-principles-20261028-ms",
           "loadout-statcast-design-20261028-ms",
-          "loadout-pairing-black-tarantula-20261028"
-        ]
+          "loadout-pairing-black-tarantula-20261028",
+          "relic-review-black-tarantula-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -10697,7 +11256,9 @@
         "roster-blade-stellar-forged",
         "deep-blade-stellar-forged"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-ghost-rider"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening lets holding block below the health threshold exchange power for regeneration and recover some blocked damage.",
@@ -10719,7 +11280,7 @@
           "Regeneration"
         ],
         "protections": [],
-        "battlecast": null,
+        "battlecast": "Ghost Rider",
         "statcast": null
       },
       "rotation": [
@@ -10740,7 +11301,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-ghost-rider",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -10748,7 +11309,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Blade (Stellar Forged), evaluate the owned item against Degeneration access. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "Ghost Rider Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Blade (Stellar Forged)’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -10756,8 +11317,10 @@
           "roster-blade-stellar-forged",
           "deep-blade-stellar-forged",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-blade-stellar-forged-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -10782,7 +11345,9 @@
         "roster-blue-marvel",
         "deep-blue-marvel"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-human-torch"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening adds a cooldown-based shield against champion-sourced non-hit direct damage and starting Cruelty from persistent progress.",
@@ -10811,7 +11376,7 @@
           "CPR Modification Resistance"
         ],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Human Torch"
       },
       "rotation": [
         "Apply Overload with heavies and use the final-hit block input to refresh it.",
@@ -10832,14 +11397,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-human-torch",
         "attackFocus": "Special Damage",
         "attackAlternative": "Block Proficiency",
         "attackReason": "Compare Special 2 during Stable Release with the same charges and timed block inputs. Block Proficiency is the alternative if Overload setup costs too much health.",
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Blue Marvel, evaluate the owned item against debuff-driven Antimatter. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "No Battlecast pairing is established. Human Torch Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Blue Marvel’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -10847,8 +11412,10 @@
           "roster-blue-marvel",
           "deep-blue-marvel",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-blue-marvel-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -11560,7 +12127,9 @@
         "roster-carina-tivan",
         "deep-carina-tivan"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-shielded-cosmic-relic-of-impact"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening adds critical rating against listed tags and Suppression when persistent shards overflow.",
@@ -11593,7 +12162,7 @@
         ],
         "protections": [],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Shielded Cosmic Relic of Impact"
       },
       "rotation": [
         "Use first-light combo hits and Special 1 to build Power Gain; safely exceeding its cap generates Unblockable stacks.",
@@ -11614,14 +12183,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-shielded-cosmic-relic-of-impact",
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
         "attackReason": "Protect the first-light and Special 1 power-buff setup. Compare Special Damage during Myriad without assuming it increases the entire Corrosion effect.",
         "defenseFocus": "Block Proficiency",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Carina Tivan, test incoming damage while the defender follows its buff cycle. The kit has armor or Auto-Block, but extra Block Proficiency only helps hits actually blocked; it does not create an Armor Up or increase Auto-Block chance. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Buff removal disrupts the plan; Safeguard ends against Special 3 and is not permanent protection.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Use first-light combo hits and Special 1 to build Power Gain; safely exceeding its cap generates Unblockable stacks. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "No Battlecast pairing is established. Shielded Cosmic Relic of Impact Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Carina Tivan’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -11629,8 +12198,10 @@
           "roster-carina-tivan",
           "deep-carina-tivan",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-carina-tivan-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -12113,7 +12684,9 @@
         "roster-colossus-age-of-apocalypse",
         "deep-colossus-age-of-apocalypse"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-expert-mutant-relic-of-ferocity"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening can gain Prowess when immunity triggers, retain some after Berserk and reduce physical thorns damage while Prowess is present.",
@@ -12140,7 +12713,7 @@
           "Critical Hits Immunity"
         ],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Expert Mutant Relic of Ferocity"
       },
       "rotation": [
         "Build Osmium Prowess with consecutive hits; double-tap block during a non-ending basic attack to activate Steel Burst and reset the combo.",
@@ -12161,14 +12734,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-expert-mutant-relic-of-ferocity",
         "attackFocus": "Special Damage",
         "attackAlternative": "Block Proficiency",
         "attackReason": "Editorial trial: Compare Berserk Special 1 loops after reaching the same Osmium Prowess. Steel Burst execution and extended-chain consistency remain separate variables.",
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "No Battlecast pairing is established for this entry. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to special damage with block proficiency and verify any rune trigger against the champion’s actual rotation. Build Osmium Prowess with consecutive hits; double-tap block during a non-ending basic attack to activate Steel Burst and reset the combo. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "No Battlecast pairing is established. Expert Mutant Relic of Ferocity Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Colossus (Age of Apocalypse)’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -12176,8 +12749,10 @@
           "roster-colossus-age-of-apocalypse",
           "deep-colossus-age-of-apocalypse",
           "loadout-focus-principles-20261028-ms",
-          "loadout-statcast-design-20261028-ms"
-        ]
+          "loadout-statcast-design-20261028-ms",
+          "relic-review-colossus-age-of-apocalypse-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -13634,7 +14209,7 @@
           "Power Sting Immunity",
           "Purify"
         ],
-        "battlecast": null,
+        "battlecast": "Black Panther",
         "statcast": null
       },
       "rotation": [
@@ -13663,7 +14238,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "Black Panther Battlecast is a community-listed candidate checked on 28 October; this listing does not establish tested synergy or the exact variant. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to critical damage rating with block proficiency and verify any rune trigger against the champion’s actual rotation. Use Special 1 to apply Panic and begin Heavy Proficiency and Reverb. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "Black Panther Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Doctor Bong’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -13672,8 +14247,10 @@
           "deep-doctor-bong",
           "loadout-focus-principles-20261028-ms",
           "loadout-statcast-design-20261028-ms",
-          "loadout-pairing-doctor-bong-20261028"
-        ]
+          "loadout-pairing-doctor-bong-20261028",
+          "relic-review-doctor-bong-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -16190,7 +16767,9 @@
         "roster-green-goblin-stellar-forged",
         "deep-green-goblin-stellar-forged"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-hulk"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening adds starting Torment and reduces Willpower effectiveness once enough unique debuffs are active.",
@@ -16212,7 +16791,7 @@
           "Torment"
         ],
         "protections": [],
-        "battlecast": null,
+        "battlecast": "Hulk",
         "statcast": null
       },
       "rotation": [
@@ -16233,7 +16812,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-hulk",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -16241,7 +16820,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Green Goblin (Stellar Forged), evaluate the owned item against debuff cleansing. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "Hulk Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Green Goblin (Stellar Forged)’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -16249,8 +16828,10 @@
           "roster-green-goblin-stellar-forged",
           "deep-green-goblin-stellar-forged",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-green-goblin-stellar-forged-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -16718,7 +17299,9 @@
         "roster-gwenom",
         "deep-gwenom"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-thor"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening strengthens Armor Break and improves Evade chance while Spider-Sense is active.",
@@ -16744,7 +17327,7 @@
           "Power Drain Immunity",
           "Special Lock Immunity"
         ],
-        "battlecast": null,
+        "battlecast": "Thor",
         "statcast": null
       },
       "rotation": [
@@ -16765,7 +17348,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-thor",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -16773,7 +17356,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Gwenom, test incoming damage while the defender follows its buff cycle. Physical Resistance is a mitigation trial against physical attackers, not a claim of overall defensive strength. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Special 1 is locked after use until Special 3; Spider-Sense spending sacrifices Evade chance.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Cancel a non-ending basic into heavy to select a Symbiote Buff; repeat different inputs to gain distinct buffs. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "Thor Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Gwenom’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -16781,8 +17364,10 @@
           "roster-gwenom",
           "deep-gwenom",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-gwenom-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -17419,7 +18004,9 @@
         "roster-hobgoblin",
         "deep-hobgoblin"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-sentinel"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening grants opening charges, stronger Energy Vulnerability and better duration control during Laugh.",
@@ -17444,7 +18031,7 @@
           "Poison Immunity",
           "Reduced Delirium Duration"
         ],
-        "battlecast": null,
+        "battlecast": "Sentinel",
         "statcast": null
       },
       "rotation": [
@@ -17465,7 +18052,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-sentinel",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -17473,7 +18060,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Hobgoblin, test incoming damage while the defender follows its resource cycle. Physical Resistance is a mitigation trial against physical attackers, not a claim of overall defensive strength. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Special 2 spends charges; Incinerate immunity obstructs primary damage.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Repeat basic attack types for Incinerate and use third lights to build Maniacal charges. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "Sentinel Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Hobgoblin’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -17481,8 +18068,10 @@
           "roster-hobgoblin",
           "deep-hobgoblin",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-hobgoblin-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -21427,7 +22016,7 @@
           "Purify"
         ],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Bullseye"
       },
       "rotation": [
         "Finish a safe Heavy and allow the roar to establish Fury.",
@@ -21455,7 +22044,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "No Battlecast pairing is established for this entry. Bullseye Statcast is a community-listed candidate checked on 28 October; this listing does not establish tested synergy or the exact variant. For this plan, compare effects relevant to block proficiency with special damage and verify any rune trigger against the champion’s actual rotation. Finish a safe Heavy and allow the roar to establish Fury. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "No Battlecast pairing is established. Bullseye Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against M'Baku’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -21464,8 +22053,10 @@
           "roster-mbaku",
           "loadout-focus-principles-20261028-ms",
           "loadout-statcast-design-20261028-ms",
-          "loadout-pairing-mbaku-20261028"
-        ]
+          "loadout-pairing-mbaku-20261028",
+          "relic-review-mbaku-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -21487,7 +22078,9 @@
         "roster-madelyne-pryor",
         "deep-madelyne-pryor"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-ghost-rider"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Adds persistent Goblin Hordes and pre-fight options affecting buffs or pit aggression.",
@@ -21514,7 +22107,7 @@
           "Bleed Immunity (conditional)",
           "Rupture Immunity (conditional)"
         ],
-        "battlecast": null,
+        "battlecast": "Ghost Rider",
         "statcast": null
       },
       "rotation": [
@@ -21535,7 +22128,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-ghost-rider",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -21543,7 +22136,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Madelyne Pryor, evaluate the owned item against pit and Force Field timing. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "Ghost Rider Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Madelyne Pryor’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -21551,8 +22144,10 @@
           "roster-madelyne-pryor",
           "deep-madelyne-pryor",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-madelyne-pryor-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -25524,7 +26119,9 @@
         "roster-phyla-vell",
         "deep-phyla-vell"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-miss-marvel"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening strengthens Resonance, rewards energy damage exposure and grants next-fight energy after Special 2 or 3 knockouts.",
@@ -25550,7 +26147,7 @@
           "Power Drain Immunity (conditional)",
           "Power Burn Immunity (conditional)"
         ],
-        "battlecast": null,
+        "battlecast": "Miss Marvel",
         "statcast": null
       },
       "rotation": [
@@ -25571,7 +26168,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-miss-marvel",
         "statcastId": null,
         "attackFocus": "Critical Damage Rating",
         "attackAlternative": "Special Damage",
@@ -25579,7 +26176,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Phyla-Vell, test incoming damage while the defender follows its buff cycle. Physical Resistance is a mitigation trial against physical attackers, not a claim of overall defensive strength. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Buff removal disrupts ramp. Special 2 cannot activate without dormant Resonance.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Build Precision through combo openings, finishers and safe Dexterity triggers. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "Miss Marvel Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Phyla-Vell’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -25587,8 +26184,10 @@
           "roster-phyla-vell",
           "deep-phyla-vell",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-phyla-vell-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -25610,7 +26209,9 @@
         "roster-pixie",
         "deep-pixie"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-storm"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Neuroshock prevents Skill Evade and Wisp triggers can add Prowess during the damage window.",
@@ -25633,7 +26234,7 @@
           "Bleed Resistance",
           "Shock Resistance"
         ],
-        "battlecast": null,
+        "battlecast": "Storm",
         "statcast": null
       },
       "rotation": [
@@ -25654,7 +26255,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-storm",
         "statcastId": null,
         "attackFocus": "Special Damage",
         "attackAlternative": "Block Proficiency",
@@ -25662,7 +26263,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "No Battlecast pairing is established for this entry. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to special damage with block proficiency and verify any rune trigger against the champion’s actual rotation. Use light attacks to shorten spell cooldowns. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "Storm Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Pixie’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -25670,8 +26271,10 @@
           "roster-pixie",
           "deep-pixie",
           "loadout-focus-principles-20261028-ms",
-          "loadout-statcast-design-20261028-ms"
-        ]
+          "loadout-statcast-design-20261028-ms",
+          "relic-review-pixie-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -27579,7 +28182,9 @@
         "roster-ruby-thursday",
         "deep-ruby-thursday"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-prowler"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening strengthens the Special 2 burst, adds Circuitry Stun suppression and a first-block-hit pause.",
@@ -27608,7 +28213,7 @@
           "Neuroshock Immunity (conditional)"
         ],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Prowler"
       },
       "rotation": [
         "Use Special 1 to activate Circuitry and restrict enemy Special 2.",
@@ -27629,14 +28234,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-prowler",
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
         "attackReason": "Support Organic Circuitry uptime while learning combo interruption. Since she cannot crit, compare direct Special 2 damage separately from instant Rupture and Disintegration.",
         "defenseFocus": "Block Proficiency",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Ruby Thursday, test incoming damage while the defender follows its resource cycle. The kit has armor or Auto-Block, but extra Block Proficiency only helps hits actually blocked; it does not create an Armor Up or increase Auto-Block chance. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Special 2 requires Circuitry. Undermine bypasses important defensive interactions.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Use Special 1 to activate Circuitry and restrict enemy Special 2. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "No Battlecast pairing is established. Prowler Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Ruby Thursday’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -27644,8 +28249,10 @@
           "roster-ruby-thursday",
           "deep-ruby-thursday",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-ruby-thursday-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -28784,7 +29391,9 @@
         "roster-shatterstar",
         "deep-shatterstar"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-mister-sinister"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening adds Daunted when overstacking and a limited quest Sponsor pre-fight for Mutant or Mystic teammates.",
@@ -28809,7 +29418,7 @@
           "Poison Immunity",
           "Incinerate Immunity"
         ],
-        "battlecast": null,
+        "battlecast": "Mister Sinister",
         "statcast": null
       },
       "rotation": [
@@ -28830,7 +29439,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-mister-sinister",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -28838,7 +29447,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "No Battlecast pairing is established for this entry. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to block proficiency with special damage and verify any rune trigger against the champion’s actual rotation. Interrupt safe enemy heavies or reach combo milestones to establish Daunted. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "Mister Sinister Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Shatterstar’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -28846,8 +29455,10 @@
           "roster-shatterstar",
           "deep-shatterstar",
           "loadout-focus-principles-20261028-ms",
-          "loadout-statcast-design-20261028-ms"
-        ]
+          "loadout-statcast-design-20261028-ms",
+          "relic-review-shatterstar-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -30744,7 +31355,9 @@
         "roster-spider-man-noir",
         "deep-spider-man-noir"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-valkyrie"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening can trigger Crumble when the opponent Auto-Blocks and lets Disorient reduce Inequity potency.",
@@ -30769,7 +31382,7 @@
         "protections": [
           "Stun Immunity (conditional)"
         ],
-        "battlecast": null,
+        "battlecast": "Valkyrie",
         "statcast": null
       },
       "rotation": [
@@ -30790,7 +31403,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-valkyrie",
         "statcastId": null,
         "attackFocus": "Block Penetration",
         "attackAlternative": "Critical Damage Rating",
@@ -30798,7 +31411,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance only against the incoming damage it covers. Compare Energy Resistance against a different damage profile. This is a matchup-dependent mitigation starting point, not a current-season defensive ranking.",
-        "relicNotes": "No Battlecast pairing is established for this entry. No Statcast statue or variant is established for this entry. For this plan, compare effects relevant to block penetration with critical damage rating and verify any rune trigger against the champion’s actual rotation. Follow the displayed Clues to create Dormant Cruelties; use second Light hits to build and refresh Disorient. A Striker must fit a safe window without losing this setup; exact rune, rarity and signature requirements remain untested.",
+        "relicNotes": "Valkyrie Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Spider-Man Noir’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -30806,8 +31419,10 @@
           "deep-spider-man-noir",
           "roster-spider-man-noir",
           "loadout-focus-principles-20261028-ms",
-          "loadout-statcast-design-20261028-ms"
-        ]
+          "loadout-statcast-design-20261028-ms",
+          "relic-review-spider-man-noir-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -31382,7 +31997,9 @@
         "roster-star-lord",
         "deep-star-lord"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "statcast-prowler"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening provides the central combo-based attack increase and defensive Block Proficiency scaling.",
@@ -31402,7 +32019,7 @@
         ],
         "protections": [],
         "battlecast": null,
-        "statcast": null
+        "statcast": "Prowler"
       },
       "rotation": [
         "Maintain a clean combo using safe openings and baited specials.",
@@ -31423,14 +32040,14 @@
       },
       "loadout": {
         "battlecastId": null,
-        "statcastId": null,
+        "statcastId": "statcast-prowler",
         "attackFocus": "Critical Damage Rating",
         "attackAlternative": "Block Proficiency",
         "attackReason": "Compare eligible critical hits at the same awakened combo count. Block Proficiency supports survival during the long combo ramp; neither focus protects the combo itself.",
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "For Star-Lord, test incoming damage while the defender follows its resource cycle. Physical Resistance is a mitigation trial against physical attackers, not a claim of overall defensive strength. Compare Energy Resistance when the expected attacker deals energy damage. Kit caveat: Losing the combo removes the ramp; random gun effects are unsuitable for guaranteed counters.",
-        "relicNotes": "No sourced Battlecast pairing is recorded; use only a bindable item whose actual triggers you can verify. No sourced Statcast statue is recorded; compare available attributes without inventing a named assignment. A Striker should preserve the champion's setup rather than interrupt it: Maintain a clean combo using safe openings and baited specials. Exact rune, rarity, rank and signature requirements remain unverified.",
+        "relicNotes": "No Battlecast pairing is established. Prowler Statcast is a community-listed candidate. This is a shortlist, not a tested best build. Check the actual rune triggers against Star-Lord’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -31438,8 +32055,10 @@
           "roster-star-lord",
           "deep-star-lord",
           "loadout-statcast-system-20261028",
-          "loadout-focus-system-20261028"
-        ]
+          "loadout-focus-system-20261028",
+          "relic-review-star-lord-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -35301,7 +35920,9 @@
         "roster-wave",
         "deep-wave"
       ],
-      "relicIds": [],
+      "relicIds": [
+        "battlecast-hulk"
+      ],
       "ratings": {},
       "signatureTarget": null,
       "awakening": "Awakening restores part of damage from expired Poison or Incinerate and strengthens key debuffs against Mystics.",
@@ -35328,7 +35949,7 @@
           "Reduced Poison Duration",
           "Reduced Incinerate Duration"
         ],
-        "battlecast": null,
+        "battlecast": "Hulk",
         "statcast": null
       },
       "rotation": [
@@ -35349,7 +35970,7 @@
         "note": "Kit reference supports an authored fight plan; current-game validation, exact investment breakpoints and unlisted team interactions remain open."
       },
       "loadout": {
-        "battlecastId": null,
+        "battlecastId": "battlecast-hulk",
         "statcastId": null,
         "attackFocus": "Block Proficiency",
         "attackAlternative": "Special Damage",
@@ -35357,7 +35978,7 @@
         "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Energy Resistance",
         "defenseReason": "Trial Physical Resistance against physical incoming damage and compare Energy Resistance against energy-heavy attackers. This is a draft-dependent mitigation trial, not an AI rotation or current-season ranking.",
-        "relicNotes": "No named relic pairing is established by the saved reference; leave the assignment open. For Wave, evaluate the owned item against noncritical Heavy Proficiency. Check whether its actual rune triggers occur in the recorded rotation, and whether its primary and secondary stats affect the damage component being measured. A Striker can change combo or special timing; practice it before relying on the extension. Exact variants, rune choices, rarity and awakening requirements remain unverified.",
+        "relicNotes": "Hulk Battlecast is a community-listed candidate. No Statcast pairing is established. This is a shortlist, not a tested best build. Check the actual rune triggers against Wave’s fight plan and compare the owned item’s attributes with the focus rationale. Missing alternatives are not evidence of incompatibility. Rarity, rank, awakening and signature requirements remain unverified.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
         "reviewedAt": "2026-10-28",
@@ -35365,8 +35986,10 @@
           "roster-wave",
           "deep-wave",
           "focus-official",
-          "statcast-official"
-        ]
+          "statcast-official",
+          "relic-review-wave-20261101"
+        ],
+        "relicCheckedAt": "2026-11-01"
       }
     },
     {
@@ -37638,6 +38261,2295 @@
         "reviewedAt": "2026-10-28",
         "gameVersion": null
       }
+    },
+    {
+      "id": "wiccan-hulkling",
+      "attackerId": "wiccan",
+      "defenderId": "hulkling",
+      "sourceIds": [
+        "counter-research-wiccan-20261031",
+        "counter-research-gorr-20261031",
+        "counter-research-spells-20261031",
+        "counter-research-neutralize-20261031"
+      ],
+      "abilityIds": [
+        "neutralize",
+        "incinerate"
+      ],
+      "why": "Player reports support Neutralize against Hulkling’s frequent buffs.",
+      "strategy": "Land a light-ending five-hit combo for Neutralize; refresh it before attacking into another buff cycle.",
+      "risks": "Existing Unblockable or Indestructible still needs to expire; Neutralize is prevention, not removal.",
+      "conditions": [
+        "Avoid ability-accuracy immunity or enhanced buff accuracy.",
+        "Incinerate immunity can remove the damage payoff."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "wiccan-gorr",
+      "attackerId": "wiccan",
+      "defenderId": "gorr",
+      "sourceIds": [
+        "counter-research-gorr-20261031",
+        "counter-research-spells-20261031",
+        "counter-research-neutralize-20261031"
+      ],
+      "abilityIds": [
+        "neutralize",
+        "incinerate"
+      ],
+      "why": "Gorr’s repeated buff attempts can feed Wiccan’s damage while Neutralize holds.",
+      "strategy": "Establish Neutralize with MLLLL and use Special 1 after recasting it when upkeep is difficult.",
+      "risks": "Losing Neutralize restores Gorr’s buff pressure. Do not treat this as immunity to his damage.",
+      "conditions": [
+        "Check ability-accuracy and Incinerate restrictions."
+      ],
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "wiccan-knull",
+      "attackerId": "wiccan",
+      "defenderId": "knull",
+      "sourceIds": [
+        "counter-research-wiccan-20261031",
+        "counter-research-spells-20261031"
+      ],
+      "abilityIds": [
+        "neutralize"
+      ],
+      "why": "Kabam identifies Knull as an intended target for Wiccan’s immunity package.",
+      "strategy": "Keep Neutralize active and bait specials without accepting unnecessary block damage.",
+      "risks": "The matchup still requires handling Corruption and specials; favorable immunities do not make every node safe.",
+      "conditions": [
+        "Check the active Knull kit and any additional damage effects."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "bishop-korg",
+      "attackerId": "bishop",
+      "defenderId": "korg",
+      "sourceIds": [
+        "counter-research-korg-20261031",
+        "counter-research-contact-20261031"
+      ],
+      "abilityIds": [
+        "energy-damage"
+      ],
+      "why": "Energy basics avoid Korg’s physical-contact damage trigger.",
+      "strategy": "Use energy basic attacks to work down Rock Shield; bait specials and wait out Unstoppable when necessary.",
+      "risks": "Purified stuns can interrupt parry setups. Energy damage is not a universal answer to damage reflection.",
+      "conditions": [
+        "Check Rock Shield and Crowd Excitement before committing to a combo."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "omega-red-korg",
+      "attackerId": "omega-red",
+      "defenderId": "korg",
+      "sourceIds": [
+        "counter-research-korg-20261031"
+      ],
+      "abilityIds": [
+        "ability-accuracy-reduction"
+      ],
+      "why": "Tentacle hits offer a damage-back route and spores can interfere with purify.",
+      "strategy": "Favor mediums and maintain safe spore proximity; back off when Korg becomes Unstoppable.",
+      "risks": "Light attacks do not share the same tentacle protection. Early parries can still be purified.",
+      "conditions": [
+        "Do not rely on purify suppression before reaching the required spore count."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "shuri-attuma",
+      "attackerId": "shuri",
+      "defenderId": "attuma",
+      "sourceIds": [
+        "counter-research-contact-20261031",
+        "counter-research-shuri-20261031"
+      ],
+      "abilityIds": [
+        "shock"
+      ],
+      "why": "Shuri’s non-contact attacks avoid the contact trigger that makes Attuma dangerous.",
+      "strategy": "Build and maintain Shock damage using her normal loop; bait specials rather than relying on stun duration.",
+      "risks": "Attuma can remove stuns. Shock immunity or resistance can invalidate the damage plan.",
+      "conditions": [
+        "Non-contact is the relevant property; merely dealing energy damage is insufficient."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "shuri-domino",
+      "attackerId": "shuri",
+      "defenderId": "domino",
+      "sourceIds": [
+        "counter-research-shuri-20261031"
+      ],
+      "abilityIds": [
+        "shock"
+      ],
+      "why": "Players report Shuri as a usable Domino option, including larger defenders.",
+      "strategy": "Build her Shock loop with safe openings and keep combos controlled when Domino can evade.",
+      "risks": "This is not a claim of Critical Failure immunity or a guaranteed full-health finish.",
+      "conditions": [
+        "Check current node restrictions on Shock and ability accuracy."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "iron-man-infamous-bishop",
+      "attackerId": "iron-man-infamous",
+      "defenderId": "bishop",
+      "sourceIds": [
+        "counter-research-bishop-20261031"
+      ],
+      "abilityIds": [
+        "prowess-removal"
+      ],
+      "why": "Player reports favor Infamous Iron Man for this specific Bishop matchup.",
+      "strategy": "Manage Prowess and build special damage while keeping Bishop’s power under control.",
+      "risks": "Do not substitute another Tech champion merely because of class advantage; energy interactions differ.",
+      "conditions": [
+        "Confirm armor-dependent protections remain available.",
+        "Practice Bishop’s Special 2 evade rather than assuming every hit is safe."
+      ],
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "warlock-havok",
+      "attackerId": "warlock",
+      "defenderId": "havok",
+      "sourceIds": [
+        "counter-research-havok-20261031",
+        "counter-research-havok2-20261031"
+      ],
+      "abilityIds": [
+        "armor-up",
+        "power-drain"
+      ],
+      "why": "An active Armor Up protects against Havok’s Plasma detonation mechanic.",
+      "strategy": "Keep the Armor Up active and manage Havok’s power; recheck protection after any armor-removing effect.",
+      "risks": "Buff removal or Armor Break can expose Warlock to detonations.",
+      "conditions": [
+        "An Armor Up buff is required; base armor rating alone is not enough."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "colossus-havok",
+      "attackerId": "colossus",
+      "defenderId": "havok",
+      "sourceIds": [
+        "counter-research-havok-20261031",
+        "counter-research-havok2-20261031"
+      ],
+      "abilityIds": [
+        "armor-up"
+      ],
+      "why": "Colossus supplies Armor Up and a useful answer to non-Tech Armor Break.",
+      "strategy": "Maintain armor and use normal damage openings while baiting Havok’s specials.",
+      "risks": "Buff removal and buff-punishing nodes remain problems even when Armor Break is prevented.",
+      "conditions": [
+        "Do not equate Armor Break immunity with immunity to Nullify or buff suppression."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "guillotine-2099-havok",
+      "attackerId": "guillotine-2099",
+      "defenderId": "havok",
+      "sourceIds": [
+        "counter-research-havok-20261031"
+      ],
+      "abilityIds": [
+        "armor-up",
+        "power-drain"
+      ],
+      "why": "Armor Up plus Special 1 power control gives a second way to manage Havok.",
+      "strategy": "Keep armor active and use Special 1 when power control is more important than damage.",
+      "risks": "Losing armor while Plasma is stacked is dangerous; a previous combo ramp is not assumed.",
+      "conditions": [
+        "Check buff removal and power-control immunity."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "falcon-thing",
+      "attackerId": "falcon",
+      "defenderId": "thing",
+      "sourceIds": [
+        "counter-research-thing-20261031",
+        "counter-research-falcon-20261031"
+      ],
+      "abilityIds": [
+        "lock-on"
+      ],
+      "why": "Locked On can prevent Thing’s defensive Rock Stack gain.",
+      "strategy": "Activate Locked On before attacking. During cooldown, manage stacks and specials instead of continuing blindly.",
+      "risks": "Enhanced ability accuracy can let defensive triggers survive the reduction.",
+      "conditions": [
+        "This plan is not an Abyss or enhanced-accuracy guarantee."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "shang-chi-thing",
+      "attackerId": "shang-chi",
+      "defenderId": "thing",
+      "sourceIds": [
+        "counter-research-thing-20261031"
+      ],
+      "abilityIds": [
+        "slow"
+      ],
+      "why": "Accessible Slow offers control over Thing’s Unstoppable.",
+      "strategy": "Apply the Slow Wushu strike and refresh it before it expires; keep checking Rock Stacks.",
+      "risks": "Slow can fail under immunity or altered ability accuracy.",
+      "conditions": [
+        "Do not assume a Slow icon makes node-based Unstoppable harmless."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "warlock-mister-sinister",
+      "attackerId": "warlock",
+      "defenderId": "mister-sinister",
+      "sourceIds": [
+        "counter-research-sinister-20261031"
+      ],
+      "abilityIds": [
+        "heal-block"
+      ],
+      "why": "Post-buff player reports favor Warlock’s infection-based regeneration control.",
+      "strategy": "Establish infection before major damage and keep its upkeep ahead of Sinister’s healing.",
+      "risks": "Sinister’s transfer mechanics and quest-specific nodes still matter.",
+      "conditions": [
+        "This is the normal champion matchup, not an automatic Act 6 boss solution."
+      ],
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "guardian-mister-sinister",
+      "attackerId": "guardian",
+      "defenderId": "mister-sinister",
+      "sourceIds": [
+        "counter-research-sinister-20261031"
+      ],
+      "abilityIds": [
+        "energy-damage"
+      ],
+      "why": "Guardian’s non-critical damage avoids feeding Sinister’s critical-hit healing.",
+      "strategy": "Build charges and choose a safe special opening without assuming a critical burst.",
+      "risks": "Avoid treating this as blanket protection from Sinister’s degeneration or special attacks.",
+      "conditions": [
+        "Check nodes that modify critical hits, damage types or power gain."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "iron-fist-killmonger",
+      "attackerId": "iron-fist",
+      "defenderId": "killmonger",
+      "sourceIds": [
+        "counter-research-killmonger-20261031",
+        "counter-research-killmonger-passive-20261031"
+      ],
+      "abilityIds": [
+        "armor-break"
+      ],
+      "why": "Armor Break can disable the Vibranium Armor defense behind Reverberation.",
+      "strategy": "Establish Armor Break before sustained attacks and watch for its expiry.",
+      "risks": "The opening is not automatically safe; do not confuse Armor Shatter with permanent removal of passive armor.",
+      "conditions": [
+        "Requires Armor Break to apply and remain active."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "human-torch-rintrah",
+      "attackerId": "human-torch",
+      "defenderId": "rintrah",
+      "sourceIds": [
+        "counter-research-bg-20261031"
+      ],
+      "abilityIds": [
+        "nova-flame"
+      ],
+      "why": "Players report Torch as a Rintrah option without relying on a buff-heavy attacker.",
+      "strategy": "Use the pre-fight when available and create safe damage windows rather than pushing into an unfavorable corner.",
+      "risks": "Rintrah’s root, resistance and node mechanics still need management.",
+      "conditions": [
+        "A pre-fight charge is a limited quest resource; this entry does not guarantee a timer."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "rintrah-galan",
+      "attackerId": "rintrah",
+      "defenderId": "galan",
+      "sourceIds": [
+        "counter-research-bg-20261031",
+        "counter-research-neutralize-20261031"
+      ],
+      "abilityIds": [
+        "neutralize"
+      ],
+      "why": "Player reports favor Rintrah’s buff-prevention approach to Galan.",
+      "strategy": "Establish Neutralize early and keep track of Galan’s Harvest state.",
+      "risks": "Neutralize does not erase Harvest already built.",
+      "conditions": [
+        "Exclude Force of Will and enhanced-accuracy setups where buff prevention fails."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "hulkling-nimrod",
+      "attackerId": "hulkling",
+      "defenderId": "nimrod",
+      "sourceIds": [
+        "counter-research-bg-20261031"
+      ],
+      "abilityIds": [
+        "pierce",
+        "unblockable"
+      ],
+      "why": "Players report Hulkling as a workable Nimrod option.",
+      "strategy": "Use safe openings to build Pierce and access Unblockable damage, while baiting specials.",
+      "risks": "This does not remove every defensive protocol or guarantee a short fight.",
+      "conditions": [
+        "Check nodes that punish buffs or change immunity interactions."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "silk-ebony-maw",
+      "attackerId": "silk",
+      "defenderId": "ebony-maw",
+      "sourceIds": [
+        "counter-research-maw-20261031"
+      ],
+      "abilityIds": [
+        "slow"
+      ],
+      "why": "Frequent knockdowns help delay Maw’s focus cycle.",
+      "strategy": "Work heavy knockdowns into safe openings and bait specials before space runs out.",
+      "risks": "Do not assume ordinary parry timing catches his non-contact opening attack.",
+      "conditions": [
+        "Keep tracking Falter and knockdown opportunities."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "human-torch-ebony-maw",
+      "attackerId": "human-torch",
+      "defenderId": "ebony-maw",
+      "sourceIds": [
+        "counter-research-thing-20261031"
+      ],
+      "abilityIds": [
+        "nova-flame"
+      ],
+      "why": "Player reports repeatedly identify Torch as a Maw damage option.",
+      "strategy": "Build temperature, keep a plan for miss, and use safe knockdowns to interrupt focus.",
+      "risks": "Torch’s miss prevention is conditional; do not assume it is active at fight start.",
+      "conditions": [
+        "Check temperature and avoid feeding Maw unnecessary buffs."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "human-torch-mephisto",
+      "attackerId": "human-torch",
+      "defenderId": "mephisto",
+      "sourceIds": [
+        "counter-research-mephisto-20261031",
+        "counter-research-nova-flame-20261031"
+      ],
+      "abilityIds": [
+        "nova-flame"
+      ],
+      "why": "Nova Flame is distinct from the Incinerate effects Mephisto benefits from.",
+      "strategy": "Activate Torch’s pre-fight when available, then manage Mephisto’s power while applying Nova Flames.",
+      "risks": "An Incinerate-only plan is not equivalent; healing and additional nodes still matter.",
+      "conditions": [
+        "Pre-fight availability must be checked before entering."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "void-mephisto",
+      "attackerId": "void",
+      "defenderId": "mephisto",
+      "sourceIds": [
+        "counter-research-mephisto-20261031"
+      ],
+      "abilityIds": [
+        "petrify"
+      ],
+      "why": "Void combines Incinerate protection with gradual regeneration and power-gain control.",
+      "strategy": "Build Intimidating Presence effects while baiting specials rather than rushing damage.",
+      "risks": "Control takes time and debuff restrictions can undermine it.",
+      "conditions": [
+        "Awakening improves sustained control; do not promise complete healing reversal."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "red-guardian-mojo",
+      "attackerId": "red-guardian",
+      "defenderId": "mojo",
+      "sourceIds": [
+        "counter-research-buffs-20261031"
+      ],
+      "abilityIds": [
+        "buff-immunity"
+      ],
+      "why": "Buff immunity removes the expiring-buff trigger from this approach to Mojo.",
+      "strategy": "Play around prompts and specials while using safe heavy and special openings.",
+      "risks": "Buff immunity does not disable every prompt, node or source of damage.",
+      "conditions": [
+        "Do not generalize buff immunity into universal degeneration immunity."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "titania-dormammu",
+      "attackerId": "titania",
+      "defenderId": "dormammu",
+      "sourceIds": [
+        "counter-research-buffs-20261031"
+      ],
+      "abilityIds": [
+        "buff-immunity"
+      ],
+      "why": "Buff immunity avoids feeding Dormammu’s buff-expiry punishment.",
+      "strategy": "Use openings for debuffs and specials while managing Dormammu’s power.",
+      "risks": "Power control and node damage still apply.",
+      "conditions": [
+        "This prevents a particular trigger, not all degeneration."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "red-guardian-spider-man-supreme",
+      "attackerId": "red-guardian",
+      "defenderId": "spider-man-supreme",
+      "sourceIds": [
+        "counter-research-buffs-20261031"
+      ],
+      "abilityIds": [
+        "buff-immunity"
+      ],
+      "why": "Buff immunity prevents the Spider-Seal buff route into miss.",
+      "strategy": "Use normal safe openings and keep checking for additional node-based miss.",
+      "risks": "Other miss effects are not automatically covered.",
+      "conditions": [
+        "Requires the fight’s danger to come from Spider-Seal, not an unrelated node."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "scorpion-sasquatch",
+      "attackerId": "scorpion",
+      "defenderId": "sasquatch",
+      "sourceIds": [
+        "counter-research-sasquatch-20261031"
+      ],
+      "abilityIds": [
+        "petrify"
+      ],
+      "why": "Petrify offers a route to reducing Sasquatch’s healing.",
+      "strategy": "Time Petrify around healing and respect Unstoppable during Wrath.",
+      "risks": "Slow is not assumed: the cited Slow setup needs Toad synergy.",
+      "conditions": [
+        "Without Toad, play around Unstoppable manually.",
+        "Heal-control immunity or short debuff duration can defeat the plan."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "beta-ray-bill-ant-man-future",
+      "attackerId": "beta-ray-bill",
+      "defenderId": "ant-man-future",
+      "sourceIds": [
+        "counter-research-bill-20261031"
+      ],
+      "abilityIds": [
+        "pulverize"
+      ],
+      "why": "Steady and armor removal address Future Ant-Man’s defensive loop.",
+      "strategy": "Maintain Steady and remove armor before committing to burst damage.",
+      "risks": "Buff suppression can remove the utility this plan needs.",
+      "conditions": [
+        "Check Steady uptime; this is not a universal Glancing counter."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "beta-ray-bill-red-skull",
+      "attackerId": "beta-ray-bill",
+      "defenderId": "red-skull",
+      "sourceIds": [
+        "counter-research-bill-20261031",
+        "counter-research-held-redskull-20261031"
+      ],
+      "abilityIds": [
+        "pulverize",
+        "grit"
+      ],
+      "why": "Armor removal and Grit help manage Red Skull’s defense.",
+      "strategy": "Attack openings, remove armor and prepare Grit before engaging Unstoppable.",
+      "risks": "Power Drain immunity does not stop damage from hitting his block.",
+      "conditions": [
+        "Avoid block-hitting as a default rotation."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "beta-ray-bill-nimrod",
+      "attackerId": "beta-ray-bill",
+      "defenderId": "nimrod",
+      "sourceIds": [
+        "counter-research-bill-20261031"
+      ],
+      "abilityIds": [
+        "pulverize",
+        "grit"
+      ],
+      "why": "Armor removal and Grit offer answers to Nimrod’s armor and Unstoppable.",
+      "strategy": "Keep utility buffs active and punish specials safely.",
+      "risks": "Buff control and Shock restrictions can undermine the damage loop.",
+      "conditions": [
+        "Check current protocols and node effects."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "ironheart-dust",
+      "attackerId": "ironheart",
+      "defenderId": "dust",
+      "sourceIds": [
+        "counter-research-dust-20261031",
+        "counter-research-ironheart-20261031"
+      ],
+      "abilityIds": [
+        "incinerate"
+      ],
+      "why": "Incinerate applications can remove Sand and reduce Dust’s setup.",
+      "strategy": "Select Incinerate before the fight; use medium attacks to keep applying it and avoid unnecessary hits into block.",
+      "risks": "Rupture selection does not supply this same Sand-removal plan.",
+      "conditions": [
+        "Check Incinerate immunity and keep watching Sandstorm."
+      ],
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "venom-spider-ham",
+      "attackerId": "venom",
+      "defenderId": "spider-ham",
+      "sourceIds": [
+        "counter-research-spider-ham-20261031",
+        "counter-research-anti-venom-20261031"
+      ],
+      "abilityIds": [
+        "evade"
+      ],
+      "why": "Klyntar Mutation supplies the Spider-Verse evade counter.",
+      "strategy": "Keep Klyntar Mutation active; avoid throwing specials while Porker Poppers can punish them.",
+      "risks": "Removing the Klyntar buff can restore evade.",
+      "conditions": [
+        "This protection is Spider-Verse-specific and does not cover Nightcrawler."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "anti-venom-spider-gwen",
+      "attackerId": "anti-venom",
+      "defenderId": "spider-gwen",
+      "sourceIds": [
+        "counter-research-anti-venom-20261031"
+      ],
+      "abilityIds": [
+        "ability-accuracy-reduction"
+      ],
+      "why": "Anti-Venom reduces Spider-Verse evade ability accuracy.",
+      "strategy": "Use controlled combos while checking evade behavior and special openings.",
+      "risks": "Enhanced ability accuracy can overcome the base reduction.",
+      "conditions": [
+        "Do not treat reduction as unconditional evade immunity."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "anti-venom-spider-man-classic",
+      "attackerId": "anti-venom",
+      "defenderId": "spider-man-classic",
+      "sourceIds": [
+        "counter-research-anti-venom-20261031"
+      ],
+      "abilityIds": [
+        "ability-accuracy-reduction"
+      ],
+      "why": "His Spider-Verse interaction targets Spider-Man’s evade chance.",
+      "strategy": "Keep pressure through safe openings and test whether node-modified evade remains active.",
+      "risks": "Ability-accuracy protection can invalidate the interaction.",
+      "conditions": [
+        "Applies to Spider-Verse evade; no general miss counter is claimed."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "absorbing-man-terrax",
+      "attackerId": "absorbing-man",
+      "defenderId": "terrax",
+      "sourceIds": [
+        "counter-research-abs-20261031",
+        "counter-research-terrax-20261031"
+      ],
+      "abilityIds": [
+        "form-switching"
+      ],
+      "why": "Kabam reports effective use against Terrax as an intended matchup.",
+      "strategy": "Prepare the appropriate form and maintain it while managing Rock Field and distance.",
+      "risks": "Form downtime and additional nodes can still cost health.",
+      "conditions": [
+        "Check form-dependent protections before engaging Rock Field."
+      ],
+      "modeIds": [
+        "alliance-war"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "absorbing-man-knull",
+      "attackerId": "absorbing-man",
+      "defenderId": "knull",
+      "sourceIds": [
+        "counter-research-abs-20261031"
+      ],
+      "abilityIds": [
+        "form-switching"
+      ],
+      "why": "Kabam identifies Knull among Absorbing Man’s successful intended targets.",
+      "strategy": "Maintain the relevant form and take safe special-punish openings.",
+      "risks": "Favorable kit interactions do not remove Corruption or every node.",
+      "conditions": [
+        "Practice form refreshes before committing in War."
+      ],
+      "modeIds": [
+        "alliance-war"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "absorbing-man-annihilus",
+      "attackerId": "absorbing-man",
+      "defenderId": "annihilus",
+      "sourceIds": [
+        "counter-research-abs-20261031"
+      ],
+      "abilityIds": [
+        "form-switching"
+      ],
+      "why": "Kabam reports effective use in this intended Cosmic matchup.",
+      "strategy": "Keep form protection active and avoid panicked retreat when Annihilus gains momentum.",
+      "risks": "Unstoppable, distance and form downtime still require attention.",
+      "conditions": [
+        "Check active form and node restrictions."
+      ],
+      "modeIds": [
+        "alliance-war"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "namor-electro",
+      "attackerId": "namor",
+      "defenderId": "electro",
+      "sourceIds": [
+        "counter-research-electro-20261031"
+      ],
+      "abilityIds": [],
+      "why": "Max-signature damage reflection addresses Electro’s contact punishment while attacking.",
+      "strategy": "Maintain controlled attack windows; do not treat recovery or defensive time as protected.",
+      "risks": "Low signature does not give the same protection.",
+      "conditions": [
+        "This recorded plan uses signature 200; lower-rarity maximum signatures are not modeled by the roster filter."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": true,
+        "minSignature": 200
+      },
+      "awakening": "Required for this recorded plan",
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "omega-red-electro",
+      "attackerId": "omega-red",
+      "defenderId": "electro",
+      "sourceIds": [
+        "counter-research-electro-20261031"
+      ],
+      "abilityIds": [
+        "ability-accuracy-reduction"
+      ],
+      "why": "Tentacle attacks bypass the damage-back interaction described in player reports.",
+      "strategy": "Use mediums, heavies and suitable specials; leave light attacks out of the plan.",
+      "risks": "Other damage and node effects can still hurt Omega Red.",
+      "conditions": [
+        "Attack selection is essential; energy resistance alone is not immunity."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "falcon-electro",
+      "attackerId": "falcon",
+      "defenderId": "electro",
+      "sourceIds": [
+        "counter-research-electro-20261031"
+      ],
+      "abilityIds": [
+        "lock-on"
+      ],
+      "why": "Locked On can suppress Electro’s defensive damage trigger.",
+      "strategy": "Attack during Locked On and slow down during its cooldown.",
+      "risks": "Enhanced ability accuracy or reduction immunity can restore damage-back.",
+      "conditions": [
+        "Confirm the node permits defensive ability-accuracy reduction."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "archangel-magik",
+      "attackerId": "archangel",
+      "defenderId": "magik",
+      "sourceIds": [
+        "counter-research-magik-20261031"
+      ],
+      "abilityIds": [
+        "neurotoxin"
+      ],
+      "why": "Awakened Neurotoxin can suppress Limbo triggers after setup.",
+      "strategy": "Build Neurotoxins through safe heavy openings before repeatedly pushing Magik across power thresholds.",
+      "risks": "Limbo can trigger during setup; Bleed or Poison immunity breaks the Neurotoxin plan.",
+      "conditions": [
+        "Requires awakening for ability-accuracy reduction.",
+        "Higher signature changes how many Neurotoxins are needed."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "awakening": "Required for this recorded plan",
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "corvus-glaive-emma-frost",
+      "attackerId": "corvus-glaive",
+      "defenderId": "emma-frost",
+      "sourceIds": [
+        "counter-research-emma-20261031",
+        "counter-research-emma-options-20261031"
+      ],
+      "abilityIds": [
+        "armor-break"
+      ],
+      "why": "Armor Break forces Emma out of Diamond Form.",
+      "strategy": "Use a well-timed block to apply Armor Break, then attack while it remains active.",
+      "risks": "Armor Break does not remove awakened reversed controls during specials.",
+      "conditions": [
+        "Check Armor Break immunity and Emma’s awakening."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "medusa-emma-frost",
+      "attackerId": "medusa",
+      "defenderId": "emma-frost",
+      "sourceIds": [
+        "counter-research-emma-20261031",
+        "counter-research-emma-options-20261031"
+      ],
+      "abilityIds": [
+        "armor-break"
+      ],
+      "why": "Armor Break gives access to Emma’s less protected Telepath Form.",
+      "strategy": "Apply and maintain Armor Break before relying on stun or damaging debuffs.",
+      "risks": "Reversed controls still require correct special timing.",
+      "conditions": [
+        "Nodes that prevent Armor Break invalidate this opening."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "galan-omega-sentinel",
+      "attackerId": "galan",
+      "defenderId": "omega-sentinel",
+      "sourceIds": [
+        "counter-research-omega-sentinel-20261031"
+      ],
+      "abilityIds": [
+        "unblockable"
+      ],
+      "why": "Players use Harvest to create a damage window through Omega Sentinel’s armor-heavy defense.",
+      "strategy": "Build Harvest and use its protection deliberately rather than repeatedly hitting into Auto-Block.",
+      "risks": "Auto-Block can still trigger Parry outside the protected window in PvP.",
+      "conditions": [
+        "Check Harvest timing and the opponent’s Parry mastery."
+      ],
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "sentinel-iceman",
+      "attackerId": "sentinel",
+      "defenderId": "iceman",
+      "sourceIds": [
+        "counter-research-sentinel-20261031"
+      ],
+      "abilityIds": [
+        "armor-break"
+      ],
+      "why": "Cold protections make Sentinel a source-supported option against Iceman.",
+      "strategy": "Build Analysis through safe openings and select damage specials around Ice Armor.",
+      "risks": "Cold protection does not remove special-hit damage or every defensive effect.",
+      "conditions": [
+        "Check current Sentinel kit and any additional node damage."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "sentinel-sauron",
+      "attackerId": "sentinel",
+      "defenderId": "sauron",
+      "sourceIds": [
+        "counter-research-sentinel-20261031"
+      ],
+      "abilityIds": [
+        "heal-block"
+      ],
+      "why": "Heal Block addresses one part of Sauron’s sustain.",
+      "strategy": "Maintain Heal Block while baiting specials and respecting Prowess-driven threats.",
+      "risks": "Heal control does not switch off Sauron’s other defenses.",
+      "conditions": [
+        "Do not assume ordinary parry combos remain safe throughout the fight."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "sentinel-colossus",
+      "attackerId": "sentinel",
+      "defenderId": "colossus",
+      "sourceIds": [
+        "counter-research-sentinel-20261031"
+      ],
+      "abilityIds": [
+        "armor-break"
+      ],
+      "why": "A Tech Armor Break option can address Colossus’s armor defense.",
+      "strategy": "Apply Armor Break with Special 1 and build Analysis before damage.",
+      "risks": "Additional Armor Break immunity or debuff removal can prevent this approach.",
+      "conditions": [
+        "Colossus’s class-specific Armor Break protection must be distinguished from node immunity."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "human-torch-dragon-man",
+      "attackerId": "human-torch",
+      "defenderId": "dragon-man",
+      "sourceIds": [
+        "counter-research-dragon-man-20261031"
+      ],
+      "abilityIds": [
+        "nova-flame"
+      ],
+      "why": "The cited Act 7.2 fight supports Torch, with important pre-fight tradeoffs.",
+      "strategy": "Manage Dragon Man’s power and avoid being cornered; on the cited Stunning Reflection setup, pre-fight Nova Flame does not activate the Incinerate-based stun cooldown.",
+      "risks": "Do not use a generic parry-heavy loop on Stunning Reflection.",
+      "conditions": [
+        "Quest-specific evidence: read the actual node panel before choosing pre-fight."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option; current-patch execution and node suitability have not been independently tested.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-10-31",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "negasonic-teenage-warhead-korg",
+      "attackerId": "negasonic-teenage-warhead",
+      "defenderId": "korg",
+      "sourceIds": [
+        "counter-research-ntw-20261101"
+      ],
+      "abilityIds": [
+        "incinerate"
+      ],
+      "why": "Kabam identifies Korg’s damage-back mechanics among her intended targets.",
+      "strategy": "Use her non-contact basic attacks and keep Incinerates active; watch Rock Shield and Unstoppable before extending a combo.",
+      "risks": "The favorable contact interaction does not prevent damage from being hit.",
+      "conditions": [
+        "Check Incinerate restrictions and ability-accuracy modifiers."
+      ],
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "negasonic-teenage-warhead-attuma",
+      "attackerId": "negasonic-teenage-warhead",
+      "defenderId": "attuma",
+      "sourceIds": [
+        "counter-research-ntw-20261101"
+      ],
+      "abilityIds": [
+        "incinerate"
+      ],
+      "why": "Kabam’s balance review supports her utility against Attuma’s contact punishment.",
+      "strategy": "Favor her non-contact attack loop and manage specials; do not assume ordinary parry windows last unchanged.",
+      "risks": "Extra nodes and Incinerate immunity can undermine the plan.",
+      "conditions": [
+        "Treat this as a kit matchup, not a guarantee for every War placement."
+      ],
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "vox-thing",
+      "attackerId": "vox",
+      "defenderId": "thing",
+      "sourceIds": [
+        "counter-research-vox-20261101"
+      ],
+      "abilityIds": [
+        "degeneration"
+      ],
+      "why": "Kabam reports successful Vox use against Thing.",
+      "strategy": "Manage Rock Stacks and bait specials before committing to a Degeneration damage window.",
+      "risks": "The balance report supports the matchup, not automatic suppression of Rock Stacks or Unstoppable.",
+      "conditions": [
+        "Maintain the normal Thing stack-management plan."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "vox-omega-sentinel",
+      "attackerId": "vox",
+      "defenderId": "omega-sentinel",
+      "sourceIds": [
+        "counter-research-vox-20261101"
+      ],
+      "abilityIds": [
+        "degeneration"
+      ],
+      "why": "Kabam specifically identifies Omega Sentinel as a successful utility matchup for Vox.",
+      "strategy": "Build Vox’s damage loop through safe openings and watch her armor and Auto-Block before extending attacks.",
+      "risks": "This is not blanket immunity to Omega Sentinel’s defensive effects.",
+      "conditions": [
+        "Check Degeneration restrictions and additional node mechanics."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "wiccan-sersi",
+      "attackerId": "wiccan",
+      "defenderId": "sersi",
+      "sourceIds": [
+        "counter-research-sersi-20261101",
+        "counter-research-sersi2-20261101"
+      ],
+      "abilityIds": [
+        "neutralize"
+      ],
+      "why": "Players report that maintaining Neutralize prevents Sersi’s buff engine from taking over.",
+      "strategy": "Apply Neutralize with a light-ending combo before her Glancing activates; if Glancing appears during setup, wait it out and re-establish control.",
+      "risks": "Neutralize does not remove an already active Glancing buff.",
+      "conditions": [
+        "Enhanced buff accuracy or ability-accuracy immunity can defeat prevention."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "rintrah-sersi",
+      "attackerId": "rintrah",
+      "defenderId": "sersi",
+      "sourceIds": [
+        "counter-research-sersi-20261101",
+        "counter-research-sersi2-20261101"
+      ],
+      "abilityIds": [
+        "neutralize"
+      ],
+      "why": "Multiple players report Rintrah as a workable Sersi buff-control option.",
+      "strategy": "Establish and maintain Neutralize; take safe openings while tracking Glancing and special range.",
+      "risks": "Existing Glancing and regeneration can delay progress during setup.",
+      "conditions": [
+        "Buff prevention must be allowed by the nodes."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "tigra-sersi",
+      "attackerId": "tigra",
+      "defenderId": "sersi",
+      "sourceIds": [
+        "counter-research-sersi2-20261101"
+      ],
+      "abilityIds": [
+        "neutralize"
+      ],
+      "why": "Players identify Tigra’s buff prevention as a Sersi option.",
+      "strategy": "Maintain Neutralize and use practiced heavy-punish openings; wait for existing Glancing to expire before your main damage window.",
+      "risks": "Heavy-counter timing requires practice; not every special hit is safe to duck.",
+      "conditions": [
+        "Check Neutralize restrictions and learn Sersi’s special spacing."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "shathra-sersi",
+      "attackerId": "shathra",
+      "defenderId": "sersi",
+      "sourceIds": [
+        "counter-research-shathra-20261101"
+      ],
+      "abilityIds": [
+        "atrophy"
+      ],
+      "why": "The reviewed matchup explanation supports shortening Sersi’s Glancing and regeneration buffs.",
+      "strategy": "Build and maintain Atrophy, then attack during the reduced buff downtime.",
+      "risks": "Duration reduction is not instant removal or immunity to special damage.",
+      "conditions": [
+        "Check node modifiers to buff duration and Atrophy access."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "shathra-gorr",
+      "attackerId": "shathra",
+      "defenderId": "gorr",
+      "sourceIds": [
+        "counter-research-shathra-20261101"
+      ],
+      "abilityIds": [
+        "atrophy"
+      ],
+      "why": "Shortening Gorr’s buffs can reduce his sustained defensive pressure.",
+      "strategy": "Maintain Atrophy and monitor his regeneration as health falls; keep baiting safe specials.",
+      "risks": "Shathra’s buff control does not supply general damaging-debuff immunity.",
+      "conditions": [
+        "Watch additional Bleed, Poison or Shock effects rather than treating this as a universal safe counter."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "symbiote-supreme-nova",
+      "attackerId": "symbiote-supreme",
+      "defenderId": "nova",
+      "sourceIds": [
+        "counter-research-nova-20261101"
+      ],
+      "abilityIds": [
+        "nullify",
+        "stagger"
+      ],
+      "why": "A documented War matchup report lists Symbiote Supreme as a Nova option.",
+      "strategy": "Control Nova’s buffs and take safe openings while watching his charge state and Auto-Block.",
+      "risks": "The source concerns an older High Ground season; its boosts and node assumptions are not current-season guidance.",
+      "conditions": [
+        "Check Nullify restrictions and the actual node panel."
+      ],
+      "modeIds": [
+        "alliance-war"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "red-hulk-man-thing",
+      "attackerId": "red-hulk",
+      "defenderId": "man-thing",
+      "sourceIds": [
+        "counter-research-manthing-20261101"
+      ],
+      "abilityIds": [],
+      "why": "The cited Act 7.2 guide supports Red Hulk as a Poison-protected Science option.",
+      "strategy": "Build Heat Charges and use safe specials. In the cited 7.2.4 encounter, account for its special-damage and class-advantage requirements.",
+      "risks": "This source is encounter-specific; do not transfer its node rules to ordinary Man-Thing fights.",
+      "conditions": [
+        "Poison protection does not prevent hit damage or every Armor Break interaction."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "hulkling-mysterio",
+      "attackerId": "hulkling",
+      "defenderId": "mysterio",
+      "sourceIds": [
+        "counter-research-mysterio-20261101",
+        "counter-research-mysterio2-20261101"
+      ],
+      "abilityIds": [
+        "fury"
+      ],
+      "why": "Player reports support Hulkling’s Poison and power-control protections here.",
+      "strategy": "Bait specials and wait out Reflection Gas after SP1 and Illusion Gas after SP2 before committing to damage.",
+      "risks": "Power-control immunity does not prevent Miss or reflected damage.",
+      "conditions": [
+        "War tactics or nodes can invalidate an otherwise favorable base-kit matchup."
+      ],
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "galan-mysterio",
+      "attackerId": "galan",
+      "defenderId": "mysterio",
+      "sourceIds": [
+        "counter-research-mysterio-20261101"
+      ],
+      "abilityIds": [],
+      "why": "Players report Galan as an option for handling Mysterio’s power manipulation.",
+      "strategy": "Build Harvest through safe openings; time its damage window around Mysterio’s gas effects.",
+      "risks": "Galan can still Miss after SP2; do not attack recklessly through Reflection Gas.",
+      "conditions": [
+        "Do not interpret power-control protection as a Miss counter or blanket gas immunity."
+      ],
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "doctor-doom-vision-aarkus",
+      "attackerId": "doctor-doom",
+      "defenderId": "vision-aarkus",
+      "sourceIds": [
+        "counter-research-aarkus-20261101"
+      ],
+      "abilityIds": [
+        "nullify",
+        "stagger",
+        "power-control"
+      ],
+      "why": "Armor Break immunity addresses Aarkus’s Armor-Break-dependent Coldsnap; buff control helps manage power.",
+      "strategy": "Control Power Gain buffs and bait specials before he reaches SP3.",
+      "risks": "Armor Break immunity does not prevent every separate node-applied Coldsnap.",
+      "conditions": [
+        "No awakening-dependent buff copying is required by this recorded plan.",
+        "Check Nullify and power-control restrictions."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "colossus-vision-aarkus",
+      "attackerId": "colossus",
+      "defenderId": "vision-aarkus",
+      "sourceIds": [
+        "counter-research-aarkus-20261101"
+      ],
+      "abilityIds": [
+        "armor-up"
+      ],
+      "why": "Non-Tech Armor Break protection addresses Aarkus’s usual route to applying Coldsnap.",
+      "strategy": "Use safe damage openings and bait specials early; immunity alone does not control his power.",
+      "risks": "Fast Power Gain can still force dangerous specials.",
+      "conditions": [
+        "This covers Aarkus’s native Armor Break interaction, not unrelated node damage."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "doctor-doom-hyperion",
+      "attackerId": "doctor-doom",
+      "defenderId": "hyperion",
+      "sourceIds": [
+        "counter-research-hyperion-20261101"
+      ],
+      "abilityIds": [
+        "stagger",
+        "nullify",
+        "power-control"
+      ],
+      "why": "Player reports describe Stagger suppressing Hyperion’s Power Gain even without Doom’s awakening.",
+      "strategy": "Refresh Stagger through safe heavy openings and use SP1 power control before Hyperion reaches SP3.",
+      "risks": "Losing buff control can let his power climb rapidly; do not wait indefinitely for a special.",
+      "conditions": [
+        "Check power-control and Nullify immunity.",
+        "This plan does not rely on copying Power Gain through Doom’s signature ability."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "iceman-morningstar",
+      "attackerId": "iceman",
+      "defenderId": "morningstar",
+      "sourceIds": [
+        "counter-research-run-20261101",
+        "counter-research-crucible-20261101"
+      ],
+      "abilityIds": [
+        "coldsnap"
+      ],
+      "why": "A first-hand Crucible run uses Iceman; Bleed immunity addresses Morningstar’s contact Bleed.",
+      "strategy": "Use safe combos and specials while keeping an eye on Morningstar’s power and your own buffs.",
+      "risks": "Bleed immunity does not make her special attacks harmless.",
+      "conditions": [
+        "The reported result is quest-specific and does not certify every node combination."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
+    },
+    {
+      "id": "beta-ray-bill-vulture",
+      "attackerId": "beta-ray-bill",
+      "defenderId": "vulture",
+      "sourceIds": [
+        "counter-research-run-20261101",
+        "counter-research-crucible-20261101"
+      ],
+      "abilityIds": [
+        "shock"
+      ],
+      "why": "A first-hand Crucible run and the matchup list both support Bill against Vulture.",
+      "strategy": "Use Bill’s normal safe damage loop while watching Vulture’s power and special effects.",
+      "risks": "The run supports an option, not a universal shutdown of Vulture’s kit.",
+      "conditions": [
+        "Quest-specific evidence; check Shock restrictions and current nodes."
+      ],
+      "modeIds": [
+        "questing"
+      ],
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "score": 2,
+      "scoreReason": "Source-supported option with editorial execution notes; not independently tested in the current game or ranked for the current season.",
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01",
+        "gameVersion": null
+      }
     }
   ],
   "nodes": [
@@ -37785,29 +40697,30 @@
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "crossbones-act6",
       "name": "Crossbones • Act 6",
       "chapter": "6.1.5",
-      "summary": "Provisional preparation: solve the active Poison and healing restrictions. The complete post-2025 node panel still needs in-game verification.",
+      "summary": "Prepare for opening Poison, Arc Overload regeneration, Bane and restricted power access. These mechanics are supported by March 2026 footage.",
       "sourceIds": [
         "boss-crossbones-change",
         "act6-post-rework-review",
-        "act6-v53-release"
+        "act6-v53-release",
+        "act6-footage-crossbones-act6-2026"
       ],
       "phases": [
         {
-          "name": "Before entry — check Poison",
-          "text": "Do not use the launch-era Biohazard plan: that node was replaced by an opening Poison. Check the current panel and bring dependable Poison protection if present."
+          "name": "Opening — protect against Poison",
+          "text": "The March 2026 run still applies Poison at the start. Bring dependable Poison protection; Bleed immunity alone is not enough. Do not use the launch-era Biohazard plan."
         },
         {
-          "name": "Healing — plan for Vigor",
-          "text": "If Vigor remains, arrange healing control or enough sustained damage to overcome each regeneration cycle. Survival alone does not solve the fight."
+          "name": "Healing — answer Arc Overload",
+          "text": "The inspected post-retune panel shows Arc Overload - 1, not the old Vigor-based preparation. Plan for recurring Armor Up and regeneration buffs. Check that your healing-control or buff-control plan can function under his other restrictions."
         },
         {
-          "name": "Power — check your rotation",
-          "text": "If Power Struggle is active, verify that you can reach the special your healing-control setup needs. Do not assume ordinary power generation."
+          "name": "Bane and power — time your openings",
+          "text": "Bane - 1, Force of Will and Power Struggle are visible in the March 2026 panel. Plan the Bane transfer around a safe hit and watch its timer; do not back away through the transfer blindly. Do not assume normal power access or rely on ability-accuracy reduction against Force of Will."
         }
       ],
       "mistakes": [
@@ -37815,11 +40728,12 @@
         "Preparing survival but no answer to regeneration.",
         "Following an old node list without checking the encounter."
       ],
-      "avoid": "This page is a conditional planning aid until the full current node panel is checked. Match Poison protection, healing control and power access together.",
+      "avoid": "Cover Poison, recurring regeneration, Bane transfers and power access together. A champion who solves only one of these is not automatically a complete counter.",
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "The Poison replacement predates the October 2025 rework; it is not a newly confirmed 2025 change. The current Vigor and Power Struggle combination remains unverified."
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-11, 3:53–4:04. Node panel visually inspected: Arc Overload - 1, Stun, Bane - 1, Force of Will and Power Struggle. Opening Poison is described and visible in the encounter."
         ],
         "troubleshooting": [
           {
@@ -37827,13 +40741,13 @@
             "response": "Check regeneration and power restrictions together before choosing a different rotation. A Poison counter alone may not cover the active fight."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. The full Poison description and all numeric node values have not been transcribed. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "sentinel-act6",
       "name": "Sentinel",
@@ -37841,17 +40755,18 @@
       "sourceIds": [
         "act6-legacy-boss-notes",
         "act6-post-rework-review",
-        "act6-v53-release"
+        "act6-v53-release",
+        "act6-footage-sentinel-act6-2026"
       ],
-      "summary": "Provisional preparation. A preparation guide for the Cavalier chapter finale. Act 6 was retuned in October 2025; confirm the current node panel before applying older strategies.",
+      "summary": "March 2026 commentary supports Fisticuffs, Stun Immunity and a power-reset restriction. Prepare safe openings and avoid saving power through a reset.",
       "phases": [
         {
           "name": "Before entry — inspect the live nodes",
-          "text": "Older guides list Stun Immunity, Fisticuffs, Hurt Locker and Plagued Mind. Treat that list as historical, not a verified current loadout. Check which restrictions actually remain."
+          "text": "The March 2026 run calls out Fisticuffs and Stun Immunity. It also warns to spend power before the reset. These have post-retune support; Hurt Locker is still only a historical lead in this review."
         },
         {
           "name": "Openings — fight without relying on parry",
-          "text": "If Stun Immunity is active, use a baited heavy or special recovery to begin your combo. Repeated parry attempts will not create a safe stun opening."
+          "text": "Use heavy or special recovery to create openings rather than assuming a parry stun. Confirm the defender is actually stunned before attacking; a successful block is not proof of a stun."
         },
         {
           "name": "Rotation — adapt to the active restrictions",
@@ -37867,7 +40782,9 @@
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "Do not confuse the 6.1.2 Sentinel miniboss with this 6.1.6 finale. Reports about Biohazard removal from 6.1.2 do not verify the nodes on this boss."
+          "Do not confuse the 6.1.2 Sentinel miniboss with this 6.1.6 finale. Reports about Biohazard removal from 6.1.2 do not verify the nodes on this boss.",
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-13, 13:16–15:15. Post-retune commentary identifies Fisticuffs, Stun Immunity and a power reset."
         ],
         "troubleshooting": [
           {
@@ -37875,62 +40792,75 @@
             "response": "Check the quest number first. That report concerns the 6.1.2 miniboss; it is not evidence that this boss lost Fisticuffs, Hurt Locker or Plagued Mind."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. Hurt Locker and a complete node-panel transcription remain unconfirmed. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "mister-sinister-act6",
       "name": "Mister Sinister • Act 6",
       "chapter": "6.2.2",
-      "summary": "Plan around Caustic Temper: Poison protection and an actual Fury buff. Recent player reports still identify this requirement; the complete current node panel is unverified.",
+      "summary": "Caustic Temper accepts Fury buffs and passive Furies. Cover Poison and keep Fury active; Dex-Fury supplies Fury buffs when you dex special-attack hits.",
       "sourceIds": [
         "boss-sinister-fury",
         "boss-sinister-2026",
         "act6-post-rework-review",
-        "act6-v53-release"
+        "act6-v53-release",
+        "act6-footage-mister-sinister-act6-2026"
       ],
       "phases": [
         {
           "name": "Survive — cover Poison",
-          "text": "Bring Poison protection for Caustic Temper. Check whether it is unconditional or requires a stance, ramp or teammate before entry."
+          "text": "Caustic Temper - 1 gives the defender a 50% chance when struck to inflict a Poison debuff dealing 5% of the attacker’s maximum health as direct damage over 10 seconds. Bring reliable Poison protection and check its activation conditions."
         },
         {
-          "name": "Damage — verify the Fury type",
-          "text": "Caustic Temper asks for a Fury buff. A passive Fury does not satisfy the requirement, however many stacks you have. Check the ability description, not just the icon name."
+          "name": "Damage — Fury buffs and passives qualify",
+          "text": "The current node panel says Fury effect, not Fury buff. Sinister takes 90% less damage when the attacker has no Fury effect. Both Fury buffs and passive Furies satisfy this wording. A generic Attack increase without a Fury effect does not. Keep Fury active when damage lands."
         },
         {
-          "name": "Execute — keep the requirement active",
-          "text": "Plan your damage rotation inside your Fury uptime. If a synergy grants it, verify the teammate and activation action before selecting the team."
+          "name": "Dex-Fury — gain Fury from special attacks",
+          "text": "Dex-Fury - 1 grants a stacking 40% Fury buff whenever you activate Dexterity for a hit from the defender’s special attacks. Maximum 10 stacks; duration 7 seconds, paused during the defender’s special attacks. Bait a special, dex a hit safely, then attack during the Fury window. Dexing basic attacks does not meet this trigger. An attacker does not need an innate Fury if they can gain and maintain this node’s buff."
+        },
+        {
+          "name": "Healing and transfer — avoid feeding the defender",
+          "text": "Critical hits can restore his health. Do not assume a large yellow hit is lasting progress. Damaging debuffs can be transferred back: the March 2026 run demonstrates trouble with Spiral’s Ruptures and warns against Hyperion’s Incinerates. Poison immunity does not protect you from every transferred damage type."
         }
       ],
       "mistakes": [
-        "Substituting passive Fury for a Fury buff.",
-        "Solving Poison but forgetting the damage requirement.",
-        "Assuming a champion rank increase fixes a missing mechanic."
+        "Excluding passive Fury because an older guide said buffs only.",
+        "Assuming any Attack increase counts as Fury.",
+        "Letting Fury expire before your damage rotation.",
+        "Solving Fury but neglecting Poison protection."
       ],
-      "avoid": "Build a team that supplies both requirements. The recent community evidence supports this planning rule, not a tested solo or an exhaustive post-rework walkthrough.",
+      "avoid": "Prioritize Poison protection, safe special evasion and Fury uptime. Dex-Fury broadens options beyond champions with their own Fury; it does not remove Poison, critical-hit healing or debuff-transfer risks.",
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "Post-retune community reports still describe Caustic Temper and a Fury-buff requirement. They do not establish the full support-node panel or guarantee a solo."
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-14, 0:12–0:21; 7:46–13:55. Post-retune commentary confirms Caustic Temper, Poison, Fury uptime, critical-hit healing and damaging-debuff transfer.",
+          "Current node screenshot: supplied by the owner and reviewed November 1, 2026. Caustic Temper - 1 requires a Fury effect, so Fury buffs and passive Furies qualify. Dex-Fury - 1 supplies Fury buffs from Dexterity activations against special hits. This resolves the earlier buff-versus-passive uncertainty.",
+          "Genetic Perfection: Sinister begins with 3 random passive effects from his Signature Ability. Check his starting effects on each attempt."
         ],
         "troubleshooting": [
           {
             "problem": "A Fury effect does not restore damage",
-            "response": "Check that it is an active Fury buff rather than a passive, and that it is present when your damage lands."
+            "response": "Both Fury buffs and passive Furies qualify. Check that the effect is actually Fury and is active when damage lands. A generic Attack increase is not enough. Distinguish reduced damage from Sinister healing after critical hits."
+          },
+          {
+            "problem": "My Poison-immune attacker still loses health",
+            "response": "Check transferred damaging debuffs and incoming hit or block damage. Match protection to the actual damage type; Poison immunity is only one part of this fight."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 using an owner-supplied in-game screenshot and March 2026 footage. The screenshot confirms Caustic Temper - 1, Dex-Fury - 1 and Genetic Perfection and the values quoted here. The upper panel is clipped, so the full remaining node list is not transcribed. This is source-reviewed guidance, not our own gameplay test."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "champion-act6",
       "name": "The Champion",
@@ -37941,25 +40871,26 @@
         "act6-post-rework-review",
         "act6-v53-release",
         "act6-champion-v28",
-        "act6-champion-root-report"
+        "act6-champion-root-report",
+        "act6-footage-champion-act6-2026"
       ],
-      "summary": "Control Fury and Unstoppable, respect the changing thresholds, then remove three Indestructible charges with special-attack dodges.",
+      "summary": "Provisional preparation: control Fury and Unstoppable, then follow the displayed final-phase dodge requirements. Earlier phase thresholds below are historical, not a verified October-2025 kit.",
       "phases": [
         {
-          "name": "100–71% — establish control",
+          "name": "Historical 100–71% — establish control",
           "text": "Watch Fury and Unstoppable before committing. Nullify can remove Fury, but ordinary Heal Block, Petrify and Fate Seal are not dependable healing answers against his immunity rules."
         },
         {
-          "name": "70–31% — watch Unblockable charges",
+          "name": "Historical 70–31% — watch Unblockable charges",
           "text": "Check the Unblockable indicator before blocking. Do not trade hits while he is Unstoppable: being struck can also stun you."
         },
         {
-          "name": "30–11% — avoid assuming your debuffs stick",
+          "name": "Historical 30–11% — check Purify",
           "text": "His Purify can remove damaging and Stun debuffs. Confirm an opening visually before continuing a combo; do not depend on permanent parry control."
         },
         {
-          "name": "Final 10% — dodge, confirm, finish",
-          "text": "Three persistent Indestructible charges must be removed. Trigger Dexterity, or an eligible replacement, against special-attack hits and check that the counter falls. Allow the removal cooldown between successes. Once clear, use specials to finish; basic attacks are not the finishing damage source. Post-retune players also report Root during this sequence; if active, time Dexterity against the special hit while held in place."
+          "name": "Final phase — check the current charge counter",
+          "text": "Earlier official revisions reduced the final-phase Indestructible charges to three and made removal progress persist across attempts. Confirm the current counter and wording before using that older sequence. Trigger Dexterity, or an explicitly eligible replacement, against special hits and confirm a charge disappears; respect any displayed removal cooldown. Under the historical finishing rule, use specials once charges are cleared. Post-retune players report Root here: if active, time the dodge against the incoming hit rather than relying on movement distance."
         }
       ],
       "mistakes": [
@@ -37971,7 +40902,9 @@
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "The three-charge finish and removal of No Retreat belong to the earlier v28.0 update. Persistent final-phase progress and phase healing caps were documented in June 2022. The v53.0 announcement confirms further tuning but does not enumerate the complete revised kit."
+          "The three-charge finish and removal of No Retreat belong to the earlier v28.0 update. Persistent final-phase progress and phase healing caps were documented in June 2022. The v53.0 announcement confirms further tuning but does not enumerate the complete revised kit.",
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-16, 11:04–15:43. Post-retune commentary supports Unstoppable, regeneration, final Indestructible removal and a special-attack finish."
         ],
         "troubleshooting": [
           {
@@ -37979,62 +40912,64 @@
             "response": "An October 11, 2025 player report describes Root helping the final Dexterity sequence. If it appears in your encounter, time the dodge against the incoming special hit rather than expecting the dash to create distance. This report is not a verified full Root rule."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. The author explicitly does not know the phase rules; this footage does not verify all thresholds, the initial charge count, cooldown or full Root rules. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "medusa-act6",
       "name": "Medusa • Act 6",
       "chapter": "6.3.1",
-      "summary": "Build damage around Bleed rather than expecting ordinary hits to work once a Bleed lands. Check the current supporting nodes before entry.",
+      "summary": "The retuned fight uses Bloody Mess: maintain a Bleed debuff or passive to remove the 90% damage reduction. Watch Auto-Block and avoid feeding Explosive Personality.",
       "sourceIds": [
         "boss-medusa-bleed",
         "boss-medusa-2026",
         "act6-post-rework-review",
-        "act6-v53-release"
+        "act6-v53-release",
+        "act6-footage-medusa-act6-2026"
       ],
       "phases": [
         {
-          "name": "Damage — understand the gate",
-          "text": "Do You Bleed? restricts damage sources. Applying a Bleed does not unlock normal hit damage: the Bleed itself is your main damage plan."
+          "name": "Damage — keep Bleed active",
+          "text": "The March 2026 panel shows Bloody Mess. Bleed damage is increased by 25%; all damage is reduced by 90% unless she has a Bleed debuff or passive. Applying Bleed therefore removes this damage reduction for other damage sources too. The old bleed-only Do You Bleed? instructions do not describe this panel."
         },
         {
           "name": "Openings — respect Auto-Block",
-          "text": "Avoid forcing long basic combos through her Auto-Block. Use safe heavy or special openings that apply your Bleeds, checking her Fury state before committing."
+          "text": "Maintain Bleed through safe heavy or special openings. Watch her Fury state and do not force long basic combos through Auto-Block."
         },
         {
-          "name": "Sustain — inspect Buffet",
-          "text": "If Buffet is present, your buffs can feed regeneration. Check that Bleed damage and any healing control can sustain progress rather than being undone by repeated heals."
+          "name": "Blocking — check Explosive Personality",
+          "text": "Explosive Personality is visible on the post-retune panel. Avoid repeatedly hitting her block and building its Armor Up stacks; bait a safe opening instead. Confirm the displayed stack threshold before using block-heavy rotations."
         }
       ],
       "mistakes": [
-        "Expecting basic hits to damage her just because she is bleeding.",
-        "Picking occasional weak Bleeds over a sustained Bleed rotation.",
-        "Ignoring Auto-Block and any active Buffet timer."
+        "Following the old claim that only Bleed itself can damage her.",
+        "Letting Bleed expire before a major damage rotation.",
+        "Repeatedly hitting her block despite Explosive Personality or Auto-Block."
       ],
-      "avoid": "Prioritize reliable Bleed application and safe openings. Recent reports support the Bleed requirement; supporting nodes and current champion interactions still need in-game verification.",
+      "avoid": "Prioritize reliable Bleed uptime and safe openings. Bleed debuffs and passives both satisfy the displayed gate; a champion with sporadic Bleeds may leave your main damage rotation heavily reduced.",
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "Recent community reports continue to recommend Bleed damage. The full post-retune list, including Buffet and other supporting restrictions, has not been independently checked."
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-17, 1:10; 16:01–17:20. Node panel visually inspected: Bloody Mess increases Bleed damage by 25% and reduces all damage by 90% unless the defender has a Bleed debuff or passive. Explosive Personality is also visible."
         ],
         "troubleshooting": [
           {
-            "problem": "Normal hits still do no damage while she is bleeding",
-            "response": "Bleed does not switch off Do You Bleed? for your other damage sources. Build the damage rotation around Bleed itself."
+            "problem": "My damage suddenly drops",
+            "response": "Check whether the last Bleed expired. Bloody Mess restores its 90% reduction when no Bleed debuff or passive is present. Reapply Bleed before spending your main damage special."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. The complete supporting node list, including whether Buffet remains, is not established by the inspected frame. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "captain-america-iw-act6",
       "name": "Captain America (Infinity War)",
@@ -38042,21 +40977,23 @@
       "sourceIds": [
         "act6-cap-guide",
         "act6-post-rework-review",
-        "act6-v53-release"
+        "act6-v53-release",
+        "act6-cap-feedback-history",
+        "act6-footage-captain-america-iw-act6-2026"
       ],
-      "summary": "Provisional preparation. Prepare for the chapter finale by checking its current critical-hit, damage-shield and special-order rules. Older node lists predate the October 2025 retune.",
+      "summary": "March 2026 commentary confirms the critical-hit gate, Destructive Feedback and the SP1 → SP2 → SP3 sequence. Prepare both a damage plan and a power-control or survival plan.",
       "phases": [
         {
           "name": "Damage — check the critical-hit gate",
-          "text": "If Crit Me With Your Best Shot is present, use a champion who can deal critical-hit damage. A damage-over-time rotation alone does not solve that gate."
+          "text": "The post-retune run still identifies critical hits as the damage requirement. A damage-over-time rotation alone is not the intended answer; check that your chosen attacks can actually crit."
         },
         {
           "name": "Timing — respect the damage shield",
-          "text": "If Destructive Feedback remains, delay your damage rotation until its shield expires. Avoid contact while it is storing damage rather than forcing a long combo."
+          "text": "If Destructive Feedback remains, save your damage rotation for the shield cooldown. The historical node stores damage while shielded; the danger is the defender hitting you OR your block, which returns stored damage to you. Blocking is therefore not a safe substitute for avoiding the hit. Historical reports describe the critical-hit gate also preventing the stored non-critical damage from hurting this boss on expiry; do not rely on that delayed payout."
         },
         {
           "name": "Power — plan beyond SP2",
-          "text": "If Surging Vengeance remains, expect the special sequence to progress toward SP3. Bring a verified power-control or survival plan; repeatedly waiting for another SP1 is not sufficient."
+          "text": "The post-retune run confirms a sequence progressing from SP1 to SP2 to SP3. Plan power control or survival before reaching the last step; repeatedly waiting for another SP1 will not solve it."
         }
       ],
       "mistakes": [
@@ -38068,7 +41005,8 @@
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "Crit Me With Your Best Shot, Destructive Feedback and Surging Vengeance are historical mechanics in this guide. No complete post-October-2025 panel was found to establish which remain or their current values."
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-22, 0:16–1:25. Post-retune commentary identifies critical-hit-only damage, Destructive Feedback and the SP1 → SP2 → SP3 sequence."
         ],
         "troubleshooting": [
           {
@@ -38076,13 +41014,13 @@
             "response": "Check the live damage gate, feedback timer and special sequence before following an older counter recommendation."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. Exact node values, shield payout interactions and the full supporting node list remain unconfirmed. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
       "questId": "act-6",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-01",
       "videoIds": [],
       "id": "grandmaster",
       "name": "The Grandmaster",
@@ -38092,7 +41030,8 @@
         "act6-legacy-boss-notes",
         "act6-post-rework-review",
         "act6-v53-release",
-        "act6-gm-post-retune"
+        "act6-gm-post-retune",
+        "act6-footage-grandmaster-2026"
       ],
       "summary": "Follow his rules to create Wounded damage windows. Prioritize prompts and special reactions over ordinary damage.",
       "phases": [
@@ -38126,7 +41065,9 @@
       "guideDetails": {
         "preparation": [
           "The October 2025 v53.0 announcement confirms reduced signature levels, simpler nodes and tuning for The Champion and Grandmaster. It does not list every individual boss node.",
-          "An October 9, 2025 player report describes a ten-Blunder allowance after the retune. This is community evidence, not an official per-phase table; use the live counter rather than older three- or five-Blunder instructions."
+          "An October 9, 2025 player report describes a ten-Blunder allowance after the retune. This is community evidence, not an official per-phase table; use the live counter rather than older three- or five-Blunder instructions.",
+          "Post-October-8-2025 players report removed global nodes. Do not carry a pre-retune quest-wide restriction into this fight automatically: inspect the current quest, path and boss panels separately. These reports do not establish every remaining boss node.",
+          "Post-retune footage check: 2026-03-26, 6:49–25:41. Post-retune commentary supports action bans, the three SP1 responses, challenges, Wounded windows and later reversed controls."
         ],
         "troubleshooting": [
           {
@@ -38134,7 +41075,7 @@
             "response": "Follow the on-screen allowance and prompts. The reported increase gives more room for mistakes; it does not remove the need to create Wounded windows."
           }
         ],
-        "scope": "Retune evidence reviewed October 30, 2026. Confirmed patch scope, dated historical changes and community reports are distinguished here. The complete current node panel and current-build gameplay remain unverified."
+        "scope": "Reviewed November 1, 2026 against dated post-retune footage and commentary. This review does not establish a complete phase-by-phase Blunder allowance, exact timers or a new full node-panel transcription. This is source-reviewed guidance, not our own gameplay test or a claim of complete current-build verification."
       }
     },
     {
@@ -39429,6 +42370,33 @@
       "class": "Mystic",
       "sourceIds": [
         "roster-juggernaut"
+      ]
+    },
+    {
+      "id": "statcast-insulated-mystic-relic-of-toughness",
+      "name": "Insulated Mystic Relic of Toughness",
+      "kind": "statcast",
+      "class": "Mystic",
+      "sourceIds": [
+        "relic-review-agatha-harkness-20261101"
+      ]
+    },
+    {
+      "id": "statcast-shielded-cosmic-relic-of-impact",
+      "name": "Shielded Cosmic Relic of Impact",
+      "kind": "statcast",
+      "class": "Cosmic",
+      "sourceIds": [
+        "relic-review-carina-tivan-20261101"
+      ]
+    },
+    {
+      "id": "statcast-expert-mutant-relic-of-ferocity",
+      "name": "Expert Mutant Relic of Ferocity",
+      "kind": "statcast",
+      "class": "Mutant",
+      "sourceIds": [
+        "relic-review-colossus-age-of-apocalypse-20261101"
       ]
     }
   ],

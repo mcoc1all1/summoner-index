@@ -1,6 +1,6 @@
 # Fieldguide — MCOC public beta
 
-Independent fan companion with 333 champion records, 49 relics, stat-focus trials for 332 champions, 33 matchup records and 24 boss preparation guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
+Independent fan companion with 333 champion records, 52 relics, stat-focus trials for 332 champions, 99 matchup records covering 56 defenders and 24 boss preparation guides and six Carina Volume 4 challenge guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
 
 ## Local use
 
@@ -22,7 +22,7 @@ The Pages workflow builds and tests the research version, then builds the public
 - SITE_BASE_PATH=/summoner-index
 - PUBLIC_BETA=1
 
-The beta has 736 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
+The beta has 743 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
 
 Enable Settings → Pages → Source: GitHub Actions. Private-source Pages requires a supporting paid GitHub plan. Do not change repository visibility without the owner's approval. The workflow deploys on pushes to main and supports manual runs. Deployment is complete only after the Pages job succeeds and the live URL works.
 
