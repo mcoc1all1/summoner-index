@@ -20,16 +20,16 @@ test('loadout filters intersect and preserve an explicit empty state',()=>{
  assert(loadoutCards(db,'Storm','Mutant').count>1);
 });
 test('unverified profiles and comparisons withhold focus values',()=>{
- const c=db.champions.find(c=>c.id==='spider-man-noir');
+ const data=structuredClone(db),c=data.champions.find(c=>c.id==='spider-man-noir');delete c.statFocusEligibility;
  assert.equal(focusPublicValue(c,'attack'),'Hidden — 7★ eligibility not verified');
- assert.match(loadoutPanel(db,c),/FOCUS DRAFT WITHHELD/);
- const compare=compareTable(db,[c.id]);
+ assert.match(loadoutPanel(data,c),/FOCUS DRAFT WITHHELD/);
+ const compare=compareTable(data,[c.id]);
  assert.match(compare,/Hidden — 7★ eligibility not verified/);
  assert(!compare.includes(`<td>${c.loadout.attackFocus}</td>`));
  assert.match(loadoutGuide(db),/Exact Stat Focus picks are shown only when 7★ eligibility is explicitly confirmed/);
 });
-test('verified priority profiles expose their editorial focus drafts',()=>{
- const c=db.champions.find(c=>c.id==='bullseye');
+test('verified profiles expose their editorial focus drafts',()=>{
+ const c=db.champions.find(c=>c.id==='spider-man-noir');
  assert.equal(focusPublicValue(c,'attack'),c.loadout.attackFocus);
  assert.match(loadoutPanel(db,c),/VERIFIED-ELIGIBILITY FOCUS TRIAL/);
  const compare=compareTable(db,[c.id]);
@@ -44,16 +44,16 @@ test('loadout renderer escapes imported text and supports an unreviewed record',
 
 test('standalone focus drafts remain hidden until eligibility is verified',()=>{
  const c=structuredClone(db.champions.find(c=>c.id==='spider-man-noir'));
- c.focusTrial={attackFocus:'Block Penetration',attackAlternative:'Block Proficiency',attackReason:'Fixture trial',eligibility:'Eligible 7-star only',status:'editorial-trial',reviewedAt:'2026-10-28',sourceIds:c.sourceIds};delete c.loadout;
+ c.focusTrial={attackFocus:'Block Penetration',attackAlternative:'Block Proficiency',attackReason:'Fixture trial',eligibility:'Eligible 7-star only',status:'editorial-trial',reviewedAt:'2026-10-28',sourceIds:c.sourceIds};delete c.loadout;delete c.statFocusEligibility;
  assert.match(loadoutPanel(db,c),/STAT FOCUS WITHHELD/);
  assert(!loadoutPanel(db,c).includes('7★ attacker starting point: Block Penetration'));
- const focusSearch=loadoutCards(db,c.focusTrial.attackFocus,'Skill');
+ const copy=structuredClone(db),entry=copy.champions.find(x=>x.id==='spider-man-noir');delete entry.loadout;entry.focusTrial=structuredClone(c.focusTrial);delete entry.statFocusEligibility;
+ const focusSearch=loadoutCards(copy,c.focusTrial.attackFocus,'Skill');
  assert(!focusSearch.html.includes('/champions/spider-man-noir'));
- const copy=structuredClone(db),entry=copy.champions.find(c=>c.id==='spider-man-noir');delete entry.loadout;entry.focusTrial=structuredClone(c.focusTrial);
  entry.focusTrial.attackReason='<script>unsafe</script>';
  assert(!loadoutPanel(copy,entry).includes('<script>'));
  for(const change of [f=>f.sourceIds=['missing'],f=>f.reviewedAt='2026-02-30',f=>f.attackFocus='Invincibility',f=>f.status='tested']){
-  const invalid=structuredClone(copy);change(invalid.champions.find(c=>c.id===entry.id).focusTrial);
+  const invalid=structuredClone(copy);change(invalid.champions.find(x=>x.id===entry.id).focusTrial);
   assert(validate(invalid).length);
  }
 });
@@ -81,10 +81,12 @@ test('paginated guidance covers the full result set without duplicate cards',()=
 test('guidance filters separate hidden drafts from verified focus',()=>{
  const drafts=loadoutCards(db,'','',{coverage:'drafts'});
  const verified=loadoutCards(db,'','',{coverage:'verified'});
+ const expectedVerified=db.champions.filter(c=>(c.loadout?.attackFocus||c.focusTrial?.attackFocus)&&c.statFocusEligibility?.status==='confirmed').length;
  assert(drafts.count>0);
- assert.equal(verified.count,17);
+ assert.equal(verified.count,expectedVerified);
  assert.equal(loadoutCards(db,'Bullseye','Skill',{coverage:'verified'}).count,1);
- assert.equal(loadoutCards(db,'Spider-Man Noir','Skill',{coverage:'drafts'}).count,1);
+ assert.equal(loadoutCards(db,'Spider-Man Noir','Skill',{coverage:'verified'}).count,1);
+ assert.equal(loadoutCards(db,'Doctor Doom','Mystic',{coverage:'drafts'}).count,1);
  assert.equal(loadoutCards(db,'does-not-exist','',{pageSize:12,page:900}).start,0);
  assert.equal((loadoutGuide(db).match(/class="panel loadout-card"/g)||[]).length,12);
 });
