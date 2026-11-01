@@ -20,14 +20,15 @@ test('every champion has a dated 7-star availability classification or explicit 
 });
 
 test('the reviewed snapshot distinguishes known available and unavailable examples',()=>{
- for(const id of ['spider-man-noir','iceman','havok','shang-chi','nimrod','kitty-pryde','ghost-rider-robbie-reyes'])assert.equal(db.champions.find(c=>c.id===id)?.rarityAvailability?.sevenStarAvailable,true,id);
- for(const id of ['doctor-doom','hercules','kate-bishop','quake','magneto','archangel'])assert.equal(db.champions.find(c=>c.id===id)?.rarityAvailability?.sevenStarAvailable,false,id);
- assert.equal(db.champions.filter(c=>c.rarityAvailability?.sevenStarAvailable===true).length,266);
- assert.equal(db.champions.filter(c=>c.rarityAvailability?.sevenStarAvailable===false).length,67);
+ for(const id of ['spider-man-noir','iceman','havok','shang-chi','nimrod','kitty-pryde','ghost-rider-robbie-reyes','archangel','cable','colossus-age-of-apocalypse','goldpool','green-goblin-stellar-forged','wolverine-x-23'])assert.equal(db.champions.find(c=>c.id===id)?.rarityAvailability?.sevenStarAvailable,true,id);
+ for(const id of ['doctor-doom','hercules','kate-bishop','quake','magneto','ghost'])assert.equal(db.champions.find(c=>c.id===id)?.rarityAvailability?.sevenStarAvailable,false,id);
+ assert.equal(db.champions.filter(c=>c.rarityAvailability?.sevenStarAvailable===true).length,272);
+ assert.equal(db.champions.filter(c=>c.rarityAvailability?.sevenStarAvailable===false).length,61);
 });
 
 test('roster validation rejects impossible reviewed 7-star builds but permits verified ones',()=>{
  const base=id=>({version:1,champions:[{id,awakened:false,signature:0,rarity:7}]});
  assert.throws(()=>normalizeRoster(base('doctor-doom'),db),/not listed as a 7★ champion/);
  assert.equal(normalizeRoster(base('spider-man-noir'),db).champions[0].rarity,7);
+ assert.equal(normalizeRoster(base('archangel'),db).champions[0].rarity,7);
 });
