@@ -64,6 +64,16 @@
         "status": "source-gap",
         "checkedAt": "2026-11-01",
         "note": "Official October 2026 sources confirm the core mechanics and immunities. Detailed rotation, awakening, relic and matchup guidance still need individual review."
+      },
+      "loadoutException": {
+        "status": "eligibility-unresolved",
+        "reviewedAt": "2026-11-01",
+        "reason": "Current 7-star Stat Focus eligibility and compatible relic options have not been verified from the cited official release material.",
+        "nextStep": "Confirm current 7-star availability and owned relic compatibility before publishing Stat Focus or relic guidance.",
+        "sourceIds": [
+          "official-v59-release-notes-20261002",
+          "official-robbie-reyes-recap-20261002"
+        ]
       }
     }
   ],
