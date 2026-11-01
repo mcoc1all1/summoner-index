@@ -1,0 +1,24 @@
+name: Accuracy patch checks
+on:
+  push:
+    branches: [fix/content-accuracy-2026-11-01]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run build
+      - run: npm test
+      - name: Build and check public beta
+        run: npm run build && node scripts/check-beta.mjs
+        env:
+          SITE_ORIGIN: https://mcoc1all1.github.io
+          SITE_BASE_PATH: /summoner-index
+          PUBLIC_BETA: '1'
