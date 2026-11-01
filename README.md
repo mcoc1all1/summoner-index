@@ -1,8 +1,8 @@
 # Fieldguide — MCOC public beta
 
-Independent fan companion with 334 champion records, 52 relics, stat-focus trials for 332 champions, 114 matchup records covering 61 defenders, 25 boss preparation guides and six Carina Volume 4 challenge guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
+Independent fan companion with 334 champion records, 52 relics, stat-focus trials for 332 champions, 120 matchup records covering 64 defenders, 28 boss preparation guides and six Carina Volume 4 challenge guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
 
-The November 1, 2026 accuracy patches add Ghost Rider (Robbie Reyes), correct Scytalis phase labels, repair malformed generated initials, expand boss-guide preparation and troubleshooting, correct the Cerastes 1% finish, and add the Act 10.4.4 Chronoserpent. Small reviewed corrections live in `content/accuracy-patches.json` and modular `content/boss-*-patches.json` files so urgent factual updates can be reviewed without rewriting the large research catalog by hand.
+The November 1, 2026 accuracy patches add Ghost Rider (Robbie Reyes), correct Scytalis phase labels, repair malformed generated initials, expand boss-guide preparation and troubleshooting, correct the Cerastes 1% finish, add the Act 10.4.4 Chronoserpent, and split Act 9.4.6 Carina into a shared overview plus separate Mutant/Mystic Vulnerability, Science/Tech Vulnerability and Skill/Cosmic Vulnerability guides. Small reviewed corrections live in `content/accuracy-patches.json` and modular `content/boss-*-patches.json` files so urgent factual updates can be reviewed without rewriting the large research catalog by hand.
 
 ## Local use
 
@@ -24,7 +24,7 @@ The Pages workflow builds and tests the research version, then builds the public
 - SITE_BASE_PATH=/summoner-index
 - PUBLIC_BETA=1
 
-The beta has 750 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
+The beta has 756 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
 
 Enable Settings → Pages → Source: GitHub Actions. Private-source Pages requires a supporting paid GitHub plan. Do not change repository visibility without the owner's approval. The workflow deploys on pushes to main and supports manual runs. Deployment is complete only after the Pages job succeeds and the live URL works.
 
@@ -33,7 +33,7 @@ To preview the GitHub paths locally in PowerShell:
 ```powershell
 $env:SITE_ORIGIN='https://mcoc1all1.github.io'
 $env:SITE_BASE_PATH='/summoner-index'
-$env:PUBLIC_BETA='1'
+$env:PUBLIC_BETA=1
 npm run build
 node scripts/check-beta.mjs
 npm run dev
