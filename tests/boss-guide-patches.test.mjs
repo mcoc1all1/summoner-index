@@ -8,7 +8,7 @@ const boss=id=>db.bosses.find(b=>b.id===id);
 
 test('expanded boss guide catalog validates and includes Act 10 Chronoserpent',()=>{
  assert.deepEqual(validate(db),[]);
- assert.equal(db.bosses.length,25);
+ assert.equal(db.bosses.length,28);
  const chrono=boss('chronoserpent-act10');
  assert(chrono);
  assert.equal(chrono.chapter,'10.4.4');
@@ -57,7 +57,7 @@ test('late-story bosses expose concise mechanic terminology and phase cheat shee
 test('new boss counters remain conservative community recommendations',()=>{
  const bossIds=new Set(db.bosses.map(b=>b.id));
  const counters=db.counters.filter(c=>bossIds.has(c.defenderId));
- assert(counters.length>=17);
+ assert(counters.length>=23);
  for(const c of counters.filter(c=>['chronoserpent-act10','superior-kang','cerastes','glykhan','nameless-grandmaster'].includes(c.defenderId))){
   assert(c.score<=3,c.id);
   assert.equal(c.review?.status,'community-sourced',c.id);

@@ -1,10 +1,670 @@
 {
   "version": 1,
   "reviewedAt": "2026-11-01",
+  "sources": [
+    {
+      "id": "boss-carina-act94-stream-recap-20260402",
+      "title": "Act 9.4 Carina three-version announcement • community stream recap",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2944757",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "boss-carina-act94-counter-reports-202604",
+      "title": "Act 9.4.6 Carina attacker reports • community discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2947481",
+      "kind": "community-report",
+      "checkedAt": "2026-11-01"
+    }
+  ],
+  "quests": [
+    {
+      "id": "act-9",
+      "name": "Act 9 • Boss field notes",
+      "description": "Chapter-final encounters from Orochi to Carina. Carina 9.4.6 now has a shared overview plus separate pages for its three Signature Ability variants; path exploration and Epilogue versions are separate.",
+      "bossIds": [
+        "orochi",
+        "lotan",
+        "dread-emperor-doom",
+        "carina-chronoserpent",
+        "carina-mutant-mystic-vulnerability",
+        "carina-science-tech-vulnerability",
+        "carina-skill-cosmic-vulnerability"
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "id": "carina-mutant-mystic-vulnerability",
+      "name": "Carina — Mutant/Mystic Vulnerability",
+      "chapter": "9.4.6 · Fight A",
+      "questId": "act-9",
+      "nodeIds": [],
+      "reviewedAt": "2026-11-01",
+      "videoIds": [],
+      "sourceIds": [
+        "boss-carina-infection-report",
+        "boss-carina-variants-report",
+        "boss-carina-simula-breakdown",
+        "boss-v59-fixes",
+        "boss-carina-act94-stream-recap-20260402",
+        "boss-carina-act94-counter-reports-202604"
+      ],
+      "summary": "Fight A of Act 9.4.6. The Signature Ability is Mutant-Mystic Vulnerability: Carina emulates Skill/Cosmic mechanics, while Mutant/Mystic attackers receive the intended class-pair advantages. The core route mechanic is Encroaching ISO Infection.",
+      "mechanicTags": [
+        "Mutant-Mystic Vulnerability",
+        "Encroaching ISO Infection",
+        "ISO Infection",
+        "Chrono Corruption",
+        "Elder’s Resistance",
+        "Special Lock",
+        "Striker Lock",
+        "Tranquilize"
+      ],
+      "phases": [
+        {
+          "name": "Identify the variant",
+          "text": "Confirm the Signature Ability reads Mutant-Mystic Vulnerability and the fight is using Encroaching ISO Infection. Carina is drawing from Skill/Cosmic-style mechanics here; the vulnerability label names the attacker pair that receives the intended matchup advantages."
+        },
+        {
+          "name": "Build Chrono Corruption with ISO Infection",
+          "text": "When ISO Infection is active, plan its expiry around a Special Attack or Striker. Preventing the Infection expiry damage this way advances Chrono Corruption. A Medium-opening Basic Attack sequence can affect the Infection timing, so watch the timer rather than spending a Special immediately after every combo."
+        },
+        {
+          "name": "Phase 1 — respect Buff pressure",
+          "text": "The first half adds Buff-driven pressure and can make blocked hits less comfortable than they look. Use spacing and clean Special Attack dodges instead of treating Block as the default answer to every sequence."
+        },
+        {
+          "name": "Phase 2 — manage Special Lock and Striker Lock",
+          "text": "Below 50%, the timing puzzle becomes stricter as Special Lock and Striker Lock can interfere with the tool you planned to use for ISO Infection. Preserve the available option and avoid entering the expiry window with both routes unavailable."
+        },
+        {
+          "name": "Use Elder’s Resistance for sustain",
+          "text": "This variant can grant Elder’s Resistance through class-identity interactions such as shortening Carina’s Buff duration or using reduced-cost Special Attacks. Treat Elder’s Resistance as sustain support, not as a substitute for completing the Infection mechanic."
+        },
+        {
+          "name": "Finish the individual encounter",
+          "text": "Continue converting ISO Infection cycles into Chrono Corruption until the encounter reaches its finishing state. The separate three-Carina special-path finale has additional story behavior and is covered on the overview page rather than being treated as this variant’s normal finish."
+        }
+      ],
+      "mistakes": [
+        "Calling this the Skill/Cosmic Vulnerability fight because Carina is emulating Skill/Cosmic mechanics. The Signature Ability is Mutant-Mystic Vulnerability.",
+        "Throwing a Special Attack too early and then having no Special or Striker available when ISO Infection expires.",
+        "Relying on Parry Stun as the only opening once Tranquilize and the Phase 2 lock mechanics are active."
+      ],
+      "avoid": "Prefer a Mutant or Mystic attacker whose normal rotation can leave a Special Attack or Striker available for ISO Infection expiry. Do not choose only by class: the player still has to execute the Infection timing.",
+      "guideDetails": {
+        "relatedGuides": [
+          {
+            "label": "Act 9.4.6 overview",
+            "href": "/bosses/carina-chronoserpent",
+            "note": "Shared Chrono Corruption, Elder’s Resistance and special-path finale notes"
+          },
+          {
+            "label": "Science/Tech Vulnerability",
+            "href": "/bosses/carina-science-tech-vulnerability",
+            "note": "Fight B · Corrupted ISO Blast · Carina emulates Mutant/Mystic"
+          },
+          {
+            "label": "Skill/Cosmic Vulnerability",
+            "href": "/bosses/carina-skill-cosmic-vulnerability",
+            "note": "Fight C · Corrupted ISO Traps · Carina emulates Science/Tech"
+          }
+        ],
+        "attackerProfile": [
+          "Mutant or Mystic attackers are the intended vulnerability pair for this version.",
+          "Can hold a Special Attack or Striker until ISO Infection is ready to expire rather than spending every bar immediately.",
+          "Has a comfortable spacing plan when Parry Stun or one of the two activation tools is temporarily unavailable."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Signature Ability",
+            "objective": "Confirm Mutant-Mystic Vulnerability",
+            "watch": "Carina herself is emulating Skill/Cosmic mechanics"
+          },
+          {
+            "stage": "Chrono Corruption",
+            "objective": "Let ISO Infection expire during a Special Attack or Striker",
+            "watch": "Do not spend both tools before the expiry window"
+          },
+          {
+            "stage": "Phase 1",
+            "objective": "Manage the Buff-driven pressure",
+            "watch": "Block is not always the safest answer"
+          },
+          {
+            "stage": "Below 50%",
+            "objective": "Work around Special Lock / Striker Lock",
+            "watch": "Keep whichever activation route is still available"
+          },
+          {
+            "stage": "Sustain",
+            "objective": "Build Elder’s Resistance through qualifying RPG interactions",
+            "watch": "Resistance helps survival; it does not replace the Infection loop"
+          }
+        ],
+        "preparation": [
+          "Read the Signature Ability before the first attempt; the vulnerability name and Carina’s emulated classes are intentionally opposite concepts.",
+          "Practice watching the ISO Infection timer while staying ready to activate either a Special Attack or Striker.",
+          "If your plan depends on a Parry Stun, keep a spacing-based fallback for the later half."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "I used the right class but Chrono Corruption is not increasing",
+            "response": "Class choice does not award Corruption by itself. Time ISO Infection so its expiry is covered by your Special Attack or Striker."
+          },
+          {
+            "problem": "ISO Infection expires while my Special is unavailable",
+            "response": "Stop spending Power on cooldown. Build the next cycle around the Infection timer and keep the Striker as the backup route where available."
+          },
+          {
+            "problem": "My Parry stops giving the opening I expected",
+            "response": "Check the active Tranquilize/lock mechanics and switch to spacing or Special Attack recovery instead of repeating the same Parry plan."
+          }
+        ],
+        "scope": "Act 9.4.6 Fight A only: Mutant-Mystic Vulnerability and Encroaching ISO Infection. Shared Chronoserpent Corruption rules and the special fourth-path finale are summarized on the Act 9.4.6 overview."
+      },
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-01",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The class-pair naming, Infection loop and later lock mechanics were separated from the former combined guide. No independent current-client gameplay test is recorded."
+      }
+    },
+    {
+      "id": "carina-science-tech-vulnerability",
+      "name": "Carina — Science/Tech Vulnerability",
+      "chapter": "9.4.6 · Fight B",
+      "questId": "act-9",
+      "nodeIds": [],
+      "reviewedAt": "2026-11-01",
+      "videoIds": [],
+      "sourceIds": [
+        "boss-carina9-kit",
+        "boss-carina-variants-report",
+        "boss-carina-simula-breakdown",
+        "boss-v59-fixes",
+        "boss-carina-act94-stream-recap-20260402",
+        "boss-carina-act94-counter-reports-202604"
+      ],
+      "summary": "Fight B of Act 9.4.6. The Signature Ability is Science-Tech Vulnerability: Carina is treated as Mutant/Mystic in addition to Superior, while Science/Tech attackers receive the intended class-pair advantages. The core mechanic is Corrupted ISO Blast.",
+      "mechanicTags": [
+        "Science-Tech Vulnerability",
+        "Corrupted ISO Blast",
+        "Blast Energy",
+        "Chrono Corruption",
+        "Elder’s Resistance",
+        "Prowess",
+        "Steadfast",
+        "Root",
+        "Unblockable"
+      ],
+      "phases": [
+        {
+          "name": "Identify the variant",
+          "text": "Confirm the Signature Ability reads Science-Tech Vulnerability and the node panel describes Corrupted ISO Blast. Carina is treated as Mutant/Mystic for attacker abilities in this version; Science/Tech is the vulnerability pair."
+        },
+        {
+          "name": "Charge and reflect the Corrupted ISO Blast",
+          "text": "Well-Timed Blocks against eligible hits add Blast Energy, and Blast Energy also rises over time. When the projectile is launched, return it with a Well-Timed Block, Auto-Block, or a released Heavy Attack. A successful return gives Carina Chrono Corruption; Heavy reflections can accelerate that progress."
+        },
+        {
+          "name": "Phase 1 — manage Prowess",
+          "text": "Critical Hits and certain expiring attacker Buffs can build Carina’s Prowess. At high enough Prowess her Special Attack 1 becomes Passively Unblockable, so watch the Prowess count instead of assuming SP1 can always be blocked."
+        },
+        {
+          "name": "Phase 1 — use the Steadfast interaction when available",
+          "text": "Applying enough non-Damaging Debuffs can grant the attacker Steadfast. The fight also provides ways for Carina to lose personal Prowess when specific blocked or heavily reduced hits connect. Treat this as Prowess control, not as a reason to tank every attack."
+        },
+        {
+          "name": "Phase 2 — expect the Blast to come back",
+          "text": "Below 50%, Carina can Block a reflected Corrupted ISO Blast and send it back. Stay ready to return the same projectile again instead of assuming one reflection completes the cycle."
+        },
+        {
+          "name": "Phase 2 — track Root after Special Attacks",
+          "text": "Her Special Attacks start a delayed Root sequence in the second half. Leave enough room to manage the timer and avoid committing to a long action when the Root is about to become active."
+        }
+      ],
+      "mistakes": [
+        "Calling this the Mutant/Mystic Vulnerability fight because Carina is treated as Mutant/Mystic. The Signature Ability is Science-Tech Vulnerability.",
+        "Reflecting the Corrupted ISO Blast once below 50% and then dropping your guard when Carina sends it back.",
+        "Ignoring Prowess and attempting to block an SP1 after it has become Passively Unblockable."
+      ],
+      "avoid": "Science and Tech attackers receive the intended vulnerability benefits, but the decisive mechanic is still returning the Corrupted ISO Blast. Bring a Champion whose rotation leaves you comfortable reacting to repeated projectiles and the Phase 2 Root timer.",
+      "guideDetails": {
+        "relatedGuides": [
+          {
+            "label": "Act 9.4.6 overview",
+            "href": "/bosses/carina-chronoserpent",
+            "note": "Shared Chrono Corruption, Elder’s Resistance and special-path finale notes"
+          },
+          {
+            "label": "Mutant/Mystic Vulnerability",
+            "href": "/bosses/carina-mutant-mystic-vulnerability",
+            "note": "Fight A · Encroaching ISO Infection · Carina emulates Skill/Cosmic"
+          },
+          {
+            "label": "Skill/Cosmic Vulnerability",
+            "href": "/bosses/carina-skill-cosmic-vulnerability",
+            "note": "Fight C · Corrupted ISO Traps · Carina emulates Science/Tech"
+          }
+        ],
+        "attackerProfile": [
+          "Science or Tech attacker for the intended vulnerability benefits and improved Elder’s Resistance sustain.",
+          "Comfortable with Well-Timed Block timing or has a reliable Auto-Block / Heavy-release plan for the Corrupted ISO Blast.",
+          "Can manage Carina’s Prowess without depending on blocking every Special Attack."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Signature Ability",
+            "objective": "Confirm Science-Tech Vulnerability",
+            "watch": "Carina is treated as Mutant/Mystic in this version"
+          },
+          {
+            "stage": "Blast Energy",
+            "objective": "Use eligible Well-Timed Blocks and wait for the projectile",
+            "watch": "Do not confuse charging the Blast with reflecting it"
+          },
+          {
+            "stage": "Projectile",
+            "objective": "Return the Corrupted ISO Blast",
+            "watch": "Well-Timed Block, Auto-Block or released Heavy can reflect it"
+          },
+          {
+            "stage": "Prowess",
+            "objective": "Track Prowess before SP1",
+            "watch": "SP1 becomes Passively Unblockable at the required Prowess threshold"
+          },
+          {
+            "stage": "Below 50%",
+            "objective": "Be ready for repeated Blast returns and Root",
+            "watch": "One reflection may not end the exchange"
+          }
+        ],
+        "preparation": [
+          "Practice the Corrupted ISO Blast timing before trying to maximize damage; the projectile exchange is the progression mechanic.",
+          "Watch Carina’s Prowess counter before every SP1.",
+          "Below 50%, position so a returned Blast and the delayed Root timer cannot trap you in a long animation."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The Blast hits me even though I blocked",
+            "response": "Treat it as its own projectile timing check. Use a Well-Timed Block or another listed reflection method rather than simply holding Block."
+          },
+          {
+            "problem": "I reflected the Blast but Carina sent it back",
+            "response": "That is part of the second-half loop. Stay prepared to reflect the same exchange again."
+          },
+          {
+            "problem": "SP1 suddenly goes through my Block",
+            "response": "Check Carina’s Prowess. Once the fight’s Prowess condition is met, SP1 is Passively Unblockable."
+          }
+        ],
+        "scope": "Act 9.4.6 Fight B only: Science-Tech Vulnerability and Corrupted ISO Blast. Shared Chronoserpent Corruption rules and the special fourth-path finale are summarized on the overview."
+      },
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-01",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The Corrupted ISO Blast, Prowess and Root mechanics were separated into their own variant guide and checked against the current community ability reference plus Kabam’s v59.0 correction notice."
+      }
+    },
+    {
+      "id": "carina-skill-cosmic-vulnerability",
+      "name": "Carina — Skill/Cosmic Vulnerability",
+      "chapter": "9.4.6 · Fight C",
+      "questId": "act-9",
+      "nodeIds": [],
+      "reviewedAt": "2026-11-01",
+      "videoIds": [],
+      "sourceIds": [
+        "boss-carina-variants-report",
+        "boss-carina-simula-breakdown",
+        "boss-v59-fixes",
+        "boss-carina-act94-stream-recap-20260402",
+        "boss-carina-act94-counter-reports-202604"
+      ],
+      "summary": "Fight C of Act 9.4.6. The Signature Ability is Skill-Cosmic Vulnerability: Carina emulates Science/Tech mechanics, while Skill/Cosmic attackers receive the intended class-pair advantages. Progress comes from Corrupted ISO Traps.",
+      "mechanicTags": [
+        "Skill-Cosmic Vulnerability",
+        "Corrupted ISO Traps",
+        "Reversal",
+        "Chrono Corruption",
+        "Elder’s Resistance",
+        "Inexorable",
+        "Power Drain",
+        "Unsteady",
+        "Armor Up"
+      ],
+      "phases": [
+        {
+          "name": "Identify the variant",
+          "text": "Confirm the Signature Ability reads Skill-Cosmic Vulnerability and the fight uses Corrupted ISO Traps. Carina is emulating Science/Tech-style mechanics here; Skill/Cosmic is the vulnerability pair."
+        },
+        {
+          "name": "Create and respect Corrupted ISO Traps",
+          "text": "Carina can place Corrupted ISO Traps through her Heavy Attack and Special Attack 1. Crossing a Trap outside the protected timing damages the attacker, so remember where each Trap is instead of backing into it accidentally."
+        },
+        {
+          "name": "Put Carina onto the Trap",
+          "text": "Use the fight’s required setup to store the Corruption opportunity, then use a Heavy Attack or Reversal to knock Carina onto a Corrupted ISO Trap. The Trap interaction is what converts the setup into Chrono Corruption."
+        },
+        {
+          "name": "Phase 1 — manage Armor Up and Power pressure",
+          "text": "This version can build Armor Up-based pressure and gain substantial Power when its defensive setup is allowed to run. Utility that suppresses the relevant defensive effects can make the loop easier, but it does not replace the Trap objective."
+        },
+        {
+          "name": "Phase 2 — wait out Inexorable before the knockback",
+          "text": "Below 50%, periodic Inexorable can prevent the knockback you need for the Trap. Do not spend the Heavy or Reversal while Inexorable is active; wait for the window, then move Carina onto the Trap."
+        },
+        {
+          "name": "Phase 2 — account for Power Drain and Unsteady",
+          "text": "Special Attack 1 adds Power Drain and Unsteady pressure in the later half. Keep enough space and Power flexibility that the Trap plan still works after SP1 instead of forcing the interaction immediately."
+        }
+      ],
+      "mistakes": [
+        "Calling this the Science/Tech Vulnerability fight because Carina is emulating Science/Tech mechanics. The Signature Ability is Skill-Cosmic Vulnerability.",
+        "Walking across a Corrupted ISO Trap outside the protected action window.",
+        "Trying to knock Carina onto a Trap while Inexorable is active and then assuming the Heavy/Reversal mechanic is broken."
+      ],
+      "avoid": "Skill and Cosmic attackers receive the intended vulnerability benefits. Prefer a Champion that can control the fight without relying on constant knockback, because the second half periodically uses Inexorable and adds Power Drain/Unsteady pressure.",
+      "guideDetails": {
+        "relatedGuides": [
+          {
+            "label": "Act 9.4.6 overview",
+            "href": "/bosses/carina-chronoserpent",
+            "note": "Shared Chrono Corruption, Elder’s Resistance and special-path finale notes"
+          },
+          {
+            "label": "Mutant/Mystic Vulnerability",
+            "href": "/bosses/carina-mutant-mystic-vulnerability",
+            "note": "Fight A · Encroaching ISO Infection · Carina emulates Skill/Cosmic"
+          },
+          {
+            "label": "Science/Tech Vulnerability",
+            "href": "/bosses/carina-science-tech-vulnerability",
+            "note": "Fight B · Corrupted ISO Blast · Carina emulates Mutant/Mystic"
+          }
+        ],
+        "attackerProfile": [
+          "Skill or Cosmic attacker for the intended vulnerability benefits.",
+          "Reliable Heavy Attack or Reversal timing to move Carina onto Corrupted ISO Traps.",
+          "Can function through Power Drain and Unsteady pressure without losing the entire rotation."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Signature Ability",
+            "objective": "Confirm Skill-Cosmic Vulnerability",
+            "watch": "Carina is emulating Science/Tech mechanics"
+          },
+          {
+            "stage": "Trap setup",
+            "objective": "Track where the Corrupted ISO Traps are placed",
+            "watch": "Crossing a Trap at the wrong time damages you"
+          },
+          {
+            "stage": "Corruption",
+            "objective": "Knock Carina onto a Trap with Heavy Attack or Reversal",
+            "watch": "Do not spend the knockback window too early"
+          },
+          {
+            "stage": "Below 50%",
+            "objective": "Wait for Inexorable to end before the Trap knockback",
+            "watch": "Inexorable prevents the movement you need"
+          },
+          {
+            "stage": "SP1 pressure",
+            "objective": "Plan around Power Drain and Unsteady",
+            "watch": "Keep enough room to reset the rotation"
+          }
+        ],
+        "preparation": [
+          "Track trap placement visually; do not retreat automatically after every combo.",
+          "Save the required Heavy Attack or Reversal for a window when Inexorable is not active.",
+          "Expect SP1 to disrupt Power and movement plans later in the fight."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "My Heavy Attack does not move Carina onto the Trap",
+            "response": "Check Inexorable first. In the second half, wait until it is inactive before using the knockback interaction."
+          },
+          {
+            "problem": "I take damage while repositioning",
+            "response": "You likely crossed a Corrupted ISO Trap outside the protected timing. Re-map the Trap positions before dashing through that space again."
+          },
+          {
+            "problem": "SP1 ruins the Trap rotation",
+            "response": "Reset after the Power Drain/Unsteady sequence instead of forcing the next Heavy immediately. The Trap interaction is more important than maintaining a normal damage rotation."
+          }
+        ],
+        "scope": "Act 9.4.6 Fight C only: Skill-Cosmic Vulnerability and Corrupted ISO Traps. Shared Chronoserpent Corruption rules and the special fourth-path finale are summarized on the overview."
+      },
+      "verification": {
+        "status": "source-reviewed",
+        "checkedAt": "2026-11-01",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The Corrupted ISO Trap, Reversal, Inexorable and later SP1 pressure were separated into their own variant guide. No independent current-client gameplay test is recorded."
+      }
+    }
+  ],
+  "counters": [
+    {
+      "id": "jean-grey-vs-carina-mutant-mystic",
+      "attackerId": "jean-grey",
+      "defenderId": "carina-mutant-mystic-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "A current Act 9.4 discussion specifically reports Jean Grey as a successful option for the Mutant/Mystic-vulnerability Carina.",
+      "strategy": "Use Jean Grey as the attacker, but still play the Encroaching ISO Infection objective: keep a Special Attack or Striker available for the expiry window and do not treat the class match as an automatic solution.",
+      "risks": "The recommendation is player-reported rather than independently tested here; lock timing and the current node text still control the fight.",
+      "scoreReason": "Direct community recommendation with a reported successful clear; no Fieldguide gameplay test.",
+      "conditions": [
+        "Use this record only for Mutant-Mystic Vulnerability / Encroaching ISO Infection.",
+        "Execute the ISO Infection timing; the recommendation is not a bypass."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    },
+    {
+      "id": "ironheart-vs-carina-science-tech",
+      "attackerId": "ironheart",
+      "defenderId": "carina-science-tech-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "A current Act 9.4 player report names Ironheart as a successful option for the Science/Tech-vulnerability Carina and separately reports a one-shot.",
+      "strategy": "Prioritize the Corrupted ISO Blast exchange over normal damage. Reflect the projectile, watch Prowess before SP1, and leave room for the repeated-return and Root mechanics below 50%.",
+      "risks": "This is a community-reported matchup, not an independently reproduced solo in this build.",
+      "scoreReason": "Direct community recommendation with a reported solo; still limited to community evidence.",
+      "conditions": [
+        "Use this record only for Science-Tech Vulnerability / Corrupted ISO Blast.",
+        "Do not assume SP1 is blockable when Carina has enough Prowess."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    },
+    {
+      "id": "viv-vision-vs-carina-science-tech",
+      "attackerId": "viv-vision",
+      "defenderId": "carina-science-tech-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "Viv Vision is named alongside Ironheart as a successful Tech option for the Science/Tech-vulnerability Carina.",
+      "strategy": "Play the Corrupted ISO Blast mechanic cleanly and use the Tech-class vulnerability benefit for sustain rather than trying to bypass the projectile loop.",
+      "risks": "The source is a player recommendation; this build does not establish a required rotation, awakening level or guaranteed solo.",
+      "scoreReason": "Direct community recommendation; no independent Fieldguide gameplay test.",
+      "conditions": [
+        "Use this record only for Science-Tech Vulnerability / Corrupted ISO Blast.",
+        "Execute the reflected-Blast mechanic even with a favorable attacker."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    },
+    {
+      "id": "red-skull-vs-carina-science-tech",
+      "attackerId": "red-skull",
+      "defenderId": "carina-science-tech-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "A second player in the same Act 9.4 discussion reports Red Skull as another Tech option that achieved a solo on this Carina version.",
+      "strategy": "Use Red Skull only as the attacker choice; the fight still revolves around returning the Corrupted ISO Blast, controlling Prowess and handling Root below 50%.",
+      "risks": "The solo is a community report and is not reproduced or version-tested by Fieldguide.",
+      "scoreReason": "Community solo report with relevant class pairing; no independent test.",
+      "conditions": [
+        "Use this record only for Science-Tech Vulnerability / Corrupted ISO Blast.",
+        "Current nodes and your own build can change execution difficulty."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    },
+    {
+      "id": "yelena-vs-carina-skill-cosmic",
+      "attackerId": "yelena-belova",
+      "defenderId": "carina-skill-cosmic-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "A current Act 9.4 discussion names Yelena as a successful Skill option for the Skill/Cosmic-vulnerability Carina.",
+      "strategy": "Use the favorable class pairing while still respecting Corrupted ISO Traps: track placement, wait out Inexorable, and use the required Heavy Attack or Reversal window to move Carina onto a Trap.",
+      "risks": "This is a community recommendation rather than an independently tested route; Power Drain and Unsteady can still disrupt the rotation.",
+      "scoreReason": "Direct community recommendation; no independent Fieldguide gameplay test.",
+      "conditions": [
+        "Use this record only for Skill-Cosmic Vulnerability / Corrupted ISO Traps.",
+        "Do not attempt the Trap knockback while Inexorable is active."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    },
+    {
+      "id": "serpent-vs-carina-skill-cosmic",
+      "attackerId": "serpent",
+      "defenderId": "carina-skill-cosmic-vulnerability",
+      "modeIds": ["questing"],
+      "abilityIds": [],
+      "sourceIds": ["boss-carina-act94-counter-reports-202604"],
+      "score": 2,
+      "why": "The Serpent is named as a successful Cosmic option for the Skill/Cosmic-vulnerability Carina, and a player in the same thread reports using Serpent as a go-to Carina attacker.",
+      "strategy": "Use the Cosmic vulnerability benefit, but treat the Corrupted ISO Trap interaction as mandatory progression. Track Trap position and wait for a clean non-Inexorable knockback window.",
+      "risks": "Community success does not make this an automatic matchup; Trap execution and later SP1 pressure still matter.",
+      "scoreReason": "Multiple community remarks support the option, but there is no independent Fieldguide test.",
+      "conditions": [
+        "Use this record only for Skill-Cosmic Vulnerability / Corrupted ISO Traps.",
+        "Execute the Trap mechanic instead of relying on raw damage."
+      ],
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-01"
+      }
+    }
+  ],
   "bossPatches": [
-    {"id":"orochi","mechanicTags":["Stun Immunity","Violent Purge","Backfire","Inexorable","Unblockable"],"guideDetails":{"attackerProfile":["Can apply many damaging effects quickly; the fight loop is built around reaching ten damaging effects.","Has a Special Attack that can reliably interrupt Orochi's Heavy Attack during Violent Purge.","Does not need Heal Block as the primary answer, because the encounter is designed around Backfire rather than ordinary healing denial."],"cheatSheet":[{"stage":"Core loop","objective":"Reach 10 damaging effects","watch":"Violent Purge timer"},{"stage":"Violent Purge","objective":"Interrupt Heavy with your Special Attack","watch":"Backfire is the intended burst window"},{"stage":"Guile/Strength","objective":"Manage Inexorable","watch":"Heavy can remove it in the earlier stage"},{"stage":"Malice onward","objective":"Dodge Special Attacks","watch":"Specials become Unblockable"},{"stage":"Each bar","objective":"Repeat the loop","watch":"A Health reset is the next phase, not victory"}],"preparation":["Choose damaging effects you can stack consistently instead of relying on one slow Debuff.","Reserve enough Power to interrupt the Heavy during Violent Purge.","Enter expecting Stun Immunity; Parry may still be useful defensively, but it is not your Stun opening."],"troubleshooting":[{"problem":"Her Health immediately returns after my combo","response":"Ordinary damage is not the main finish route. Build damaging effects, trigger Violent Purge and create Backfire with the required Special Attack interrupt."},{"problem":"My own damaging effects turn against me","response":"You allowed Violent Purge to expire. Preserve Power so you can interrupt the Heavy before the timer ends."}],"scope":"Act 9.1.6 Orochi core loop and six Health Bars. Path-specific modifiers are separate."},"verification":{"status":"source-reviewed","checkedAt":"2026-11-01","gameplayTested":false,"label":"Community-sourced · cross-checked","note":"The Violent Purge, Heavy-interrupt and Backfire loop was source-reviewed. No independent gameplay test is recorded."}},
-    {"id":"lotan","mechanicTags":["Seal of Form","Seal of Mind","Seal of Direction","Seal of Luck","Seal of Soul","Unblockable","Stun Immunity"],"guideDetails":{"attackerProfile":["Comfort fighting at both corners and in open space; the required action changes with the active Seal.","Reliable Well-Timed Blocks and Special Attack timing help with the middle seals.","Good movement control matters more than a specific damage type because position is part of the mechanic."],"cheatSheet":[{"stage":"Seal of Form","objective":"Move Lotan to her corner and use the required Medium/Special interaction","watch":"Correct action from the wrong position does not count"},{"stage":"Seal of Mind","objective":"Work from your corner with the required Light/Striker interaction","watch":"Do not drift out of position"},{"stage":"Seal of Direction","objective":"Keep both Champions outside the storm and use Well-Timed Block/SP2 interactions","watch":"Stun expectations change"},{"stage":"Seal of Luck","objective":"Use the storm as instructed and complete dodge/Heavy interactions","watch":"Later Specials can be Unblockable"},{"stage":"Seal of Soul","objective":"Dodge the penultimate hit, then dash into the final hit","watch":"Timing matters more than ordinary damage"}],"preparation":["Read the active Seal before acting; the same input can fail if the position requirement is wrong.","Use short combos so you can reposition for the next Seal objective.","From the third Seal onward, do not assume a Parry creates a Stun opening."],"troubleshooting":[{"problem":"The correct attack does not advance the Seal","response":"Check position first. Lotan's mechanics combine an action with a location requirement."},{"problem":"I get hit while trying to block later Specials","response":"Some later Special Attack interactions are Unblockable. Use the required dodge or Well-Timed Block only where the active Seal calls for it."}],"scope":"Act 9.2.6 Lotan core Seal sequence. Full path exploration is outside this guide."},"verification":{"status":"source-reviewed","checkedAt":"2026-11-01","gameplayTested":false,"label":"Community-sourced · cross-checked","note":"The five-Seal positional sequence was source-reviewed. No independent gameplay test is recorded."}},
-    {"id":"dread-emperor-doom","mechanicTags":["Will","Amplify","Stun Immunity","Special Attack 2 countdown","Final Heavy Attack"],"guideDetails":{"attackerProfile":["Can create and consume Amplify opportunities without relying on Stun.","Comfort baiting and fully dodging Heavy and Special Attacks.","Can preserve a Heavy Attack for the final 1% requirement."],"cheatSheet":[{"stage":"Core loop","objective":"Use Amplify interactions to reduce Will","watch":"Normal damage is secondary to the Will mechanic"},{"stage":"SP1 stage","objective":"Learn the Special Attack 1 timing","watch":"Keep enough room to dodge"},{"stage":"Charge stage","objective":"Create the required charges and consume Amplify correctly","watch":"Do not interrupt his Heavy"},{"stage":"SP2 stage","objective":"Respect the Special Attack 2 countdown","watch":"Path modifier can change the pressure"},{"stage":"Final 1%","objective":"Empty Will, then land the required Heavy Attack","watch":"Basic combo damage alone will not finish"}],"preparation":["Enter expecting Stun Immunity; build your openings around spacing, Heavy recovery and Special Attack recovery.","Treat Will as the main progress meter. If Will is not falling, changing Champions will not fix an incorrect mechanic loop.","Read the path modifier before attempting to copy a rotation from another route."],"troubleshooting":[{"problem":"I am dealing damage but the fight is not progressing","response":"Check Will and your Amplify interactions. The intended loop is to reduce Will, not simply race the Health bar."},{"problem":"I get punished when I try to interrupt his Heavy","response":"Do not intercept the Heavy wind-up. Evade it and punish the recovery as the guide calls for."},{"problem":"He remains alive at 1%","response":"Confirm Will is empty, then use the required Heavy Attack finish."}],"scope":"Act 9.3.6 Dread Emperor Doom core Will/Amplify loop and final Heavy Attack condition. Path-specific modifiers remain separate."},"verification":{"status":"source-reviewed","checkedAt":"2026-11-01","gameplayTested":false,"label":"Community-sourced · cross-checked","note":"The Will, Amplify and final Heavy Attack structure was source-reviewed. No independent gameplay test is recorded."}},
-    {"id":"carina-chronoserpent","verification":{"status":"source-reviewed","checkedAt":"2026-11-01","gameplayTested":false,"label":"Community-sourced · source-reviewed","note":"This is Act 9.4.6 Carina, not the Act 10.4.4 Chronoserpent. Variant and finale uncertainties remain explicit."}}
+    {
+      "id": "orochi",
+      "mechanicTags": ["Stun Immunity", "Violent Purge", "Backfire", "Inexorable", "Unblockable"],
+      "guideDetails": {
+        "attackerProfile": ["Can apply many damaging effects quickly; the fight loop is built around reaching ten damaging effects.", "Has a Special Attack that can reliably interrupt Orochi's Heavy Attack during Violent Purge.", "Does not need Heal Block as the primary answer, because the encounter is designed around Backfire rather than ordinary healing denial."],
+        "cheatSheet": [{"stage": "Core loop", "objective": "Reach 10 damaging effects", "watch": "Violent Purge timer"}, {"stage": "Violent Purge", "objective": "Interrupt Heavy with your Special Attack", "watch": "Backfire is the intended burst window"}, {"stage": "Guile/Strength", "objective": "Manage Inexorable", "watch": "Heavy can remove it in the earlier stage"}, {"stage": "Malice onward", "objective": "Dodge Special Attacks", "watch": "Specials become Unblockable"}, {"stage": "Each bar", "objective": "Repeat the loop", "watch": "A Health reset is the next phase, not victory"}],
+        "preparation": ["Choose damaging effects you can stack consistently instead of relying on one slow Debuff.", "Reserve enough Power to interrupt the Heavy during Violent Purge.", "Enter expecting Stun Immunity; Parry may still be useful defensively, but it is not your Stun opening."],
+        "troubleshooting": [{"problem": "Her Health immediately returns after my combo", "response": "Ordinary damage is not the main finish route. Build damaging effects, trigger Violent Purge and create Backfire with the required Special Attack interrupt."}, {"problem": "My own damaging effects turn against me", "response": "You allowed Violent Purge to expire. Preserve Power so you can interrupt the Heavy before the timer ends."}],
+        "scope": "Act 9.1.6 Orochi core loop and six Health Bars. Path-specific modifiers are separate."
+      },
+      "verification": {"status": "source-reviewed", "checkedAt": "2026-11-01", "gameplayTested": false, "label": "Community-sourced · cross-checked", "note": "The Violent Purge, Heavy-interrupt and Backfire loop was source-reviewed. No independent gameplay test is recorded."}
+    },
+    {
+      "id": "lotan",
+      "mechanicTags": ["Seal of Form", "Seal of Mind", "Seal of Direction", "Seal of Luck", "Seal of Soul", "Unblockable", "Stun Immunity"],
+      "guideDetails": {
+        "attackerProfile": ["Comfort fighting at both corners and in open space; the required action changes with the active Seal.", "Reliable Well-Timed Blocks and Special Attack timing help with the middle seals.", "Good movement control matters more than a specific damage type because position is part of the mechanic."],
+        "cheatSheet": [{"stage": "Seal of Form", "objective": "Move Lotan to her corner and use the required Medium/Special interaction", "watch": "Correct action from the wrong position does not count"}, {"stage": "Seal of Mind", "objective": "Work from your corner with the required Light/Striker interaction", "watch": "Do not drift out of position"}, {"stage": "Seal of Direction", "objective": "Keep both Champions outside the storm and use Well-Timed Block/SP2 interactions", "watch": "Stun expectations change"}, {"stage": "Seal of Luck", "objective": "Use the storm as instructed and complete dodge/Heavy interactions", "watch": "Later Specials can be Unblockable"}, {"stage": "Seal of Soul", "objective": "Dodge the penultimate hit, then dash into the final hit", "watch": "Timing matters more than ordinary damage"}],
+        "preparation": ["Read the active Seal before acting; the same input can fail if the position requirement is wrong.", "Use short combos so you can reposition for the next Seal objective.", "From the third Seal onward, do not assume a Parry creates a Stun opening."],
+        "troubleshooting": [{"problem": "The correct attack does not advance the Seal", "response": "Check position first. Lotan's mechanics combine an action with a location requirement."}, {"problem": "I get hit while trying to block later Specials", "response": "Some later Special Attack interactions are Unblockable. Use the required dodge or Well-Timed Block only where the active Seal calls for it."}],
+        "scope": "Act 9.2.6 Lotan core Seal sequence. Full path exploration is outside this guide."
+      },
+      "verification": {"status": "source-reviewed", "checkedAt": "2026-11-01", "gameplayTested": false, "label": "Community-sourced · cross-checked", "note": "The five-Seal positional sequence was source-reviewed. No independent gameplay test is recorded."}
+    },
+    {
+      "id": "dread-emperor-doom",
+      "mechanicTags": ["Will", "Amplify", "Stun Immunity", "Special Attack 2 countdown", "Final Heavy Attack"],
+      "guideDetails": {
+        "attackerProfile": ["Can create and consume Amplify opportunities without relying on Stun.", "Comfort baiting and fully dodging Heavy and Special Attacks.", "Can preserve a Heavy Attack for the final 1% requirement."],
+        "cheatSheet": [{"stage": "Core loop", "objective": "Use Amplify interactions to reduce Will", "watch": "Normal damage is secondary to the Will mechanic"}, {"stage": "SP1 stage", "objective": "Learn the Special Attack 1 timing", "watch": "Keep enough room to dodge"}, {"stage": "Charge stage", "objective": "Create the required charges and consume Amplify correctly", "watch": "Do not interrupt his Heavy"}, {"stage": "SP2 stage", "objective": "Respect the Special Attack 2 countdown", "watch": "Path modifier can change the pressure"}, {"stage": "Final 1%", "objective": "Empty Will, then land the required Heavy Attack", "watch": "Basic combo damage alone will not finish"}],
+        "preparation": ["Enter expecting Stun Immunity; build your openings around spacing, Heavy recovery and Special Attack recovery.", "Treat Will as the main progress meter. If Will is not falling, changing Champions will not fix an incorrect mechanic loop.", "Read the path modifier before attempting to copy a rotation from another route."],
+        "troubleshooting": [{"problem": "I am dealing damage but the fight is not progressing", "response": "Check Will and your Amplify interactions. The intended loop is to reduce Will, not simply race the Health bar."}, {"problem": "I get punished when I try to interrupt his Heavy", "response": "Do not intercept the Heavy wind-up. Evade it and punish the recovery as the guide calls for."}, {"problem": "He remains alive at 1%", "response": "Confirm Will is empty, then use the required Heavy Attack finish."}],
+        "scope": "Act 9.3.6 Dread Emperor Doom core Will/Amplify loop and final Heavy Attack condition. Path-specific modifiers remain separate."
+      },
+      "verification": {"status": "source-reviewed", "checkedAt": "2026-11-01", "gameplayTested": false, "label": "Community-sourced · cross-checked", "note": "The Will, Amplify and final Heavy Attack structure was source-reviewed. No independent gameplay test is recorded."}
+    },
+    {
+      "id": "carina-chronoserpent",
+      "name": "Carina (Chronoserpent) — Overview",
+      "summary": "Shared Act 9.4.6 mechanics and navigation for the three Carina variants: Mutant/Mystic Vulnerability with Encroaching ISO Infection, Science/Tech Vulnerability with Corrupted ISO Blast, and Skill/Cosmic Vulnerability with Corrupted ISO Traps.",
+      "mechanicTags": ["Chronoserpent Corruption", "Chrono Corruption", "Elder’s Resistance", "Special Lock Immunity", "Neutralize Immunity", "Cross-Fight"],
+      "phases": [
+        {"name": "Start here — read the Signature Ability", "text": "Act 9.4.6 contains three different Carina versions. Identify the Signature Ability before choosing a guide: Mutant-Mystic Vulnerability, Science-Tech Vulnerability or Skill-Cosmic Vulnerability. The vulnerability pair names the attacker classes the fight is designed to favor; it is not the class pair Carina is emulating."},
+        {"name": "Shared rule — build Chrono Corruption", "text": "Every version has a different route mechanic that inflicts Chrono Corruption on Carina. Fight A uses Encroaching ISO Infection, Fight B uses Corrupted ISO Blast, and Fight C uses Corrupted ISO Traps. Use the dedicated variant page for the exact input sequence."},
+        {"name": "Shared rule — build Elder’s Resistance", "text": "Elder’s Resistance is a Cross-Fight attacker resource earned through variant-specific RPG interactions. It helps the attacker recover damage taken from Carina’s Special Attack pressure, but each variant awards it differently."},
+        {"name": "Fight A", "text": "Mutant-Mystic Vulnerability. Carina emulates Skill/Cosmic mechanics. Progress Chrono Corruption through Encroaching ISO Infection and plan around later Special Lock / Striker Lock timing."},
+        {"name": "Fight B", "text": "Science-Tech Vulnerability. Carina is treated as Mutant/Mystic. Progress Chrono Corruption by reflecting Corrupted ISO Blast and manage Prowess plus the second-half Root sequence."},
+        {"name": "Fight C", "text": "Skill-Cosmic Vulnerability. Carina emulates Science/Tech mechanics. Progress Chrono Corruption through Corrupted ISO Traps and respect Inexorable before attempting the required knockback."},
+        {"name": "Special fourth path — three fights plus finale behavior", "text": "Full exploration includes the three variants and a special path that presents them together. Community reports describe a story sequence near the end in which Carina can refill Health before the intended finish. Keep that finale separate from the normal finish conditions of any one variant."}
+      ],
+      "mistakes": [
+        "Using the emulated class pair as the page name and therefore opening the wrong variant guide.",
+        "Assuming the three mechanics are phases of one fight rather than three separate Carina versions.",
+        "Applying the special fourth-path finale behavior to an ordinary individual variant."
+      ],
+      "avoid": "Choose the dedicated page by the exact Signature Ability shown in-game. Do not select only from a video title or shorthand such as 'Mystic Carina' because community sources sometimes name the emulated classes and sometimes name the vulnerability pair.",
+      "guideDetails": {
+        "relatedGuides": [
+          {"label": "Mutant/Mystic Vulnerability", "href": "/bosses/carina-mutant-mystic-vulnerability", "note": "Fight A · Encroaching ISO Infection · Carina emulates Skill/Cosmic"},
+          {"label": "Science/Tech Vulnerability", "href": "/bosses/carina-science-tech-vulnerability", "note": "Fight B · Corrupted ISO Blast · Carina emulates Mutant/Mystic"},
+          {"label": "Skill/Cosmic Vulnerability", "href": "/bosses/carina-skill-cosmic-vulnerability", "note": "Fight C · Corrupted ISO Traps · Carina emulates Science/Tech"}
+        ],
+        "attackerProfile": [
+          "First choose the correct variant page; each version rewards a different class pair and uses a different Chrono Corruption mechanic.",
+          "Bring an attacker whose normal rotation still leaves room to execute the variant mechanic instead of maximizing raw damage only.",
+          "Treat Elder’s Resistance as sustain support and Chrono Corruption as the progression mechanic."
+        ],
+        "cheatSheet": [
+          {"stage": "Fight A", "objective": "Mutant/Mystic Vulnerability · Encroaching ISO Infection", "watch": "Carina emulates Skill/Cosmic mechanics"},
+          {"stage": "Fight B", "objective": "Science/Tech Vulnerability · Corrupted ISO Blast", "watch": "Carina is treated as Mutant/Mystic"},
+          {"stage": "Fight C", "objective": "Skill/Cosmic Vulnerability · Corrupted ISO Traps", "watch": "Carina emulates Science/Tech mechanics"},
+          {"stage": "Special path", "objective": "Fight the variants in sequence and follow the story finale", "watch": "Do not import the finale condition into the ordinary variant pages"}
+        ],
+        "preparation": [
+          "Read the Signature Ability and the route mechanic before selecting a Champion.",
+          "Open the dedicated variant guide rather than trying to follow all three mechanic sets on one page.",
+          "If you are on the special fourth path, keep the reported finale behavior separate from the normal individual-fight finish."
+        ],
+        "troubleshooting": [
+          {"problem": "Two guides call the same Carina by different class pairs", "response": "Check whether the source is naming Carina’s emulated classes or the Signature Ability vulnerability pair. Summoner Index names the dedicated pages by the Signature Ability shown in-game."},
+          {"problem": "The mechanic on my screen does not match this page", "response": "Return to the overview and open the page whose Signature Ability and route mechanic match your node panel."},
+          {"problem": "Carina refills Health on the special path", "response": "That behavior belongs to the combined story finale and has had inconsistent player reports. Follow the on-screen dialogue and do not assume an ordinary variant finishing rotation applies."}
+        ],
+        "scope": "Shared Act 9.4.6 Carina rules, variant identification and special-path context. Detailed execution belongs on the three separate variant pages."
+      },
+      "verification": {"status": "source-reviewed", "checkedAt": "2026-11-01", "gameplayTested": false, "label": "Community-sourced · source-reviewed", "note": "The former combined page has been converted into an overview. Each of the three Signature Ability variants now has its own guide; finale uncertainty remains explicit."}
+    }
   ]
 }

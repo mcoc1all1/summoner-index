@@ -32,7 +32,7 @@ function applyBossPatch(db, patch) {
     }
     boss.phases=boss.phases.map((phase,index)=>({...phase,name:patch.phaseNames[index]}));
   }
-  const replaceable=['summary','phases','mistakes','avoid','guideDetails','verification','mechanicTags','sourceIds','nodeIds','videoIds','reviewedAt'];
+  const replaceable=['name','summary','phases','mistakes','avoid','guideDetails','verification','mechanicTags','sourceIds','nodeIds','videoIds','reviewedAt'];
   for(const field of replaceable){
     if(Object.hasOwn(patch,field))boss[field]=structuredClone(patch[field]);
   }
