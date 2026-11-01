@@ -1,7 +1,5 @@
-name: Accuracy patch checks
+name: Pull request checks
 on:
-  push:
-    branches: [fix/content-accuracy-2026-11-01]
   pull_request:
     branches: [main]
 permissions:
