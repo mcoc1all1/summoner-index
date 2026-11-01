@@ -1,0 +1,54 @@
+{
+  "version":1,
+  "reviewedAt":"2026-11-01",
+  "counters":[
+    {
+      "id":"attuma-high-evolutionary","attackerId":"attuma","defenderId":"high-evolutionary","modeIds":["battlegrounds"],"abilityIds":["true-accuracy"],"sourceIds":["counter-high-evo-options-20261101","counter-high-evo-mechanics-20261101"],"score":3,
+      "why":"Players specifically report Attuma as a strong High Evolutionary option, and his True Accuracy gives a direct answer to defensive accuracy checks.",
+      "strategy":"Play the Combo Detonation objective deliberately, reach Special Attack 1, then use Attuma's True Accuracy window before returning to the required combo pattern.",
+      "risks":"High Evolutionary rewards the correct Combo Detonation sequence; True Accuracy does not let you ignore that objective.",
+      "conditions":["Keep track of the Combo Detonation requirement instead of throwing an Unblockable Special Attack at the wrong count.","Use Special Attack 1 to establish the True Accuracy part of the plan."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Direct community recommendations align with Attuma's sourced True Accuracy; no independent current-season test is claimed."
+    },
+    {
+      "id":"bullseye-high-evolutionary","attackerId":"bullseye","defenderId":"high-evolutionary","modeIds":["battlegrounds"],"abilityIds":["true-accuracy"],"sourceIds":["counter-high-evo-options-20261101","counter-high-evo-mechanics-20261101"],"score":2,
+      "why":"Bullseye is repeatedly reported as a High Evolutionary option and can access True Accuracy through Special Attack 1.",
+      "strategy":"Manage the required combo count first, then use Special Attack 1 when you need True Accuracy and continue without breaking the Combo Detonation sequence.",
+      "risks":"Bullseye's own defensive tools are not the reason for this matchup. Missing the combo objective can still trigger High Evolutionary's punishment.",
+      "conditions":["Do not confuse Unblockable with satisfying Combo Detonation.","Preserve the required hit count and use True Accuracy intentionally."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community recommendations align with Bullseye's sourced True Accuracy; no independent current-season test is claimed."
+    },
+    {
+      "id":"medusa-high-evolutionary","attackerId":"medusa","defenderId":"high-evolutionary","modeIds":["battlegrounds"],"abilityIds":["true-accuracy","armor-break"],"sourceIds":["counter-high-evo-options-20261101","counter-high-evo-mechanics-20261101"],"score":2,
+      "why":"Medusa is a community-reported High Evolutionary option and has True Accuracy alongside Armor Break pressure.",
+      "strategy":"Use True Accuracy during the relevant defensive windows while keeping your hits aligned with Combo Detonation; add Armor Break only when it does not disrupt the required sequence.",
+      "risks":"The matchup still depends on executing High Evolutionary's combo mechanic correctly. Class advantage alone is not enough.",
+      "conditions":["Track Combo Detonation continuously.","Do not assume Armor Break or Armor Shattered bypasses every node on the placement."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community recommendations align with Medusa's sourced True Accuracy; no independent current-season test is claimed."
+    },
+    {
+      "id":"juggernaut-thanos-deathless","attackerId":"juggernaut","defenderId":"thanos-deathless","modeIds":["battlegrounds"],"abilityIds":["stagger","wither"],"sourceIds":["counter-dthanos-mystic-20261101","counter-dthanos-balance-20261101"],"score":2,
+      "why":"Players specifically cite Juggernaut as a Deathless Thanos option, with Mystic Buff control helping against his defensive Buff cycle.",
+      "strategy":"Use Stagger to keep his Buff cycle under control, maintain your own Unstoppable momentum only when the opening is safe, and bait the Special Attack you are comfortable punishing.",
+      "risks":"Deathless Thanos can become a major stall defender and his Special Attack 2 remains dangerous. A node that punishes Nullify or Buffs changes the value of this plan.",
+      "conditions":["Use this as a Buff-control matchup, not a face-tank strategy.","Check the seasonal node package before relying on Stagger."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"A current meta discussion specifically cites Juggernaut; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"gladiator-thanos-deathless","attackerId":"gladiator","defenderId":"thanos-deathless","modeIds":["questing"],"abilityIds":["confidence","unstoppable"],"sourceIds":["counter-dthanos-showcase-20261101","counter-dthanos-balance-20261101"],"score":2,
+      "why":"Gladiator has direct player reports against Deathless Thanos, with his Confidence ramp benefiting from punish windows around Thanos's Special Attacks and Heavy Attack.",
+      "strategy":"Bait Special Attack 1, use the recovery window rather than forcing a Heavy Attack chain, and build Confidence through safe Heavy Attack punishes when the node package allows it.",
+      "risks":"The detailed player report came from the Deathless Showcase, where Decay and Stun Immunity changed the exact rotation. Do not copy that node-specific interaction into a normal placement.",
+      "conditions":["The Showcase report supports the matchup under those nodes, not a universal Battlegrounds rotation.","Re-read the current node set before using Heavy Attack chaining."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Direct Showcase reports support Gladiator under a specific node set; broader current-mode validation is still needed."
+    },
+    {
+      "id":"cheeilth-thanos-deathless","attackerId":"cheeilth","defenderId":"thanos-deathless","modeIds":["questing"],"abilityIds":["grit","bleed"],"sourceIds":["counter-dthanos-showcase-20261101","counter-dthanos-balance-20261101"],"score":2,
+      "why":"Chee'ilth has repeated player reports against the Deathless Thanos Showcase, and Grit gives her a practical way to keep attacking through Unstoppable windows.",
+      "strategy":"Use Special Attack 1 to establish Grit before committing into an Unstoppable window, keep Bleed pressure active, and stay disciplined around Thanos's Special Attacks.",
+      "risks":"Showcase nodes materially change this fight, so the reported result should not be treated as a universal Battlegrounds counter ranking.",
+      "conditions":["Have Grit available before choosing to hit through Unstoppable.","Use the in-game nodes to decide whether the Showcase rotation transfers to your fight."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Repeated Showcase reports support Chee'ilth under that node set; broader current-mode validation is still needed."
+    }
+  ]
+}

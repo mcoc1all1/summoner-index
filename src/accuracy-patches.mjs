@@ -6,6 +6,14 @@ function upsertById(table, records = []) {
   }
 }
 
+function deleteByIds(table, ids = [], label = 'record') {
+  for (const id of ids) {
+    const index=table.findIndex(item=>item.id===id);
+    if(index===-1)throw new Error(`Accuracy patch deletes unknown ${label}: ${id}`);
+    table.splice(index,1);
+  }
+}
+
 const validDate=value=>typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value+'T00:00:00Z'));
 
 function applyChampionPatch(db, patch) {
@@ -56,6 +64,7 @@ export function applyAccuracyPatches(input, patches) {
   upsertById(db.nodes, patches?.nodes);
   upsertById(db.quests, patches?.quests);
   upsertById(db.bosses, patches?.bosses);
+  deleteByIds(db.counters, patches?.counterDeletes, 'counter');
   upsertById(db.counters, patches?.counters);
   for(const patch of patches?.championPatches||[])applyChampionPatch(db,patch);
   for(const patch of patches?.bossPatches||[])applyBossPatch(db,patch);

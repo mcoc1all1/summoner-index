@@ -1,0 +1,70 @@
+{
+  "version":1,
+  "reviewedAt":"2026-11-01",
+  "counters":[
+    {
+      "id":"prowler-domino","attackerId":"prowler","defenderId":"domino","modeIds":["battlegrounds"],"abilityIds":["rupture","power-lock"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Players commonly point to Prowler for Domino; his non-contact Medium attacks and non-critical damage pattern reduce some of the usual friction in the matchup.",
+      "strategy":"Use non-contact Medium attacks to build the rotation, apply Rupture, and control Power before committing the main Special Attack burst.",
+      "risks":"Prowler is not immune to Critical Failure. Domino can still punish unlucky ability checks and node interactions.",
+      "conditions":["Do not treat this as Critical Failure immunity.","Keep enough spacing to react if Domino's Evade or Special Attack timing disrupts the rotation."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions repeatedly support Prowler; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"count-nefaria-domino","attackerId":"count-nefaria","defenderId":"domino","modeIds":["battlegrounds"],"abilityIds":["ionic-overcharge","fury"],"sourceIds":["counter-nefaria-review-20261101","counter-tough-defenders-20261101"],"score":2,
+      "why":"Community reports use Count Nefaria into Domino because his Energy Resistance can reduce the cost of Critical Failure while his own Evade can help against projectile Specials.",
+      "strategy":"Build Ionic Overcharge through the normal Well-Timed Block and Evade loop, then punish Special Attacks and use the resistance window to keep the fight stable.",
+      "risks":"Nefaria is not immune to Domino's Ability Accuracy Reduction or Critical Failure. The matchup reduces risk; it does not erase it.",
+      "conditions":["Treat Energy Resistance as mitigation, not immunity.","Do not rely on an Evade timing you have not practiced against Domino's Special Attacks."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Nefaria; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"sunspot-dust","attackerId":"sunspot","defenderId":"dust","modeIds":["battlegrounds"],"abilityIds":["incinerate"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Sunspot is repeatedly reported as a Dust counter because Incinerate can remove Sand and interfere with her Sandstorm setup.",
+      "strategy":"Apply Incinerate consistently, avoid unnecessary hits into Dust's Block, and use the contact Medium Attack if you need a Parry-Stun opening.",
+      "risks":"Dust's Light Attacks are non-contact, so careless Parry attempts can build Sand instead of giving you control.",
+      "conditions":["Use Incinerate to manage Sand rather than relying on Shock or Bleed.","Parry only a contact attack when you need the Stun opening."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions repeatedly support Sunspot; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"kushala-dust","attackerId":"kushala","defenderId":"dust","modeIds":["battlegrounds"],"abilityIds":["incinerate","soul-barb"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Kushala is a current player-reported Dust option, and her Incinerate access gives her the useful Sand-removal interaction.",
+      "strategy":"Build Incinerates through safe openings, keep them active to manage Sand, and use Soul Barb only when Dust's Buffs or nodes make it relevant.",
+      "risks":"Kushala does not make Dust's non-contact Light Attacks safe to Parry. A poor defensive rhythm can still trigger Sandstorm.",
+      "conditions":["Prioritize Incinerate uptime over an elaborate rotation.","Avoid repeated Block hits and non-contact Parry attempts."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Kushala; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"thanos-deathless-red-skull","attackerId":"thanos-deathless","defenderId":"red-skull","modeIds":["battlegrounds"],"abilityIds":["armor-shattered","corrosion"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Players report Deathless Thanos into Red Skull; Armor Shattered directly attacks the Armor Up stack that drives much of Red Skull's defense.",
+      "strategy":"Use Heavy Attack to establish Armor Shattered, avoid mindless Block-hitting, then use Fury and Corrosion Specials once Red Skull's Armor pressure is reduced.",
+      "risks":"Red Skull's Power and Auto-Block mechanics can still punish sloppy contact into his Block, especially on defensive nodes.",
+      "conditions":["Do not use Block-hitting as the default way to open the fight.","Check whether the placement protects Armor Up or punishes Armor Break or Armor Shattered effects."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Deathless Thanos; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"galan-red-skull","attackerId":"galan","defenderId":"red-skull","modeIds":["battlegrounds"],"abilityIds":["fury","incinerate"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Galan is a widely reported Red Skull option because Red Skull's many Armor Up Buffs give Galan abundant buff-based ramp for Harvest damage.",
+      "strategy":"Let Red Skull's Armor Up contribute to Galan's Planetary Mass, keep the fight controlled around Auto-Block, then cash out with Harvest from a safe opening.",
+      "risks":"Do not over-hit Red Skull's Block while trying to ramp. A node that suppresses Buffs or direct damage can change the matchup.",
+      "conditions":["Build around Red Skull's Armor Up rather than trying to remove every stack.","Respect Auto-Block and Power Drain while setting up Harvest."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions repeatedly support Galan; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"kate-bishop-spider-ham","attackerId":"kate-bishop","defenderId":"spider-ham","modeIds":["battlegrounds"],"abilityIds":["coldsnap","true-accuracy"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Kate Bishop is a current community-listed Spider-Ham counter; Coldsnap and True Accuracy give her practical Evade control while she maintains ranged pressure.",
+      "strategy":"Set up Coldsnap and Trick Arrow pressure, keep True Accuracy available for Evade control, and bait Specials instead of feeding Porker Poppers with careless Special Attack use.",
+      "risks":"Porker Poppers still punish poor Special Attack timing, and the Evade interaction depends on keeping your anti-Evade effect available.",
+      "conditions":["Keep an anti-Evade effect active before committing to long combos.","Do not throw Special Attacks blindly while Porker Popper pressure is high."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Kate Bishop; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"thanos-deathless-spider-ham","attackerId":"thanos-deathless","defenderId":"spider-ham","modeIds":["battlegrounds"],"abilityIds":["counterpunch","corrosion"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Players list Deathless Thanos as a Spider-Ham answer; Counterpunch can create safer openings while Corrosion supplies steady damage.",
+      "strategy":"Use controlled intercepts and Counterpunch openings, avoid unnecessary Special Attack spam, and let Corrosion contribute damage while you manage Porker Poppers.",
+      "risks":"This is a community option, not a claim that Deathless Thanos turns off Spider-Ham's Evade or Porker Popper mechanics.",
+      "conditions":["Continue respecting Spider-Ham's Evade windows.","Manage Porker Poppers before committing repeated Special Attacks."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Deathless Thanos; no independent current-season timing test is recorded."
+    }
+  ]
+}

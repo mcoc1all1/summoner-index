@@ -1,0 +1,46 @@
+{
+  "version":1,
+  "reviewedAt":"2026-11-01",
+  "counters":[
+    {
+      "id":"silk-count-nefaria","attackerId":"silk","defenderId":"count-nefaria","modeIds":["battlegrounds"],"abilityIds":["slow"],"sourceIds":["counter-nefaria-meta-20261101","counter-nefaria-balance-20261101"],"score":2,
+      "why":"Players report Silk can finish Count Nefaria quickly before his defensive charge and Power loops become the main problem.",
+      "strategy":"Bait and partially dex the end of his Special Attack when needed for a punish window, then use Silk's normal Heavy Attack and Special Attack 2 burst only after the opening is secure.",
+      "risks":"Nefaria's resistance can blunt burst damage, and some Battlegrounds nodes interact strongly with his Signature Ability and Power gain.",
+      "conditions":["Do not assume one Special Attack 2 always finishes a high-rank Nefaria.","Learn the Special Attack punish timing before relying on speed."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Direct Battlegrounds player reports support Silk; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"shang-chi-count-nefaria","attackerId":"shang-chi","defenderId":"count-nefaria","modeIds":["battlegrounds"],"abilityIds":["cleanse","slow"],"sourceIds":["counter-nefaria-meta-20261101","counter-nefaria-balance-20261101"],"score":2,
+      "why":"Shang-Chi is directly reported as a fast Count Nefaria option, with Cleanse and Slow giving useful control while he builds his burst.",
+      "strategy":"Cycle Wushu Strikes without rushing into Nefaria's Evade timing, use Cleanse when needed, and save the Special Attack 2 burst for a clean punish window.",
+      "risks":"Nefaria can become highly resistant once his charges are established. A slow setup can turn a favorable matchup into a time loss.",
+      "conditions":["Respect Nefaria's Evade timing even when Slow is available.","Seasonal Power nodes can change how aggressively you can cycle Wushu Strikes."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Direct Battlegrounds player reports support Shang-Chi; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"hulkling-arcade","attackerId":"hulkling","defenderId":"arcade","modeIds":["battlegrounds"],"abilityIds":["pierce","fury"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Hulkling is repeatedly listed by players as an Arcade counter, with Poison immunity and access to Unblockable pressure reducing two common sources of friction.",
+      "strategy":"Build Pierce and your Unblockable window before committing the main burst, and continue respecting Arcade's current trap and token state instead of attacking on autopilot.",
+      "risks":"Poison immunity and Unblockable do not switch off Arcade's entire kit. Node-added control effects can still punish an aggressive rotation.",
+      "conditions":["Reach a controlled Unblockable window before forcing offense into Auto-Block behavior.","Keep reading Arcade's active trap and token state."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter lists repeatedly include Hulkling; the matchup is not independently timed in the current season."
+    },
+    {
+      "id":"gladiator-arcade","attackerId":"gladiator","defenderId":"arcade","modeIds":["battlegrounds"],"abilityIds":["confidence","vigilance"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Gladiator is a community-listed Arcade option whose Confidence ramp rewards clean punish windows and fast pressure.",
+      "strategy":"Build Confidence through safe openings, use Vigilance when Arcade's defensive state makes it relevant, and reserve your burst for a window that will not be interrupted by the active trap.",
+      "risks":"This is a player-reported option rather than a tested hard counter. Arcade's active utility can still break the normal rotation.",
+      "conditions":["Check Arcade's current trap before starting the burst.","Do not assume Confidence alone prevents Auto-Block or other defensive effects."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter lists support Gladiator; the matchup is not independently timed in the current season."
+    },
+    {
+      "id":"thanos-deathless-arcade","attackerId":"thanos-deathless","defenderId":"arcade","modeIds":["battlegrounds"],"abilityIds":["armor-shattered","corrosion"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Players list Deathless Thanos as an Arcade answer; Armor Shattered and sustained Corrosion give him ways to make progress without relying on one clean critical burst.",
+      "strategy":"Use Heavy Attack to establish Armor Shattered, then cycle Special Attacks for Fury and Corrosion while continuing to respect Arcade's active defensive state.",
+      "risks":"Armor Shattered does not mean every Arcade mechanic is disabled. Trap timing and node effects still matter.",
+      "conditions":["Do not treat Armor Shattered as a universal Auto-Block bypass.","Check whether the current node punishes Heavy Attacks or repeated Debuffs."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter lists support Deathless Thanos; the matchup is not independently timed in the current season."
+    }
+  ]
+}

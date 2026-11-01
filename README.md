@@ -1,8 +1,8 @@
 # Fieldguide — MCOC public beta
 
-Independent fan companion with 334 champion records, 52 relics, stat-focus trials for 332 champions, 120 matchup records covering 64 defenders, 28 boss preparation guides and six Carina Volume 4 challenge guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
+Independent fan companion with 334 champion records, 52 relics, stat-focus trials for 332 champions, 147 matchup records covering 70 defenders, 28 boss preparation guides and six Carina Volume 4 challenge guides. Research and editorial advice remain provisional; this beta is not a claim of complete accuracy or rights clearance. No ads or third-party analytics are active.
 
-The November 1, 2026 accuracy patches add Ghost Rider (Robbie Reyes), correct Scytalis phase labels, repair malformed generated initials, expand boss-guide preparation and troubleshooting, correct the Cerastes 1% finish, add the Act 10.4.4 Chronoserpent, and split Act 9.4.6 Carina into a shared overview plus separate Mutant/Mystic Vulnerability, Science/Tech Vulnerability and Skill/Cosmic Vulnerability guides. Small reviewed corrections live in `content/accuracy-patches.json` and modular `content/boss-*-patches.json` files so urgent factual updates can be reviewed without rewriting the large research catalog by hand.
+The November 1, 2026 accuracy patches add Ghost Rider (Robbie Reyes), correct Scytalis phase labels, repair malformed generated initials, expand boss-guide preparation and troubleshooting, correct the Cerastes 1% finish, add the Act 10.4.4 Chronoserpent, split Act 9.4.6 Carina into a shared overview plus separate Mutant/Mystic Vulnerability, Science/Tech Vulnerability and Skill/Cosmic Vulnerability guides, and expand Counter Finder coverage for difficult defenders including Arnim Zola, Jean Grey, High Evolutionary, Thanos (Deathless), Count Nefaria and Arcade. Small reviewed corrections live in `content/accuracy-patches.json` and modular `content/boss-*-patches.json` / `content/counter-*-patches.json` files so urgent factual updates can be reviewed without rewriting the large research catalog by hand.
 
 ## Local use
 
@@ -43,7 +43,7 @@ Then open http://127.0.0.1:4173/summoner-index/.
 
 ## Content and limitations
 
-`content/catalog.json` contains the main source-linked records. `content/accuracy-patches.json` and the modular `content/boss-*-patches.json` files contain reviewed corrections that are applied temporarily during builds and tests; the base catalog file is restored afterward. `src/` contains browser modules and presentation; `scripts/` builds static pages and validates release controls; `tests/` covers content and application rules. GitHub Pages does not apply the optional `_headers` file. This is a static site with no server-side writes, accounts or secret credentials.
+`content/catalog.json` contains the main source-linked records. `content/accuracy-patches.json` and the modular `content/boss-*-patches.json` / `content/counter-*-patches.json` files contain reviewed corrections that are applied temporarily during builds and tests; the base catalog file is restored afterward. `src/` contains browser modules and presentation; `scripts/` builds static pages and validates release controls; `tests/` covers content and application rules. GitHub Pages does not apply the optional `_headers` file. This is a static site with no server-side writes, accounts or secret credentials.
 
 Roster, saved champions and editorial drafts live in the visitor's browser. The editor cannot change the published site. Email feedback is explained in the privacy page. Source references, guide limitations and provisional labels remain visible. YouTube links open original videos; no player loads automatically.
 

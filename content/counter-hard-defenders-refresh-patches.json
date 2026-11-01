@@ -1,0 +1,30 @@
+{
+  "version":1,
+  "reviewedAt":"2026-11-01",
+  "counters":[
+    {
+      "id":"mister-sinister-bullseye","attackerId":"mister-sinister","defenderId":"bullseye","modeIds":["battlegrounds"],"abilityIds":["regeneration","concussion"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Mister Sinister is repeatedly cited as a Bullseye option; his sustain helps absorb unavoidable chip while Concussion can reduce other defensive pressure.",
+      "strategy":"Play for clean Special Attack baiting rather than racing Bullseye, use Sinister's sustain to stabilize the unavoidable damage, and build Concussion when the opening is safe.",
+      "risks":"This is not an Evade shutdown. Bullseye can still punish uncontrolled combos, and Sinister can be slower than dedicated current-meta answers.",
+      "conditions":["Do not treat Concussion as a guaranteed answer to Bullseye's protected Evade.","Prioritize survival and clean openings over speed."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions repeatedly cite Mister Sinister; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"spiral-serpent","attackerId":"spiral","defenderId":"serpent","modeIds":["battlegrounds"],"abilityIds":["destroy","power-steal"],"sourceIds":["counter-tough-defenders-20261101"],"score":3,
+      "why":"Spiral is repeatedly recommended into The Serpent; Falter immunity and Destroy give her tools for two of the matchup's most disruptive defensive effects.",
+      "strategy":"Ramp Spiral safely, use Destroy when Serpent's relevant Buffs are active, and keep enough control to answer Power Gain instead of committing to a blind burst.",
+      "risks":"Serpent's Death Immunity and node package can still extend the fight. Destroy does not mean every defensive Buff disappears at once.",
+      "conditions":["Build the rotation before the Death Immunity window instead of relying on one final burst.","Check current nodes for effects that protect Buffs or punish Power control."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Repeated community recommendations support Spiral into Serpent; no independent current-season timing test is recorded."
+    },
+    {
+      "id":"luke-cage-enchantress","attackerId":"luke-cage","defenderId":"enchantress","modeIds":["battlegrounds","alliance-war"],"abilityIds":["concussion","debilitate"],"sourceIds":["counter-tough-defenders-20261101"],"score":2,
+      "why":"Luke Cage is a current community-reported Enchantress counter; Concussion and Debilitate give useful control once you are correctly clearing her spells.",
+      "strategy":"Use the required actions to remove Enchantress's active spells first, then apply Concussion and Debilitate during the clean damage window.",
+      "risks":"Luke Cage does not bypass Enchantress's spell-removal minigame. Ignoring the displayed spell requirements can still end the fight quickly.",
+      "conditions":["Complete the spell-removal actions before treating the defender as a normal matchup.","Do not assume Concussion shuts down every protected or node-granted effect."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community counter discussions support Luke Cage; no independent current-season timing test is recorded."
+    }
+  ]
+}
