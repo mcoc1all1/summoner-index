@@ -24,7 +24,7 @@ The Pages workflow builds and tests the research version, then builds the public
 - SITE_BASE_PATH=/summoner-index
 - PUBLIC_BETA=1
 
-The beta has 745 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
+The beta has 747 routes, a feedback link on each page, and only the landing and methodology pages in its sitemap. Gameplay guides have noindex directives; this requests exclusion and does not restrict access. No data or sources are marked reviewed merely by publishing the beta. The separate `build:public` reviewed-pilot gate remains unchanged.
 
 Enable Settings → Pages → Source: GitHub Actions. Private-source Pages requires a supporting paid GitHub plan. Do not change repository visibility without the owner's approval. The workflow deploys on pushes to main and supports manual runs. Deployment is complete only after the Pages job succeeds and the live URL works.
 
