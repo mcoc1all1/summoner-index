@@ -1,11 +1,15 @@
-import {focusEligibilityState,hasFocusDraft} from './loadouts.mjs';
+const hasFocusDraft=c=>!!(c?.loadout?.attackFocus||c?.focusTrial?.attackFocus);
+const focusVerified=c=>{
+ const x=c?.statFocusEligibility;
+ return hasFocusDraft(c)&&x?.status==='confirmed'&&typeof x.checkedAt==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x.checkedAt)&&Array.isArray(x.sourceIds)&&x.sourceIds.length>0;
+};
 
 export function loadoutCoverage(db){
  const rows=db.champions.map(c=>({id:c.id,name:c.name,
   attacker:!!(c.loadout?.attackFocus||c.focusTrial?.attackFocus),
   defender:!!c.loadout?.defenseFocus,
   focusDraft:hasFocusDraft(c),
-  focusVerified:hasFocusDraft(c)&&focusEligibilityState(c).confirmed,
+  focusVerified:focusVerified(c),
   battlecast:!!c.loadout?.battlecastId,statcast:!!c.loadout?.statcastId,
   exception:!!c.loadoutException,
   relicCheckedAt:c.loadout?.relicCheckedAt||null,
