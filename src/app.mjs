@@ -6,7 +6,7 @@ import {search,escapeHtml as e,validate,getCounters} from './domain.mjs';
 import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.mjs';
 const $=s=>document.querySelector(s);
 const needsCatalog=!['/privacy','/methodology','/404','/feedback'].includes(route);
-const db=needsCatalog?await fetch(base+'/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
+const db=needsCatalog?await fetch(base+'/catalog.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
 function toast(text){const t=$('#toast');t.textContent=text;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,3500);}
 function track(name,properties={}) { window.dispatchEvent(new CustomEvent('fieldguide:analytics',{detail:{name,properties}}));}
 function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?ids.filter(id=>db?.champions.some(c=>c.id===id)):[];}catch{return [];}}
