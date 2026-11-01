@@ -1,0 +1,54 @@
+{
+  "version":1,
+  "reviewedAt":"2026-11-01",
+  "counters":[
+    {
+      "id":"shuri-arnim-zola","attackerId":"shuri","defenderId":"arnim-zola","modeIds":["battlegrounds","alliance-war"],"abilityIds":["shock","miss"],"sourceIds":["counter-zola-options-20261101","counter-zola-balance-20261101"],"score":3,
+      "why":"Players specifically report Shuri as a reliable Arnim Zola option; her reach and non-contact pressure give her a practical way to work around his awkward Heavy Attack spacing.",
+      "strategy":"Create space first, bait Zola's Heavy Attack, then punish only when your Heavy Attack reach and timing are clean. Keep Shock pressure going between safe punish windows.",
+      "risks":"Zola's Heavy Attack spacing is the real execution check. A node that changes Stun, spacing or damage can make a normally safe punish unreliable.",
+      "conditions":["Do not force the Heavy Attack punish from point-blank range.","Treat Alliance War reports as matchup evidence, not proof that every Zola placement plays the same."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Direct community matchup reports align with the cited kit interaction; no independent current-build timing test or seasonal ranking is claimed."
+    },
+    {
+      "id":"hulkbuster-arnim-zola","attackerId":"hulkbuster","defenderId":"arnim-zola","modeIds":["battlegrounds","alliance-war"],"abilityIds":["shock","armor-break"],"sourceIds":["counter-zola-options-20261101","counter-zola-balance-20261101"],"score":2,
+      "why":"Hulkbuster is reported as an effective Zola option because his Heavy Attack has enough reach to punish Zola from safer spacing.",
+      "strategy":"Bait the Heavy Attack, dash back far enough to establish the correct distance, then answer with Hulkbuster's Heavy Attack rather than rushing a short basic punish.",
+      "risks":"If your dash-back timing leaves you too close or too far away, the Heavy Attack punish can fail. Do not treat the range as automatic.",
+      "conditions":["Practice the Heavy Attack spacing before using the matchup in a high-stakes fight.","Check the active node package for Stun or Power interactions that change Hulkbuster's normal loop."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community matchup reports support the spacing interaction; no independent current-build timing test is recorded."
+    },
+    {
+      "id":"sentinel-arnim-zola","attackerId":"sentinel","defenderId":"arnim-zola","modeIds":["battlegrounds","alliance-war"],"abilityIds":["shock","armor-break"],"sourceIds":["counter-zola-options-20261101","counter-zola-balance-20261101"],"score":2,
+      "why":"Players report Sentinel as a Zola answer, using his long Heavy Attack reach to contest Zola's unusual recovery spacing.",
+      "strategy":"Build Analysis without taking unnecessary contact, bait Zola's Heavy Attack, and use Sentinel's Heavy Attack only from a range you have already established as safe.",
+      "risks":"Analysis ramp and Heavy Attack timing cost time; a bad spacing read can still be punished hard.",
+      "conditions":["Do not assume Sentinel's defensive utility makes an unsafe Heavy Attack trade free.","Re-check the plan on nodes that alter Heavy Attack, Stun or Power behavior."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community matchup reports support the range advantage; no independent current-build timing test is recorded."
+    },
+    {
+      "id":"ironheart-jean-grey","attackerId":"ironheart","defenderId":"jean-grey","modeIds":["battlegrounds"],"abilityIds":["incinerate","tracking"],"sourceIds":["counter-jean-options-20261101","counter-jean-balance-20261101"],"score":3,
+      "why":"Ironheart is repeatedly recommended for Jean Grey. Her Incinerate option supplies useful pressure, while her Armor Up state can provide conditional Reversed Controls immunity.",
+      "strategy":"Select the Incinerate pre-fight, keep Armor Up active before Jean's Reversed Controls become the execution check, and use controlled pressure instead of overextending into the Force Field.",
+      "risks":"The Reversed Controls protection is conditional on Ironheart's Armor Up. If it is removed or prevented, the matchup becomes much less forgiving.",
+      "conditions":["Use the Incinerate pre-fight for this plan.","Confirm Armor Up is active before relying on Reversed Controls immunity."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Repeated community recommendations align with Ironheart's sourced protections; no independent current-season timing test is claimed."
+    },
+    {
+      "id":"jack-olantern-jean-grey","attackerId":"jack-olantern","defenderId":"jean-grey","modeIds":["battlegrounds"],"abilityIds":["incinerate","poison"],"sourceIds":["counter-jean-options-20261101","counter-jean-balance-20261101"],"score":3,
+      "why":"Jack O’Lantern is a frequently reported Jean Grey counter because he has Reversed Controls immunity and can Parry non-contact attacks.",
+      "strategy":"Play the Force Field phase patiently, use Jack's non-contact Parry utility where the current nodes allow it, then build his normal damaging-effect loop once openings are stable.",
+      "risks":"Reversed Controls immunity does not remove Jean's other defensive mechanics, and node-granted Stun restrictions can remove the Parry opening.",
+      "conditions":["Reversed Controls immunity is the safety feature, not a license to ignore the Force Field.","Do not rely on Parry when the node package blocks or punishes Stun."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Repeated community recommendations align with Jack O’Lantern's sourced protections; no independent current-season timing test is claimed."
+    },
+    {
+      "id":"wiccan-jean-grey","attackerId":"wiccan","defenderId":"jean-grey","modeIds":["battlegrounds"],"abilityIds":["neutralize","incinerate"],"sourceIds":["counter-jean-options-20261101","counter-jean-balance-20261101"],"score":2,
+      "why":"Wiccan is a reported Jean Grey option with built-in Reversed Controls immunity and Mystic control tools.",
+      "strategy":"Use a controlled basic rotation, keep Neutralize and Incinerate pressure available, and continue reading Jean's Force Field instead of trying to brute-force it.",
+      "risks":"Wiccan's immunity solves the control reversal, not every Force Field or node interaction. Poor spacing can still turn the fight.",
+      "conditions":["Treat Reversed Controls immunity as one layer of safety.","Check for nodes that punish buffs, Neutralize or damaging effects before committing."],
+      "awakening":null,"signature":null,"relicId":null,"requirements":{"awakened":null,"minSignature":null},"review":{"status":"community-sourced","reviewedAt":"2026-11-01","gameVersion":null},"scoreReason":"Community matchup reports align with Wiccan's sourced Reversed Controls immunity; no independent current-build test is recorded."
+    }
+  ]
+}
