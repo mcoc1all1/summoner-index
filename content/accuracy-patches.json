@@ -71,6 +71,7 @@
     {
       "id": "scytalis",
       "phaseNames": [
+        "Setup — wait for an armed trap",
         "Opening • 100–81%",
         "Middle • 80–41%",
         "Late • 40–6%",
