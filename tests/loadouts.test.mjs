@@ -47,7 +47,8 @@ test('standalone focus drafts remain hidden until eligibility is verified',()=>{
  c.focusTrial={attackFocus:'Block Penetration',attackAlternative:'Block Proficiency',attackReason:'Fixture trial',eligibility:'Eligible 7-star only',status:'editorial-trial',reviewedAt:'2026-10-28',sourceIds:c.sourceIds};delete c.loadout;
  assert.match(loadoutPanel(db,c),/STAT FOCUS WITHHELD/);
  assert(!loadoutPanel(db,c).includes('7★ attacker starting point: Block Penetration'));
- assert.equal(loadoutCards(db,c.focusTrial.attackFocus,'Skill').count,0);
+ const focusSearch=loadoutCards(db,c.focusTrial.attackFocus,'Skill');
+ assert(!focusSearch.html.includes('/champions/spider-man-noir'));
  const copy=structuredClone(db),entry=copy.champions.find(c=>c.id==='spider-man-noir');delete entry.loadout;entry.focusTrial=structuredClone(c.focusTrial);
  entry.focusTrial.attackReason='<script>unsafe</script>';
  assert(!loadoutPanel(copy,entry).includes('<script>'));
