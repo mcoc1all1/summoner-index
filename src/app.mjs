@@ -51,12 +51,14 @@ if(db){
   $('#champ-query').value=params.get('q')||'';
   if(db.champions.some(c=>c.class===params.get('class')))$('#class-filter').value=params.get('class');
   if(db.immunities.some(i=>i.id===params.get('immunity')))$('#immune-filter').value=params.get('immunity');
+  const rarityWrap=document.createElement('div');rarityWrap.className='field';rarityWrap.innerHTML='<label for="rarity-filter">7★ availability</label><select id="rarity-filter"><option value="">All champions</option><option value="7">7★ available</option><option value="not-7">Not listed as 7★</option></select>';$('#coverage-filter').closest('.field')?.after(rarityWrap);
+  if(['7','not-7'].includes(params.get('rarity')))$('#rarity-filter').value=params.get('rarity');
   let shown=24;
   const more=document.createElement('button');more.id='champ-more';more.textContent='Show 24 more';more.className='primary';$('#champ-results').after(more);
   if(['curated','roster'].includes(params.get('coverage')))$('#coverage-filter').value=params.get('coverage');
-  const render=()=>{const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value;const cs=search(db,query,{class:cl,immunity:im,coverage}).champions.sort((a,b)=>a.name.localeCompare(b.name));$('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions · showing ${Math.min(shown,cs.length)}`;$('#champ-results').innerHTML=cs.length?cs.slice(0,shown).map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>No champions match these filters.</h3><p>Try another class or clear the immunity and coverage filters. Unreviewed entries have no catalogued immunities.</p></div>';more.hidden=shown>=cs.length;const p=new URLSearchParams();if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(coverage)p.set('coverage',coverage);history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));syncSaved();};
+  const render=()=>{const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value,rarity=$('#rarity-filter').value;let cs=search(db,query,{class:cl,immunity:im,coverage}).champions;if(rarity==='7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===true);if(rarity==='not-7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===false);cs.sort((a,b)=>a.name.localeCompare(b.name));$('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions · showing ${Math.min(shown,cs.length)}`;$('#champ-results').innerHTML=cs.length?cs.slice(0,shown).map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>No champions match these filters.</h3><p>Try another class or clear the rarity, immunity and coverage filters.</p></div>';more.hidden=shown>=cs.length;const p=new URLSearchParams();if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(coverage)p.set('coverage',coverage);if(rarity)p.set('rarity',rarity);history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));syncSaved();};
   more.onclick=()=>{shown+=24;render();};
-  ['#champ-query','#class-filter','#immune-filter','#coverage-filter'].forEach(id=>$(id).addEventListener('input',()=>{shown=24;render();}));render();
+  ['#champ-query','#class-filter','#immune-filter','#coverage-filter','#rarity-filter'].forEach(id=>$(id).addEventListener('input',()=>{shown=24;render();}));render();
  }
  if($('#counter-results')){
   if(db.gameModes.some(m=>m.id===params.get('mode')))$('#counter-mode').value=params.get('mode');
@@ -86,4 +88,3 @@ if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeI
 for(const [id,key,label] of [['#clear-roster','fieldguide:roster:v1','roster'],['#clear-drafts','fieldguide:content-draft:v1','editorial draft']]){
  const button=$(id);if(button)button.onclick=()=>{if(!window.confirm('Clear the local '+label+'? Export a backup first; this cannot be undone here.'))return;try{localStorage.removeItem(key);toast('Local '+label+' cleared');}catch{toast('Browser storage could not be cleared');}};
 }
-

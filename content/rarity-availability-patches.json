@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02",
+  "sources": [
+    {
+      "id": "availability-7star-directory-20261102",
+      "title": "MCOC 7-Star Champions • MCOC Scout",
+      "url": "https://mcocscout.com/7-star-champions",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    }
+  ],
+  "sevenStarAvailability": {
+    "checkedAt": "2026-11-02",
+    "sourceIds": ["availability-7star-directory-20261102"],
+    "availableIds": [
+      "abomination-immortal","absorbing-man","adam-warlock","agatha-harkness","america-chavez","angela","ant-man","ant-man-future","anti-venom","apocalypse","arcade","arnim-zola","attuma","baron-zemo","bastion","beta-ray-bill","bishop","black-cat","black-panther","black-panther-civil-war","black-tarantula","black-widow-claire-voyant","black-widow-deadly-origin","blade","blade-stellar-forged","blue-marvel","bullseye","captain-america-infinity-war","captain-america-sam-wilson","captain-britain","captain-marvel","carina-tivan","carnage","cassandra-nova","cassie-lang","cheeilth","civil-warrior","colossus","corvus-glaive","count-nefaria","crossbones","cull-obsidian","cyclops-blue-team","dani-moonstar","daredevil-hells-kitchen","dark-phoenix","dazzler","deadpool","deadpool-x-force","diablo","doctor-bong","doctor-strange","doctor-voodoo","domino","dracula","dragon-man","dust","ebony-maw","elsa-bloodstone","emma-frost","enchantress","falcon","falcon-joaquin-torres","franken-castle","galan","gambit","gamora","gentle","ghost-rider","ghost-rider-robbie-reyes","gladiator","gorr","guardian","guillotine-2099","guillotine-deathless","gwenom","gwenpool","havok","hawkeye","heimdall","high-evolutionary","hit-monkey","hobgoblin","howard-the-duck","hulk","hulk-immortal","hulkbuster","hulkling","human-torch","hyperion","iceman","imperiosa","invisible-woman","iron-man","iron-man-infamous","iron-man-infinity-war","ironheart","isophyne","jabari-panther","jack-olantern","jean-grey","jessica-jones","joe-fixit","juggernaut","kang","karnak","karolina-dean","killmonger","kindred","king-groot-deathless","kingpin","kitty-pryde","knull","korg","kraven","kushala","lady-deathstrike","lizard","longshot","luke-cage","lumatrix","mbaku","madelyne-pryor","maestro","magik","magneto-house-of-x","man-thing","mangog","mantis","masacre","medusa","mephisto","mister-fantastic","mister-negative","mister-sinister","misty-knight","modok","mojo","mole-man","moondragon","morbius","mordo","mr-knight","mysterio","namor","negasonic-teenage-warhead","nick-fury","nico-minoru","night-thrasher","nightcrawler","nimrod","northstar","nova","odin","okoye","omega-red","omega-sentinel","onslaught","patriot","peni-parker","phoenix","photon","phyla-vell","pixie","platinum-pool","professor-x","prowler","punisher","punisher-2099","purgatory","quick-silver","red-goblin","red-guardian","red-hulk","red-skull","rhino","rintrah","rocket-raccoon","ronin","ruby-thursday","sabretooth","sandman","sasquatch","sauron","scarlet-witch-classic","scarlet-witch-sigil","scorpion","scream","sentinel","sentry","serpent","sersi","shathra","shang-chi","shatterstar","she-hulk","she-hulk-deathless","shocker","shuri","silk","silver-sable","silver-samurai","silver-surfer","solvarch","sorcerer-supreme","spider-gwen","spider-ham","spider-man-2099","spider-man-classic","spider-man-miles-morales","spider-man-noir","spider-man-pavitr-prabhakar","spider-man-stark-enhanced","spider-man-stealth-suit","spider-man-supreme","spider-man-symbiote","spider-punk","spider-slayer-j-jonah-jameson","spider-woman","spiral","spot","star-lord","star-lord-stellar-forged","storm","storm-pyramid-x","stryfe","sunspot","super-skrull","superior-iron-man","symbiote-supreme","terrax","thanos","thanos-deathless","the-destroyer","the-hood","the-leader","the-maker","the-overseer","thing","thor-jane-foster","thor-ragnarok","tigra","titania","toad","ultron","ultron-classic","valkyrie","venom","venom-the-duck","venompool","vision","vision-aarkus","vision-deathless","viv-vision","void","vox","war-machine","warlock","wave","werewolf-by-night","white-tiger","wiccan","wolverine-weapon-x","wong","yelena-belova","yondu"
+    ],
+    "exceptionIds": ["summoned-symbioid"]
+  }
+}
