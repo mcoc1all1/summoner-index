@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02",
+  "championPatches": [
+    {
+      "id": "kushala",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-kushala-20261102"]
+      }
+    },
+    {
+      "id": "onslaught",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-onslaught-20261102"]
+      }
+    },
+    {
+      "id": "serpent",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-serpent-20261102"]
+      }
+    },
+    {
+      "id": "human-torch",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-human-torch-20261102"]
+      }
+    },
+    {
+      "id": "warlock",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-warlock-20261102"]
+      }
+    },
+    {
+      "id": "high-evolutionary",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-high-evolutionary-20261102"]
+      }
+    },
+    {
+      "id": "black-panther-civil-war",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-bpcw-20261102"]
+      }
+    },
+    {
+      "id": "bullseye",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-02",
+        "confidence": "medium",
+        "note": "Current champion-specific reference agrees with the existing recommendation; retained after GuiaMTC refresh.",
+        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-bullseye-20261102"]
+      }
+    }
+  ]
+}
