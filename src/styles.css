@@ -27,3 +27,5 @@ body{font-size:15px}.beta-bar{display:flex;flex-wrap:wrap;gap:6px 14px;align-ite
 
 .secondary{display:inline-flex;align-items:center;min-height:44px;padding:12px 18px;border:1px solid #56605f;border-radius:5px;color:#edf0eb;font-weight:600}.secondary:hover{border-color:#f4b45d}.beta-bar a{font-size:12px}
 body[data-page="/"] .hero{padding-bottom:18px;margin-bottom:20px}body[data-page="/"] .finder-form{margin-top:16px}.finder-form small{margin-bottom:4px}.field label{font-size:13px}.chip{font-size:12px}.text-link,.quick-row{font-size:13px}.step p,.boss-card p,.champion-card p{font-size:14px}.badge.mystic:before{content:"◇"}.badge.tech:before{content:"▣"}.badge.mutant:before{content:"✦"}.badge.skill:before{content:"⌖"}.badge.science:before{content:"⬡"}.badge.cosmic:before{content:"✧"}
+
+.protection-matches{padding-left:1.2rem;font-size:.85rem}.protection-matches li,#immunity-details li{margin-bottom:.8rem}.toolbar .field{flex-basis:200px}.toolbar input[type=search]{min-width:0}

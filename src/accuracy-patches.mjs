@@ -24,6 +24,7 @@ function assertSources(db,sourceIds,label){
 function applyChampionPatch(db, patch) {
   const champion=db.champions.find(item=>item.id===patch.id);
   if(!champion)throw new Error(`Accuracy patch references unknown champion: ${patch.id}`);
+  if(Object.hasOwn(patch,'protections'))champion.protections=structuredClone(patch.protections);
   if(patch.statFocusEligibility){
     const x=patch.statFocusEligibility;
     if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt))throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);
@@ -76,6 +77,7 @@ export function deriveInitials(name) {
 export function applyAccuracyPatches(input, patches) {
   const db = structuredClone(input);
   upsertById(db.sources, patches?.sources);
+  upsertById(db.immunities, patches?.immunities);
   upsertById(db.champions, patches?.champions);
   upsertById(db.nodes, patches?.nodes);
   upsertById(db.quests, patches?.quests);

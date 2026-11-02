@@ -1,0 +1,253 @@
+{
+  "sources": [
+    {
+      "id": "immunity-emma-community-review",
+      "title": "Emma Frost Diamond Form \u2014 community immunity review",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1d8bsyz/immunity_list_updated_june_2024/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    }
+  ],
+  "immunities": [
+    {
+      "id": "stun",
+      "name": "Stun"
+    },
+    {
+      "id": "fatigue",
+      "name": "Fatigue"
+    },
+    {
+      "id": "exhaustion",
+      "name": "Exhaustion"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "colossus",
+      "protections": [
+        {
+          "effectId": "bleed",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "always",
+          "condition": "Applies to the 2\u20137\u2605 kit; the 1\u2605 version has a different kit.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "incinerate",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "always",
+          "condition": "Applies to the 2\u20137\u2605 kit; the 1\u2605 version has a different kit.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "coldsnap",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "always",
+          "condition": "Applies to the 2\u20137\u2605 kit; the 1\u2605 version has a different kit.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "frostbite",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "always",
+          "condition": "Applies to the 2\u20137\u2605 kit; the 1\u2605 version has a different kit.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "armor-break",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "2\u20137\u2605 only, against a non-Tech opponent. Passive protection is not established by the cited wording.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "armor-shatter",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "2\u20137\u2605 only, against a non-Tech opponent. Passive protection is not established by the cited wording.",
+          "sourceIds": [
+            "expanded-core-colossus"
+          ],
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "emma-frost",
+      "protections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "bleed",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "poison",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "incinerate",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "shock",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "frostbite",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "coldsnap",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "fatigue",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "concussion",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "effectId": "exhaustion",
+          "forms": [
+            "debuff",
+            "passive"
+          ],
+          "availability": "conditional",
+          "condition": "Only in Diamond Form. Telepath Form does not retain these immunities; Armor Break forces Telepath Form. Community-sourced scope, not gameplay-tested.",
+          "sourceIds": [
+            "immunity-emma-community-review",
+            "deep-emma-frost"
+          ],
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    }
+  ]
+}

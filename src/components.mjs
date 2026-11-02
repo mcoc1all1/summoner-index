@@ -1,3 +1,4 @@
+import {matchingProtections,protectionFilterActive,protectionLabel} from './protections.mjs';
 import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.mjs';
 import {requirementCheck} from './roster.mjs';
 import {escapeHtml as e,names,getCounters} from './domain.mjs';
@@ -5,10 +6,13 @@ export const badge=c=>`<span class="badge ${c.toLowerCase()}">${e(c)}</span>`;
 export const avatar=(c,large=false)=>`<span aria-hidden="true" class="avatar ${c.class?.toLowerCase()||'boss'} ${large?'large':''}">${e(c.initials||c.name.slice(0,2).toUpperCase())}</span>`;
 export const chips=(items)=>items.map(x=>`<span class="chip">${e(x)}</span>`).join('');
 export const sevenStarLabel=c=>c.rarityAvailability?.status==='verified'?(c.rarityAvailability.sevenStarAvailable?'7★ available':'Not listed as 7★'):'7★ availability exception/unreviewed';
-export function championCard(db,c){return `<article class="champion-card">
+export function protectionSummary(db,records){return records.map(p=>`<li><strong>${e(names(db,'immunities',[p.effectId])[0])}</strong> — ${e(protectionLabel(p))}<br>${e(p.condition)}</li>`).join('');}
+export function protectionPanel(db,c){return c.protections?.length?`<section class="panel" id="immunity-details"><h2>Reviewed immunity conditions</h2><p>Source-reviewed scope; not a complete kit audit or gameplay test. Debuff selection includes protection covering both forms. Unverified forms are excluded from specific form filters.</p><ul>${protectionSummary(db,c.protections)}</ul>${sources(db,[...new Set(c.protections.flatMap(p=>p.sourceIds))])}</section>`:'';}
+export function championCard(db,c,filters={}){return `<article class="champion-card">
   <div class="card-top">${avatar(c)}<button class="save" data-save="${c.id}" aria-label="Save ${e(c.name)}" aria-pressed="false">☆</button></div>
   ${badge(c.class)}<small class="coverage-label">${e(sevenStarLabel(c))} · ${c.coverage==='roster'?(c.referenceFacts?'Source catalogue · guide pending':'Roster entry · guide pending'):'Curated guide'}</small><h3><a href="/champions/${c.id}">${e(c.name)}</a></h3><p>${e(c.summary)}</p>
   <div class="chips">${chips(names(db,'abilities',c.abilityIds).slice(0,2))}</div>
+  ${protectionFilterActive(filters)?`<ul class="protection-matches">${protectionSummary(db,matchingProtections(c,{activation:'always',...filters}))}</ul>`:''}
   <a class="card-link" href="/champions/${c.id}">View champion <span>↗</span></a></article>`;}
 export function sources(db,ids){return `<details class="sources"><summary>Sources & review notes <span>${ids.length} references</span></summary><p>Catalog baseline: ${e(db.reviewedAt)}. Source check dates below indicate reading, not current-build gameplay tests.</p><ul>${ids.map(id=>{const s=db.sources.find(s=>s.id===id);return `<li><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)} ↗</a><small>${e(s.kind)} · Source checked ${e(s.checkedAt||db.reviewedAt)}</small></li>`;}).join('')}</ul></details>`;}
 export function counterCard(db,c,owned){

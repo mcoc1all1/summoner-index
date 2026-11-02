@@ -1,3 +1,4 @@
+import {matchingProtections,protectionFilterActive} from './protections.mjs';
 import {validDate} from './review.mjs';
 export const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const names = (db, type, ids=[]) => ids.map(id=>db[type].find(x=>x.id===id)?.name || id);
@@ -11,11 +12,11 @@ export function search(db, query='', filters={}) {
   const matches=db.champions.filter(c=>{
     if(filters.coverage && c.coverage!==filters.coverage) return false;
     if(filters.class && c.class!==filters.class) return false;
-    if(filters.immunity && !c.immunityIds.includes(filters.immunity)) return false;
+    if(protectionFilterActive(filters) && !matchingProtections(c,{activation:'always',...filters}).length) return false;
     if(filters.saved && !filters.saved.includes(c.id)) return false;
     if(defense && !c.tagIds.includes('defender')) return false;
     const hay=[c.name,c.class,...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds),...names(db,'immunities',c.immunityIds),...names(db,'tags',c.tagIds)].join(' ').toLowerCase();
-    const immunityWords=names(db,'immunities',c.immunityIds).join(' ').toLowerCase().split(/[^\w-]+/);
+    const immunityWords=names(db,'immunities',protectionFilterActive(filters)?matchingProtections(c,{activation:'always',...filters}).map(p=>p.effectId):c.immunityIds).join(' ').toLowerCase().split(/[^\w-]+/);
     return tokens.every(t=>immune ? immunityWords.includes(t) : hay.includes(t)) && utilityTokens.every(t=>[...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds)].join(' ').toLowerCase().includes(t));
   });
   const bosses=immune||defense?[]:db.bosses.filter(b=>tokens.every(t=>`${b.name} ${b.chapter} ${b.summary}`.toLowerCase().includes(t)));
@@ -43,6 +44,18 @@ export function validate(db) {
   const ref=(table,id,label)=>{if(!db[table].some(x=>x.id===id))errors.push(`${label}: unknown ${table} ID ${id}`);};
   for(const s of db.sources) {try{const url=new URL(s.url);if(url.protocol!=='https:'||url.username||url.password)throw Error();}catch{errors.push(`Source ${s.id} must use a valid HTTPS URL without credentials`);}if(!s.title)errors.push(`Source ${s.id} needs a title`);}
   for(const c of db.champions) {
+    if(c.protections!=null){
+      if(!Array.isArray(c.protections))errors.push(`${c.id}: protections must be an array`);
+      else {const seen=new Set();for(const p of c.protections){
+        if(!p||typeof p!=='object'){errors.push(`${c.id}: invalid protection`);continue;}
+        ref('immunities',p.effectId,c.id);
+        const key=JSON.stringify([p.effectId,p.forms,p.availability,p.condition]);
+        if(seen.has(key))errors.push(`${c.id}: duplicate protection`);seen.add(key);
+        if(!Array.isArray(p.forms)||!p.forms.length||p.forms.some(f=>!['debuff','passive'].includes(f))||new Set(p.forms).size!==p.forms.length)errors.push(`${c.id}: invalid protection forms`);
+        if(!['always','conditional'].includes(p.availability)||!validDate(p.checkedAt)||typeof p.condition!=='string'||!p.condition.trim())errors.push(`${c.id}: protection needs activation, condition and review date`);
+        if(!Array.isArray(p.sourceIds)||!p.sourceIds.length)errors.push(`${c.id}: protection needs evidence`);else p.sourceIds.forEach(id=>ref('sources',id,c.id));
+      }}
+    }
     if(c.researchReview!=null){
       const r=c.researchReview;
       if(!r||typeof r!=='object'||Array.isArray(r)||!['guide-added','source-gap'].includes(r.status)||!validDate(r.checkedAt)||typeof r.note!=='string'||!r.note.trim())errors.push(`${c.id}: invalid research review`);
