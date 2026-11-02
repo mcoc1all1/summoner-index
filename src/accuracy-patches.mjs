@@ -25,6 +25,13 @@ function applyChampionPatch(db, patch) {
   const champion=db.champions.find(item=>item.id===patch.id);
   if(!champion)throw new Error(`Accuracy patch references unknown champion: ${patch.id}`);
   if(Object.hasOwn(patch,'protections'))champion.protections=structuredClone(patch.protections);
+  if(patch.addImmunityIds){
+    if(!Array.isArray(patch.addImmunityIds))throw new Error(`Accuracy patch addImmunityIds must be an array for ${patch.id}`);
+    for(const effectId of patch.addImmunityIds){
+      if(!db.immunities.some(effect=>effect.id===effectId))throw new Error(`Accuracy patch for ${patch.id} references unknown immunity: ${effectId}`);
+    }
+    champion.immunityIds=[...new Set([...(champion.immunityIds||[]),...patch.addImmunityIds])];
+  }
   if(patch.statFocusEligibility){
     const x=patch.statFocusEligibility;
     if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt))throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);
