@@ -15,6 +15,7 @@ function deleteByIds(table, ids = [], label = 'record') {
 }
 
 const validDate=value=>typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value+'T00:00:00Z'));
+const focusOptions=['Critical Rating','Critical Damage Rating','Special Damage','Armor Penetration','Block Penetration','Adrenaline','Armor Rating','Block Proficiency','Physical Resistance','Energy Resistance'];
 
 function assertSources(db,sourceIds,label){
   if(!Array.isArray(sourceIds)||!sourceIds.length)throw new Error(`${label} needs sources`);
@@ -27,6 +28,34 @@ function validateProtectionPatch(db,championId,record){
   if(!Array.isArray(record.forms)||!record.forms.length||record.forms.some(form=>!['debuff','passive'].includes(form)))throw new Error(`${label} needs reviewed forms`);
   if(!['always','conditional'].includes(record.availability)||!validDate(record.checkedAt)||typeof record.condition!=='string'||!record.condition.trim())throw new Error(`${label} needs activation, condition and review date`);
   assertSources(db,record.sourceIds,label);
+}
+
+function withholdStatFocus(champion,reviewedAt){
+  const reason='Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.';
+  const apply=target=>{
+    if(!target)return;
+    if('attackFocus' in target||'attackReason' in target){target.attackFocus='Not reviewed';target.attackAlternative='Matchup dependent';target.attackReason=reason;}
+    if('defenseFocus' in target||'defenseReason' in target){target.defenseFocus='Not reviewed';target.defenseAlternative='Matchup dependent';target.defenseReason=reason;}
+  };
+  apply(champion.loadout);apply(champion.focusTrial);
+  champion.statFocusReview={status:'withheld',checkedAt:reviewedAt,note:reason,sourceIds:[]};
+}
+
+function applyStatFocusRecommendation(db,champion,record){
+  const label=`Stat Focus recommendation for ${champion.id}`;
+  if(!record||!focusOptions.includes(record.attackFocus)||!focusOptions.includes(record.defenseFocus))throw new Error(`${label} needs valid attack and defense focus values`);
+  if(!validDate(record.checkedAt)||!['high','medium'].includes(record.confidence))throw new Error(`${label} needs review date and confidence`);
+  assertSources(db,record.sourceIds,label);
+  const target=champion.loadout||champion.focusTrial;
+  if(!target)throw new Error(`${label} has no loadout/focus draft to update`);
+  target.attackFocus=record.attackFocus;
+  target.attackAlternative=record.attackAlternative||'Matchup dependent';
+  target.attackReason=record.attackReason||'Community-corroborated starting point; matchup and playstyle can change the preferred choice.';
+  target.defenseFocus=record.defenseFocus;
+  target.defenseAlternative=record.defenseAlternative||'Matchup dependent';
+  target.defenseReason=record.defenseReason||'Community-corroborated defensive starting point; the best choice depends on the expected attacker and mode.';
+  target.reviewedAt=record.checkedAt;
+  champion.statFocusReview={status:'reviewed',checkedAt:record.checkedAt,confidence:record.confidence,note:record.note||'Champion-specific recommendation reviewed against cited external guidance.',sourceIds:structuredClone(record.sourceIds)};
 }
 
 function applyChampionPatch(db, patch) {
@@ -62,6 +91,7 @@ function applyChampionPatch(db, patch) {
     assertSources(db,x.sourceIds,`Stat Focus eligibility patch for ${patch.id}`);
     champion.statFocusEligibility=structuredClone(x);
   }
+  if(patch.statFocusRecommendation)applyStatFocusRecommendation(db,champion,patch.statFocusRecommendation);
 }
 
 function applyImmunityActivationReview(db,review){
@@ -146,6 +176,11 @@ export function applyAccuracyPatches(input, patches) {
   upsertById(db.bosses, patches?.bosses);
   deleteByIds(db.counters, patches?.counterDeletes, 'counter');
   upsertById(db.counters, patches?.counters);
+  if(patches?.statFocusReviewPolicy?.withholdUnreviewed){
+    const reviewedAt=patches.statFocusReviewPolicy.checkedAt;
+    if(!validDate(reviewedAt))throw new Error('Stat Focus review policy needs a valid checkedAt date');
+    for(const champion of db.champions)if(champion.loadout?.attackFocus||champion.focusTrial?.attackFocus)withholdStatFocus(champion,reviewedAt);
+  }
   for(const patch of patches?.championPatches||[])applyChampionPatch(db,patch);
   for(const review of patches?.immunityActivationReviews||[])applyImmunityActivationReview(db,review);
   applySevenStarAvailability(db,patches?.sevenStarAvailability);
