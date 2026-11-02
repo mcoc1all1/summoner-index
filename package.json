@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/run-with-accuracy-patches.mjs node scripts/build.mjs",
+    "build": "node scripts/run-with-accuracy-patches.mjs node scripts/build-with-profile.mjs",
     "test": "node scripts/run-with-accuracy-patches.mjs node --test tests/*.test.mjs",
     "dev": "node scripts/serve.mjs",
     "release:check": "node scripts/public-release.mjs --check",
