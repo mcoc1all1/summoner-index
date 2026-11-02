@@ -2,6 +2,7 @@ import {matchingProtections,protectionFilterActive,protectionLabel} from './prot
 import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.mjs';
 import {requirementCheck} from './roster.mjs';
 import {escapeHtml as e,names,getCounters} from './domain.mjs';
+import {counterMechanicSummary} from './counter-mechanics-ui.mjs';
 
 export const badge=c=>`<span class="badge ${c.toLowerCase()}">${e(c)}</span>`;
 export const avatar=(c,large=false)=>`<span aria-hidden="true" class="avatar ${c.class?.toLowerCase()||'boss'} ${large?'large':''}">${e(c.initials||c.name.slice(0,2).toUpperCase())}</span>`;
@@ -56,7 +57,7 @@ export function counterCard(db,c,owned){
  const rows=buildRows(db,c);
  const ownership=owned?`<p class="ownership owned">Owned · ${e(requirementCheck(c,owned).message)}</p>`:owned===null?'<p class="ownership not-owned">Not in your roster</p>':'<p class="ownership"><a href="/roster">Add to My Roster to check requirements →</a></p>';
  return `<article class="counter-card"><div class="counter-head">${avatar(a)}<div><a href="/champions/${a.id}"><h3>${e(a.name)}</h3></a>${badge(a.class)}</div><span class="confidence-badge ${confidence.className}">${e(confidence.label)}</span></div>
- ${ownership}<div class="chips">${chips(names(db,'gameModes',c.modeIds))}</div><p><strong>Why it works:</strong> ${e(c.why)}</p><div class="chips">${chips(names(db,'abilities',c.abilityIds))}</div>
+ ${ownership}<div class="chips">${chips(names(db,'gameModes',c.modeIds))}</div><p><strong>Why it works:</strong> ${e(c.why)}</p>${counterMechanicSummary(db,c)}<div class="chips">${chips(names(db,'abilities',c.abilityIds))}</div>
  <section class="counter-plan"><h4>Fight plan</h4><p>${e(c.strategy)}</p>${c.conditions?.length?`<h4>Check before choosing</h4><ul>${c.conditions.map(condition=>`<li>${e(condition)}</li>`).join('')}</ul>`:''}${rows.length?`<dl class="counter-build">${rows.map(([label,value])=>`<dt>${e(label)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`:''}<p class="risk"><strong>Watch out</strong> ${e(c.risks)}</p></section><details class="confidence-details"><summary>Why this confidence?</summary><p>${e(c.scoreReason)}</p><p class="muted">${e(c.review?.status||'community-sourced')}${c.review?.reviewedAt?' · reviewed '+e(c.review.reviewedAt):''}${c.review?.gameVersion?' · '+e(c.review.gameVersion):''}</p></details>${sources(db,c.sourceIds)}</article>`;
 }
 
