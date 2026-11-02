@@ -37,6 +37,12 @@ function clean(file){
 
  if(!html.includes('ux-cleanup.css'))html=html.replace('</head>',`<link rel="stylesheet" href="${base}/ux-cleanup.css"></head>`);
 
+ // Let champion-profile links open Compare with one chosen champion and an intentionally empty second slot.
+ if(html.includes('id="compare-controls"')&&!html.includes('profile-compare-entry')){
+  const compareEntry=`<script id="profile-compare-entry">(()=>{const id=new URLSearchParams(location.search).get('profile');if(!id)return;const one=document.getElementById('compare-0'),two=document.getElementById('compare-1'),three=document.getElementById('compare-2');if(!one||![...one.options].some(o=>o.value===id))return;if(two&&!two.querySelector('option[value=""]'))two.insertAdjacentHTML('afterbegin','<option value="">Choose champion</option>');one.value=id;if(two)two.value='';if(three)three.value='';})();</script>`;
+  html=html.replace('</body>',`${compareEntry}</body>`);
+ }
+
  // One concise global beta signal is enough; page-specific evidence remains available in disclosures.
  html=html.replace(/<p class="beta-bar"><strong>Public beta · provisional guidance\.<\/strong> <a href="[^\"]*\/methodology">Sourced guidance · Matchups untested →<\/a><\/p>/g,
   `<p class="beta-bar"><strong>Public beta</strong> <a href="${base}/methodology">How recommendations are sourced →</a></p>`);
