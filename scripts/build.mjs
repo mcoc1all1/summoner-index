@@ -1,3 +1,4 @@
+import {versionAssets} from './version-assets.mjs';
 import {challengeRoot,challengeHub,challengePage} from '../src/challenge-guidance.mjs';
 import {basePath,localAttributes,betaNoindex} from '../src/deployment.mjs';
 import {bossGuidance} from '../src/boss-guidance.mjs';
@@ -83,6 +84,7 @@ fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: 
 fs.writeFileSync(path.join(out,'_headers'),`/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Content-Security-Policy: default-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'\n`);
 fs.writeFileSync(path.join(out,'favicon.svg'),`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#f4b45d"/><text x="17" y="48" font-family="Arial" font-weight="bold" font-size="45" fill="#101315">F</text></svg>`);
 fs.writeFileSync(path.join(out,'og.svg'),`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="#101315"/><path d="M60 100H1140" stroke="#f4b45d" stroke-width="4"/><text x="60" y="200" fill="#f4b45d" font-family="Arial" font-size="32">FIELDGUIDE / MCOC COMPANION</text><text x="60" y="340" fill="#edf0eb" font-family="Arial" font-size="68">Less guessing. Better fights.</text><text x="60" y="430" fill="#a4aeae" font-family="Arial" font-size="30">Champions · Counters · Comparisons · Boss guides</text></svg>`);
+versionAssets(out,base);
 console.log(`Built ${routes.length} pages. ${routes.filter(r=>!r.noindex).length} indexable routes. Content references valid.`);
 
 
