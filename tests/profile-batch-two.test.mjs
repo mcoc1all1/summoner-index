@@ -7,8 +7,11 @@ test('Magneto resistance is not indexed as Bleed or Shock immunity',()=>{
  for(const immunity of ['bleed','shock'])assert(!search(db,'',{immunity}).champions.some(c=>c.id==='magneto'));
  assert.match(db.champions.find(c=>c.id==='magneto').resistanceNote,/not eliminated/);
 });
-test('Cosmic Ghost Rider has the sourced unconditional immunities',()=>{
- for(const immunity of ['bleed','incinerate'])assert(search(db,'',{immunity}).champions.some(c=>c.id==='cosmic-ghost-rider'));
+test('Cosmic Ghost Rider retains sourced immunity labels without treating unreviewed scope as always-active',()=>{
+ for(const immunity of ['bleed','incinerate']){
+  assert(search(db,'',{immunity,activation:'all'}).champions.some(c=>c.id==='cosmic-ghost-rider'));
+  assert(!search(db,'',{immunity,activation:'always'}).champions.some(c=>c.id==='cosmic-ghost-rider'));
+ }
 });
 test('conditional protection does not silently become an immunity or tested build',()=>{
  const cs=db.champions.filter(c=>c.kitReview?.batch==='two');assert.equal(cs.length,6);
