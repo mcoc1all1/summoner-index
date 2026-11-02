@@ -1,0 +1,24 @@
+name: Immunity audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit-immunities-mcochub.mjs'
+      - '.github/workflows/immunity-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run champion-by-champion immunity audit
+        run: node scripts/audit-immunities-mcochub.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: immunity-audit-live
+          path: content/immunity-audit-live.json
