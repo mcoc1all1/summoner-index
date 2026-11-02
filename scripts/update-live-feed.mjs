@@ -21,7 +21,7 @@ const isoDate=value=>{
  return Number.isNaN(date.valueOf())?null:date.toISOString().slice(0,10);
 };
 
-const response=await fetch(FEED,{headers:{'user-agent':'SummonerIndexFeedCheck/1.0 (+https://mcoc1all1.github.io/summoner-index/)'}});
+const response=await fetch(FEED,{headers:{'user-agent':'SummonerIndexFeedCheck/1.1 (+https://mcoc1all1.github.io/summoner-index/)'}});
 if(!response.ok)throw new Error(`Official feed request failed: ${response.status}`);
 const xml=await response.text();
 const items=[...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(match=>match[1]);
@@ -42,7 +42,7 @@ for(const block of items){
   title,
   category:category(title),
   publishedAt,
-  summary:'New official MCOC announcement detected automatically. Review the official post and refine this summary before merging.',
+  summary:'Official MCOC announcement. Open the source for full details; interpretation and event-date extraction are reviewed separately.',
   sourceUrl:url.href,
   sourceName:'Official MCOC forum',
   managed:'auto'
@@ -56,4 +56,4 @@ data.checkedAt=new Date().toISOString().slice(0,10);
 const errors=validateLiveData(data);
 if(errors.length)throw new Error(errors.join('\n'));
 fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
-console.log(added?`Added ${added} new official announcement${added===1?'':'s'}.`:'No new official announcements.');
+console.log(added?`Added ${added} new official announcement${added===1?'':'s'} for automatic publication.`:'No new official announcements.');
