@@ -1,11 +1,25 @@
 {
-  "version": 1,
+  "version": 2,
   "reviewedAt": "2026-11-02",
   "sources": [
     {
       "id": "immunity-mcochub-roster-audit-2026-11",
       "title": "MCOCHUB champion immunity index — full roster audit",
       "url": "https://mcochub.insaneskull.com/champions",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-regen-scout-audit-2026-11",
+      "title": "MCOC Scout regeneration-rate immunity review",
+      "url": "https://mcocscout.com/champions/mister-sinister",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-franken-castle-review-2026-11",
+      "title": "Franken-Castle immunity review • MCOC.help",
+      "url": "https://www.mcoc.help/champions/franken-castle/",
       "kind": "community-reference",
       "checkedAt": "2026-11-02"
     }
@@ -17,7 +31,12 @@
     {"id": "death", "name": "Death"},
     {"id": "petrify", "name": "Petrify"},
     {"id": "power-sting", "name": "Power Sting"},
-    {"id": "precision", "name": "Precision"}
+    {"id": "precision", "name": "Precision"},
+    {"id": "regen-rate-mod", "name": "Regen Rate Modification"},
+    {"id": "spectre", "name": "Spectre"},
+    {"id": "stun", "name": "Stun"},
+    {"id": "fatigue", "name": "Fatigue"},
+    {"id": "exhaustion", "name": "Exhaustion"}
   ],
   "championPatches": [
     {"id":"serpent","addImmunityIds":["death","fate-seal","special-lock"]},
@@ -56,7 +75,7 @@
     {"id":"rintrah","addImmunityIds":["stun"]},
     {"id":"she-hulk-deathless","addImmunityIds":["rupture"]},
     {"id":"shuri","addImmunityIds":["ability-accuracy-reduction"]},
-    {"id":"solvarch","addImmunityIds":["crush"]},
+    {"id":"solvarch","addImmunityIds":["crush","regen-rate-mod"]},
     {"id":"spider-punk","addImmunityIds":["concussion","reversed-controls"]},
     {"id":"spiral","addImmunityIds":["reversed-controls"]},
     {"id":"thanos-deathless","addImmunityIds":["power-burn","power-drain"]},
@@ -64,6 +83,16 @@
     {"id":"the-maker","addImmunityIds":["shock"]},
     {"id":"the-overseer","addImmunityIds":["neutralize","reversed-controls"]},
     {"id":"titania","addImmunityIds":["bleed","buff"]},
-    {"id":"wolverine-weapon-x","addImmunityIds":["petrify"]}
+    {"id":"wolverine-weapon-x","addImmunityIds":["petrify"]},
+    {"id":"mister-sinister","addImmunityIds":["regen-rate-mod"]},
+    {"id":"kingpin","addImmunityIds":["regen-rate-mod"]},
+    {"id":"daredevil-hells-kitchen","addImmunityIds":["regen-rate-mod"]},
+    {"id":"wolverine-x-23","addImmunityIds":["regen-rate-mod"]},
+    {"id":"sauron","addImmunityIds":["regen-rate-mod"]},
+    {"id":"the-champion","addImmunityIds":["regen-rate-mod"]},
+    {"id":"franken-castle","addImmunityIds":["petrify","spectre","regen-rate-mod"]},
+    {"id":"sasquatch","addImmunityIds":["regen-rate-mod"]},
+    {"id":"attuma","addImmunityIds":["regen-rate-mod"]},
+    {"id":"sersi","addImmunityIds":["regen-rate-mod"]}
   ]
 }
