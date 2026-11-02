@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02",
+  "championPatches": [
+    {
+      "id": "the-maker",
+      "removeImmunityIds": ["shock"]
+    }
+  ]
+}
