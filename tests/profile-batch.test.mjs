@@ -13,10 +13,16 @@ test('conditional and adaptive immunities stay out of unconditional filters',()=
   for(const id of ['hercules','scorpion','apocalypse','black-widow-claire-voyant'])assert(!ids.includes(id));
  }
 });
-test('Hulkling source-listed power immunities do not imply Heal Block or Power Lock immunity',()=>{
- for(const effect of ['poison','shock','power-drain','power-steal','power-burn'])assert(search(db,'',{immunity:effect,activation:'all'}).champions.some(c=>c.id==='hulkling'));
+test('Hulkling reviewed Poison and Shock do not imply unrelated power immunities',()=>{
+ for(const effect of ['poison','shock']){
+  assert(search(db,'',{immunity:effect,activation:'always'}).champions.some(c=>c.id==='hulkling'));
+  assert(!search(db,'',{immunity:effect,activation:'conditional'}).champions.some(c=>c.id==='hulkling'));
+ }
+ for(const effect of ['power-drain','power-steal','power-burn']){
+  assert(search(db,'',{immunity:effect,activation:'all'}).champions.some(c=>c.id==='hulkling'));
+  assert(!search(db,'',{immunity:effect,activation:'always'}).champions.some(c=>c.id==='hulkling'));
+ }
  for(const effect of ['heal-block','power-lock'])assert(!search(db,'',{immunity:effect,activation:'all'}).champions.some(c=>c.id==='hulkling'));
- for(const effect of ['poison','shock','power-drain','power-steal','power-burn'])assert(!search(db,'',{immunity:effect,activation:'always'}).champions.some(c=>c.id==='hulkling'));
 });
 test('new profiles and matchup records retain honest review limits',()=>{
  assert.deepEqual(validate(db),[]);
