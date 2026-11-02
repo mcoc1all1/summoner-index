@@ -32,12 +32,8 @@ function validateProtectionPatch(db,championId,record){
 
 function withholdStatFocus(champion,reviewedAt){
   const reason='Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.';
-  const apply=target=>{
-    if(!target)return;
-    if('attackFocus' in target||'attackReason' in target){target.attackFocus='Not reviewed';target.attackAlternative='Matchup dependent';target.attackReason=reason;}
-    if('defenseFocus' in target||'defenseReason' in target){target.defenseFocus='Not reviewed';target.defenseAlternative='Matchup dependent';target.defenseReason=reason;}
-  };
-  apply(champion.loadout);apply(champion.focusTrial);
+  if(champion.loadout){champion.loadout.attackReason=reason;champion.loadout.defenseReason=reason;}
+  if(champion.focusTrial)champion.focusTrial.attackReason=reason;
   champion.statFocusReview={status:'withheld',checkedAt:reviewedAt,note:reason,sourceIds:[]};
 }
 
@@ -49,10 +45,10 @@ function applyStatFocusRecommendation(db,champion,record){
   const target=champion.loadout||champion.focusTrial;
   if(!target)throw new Error(`${label} has no loadout/focus draft to update`);
   target.attackFocus=record.attackFocus;
-  target.attackAlternative=record.attackAlternative||'Matchup dependent';
+  target.attackAlternative=focusOptions.includes(record.attackAlternative)?record.attackAlternative:(focusOptions.includes(target.attackAlternative)?target.attackAlternative:record.attackFocus);
   target.attackReason=record.attackReason||'Community-corroborated starting point; matchup and playstyle can change the preferred choice.';
   target.defenseFocus=record.defenseFocus;
-  target.defenseAlternative=record.defenseAlternative||'Matchup dependent';
+  target.defenseAlternative=focusOptions.includes(record.defenseAlternative)&&record.defenseAlternative!=='Adrenaline'?record.defenseAlternative:(focusOptions.includes(target.defenseAlternative)&&target.defenseAlternative!=='Adrenaline'?target.defenseAlternative:record.defenseFocus);
   target.defenseReason=record.defenseReason||'Community-corroborated defensive starting point; the best choice depends on the expected attacker and mode.';
   target.reviewedAt=record.checkedAt;
   champion.statFocusReview={status:'reviewed',checkedAt:record.checkedAt,confidence:record.confidence,note:record.note||'Champion-specific recommendation reviewed against cited external guidance.',sourceIds:structuredClone(record.sourceIds)};
