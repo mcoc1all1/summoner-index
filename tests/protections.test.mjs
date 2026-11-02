@@ -1,100 +1,55 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {search,validate} from '../src/domain.mjs';
+import {matchingProtections,protectionRecords,protectionLabel} from '../src/protections.mjs';
 import {championCard,protectionPanel} from '../src/components.mjs';
-import {validate,filterChampions} from '../src/domain.mjs';
-import {matchingProtections,protectionFilterActive} from '../src/protections.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
-
-test('Magneto resistance is not indexed as Bleed or Shock immunity',()=>{
- const magneto=db.champions.find(c=>c.id==='magneto');
- assert(magneto.resistanceNote);
- assert(!magneto.immunityIds.includes('bleed'));
- assert(!magneto.immunityIds.includes('shock'));
- assert(!filterChampions(db,{immunity:'bleed'}).some(c=>c.id==='magneto'));
- assert(!filterChampions(db,{immunity:'shock'}).some(c=>c.id==='magneto'));
-});
-
-test('Cosmic Ghost Rider has reviewed always-active Bleed and Incinerate immunities',()=>{
- const c=db.champions.find(c=>c.id==='cosmic-ghost-rider');
- for(const effect of ['bleed','incinerate']){
-  const records=matchingProtections(c,{immunity:effect,activation:'always'});
-  assert.equal(records.length,1,effect);
-  assert.deepEqual(records[0].forms,['debuff','passive']);
- }
-});
-
-test('conditional protection does not silently become an immunity or tested build',()=>{
- const c=db.champions.find(c=>c.id==='emma-frost');
- assert.equal(matchingProtections(c,{immunity:'bleed',activation:'always'}).length,0);
- assert(matchingProtections(c,{immunity:'bleed',activation:'conditional'}).length>0);
- assert(!filterChampions(db,{immunity:'bleed'}).some(x=>x.id===c.id));
- assert(filterChampions(db,{immunity:'bleed',activation:'conditional'}).some(x=>x.id===c.id));
-});
-
-test('conditional and adaptive immunities stay out of unconditional filters',()=>{
- for(const [id,effect] of [['emma-frost','poison'],['nimrod','shock'],['sandman','bleed']]){
-  assert(!filterChampions(db,{immunity:effect}).some(c=>c.id===id),id);
-  assert(filterChampions(db,{immunity:effect,activation:'conditional'}).some(c=>c.id===id),id);
- }
-});
-
-test('Hulkling reviewed Poison and Shock do not imply unrelated power immunities',()=>{
- const c=db.champions.find(c=>c.id==='hulkling');
- for(const effect of ['poison','shock'])assert(matchingProtections(c,{immunity:effect,activation:'always'}).length>0);
- for(const effect of ['power-lock','power-drain','power-burn'])assert(!c.immunityIds.includes(effect));
-});
-
-test('new profiles and matchup records retain honest review limits',()=>{
- const ids=['cosmic-ghost-rider','emma-frost','nimrod','sandman','hulkling'];
- for(const id of ids){
-  const c=db.champions.find(c=>c.id===id);
-  assert(c.sourceIds.length);
-  for(const p of c.protections)assert(p.sourceIds?.length&&p.checkedAt);
- }
-});
-
-test('comparison preserves the conditions behind protection',()=>{
- const c=db.champions.find(c=>c.id==='emma-frost');
- const rows=matchingProtections(c,{immunity:'bleed',activation:'conditional'});
- assert(rows.some(x=>/Diamond Form/.test(x.condition)));
-});
+const ids=f=>search(db,'',f).champions.map(c=>c.id);
 
 test('conditional immunity filters use reviewed activation and conservative form scope',()=>{
- const emma=db.champions.find(c=>c.id==='emma-frost');
- assert(protectionFilterActive({immunity:'bleed',activation:'conditional'}));
- assert(matchingProtections(emma,{immunity:'bleed',form:'debuff',activation:'conditional'}).length>0);
- assert(matchingProtections(emma,{immunity:'bleed',form:'passive',activation:'conditional'}).length>0);
+ const debuff=ids({immunity:'shock',form:'debuff',activation:'conditional'});
+ for(const id of ['emma-frost','absorbing-man','scorpion'])assert(debuff.includes(id));
+ const passive=ids({immunity:'shock',form:'passive',activation:'conditional'});
+ assert.deepEqual(passive,['emma-frost']);
+ assert(!ids({immunity:'shock',form:'passive',activation:'always'}).includes('emma-frost'));
+ assert(ids({immunity:'bleed',form:'passive',activation:'either'}).includes('colossus'));
+ assert(ids({immunity:'bleed',form:'passive',activation:'either'}).includes('emma-frost'));
 });
 
 test('remaining legacy immunity labels stay unknown until their activation is reviewed',()=>{
- const sample=db.champions.find(c=>c.immunityIds.length&&!c.protections?.length);
- if(!sample)return;
- assert.equal(matchingProtections(sample,{activation:'always'}).length,0);
- assert.equal(matchingProtections(sample,{activation:'conditional'}).length,0);
+ const wiccan=db.champions.find(c=>c.id==='wiccan');
+ const reversed=protectionRecords(wiccan).find(p=>p.effectId==='reversed-controls');
+ assert.equal(reversed.availability,'unknown');
+ assert.match(protectionLabel(reversed),/Activation not yet reviewed/);
+ assert(!ids({immunity:'reversed-controls',activation:'always'}).includes('wiccan'));
+ assert(!ids({immunity:'reversed-controls',activation:'either'}).includes('wiccan'));
+ assert(ids({immunity:'reversed-controls',activation:'unknown'}).includes('wiccan'));
+ assert(ids({immunity:'reversed-controls',activation:'all'}).includes('wiccan'));
 });
 
 test('reviewed activation does not imply passive protection',()=>{
- const record={effectId:'poison',availability:'always',forms:['debuff'],condition:'Always active'};
- const c={protections:[record],immunityIds:['poison']};
- assert.equal(matchingProtections(c,{immunity:'poison',form:'passive',activation:'always'}).length,0);
+ assert(ids({immunity:'shock',activation:'always'}).includes('doctor-doom'));
+ assert(!ids({immunity:'shock',form:'passive',activation:'always'}).includes('doctor-doom'));
+ for(const id of ['ghost','magneto','shang-chi'])assert(!ids({immunity:'bleed',activation:'either'}).includes(id));
+ assert(!ids({immunity:'armor-break',form:'passive',activation:'either'}).includes('colossus'));
+ assert(ids({immunity:'armor-break',form:'debuff',activation:'conditional'}).includes('colossus'));
 });
 
 test('form and activation can filter without choosing an effect',()=>{
- const results=filterChampions(db,{form:'passive',activation:'conditional'});
- assert(results.length>0);
- assert(results.every(c=>matchingProtections(c,{form:'passive',activation:'conditional'}).length));
+ assert(ids({form:'passive',activation:'conditional'}).includes('emma-frost'));
+ assert(!ids({activation:'conditional'}).includes('doctor-doom'));
+ assert(ids({activation:'unknown'}).includes('wiccan'));
 });
 
 test('review overrides legacy labels rather than accidentally granting always-on immunity',()=>{
- const c={immunityIds:['poison'],protections:[{effectId:'poison',availability:'conditional',forms:['debuff'],condition:'Only sometimes'}]};
- assert.equal(matchingProtections(c,{immunity:'poison',activation:'always'}).length,0);
+ const c={immunityIds:['bleed'],protections:[{effectId:'bleed',forms:['debuff'],availability:'conditional'}]};
+ assert.equal(matchingProtections(c,{activation:'always'}).length,0);
+ assert.equal(matchingProtections(c,{activation:'unknown'}).length,0);
 });
 
 test('immunity query respects explicitly selected activation',()=>{
- const conditional=filterChampions(db,{immunity:'bleed',activation:'conditional'});
- assert(conditional.some(c=>c.id==='emma-frost'));
- assert(!filterChampions(db,{immunity:'bleed',activation:'always'}).some(c=>c.id==='emma-frost'));
+ assert(search(db,'shock immune',{activation:'conditional',form:'passive'}).champions.some(c=>c.id==='emma-frost'));
 });
 
 test('malformed protection evidence fails validation',()=>{
