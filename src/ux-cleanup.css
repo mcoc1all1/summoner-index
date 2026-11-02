@@ -26,4 +26,28 @@ p{font-size:14px}
 .loadout-notes>p.muted:first-of-type{margin-bottom:12px}
 .loadout-notes details{margin-top:14px}
 .footer{font-size:12px}
-@media(max-width:800px){:root{font-size:15px}.confidence-badge{white-space:normal;max-width:160px}.counter-build{grid-template-columns:1fr}.beta-bar{align-items:flex-start;flex-direction:column;gap:4px}}
+.live-hero{margin-bottom:20px}
+.live-hero h1{margin-bottom:10px}
+.live-hero>p{max-width:780px}
+.live-freshness{display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}
+.live-jump{margin-bottom:18px}
+.live-filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px}
+.live-filter-bar button{border:1px solid var(--line);background:#ffffff03;color:var(--muted);border-radius:999px;padding:8px 12px;cursor:pointer}
+.live-filter-bar button.active{color:var(--text);border-color:#657169;background:#ffffff08}
+.live-section{margin-top:34px}
+.live-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.live-card,.news-card{min-height:100%;display:flex;flex-direction:column}
+.live-card h3,.news-card h3{margin:12px 0 7px}
+.live-card p,.news-card p{margin-top:0}
+.live-card .text-link,.news-card .text-link{margin-top:auto}
+.live-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:12px;text-transform:capitalize}
+.live-category,.live-status{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:4px 8px}
+.live-status[data-state="live"]{border-color:#577463;color:#b9d9c4;background:#26362c}
+.live-status[data-state="upcoming"]{border-color:#756247;color:#e1c79a;background:#332b20}
+.live-status[data-state="ended"]{color:var(--muted)}
+.live-dates{color:var(--muted)}
+.live-count{font-size:12px;color:var(--muted)}
+.live-source-note{margin-top:36px}
+.live-home-callout{margin-bottom:18px}
+.live-home-callout .primary{display:inline-flex;margin-top:8px}
+@media(max-width:800px){:root{font-size:15px}.confidence-badge{white-space:normal;max-width:160px}.counter-build{grid-template-columns:1fr}.beta-bar{align-items:flex-start;flex-direction:column;gap:4px}.live-grid{grid-template-columns:1fr}.live-card-top{align-items:flex-start}.live-filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}.live-filter-bar button{white-space:nowrap}}
