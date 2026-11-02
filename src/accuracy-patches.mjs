@@ -33,6 +33,38 @@ function applyChampionPatch(db, patch) {
   }
 }
 
+function applyImmunityActivationReview(db,review){
+  const label=`Immunity activation review for ${review?.effectId||'unknown effect'}`;
+  if(!review||!db.immunities.some(effect=>effect.id===review.effectId)||!validDate(review.checkedAt))throw new Error(`${label} needs a known effect and valid review date`);
+  assertSources(db,review.sourceIds,label);
+  if(!Array.isArray(review.alwaysIds)||!Array.isArray(review.conditionalIds))throw new Error(`${label} needs alwaysIds and conditionalIds`);
+  const always=new Set(review.alwaysIds),conditional=new Set(review.conditionalIds);
+  if(always.size!==review.alwaysIds.length||conditional.size!==review.conditionalIds.length)throw new Error(`${label} contains duplicate champion IDs`);
+  for(const id of always)if(conditional.has(id))throw new Error(`${label} cannot classify ${id} as both always and conditional`);
+  const apply=(id,availability)=>{
+    const champion=db.champions.find(item=>item.id===id);
+    if(!champion)throw new Error(`${label} references unknown champion: ${id}`);
+    champion.protections??=[];
+    const existingIndex=champion.protections.findIndex(record=>record.effectId===review.effectId);
+    // A champion-specific scope review is more precise than a broad activation-index pass.
+    if(existingIndex!==-1&&champion.protections[existingIndex]?.forms?.length)return;
+    const record={
+      effectId:review.effectId,
+      forms:['debuff'],
+      availability,
+      condition:availability==='always'
+        ?'Current immunity index lists this effect as always active. Debuff protection is included; passive-effect protection has not been independently verified.'
+        :'Current immunity index marks this immunity conditional (requires a mode or ability). Exact trigger and passive-effect protection remain champion-specific review items.',
+      sourceIds:structuredClone(review.sourceIds),
+      checkedAt:review.checkedAt
+    };
+    if(existingIndex===-1)champion.protections.push(record);
+    else champion.protections[existingIndex]=record;
+  };
+  for(const id of always)apply(id,'always');
+  for(const id of conditional)apply(id,'conditional');
+}
+
 function applySevenStarAvailability(db, review) {
   if(!review)return;
   if(!validDate(review.checkedAt)||!Array.isArray(review.availableIds)||!Array.isArray(review.exceptionIds))throw new Error('Invalid 7-star availability review');
@@ -85,6 +117,7 @@ export function applyAccuracyPatches(input, patches) {
   deleteByIds(db.counters, patches?.counterDeletes, 'counter');
   upsertById(db.counters, patches?.counters);
   for(const patch of patches?.championPatches||[])applyChampionPatch(db,patch);
+  for(const review of patches?.immunityActivationReviews||[])applyImmunityActivationReview(db,review);
   applySevenStarAvailability(db,patches?.sevenStarAvailability);
   for(const patch of patches?.bossPatches||[])applyBossPatch(db,patch);
 
