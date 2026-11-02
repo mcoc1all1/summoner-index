@@ -50,6 +50,12 @@ function applyChampionPatch(db, patch) {
     }
     champion.immunityIds=[...new Set([...(champion.immunityIds||[]),...patch.addImmunityIds])];
   }
+  if(patch.removeImmunityIds){
+    if(!Array.isArray(patch.removeImmunityIds))throw new Error(`Accuracy patch removeImmunityIds must be an array for ${patch.id}`);
+    const remove=new Set(patch.removeImmunityIds);
+    champion.immunityIds=(champion.immunityIds||[]).filter(effectId=>!remove.has(effectId));
+    if(Array.isArray(champion.protections))champion.protections=champion.protections.filter(record=>!remove.has(record.effectId));
+  }
   if(patch.statFocusEligibility){
     const x=patch.statFocusEligibility;
     if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt))throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);
@@ -71,7 +77,6 @@ function applyImmunityActivationReview(db,review){
     if(!champion)throw new Error(`${label} references unknown champion: ${id}`);
     champion.protections??=[];
     const existingIndex=champion.protections.findIndex(record=>record.effectId===review.effectId);
-    // A champion-specific scope review is more precise than a broad activation-index pass.
     if(existingIndex!==-1&&champion.protections[existingIndex]?.forms?.length)return;
     const record={
       effectId:review.effectId,
