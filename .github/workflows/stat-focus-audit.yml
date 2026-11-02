@@ -1,0 +1,23 @@
+name: Stat focus audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'content/catalog.json'
+      - 'content/accuracy-patches.json'
+      - 'content/rarity-*-patches.json'
+      - 'scripts/audit-stat-focus.mjs'
+      - 'scripts/run-with-accuracy-patches.mjs'
+      - '.github/workflows/stat-focus-audit.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit stat focus suggestions
+        run: node scripts/run-with-accuracy-patches.mjs node scripts/audit-stat-focus.mjs
