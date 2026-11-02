@@ -12,6 +12,17 @@ p{font-size:14px}
 .confidence-limited{border-color:#654d4d;color:#d9b0b0;background:#302323}
 .counter-card .counter-head{align-items:flex-start}
 .counter-card .counter-plan h4{margin:17px 0 7px;font-size:13px;color:var(--text)}
+.counter-mechanics{margin:14px 0;padding:12px;border:1px solid var(--line);border-radius:9px;background:#ffffff02}
+.counter-mechanics-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:9px}
+.counter-mechanics-title strong{font-size:13px}
+.counter-mechanics-title small{font-size:11px;color:var(--muted)}
+.counter-mechanic-row{display:grid;grid-template-columns:84px 1fr;gap:8px;align-items:start;margin-top:7px}
+.counter-mechanic-row>strong{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.counter-mechanic-chips{display:flex;flex-wrap:wrap;gap:6px}
+.counter-mechanic-chips span{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px 7px;font-size:11px;line-height:1.2}
+.mechanic-handled .counter-mechanic-chips span{border-color:#577463;color:#b9d9c4;background:#26362c}
+.mechanic-helps .counter-mechanic-chips span{border-color:#756247;color:#e1c79a;background:#332b20}
+.mechanic-watch .counter-mechanic-chips span{border-color:#654d4d;color:#d9b0b0;background:#302323}
 .counter-build{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:16px 0;padding:13px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .counter-build dt,.counter-build dd{margin:0}
 .counter-build dt{color:var(--muted)}
@@ -50,4 +61,4 @@ p{font-size:14px}
 .live-source-note{margin-top:36px}
 .live-home-callout{margin-bottom:18px}
 .live-home-callout .primary{display:inline-flex;margin-top:8px}
-@media(max-width:800px){:root{font-size:15px}.confidence-badge{white-space:normal;max-width:160px}.counter-build{grid-template-columns:1fr}.beta-bar{align-items:flex-start;flex-direction:column;gap:4px}.live-grid{grid-template-columns:1fr}.live-card-top{align-items:flex-start}.live-filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}.live-filter-bar button{white-space:nowrap}}
+@media(max-width:800px){:root{font-size:15px}.confidence-badge{white-space:normal;max-width:160px}.counter-build{grid-template-columns:1fr}.counter-mechanic-row{grid-template-columns:1fr}.counter-mechanics-title{align-items:flex-start;flex-direction:column;gap:3px}.beta-bar{align-items:flex-start;flex-direction:column;gap:4px}.live-grid{grid-template-columns:1fr}.live-card-top{align-items:flex-start}.live-filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}.live-filter-bar button{white-space:nowrap}}
