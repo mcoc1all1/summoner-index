@@ -1,1 +1,101 @@
-{"version":1,"reviewedAt":"2026-11-02","statFocusReviewPolicy":{"withholdUnreviewed":true,"checkedAt":"2026-11-02"},"sources":[{"id":"stat-focus-community-table-2025","title":"MCOC Stat Focus and Relics Guide 2025","url":"https://www.scribd.com/document/918531637/MCOC-7-Star-STAT-FOCUS-RELIC","kind":"community-reference","checkedAt":"2026-11-02"},{"id":"stat-focus-guiamtc-july-2026","title":"Top 150 - Champions by Prestige + Relic + Stat Focus [July 2026]","url":"https://forums.playcontestofchampions.com/en/discussion/417808/top-150-champions-by-prestige-relic-stat-focus-july-2026","kind":"community-reference","checkedAt":"2026-11-02"},{"id":"stat-focus-official-balance-51-1","title":"Balance Update to Attacker & Defender Stat Focus","url":"https://forums.playcontestofchampions.com/en/discussion/397890/balance-update-to-attacker-defender-stat-focus","kind":"official","checkedAt":"2026-11-02"},{"id":"stat-focus-carina-official","title":"Carina Tivan Champion Spotlight","url":"https://playcontestofchampions.com/news/champion-spotlight-carina-tivan/","kind":"official","checkedAt":"2026-11-02"}]}
+{
+  "version": 2,
+  "reviewedAt": "2026-11-02",
+  "statFocusReviewPolicy": {
+    "withholdUnreviewed": true,
+    "checkedAt": "2026-11-02"
+  },
+  "sources": [
+    {
+      "id": "stat-focus-community-table-2025",
+      "title": "MCOC Stat Focus and Relics Guide 2025",
+      "url": "https://www.scribd.com/document/918531637/MCOC-7-Star-STAT-FOCUS-RELIC",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-guiamtc-july-2026",
+      "title": "Top 150 - Champions by Prestige + Relic + Stat Focus [July 2026]",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/417808/top-150-champions-by-prestige-relic-stat-focus-july-2026",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-guiamtc-current-20261102",
+      "title": "GuiaMTC - 7 Star Prestige + Relics + Stat Focus",
+      "url": "https://www.guiamtc.com/7-star-prestige-relics",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-official-balance-51-1",
+      "title": "Balance Update to Attacker & Defender Stat Focus",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/397890/balance-update-to-attacker-defender-stat-focus",
+      "kind": "official",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-carina-official",
+      "title": "Carina Tivan Champion Spotlight",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-carina-tivan/",
+      "kind": "official",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-kushala-20261102",
+      "title": "Kushala Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/kushala",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-onslaught-20261102",
+      "title": "Onslaught Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/onslaught",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-serpent-20261102",
+      "title": "The Serpent Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/the-serpent",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-human-torch-20261102",
+      "title": "Human Torch Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/human-torch",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-warlock-20261102",
+      "title": "Warlock Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/warlock",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-high-evolutionary-20261102",
+      "title": "High Evolutionary Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/high-evolutionary",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-bpcw-20261102",
+      "title": "Black Panther (Civil War) Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/black-panther-civil-war",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "stat-focus-scout-bullseye-20261102",
+      "title": "Bullseye Stat Focus and Relics - MCOC Scout",
+      "url": "https://mcocscout.com/champions/bullseye",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    }
+  ]
+}
