@@ -7,6 +7,9 @@ const out=path.join(root,'dist');
 const db=JSON.parse(fs.readFileSync(path.join(root,'content/catalog.json'),'utf8'));
 const standardCount=db.champions.filter(c=>c.id!=='summoned-symbioid').length;
 const specialCount=db.champions.length-standardCount;
+const uxCssSource=path.join(root,'src','ux-cleanup.css');
+const uxCssTarget=path.join(out,'ux-cleanup.css');
+if(fs.existsSync(uxCssSource))fs.copyFileSync(uxCssSource,uxCssTarget);
 
 function walk(dir){
  for(const item of fs.readdirSync(dir,{withFileTypes:true})){
@@ -27,6 +30,8 @@ function clean(file){
   .replaceAll(' · Fieldguide</title>',' · Summoner Index</title>')
   .replaceAll('content="Fieldguide"','content="Summoner Index"')
   .replaceAll('>Search the fieldguide<','>Search Summoner Index<');
+
+ if(!html.includes('ux-cleanup.css'))html=html.replace('</head>','<link rel="stylesheet" href="/ux-cleanup.css"></head>');
 
  // One concise global beta signal is enough; page-specific evidence remains available in disclosures.
  html=html.replace(/<p class="beta-bar"><strong>Public beta · provisional guidance\.<\/strong> <a href="[^\"]*\/methodology">Sourced guidance · Matchups untested →<\/a><\/p>/g,
