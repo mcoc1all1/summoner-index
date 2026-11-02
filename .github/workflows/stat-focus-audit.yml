@@ -6,8 +6,11 @@ on:
       - 'content/catalog.json'
       - 'content/accuracy-patches.json'
       - 'content/rarity-*-patches.json'
+      - 'content/stat-focus-*-patches.json'
       - 'scripts/audit-stat-focus.mjs'
       - 'scripts/run-with-accuracy-patches.mjs'
+      - 'src/accuracy-patches.mjs'
+      - 'src/loadouts.mjs'
       - '.github/workflows/stat-focus-audit.yml'
 permissions:
   contents: read
@@ -21,3 +24,8 @@ jobs:
           node-version: '22'
       - name: Audit stat focus suggestions
         run: node scripts/run-with-accuracy-patches.mjs node scripts/audit-stat-focus.mjs
+      - name: Upload stat focus audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: stat-focus-audit
+          path: stat-focus-audit-current.json
