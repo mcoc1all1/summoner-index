@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02",
+  "mechanics": [
+    {"id":"buff-cycle","name":"Defensive buff cycle","kind":"problem"},
+    {"id":"power-gain","name":"Power gain / power pressure","kind":"problem"},
+    {"id":"death-immunity","name":"Death Immunity / delayed finish","kind":"problem"},
+    {"id":"falter","name":"Falter / miss pressure","kind":"problem"},
+    {"id":"evade","name":"Evade","kind":"problem"},
+    {"id":"unavoidable-chip","name":"Unavoidable chip damage","kind":"problem"},
+    {"id":"spell-minigame","name":"Required spell-removal actions","kind":"problem"},
+    {"id":"heavy-spacing","name":"Awkward Heavy Attack spacing","kind":"problem"},
+    {"id":"reverse-controls","name":"Reversed Controls","kind":"problem"},
+    {"id":"force-field","name":"Force Field / protected defensive window","kind":"problem"},
+    {"id":"combo-detonation","name":"Required combo sequence","kind":"problem"},
+    {"id":"defensive-accuracy","name":"Defensive accuracy checks","kind":"problem"},
+    {"id":"unstoppable","name":"Unstoppable","kind":"problem"},
+    {"id":"stall","name":"Stall / long defensive cycle","kind":"problem"},
+    {"id":"resistance","name":"High resistance / burst suppression","kind":"problem"},
+    {"id":"auto-block","name":"Auto-Block","kind":"problem"},
+    {"id":"trap-state","name":"Trap / token state","kind":"problem"},
+    {"id":"poison-pressure","name":"Poison pressure","kind":"problem"},
+    {"id":"critical-failure","name":"Critical Failure / ability-accuracy punishment","kind":"problem"},
+    {"id":"sand","name":"Sand / Sandstorm buildup","kind":"problem"},
+    {"id":"non-contact-attacks","name":"Non-contact attack rhythm","kind":"problem"},
+    {"id":"armor-stack","name":"Armor Up stack","kind":"problem"},
+    {"id":"power-drain","name":"Power Drain / block pressure","kind":"problem"},
+    {"id":"porker-poppers","name":"Porker Popper pressure","kind":"problem"},
+
+    {"id":"buff-control","name":"Buff control","kind":"solution"},
+    {"id":"destroy","name":"Destroy / buff suppression","kind":"solution"},
+    {"id":"power-control","name":"Power control","kind":"solution"},
+    {"id":"falter-immunity","name":"Falter immunity","kind":"solution"},
+    {"id":"sustain","name":"Sustain / damage recovery","kind":"solution"},
+    {"id":"concussion","name":"Concussion / ability reduction","kind":"solution"},
+    {"id":"debilitate","name":"Debilitate / effect extension","kind":"solution"},
+    {"id":"long-heavy-reach","name":"Long Heavy Attack reach","kind":"solution"},
+    {"id":"reverse-controls-immunity","name":"Reversed Controls immunity","kind":"solution"},
+    {"id":"non-contact-parry","name":"Non-contact Parry utility","kind":"solution"},
+    {"id":"true-accuracy","name":"True Accuracy","kind":"solution"},
+    {"id":"stagger","name":"Stagger / Mystic buff control","kind":"solution"},
+    {"id":"grit","name":"Grit / Unstoppable counterplay","kind":"solution"},
+    {"id":"slow","name":"Slow","kind":"solution"},
+    {"id":"cleanse","name":"Cleanse","kind":"solution"},
+    {"id":"unblockable-pressure","name":"Unblockable pressure","kind":"solution"},
+    {"id":"poison-immunity","name":"Poison immunity","kind":"solution"},
+    {"id":"non-critical-damage","name":"Non-critical damage pattern","kind":"solution"},
+    {"id":"energy-resistance","name":"Energy Resistance","kind":"solution"},
+    {"id":"incinerate-sand-control","name":"Incinerate-based Sand control","kind":"solution"},
+    {"id":"armor-shatter","name":"Armor Shattered / Armor suppression","kind":"solution"},
+    {"id":"buff-ramp","name":"Uses defender buffs for ramp","kind":"solution"},
+    {"id":"evade-control","name":"Evade control","kind":"solution"}
+  ],
+  "defenders": [
+    {"id":"serpent","problemIds":["buff-cycle","power-gain","death-immunity","falter"]},
+    {"id":"bullseye","problemIds":["evade","unavoidable-chip"]},
+    {"id":"enchantress","problemIds":["spell-minigame"]},
+    {"id":"arnim-zola","problemIds":["heavy-spacing"]},
+    {"id":"jean-grey","problemIds":["reverse-controls","force-field"]},
+    {"id":"high-evolutionary","problemIds":["combo-detonation","defensive-accuracy"]},
+    {"id":"thanos-deathless","problemIds":["buff-cycle","unstoppable","stall"]},
+    {"id":"count-nefaria","problemIds":["evade","power-gain","resistance"]},
+    {"id":"arcade","problemIds":["auto-block","trap-state","poison-pressure"]},
+    {"id":"domino","problemIds":["critical-failure","evade"]},
+    {"id":"dust","problemIds":["sand","non-contact-attacks"]},
+    {"id":"red-skull","problemIds":["armor-stack","auto-block","power-drain"]},
+    {"id":"spider-ham","problemIds":["evade","porker-poppers"]}
+  ],
+  "counters": [
+    {"counterId":"spiral-serpent","fit":"strong","handledProblemIds":["falter"],"mitigatedProblemIds":["buff-cycle","power-gain"],"exploitedProblemIds":[],"unresolvedProblemIds":["death-immunity"],"solutionIds":["destroy","power-control","falter-immunity"]},
+    {"counterId":"mister-sinister-bullseye","fit":"contextual","handledProblemIds":[],"mitigatedProblemIds":["unavoidable-chip"],"exploitedProblemIds":[],"unresolvedProblemIds":["evade"],"solutionIds":["sustain","concussion"]},
+    {"counterId":"luke-cage-enchantress","fit":"contextual","handledProblemIds":[],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["spell-minigame"],"solutionIds":["concussion","debilitate"]},
+
+    {"counterId":"shuri-arnim-zola","fit":"strong","handledProblemIds":["heavy-spacing"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":[],"solutionIds":["long-heavy-reach"]},
+    {"counterId":"hulkbuster-arnim-zola","fit":"partial","handledProblemIds":["heavy-spacing"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":[],"solutionIds":["long-heavy-reach"]},
+    {"counterId":"sentinel-arnim-zola","fit":"partial","handledProblemIds":["heavy-spacing"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":[],"solutionIds":["long-heavy-reach"]},
+
+    {"counterId":"ironheart-jean-grey","fit":"strong","handledProblemIds":["reverse-controls"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["force-field"],"solutionIds":["reverse-controls-immunity"]},
+    {"counterId":"jack-olantern-jean-grey","fit":"strong","handledProblemIds":["reverse-controls"],"mitigatedProblemIds":["force-field"],"exploitedProblemIds":[],"unresolvedProblemIds":[],"solutionIds":["reverse-controls-immunity","non-contact-parry"]},
+    {"counterId":"wiccan-jean-grey","fit":"partial","handledProblemIds":["reverse-controls"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["force-field"],"solutionIds":["reverse-controls-immunity","buff-control"]},
+
+    {"counterId":"attuma-high-evolutionary","fit":"strong","handledProblemIds":["defensive-accuracy"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["combo-detonation"],"solutionIds":["true-accuracy"]},
+    {"counterId":"bullseye-high-evolutionary","fit":"partial","handledProblemIds":["defensive-accuracy"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["combo-detonation"],"solutionIds":["true-accuracy"]},
+    {"counterId":"medusa-high-evolutionary","fit":"partial","handledProblemIds":["defensive-accuracy"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["combo-detonation"],"solutionIds":["true-accuracy"]},
+
+    {"counterId":"juggernaut-thanos-deathless","fit":"partial","handledProblemIds":["buff-cycle"],"mitigatedProblemIds":["stall"],"exploitedProblemIds":[],"unresolvedProblemIds":["unstoppable"],"solutionIds":["stagger","buff-control"]},
+    {"counterId":"cheeilth-thanos-deathless","fit":"contextual","handledProblemIds":["unstoppable"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["buff-cycle","stall"],"solutionIds":["grit"]},
+
+    {"counterId":"silk-count-nefaria","fit":"contextual","handledProblemIds":[],"mitigatedProblemIds":["evade","power-gain"],"exploitedProblemIds":[],"unresolvedProblemIds":["resistance"],"solutionIds":["slow"]},
+    {"counterId":"shang-chi-count-nefaria","fit":"partial","handledProblemIds":["evade"],"mitigatedProblemIds":["power-gain"],"exploitedProblemIds":[],"unresolvedProblemIds":["resistance"],"solutionIds":["slow","cleanse"]},
+
+    {"counterId":"hulkling-arcade","fit":"partial","handledProblemIds":["poison-pressure"],"mitigatedProblemIds":["auto-block"],"exploitedProblemIds":[],"unresolvedProblemIds":["trap-state"],"solutionIds":["poison-immunity","unblockable-pressure"]},
+
+    {"counterId":"prowler-domino","fit":"partial","handledProblemIds":[],"mitigatedProblemIds":["critical-failure"],"exploitedProblemIds":[],"unresolvedProblemIds":["evade"],"solutionIds":["non-critical-damage"]},
+    {"counterId":"count-nefaria-domino","fit":"contextual","handledProblemIds":[],"mitigatedProblemIds":["critical-failure"],"exploitedProblemIds":[],"unresolvedProblemIds":["evade"],"solutionIds":["energy-resistance"]},
+
+    {"counterId":"sunspot-dust","fit":"strong","handledProblemIds":["sand"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["non-contact-attacks"],"solutionIds":["incinerate-sand-control"]},
+    {"counterId":"kushala-dust","fit":"strong","handledProblemIds":["sand"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["non-contact-attacks"],"solutionIds":["incinerate-sand-control"]},
+
+    {"counterId":"thanos-deathless-red-skull","fit":"partial","handledProblemIds":["armor-stack"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["auto-block","power-drain"],"solutionIds":["armor-shatter"]},
+    {"counterId":"galan-red-skull","fit":"contextual","handledProblemIds":[],"mitigatedProblemIds":[],"exploitedProblemIds":["armor-stack"],"unresolvedProblemIds":["auto-block","power-drain"],"solutionIds":["buff-ramp"]},
+
+    {"counterId":"kate-bishop-spider-ham","fit":"strong","handledProblemIds":["evade"],"mitigatedProblemIds":[],"exploitedProblemIds":[],"unresolvedProblemIds":["porker-poppers"],"solutionIds":["evade-control","true-accuracy"]}
+  ]
+}
