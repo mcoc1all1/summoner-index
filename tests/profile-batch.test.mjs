@@ -6,12 +6,13 @@ import {compareTable} from '../src/components.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
 test('conditional and adaptive immunities stay out of unconditional filters',()=>{
  for(const id of ['hercules','scorpion','nick-fury','kingpin','apocalypse','black-widow-claire-voyant']){
-  const c=db.champions.find(c=>c.id===id);assert.equal(c.coverage,'curated');assert.deepEqual(c.immunityIds,[]);assert(c.resistanceNote);
+  const c=db.champions.find(c=>c.id===id);assert.equal(c.coverage,'curated');assert(c.resistanceNote);
  }
  for(const effect of ['bleed','poison','shock','incinerate']){
-  const ids=search(db,effect+' immune').champions.map(c=>c.id);
+  const ids=search(db,'',{immunity:effect,activation:'always'}).champions.map(c=>c.id);
   for(const id of ['hercules','scorpion','apocalypse','black-widow-claire-voyant'])assert(!ids.includes(id));
  }
+ assert(!search(db,'',{immunity:'stun',activation:'always'}).champions.some(c=>c.id==='nick-fury'));
 });
 test('Hulkling reviewed Poison and Shock do not imply unrelated power immunities',()=>{
  for(const effect of ['poison','shock']){
