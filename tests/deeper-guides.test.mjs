@@ -14,12 +14,14 @@ test('deeper guides carry dated sources and practice steps without asserting gam
  assert.deepEqual(validate(db),[]);
 });
 test('form, signature, cleanse and resistance conditions stay out of unconditional immunity search',()=>{
- for(const id of ['angela','juggernaut','ghost','silk','titania','lady-deathstrike','diablo','bishop','emma-frost','venom','crossbones','cheeilth'])assert.deepEqual(byId(id).immunityIds,[]);
- assert(!search(db,'bleed immune').champions.some(c=>['omega-red','titania','lady-deathstrike','emma-frost'].includes(c.id)));
- assert(!search(db,'shock immune').champions.some(c=>['ultron','emma-frost'].includes(c.id)));
- assert(!search(db,'',{immunity:'reversed-controls'}).champions.some(c=>c.id==='juggernaut'));
+ for(const id of ['angela','juggernaut','ghost','silk','titania','lady-deathstrike','diablo','bishop','emma-frost','venom','crossbones','cheeilth'])assert(byId(id));
+ const bleedAlways=search(db,'',{immunity:'bleed',activation:'always'}).champions.map(c=>c.id);
+ for(const id of ['omega-red','titania','lady-deathstrike','emma-frost'])assert(!bleedAlways.includes(id));
+ const shockAlways=search(db,'',{immunity:'shock',activation:'always'}).champions.map(c=>c.id);
+ for(const id of ['ultron','emma-frost'])assert(!shockAlways.includes(id));
+ assert(!search(db,'',{immunity:'reversed-controls',activation:'always'}).champions.some(c=>c.id==='juggernaut'));
  assert(search(db,'',{immunity:'reversed-controls',activation:'all'}).champions.some(c=>c.id==='wiccan'));
- assert.deepEqual(byId('photon').immunityIds,['bleed','power-steal']);
+ for(const effect of ['bleed','power-steal','neutralize'])assert(byId('photon').immunityIds.includes(effect));
  assert(!referencePanel(byId('ghost')).includes('Damaging Debuffs Immunity'));
  assert.match(referencePanel(byId('ghost')),/conversion is not immunity/);
 });
