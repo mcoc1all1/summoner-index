@@ -21,9 +21,9 @@ const rows=db.champions.map(c=>{
   };
 }).filter(r=>r.attack||r.defense||r.reviewStatus!=='unreviewed');
 
-const actionable=r=>r.publicEligible&&r.reviewStatus==='reviewed'&&r.attack&&r.attack!=='Not reviewed';
-const withheld=r=>r.reviewStatus==='withheld'||r.attack==='Not reviewed';
-const unsafe=rows.filter(r=>r.publicEligible&&r.attack&&r.attack!=='Not reviewed'&&r.reviewStatus!=='reviewed');
+const actionable=r=>r.publicEligible&&r.reviewStatus==='reviewed'&&!!r.attack;
+const withheld=r=>r.reviewStatus==='withheld';
+const unsafe=rows.filter(r=>r.publicEligible&&r.attack&& !['reviewed','withheld'].includes(r.reviewStatus));
 const incompleteReviews=rows.filter(r=>r.reviewStatus==='reviewed'&&(!r.reviewSourceIds.length||!r.reviewCheckedAt||!r.reviewConfidence));
 const counts=(key,list)=>Object.fromEntries([...new Set(list.map(r=>r[key]).filter(Boolean))].sort().map(v=>[v,list.filter(r=>r[key]===v).length]));
 const reviewedRows=rows.filter(actionable);
