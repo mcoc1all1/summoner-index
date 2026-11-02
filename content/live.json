@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-02",
+  "sources": [
+    {
+      "name": "Official MCOC News",
+      "url": "https://playcontestofchampions.com/news/"
+    },
+    {
+      "name": "Official News & Announcements",
+      "url": "https://forums.playcontestofchampions.com/en/categories/news-announcements/feed.rss"
+    }
+  ],
+  "events": [
+    {
+      "id": "ultimate-doom-sweepstakes-2026",
+      "title": "The Ultimate Doom Sweepstakes",
+      "category": "event",
+      "start": "2026-09-16",
+      "end": "2026-12-09",
+      "summary": "Collect Ultimate Doom Raffle Tickets and enter the official sweepstakes during the published event window.",
+      "sourceUrl": "https://playcontestofchampions.com/news/the-ultimate-doom-sweepstakes/",
+      "sourceName": "Official MCOC site",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    },
+    {
+      "id": "alliance-super-season-2026",
+      "title": "Alliance Super Season",
+      "category": "alliance",
+      "start": "2026-11-04",
+      "end": "2026-12-09",
+      "summary": "A multiplayer-focused season with Solo Objectives, a Realm Event and Bounty Missions, announced in the October 30 livestream recap.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
+      "sourceName": "Official MCOC forum",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    },
+    {
+      "id": "beast-rework-double-track-2026",
+      "title": "Beast Rework Double Track",
+      "category": "champions",
+      "start": "2026-11-04",
+      "end": "2027-01-27",
+      "summary": "The reworked Beast is scheduled to appear in a Double Track across this published window.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
+      "sourceName": "Official MCOC forum",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    },
+    {
+      "id": "alliance-coliseum-november-2026",
+      "title": "Alliance Coliseum",
+      "category": "alliance",
+      "start": "2026-11-09",
+      "end": "2026-11-14",
+      "summary": "A five-day Alliance Coliseum test featuring a Tigra fight, as announced in the October 30 livestream recap.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
+      "sourceName": "Official MCOC forum",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    },
+    {
+      "id": "battlegrounds-season-44",
+      "title": "Battlegrounds Season 44",
+      "category": "battlegrounds",
+      "start": "2026-11-25",
+      "end": "2027-01-06",
+      "summary": "Season 44 is scheduled for 42 days, with a permanent 40-champion deck, expanded draft, three swaps per match and five bans announced in the livestream recap.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
+      "sourceName": "Official MCOC forum",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    },
+    {
+      "id": "summoners-choice-2027-final-round",
+      "title": "Summoner's Choice 2027 · Final Round",
+      "category": "event",
+      "start": "2026-10-23",
+      "end": "2026-10-26",
+      "summary": "The final published voting window for Summoner's Choice 2027. It remains visible briefly as a recently ended event.",
+      "sourceUrl": "https://playcontestofchampions.com/",
+      "sourceName": "Official MCOC site",
+      "verifiedAt": "2026-11-02",
+      "managed": "manual"
+    }
+  ],
+  "news": [
+    {
+      "id": "stream-recap-2026-10-30",
+      "title": "Stream Recap · October 30, 2026",
+      "category": "updates",
+      "publishedAt": "2026-10-30",
+      "summary": "Kabam previewed the Beast rework, Multiversal Meltdown, Alliance Super Season, Alliance Coliseum, Battlegrounds Season 44 and other upcoming content.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    },
+    {
+      "id": "summoners-choice-2027",
+      "title": "Summoner's Choice 2027",
+      "category": "event",
+      "publishedAt": "2026-10-23",
+      "summary": "The official event page details the 2027 community champion vote and its published voting windows.",
+      "sourceUrl": "https://playcontestofchampions.com/",
+      "sourceName": "Official MCOC site",
+      "managed": "manual"
+    },
+    {
+      "id": "battlegrounds-season-43-announced",
+      "title": "Battlegrounds Season 43 Announced",
+      "category": "battlegrounds",
+      "publishedAt": "2026-10-15",
+      "summary": "Season 43 introduced refreshed Victory Track and Gladiator Circuit rewards and previewed the longer Season 44 format.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/comment/2986637",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    }
+  ]
+}
