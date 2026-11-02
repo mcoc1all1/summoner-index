@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {applyAccuracyPatches} from '../src/accuracy-patches.mjs';
+import {applyFightMechanics} from '../src/fight-mechanics.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const contentDir=path.join(root,'content');
@@ -16,6 +17,11 @@ let db=JSON.parse(original);
 for(const name of patchFiles){
   const patches=JSON.parse(fs.readFileSync(path.join(contentDir,name),'utf8'));
   db=applyAccuracyPatches(db,patches);
+}
+const fightMechanicsPath=path.join(contentDir,'fight-mechanics.json');
+if(fs.existsSync(fightMechanicsPath)){
+  const fightMechanics=JSON.parse(fs.readFileSync(fightMechanicsPath,'utf8'));
+  db=applyFightMechanics(db,fightMechanics);
 }
 const args=process.argv.slice(2);
 if(!args.length)throw new Error('Expected a command to run after applying accuracy patches.');
