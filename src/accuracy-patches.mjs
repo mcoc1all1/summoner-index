@@ -21,10 +21,28 @@ function assertSources(db,sourceIds,label){
   for(const sourceId of sourceIds)if(!db.sources.some(source=>source.id===sourceId))throw new Error(`${label} references unknown source: ${sourceId}`);
 }
 
+function validateProtectionPatch(db,championId,record){
+  const label=`Protection patch for ${championId}/${record?.effectId||'unknown'}`;
+  if(!record||!db.immunities.some(effect=>effect.id===record.effectId))throw new Error(`${label} references unknown immunity`);
+  if(!Array.isArray(record.forms)||!record.forms.length||record.forms.some(form=>!['debuff','passive'].includes(form)))throw new Error(`${label} needs reviewed forms`);
+  if(!['always','conditional'].includes(record.availability)||!validDate(record.checkedAt)||typeof record.condition!=='string'||!record.condition.trim())throw new Error(`${label} needs activation, condition and review date`);
+  assertSources(db,record.sourceIds,label);
+}
+
 function applyChampionPatch(db, patch) {
   const champion=db.champions.find(item=>item.id===patch.id);
   if(!champion)throw new Error(`Accuracy patch references unknown champion: ${patch.id}`);
   if(Object.hasOwn(patch,'protections'))champion.protections=structuredClone(patch.protections);
+  if(patch.addProtections){
+    if(!Array.isArray(patch.addProtections))throw new Error(`Accuracy patch addProtections must be an array for ${patch.id}`);
+    champion.protections??=[];
+    for(const record of patch.addProtections){
+      validateProtectionPatch(db,patch.id,record);
+      const index=champion.protections.findIndex(item=>item.effectId===record.effectId);
+      if(index===-1)champion.protections.push(structuredClone(record));
+      else champion.protections[index]=structuredClone(record);
+    }
+  }
   if(patch.addImmunityIds){
     if(!Array.isArray(patch.addImmunityIds))throw new Error(`Accuracy patch addImmunityIds must be an array for ${patch.id}`);
     for(const effectId of patch.addImmunityIds){
