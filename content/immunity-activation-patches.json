@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02",
+  "sources": [
+    {
+      "id": "immunity-index-bleed-2026-11",
+      "title": "MCOC Bleed immunity index",
+      "url": "https://mcoc.app/immunities/bleed",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-index-poison-2026-11",
+      "title": "MCOC Poison immunity index",
+      "url": "https://mcoc.app/immunities/poison",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-index-incinerate-2026-11",
+      "title": "MCOC Incinerate immunity index",
+      "url": "https://mcoc.app/immunities/incinerate",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-index-shock-2026-11",
+      "title": "MCOC Shock immunity index",
+      "url": "https://mcoc.app/immunities/shock",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-index-frostbite-2026-11",
+      "title": "MCOC Frostbite immunity index",
+      "url": "https://mcoc.app/immunities/frostbite",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    }
+  ],
+  "immunityActivationReviews": [
+    {
+      "effectId": "bleed",
+      "checkedAt": "2026-11-02",
+      "sourceIds": ["immunity-index-bleed-2026-11"],
+      "alwaysIds": ["count-nefaria","kushala","photon","cosmic-ghost-rider","sandman","lumatrix","solvarch","prowler","arnim-zola","nimrod","ghost-rider","luke-cage","sentinel","ghost-rider-robbie-reyes","gentle","spider-slayer-j-jonah-jameson","dust","warlock","colossus-age-of-apocalypse","howard-the-duck","viv-vision","ultron","blue-marvel","guillotine-2099","vision-age-of-ultron","colossus","iceman","imperiosa","man-thing","korg","magneto-house-of-x","nebula","thing","dragon-man","king-groot-deathless","terrax","the-destroyer","king-groot","vision-deathless","vision","isophyne","darkhawk","dormammu","morningstar","mangog","groot","ultron-classic","unstoppable-colossus"],
+      "conditionalIds": ["madelyne-pryor","absorbing-man","black-widow-claire-voyant","emma-frost","apocalypse","iron-man-infinity-war","silver-centurion"]
+    },
+    {
+      "effectId": "poison",
+      "checkedAt": "2026-11-02",
+      "sourceIds": ["immunity-index-poison-2026-11"],
+      "alwaysIds": ["hulkling","nico-minoru","spider-woman","thanos-deathless","black-tarantula","sandman","solvarch","she-hulk-deathless","arnim-zola","nimrod","yelena-belova","hyperion","sentinel","anti-venom","lizard","she-hulk","spider-slayer-j-jonah-jameson","vox","dust","medusa","peni-parker","warlock","hulk","kindred","omega-red","viv-vision","phyla-vell","the-overseer","ultron","guillotine-2099","vision-age-of-ultron","franken-castle","joe-fixit","maestro","cassie-lang","hulk-immortal","iceman","the-leader","captain-marvel","ronan","nebula","mysterio","dragon-man","the-destroyer","ms-marvel","vision-deathless","vision","toad","hobgoblin","ant-man","sauron","black-bolt","ms-marvel-kamala-khan","darkhawk","mephisto","dormammu","hulk-ragnarok","red-hulk","abomination","captain-marvel-classic","ultron-classic"],
+      "conditionalIds": ["scorpion","black-widow-claire-voyant","emma-frost","arcade"]
+    },
+    {
+      "effectId": "incinerate",
+      "checkedAt": "2026-11-02",
+      "sourceIds": ["immunity-index-incinerate-2026-11"],
+      "alwaysIds": ["human-torch","kushala","cosmic-ghost-rider","dark-phoenix","jack-olantern","prowler","kitty-pryde","ghost-rider","ghost-rider-robbie-reyes","anti-venom","purgatory","peni-parker","colossus-age-of-apocalypse","sunspot","kindred","void","havok","sentry","maestro","phoenix","colossus","iceman","super-skrull","night-thrasher","vulture","ikaris","red-goblin","red-hulk"],
+      "conditionalIds": ["absorbing-man","ironheart","adam-warlock","attuma","iron-man","black-widow-claire-voyant","emma-frost","iron-man-infamous","apocalypse","arcade","annihilus","mangog"]
+    },
+    {
+      "effectId": "shock",
+      "checkedAt": "2026-11-02",
+      "sourceIds": ["immunity-index-shock-2026-11"],
+      "alwaysIds": ["hulkling","sandman","doctor-doom","shocker","dust","shuri","mole-man","storm","thor-ragnarok","beta-ray-bill","maestro","cassie-lang","super-skrull","korg","nebula","thing","terrax","ant-man","ikaris","electro"],
+      "conditionalIds": ["scorpion","absorbing-man","adam-warlock","emma-frost","iron-man-infamous","arcade","venompool","silver-centurion","mangog"]
+    },
+    {
+      "effectId": "frostbite",
+      "checkedAt": "2026-11-02",
+      "sourceIds": ["immunity-index-frostbite-2026-11"],
+      "alwaysIds": ["human-torch","karolina-dean","thanos-deathless","sentinel","warlock","colossus-age-of-apocalypse","sasquatch","colossus","iceman","mbaku","vision-deathless","isophyne","sabretooth","mephisto"],
+      "conditionalIds": ["absorbing-man","ironheart","adam-warlock","iron-man","storm-pyramid-x","emma-frost","annihilus","mangog"]
+    }
+  ]
+}
