@@ -24,14 +24,16 @@ function walk(dir){
 function clean(file){
  let html=fs.readFileSync(file,'utf8');
 
- // Brand the product consistently while keeping "Fieldguide" as the descriptor.
+ // Use Summoner Index as the public product name; keep "MCOC Fieldguide" as the small descriptor.
  html=html
   .replaceAll('FIELDGUIDE<small>MCOC COMPANION</small>','SUMMONER INDEX<small>MCOC FIELDGUIDE</small>')
+  .replaceAll('<b>F</b><span>SUMMONER INDEX','<b>S</b><span>SUMMONER INDEX')
   .replaceAll('<b>F</b>FIELDGUIDE','<b>S</b>SUMMONER INDEX')
   .replaceAll('| Fieldguide · MCOC','| Summoner Index · MCOC')
   .replaceAll(' · Fieldguide</title>',' · Summoner Index</title>')
   .replaceAll('content="Fieldguide"','content="Summoner Index"')
-  .replaceAll('>Search the fieldguide<','>Search Summoner Index<');
+  .replaceAll('Fieldguide','Summoner Index')
+  .replaceAll('fieldguide','Summoner Index');
 
  if(!html.includes('ux-cleanup.css'))html=html.replace('</head>',`<link rel="stylesheet" href="${base}/ux-cleanup.css"></head>`);
 
