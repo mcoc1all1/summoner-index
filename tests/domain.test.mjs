@@ -9,7 +9,7 @@ test('shock immune query excludes resistance',()=>{const found=search(db,'Shock 
 test('cleanse is not indexed as immunity',()=>assert(!search(db,'immune cleanse').champions.some(c=>c.id==='shang-chi')));
 test('best skill defenders retrieves profiles without inventing a ranking',()=>assert.deepEqual(search(db,'Best Skill defenders').champions.map(c=>c.id),['bullseye']));
 test('Bahamet counters resolves the boss',()=>assert.equal(search(db,'Bahamet counters').bosses[0].id,'bahamet'));
-test('class and immunity filters intersect',()=>{const found=search(db,'',{class:'Mystic',immunity:'bleed'}).champions;assert(found.some(c=>c.id==='kushala'));assert(found.every(c=>c.class==='Mystic'&&c.immunityIds.includes('bleed')));});
+test('class and immunity filters intersect',()=>{const found=search(db,'',{class:'Mystic',immunity:'bleed',activation:'all'}).champions;assert(found.some(c=>c.id==='kushala'));assert(found.every(c=>c.class==='Mystic'&&c.immunityIds.includes('bleed')));});
 test('mode filtering does not silently return unrelated counters',()=>{const questing=getCounters(db,'bullseye','questing');assert(questing.some(c=>c.id==='kitty-bullseye'));assert(questing.every(c=>c.defenderId==='bullseye'&&c.modeIds.includes('questing')));assert(!getCounters(db,'bullseye','battlegrounds').some(c=>c.id==='kitty-bullseye'));assert.equal(getCounters(db,'bullseye','alliance-war').length,0);});
 test('empty results communicate incomplete coverage',()=>assert.match(counterResults(db,'bullseye','alliance-war'),/does not mean no counter exists/));
 test('compare unknown data remains explicitly unreviewed',()=>assert.match(compareTable(db,['kushala','serpent']),/Not reviewed/));
