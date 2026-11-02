@@ -32,3 +32,16 @@ export function protectionLabel(p) {
  const activation=p.availability==='always'?'Always active':p.availability==='conditional'?'Conditional':'Activation not yet reviewed';
  return `${scope} · ${activation}`;
 }
+
+// Keep the generated HTML backwards-compatible while the browser module provides
+// the safer filter defaults. This runs only in the browser; Node/build tests are unaffected.
+if(typeof document!=='undefined')queueMicrotask(()=>{
+ const activation=document.querySelector('#immunity-activation');
+ if(activation){
+  const requested=new URLSearchParams(location.search).get('activation');
+  activation.innerHTML='<option value="all">All known immunities</option><option value="always">Always active</option><option value="conditional">Conditional</option><option value="either">Reviewed only · always or conditional</option><option value="unknown">Unreviewed only</option>';
+  activation.value=['all','always','conditional','either','unknown'].includes(requested)?requested:'all';
+ }
+ const form=document.querySelector('#immunity-form');
+ if(form?.options?.length)form.options[0].textContent='Any form';
+});
