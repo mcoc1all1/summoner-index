@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit-immunities-mcochub.mjs'
+      - 'content/immunity-*-patches.json'
+      - 'src/accuracy-patches.mjs'
+      - 'src/protections.mjs'
       - '.github/workflows/immunity-audit.yml'
   workflow_dispatch:
 permissions:
