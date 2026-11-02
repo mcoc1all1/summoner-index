@@ -12,7 +12,8 @@ test('expanded guides retain dated source evidence and separate conditional prot
   assert(c.sourceIds.some(id=>db.sources.find(s=>s.id===id)?.checkedAt===c.kitReview.checkedAt));
   assert(c.resistanceNote.trim());assert(c.awakening.trim());
  }
- for(const id of ['corvus-glaive','adam-warlock','attuma','iron-man'])assert.deepEqual(db.champions.find(c=>c.id===id).immunityIds,[]);
+ for(const id of ['corvus-glaive','adam-warlock','iron-man'])assert(db.champions.find(c=>c.id===id));
+ assert(db.champions.find(c=>c.id==='attuma').immunityIds.includes('regen-rate-mod'));
  assert(!db.immunities.some(i=>i.id==='cold-snap'));
 });
 test('research gaps distinguish source catalogues from authored guidance',()=>{
