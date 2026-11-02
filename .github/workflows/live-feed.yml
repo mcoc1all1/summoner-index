@@ -1,0 +1,55 @@
+name: Check official MCOC announcements
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: live-feed-update
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check official News & Announcements feed
+        run: node scripts/update-live-feed.mjs
+      - name: Validate site after feed update
+        run: |
+          npm run build
+          npm test
+      - name: Open or refresh review PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- content/live.json; then
+            echo "No feed changes to propose."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B automation/live-feed
+          git add content/live.json
+          git commit -m "Refresh official MCOC announcements"
+          git push --force-with-lease origin HEAD:automation/live-feed
+          PR=$(gh pr list --head automation/live-feed --base main --state open --json number --jq '.[0].number // empty')
+          if [ -z "$PR" ]; then
+            gh pr create \
+              --base main \
+              --head automation/live-feed \
+              --title "Review new official MCOC announcements" \
+              --body "Automated discovery from Kabam's official News & Announcements RSS feed. Review any auto-added summaries and promote announcements into dated event entries when appropriate before merging. Build and tests passed in the workflow."
+          else
+            echo "Updated existing PR #$PR"
+          fi
