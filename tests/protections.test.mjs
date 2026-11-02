@@ -61,7 +61,7 @@ test('matching cards expose requirements and profile sources safely',()=>{
  const c=structuredClone(db.champions.find(c=>c.id==='emma-frost'));c.protections[0].condition='<script>bad</script>';
  const html=championCard(db,c,{immunity:'stun',activation:'conditional'});
  assert.match(html,/Conditional/);assert.match(html,/&lt;script&gt;/);assert(!html.includes('<script>'));
- assert.match(protectionPanel(db,c),/Sources & review notes/);
+ assert.match(protectionPanel(db,c),/Evidence & sources/);
 });
 
 test('build ships filter controls and browser dependency',()=>{

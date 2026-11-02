@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {counterCard,counterResults} from '../src/components.mjs';
+import {counterCard,counterResults,counterConfidence} from '../src/components.mjs';
 import {validate} from '../src/domain.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
 
@@ -15,13 +15,23 @@ test('ten priority opponents have three dated, conditional, provisional options'
  }
 });
 
-test('counter conditions and review date render as escaped text',()=>{
+test('counter conditions and confidence render as escaped text',()=>{
  const row={...db.counters[0],conditions:['<script>unsafe</script>'],review:{status:'community-sourced',reviewedAt:'2026-10-28',gameVersion:null}};
  const html=counterCard(db,row);
  assert.match(html,/Check before choosing/);
  assert.match(html,/&lt;script&gt;unsafe&lt;\/script&gt;/);
- assert.match(html,/Checked: 2026-10-28/);
- assert.match(html,/Game version: not tested/);
+ assert.match(html,new RegExp(counterConfidence(row).label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+ assert.match(html,/reviewed 2026-10-28/);
+ assert.doesNotMatch(html,/Game version: not tested/);
+ assert.doesNotMatch(html,/Minimum signature<\/dt><dd>Not established/);
+});
+
+test('confidence labels describe evidence rather than looking like ratings',()=>{
+ assert.equal(counterConfidence({score:1}).label,'Limited evidence');
+ assert.equal(counterConfidence({score:2}).label,'Community recommended');
+ assert.equal(counterConfidence({score:3}).label,'Community-backed · kit supported');
+ assert.equal(counterConfidence({score:4}).label,'Tested on documented nodes');
+ assert.equal(counterConfidence({score:5}).label,'Repeatedly tested');
 });
 
 test('invalid condition lists are rejected without requiring them on legacy records',()=>{

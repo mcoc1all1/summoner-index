@@ -10,7 +10,8 @@ function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
  if(entry.isDirectory())walk(file);
  else if(entry.name.endsWith('.html')){
   const text=fs.readFileSync(file,'utf8');pages++;
-  assert.match(text,/Public beta · provisional guidance/);
+  assert.match(text,/<p class="beta-bar"><strong>Public beta<\/strong>/);
+  assert.match(text,/How recommendations are sourced/);
   assert.match(text,/Report an issue/);
   for(const [,url] of text.matchAll(/(?:href|src|action)="(\/[^\"]*)"/g)){
    assert.ok(url.startsWith(base+'/'),`Outside project: ${url} in ${file}`);
