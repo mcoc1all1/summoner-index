@@ -33,3 +33,17 @@ export function protectionLabel(p) {
  const activation=p.availability==='always'?'Always active':p.availability==='conditional'?'Conditional':'Activation not yet reviewed';
  return `${scope} · ${activation}`;
 }
+
+// The static HTML still supports older cached builds. Normalize the controls in-browser
+// and trigger one rerender so the visible state and filtering behavior agree.
+if(typeof document!=='undefined')queueMicrotask(()=>{
+ const activation=document.querySelector('#immunity-activation');
+ if(activation){
+  const requested=new URLSearchParams(location.search).get('activation');
+  activation.innerHTML='<option value="all">All known immunities</option><option value="always">Always active · reviewed</option><option value="conditional">Conditional · reviewed</option><option value="either">Reviewed only · always or conditional</option><option value="unknown">Unreviewed only</option>';
+  activation.value=['all','always','conditional','either','unknown'].includes(requested)?requested:'all';
+  activation.dispatchEvent(new Event('input',{bubbles:true}));
+ }
+ const form=document.querySelector('#immunity-form');
+ if(form?.options?.length)form.options[0].textContent='Any form';
+});
