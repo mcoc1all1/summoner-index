@@ -7,38 +7,39 @@ import {championCard,protectionPanel} from '../src/components.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url)));
 const ids=f=>search(db,'',f).champions.map(c=>c.id);
 
-test('conditional immunity is opt-in and both-form protection matches either form',()=>{
- for(const form of ['debuff','passive']){
-  assert.deepEqual(ids({immunity:'shock',form,activation:'conditional'}),['emma-frost']);
-  assert(!ids({immunity:'shock',form,activation:'always'}).includes('emma-frost'));
- }
+test('conditional immunity filters use reviewed activation and conservative form scope',()=>{
+ const debuff=ids({immunity:'shock',form:'debuff',activation:'conditional'});
+ for(const id of ['emma-frost','absorbing-man','scorpion'])assert(debuff.includes(id));
+ const passive=ids({immunity:'shock',form:'passive',activation:'conditional'});
+ assert.deepEqual(passive,['emma-frost']);
+ assert(!ids({immunity:'shock',form:'passive',activation:'always'}).includes('emma-frost'));
  assert(ids({immunity:'bleed',form:'passive',activation:'either'}).includes('colossus'));
  assert(ids({immunity:'bleed',form:'passive',activation:'either'}).includes('emma-frost'));
 });
 
-test('legacy immunity labels are unknown, never silently always-active',()=>{
- const doom=db.champions.find(c=>c.id==='doctor-doom');
- const shock=protectionRecords(doom).find(p=>p.effectId==='shock');
- assert.equal(shock.availability,'unknown');
- assert.match(protectionLabel(shock),/Activation not yet reviewed/);
- assert(!ids({immunity:'shock',activation:'always'}).includes('doctor-doom'));
- assert(!ids({immunity:'shock',activation:'either'}).includes('doctor-doom'));
- assert(ids({immunity:'shock',activation:'unknown'}).includes('doctor-doom'));
- assert(ids({immunity:'shock',activation:'all'}).includes('doctor-doom'));
+test('remaining legacy immunity labels stay unknown until their activation is reviewed',()=>{
+ const wiccan=db.champions.find(c=>c.id==='wiccan');
+ const reversed=protectionRecords(wiccan).find(p=>p.effectId==='reversed-controls');
+ assert.equal(reversed.availability,'unknown');
+ assert.match(protectionLabel(reversed),/Activation not yet reviewed/);
+ assert(!ids({immunity:'reversed-controls',activation:'always'}).includes('wiccan'));
+ assert(!ids({immunity:'reversed-controls',activation:'either'}).includes('wiccan'));
+ assert(ids({immunity:'reversed-controls',activation:'unknown'}).includes('wiccan'));
+ assert(ids({immunity:'reversed-controls',activation:'all'}).includes('wiccan'));
 });
 
-test('unreviewed scope and resistance never imply passive protection',()=>{
- assert(!ids({immunity:'shock'}).includes('doctor-doom'));
- assert(!ids({immunity:'shock',form:'passive',activation:'all'}).includes('doctor-doom'));
+test('reviewed activation does not imply passive protection',()=>{
+ assert(ids({immunity:'shock',activation:'always'}).includes('doctor-doom'));
+ assert(!ids({immunity:'shock',form:'passive',activation:'always'}).includes('doctor-doom'));
  for(const id of ['ghost','magneto','shang-chi'])assert(!ids({immunity:'bleed',activation:'either'}).includes(id));
  assert(!ids({immunity:'armor-break',form:'passive',activation:'either'}).includes('colossus'));
  assert(ids({immunity:'armor-break',form:'debuff',activation:'conditional'}).includes('colossus'));
 });
 
 test('form and activation can filter without choosing an effect',()=>{
- assert.deepEqual(ids({form:'passive',activation:'conditional'}),['emma-frost']);
+ assert(ids({form:'passive',activation:'conditional'}).includes('emma-frost'));
  assert(!ids({activation:'conditional'}).includes('doctor-doom'));
- assert(ids({activation:'unknown'}).includes('doctor-doom'));
+ assert(ids({activation:'unknown'}).includes('wiccan'));
 });
 
 test('review overrides legacy labels rather than accidentally granting always-on immunity',()=>{
