@@ -1,10 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {basePath} from '../src/deployment.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
 const db=JSON.parse(fs.readFileSync(path.join(root,'content/catalog.json'),'utf8'));
+const base=basePath(process.env.SITE_BASE_PATH||'');
 const standardCount=db.champions.filter(c=>c.id!=='summoned-symbioid').length;
 const specialCount=db.champions.length-standardCount;
 const uxCssSource=path.join(root,'src','ux-cleanup.css');
@@ -31,11 +33,11 @@ function clean(file){
   .replaceAll('content="Fieldguide"','content="Summoner Index"')
   .replaceAll('>Search the fieldguide<','>Search Summoner Index<');
 
- if(!html.includes('ux-cleanup.css'))html=html.replace('</head>','<link rel="stylesheet" href="/ux-cleanup.css"></head>');
+ if(!html.includes('ux-cleanup.css'))html=html.replace('</head>',`<link rel="stylesheet" href="${base}/ux-cleanup.css"></head>`);
 
  // One concise global beta signal is enough; page-specific evidence remains available in disclosures.
  html=html.replace(/<p class="beta-bar"><strong>Public beta · provisional guidance\.<\/strong> <a href="[^\"]*\/methodology">Sourced guidance · Matchups untested →<\/a><\/p>/g,
-  '<p class="beta-bar"><strong>Public beta</strong> <a href="/methodology">How recommendations are sourced →</a></p>');
+  `<p class="beta-bar"><strong>Public beta</strong> <a href="${base}/methodology">How recommendations are sourced →</a></p>`);
 
  // Keep internal authoring utilities out of normal visitor navigation.
  html=html.replace(/<a href="[^\"]*\/content-workbench">Content workbench<\/a>/g,'');
