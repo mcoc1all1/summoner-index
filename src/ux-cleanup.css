@@ -1,0 +1,29 @@
+:root{font-size:15px}
+body{line-height:1.55}
+p{font-size:14px}
+.muted,.result-count,.coverage-label,.ownership,.sources small,.score-note p,.confidence-details p{font-size:13px}
+.badge,.chip,.eyebrow{font-size:11px}
+.beta-bar{display:flex;align-items:center;gap:10px;padding:10px 13px;margin:0 0 24px;border:1px solid var(--line);border-radius:7px;background:#ffffff03;color:var(--muted);font-size:12px}
+.beta-bar strong{color:var(--text)}
+.beta-bar a{color:var(--accent)}
+.confidence-badge{margin-left:auto;align-self:flex-start;border:1px solid var(--line);border-radius:999px;padding:6px 9px;font-size:11px;line-height:1.2;white-space:nowrap;color:var(--muted);background:#ffffff04}
+.confidence-supported,.confidence-tested{border-color:#577463;color:#b9d9c4;background:#26362c}
+.confidence-community{border-color:#756247;color:#e1c79a;background:#332b20}
+.confidence-limited{border-color:#654d4d;color:#d9b0b0;background:#302323}
+.counter-card .counter-head{align-items:flex-start}
+.counter-card .counter-plan h4{margin:17px 0 7px;font-size:13px;color:var(--text)}
+.counter-build{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:16px 0;padding:13px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.counter-build dt,.counter-build dd{margin:0}
+.counter-build dt{color:var(--muted)}
+.confidence-details,.sources{margin-top:12px}
+.confidence-details summary,.sources summary{font-weight:600;color:#cbd1cf}
+.compact-disclosure{padding:0}
+.compact-disclosure summary{padding:14px 17px;font-weight:600}
+.compact-disclosure p{padding:0 17px 14px;margin:0}
+.status-chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:var(--muted);white-space:nowrap}
+.profile-overview .overview-card p{font-size:14px}
+.profile-grid .panel p{font-size:14px}
+.loadout-notes>p.muted:first-of-type{margin-bottom:12px}
+.loadout-notes details{margin-top:14px}
+.footer{font-size:12px}
+@media(max-width:800px){:root{font-size:15px}.confidence-badge{white-space:normal;max-width:160px}.counter-build{grid-template-columns:1fr}.beta-bar{align-items:flex-start;flex-direction:column;gap:4px}}
