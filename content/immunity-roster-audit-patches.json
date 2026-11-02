@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "reviewedAt": "2026-11-02",
   "sources": [
     {
@@ -20,6 +20,13 @@
       "id": "immunity-franken-castle-review-2026-11",
       "title": "Franken-Castle immunity review • MCOC.help",
       "url": "https://www.mcoc.help/champions/franken-castle/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-02"
+    },
+    {
+      "id": "immunity-spider-punk-review-2026-11",
+      "title": "Spider-Punk ability and immunity review • MCOC.help",
+      "url": "https://www.mcoc.help/champions/spider-punk/",
       "kind": "community-reference",
       "checkedAt": "2026-11-02"
     }
@@ -76,7 +83,36 @@
     {"id":"she-hulk-deathless","addImmunityIds":["rupture"]},
     {"id":"shuri","addImmunityIds":["ability-accuracy-reduction"]},
     {"id":"solvarch","addImmunityIds":["crush","regen-rate-mod"]},
-    {"id":"spider-punk","addImmunityIds":["concussion","reversed-controls"]},
+    {
+      "id":"spider-punk",
+      "addImmunityIds":["concussion"],
+      "addProtections":[
+        {
+          "effectId":"concussion",
+          "forms":["debuff"],
+          "availability":"always",
+          "condition":"Rebellious Spirit is always active and makes Spider-Punk immune to Concussion Debuffs.",
+          "sourceIds":["immunity-spider-punk-review-2026-11"],
+          "checkedAt":"2026-11-02"
+        },
+        {
+          "effectId":"rupture",
+          "forms":["debuff","passive"],
+          "availability":"always",
+          "condition":"Rebellious Spirit is always active and makes Spider-Punk immune to Rupture effects.",
+          "sourceIds":["immunity-spider-punk-review-2026-11"],
+          "checkedAt":"2026-11-02"
+        },
+        {
+          "effectId":"reversed-controls",
+          "forms":["debuff","passive"],
+          "availability":"conditional",
+          "condition":"Only available through the Prowler synergy/pre-fight interaction; it is not part of Spider-Punk's always-active base kit.",
+          "sourceIds":["immunity-spider-punk-review-2026-11"],
+          "checkedAt":"2026-11-02"
+        }
+      ]
+    },
     {"id":"spiral","addImmunityIds":["reversed-controls"]},
     {"id":"thanos-deathless","addImmunityIds":["power-burn","power-drain"]},
     {"id":"the-hood","addImmunityIds":["bleed","stun"]},
