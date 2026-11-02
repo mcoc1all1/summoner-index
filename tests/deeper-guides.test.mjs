@@ -18,7 +18,7 @@ test('form, signature, cleanse and resistance conditions stay out of uncondition
  assert(!search(db,'bleed immune').champions.some(c=>['omega-red','titania','lady-deathstrike','emma-frost'].includes(c.id)));
  assert(!search(db,'shock immune').champions.some(c=>['ultron','emma-frost'].includes(c.id)));
  assert(!search(db,'',{immunity:'reversed-controls'}).champions.some(c=>c.id==='juggernaut'));
- assert(search(db,'',{immunity:'reversed-controls'}).champions.some(c=>c.id==='wiccan'));
+ assert(search(db,'',{immunity:'reversed-controls',activation:'all'}).champions.some(c=>c.id==='wiccan'));
  assert.deepEqual(byId('photon').immunityIds,['bleed','power-steal']);
  assert(!referencePanel(byId('ghost')).includes('Damaging Debuffs Immunity'));
  assert.match(referencePanel(byId('ghost')),/conversion is not immunity/);
