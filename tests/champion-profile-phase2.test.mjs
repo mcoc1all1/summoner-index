@@ -17,7 +17,7 @@ const curated={
  abilityIds:['power-control','nullify'],tagIds:['villain'],strengths:'Buff-heavy fights.',risks:'Needs careful timing.',
  awakening:'Useful, not required.',signatureTarget:40,rotation:['Build to SP1','Use a Heavy','Launch SP2'],
  protections:[{effectId:'poison',availability:'always',forms:['debuff'],condition:'Always active.'},{effectId:'shock',availability:'unknown',forms:[],condition:'Activation not reviewed.'}],
- immunityIds:['poison','shock'],sourceIds:[],loadout:{battlecastId:'relic-a',reviewedAt:'2026-11-01',relicNotes:'Starting point.',eligibility:'Check the owned item.'},
+ immunityIds:['poison','shock'],sourceIds:[],loadout:{battlecastId:'relic-a',reviewedAt:'2026-11-01',relicNotes:'Starting point.',eligibility:'Check the owned item.',sourceIds:[]},
  statFocusEligibility:{status:'unverified'},referenceFacts:null
 };
 
