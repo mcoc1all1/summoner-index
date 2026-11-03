@@ -40,10 +40,11 @@ export default [
   ['Thanos','falcon-joaquin-torres',['medusa'],'Use Joaquin for most of the boss and keep Medusa available to clean up. Execute each phase rather than trying to brute-force the finale.','Deathtouch is the main late failure point; Joaquin’s Special-based healing can help with the forced health-loss phase.']
  ],
  finalBoss:{name:'Thanos',primary:['falcon-joaquin-torres'],backup:['medusa'],plan:'Preserve a healthy Joaquin for the final encounter, read each phase condition before attacking, and keep Medusa available as cleanup.',failurePoints:['Entering with no healthy closer','Forgetting the phase-specific action before attacking','Losing the run late to Deathtouch rather than normal damage']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1rq3dov/good_v_evil_carina_challenges_1_ordeal_hero/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1rq3dov/comment/o9ptmu0/'
 },
 {
  id:'ordeal-villains',
+ runConditions:'The cited completed run used the Suicide masteries with Mister Sinister as the main attacker and used boosts after early practice attempts. The player reported approximately 30 single revives, two team revives and substantial health potions. This is one run\'s setup and actual spending, not a required mastery, minimum rank or expected resource budget.',
  difficulty:{overall:'High',mechanics:'Medium',rosterBreadth:'High',resourceRisk:'Medium–High',mainRisks:['Spider-Ham without Stun access','Korg Heavy/Purify interaction','Black Panther (Civil War) overlap','Sasquatch healing','Void attrition','Thanos finale'],note:'The featured team is safe through many fights, but several assignments are slow and still punish execution errors.'},
  roles:[
   ['Safe generalist / unblockable control',['mister-sinister'],'Featured for Doom, Terrax, Weapon X, Thing, Domino, iAbom, Void and Nick Fury.'],
@@ -83,6 +84,6 @@ export default [
   ['Thanos','serpent',['mister-sinister','scorpion','venom'],'Lead with Serpent and preserve the rest of the team for final-phase cleanup if necessary.','Learn the boss mechanics rather than budgeting around another player’s revives.']
  ],
  finalBoss:{name:'Thanos',primary:['serpent'],backup:['mister-sinister','scorpion','venom'],plan:'Start with Serpent, keep the rest of the team healthy enough to finish the final phase, and read the phase-specific instructions before every damage push.',failurePoints:['Burning the whole team before the final phase','Treating the final phase as ordinary combat','Entering with only low-health support slots']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1rx57ic/good_v_evil_carinas_challenges_2_ordeal_villain/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1rx57ic/comment/obn8wle/'
 }
 ];
