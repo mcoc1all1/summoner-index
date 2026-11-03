@@ -41,9 +41,9 @@ export function counterConfidence(c){
  const review=c.review||{};
  const documentedTest=review.gameplayTested===true
   && typeof review.gameVersion==='string'&&review.gameVersion.trim()
-  && typeof review.testedAt==='string'&&/^\\d{4}-\\d{2}-\\d{2}$/.test(review.testedAt)
+  && typeof review.testedAt==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(review.testedAt)
   && typeof review.testEvidence==='string'&&review.testEvidence.trim();
- if(documentedTest&&c.score>=5)return {label:'Repeatedly tested',className:'confidence-tested'};
+ if(documentedTest&&c.score>=5&&Number.isInteger(review.testCount)&&review.testCount>=2)return {label:'Repeatedly tested',className:'confidence-tested'};
  if(documentedTest&&c.score>=4)return {label:'Tested on documented nodes',className:'confidence-tested'};
  // A numerical score is not evidence that anyone recorded a gameplay test.
  if(c.score>=3)return {label:'Community-backed · kit supported',className:'confidence-supported'};
