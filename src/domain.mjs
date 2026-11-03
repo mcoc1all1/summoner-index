@@ -2,6 +2,20 @@ import {matchingProtections,protectionFilterActive} from './protections.mjs';
 import {validDate} from './review.mjs';
 export const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const names = (db, type, ids=[]) => ids.map(id=>db[type].find(x=>x.id===id)?.name || id);
+const championAliases={
+ 'abomination-immortal':['ibom','immortal abomination'],
+ 'hulk-immortal':['ihulk','immortal hulk'],
+ 'cosmic-ghost-rider':['cgr'],
+ 'human-torch':['torch','ht'],
+ 'doctor-doom':['doom','dr doom','dr. doom'],
+ 'doctor-voodoo':['voodoo','brother voodoo'],
+ 'captain-america-infinity-war':['cap iw','caiw'],
+ 'captain-america-sam-wilson':['sam wilson'],
+ 'spider-man-stark-enhanced':['stark spidey','starky'],
+ 'spider-man-miles-morales':['miles','miles morales'],
+ 'spider-man-2099':['spidey 2099','s2099']
+};
+
 export function search(db, query='', filters={}) {
   const text=query.toLowerCase().replace(/[^\w\s-]/g,' ').trim();
   const clauses=text.split(/\bwith\b/);
@@ -15,7 +29,7 @@ export function search(db, query='', filters={}) {
     if(protectionFilterActive(filters) && !matchingProtections(c,{activation:'always',...filters}).length) return false;
     if(filters.saved && !filters.saved.includes(c.id)) return false;
     if(defense && !c.tagIds.includes('defender')) return false;
-    const hay=[c.name,c.class,...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds),...names(db,'immunities',c.immunityIds),...names(db,'tags',c.tagIds)].join(' ').toLowerCase();
+    const hay=[c.name,c.class,...(championAliases[c.id]||[]),...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds),...names(db,'immunities',c.immunityIds),...names(db,'tags',c.tagIds)].join(' ').toLowerCase();
     const immunityWords=names(db,'immunities',protectionFilterActive(filters)?matchingProtections(c,{activation:'always',...filters}).map(p=>p.effectId):c.immunityIds).join(' ').toLowerCase().split(/[^\w-]+/);
     return tokens.every(t=>immune ? immunityWords.includes(t) : hay.includes(t)) && utilityTokens.every(t=>[...(c.referenceFacts?.abilities||[]),...names(db,'abilities',c.abilityIds)].join(' ').toLowerCase().includes(t));
   });
