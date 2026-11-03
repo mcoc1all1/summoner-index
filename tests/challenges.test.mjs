@@ -70,7 +70,7 @@ test('guide pages render roster checks, fight tables and MCOC terminology withou
  for(const g of collection.guides){
   const html=challengePage(g,collection,db);
   assert.match(html,/data-challenge-roster=/,g.id);
-  assert.match(html,/Fight-by-fight assignments/,g.id);
+  assert.match(html,/id="complete-plan"/,g.id);
   assert.match(html,/FINAL ENCOUNTER/,g.id);
   assert.match(html,/not independently gameplay-tested/,g.id);
  }
@@ -84,4 +84,40 @@ test('hub links all guides and guide output escapes supplied content',()=>{
  assert.match(hub,/one five-champion gauntlet/);
  const html=challengePage({...collection.guides[0],title:'<script>bad</script>'},collection,db);
  assert.ok(!html.includes('<script>bad'));assert.ok(html.includes('&lt;script&gt;'));assert.match(html,/not independently gameplay-tested/);
+});
+
+test('Abyss accuracy states distinguish partial maps from proposed community plans',()=>{
+ const hero=challengePlanById('abyss-heroes');
+ const villain=challengePlanById('abyss-villains');
+ assert.equal(hero.planStatus,'selected-matchups');
+ assert.equal(villain.planStatus,'planned-route');
+ assert.equal(hero.fightPlan.length,7);
+ assert.equal(hero.routePlans[0].sequence.length,20);
+ assert.equal(villain.fightPlan.length,20);
+ assert(hero.fightPlan.every(f=>f.evidence==='community-selected-fights'));
+ assert(villain.fightPlan.every(f=>f.evidence==='community-proposed-route'));
+ assert(villain.planUnverifiedFights.includes('Invisible Woman'));
+ const heroHtml=challengePage(collection.guides.find(g=>g.id==='abyss-heroes'),collection,db);
+ const villainHtml=challengePage(collection.guides.find(g=>g.id==='abyss-villains'),collection,db);
+ assert.match(heroHtml,/SELECTED MATCHUPS · INCOMPLETE ROUTE/);
+ assert.match(heroHtml,/7 of 20 fights covered/);
+ assert.match(heroHtml,/<td>6<\/td><th>Captain Marvel \(Movie\)/);
+ assert.match(heroHtml,/<td>20<\/td><th>Nameless Collector/);
+ assert.match(villainHtml,/PROPOSED COMMUNITY ROUTE/);
+ assert.match(villainHtml,/not a verified completed Carina run/);
+ assert.match(villainHtml,/Inferred, unverified/);
+ assert.match(villainHtml,/Proposed team core/);
+ assert.doesNotMatch(villainHtml,/FEATURED COMPLETION PLAN/);
+});
+test('run conditions and objective eligibility caveat remain visible',()=>{
+ const ordeal=challengePage(collection.guides.find(g=>g.id==='ordeal-villains'),collection,db);
+ assert.match(ordeal,/Suicide masteries/);
+ assert.match(ordeal,/approximately 30 single revives/);
+ assert.match(ordeal,/not a required mastery/);
+ for(const g of collection.guides) {
+  const html=challengePage(g,collection,db);
+  assert.match(html,/saved roster does not verify the in-game Hero\/Villain tag/);
+  assert.match(html,/including support slots/);
+  assert.match(html,/Featured reported completion|Featured source report · selected matchups|Featured proposed route \/ trial report/);
+ }
 });
