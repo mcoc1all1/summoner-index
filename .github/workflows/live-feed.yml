@@ -30,11 +30,13 @@ jobs:
           npm run build
           npm test
       - name: Publish safe official announcement metadata
+        id: publish
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- content/live.json; then
             echo "No official feed changes to publish."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -42,3 +44,9 @@ jobs:
           git add content/live.json
           git commit -m "Refresh official MCOC announcements"
           git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Redeploy public beta after feed update
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
