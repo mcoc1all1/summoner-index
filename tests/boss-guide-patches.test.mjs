@@ -85,6 +85,25 @@ test('Scytalis and Bahamet editorial revisions preserve the correct encounter de
  assert.equal(bahamet.verification.gameplayTested,false);
 });
 
+test('Gwenmaster and Kang editorial guidance retains phase mechanics and linked-path warnings',()=>{
+ const g=boss('gwenmaster'),k=boss('kang-conqueror');
+ assert.equal(g.phases.length,7);
+ assert.match(g.phases[0].text,/Plot Armor/);
+ assert.match(g.phases[0].text,/countdown/);
+ assert.match(g.phases[4].text,/Heavy, SP1, SP2 and SP3/);
+ assert.match(g.guideDetails.scope,/Not independently tested/i);
+ assert.equal(g.verification.gameplayTested,false);
+ assert(g.sourceIds.includes('gwenmaster-plot-armor-player-guide-20261104'));
+ assert.equal(k.phases.length,6);
+ assert.match(k.phases[0].text,/zero/);
+ assert.match(k.phases[0].text,/knocks him down/);
+ assert.match(k.phases[5].text,/SP3/);
+ assert.match(k.avoid,/Paradox/);
+ assert(k.guideDetails.troubleshooting.some(x=>/zero damage/i.test(x.problem)&&/Paradox/i.test(x.response)));
+ assert.equal(k.verification.gameplayTested,false);
+ assert(k.sourceIds.includes('kang-paradox-node-player-report-20261104'));
+});
+
 test('legacy Act 5 bosses are clearly scoped as legacy preparation',()=>{
  for(const id of ['collector-act5','ultron-act5']){
   const b=boss(id);
