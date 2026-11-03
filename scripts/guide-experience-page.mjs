@@ -3,9 +3,11 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {bossQuickPlan,guideHub,challengeAtAGlance,addMobileFightCards} from '../src/guide-experience.mjs';
 import {challengePlanById} from '../src/challenge-plans.mjs';
+import {basePath,localAttributes} from '../src/deployment.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
+const base=basePath(process.env.SITE_BASE_PATH||'');
 const db=JSON.parse(fs.readFileSync(path.join(root,'content','catalog.json'),'utf8'));
 const challenges=JSON.parse(fs.readFileSync(path.join(root,'content','carina-volume-4.json'),'utf8'));
 const championName=id=>db.champions.find(c=>c.id===id)?.name||id;
@@ -19,7 +21,8 @@ if(fs.existsSync(guidesPath)){
     const open='<main id="main" tabindex="-1">';
     const beta=html.slice(start+open.length).match(/^<p class="beta-bar">[\s\S]*?<\/p>/)?.[0]||'';
     const hero=`<section class="hero"><div><span class="eyebrow">GUIDES</span><h1>Prepare faster. Read only what matters.</h1><p>Use quick plans for familiar fights, then open the detailed mechanics, counters and evidence when you need them.</p></div></section>`;
-    html=html.slice(0,start)+open+beta+hero+guideHub()+html.slice(end);
+    const body=localAttributes(hero+guideHub(),base);
+    html=html.slice(0,start)+open+beta+body+html.slice(end);
     fs.writeFileSync(guidesPath,html);
   }
 }
