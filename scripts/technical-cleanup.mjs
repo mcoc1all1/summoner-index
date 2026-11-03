@@ -37,9 +37,10 @@ if(fs.existsSync(legacyDir)){
 
 walk(out,file=>{
  let html=fs.readFileSync(file,'utf8');
+ // Rewrite navigation/callout links only. Keep the browser module filename live.mjs intact.
  html=html
-  .replaceAll(`${base}/live`,`${base}/events`)
-  .replaceAll(`${origin}${base}/live`,`${origin}${base}/events`)
+  .replaceAll(`href="${base}/live"`,`href="${base}/events"`)
+  .replaceAll(`href="${base}/live?`,`href="${base}/events?`)
   .replaceAll('data-page="/live"','data-page="/events"');
  fs.writeFileSync(file,html);
 });
