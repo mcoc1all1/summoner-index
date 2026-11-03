@@ -25,6 +25,7 @@ function clean(file){
  let html=fs.readFileSync(file,'utf8');
 
  // Use Summoner Index as the public product name; keep "MCOC Fieldguide" as the small descriptor.
+ // Do not replace lowercase "fieldguide" globally: it is also part of stable storage/event identifiers.
  html=html
   .replaceAll('FIELDGUIDE<small>MCOC COMPANION</small>','SUMMONER INDEX<small>MCOC FIELDGUIDE</small>')
   .replaceAll('<b>F</b><span>SUMMONER INDEX','<b>S</b><span>SUMMONER INDEX')
@@ -32,8 +33,7 @@ function clean(file){
   .replaceAll('| Fieldguide · MCOC','| Summoner Index · MCOC')
   .replaceAll(' · Fieldguide</title>',' · Summoner Index</title>')
   .replaceAll('content="Fieldguide"','content="Summoner Index"')
-  .replaceAll('Fieldguide','Summoner Index')
-  .replaceAll('fieldguide','Summoner Index');
+  .replaceAll('Fieldguide','Summoner Index');
 
  if(!html.includes('ux-cleanup.css'))html=html.replace('</head>',`<link rel="stylesheet" href="${base}/ux-cleanup.css"></head>`);
 

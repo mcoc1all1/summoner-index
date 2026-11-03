@@ -1,6 +1,6 @@
 {
-  "name": "contest-fieldguide",
-  "version": "0.2.0",
+  "name": "summoner-index",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
