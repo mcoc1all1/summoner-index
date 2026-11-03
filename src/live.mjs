@@ -2,7 +2,7 @@ const DAY=86400000;
 const source=document.querySelector('#live-event-source');
 const filters=[...document.querySelectorAll('[data-live-filter]')];
 const format=value=>new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric',year:'numeric'}).format(new Date(`${value}T00:00:00Z`));
-const todayKey=()=>new Date().toISOString().slice(0,10);
+const todayKey=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;};
 
 function classify(card){
  const today=todayKey(),start=card.dataset.start,end=card.dataset.end;
