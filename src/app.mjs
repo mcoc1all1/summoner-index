@@ -30,6 +30,15 @@ function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:s
 function syncSaved(){document.querySelectorAll('[data-save]').forEach(b=>{const saved=readSaved().includes(b.dataset.save);b.setAttribute('aria-pressed',String(saved));b.textContent=saved?'★':'☆';});}
 function showSaved(){if(!$('#saved-results')||!db)return;const cs=db.champions.filter(c=>readSaved().includes(c.id));$('#saved-results').innerHTML=cs.length?cs.map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>Your shortlist starts here.</h3><p>Tap the star on any champion to save them on this browser.</p><a class="text-link" href="/champions">Browse champions →</a></div>';syncSaved();}
 document.addEventListener('click',event=>{
+ const compareButton=event.target.closest('[data-compare-toggle]');
+ if(compareButton){
+  const panel=compareButton.closest('#compare-table');
+  if(panel){
+   const onlyDifferences=panel.classList.toggle('compare-only-differences');
+   compareButton.setAttribute('aria-pressed',String(onlyDifferences));
+   compareButton.textContent=onlyDifferences?'Show all attributes':'Show differences only';
+  }
+ }
  const b=event.target.closest('[data-save]');
  if(b){const ids=readSaved(),id=b.dataset.save;const next=ids.includes(id)?ids.filter(x=>x!==id):[...ids,id];try{localStorage.setItem('fieldguide:saved',JSON.stringify(next));toast(next.includes(id)?'Champion saved on this browser':'Champion removed');syncSaved();showSaved();}catch{toast('Browser storage is unavailable. Champion was not saved.');}}
  const v=event.target.closest('[data-video]');if(v)track('outbound_youtube',{videoId:v.dataset.video});
