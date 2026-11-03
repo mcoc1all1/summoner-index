@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-02",
+  "checkedAt": "2026-11-03",
   "sources": [
     {
       "name": "Official MCOC News",
@@ -21,7 +21,7 @@
       "summary": "Collect Ultimate Doom Raffle Tickets and enter the official sweepstakes during the published event window.",
       "sourceUrl": "https://playcontestofchampions.com/news/the-ultimate-doom-sweepstakes/",
       "sourceName": "Official MCOC site",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     },
     {
@@ -33,7 +33,7 @@
       "summary": "A multiplayer-focused season with Solo Objectives, a Realm Event and Bounty Missions, announced in the October 30 livestream recap.",
       "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
       "sourceName": "Official MCOC forum",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     },
     {
@@ -45,7 +45,19 @@
       "summary": "The reworked Beast is scheduled to appear in a Double Track across this published window.",
       "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
       "sourceName": "Official MCOC forum",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
+      "managed": "manual"
+    },
+    {
+      "id": "tower-of-doom-november-2026",
+      "title": "The Tower of Doom",
+      "category": "event",
+      "start": "2026-11-04",
+      "end": "2026-11-18",
+      "summary": "A timed Event Tower with 10 blocks and six fights per block. Hidden combat actions can add or remove time from your run.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420432/stream-recap-november-2-2026",
+      "sourceName": "Official MCOC forum",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     },
     {
@@ -57,7 +69,19 @@
       "summary": "A five-day Alliance Coliseum test featuring a Tigra fight, as announced in the October 30 livestream recap.",
       "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
       "sourceName": "Official MCOC forum",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
+      "managed": "manual"
+    },
+    {
+      "id": "beasts-bounty-missions-2026",
+      "title": "Beast’s Bounty Missions",
+      "category": "alliance",
+      "start": "2026-11-18",
+      "end": "2026-12-09",
+      "summary": "Alliance-based bounty missions featuring regular, Elite and timed targets, Bounty Credits, Bounty Boxes and Reported Findings rewards.",
+      "sourceUrl": "https://playcontestofchampions.com/news/side-quest-beasts-bounty-missions/",
+      "sourceName": "Official MCOC site",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     },
     {
@@ -69,7 +93,7 @@
       "summary": "Season 44 is scheduled for 42 days, with a permanent 40-champion deck, expanded draft, three swaps per match and five bans announced in the livestream recap.",
       "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420352/stream-recap-october-30-2026",
       "sourceName": "Official MCOC forum",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     },
     {
@@ -81,11 +105,71 @@
       "summary": "The final published voting window for Summoner's Choice 2027. It remains visible briefly as a recently ended event.",
       "sourceUrl": "https://playcontestofchampions.com/",
       "sourceName": "Official MCOC site",
-      "verifiedAt": "2026-11-02",
+      "verifiedAt": "2026-11-03",
       "managed": "manual"
     }
   ],
   "news": [
+    {
+      "id": "stream-recap-2026-11-02",
+      "title": "Stream Recap · November 2, 2026",
+      "category": "updates",
+      "publishedAt": "2026-11-02",
+      "summary": "Kabam detailed the Empire of Doom saga, Reclamation War, Sieges, Victorious 4, Tower of Doom, Stellar-Forged Magik and the November 20 Quantum Tangle event.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420432/stream-recap-november-2-2026",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    },
+    {
+      "id": "empire-of-doom-reclamation-war-2026",
+      "title": "Empire of Doom & Reclamation War Are Live",
+      "category": "event",
+      "publishedAt": "2026-11-02",
+      "summary": "The November–January saga centers on Reclamation War: weekly Realm Events, Swift Rivalry, Sieges, Doomscrip, Victorious 4 rewards and the chase for Doctor Doom.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420432/stream-recap-november-2-2026",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    },
+    {
+      "id": "sieges-2026",
+      "title": "Sieges Introduced for Reclamation War",
+      "category": "event",
+      "publishedAt": "2026-11-02",
+      "summary": "Gatekeeper and Siege Overlord encounters introduce global-health bosses, limited entries, milestone unlocks and saga rewards during Reclamation War.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420432/stream-recap-november-2-2026",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    },
+    {
+      "id": "stellar-forged-magik-piece-locations",
+      "title": "Stellar-Forged Magik Piece Locations",
+      "category": "champions",
+      "publishedAt": "2026-11-02",
+      "summary": "Kabam published the first acquisition path for Stellar-Forged Magik, including Reclamation War participation, the November Side Quest and Battlegrounds Season 44.",
+      "sourceUrl": "https://playcontestofchampions.com/news/magik-stellar-forged-piece-locations/",
+      "sourceName": "Official MCOC site",
+      "managed": "manual"
+    },
+    {
+      "id": "beasts-bounty-missions-announced",
+      "title": "Beast’s Bounty Missions Announced",
+      "category": "alliance",
+      "publishedAt": "2026-11-02",
+      "summary": "The November 18–December 9 Side Quest uses Alliance participation to unlock bounty boards, Elite targets, timed bounties and Bounty Credit reward boxes.",
+      "sourceUrl": "https://playcontestofchampions.com/news/side-quest-beasts-bounty-missions/",
+      "sourceName": "Official MCOC site",
+      "managed": "manual"
+    },
+    {
+      "id": "quantum-tangle-2026",
+      "title": "Quantum Tangle Coming November 20",
+      "category": "event",
+      "publishedAt": "2026-11-02",
+      "summary": "Kabam previewed the November 20 Cyber Weekend event with Unit and Webstore bundles, build-your-own offers, a free bundle and featured Medusa and Ghost acquisition opportunities.",
+      "sourceUrl": "https://forums.playcontestofchampions.com/en/discussion/420432/stream-recap-november-2-2026",
+      "sourceName": "Official MCOC forum",
+      "managed": "manual"
+    },
     {
       "id": "stream-recap-2026-10-30",
       "title": "Stream Recap · October 30, 2026",
