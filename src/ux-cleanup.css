@@ -90,3 +90,130 @@ p{font-size:14px}
 .counter-context>summary{font-size:13px;font-weight:600;color:var(--accent);padding:8px 0}
 .counter-context[open]>summary{margin-bottom:12px}
 @media(max-width:500px){.counter-glance-grid{grid-template-columns:1fr}.counter-glance{padding:12px}}
+
+
+/* Summoner Index presentation system — brand, hierarchy and mobile-first utility */
+:root{--accent:#f1b662;--surface-raised:#1e2528;--class-mystic:#bc9ce7;--class-cosmic:#91b8e0;--class-tech:#8ccbc3;--class-mutant:#e4c55f;--class-skill:#e6928c;--class-science:#9ec77f}
+body{font-size:15px;line-height:1.55}
+main{max-width:1460px}
+h1,h2,h3{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.025em}
+h1{font-size:clamp(2.15rem,3.3vw,3.45rem);font-weight:750;line-height:1.11}
+h2{font-size:clamp(1.5rem,2vw,2rem);font-weight:700}
+h3{font-weight:700}
+.eyebrow,.badge,.chip{letter-spacing:.035em}
+.muted,.coverage-label,.result-count,.confidence-details p{font-size:13px;line-height:1.55}
+.panel{border-color:#303a3e;background:linear-gradient(155deg,#1b2225,#171c1f);border-radius:13px}
+.hero{position:relative;isolation:isolate;overflow:hidden;padding:16px 0 30px}
+.hero h1{max-width:800px;text-wrap:balance}
+.hero p{font-size:15px;line-height:1.7;max-width:690px}
+.brand{gap:12px;letter-spacing:.04em;font-size:21px}
+.brand b{font-size:0;width:42px;height:42px;clip-path:none;border-radius:11px;background:#181e21 url('./summoner-crest.svg') center / contain no-repeat;box-shadow:0 0 0 1px #b68c4d45}
+.brand small{font-size:10px;letter-spacing:.12em;line-height:1.45}
+.sidebar{background:linear-gradient(180deg,#171d20,#111619)}
+.sidebar nav a{border:1px solid transparent;transition:background .18s ease,border-color .18s ease,color .18s ease}
+.sidebar nav a:hover{background:#ffffff08;border-color:#384246}
+.sidebar nav a.active{background:#3a2d20;border-color:#77593b;color:#ffe0a2}
+.topbar{background:#151b1d}
+.topbar .search-form:focus-within{border-color:var(--accent);box-shadow:0 0 0 2px #f1b66219}
+.primary{border-radius:9px;box-shadow:0 4px 16px #0002}
+.primary:hover{background:#ffd187;color:#181c1b;transform:translateY(-1px)}
+.text-link,.card-link{font-size:13px;font-weight:650}
+.shortcut{border-radius:8px;padding:14px 12px;margin:1px -12px}
+.shortcut:hover{background:#ffffff06}
+.shortcut-icon{width:36px;height:36px;display:grid;place-items:center;border:1px solid #70553a;background:#3b2d20;border-radius:10px;flex-shrink:0;color:var(--accent)}
+.section-head{margin-top:35px}
+.section-head h2{letter-spacing:-.025em}
+body[data-page="/"] .hero{padding:30px 20px 32px;margin:0 0 23px;background:radial-gradient(circle at 88% 45%,#7b5a2b24,transparent 34%),linear-gradient(135deg,#1c2528 0%,#12181a 75%);border:1px solid #3b4342;border-radius:18px}
+body[data-page="/"] .hero:before{content:"";position:absolute;right:34px;top:50%;width:198px;aspect-ratio:1;border:2px solid #a8874b36;border-radius:50%;transform:translateY(-50%);box-shadow:0 0 0 35px #b9945610,0 0 0 75px #b9945608;pointer-events:none;z-index:-1}
+body[data-page="/"] .hero h1{font-size:clamp(2.3rem,4vw,4rem);max-width:690px}
+body[data-page="/"] .hero p{max-width:570px}
+.home-proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 24px}
+.home-proof>div{display:flex;align-items:center;gap:11px;border:1px solid #313c3f;border-radius:11px;background:#192124;padding:13px 15px;min-width:0}
+.home-proof strong{font-size:18px;color:var(--accent);font-weight:750}
+.home-proof span{font-size:13px;color:#c0c9c7}
+body[data-page="/"] .finder-panel{background:linear-gradient(155deg,#27302c,#192123 52%,#171b1e);border:1px solid #776042;border-top:3px solid var(--accent)}
+body[data-page="/"] .finder-panel h2{font-size:26px}
+body[data-page="/"] .finder-form .primary{width:100%;font-size:15px}
+.champion-card{--class-accent:#c3aee5;min-width:0;padding:0;overflow:hidden;border-color:#384247;border-radius:13px;transition:border-color .2s ease,transform .2s ease,box-shadow .2s ease;background:linear-gradient(165deg,#222a2c,#181d1f 62%)}
+.champion-card--mystic{--class-accent:var(--class-mystic)}.champion-card--cosmic{--class-accent:var(--class-cosmic)}.champion-card--tech{--class-accent:var(--class-tech)}.champion-card--mutant{--class-accent:var(--class-mutant)}.champion-card--skill{--class-accent:var(--class-skill)}.champion-card--science{--class-accent:var(--class-science)}
+.champion-card:hover{border-color:var(--class-accent);box-shadow:0 11px 26px #0005;transform:translateY(-3px)}
+.champion-card-identity{display:flex;align-items:center;gap:13px;padding:16px 16px 12px;background:radial-gradient(circle at 6% -5%,color-mix(in srgb,var(--class-accent) 19%,transparent),transparent 65%);border-bottom:1px solid #ffffff0c}
+.champion-card .card-top{margin:0;position:relative;flex:none}
+.champion-card .avatar{width:72px;height:77px;border:1px solid var(--class-accent);color:var(--class-accent);background:linear-gradient(160deg,#263436,#151d20);border-radius:16px 5px 16px 5px;font-size:24px;text-shadow:0 1px 10px #0006}
+.champion-card .card-top .save{position:absolute;right:-6px;top:-12px;border:1px solid #515758;border-radius:50%;min-width:32px;min-height:32px;background:#1a2022;color:var(--accent);font-size:22px;z-index:1;padding:0}
+.champion-card-title{min-width:0;flex:1}
+.champion-card-title .badge{color:var(--class-accent);font-size:11px;margin-bottom:5px}
+.champion-card h3{font-size:17px;line-height:1.3;margin:0;overflow-wrap:break-word}
+.champion-card .coverage-label{margin:13px 16px 2px;font-size:12px;line-height:1.45;min-height:0}
+.champion-card .champion-card-summary{font-size:13px;line-height:1.55;margin:9px 16px 7px;min-height:63px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.champion-card>.chips{margin:5px 16px 15px;gap:6px}
+.champion-card .chip{background:#ffffff0a;border:1px solid #ffffff18;font-size:11px;line-height:1.3;padding:5px 8px}
+.champion-card .card-link{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding:12px 16px;border-top:1px solid #ffffff14;background:#ffffff04}
+.champion-card .card-link:hover{background:#f1b66216}
+.champion-card .protection-matches{margin:0 16px 15px}
+.champion-grid{gap:16px}
+.counter-card{border-radius:13px;border-color:#384247}
+.counter-head h3{font-size:20px}
+.counter-glance{background:#ffffff05;border-color:#374444;border-left:3px solid var(--accent)}
+.counter-glance h4{font-size:15px}
+.counter-glance-grid{gap:15px}
+.counter-glance-grid strong{font-size:13px}
+.counter-glance-grid p{font-size:14px}
+.counter-glance-plan,.counter-glance-risk{font-size:14px;line-height:1.6}
+.counter-glance-risk{border-left:3px solid #d39b6b;background:#35261c;padding:9px 12px;margin:10px 0 0}
+.counter-card .counter-context>summary{font-size:14px;padding:12px 0}
+#roster-manager{min-width:0}
+#roster-manager #roster-count{font-size:15px;font-weight:700;color:var(--accent);margin:16px 0}
+#roster-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:13px;margin:22px 0}
+.roster-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:13px;padding:15px;border:1px solid #364143;border-radius:12px;background:linear-gradient(150deg,#1b2325,#161b1d);margin:0;min-width:0}
+.roster-row[data-owned="true"]{border-color:#648b77;background:linear-gradient(145deg,#24372f,#192320 68%)}
+.roster-champion-identity{display:flex;align-items:center;gap:11px;min-width:0;grid-column:auto!important}
+.roster-champion-identity>div{min-width:0}
+.roster-crest{display:grid;place-items:center;flex:0 0 49px;width:49px;height:54px;border:1px solid currentColor;border-radius:12px 3px 12px 3px;font-size:18px;font-weight:750;background:#ffffff05}
+.roster-row strong{font-size:14px;line-height:1.3}
+.roster-row small{font-size:11px;line-height:1.45;overflow-wrap:anywhere}
+.roster-row>label{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:650;white-space:nowrap}
+.roster-row>.roster-build{grid-column:1/-1;padding-top:9px;border-top:1px solid #ffffff17}
+.roster-row .roster-build summary{font-size:13px}
+.roster-row .roster-build label{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;margin:8px}
+.roster-row .roster-build input[type=number]{max-width:84px}
+.table-scroll{border-radius:12px;scrollbar-color:#677b7b #1a2022}
+.table-scroll th:first-child,.table-scroll td:first-child{position:sticky;left:0;z-index:1;background:#1e2628;box-shadow:1px 0 #354043}
+.table-scroll thead th{position:sticky;top:0;z-index:2;background:#273032}
+.table-scroll thead th:first-child{z-index:3}
+.table-scroll table tr:hover td{background:#ffffff05}
+.compare-hint{font-size:13px;color:var(--muted);margin:10px 0}
+.profile-overview .overview-card{border-color:#364143;border-radius:12px}
+.profile-jump a{font-size:13px}
+.footer{border-color:#354045}
+@media(max-width:1100px){.champion-card .avatar{width:60px;height:65px}.champion-card-identity{gap:9px;padding:13px}.champion-card h3{font-size:16px}}
+@media(max-width:800px){
+ .sidebar{height:0;min-height:0;border:0;padding:0;margin:0;position:static;width:100%;z-index:30}
+ .sidebar nav{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;background:#11191beF;border-top:1px solid #4d5b5a;padding:5px max(3px,env(safe-area-inset-right)) calc(5px + env(safe-area-inset-bottom)) max(3px,env(safe-area-inset-left));z-index:40;overflow:visible;box-shadow:0 -6px 25px #0009;backdrop-filter:blur(14px)}
+ .sidebar nav a{flex-direction:column;gap:3px;padding:7px 2px 6px;min-height:55px;white-space:normal;text-align:center;justify-content:center;font-size:10px;line-height:1.18;border-radius:8px}
+ .sidebar nav a i{display:block;font-size:18px;line-height:1;width:auto;color:inherit}
+ .app{margin-left:0;padding-bottom:calc(80px + env(safe-area-inset-bottom))}
+ .topbar{gap:12px;background:#151b1d}
+ .mobile-brand{display:flex;align-items:center;gap:9px;font-size:16px}
+ .mobile-brand b{width:37px;height:37px}
+ .topbar .search-form{flex-basis:100%;order:2}
+ .home-proof{grid-template-columns:1fr;gap:7px}
+ .home-proof>div{padding:9px 12px}
+ body[data-page="/"] .hero{padding:23px 18px}
+ body[data-page="/"] .hero:before{right:-120px}
+ .counter-card{padding:16px}
+ .champion-card .champion-card-summary{min-height:0}
+ .profile-jump{scrollbar-width:thin}
+}
+@media(max-width:540px){
+ .champion-grid{grid-template-columns:1fr;gap:12px}
+ .champion-card-identity{padding:13px 15px}
+ .champion-card .avatar{width:64px;height:67px}
+ .champion-card .champion-card-summary{font-size:14px;min-height:0;-webkit-line-clamp:2}
+ .champion-card .coverage-label{margin-top:10px}
+ .champion-card .card-link{padding:11px 15px}
+ #roster-list{grid-template-columns:1fr}
+ .home-proof span{font-size:12px}
+ .counter-glance-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.champion-card,.primary,.sidebar nav a{transition:none!important}.champion-card:hover,.primary:hover{transform:none}}
