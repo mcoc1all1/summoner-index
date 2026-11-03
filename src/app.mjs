@@ -5,11 +5,12 @@ import {mountRoster,readRoster} from './roster.mjs';
 import {search,escapeHtml as e,validate,getCounters} from './domain.mjs';
 import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.mjs';
 const $=s=>document.querySelector(s);
-const needsCatalog=!['/privacy','/methodology','/404','/feedback'].includes(route);
-const db=needsCatalog?await fetch(base+'/catalog.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
-function toast(text){const t=$('#toast');t.textContent=text;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,3500);}
+const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
+const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
+const db=needsCatalog?await fetch(base+'/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
+function toast(text){const t=$('#toast');if(!t)return;t.textContent=text;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,3500);}
 function track(name,properties={}) { window.dispatchEvent(new CustomEvent('fieldguide:analytics',{detail:{name,properties}}));}
-function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?ids.filter(id=>db?.champions.some(c=>c.id===id)):[];}catch{return [];}}
+function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?(db?ids.filter(id=>db.champions.some(c=>c.id===id)):ids):[];}catch{return [];}}
 function syncSaved(){document.querySelectorAll('[data-save]').forEach(b=>{const saved=readSaved().includes(b.dataset.save);b.setAttribute('aria-pressed',String(saved));b.textContent=saved?'★':'☆';});}
 function showSaved(){if(!$('#saved-results')||!db)return;const cs=db.champions.filter(c=>readSaved().includes(c.id));$('#saved-results').innerHTML=cs.length?cs.map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>Your shortlist starts here.</h3><p>Tap the star on any champion to save them on this browser.</p><a class="text-link" href="/champions">Browse champions →</a></div>';syncSaved();}
 document.addEventListener('click',event=>{
