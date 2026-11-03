@@ -1,4 +1,5 @@
 import {versionAssets} from './version-assets.mjs';
+import {catalogViews} from '../src/catalog-views.mjs';
 import {challengeRoot,challengeHub,challengePage} from '../src/challenge-guidance.mjs';
 import {basePath,localAttributes,betaNoindex} from '../src/deployment.mjs';
 import {bossGuidance} from '../src/boss-guidance.mjs';
@@ -79,6 +80,7 @@ page('/404','Page not found','This Fieldguide page does not exist.',`${head('404
 fs.copyFileSync(path.join(out,'404/index.html'),path.join(out,'404.html'));
 for(const f of ['styles.css','app.mjs','domain.mjs','protections.mjs','components.mjs','roster.mjs','editor.mjs','review.mjs','draft.mjs','loadouts.mjs','loadout-coverage.mjs','reference.mjs','guidance.mjs','research.mjs','feedback.mjs','deployment.mjs'])fs.writeFileSync(path.join(out,f),localAttributes(fs.readFileSync(path.join(root,'src',f),'utf8'),base));
 fs.copyFileSync(path.join(root,'content/catalog.json'),path.join(out,'catalog.json'));
+for(const [name,data] of Object.entries(catalogViews(db)))fs.writeFileSync(path.join(out,name+'.json'),JSON.stringify(data));
 fs.writeFileSync(path.join(out,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.filter(r=>!r.noindex).map(r=>`<url><loc>${origin+base+r.url}</loc><lastmod>${db.reviewedAt}</lastmod></url>`).join('')}</urlset>`);
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${origin}${base}/sitemap.xml\n`);
 fs.writeFileSync(path.join(out,'_headers'),`/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Content-Security-Policy: default-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'\n`);
