@@ -6,4 +6,5 @@ await import('./mastery-page.mjs');
 await import('./ux-cleanup.mjs');
 await import('./champion-profile-postprocess.mjs');
 await import('./fight-mechanics-assets.mjs');
+await import('./guide-experience-page.mjs');
 await import('./technical-cleanup.mjs');
