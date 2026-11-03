@@ -44,7 +44,7 @@ export default [
   ['Ares','star-lord-stellar-forged',['heimdall'],'Use Star-Lord first with Heimdall as the secondary plan. Their pre-fight ramp makes them attractive options for Ares.','Practice the prompts before the run; the reported attempt nearly soloed but died in the final phase.']
  ],
  finalBoss:{name:'Ares',primary:['star-lord-stellar-forged'],backup:['heimdall'],plan:'Reach Ares with both long-form attackers alive if possible. Execute the prompt mechanics cleanly and treat the last phase as a separate mechanical check rather than a damage race.',failurePoints:['Arriving with only the specialist slot alive','Missing prompt inputs late in the fight','Assuming ramped damage removes the need to execute Ares mechanics']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1sfwz57/good_v_evil_carinas_challenges_5_epoch_hero/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1sfwz57/comment/of0qoc5/'
 },
 {
  id:'epoch-villains',
@@ -91,6 +91,6 @@ export default [
   ['Ares','serpent',['onslaught','venom','scorpion'],'Use Serpent as the featured final-boss option and execute Ares prompts cleanly through the final phase.','The reported run nearly soloed and then failed late, so do not relax after a strong opening.']
  ],
  finalBoss:{name:'Ares',primary:['serpent'],backup:['onslaught','venom','scorpion'],plan:'Preserve Serpent for Ares and enter with backup lives where possible. The matchup is strong, but prompt execution and late-fight timing still decide the run.',failurePoints:['Spending Serpent on avoidable path cleanup','Missing late prompt inputs','Assuming a strong first life guarantees the finish']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1smd2vr/good_v_evil_carinas_challenges_6_epoch_villains/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1smd2vr/comment/ogdntmn/'
 }
 ];

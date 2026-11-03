@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-01",
+  "reviewedAt": "2026-11-03",
   "guides": [
     {
       "id": "ordeal-heroes",
@@ -89,7 +89,7 @@
         "venom",
         "arnim-zola"
       ],
-      "teamNote": "Reported completion team. Sinister handles many fights, Serpent supplies another damage option, Scorpion covers selected control matchups, Venom covers Spider-Gwen and Killmonger, and Zola is a support slot.",
+      "teamNote": "Reported completion team. Sinister handles many fights, Serpent supplies another damage option, Scorpion covers selected control matchups, Venom covers Spider-Gwen and Killmonger, and Zola is a support slot. The cited author's Suicide masteries, boosts and significant item consumption are contextual and are not a recommended minimum budget.",
       "checks": [
         [
           "Dragon Man and Mojo",
@@ -163,7 +163,7 @@
         "magneto-house-of-x",
         "beta-ray-bill"
       ],
-      "teamNote": "Reported completion team: Sentry is the main ramping attacker, Kushala supplies buff control, Mister Fantastic and Magneto support the plan, and Beta Ray Bill is a Collector option.",
+      "teamNote": "Community-sourced team associated with an Abyss Heroes report: Sentry was intended for most of the long fights, Kushala for buff control, with Mister Fantastic, Magneto and Beta Ray Bill contributing support or Collector options. Only selected matchups are mapped here; the 20-fight route is not fully assigned.",
       "checks": [
         [
           "Route choice",
@@ -236,7 +236,7 @@
         "she-hulk-deathless",
         "knull"
       ],
-      "teamNote": "Reported four-champion core, not a documented five-slot completion team. Choose an eligible fifth champion for your route’s uncovered matchup; do not assume a synergy slot is unrestricted.",
+      "teamNote": "Proposed four-champion core from a community planning and trial-route report, not a verified full-objective completion. The cited player discussed Purgatory, Attuma, Deathless She-Hulk and Knull; choose a fifth eligible 7-star #Villain to address your route gaps. Individual matchups and resource estimates need in-game confirmation.",
       "checks": [
         [
           "Purgatory soul route",
