@@ -1,6 +1,8 @@
 export default [
 {
  id:'abyss-heroes',
+ planStatus:'selected-matchups',
+ planContext:'Only 7 of the 20 Easy Path encounters have individual featured assignments in this guide. The other 13 have no verified assignment for this exact team; use the route order and role coverage to plan those fights before entry.',
  difficulty:{overall:'High',mechanics:'Medium',rosterBreadth:'Medium',resourceRisk:'High at Nameless Collector',mainRisks:['Venom the Duck Power Rate','Invisible Woman Power Sting','route-specific Armor Break needs','Nameless Collector Tenacity/Evade/Unstoppable'],note:'Modern 7-stars make much of the path manageable; the Collector remains the main resource and execution risk.'},
  roles:[
   ['Long-form general damage',['sentry'],'The featured report used Sentry for most of the Easy Path and reached Collector itemless.'],
@@ -29,10 +31,14 @@ export default [
   ['Nameless Collector','kushala',['beta-ray-bill','sentry'],'Use the first large damage push with a control option you know; keep Beta Ray Bill or Sentry available as a second style of Unstoppable control.','Tenacity can remove debuffs, so passive Slow, Grit or reliable attacker-side control is valuable.']
  ],
  finalBoss:{name:'Nameless Collector',primary:['kushala'],backup:['beta-ray-bill','sentry'],plan:'Enter with at least two viable control styles. Expect Tenacity, Evade and Unstoppable to disrupt ordinary rotations; use attacker-side Grit, a passive/control effect that can stick, or a carefully maintained Halt plan.',failurePoints:['Reaching Collector with only one functional attacker','Assuming debuff-based control will always survive Tenacity','Spending the whole path team before the last 10%']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1s3c9dp/good_v_evil_carinas_challenges_3_abyss_heroes/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1s3c9dp/comment/ocptb02/'
 },
 {
  id:'abyss-villains',
+ planStatus:'planned-route',
+ planContext:'The linked author described a personal four-champion Easy Path plan and trial-run findings, not a confirmed completed five-slot Carina objective. These 20 assignments are proposed, not documented full-run results. Choose an eligible fifth champion and verify the route in game.',
+ planUnverifiedFights:['Invisible Woman'],
+ planWarning:'The author labels the later pre-Cull encounter IMIW a second time, although the Easy Path lists Invisible Woman in that slot. The Invisible Woman/Deathless She-Hulk assignment below is inferred from the route order, not directly confirmed by that report.',
  difficulty:{overall:'High',mechanics:'Medium',rosterBreadth:'Medium–High',resourceRisk:'High at Nameless Collector',mainRisks:['Purgatory soul routing','Venom the Duck Power Rate','Cull Obsidian Nullify-vs-Neutralize interaction','Nameless Collector'],note:'The featured plan is intentionally a four-champion core plus a flex slot; the flex should solve a route weakness or provide a second Collector option.'},
  roles:[
   ['Collector plan / soul route',['purgatory'],'The featured route builds Mutant, Cosmic, Mystic, Tech and especially Skill souls before the final boss.'],
@@ -73,6 +79,6 @@ export default [
   ['Nameless Collector','purgatory',['onslaught','serpent','spider-slayer-j-jonah-jameson'],'Use the prepared soul package for high passive Slow uptime and sustain. Keep the flex slot or another surviving attacker as insurance.','Reaching the boss without the Skill and Tech souls weakens the entire reason for this route.']
  ],
  finalBoss:{name:'Nameless Collector',primary:['purgatory'],backup:['onslaught','serpent','spider-slayer-j-jonah-jameson'],plan:'Arrive with Purgatory’s planned souls already collected. Use passive Slow and sustain to manage Unstoppable/Tenacity, while keeping the flex slot as a second boss plan rather than an unused synergy slot.',failurePoints:['Missing the Ægon Skill soul','Using another attacker for a planned soul knockout','Choosing a flex champion that adds no Collector or route coverage']},
- planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1s9lp8g/good_v_evil_carinas_challenges_4_abyss_villains/'
+ planSource:'https://www.reddit.com/r/ContestOfChampions/comments/1s9lp8g/comment/odp8c39/'
 }
 ];
