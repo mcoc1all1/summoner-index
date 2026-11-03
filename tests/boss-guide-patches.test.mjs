@@ -66,6 +66,25 @@ test('new boss counters remain conservative community recommendations',()=>{
  }
 });
 
+
+test('Scytalis and Bahamet editorial revisions preserve the correct encounter decisions',()=>{
+ const scytalis=boss('scytalis'),bahamet=boss('bahamet');
+ assert.deepEqual(scytalis.phases.map(p=>p.name),[
+  'Setup — wait for an armed trap','Opening • 100–81%','Middle • 80–41%','Late • 40–6%','Finish • 5–0%'
+ ]);
+ assert.match(scytalis.phases.at(-1).text,/Prowess/);
+ assert.match(scytalis.phases.at(-1).text,/will not remove Corrupted Armor/);
+ assert.match(scytalis.guideDetails.scope,/Not independently tested/i);
+ assert(scytalis.sourceIds.includes('scytalis-player-final-phase-20261104'));
+ assert.equal(scytalis.verification.gameplayTested,false);
+ assert.match(bahamet.phases[2].text,/Removal charge/i);
+ assert.match(bahamet.phases[3].text,/red Fire Blast/i);
+ assert.match(bahamet.phases[4].text,/no longer required/i);
+ assert.match(bahamet.guideDetails.scope,/Not independently gameplay-tested/i);
+ assert(bahamet.sourceIds.includes('bahamet-player-removal-20261104'));
+ assert.equal(bahamet.verification.gameplayTested,false);
+});
+
 test('legacy Act 5 bosses are clearly scoped as legacy preparation',()=>{
  for(const id of ['collector-act5','ultron-act5']){
   const b=boss(id);
