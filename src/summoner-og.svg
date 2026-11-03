@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+<title id="title">Summoner Index - Know the matchup. Win the fight.</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141b1e"/><stop offset="1" stop-color="#0b0e10"/></linearGradient><linearGradient id="amber" x2="1"><stop stop-color="#ffe0a2"/><stop offset="1" stop-color="#d7943d"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<path d="M0 0h1200v630H0Z" fill="none" stroke="#263136" stroke-width="24"/>
+<g transform="translate(935 305)" fill="none"><circle r="235" stroke="#2a393b" stroke-width="2"/><circle r="183" stroke="#43504c" stroke-width="2" stroke-dasharray="16 15"/><circle r="121" stroke="#75583c" stroke-width="2"/><circle r="65" stroke="#e6a653" stroke-width="2"/><path d="M-280 0H280M0-265V265" stroke="#5d6460" stroke-width="2" opacity=".5"/><path d="M0-65 60-34v68L0 65-60 34v-68Z" stroke="url(#amber)" stroke-width="6"/></g>
+<rect x="70" y="70" width="66" height="66" rx="14" fill="#171e21" stroke="#e9aa51" stroke-width="3"/>
+<path d="M117 91H96q-12 0-12 10 0 8 12 8h10q12 0 12 10 0 8-12 8H87" fill="none" stroke="#f4b45d" stroke-width="6"/>
+<text x="157" y="100" fill="#f5f1e7" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="4">SUMMONER INDEX</text>
+<text x="157" y="125" fill="#98aaa9" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">THE INDEPENDENT MCOC COMPANION</text>
+<path d="M70 175h630" stroke="#43504e" stroke-width="2"/>
+<text x="70" y="268" fill="#f5f1e7" font-family="Arial,sans-serif" font-size="58" font-weight="700">KNOW THE MATCHUP.</text>
+<text x="70" y="342" fill="url(#amber)" font-family="Arial,sans-serif" font-size="58" font-weight="700">WIN THE FIGHT.</text>
+<text x="72" y="403" fill="#bac3bd" font-family="Arial,sans-serif" font-size="24">Counters  ·  Champion toolkit  ·  My Roster</text>
+<rect x="70" y="475" width="552" height="74" rx="14" fill="#20292b" stroke="#4d4c43" stroke-width="2"/>
+<text x="97" y="520" fill="#ffcc81" font-family="Arial,sans-serif" font-size="22" font-weight="700">FIND YOUR NEXT COUNTER  →</text>
+<text x="72" y="590" fill="#8f9c9c" font-family="Arial,sans-serif" font-size="17">Independent fan project · Not affiliated with Marvel or Kabam</text>
+</svg>

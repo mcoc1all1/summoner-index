@@ -17,12 +17,14 @@ export function protectionPanel(db,c){
 
 export function championCard(db,c,filters={}){
  const coverage=c.coverage==='roster'?(c.referenceFacts?'Source catalogue':'Guide pending'):'Detailed guide';
- return `<article class="champion-card">
-  <div class="card-top">${avatar(c)}<button class="save" data-save="${c.id}" aria-label="Save ${e(c.name)}" aria-pressed="false">☆</button></div>
-  ${badge(c.class)}<small class="coverage-label">${e(sevenStarLabel(c))} · ${coverage}</small><h3><a href="/champions/${c.id}">${e(c.name)}</a></h3><p>${e(c.summary)}</p>
+ return `<article class="champion-card champion-card--${e(c.class?.toLowerCase()||'universal')}">
+  <div class="champion-card-identity"><div class="card-top">${avatar(c)}<button class="save" data-save="${c.id}" aria-label="Save ${e(c.name)}" aria-pressed="false">☆</button></div>
+  <div class="champion-card-title">${badge(c.class)}<h3><a href="/champions/${c.id}">${e(c.name)}</a></h3></div></div>
+  <small class="coverage-label">${e(sevenStarLabel(c))} · ${coverage}</small>
+  <p class="champion-card-summary">${e(c.summary)}</p>
   <div class="chips">${chips(names(db,'abilities',c.abilityIds).slice(0,2))}</div>
   ${protectionFilterActive(filters)?`<ul class="protection-matches">${protectionSummary(db,matchingProtections(c,{activation:'always',...filters}))}</ul>`:''}
-  <a class="card-link" href="/champions/${c.id}">View champion <span>↗</span></a></article>`;
+  <a class="card-link" href="/champions/${c.id}">View champion <span aria-hidden="true">↗</span></a></article>`;
 }
 
 function sourceList(db,ids){
