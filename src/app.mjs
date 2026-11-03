@@ -7,7 +7,23 @@ import {championCard,counterResults,groupedCounterResults,compareTable,avatar} f
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
-const db=needsCatalog?await fetch(base+'/catalog.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
+// These literal URLs are rewritten to content-hashed assets at build time.
+const catalogs={
+ finder:'/catalog-finder.json',roster:'/catalog-roster.json',champions:'/catalog-champions.json',
+ search:'/catalog-search.json',counters:'/catalog-counters.json',
+ compare:'/catalog-compare.json',loadouts:'/catalog-loadouts.json',full:'/catalog.json'
+};
+function catalogForPage(){
+ if(route==='/'||route==='/counters')return 'finder';
+ if(route.startsWith('/counters/')||document.querySelector('[data-boss-counters]'))return 'counters';
+ if(route==='/champions'||route==='/saved'||route==='/coverage')return 'champions';
+ if(route==='/search')return 'search';
+ if(route==='/roster')return 'roster';
+ if(route==='/compare')return 'compare';
+ if(route==='/loadouts')return 'loadouts';
+ return 'full';
+}
+const db=needsCatalog?await fetch(base+catalogs[catalogForPage()]).then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();}).catch(()=>null):null;
 function toast(text){const t=$('#toast');if(!t)return;t.textContent=text;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,3500);}
 function track(name,properties={}) { window.dispatchEvent(new CustomEvent('fieldguide:analytics',{detail:{name,properties}}));}
 function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?(db?ids.filter(id=>db.champions.some(c=>c.id===id)):ids):[];}catch{return [];}}
