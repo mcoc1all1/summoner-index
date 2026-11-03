@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {applyAccuracyPatches} from '../src/accuracy-patches.mjs';
 import {applyFightMechanics} from '../src/fight-mechanics.mjs';
+import {counterDepthExpansion} from '../src/counter-depth-expansion.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const contentDir=path.join(root,'content');
@@ -18,6 +19,7 @@ for(const name of patchFiles){
   const patches=JSON.parse(fs.readFileSync(path.join(contentDir,name),'utf8'));
   db=applyAccuracyPatches(db,patches);
 }
+db=applyAccuracyPatches(db,counterDepthExpansion);
 const fightMechanicsPath=path.join(contentDir,'fight-mechanics.json');
 if(fs.existsSync(fightMechanicsPath)){
   const fightMechanics=JSON.parse(fs.readFileSync(fightMechanicsPath,'utf8'));
