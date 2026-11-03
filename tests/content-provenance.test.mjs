@@ -29,7 +29,7 @@ test('source-linked is distinguished from current-client verified gameplay',()=>
 
 test('high numeric confidence cannot alone assert gameplay testing',()=>{
  for(const score of [4,5]){
-  assert.notMatch(counterConfidence({score}).label,/Tested|tested/);
-  assert.notMatch(counterConfidence({score,review:{gameplayTested:true}}).label,/Tested|tested/);
+  assert.doesNotMatch(counterConfidence({score}).label,/Tested|tested/);
+  assert.doesNotMatch(counterConfidence({score,review:{gameplayTested:true}}).label,/Tested|tested/);
  }
 });
