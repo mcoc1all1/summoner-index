@@ -21,11 +21,27 @@ const isoDate=value=>{
  return Number.isNaN(date.valueOf())?null:date.toISOString().slice(0,10);
 };
 
-const response=await fetch(FEED,{headers:{'user-agent':'SummonerIndexFeedCheck/1.1 (+https://mcoc1all1.github.io/summoner-index/)'}});
-if(!response.ok)throw new Error(`Official feed request failed: ${response.status}`);
+const response=await fetch(FEED,{headers:{
+ 'user-agent':'Mozilla/5.0 (compatible; SummonerIndex/1.1; +https://mcoc1all1.github.io/summoner-index/)',
+ 'accept':'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5',
+ 'accept-language':'en-US,en;q=0.9'
+}});
+
+if(!response.ok){
+ const temporary=response.status===403||response.status===429||response.status>=500;
+ if(temporary){
+  console.warn(`Official feed unavailable (${response.status}); keeping the last reviewed Events & News data and ending cleanly.`);
+  process.exit(0);
+ }
+ throw new Error(`Official feed request failed: ${response.status}`);
+}
+
 const xml=await response.text();
 const items=[...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(match=>match[1]);
-if(!items.length)throw new Error('Official feed returned no RSS items.');
+if(!items.length){
+ console.warn('Official feed returned no RSS items; keeping the last reviewed Events & News data and ending cleanly.');
+ process.exit(0);
+}
 
 const known=new Set(data.news.map(item=>item.sourceUrl));
 let added=0;
