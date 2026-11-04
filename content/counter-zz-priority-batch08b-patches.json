@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty champion batch 08B (2/8): original conditional decisions with existing public reference IDs; not independently gameplay-tested.",
+  "championPatches": [
+    {
+      "id": "rogue",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-rogue",
+          "deep-rogue"
+        ],
+        "decisions": [
+          {
+            "title": "Copy only buffs that Rogue can actually replicate",
+            "text": "Rogue's SP1 can replicate eligible opponent buffs while offering a health-steal interaction. Check whether those buffs are present and copyable; a buffless defender will not provide the same ramp or sustain."
+          },
+          {
+            "title": "Keep the stolen buff timer alive with safe contact",
+            "text": "The recorded replication cycle can reward continuing to touch the opponent or their block before the timer ends. Do not force unsafe blocked attacks into a counterpunching defender just to refresh a buff with limited value."
+          },
+          {
+            "title": "Use SP2 Power Steal when denial outweighs further theft",
+            "text": "SP2 can remove enemy power while another Special route recovers stored buff types. Pick a control objective based on opponent power and current replicated effects, not solely the highest damage comparison."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ronan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ronan",
+          "deep-ronan"
+        ],
+        "decisions": [
+          {
+            "title": "Count enemy buffs before selecting the Stun lock",
+            "text": "Ronan's well-known SP1 Stun becomes attractive when the opponent carries enough buffs, but a low-buff or Stun-immune defender can break the strategy. Check current buffs and node rules before entering the fight."
+          },
+          {
+            "title": "Build power for the next SP1 without rushing a live defender",
+            "text": "A repeated SP1 sequence requires safe power building while the previous Stun remains active. Confirm the remaining duration before launching further hits; one failed refresh can expose a champion relying entirely on the lock."
+          },
+          {
+            "title": "Use a Heavy versus Armor Up only when it has a purpose",
+            "text": "Ronan can gain value against armored opponents, but Heavy attacks should be timed to a real recovery window. Do not substitute a forced Heavy for an otherwise reliable SP1 cycle unless the armor interaction matters."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sabretooth",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sabretooth",
+          "deep-sabretooth"
+        ],
+        "decisions": [
+          {
+            "title": "Choose a quest path that justifies persistent Fury investment",
+            "text": "Sabretooth can convert temporary Furies into longer-lasting value across eligible fights, making a multi-fight quest different from an isolated Battleground. Plan ramp opportunities before comparing his early damage to a fully built showcase."
+          },
+          {
+            "title": "Convert Fury at a safe moment instead of losing stacks",
+            "text": "SP1 and a back-dash idle interaction can help preserve temporary Fury, subject to conversion limitations. Watch the active timers and maximum conversions rather than waiting for a more impressive stack count until they expire."
+          },
+          {
+            "title": "Finish while the useful Fury state is active",
+            "text": "When aiming for persistent carryover, plan the knockout so the appropriate Fury state remains. A longer SP3 setup may help in some fights, but do not take unnecessary damage to preserve one extra charge."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spot",
+          "deep-spot"
+        ],
+        "decisions": [
+          {
+            "title": "Build Spots through Portal Block without wasting health",
+            "text": "Spot can gain Spots by blocking eligible attacks, but high block penetration or unblockable pressure changes the risk. Check the current count and whether the defender permits a controlled blocking setup before building to maximum."
+          },
+          {
+            "title": "Enter Untouchable deliberately and watch its ending",
+            "text": "At the required trigger or Spot threshold, Untouchable can alter incoming contact interactions. Do not treat this as permanent immunity to every Special or node; track the active state and defender anti-Miss mechanics."
+          },
+          {
+            "title": "Cash Ruptures with SP2 only after setup survives",
+            "text": "A developed Rupture plan can support SP2 damage, while SP3 offers another way to reach higher Spot counts. Against Rupture protection or debuff-cleansing nodes, rethink the payoff before saving multiple power bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "star-lord-stellar-forged",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-star-lord-stellar-forged",
+          "deep-star-lord-stellar-forged"
+        ],
+        "decisions": [
+          {
+            "title": "Start the combo during the available Combo Shield window",
+            "text": "Star-Lord (Stellar Forged) can use a starting Combo Shield to establish momentum. Treat it as limited protection rather than an invitation to absorb hits; keep the combo safe once the shield's effect is no longer available."
+          },
+          {
+            "title": "Develop Cruelty through the intended combo milestones",
+            "text": "Eligible Light and Heavy attacks can contribute to persistent Cruelty progression. Check the actual milestones and available opening before deciding that a higher combo is worth a risk on a defender who punishes Heavy."
+          },
+          {
+            "title": "Use SP2 for both the hit and Combo Shield management",
+            "text": "SP2 can support a guaranteed-critical damage opportunity and renew Combo Shield under the recorded kit. Check the active shield and power bar so the Special addresses the next dangerous window, not just the current damage race."
+          }
+        ]
+      }
+    }
+  ]
+}
