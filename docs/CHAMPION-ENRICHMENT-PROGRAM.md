@@ -42,3 +42,11 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - The other **302** non-exception records are queued for **16 additional batches** of up to 20; Summoned Symbioid and Ghost Rider (Robbie Reyes) remain identity/availability review exceptions.
 - Batch 01 includes only original player-facing editorial decisions supported by existing cited kit references, not copied source ability lists or new unqualified immunities. These descriptions are **not** independently gameplay-tested.
 - Refresh the sorted CSV/JSON tracker after this batch with `npm run enrichment:tracker`; positions re-rank as content coverage changes.
+
+## Batch 02 result — 5 November 2026
+
+- Added 60 unique, source-linked decision notes across 20 more profiles: Kate Bishop, Red Guardian, Vision (Aarkus), Cyclops (New Xavier School), Deadpool, Drax, Guillotine (Deathless), Hela, Hercules, Scarlet Witch (Classic), Wolverine, Wiccan, Ant-Man (Future), Doctor Strange, Gamora, Guardian, Iron Fist, Nova, Tigra and Havok.
+- Cumulative profiles with new field notes: 50 of 334. Two special identity exceptions remain and 282 further profiles remain in the main queue (15 later batches of 20 or fewer).
+- Notes incorporate official clarification where available (e.g. Ant-Man (Future) SP2 requiring active Power Detonation, Hercules Immortality interaction with SP3), and explicitly distinguish source-linked editor guidance from measured gameplay tests.
+- Aarkus's 2026 community stream recap describes proposed changes, not verified live kit; the note says to verify against the installed kit. Existing structured protection records and third-party reference compilations remain unchanged.
+- Rebuild the tracker after merge: `npm run enrichment:tracker`.

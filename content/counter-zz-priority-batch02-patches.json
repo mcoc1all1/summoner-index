@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Priority batch 02: 20 distinct original decision-focused champion notes grounded in existing catalog references and selected checked Kabam/community sources; no independent in-game testing or public reprint of third-party kit lists.",
+  "sources": [
+    {
+      "id": "batch02-kate-official-spotlight",
+      "title": "Kabam champion spotlight — Kate Bishop",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-kate-bishop/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-kate-balance",
+      "title": "Kabam balance notes — Kate Bishop and Viv Vision",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/341360/balance-update-kate-bishop-and-viv-vision",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-red-guardian-rebalance",
+      "title": "Red Guardian buff discussion — updated durability and Trauma",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2477165",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-aarkus-2026-preview",
+      "title": "January 2026 official stream recap — Vision (Aarkus) proposed updates",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2932846",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-aarkus-armor",
+      "title": "Kabam explanation — Armor Shattered differs from Armor Break",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/158163/armor-shattered-medusa-and-future-champions",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-aarkus-armor-update",
+      "title": "V48.0 release notes — Armor Up Passive interaction",
+      "url": "https://playcontestofchampions.com/news/v48-0-release-notes/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-hercules-immortality",
+      "title": "Kabam clarification — Hercules Immortality and opponent SP3",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/276987/hercules-immortality-bug-or-hotfix",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-wiccan-kabam",
+      "title": "Kabam clarification — Wiccan Neutralize duration",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2227493",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-future-antman-balance",
+      "title": "Kabam balance notes — Future Ant-Man Power Detonation conditions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/337614/cassie-lang-and-ant-man-future-balancing-updates",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-tigra-neutralize",
+      "title": "Community/dev clarification — Tigra Neutralize and node-sourced buffs",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/255644/tigras-rupture-isnt-a-damaging-debuff",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-havok-community-2026",
+      "title": "October 2026 community matchup discussion — Havok",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/419539/how-good-is-havok/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-guardian-official",
+      "title": "Kabam champion spotlight — Guardian",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-guardian/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-cyclops-official",
+      "title": "Kabam v13.1 notes — New Xavier School Cyclops can crit through Block",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/10601",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "batch02-deathless-soul-report",
+      "title": "May 2026 Guillotine (Deathless) Soul counter report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2955173",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "kate-bishop",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-kate-official-spotlight",
+          "batch02-kate-balance",
+          "deep-kate-bishop"
+        ],
+        "decisions": [
+          {
+            "title": "Select the Trick Arrow for this defender",
+            "text": "Start by naming what the matchup requires: Coldsnap to suppress Evade, Tranquilize to soften incoming debuff accuracy, or another arrow for damage. Her customizable utility is documented by Kabam; an arrow that cannot apply to this defender is not useful just because it looks strong on paper."
+          },
+          {
+            "title": "Prove Perfect Release before investing in ramp",
+            "text": "Practice the Release timing on SP1 and SP2. A missed release can change how many arrow effects you apply, so count the visible effects rather than assuming every special supplied the optimal stacks. Dialed In and the arrow debuffs are distinct resources."
+          },
+          {
+            "title": "Keep the opponent where the refresh works",
+            "text": "A wall-side Heavy can refresh existing arrows, but corner pressure is unsafe into Unstoppable, Stun immunity, or short recoveries. If you cannot maintain an opening, choose a shorter burst instead of sacrificing health to preserve a long-fight damage-over-time plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-guardian",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-red-guardian-rebalance",
+          "deep-red-guardian"
+        ],
+        "decisions": [
+          {
+            "title": "Separate ordinary blocks from well-timed blocks",
+            "text": "Red Guardian's Shield Durability is spent by regular blocking while well-timed blocks are a more sustainable way to defend. The rebalance clarified this interaction; watch the actual Durability before assuming you can absorb another heavy or Unblockable attack."
+          },
+          {
+            "title": "Plan one reliable Trauma window",
+            "text": "Use SP1 when Slow is needed to suppress Unstoppable or Evade, then arrange an SP2 into a safe heavy punish. His updated Trauma has a limited stack cap; landing the follow-up while the debuff persists matters more than chasing a second Trauma stack."
+          },
+          {
+            "title": "Recognize the shield's broken state",
+            "text": "SP2 can intentionally sacrifice Durability for damage, temporarily leaving the shield Fractured. During that period, do not count on the same blocking protection; consider an SP3 repair when the fight calls for survivability rather than another high-risk offensive attempt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vision-aarkus",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-aarkus-armor",
+          "batch02-aarkus-armor-update",
+          "batch02-aarkus-2026-preview",
+          "deep-vision-aarkus"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Armor Break and Armor Shattered as different records",
+            "text": "Near-range Armor Breaks can prepare a later Armor Shattered, but the two debuff types have different interactions. Kabam also changed Armor Shattered to affect Armor Up Passives; a Robot defender or Armor Break-immune target still needs a specific ability-accuracy and node check."
+          },
+          {
+            "title": "Decide when enough Armor Break is enough",
+            "text": "Remaining close to the defender helps set up Armor Break and an eventual SP2 conversion, but standing in contact range purely to stack more debuffs invites unnecessary trades. Count the effects, use a safe special opening, and watch whether the target can resist the transformation."
+          },
+          {
+            "title": "Recheck the 2026 version before following older rotations",
+            "text": "Kabam's early-2026 stream preview described faster Armor Break generation and SP1 pausing additional effects. A stream preview is not a guarantee of the live kit: compare your installed version and its actual SP1 text before relying on an old SP3-first or SP2-first sequence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyclops-new-xavier-school",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-cyclops-official",
+          "deep-cyclops-new-xavier-school"
+        ],
+        "decisions": [
+          {
+            "title": "Use the real block interaction, not a synergy proposal",
+            "text": "Kabam's v13.1 notes confirm New Xavier School Cyclops can land critical beam hits through a defender's Block. That makes blocked special damage a legitimate consideration, but don't assume fan-requested Prowess mechanics or proposed reworks are part of his current kit."
+          },
+          {
+            "title": "Choose SP1 when Armor Break will stick",
+            "text": "The recorded rotation aims to apply Armor Break with SP1 and benefit from a special-related Critical Rating boost. Against Armor Break immune targets, a rapid SP1 loop loses one of its main reasons to exist; look for a different attacker or take the straightforward direct-damage route."
+          },
+          {
+            "title": "Check team-dependent bonuses separately",
+            "text": "Professor X and other synergies can change his beam payoff, but they depend on who joins the team and what content allows synergies. Never include those effects in solo damage expectations; distinguish signature scaling from temporary team additions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "deadpool",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-deadpool",
+          "roster-deadpool"
+        ],
+        "decisions": [
+          {
+            "title": "Decide whether healing or damage matters more",
+            "text": "Deadpool's awakened continuous Regeneration improves when power is banked. Spending SP2 can accelerate Bleed damage, but that same expenditure reduces the power reserve supporting recovery. Choose the route according to current health and fight length."
+          },
+          {
+            "title": "Do not assume regeneration beats every node",
+            "text": "Heal Block, reversal, or effects punishing recovery can turn a normally safe sustain plan into a liability. Check the healing rules before holding power for several rotations, and avoid intentionally taking damage to force the once-per-fight low-health recovery."
+          },
+          {
+            "title": "Verify which Deadpool you actually own",
+            "text": "The standard Deadpool profile is not Deadpool (X-Force) or another variant. Their releases, signatures and later balance changes differ; use the exact profile name and check Bleed susceptibility before recommending an SP2-based fight plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "drax",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-drax",
+          "roster-drax"
+        ],
+        "decisions": [
+          {
+            "title": "Assess the opponent's Bleed vulnerability first",
+            "text": "Drax relies on damage from Fury-backed hits and Bleeds associated with critical attacks or specials. If Bleed will not stick, a Bleed-focused SP3 finish no longer pays off in the same way; prefer straightforward safe hit windows."
+          },
+          {
+            "title": "Turn special-triggered Fury into actual attacks",
+            "text": "The buff after using a special is only useful if you can capitalize before it expires. Bait a punishable opposing special, recover safely, and decide whether an SP2 or SP3 is worth the time spent rebuilding power."
+          },
+          {
+            "title": "Avoid overstating the awakened Fury benefit",
+            "text": "His signature improves the offensive scaling from multiple Fury effects, but opponent buff Nullify can erase the setup. Treat stacked Fury as a temporary opportunity rather than a guarantee of sustained damage throughout the fight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guillotine-deathless",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-guillotine-deathless",
+          "batch02-deathless-soul-report"
+        ],
+        "decisions": [
+          {
+            "title": "Track Souls as a real resource",
+            "text": "This Guillotine's Souls relate to the opponent health removed; they are not just a counter for hits in a combo. Watch remaining Souls and active degeneration pressure before choosing a heavy-cost special, particularly if the fight includes multiple health bars."
+          },
+          {
+            "title": "Choose Spectre or the SP3 cash-out deliberately",
+            "text": "SP2's Spectre can be valuable when healing reversal is the requirement, but it spends an offensive opportunity and can be resisted as a debuff. For a damage finish, confirm the Soul count and whether SP3 will deal enough to justify the buildup."
+          },
+          {
+            "title": "Do not assume multi-bar encounters behave like normal fights",
+            "text": "A May 2026 player report describes unexpected Soul generation after a health-bar reset in special content. This is not proof of a permanent global bug; test the current encounter and avoid promising an identical Soul cycle on every health bar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hela",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-hela",
+          "roster-hela"
+        ],
+        "decisions": [
+          {
+            "title": "Build Fury only as fast as Spirits support it",
+            "text": "Hela can gain Fury through heavy-charge play, but each persistent Fury demands Spirit upkeep. Rather than racing toward the maximum number of buffs, compare the Spirit count with the time needed to make additional sword hits safely."
+          },
+          {
+            "title": "Pick a special that matches the existing ramp",
+            "text": "SP2 gains more value when Fury is already established and Armor Break can land. If the defender is Armor Break immune, do not assume the debuff step contributes; choose a shorter direct-damage fight or preserve power for another opening."
+          },
+          {
+            "title": "Treat the signature survival window as finite",
+            "text": "An awakened, once-per-fight Indestructible interaction can protect against some lethal situations, but it does not make Hela always safe to play at low health. Buff removal and Spirit loss still interrupt the plan, so keep defensive fundamentals rather than spending health freely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hercules",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-hercules-immortality",
+          "expanded-core-hercules"
+        ],
+        "decisions": [
+          {
+            "title": "Take feats through safe skill checks",
+            "text": "Hercules' Strength rewards intercepts and heavies against unstunned opponents. Building those feats is valuable, but deliberately taking a hit for an opening is a poor trade against damaging nodes. Get the Feat only when the enemy's timing makes it safe."
+          },
+          {
+            "title": "Use specials with a chosen buff payoff",
+            "text": "SP1 offers Precision and True Sense; SP2 can follow with Cruelty and burst. The special-intercept bonus requires actual timing and spacing, so take a regular safe special launch when attempting the intercept would cost a revive."
+          },
+          {
+            "title": "Never promise Immortality against SP3",
+            "text": "Kabam clarified that a Special 3 can remove his signature Immortality and that the interaction operates as intended. Awakening is required for the protection, the buff can be removed, and you should not use it as an unconditional answer to a defender's SP3."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scarlet-witch-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-scarlet-witch-classic",
+          "roster-scarlet-witch-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Separate guaranteed moves from random chaos",
+            "text": "Scarlet Witch's awakened Veil of Fortune produces effects through chance, so a theoretical Stun, Power Lock or heal is not a reliable answer to a mandatory fight requirement. Plan around effects you can confirm on-screen, not the outcome you hoped would roll."
+          },
+          {
+            "title": "Know why critical opportunities matter",
+            "text": "Critical hits support her Nullify and other effects. Opponents with high Critical Resistance, Critical Prevention or restrictive buff nodes can limit the payoff; a critical-oriented SP2 is a gamble rather than a guaranteed buff-control cycle."
+          },
+          {
+            "title": "Use the special that suits the actual situation",
+            "text": "SP1 offers a faster opportunity to affect buffs; SP3 can broaden buff removal. Do not launch SP3 only because the opponent could gain buffs later: check what is currently active and what remains after the special resolves."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wolverine",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-wolverine",
+          "roster-wolverine"
+        ],
+        "decisions": [
+          {
+            "title": "Protect the healing reserve when it is useful",
+            "text": "Wolverine's Regeneration can benefit from stored power. In long paths without healing penalties, retaining power may be worth more than an immediate special; when the defender is nearly down, the reverse may be true."
+          },
+          {
+            "title": "Bleed requires actual critical contact",
+            "text": "His Bleed is tied to critical hits. Against Bleed immunity or critical-hit suppression, longer sequences do not magically bypass those restrictions. Consider a champion with direct-damage utility instead of ranking Wolverine only for that matchup."
+          },
+          {
+            "title": "Don't mistake more healing rolls for safety",
+            "text": "Awakening adds another regeneration trigger, but Heal Block, healing reversal and some quest nodes can punish the same recovery that usually sustains him. Check the active debuff and healing state before leaning on the signature."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wiccan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-wiccan-kabam",
+          "deep-wiccan"
+        ],
+        "decisions": [
+          {
+            "title": "Build distinct spells, not repetitive inputs",
+            "text": "Wiccan's light and medium endings and Heavy access different spells. The valuable setup for a special depends on which distinct spells are active; repeating one combo ending is not a substitute for a mixed spell plan."
+          },
+          {
+            "title": "Check Neutralize's real duration",
+            "text": "Kabam confirmed that Wiccan's in-game Neutralize duration is five seconds after an earlier spotlight discrepancy. Do not assume a ten-second window or a permanent buff shutdown: reapply the Silence effect or change your combo before the defender's next buff trigger."
+          },
+          {
+            "title": "Prepare for the opponent's immunity type",
+            "text": "Incinerate-immune opponents disrupt the usual Plasma route, and his awakening changes some Shock-immune interactions. Do not automatically recommend that rotation for an unduped Wiccan. Check the spell state and target protections before committing SP2."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ant-man-future",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-future-antman-balance",
+          "deep-ant-man-future"
+        ],
+        "decisions": [
+          {
+            "title": "Build Nano-Armor deliberately",
+            "text": "Intercepts and heavy recovery punishes create a safer route to Nano-Armor and Surging Swarm. Repeatedly forcing an intercept when the opponent has an accessible SP1 is not worth the stack; use a safe punish window."
+          },
+          {
+            "title": "Read Power Detonation before launching SP2",
+            "text": "Kabam corrected the misleading impression that SP2 always supplies its instant Disintegration burst. Its key bonus depends on Power Detonation Passives already being active on the defender. Check the actual active state first, then spend SP2."
+          },
+          {
+            "title": "Keep armor and Glancing limitations separate",
+            "text": "Removing armor or suffering Pierce can disable some defensive interactions. His awakened shortening of selected damage debuffs is duration reduction, not a claim of full Bleed or Incinerate immunity; use the node's exact wording when choosing him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "doctor-strange",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-doctor-strange",
+          "roster-doctor-strange"
+        ],
+        "decisions": [
+          {
+            "title": "Track the selected Blessing rather than mashing specials",
+            "text": "Doctor Strange's current recorded kit uses different Blessing effects and Arcane Fonts. A heavy can advance the cycle, but charging blindly can waste a safe opportunity. Identify the current Blessing and the utility you need before changing it."
+          },
+          {
+            "title": "Make buff removal work for Font generation",
+            "text": "Nullify and Fate Seal depend on the defender actually presenting removable buffs. In a match where Nullify cannot apply, don't expect the same Font ramp or damage sequence as a buff-heavy opponent."
+          },
+          {
+            "title": "Treat older guides as version-sensitive",
+            "text": "Doctor Strange has undergone significant ability changes since early roster releases. Prioritize the live Blessing, Placebo and Wither descriptions on your installed champion rather than copying a legacy SP1 life-steal loop or a community redesign proposal."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamora",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-gamora",
+          "roster-gamora"
+        ],
+        "decisions": [
+          {
+            "title": "Build Fury and Cruelty with the right attacks",
+            "text": "Gamora's Light and Medium hits can serve different buff-building purposes. A Heavy can refresh existing personal buffs, but only if there is a real opening; overcommitting for a refresh can lose more than the maintained buffs provide."
+          },
+          {
+            "title": "Choose a special for armor or accuracy needs",
+            "text": "SP2 contributes Armor Break when the defender allows it, while SP3 can supply True Strike. Against Armor Break immunity, prefer whichever special still meets the fight's defensive challenge rather than repeating SP2 by habit."
+          },
+          {
+            "title": "Count personal buffs before claiming anti-Miss",
+            "text": "Her Miss prevention depends on satisfying a personal-buff condition. Buff Nullify, Fate Seal or a restrictive node can remove that advantage, so check the buff count before using Gamora as a guaranteed Miss counter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guardian",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-guardian-official",
+          "expanded-core-guardian"
+        ],
+        "decisions": [
+          {
+            "title": "Bank Force Field charges for the intended spend",
+            "text": "Guardian's SP1 and SP3 can build his Force Field resource; SP2 then spends charges for offensive damage. A fourth-light ending can consume charges for Power Drain, which may be useful defensively but weakens the next SP2 payoff."
+          },
+          {
+            "title": "Check how his noncritical attacks actually hit",
+            "text": "Guardian converts what would be critical damage into Shock-oriented energy behavior under his kit; building Critical Damage Rating is relevant even if you don't see normal critical hit numbers. Do not label him a conventional high-Critical-Rating attacker."
+          },
+          {
+            "title": "Treat armor-dependent resistance as conditional",
+            "text": "Armor Up supports important protection and awakening-related resistance, but Nullify or Armor Break can interfere. Bleed or Energy Resistance while armored is not automatically a full immunity to either effect, and an SP2 spend can change your defensive state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iron-fist",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-iron-fist",
+          "roster-iron-fist"
+        ],
+        "decisions": [
+          {
+            "title": "Look for usable Armor Break windows",
+            "text": "Iron Fist's critical attacks can establish Armor Break effects, making subsequent direct damage more effective. If the opponent ignores criticals or Armor Break, his offensive reason for being selected narrows considerably."
+          },
+          {
+            "title": "Make the Heavy about buff control, not raw damage",
+            "text": "His Heavy can remove selected Fury, Cruelty or Precision buffs from the enemy under the recorded kit. Check whether those buffs are actually present; a Heavy against an empty buff bar is mainly a spacing risk."
+          },
+          {
+            "title": "Choose a special without sacrificing the debuff",
+            "text": "Armor Breaks can be short-lived. Fire your next special while the relevant Armor Break remains instead of waiting for a perfect power threshold and letting the setup expire."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nova",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "deep-nova",
+          "roster-nova"
+        ],
+        "decisions": [
+          {
+            "title": "Decide whether charging or spending Nova Charges matters",
+            "text": "Nova gains charges through movement and can spend them on attacks or specials. Dash in only when the opponent's movement is controllable; blindly dashing toward a defender with an available special is a risk, not a resource strategy."
+          },
+          {
+            "title": "Protect the high-charge utility window",
+            "text": "SP1 at sufficient charges can help establish True Strike, while SP2 consumes charges for energy burst damage. Choose based on the threat of Evade/Auto-Block versus the need for a faster finish; both are not automatically active together."
+          },
+          {
+            "title": "Recognize why Nullify is especially punishing",
+            "text": "Removing Nova's buffs can also remove charges and temporarily interrupt their generation. A Mystic buff-control defender may neutralize much of his pressure, so verify the fight's Nullify and Fate Seal rules before starting the dash loop."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tigra",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-tigra-neutralize",
+          "expanded-core-tigra"
+        ],
+        "decisions": [
+          {
+            "title": "Neutralize blocks future buffs; it does not erase existing ones",
+            "text": "Tigra can prevent a new enemy buff from activating and replace a failed attempt with Rupture. If an Unstoppable or Armor Up buff is already active, Neutralize alone is not a Nullify; prepare a separate answer instead of swinging into it."
+          },
+          {
+            "title": "Do not heavy-charge through contact hits",
+            "text": "Tigra's Heavy-charge Miss interaction concerns eligible non-contact special attacks. Some specials mix contact and non-contact hits; review the specific animation and use a normal dodge when the attack type is uncertain."
+          },
+          {
+            "title": "Check who generates node buffs",
+            "text": "Community and developer discussion confirms Neutralize can affect buffs sourced from the defender's node ability even when a buff would appear on the attacker. That can be good or harmful, depending on the node; verify the mode before assuming every Power Gain node still works."
+          }
+        ]
+      }
+    },
+    {
+      "id": "havok",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "batch02-havok-community-2026",
+          "expanded-core-havok"
+        ],
+        "decisions": [
+          {
+            "title": "Identify Armor Up buffs before counting on Plasma",
+            "text": "Havok's Plasma Build Up detonation can be prevented by Armor Up buffs. Check the current buff bar, not merely whether the opponent once had armor; buff removal or expiring armor can change the hazard mid-fight."
+          },
+          {
+            "title": "Prepare Power Drain counters separately",
+            "text": "Power Drain and Power Burn can remove Havok's charges and undermine his SP2/SP3 plan. Defenders who rely on those mechanics may deny his offensive ramp even when their damage resistance is otherwise manageable."
+          },
+          {
+            "title": "Use 2026 reports as matchup leads, not proof",
+            "text": "October 2026 community discussion highlights Bastion and Onslaught contexts, but player anecdotes don't establish a guaranteed solo. Record node, rarity and opponent kit before calling him a counter, and verify the SP3 Plasma cash-out in-game."
+          }
+        ]
+      }
+    }
+  ]
+}
