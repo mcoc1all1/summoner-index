@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 06A. Five independently written decision-focused profiles; source-linked editorial guidance, not direct live-combat testing or copied kit text.",
+  "sources": [
+    {
+      "id": "b06-terrax-spotlight",
+      "title": "Kabam champion spotlight — Terrax (historical kit reference)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-terrax/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b06-crossbones-update",
+      "title": "MCOC team — Crossbones update and AQ interaction (historical)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/258646/crossbones-update-aq",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "terrax",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-terrax",
+          "deep-terrax",
+          "b06-terrax-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Choose Rock Field duration before spending a Special",
+            "text": "Rock Field rewards controlled proximity, but it also draws down Terrax's power. Decide whether the fight allows an extended field or needs an earlier cash-out before using SP2 to sustain the pressure."
+          },
+          {
+            "title": "Only refresh Armor Break against a susceptible defender",
+            "text": "Terrax can use his light-attack sequence to maintain Armor Break while Rock Field is running. Against Armor Break immunity or a debuff-punishing node, that part of the plan has to change; do not assume the same burst."
+          },
+          {
+            "title": "Heavy-charge to control the drain, not at any range",
+            "text": "Charging Heavy can pause the field's resource drain, and its release can produce a damage window while ending the field. Use a safe recovery opening, or the apparent energy-saving decision can invite a full counter-combo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bishop",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-bishop",
+          "deep-bishop"
+        ],
+        "decisions": [
+          {
+            "title": "Watch the Prowess and Overload threshold together",
+            "text": "Well-timed blocks can build Bishop's Prowess, but excessive resource accumulation can change his state. Track the meter rather than repeatedly blocking without a plan, especially into opponents that inflict damaging effects on block."
+          },
+          {
+            "title": "Choose an Incinerate Special only when it will land",
+            "text": "SP1 creates proximity-based Incinerate pressure, while SP2 provides another burst route. If the defender is Incinerate-immune or the node punishes those debuffs, assess direct damage and available power before copying the normal rotation."
+          },
+          {
+            "title": "Trade Prowess for recovery only when survival needs it",
+            "text": "Holding block can convert built Prowess into Bishop's recovery and interact with Bleed, but this costs offensive resources. Use it when the remaining health or bleed threat justifies the trade, not as an automatic step every cycle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hyperion",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hyperion",
+          "deep-hyperion"
+        ],
+        "decisions": [
+          {
+            "title": "Use Power Gain to choose the Special you can control",
+            "text": "Hyperion's Power Gain can carry him past a desired bar quickly. Decide whether this matchup needs SP1 Incinerate, SP2 Armor Break or a longer SP3 setup, then launch during a safe opening rather than banking power indefinitely."
+          },
+          {
+            "title": "Do not count on SP2 Stun as guaranteed follow-up",
+            "text": "SP2 can offer an Armor Break and potential Stun opening, but a chance-based Stun must be confirmed before another attack. An Armor Break-immune or Stun-immune defender changes the expected value of this branch."
+          },
+          {
+            "title": "Compare Cosmic Charge ramp against immediate survival",
+            "text": "In a longer fight, SP3-related resources and recovery can be attractive. If the opponent or nodes punish long fights, the faster SP1 or SP2 route may be safer; check whether healing interrupts the intended resource progression."
+          }
+        ]
+      }
+    },
+    {
+      "id": "crossbones",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-crossbones",
+          "deep-crossbones",
+          "b06-crossbones-update"
+        ],
+        "decisions": [
+          {
+            "title": "Enter Overrun only when reduced defense is acceptable",
+            "text": "Dashing back and holding block can trigger Overrun and build Fury, but the state can also reduce defensive safety. Activate it with sufficient space and an understood Special pattern rather than exposing yourself during a dangerous enemy combo."
+          },
+          {
+            "title": "Heavy refresh is valuable only with a genuine opening",
+            "text": "A well-timed Heavy can preserve existing Fury pressure; forcing one at neutral range may waste more health than the extra attack is worth. Look for a Heavy intercept or Special punish that fits the defender's spacing."
+          },
+          {
+            "title": "Treat Fury-based ability accuracy control as conditional",
+            "text": "Multiple Furies can improve offensive pressure and help against some defensive abilities, but they are not blanket protection against every node. Track the Fury count and verify which defender effects can actually be suppressed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dormammu",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dormammu",
+          "deep-dormammu"
+        ],
+        "decisions": [
+          {
+            "title": "Start Soul Bond only if a Heavy is safe",
+            "text": "Dormammu's Soul Bond plan begins with landing a Heavy. Bait a predictable recovery or create reliable spacing first; opening with an unprotected Heavy against an aggressive defender can cost more health than the Bond will return."
+          },
+          {
+            "title": "Pick SP1 buff removal or SP2 control deliberately",
+            "text": "Medium-ending combos help with power drain and Dark Energy development. Against a buff-heavy defender, SP1 control may be more valuable; against dangerous power progression, SP2 Power Lock can serve a different objective."
+          },
+          {
+            "title": "Detonate Soul Bond with the current health goal in mind",
+            "text": "A later Heavy can consume an established Soul Bond, and an empowered SP3 sequence may provide a distinct recovery payoff. Do not assume the health benefit exists before the required resource state, or on a node that blocks healing."
+          }
+        ]
+      }
+    }
+  ]
+}
