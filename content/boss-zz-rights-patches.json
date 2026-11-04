@@ -1,0 +1,42 @@
+{
+  "bossPatches": [
+    {
+      "id": "ultron-act5",
+      "phases": [
+        {
+          "name": "Choose an opening your attacker can control",
+          "text": "List the debuffs your rotation applies, including Parry Stun. If an opening would apply one, check Ultron's dormant icon first: it determines the buff that application activates."
+        },
+        {
+          "name": "Decide whether the resulting buff is manageable",
+          "text": "Power Gain can accelerate his specials; Regeneration can undo your damage. Delay the debuff unless you can handle that result. Armor Up and Fury present different tradeoffs, so keep reading the changing icon."
+        },
+        {
+          "name": "Leave yourself an exit after each hit",
+          "text": "An Evade can interrupt your intended combo. Use short commitments and disengage when it happens; reassess the dormant effect before starting another debuff-based opening."
+        }
+      ]
+    },
+    {
+      "id": "nameless-grandmaster",
+      "phases": [
+        {
+          "name": "Opening — distinguish a ban from a stop signal",
+          "text": "Track which actions have been banned and read SP1's symbols. Red light overrides your rotation: release Block and stop every input until the signal ends."
+        },
+        {
+          "name": "Middle — decide whether the instruction counts",
+          "text": "Check for Grandmaster says before acting. That prefix requires compliance; its absence requires failure. Use openings that do not depend on Stun."
+        },
+        {
+          "name": "Late — reassess your control plan",
+          "text": "Expect continuous inversion and rising power pressure. Give him space away from his corner. Reverse-control immunity carries a Degeneration penalty in this phase."
+        },
+        {
+          "name": "Finish — separate progress from input direction",
+          "text": "Track intercept, SP1, SP2 and SP3 completion separately. Blocking preserves the current control direction; other actions toggle it. After a knockout, inspect which protections remain before repeating completed work."
+        }
+      ]
+    }
+  ]
+}
