@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "falcon-joaquin-torres",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Joaquin Torres alternates Defensive and Aggressive Redwing Instinct, using Slow or Trauma and then building Velocity for a Peak Performance special. Critical Rating is a direct-hit trial at matched Velocity and Instinct state, not a way to extend Slow or make a purified Trauma stick.",
+        "defenseReason": "Editorial trial: Armor Penetration can improve eligible basic or special hits against armor but does not accelerate Velocity, protect the regeneration mechanic from critical-hit restrictions or bypass an opponent's Purify. Compare mitigation where entering the right Instinct is risky.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "galan",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Energy Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Galan builds Planetary Mass from his own actions and opposing Armor Up before starting Harvest with Heavy and cashing out through SP1. Critical Rating is an experiment for direct hits at matched Mass, not an assumed boost to the Harvest burst or a substitute for keeping Harvest active.",
+        "defenseReason": "Editorial trial: Energy Resistance is an incoming damage mitigation trial against energy-heavy attackers. It does not create Planetary Mass, prevent a special knockdown from removing Mass or fix the power-gain limit during Harvest.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "gambit",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Energy Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Gambit stores Kinetic Charges through blocking and converts them to Prowess using a charged Heavy before launching SP1 or SP2. Critical Rating may affect eligible critical hit frequency at the same Prowess, but it does not build charges, prevent Prowess removal or extend Concussion.",
+        "defenseReason": "Editorial trial: Energy Resistance mitigates energy damage taken while preparing a charge-heavy special. It does not grant Perfect Block, preserve Kinetic Charges or protect a Stun-immune opponent from his SP1 plan; compare Block Proficiency if repeated blocking is the dominant cost.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "gamora",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Gamora gains Fury from light attacks and Cruelty from medium hits, then extends their uptime with Heavy before SP2 Armor Break. Critical Rating is a direct-hit frequency trial at matched Fury and Cruelty stacks; it does not make Buffs immune to Nullify or strengthen Armor Break by itself.",
+        "defenseReason": "Editorial trial: Armor Penetration can benefit eligible strikes against a highly armored target but does not replace her own SP2 Armor Break, make True Strike permanent or stop Buff prevention. Compare resistance against opponents who can remove her accumulated Buffs.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "gentle",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Gentle builds Muscle Mass and Fear, and releases an empowered SP2 during Unstoppable while managing the health cost at high Mass. Special Damage is a direct SP2 hit trial at equal Muscle Mass, not a solution to a health-consuming special or a way to prolong Unstoppable.",
+        "defenseReason": "Editorial trial: Armor Penetration may improve eligible direct offense against armor, but cannot prevent Tech matchups from interrupting the Unstoppable pause or avoid the special's high-Mass health cost. Compare mitigation if managing Mass safely is more important.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "gladiator",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Gladiator uses Heavy pressure and Intimidate to build Confidence before a Heavy-cancel SP2 Unblockable burst. Critical Rating can be compared on eligible direct hits at equal Confidence, but it does not prevent Confidence loss on being struck or guarantee timing a risky special.",
+        "defenseReason": "Editorial trial: Armor Penetration affects direct hits against armored opponents, not the number of Confidence stacks or Incinerate duration. Compare resistance against champions who reliably punish Heavy charging.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "gorr",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Gorr cycles Shadow Magic via fourth light and applies matching damaging debuffs through second-medium endings before amplifying Fury with SP2. Special Damage can be tested for connected special-hit output with the same mix of debuffs, but does not inherently increase damage-over-time ticks or grant extra Shadow Magic stacks.",
+        "defenseReason": "Editorial trial: Armor Penetration may help eligible direct damage into armored opponents, not sustain Shadow Magic after Nullify or protect his debuff-dependent Fury against Cleanse. Compare physical or energy mitigation when the attacker interrupts his sequence.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "guardian",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Guardian converts would-be critical hits into Shock and uses Force Field charges and Armor Ups for defense and SP2 damage. Critical Rating may increase eligible triggers for his critical-conversion system, but it is not equivalent to Critical Damage Rating for Shock potency; compare at equal Force Field charges and Armor state.",
+        "defenseReason": "Editorial trial: Physical Resistance may reduce incoming physical damage but does not create Armor Up Buffs or Force Field charges and cannot preserve armor after an armor-removal effect. Compare Block Proficiency for actual blocked-hit damage.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "guillotine-deathless",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Guillotine (Deathless) builds Souls by dealing damage and relies on critical-hit interactions for Degeneration before deciding between SP2 heal reversal and SP3 burst. Critical Rating may improve eligible critical frequency, but cannot prevent Soul expiry or guarantee Degeneration against opponents that suppress critical effects.",
+        "defenseReason": "Editorial trial: Armor Rating is a mitigation trial against physical pressure, not a Soul resource or permanent regeneration counter. Compare Energy Resistance when incoming energy specials dominate, and do not infer that more Armor increases SP2 healing reversal.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "guillotine-2099",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Guillotine 2099 protects a long combo with Heavy Combo Shield and pre-fight Digi-Souls, then uses an SP3 finish to carry ramp into the next fight. Critical Rating is at most a direct-hit experiment where criticals are permitted; it cannot replace combo preservation or add Digi-Souls. Verify the champion's actual critical-hit rules before prioritizing it.",
+        "defenseReason": "Editorial trial: Armor Penetration may help eligible direct hits against armor but does not create Combo Shield, protect self-repair from Stun or maintain a quest-long combo. Compare survivability if early combo loss is the main failure mode.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "hulk",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Hulk builds Fury into Gamma Rage and uses SP2 Trauma followed by SP1 Stun openings. Critical Rating can be tested on eligible direct hits at identical Fury and Gamma Rage state; it does not extend the diminishing Stun window or bypass Stun immunity and Purify.",
+        "defenseReason": "Editorial trial: Armor Penetration can improve eligible raw hits against armor, but it does not grant more Gamma Rage time or guarantee Trauma application. Compare Physical Resistance when the defender needs to survive while Fury develops.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "hulk-immortal",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Immortal Hulk spends health to accumulate Rage and Gamma Radiation before SP2 Stun/Suppression and potentially activating Immortality. Critical Rating is a direct-hit experiment at equal Gamma resources, not a way to stop self-damage or reduce the Immortality cooldown.",
+        "defenseReason": "Editorial trial: Physical Resistance mitigates some incoming physical hits but does not prevent his self-inflicted loss, satisfy the Gamma requirement for Immortality or protect against power-control counters. Compare a survival focus based on actual incoming damage.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "iron-man-infamous",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Infamous Iron Man applies Shock through mediums, consumes it with a close charged Heavy to activate Aura of Iron, then uses SP3/SP1 control or a power-weighted SP2 burst. Critical Damage Rating is a trial on eligible critical special/direct hits with Aura active; it does not strengthen every Power Burn event or grant Armor Up restoration.",
+        "defenseReason": "Editorial trial: Armor Penetration may help direct hits against armor but cannot rebuild the Armor Up removed by Armor Break or override Power Burn immunity. Compare Energy Resistance against opponents that punish the close-range Aura setup.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "iron-man-infinity-war",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Iron Man (Infinity War) combines SP1 Shock and SP2 Incinerate into Plasma via repulsor hits, then refreshes Plasma while Molecular Armor remains. Critical Rating may improve eligible direct-hit frequency at matched Plasma stacks, but cannot independently increase Plasma tick damage or prevent Armor Break from stripping Molecular Armor.",
+        "defenseReason": "Editorial trial: Armor Penetration is a direct-hit trial versus armored opponents; it cannot regenerate Molecular Armor or preserve the Coldsnap protection tied to it. Compare Block Proficiency or resistance when the attacker can remove armor.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    },
+    {
+      "id": "jack-olantern",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Jack O'Lantern builds Inflamed and uses Heavy-cancel Precision before SP1 or a charged SP2 to land debuff-heavy damage. Critical Damage Rating is an eligible critical special-hit trial with the same Inflamed/Precision setup, not an automatic multiplier of Incinerate or Plasma ticks.",
+        "defenseReason": "Editorial trial: Armor Rating is an incoming mitigation experiment, not a tool to build Inflamed, grant Heavy Precision or bypass the opponent's damage-type immunity. Compare Energy Resistance against attackers whose specials deal primarily energy damage.",
+        "note": "Source-linked original editorial comparison of community focus choices against the champion kit; not independently gameplay-tested or best-in-slot verified."
+      }
+    }
+  ]
+}
