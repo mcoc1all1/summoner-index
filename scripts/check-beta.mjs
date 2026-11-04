@@ -49,6 +49,33 @@ for(const filename of fs.readdirSync(root).filter(n=>/^catalog-(?:.+)\.json$/.te
   }
  }
 }
+// The full, compact, and hashed JSON artifacts must agree on every public
+// editorial field. Checking only the unhashed catalog was insufficient.
+const canonicalById=new Map(publicDb.champions.map(c=>[c.id,c]));
+const jsonFiles=fs.readdirSync(root).filter(name=>/^catalog(?:-[a-z-]+)?(?:\\.[0-9a-f]{16})?\\.json$/.test(name));
+assert(jsonFiles.some(name=>/^catalog\\.[0-9a-f]{16}\\.json$/.test(name)),
+ 'hashed canonical dataset was not inspected');
+assert(jsonFiles.some(name=>/^catalog-loadouts\\.[0-9a-f]{16}\\.json$/.test(name)),
+ 'hashed loadout dataset was not inspected');
+for(const filename of jsonFiles){
+ const data=JSON.parse(fs.readFileSync(new URL(filename,root),'utf8'));
+ for(const c of data.champions||[]){
+  const reference=canonicalById.get(c.id);
+  assert(reference,filename+' unknown '+c.id);
+  if(!c.loadout)continue;
+  const approved=reference.statFocusReview?.status==='reviewed'
+    && reference.statFocusEligibility?.status==='confirmed';
+  for(const field of ['attackFocus','defenseFocus','attackAlternative','defenseAlternative']){
+   assert.equal(c.loadout[field],reference.loadout?.[field],
+    filename+': '+c.id+' '+field+' differs from public canonical catalog');
+  }
+  if(!approved){
+   assert.equal(c.loadout.attackFocus,'Not reviewed',filename+': '+c.id);
+   assert.equal(c.loadout.defenseFocus,'Not reviewed',filename+': '+c.id);
+  }
+ }
+}
+
 assert.equal(fs.existsSync(new URL('content-workbench/',root)),false,'editor workbench must not be deployed');
 
 const sitemap=fs.readFileSync(new URL('sitemap.xml',root),'utf8');
