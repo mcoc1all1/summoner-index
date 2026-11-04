@@ -8,3 +8,5 @@ await import('./champion-profile-postprocess.mjs');
 await import('./fight-mechanics-assets.mjs');
 await import('./guide-experience-page.mjs');
 await import('./technical-cleanup.mjs');
+
+await import('./public-beta-finalize.mjs');
