@@ -75,10 +75,10 @@ test('batch 08 brings field-note coverage to 210 and keeps previous cohorts',()=
  const audit=championEnrichmentAudit(db);
  assert.equal(audit.summary.totalChampions,334);
  assert.equal(audit.summary.batchSize,40);
- assert.equal(audit.summary.completedPilot,210);
+ assert(audit.summary.completedPilot>=210,'batch 08 remains enriched after subsequent cohorts');
  assert.equal(audit.summary.identityReview,2);
- assert.equal(audit.summary.queued,122);
- assert.equal(audit.summary.batches,4);
+ assert(audit.summary.queued<=122,'subsequent enrichment should not increase the queue');
+ assert.equal(audit.summary.batches,Math.ceil(audit.summary.queued/audit.summary.batchSize));
  for(const id of ['doctor-doom','silk','kate-bishop','sunspot','colossus',
   'scorpion','terrax','blade','psylocke','colossus-age-of-apocalypse'])
   assert.equal(db.champions.find(c=>c.id===id)?.fieldNotes?.decisions?.length,3,id);
