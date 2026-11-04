@@ -43,6 +43,12 @@ npm run dev
 
 Then open http://127.0.0.1:4173/summoner-index/.
 
+## Copyright-risk controls for public beta
+
+The public GitHub Pages build now **links out to MCOC Scout kit references rather than republishing its compiled ability lists or relic pairings**. These source-linked fields remain in the local canonical research catalog, but the public build filters them from the champion pages, full JSON response, and all compact browser datasets. The public content workbench is excluded. The existing independent champion analyses, battle tactics, filters and roster tools remain available, though some previously source-catalogued ability and relic searches will intentionally return fewer results until independently verified.
+
+The Pages workflow runs source-compilation leak checks as part of the public beta check. This is a narrow technical mitigation, **not copyright/AdSense clearance**. Boss-guide expression comparison, full source-rights provenance, wiki licensing, and advertising/privacy requirements still need review before enabling ads. See [commercial content remediation status](docs/COMMERCIAL-CONTENT-REMEDIATION-2026-11-04.md).
+
 ## Content and limitations
 
 `content/catalog.json` contains the main source-linked records. `content/accuracy-patches.json` and the modular `content/boss-*-patches.json`, `content/counter-*-patches.json` and `content/rarity-*-patches.json` files contain reviewed corrections that are applied temporarily during builds and tests; the base catalog file is restored afterward. `content/live.json` contains reviewed Events & News data, and `content/masteries.json` contains mastery guidance. `src/` contains browser modules and presentation; `scripts/` builds static pages and validates release controls; `tests/` covers content and application rules. GitHub Pages does not apply the optional `_headers` file. This is a static site with no server-side writes, accounts or secret credentials.
