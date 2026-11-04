@@ -1,0 +1,488 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Priority batch 03, original three-decision kit guidance for 20 distinct champions supported by linked existing source records; not claims of gameplay testing or legal clearance.",
+  "championPatches": [
+    {
+      "id": "sunspot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sunspot",
+          "deep-sunspot"
+        ],
+        "decisions": [
+          {
+            "title": "Set a Solar Charge budget before Flare State",
+            "text": "Sunspot's Flare State raises his damage but spends Solar Charges on hits. Check how many charges remain before extending the state; a high attack rating is not useful if the enhanced window collapses just before SP2."
+          },
+          {
+            "title": "Recycle Incinerates only through a safe Heavy",
+            "text": "Incinerates can support the Solar Charge recovery loop when the target allows them. Charge a Heavy only after a reliable recovery or control opening, and don't assume an Incinerate-immune defender will provide the same charge economy."
+          },
+          {
+            "title": "Use SP3 as a reset, not a default opener",
+            "text": "SP3 can refill charges for another damage phase, while SP2 offers a quicker payoff. Compare power, health and available charges before choosing the reset. Shock and certain node rules can also interrupt the setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "absorbing-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "absorbing-man-kit",
+          "expanded-core-absorbing-man"
+        ],
+        "decisions": [
+          {
+            "title": "Match the form to the incoming damage",
+            "text": "Black Uru and Magma protect against different effects. Choose based on what the actual defender or node deals rather than the opponent's class; a form's resistance and immunity are distinct categories."
+          },
+          {
+            "title": "Refresh an active form with a purpose",
+            "text": "Refining an active form extends its value and builds Morph Charges. Use the correct special or supported combo timing during a safe opening; if your form expires before the refresh, the next action may establish a new, unrefined form instead."
+          },
+          {
+            "title": "Do not rely on the defensive counter without checking cooldown",
+            "text": "When facing Absorbing Man, a Heavy during his special recovery can shut off the active form, but that removal has a cooldown. Check the visible form and cooldown before repeating the same punish; Unstoppable or power manipulation can complicate it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "galan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-galan",
+          "deep-galan"
+        ],
+        "decisions": [
+          {
+            "title": "Build Planetary Mass without feeding dangerous specials",
+            "text": "Galan uses his buff interactions and enemy Armor Up to accumulate Planetary Mass. If a defender gains Armor Up safely, that can accelerate setup; but chasing stacks through an opponent's ready special is a poor trade."
+          },
+          {
+            "title": "Enter Harvest only when you can finish it",
+            "text": "A Heavy can start Harvest after enough Mass has accumulated. Plan the next safe hits and SP1 before triggering the timer, because a special knockdown can remove Mass and interrupt the anticipated damage sequence."
+          },
+          {
+            "title": "Separate power-control immunity from every form of power denial",
+            "text": "Galan has several named immunities to Power Drain, Burn, Lock and Steal. A node that prevents power gain or changes how power is earned is not necessarily the same thing; confirm its exact mechanic before choosing him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hulkling",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hulkling",
+          "kit-hulkling",
+          "expanded-core-hulkling"
+        ],
+        "decisions": [
+          {
+            "title": "Spend Shapeshift charges toward the right buff",
+            "text": "Hulkling's hit and blocked-hit interactions lead to different buffs, including Aptitude and Pierce. Keep an eye on which buffs are actually active before aiming for his Unblockable or SP2 damage window."
+          },
+          {
+            "title": "Use Intimidate to control block behavior, not guarantee it",
+            "text": "A safe Heavy can give the opponent an incentive to hold Block, letting you build the Pierce-based setup. It is not a guarantee against every AI pattern or node; choose a safer approach if the defender refuses to block."
+          },
+          {
+            "title": "Do not plan around obsolete damage formulas",
+            "text": "Hulkling's relevant Pierce and Armor Penetration interactions have been discussed across game updates. Treat older screenshots and damage numbers as version-specific; validate the current SP2 payoff and resistances without claiming a universal damage threshold."
+          }
+        ]
+      }
+    },
+    {
+      "id": "enchantress",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-enchantress",
+          "deep-enchantress"
+        ],
+        "decisions": [
+          {
+            "title": "Pick spellbook actions before the special",
+            "text": "Enchantress's spellbook selects different categories through player inputs. Identify whether the fight needs power control, buff control, or damage first; casting a large number of the wrong spells creates a resource pile without the required answer."
+          },
+          {
+            "title": "Track the trigger that removes each spell",
+            "text": "Spell categories may disappear after intercepts, punished Heavies or knockdowns. Watch the active collection and the upcoming opponent action, not just the total spell count. An SP2 launched after the key category disappears gives a different payoff."
+          },
+          {
+            "title": "Do not treat a brief Heavy-based Stun as unconditional",
+            "text": "Her Heavy interaction can create a short setup after a non-finishing basic hit, but Stun immunity and recovery timing may invalidate it. Use a safe opening and avoid charging directly into the defender's active attack."
+          }
+        ]
+      }
+    },
+    {
+      "id": "domino",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-domino",
+          "deep-domino"
+        ],
+        "decisions": [
+          {
+            "title": "Check which Lucky or Unlucky state actually appears",
+            "text": "Domino's kit has random components, so repeated attempts do not promise the same Bleed or Evade. Base the next special on the visible state rather than assuming the most favorable probability has occurred."
+          },
+          {
+            "title": "Avoid a fixed Heavy script against Stun immunity",
+            "text": "A Heavy during an opponent's safe Stun recovery can increase offensive value, but forcing that window against Stun-immune or quick-recovery defenders invites damage. Use another opening if the condition is unavailable."
+          },
+          {
+            "title": "Recognize that Tech changes Unlucky interactions",
+            "text": "The documented kit excludes Tech opponents from becoming Unlucky. Do not attribute a failed anti-ability plan to bad luck when the matchup fundamentally lacks that state; choose an ability-control specialist instead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hulkbuster",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hulkbuster",
+          "deep-hulkbuster"
+        ],
+        "decisions": [
+          {
+            "title": "Check whether the defender is actually blocking",
+            "text": "Hulkbuster gains stronger special effects when specials break Block. Throwing SP1 or SP2 into a wide-open opponent may deal damage but will not necessarily trigger the enhanced Stun or power-control sequence."
+          },
+          {
+            "title": "Use Armor Up as a defensive budget",
+            "text": "Armor boosts Hulkbuster's protection and his value in some nodes, but armor removal changes both the damage taken and the available synergies. Don't overstate self-repair or protection when the opponent can strip those buffs."
+          },
+          {
+            "title": "Choose power denial with knowledge of immunity",
+            "text": "SP2 can generate Power Burn in a block-break setup and interact with Power Lock, but defenders immune to particular forms of control will not follow the usual script. Confirm which effect actually applied before attacking again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "aegon",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-aegon",
+          "deep-aegon"
+        ],
+        "decisions": [
+          {
+            "title": "Value persistent combo over a quick special finish",
+            "text": "Aegon's long-form quest strength depends on safely building and preserving hits across fights once awakened. A reckless extra SP1 sequence can lose more ramp than the special earns if the opponent counters it."
+          },
+          {
+            "title": "Match the current combo milestone to the fight",
+            "text": "High combo can unlock purification, True Accuracy or Unblockable conditions, but those tools are not present at the start of every fight. Read the current milestone before assigning him to an Evade or Auto-Block defender."
+          },
+          {
+            "title": "Check whether Glancing undermines the plan",
+            "text": "Many benefits follow critical hits, and Glancing can suppress the critical events that drive them. If a defender has reliable Glancing, do not assume extra combo alone will compensate; choose another path or attacker."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-cat",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-cat",
+          "deep-black-cat"
+        ],
+        "decisions": [
+          {
+            "title": "Choose where the Calling Card will end up",
+            "text": "Black Cat's Heist reward depends on card ownership. An intercept or recovery punish can take it; a Heavy can place it with the opponent. Plan whether you need Vicious or Sabotage before the Heist timer expires."
+          },
+          {
+            "title": "Preserve combo to keep suppression useful",
+            "text": "Her defensive ability-accuracy reduction scales with combo progress. Against a defender immune to such reduction, that utility may not protect you even with a large combo, so evaluate the fight's evasive and blocking mechanics separately."
+          },
+          {
+            "title": "Budget Combo Shields as a finite quest resource",
+            "text": "The awakened safety net offers limited persistent protection against losing combo. After using the shields, continuing an aggressive Heist loop carries more downside; check how many remain before taking a risky opening."
+          }
+        ]
+      }
+    },
+    {
+      "id": "killmonger",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-killmonger",
+          "deep-killmonger"
+        ],
+        "decisions": [
+          {
+            "title": "Punish special recovery to enable True Strike",
+            "text": "Killmonger's True Strike activation depends on attacking after the opponent's special. Choose a defender with a punishable special or create a safe recovery opening; class advantage alone does not turn True Strike on."
+          },
+          {
+            "title": "Use SP2 Indestructible charges deliberately",
+            "text": "SP2 can offer protective charges, but those are a finite resource and may disappear under subsequent interactions. Check the active charge count and node damage type rather than treating him as permanently invulnerable."
+          },
+          {
+            "title": "Check Armor Break and Bleed before relying on the finish",
+            "text": "Armor Break can disable Vibranium Armor, weakening defense. Bleed-immune defenders also remove the central SP3 Bleed payoff; a matchup can demand another attacker even when True Strike is valuable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mantis",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mantis",
+          "deep-mantis"
+        ],
+        "decisions": [
+          {
+            "title": "Alternate emotional triggers intentionally",
+            "text": "Mantis can obtain different Emotion stacks by intercepting or attacking a blocking opponent. If the AI refuses the needed behavior, don't force unsafe intercepts; switch to a safer setup rather than blindly building identical stacks."
+          },
+          {
+            "title": "Keep the Sleep-to-SP2 opening short and controlled",
+            "text": "The core damage plan uses a Heavy to create Sleep, build Fury, then cancel into SP2. Without enough Mixed Emotions or a safe opponent recovery, charging Heavy directly can fail before the special begins."
+          },
+          {
+            "title": "Do not confuse Cleanse with broad immunity",
+            "text": "SP1 can help remove debuffs through Cleanse, but charges and triggers are limited. A damaging passive, a repeated debuff, or a node that prevents cleansing is not automatically answered by choosing Mantis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mojo",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mojo",
+          "deep-mojo"
+        ],
+        "decisions": [
+          {
+            "title": "Complete only prompts you can do safely",
+            "text": "Mojo's audience prompts build Followers and keep the Anti-Life Field plan moving. A prompt that requires unsafe blocking or an awkward heavy is not worth sacrificing the entire fight; a Heavy can change a poor prompt when feasible."
+          },
+          {
+            "title": "Use the opponent's buff turnover to drive Degeneration",
+            "text": "Anti-Life Field converts qualifying enemy buff expiration or Nullify into damage. Buff-poor defenders will not provide the same fuel; count real buff removals rather than expecting SP2 to produce identical damage everywhere."
+          },
+          {
+            "title": "Keep quest-persistent resources distinct",
+            "text": "His awakened Subscribers persist between fights while Followers are part of the immediate fight. A strong long-path run needs the signature and prompt progress; don't publish a short-fight recommendation as if it included an awakened ramp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mordo",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mordo",
+          "deep-mordo"
+        ],
+        "decisions": [
+          {
+            "title": "Respect the Power Gain when facing Mordo",
+            "text": "Hitting Mordo can remove his personal Power Gain, but if you wait while he holds Block he may build specials quickly. Manage spacing and his current bar rather than treating him like an ordinary passive defender."
+          },
+          {
+            "title": "Choose Soul Barb only against suitable buffs",
+            "text": "On attack, SP2 can punish a buff-heavy enemy through Soul Barb and healing reduction. Against buff-poor or Soul Barb-immune targets, the payoff is not the same; spend power on the effect the actual defender allows."
+          },
+          {
+            "title": "Understand Astral Evade's disabling conditions",
+            "text": "Concussion or Fatigue can turn off Mordo's defensive Evade behavior. But the absence of either effect doesn't guarantee every attempt will Evade; identify the real mechanic and use a reliable punish instead of blindly intercepting."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-gwen",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-gwen",
+          "deep-spider-gwen"
+        ],
+        "decisions": [
+          {
+            "title": "Use Slow as a conditional anti-Evade tool",
+            "text": "Spider-Gwen's Heavy can help maintain Slow, reducing Evade or Unstoppable problems when the debuff applies. Check the target's debuff resistance or immunity first; her Spider-Sense alone is not a permanent Slow effect."
+          },
+          {
+            "title": "Spend Spider-Sense in the right part of the fight",
+            "text": "SP1 helps build the Spider-Sense and Trap-Spider setup, while SP2 or SP3 gives a different payoff. Decide whether power suppression or damage is needed before spending the resource, especially against a defender who shrugs off debuffs."
+          },
+          {
+            "title": "Don't accidentally disable defensive Evade",
+            "text": "Holding Block can prevent her own Evade from triggering. When using her defensively or analyzing enemy counterplay, distinguish that condition from a permanent Evade immunity or guaranteed avoidance."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-classic",
+          "deep-spider-man-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Build Webbing and Taunts for a purpose",
+            "text": "Taunts help lure a special and Webbing supports multiple control debuffs. Track the actual Taunt count and the opponent's power before using SP2; a Stun-immune defender may refuse the expected punish window."
+          },
+          {
+            "title": "Use SP1 to enable later control, not only damage",
+            "text": "SP1 can help supply Webbing effects and their follow-on debuffs. If the opponent removes debuffs faster than you can build them, a repeated SP1 loop may contribute little and a different attacker may be needed."
+          },
+          {
+            "title": "Separate class-specific exceptions from global protection",
+            "text": "Skill opponents have a distinct interaction with his special Stun-duration safeguard. Avoid generalizing that behavior to every class, and check whether the current node blocks Stun outright."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-supreme",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-supreme",
+          "deep-spider-man-supreme"
+        ],
+        "decisions": [
+          {
+            "title": "Put Spider-Seals on the opponent before cash-out",
+            "text": "First-medium hits and SP1 can seed Spider-Seals. Launching a damage special without enough Seals makes the payoff smaller; count them and the Spider Totem state rather than following a fixed power-bar script."
+          },
+          {
+            "title": "Check the Astral Miss cooldown",
+            "text": "His Miss-based defense has a cooldown. When facing him, time basic attacks around the actual defensive state; when using him, don't assume the same protective window will automatically return after every incoming hit."
+          },
+          {
+            "title": "Buff-copying needs actual enemy buffs",
+            "text": "His Heavy can offer buff-related utility when the defender has suitable effects. Against a buff-poor target, focus on building Seals and Totem instead of expecting a copied buff to appear from nowhere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "symbiote-supreme",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-symbiote-supreme",
+          "deep-symbiote-supreme"
+        ],
+        "decisions": [
+          {
+            "title": "Bring Symbiote Supreme to fights with buff turnover",
+            "text": "Stagger and Nullify can convert enemy buffs into Genetic Potential and support the power economy. If the opponent never gains buffs, that engine is less reliable even though basic attacks still work."
+          },
+          {
+            "title": "Choose SP3 when the combined blessings matter",
+            "text": "SP3 can align multiple blessing states and refill Genetic Potential. In a very short fight, the setup cost may be excessive; choose the utility requirement before committing to a long special cycle."
+          },
+          {
+            "title": "Watch the Bleed and Armor Break constraints",
+            "text": "Bleed immunity reduces the Set's Fangs damage route, and Armor Break immunity affects another part of his special utility. Avoid calling the entire kit ineffective simply because one effect cannot apply, but adjust the intended payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wasp",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-wasp",
+          "deep-wasp"
+        ],
+        "decisions": [
+          {
+            "title": "Confirm the defender can be Stunned before heavy-chaining",
+            "text": "Wasp's basic-combo Heavy setup relies on an eligible passive Stun opening. Against Stun immunity or unusual recovery timing, do not assume the Heavy will be safe just because it fits a standard combo rhythm."
+          },
+          {
+            "title": "Build combo for the special you actually need",
+            "text": "SP1's Concussion and SP2's Power Sting/Petrify improve under different recorded conditions. Count the current combo and effects; an early SP2 may punish specials less than the same move later in the fight."
+          },
+          {
+            "title": "Treat shrinking Evade as a risk control, not full safety",
+            "text": "Wasp's size-based evade interactions and awakened counterattack can mitigate some hits. They do not protect from every passive or node effect, so avoid risking the run on a single automatic escape."
+          }
+        ]
+      }
+    },
+    {
+      "id": "corvus-glaive",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-corvus-glaive",
+          "deep-corvus-glaive"
+        ],
+        "decisions": [
+          {
+            "title": "Earn persistent missions where they're practical",
+            "text": "Corvus's Cruelty grows by completing qualifying opponent/defeat conditions across fights. Plan paths that naturally award missions instead of choosing a risky defender solely to accelerate the counter."
+          },
+          {
+            "title": "Keep Glaive charges for the important attack",
+            "text": "While the glaive is charged, critical hits and True Damage make SP2 threatening. Spending the last charges on small hits can leave a long recovery phase; count the remaining charges before committing to the special."
+          },
+          {
+            "title": "Understand signature protection's cost",
+            "text": "Awakening can prevent a knockout while the Glaive's protection is active, but consumes charges in doing so. A survival proc is not free sustained immunity and changes the next damage window."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mister-sinister",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mister-sinister",
+          "deep-mister-sinister"
+        ],
+        "decisions": [
+          {
+            "title": "Avoid the wrong target for self-debuff transfer",
+            "text": "Sinister's SP1 can transfer damaging debuffs onto suitable opponents, but Robots have a special restriction. A prepared self-Bleed sequence may fail completely against a Robot; verify the defender classification before committing."
+          },
+          {
+            "title": "Use Heavy to build Vicious only in a safe window",
+            "text": "Charging Heavy supports Vicious and his Genetic Manipulation cycle. A defender with quick specials can punish a careless long charge; place the Heavy after a reliable stun or recovery instead."
+          },
+          {
+            "title": "Do not confuse reduced Purify reliability with no Purify",
+            "text": "Sinister can interfere with repeated Skill Purify, but that does not mean every Purify interaction always fails. Watch debuff counts and the opponent's exact purification rules before promising a permanent Degeneration setup."
+          }
+        ]
+      }
+    }
+  ]
+}

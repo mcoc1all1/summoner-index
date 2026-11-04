@@ -9,7 +9,7 @@ test('complete roster coverage yields a stable prioritized batch queue and revie
  assert(result.summary.completedPilot>=10,'must preserve first ten enriched champions');
  assert.equal(result.summary.identityReview,2,'special roster-only characters are not automatically assigned guides');
  assert.equal(result.summary.queued+result.summary.completedPilot+result.summary.identityReview,result.summary.totalChampions);
- assert(result.summary.batches>=15,'all remaining roster entries need explicit batch coverage');
+ assert.equal(result.summary.batches,Math.ceil(result.summary.queued/result.summary.batchSize),'all remaining roster entries need explicit batch coverage');
  const work=result.rows.filter(r=>r.batch!==null);
  assert.equal(new Set(work.map(r=>r.id)).size,work.length);
  assert(work.every((r,i)=>r.priorityRank>0),'all queued profiles have a rank');
