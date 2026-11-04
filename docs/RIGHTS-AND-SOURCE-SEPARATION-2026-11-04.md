@@ -32,6 +32,10 @@ Run `npm run rights:inventory` to regenerate host-level source provenance. Neith
 
 The GitHub connector used for this work supports reading, branches, PRs and file edits, but not creating a new private repository or configuring repository visibility/actions secrets. Silently deleting `content/catalog.json` would break the current build **and** leave the same material accessible in Git history. A legitimate separation needs a new private development repository and a clean public publishing repository.
 
+### Assisted first step (Windows)
+
+Once you have GitHub CLI (`gh`) authenticated and have reviewed the script, run `powershell -ExecutionPolicy Bypass -File scripts/prepare-private-source.ps1` **from your own trusted local clone**. It attempts only to create a new *private* `mcoc1all1/summoner-index-source` repository and mirror all source branches/tags into it, refusing to overwrite an existing destination. It verifies that the destination is private before copying the research data. The script does **not** change the existing public site or public history. The later publishing cutover remains a separate operation.
+
 ### Safe migration procedure (requires the repository owner's account)
 
 1. Make a complete local backup of `mcoc1all1/summoner-index`, including issues, tags, branches and its current Pages settings. Verify you have the GitHub permissions needed to create a private repository.
