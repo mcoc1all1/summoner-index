@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment 40-profile batch 07C (3/8), three source-linked, original conditional fight decisions per champion.",
+  "sources": [
+    {
+      "id": "b07-gentle-balance",
+      "title": "Kabam balance update — Okoye and Gentle, no changes planned",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/397888/balance-update-okoye-and-gentle",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "dracula",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dracula",
+          "deep-dracula"
+        ],
+        "decisions": [
+          {
+            "title": "Build Dire from controlled openings instead of unsafe rushes",
+            "text": "Dracula's Heavy and light-interrupt interactions can speed his Degeneration plan, but they still require precise openings. Track Dire and the defender's movement before attempting a charge at neutral range."
+          },
+          {
+            "title": "Choose SP1 when Slow answers an actual threat",
+            "text": "SP1 can provide Slow utility in the right matchup, whereas SP2 becomes more attractive after a Dire setup. If the defender does not rely on the relevant evade or Unstoppable effects, prioritizing damage may make more sense."
+          },
+          {
+            "title": "Launch SP2 only after verifying the Dire state",
+            "text": "The stronger Degeneration tick-rate window depends on an established state rather than pressing SP2 immediately. Check the active timer and any Degeneration resistance before spending two power bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "elektra",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-elektra",
+          "deep-elektra"
+        ],
+        "decisions": [
+          {
+            "title": "Choose Bleed or the alternate Armor Break branch",
+            "text": "Elektra's Special effects depend on whether the defender can Bleed, with an alternate Armor Break interaction in some matchups. Check immunities before spending the first Special, rather than predicting the same damage over time for all opponents."
+          },
+          {
+            "title": "Use SP1 critical pressure after setting up the debuff",
+            "text": "Her SP1 can gain additional value when the opponent is already Bleeding. If Bleed cannot stick or expires before SP1 lands, do not assume the same critical-hit sequence; manage power and timing together."
+          },
+          {
+            "title": "Treat low-health Final Strike as conditional pressure",
+            "text": "Final Strike can change the damage equation at the relevant health threshold, but deliberately taking hits to activate it is not a safe default. Preserve health and use it only when the fight naturally reaches that state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gambit",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-gambit",
+          "deep-gambit"
+        ],
+        "decisions": [
+          {
+            "title": "Bank Kinetic Charges only while block remains safe",
+            "text": "Gambit can build Kinetic Charges while holding block, but a defender with heavy block penetration or unblockable attacks punishes passive charging. Choose a safe distance and stop banking if the opponent can break the setup."
+          },
+          {
+            "title": "Convert to Prowess in a protected Heavy opening",
+            "text": "A charged Heavy can turn Kinetic resources into Prowess for the next Special. Only cancel into the attack after verifying that the defender is recovering; the payoff is not worth an interrupted Heavy."
+          },
+          {
+            "title": "Pick SP1 control or SP2 Concussion deliberately",
+            "text": "SP1 may create a Stun window, while SP2 supports Concussion and damage. Stun immunity or ability-accuracy protections can invalidate the preferred route, so inspect the defender rather than relying on a fixed follow-up."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gentle",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-gentle",
+          "deep-gentle",
+          "b07-gentle-balance"
+        ],
+        "decisions": [
+          {
+            "title": "Build Muscle Mass without overexposing his health",
+            "text": "Gentle's Muscle Mass can produce strong offensive pressure but excessive resource commitment carries a health cost. Check the next trigger and the incoming node damage before pushing the meter to its maximum."
+          },
+          {
+            "title": "Spend SP2 while the Unstoppable setup makes sense",
+            "text": "An Unstoppable opportunity can improve SP2 payoff alongside Reverb pressure, but it is not unconditional protection against dangerous Specials or reflected damage. Secure spacing and measure how much of the window remains."
+          },
+          {
+            "title": "Differentiate defensive physical resistance from total immunity",
+            "text": "Kabam's balance review described Gentle's defensive resistance and strong matchups against physical and critical attackers, not invulnerability to all damage. Prefer a counter whose actual damage profile answers those specific defenses."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ghost",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ghost",
+          "deep-ghost"
+        ],
+        "decisions": [
+          {
+            "title": "Enter Phase before trusting a miss-based punish",
+            "text": "Ghost can Phase after a dash-back, but the exact timing and opposing anti-Miss effects matter. Do not accept contact damage to force a counterattack; learn a safe Phase window against this specific defender first."
+          },
+          {
+            "title": "Use a Phase-timed SP2 only with the damage buffs prepared",
+            "text": "Her SP2 can gain guaranteed critical-hit value immediately after entering Phase, supported by Cruelty resources. Watch how many buffs and bars are active; an early SP2 without the intended setup is a different damage tradeoff."
+          },
+          {
+            "title": "Check debuff interactions before claiming automatic cleansing",
+            "text": "Ghost's Phase-related debuff conversion has conditions and interactions with different damage effects. Nodes that prevent phase, inflict special passives or reward purify may change the answer, so verify current in-game wording."
+          }
+        ]
+      }
+    }
+  ]
+}

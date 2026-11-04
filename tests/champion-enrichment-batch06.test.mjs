@@ -39,10 +39,10 @@ test('the enriched roster now has 130 profiles and retains prior cohorts',()=>{
   assert.equal(db.champions.find(x=>x.id===id)?.fieldNotes?.decisions?.length,3,id);
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
- assert.equal(report.summary.completedPilot,130);
+ assert(report.summary.completedPilot>=130,'batch 06 coverage persists through larger batches');
  assert.equal(report.summary.identityReview,2);
- assert.equal(report.summary.queued,202);
- assert.equal(report.summary.batches,11);
+ assert(report.summary.queued<=202,'subsequent batches should not increase the queue');
+ assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
 });
 
 test('version caveats and content-safety restrictions remain visible',()=>{

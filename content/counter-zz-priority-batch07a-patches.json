@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-profile champion batch 07A (1/8). Original independently worded source-linked tactical decisions; no direct gameplay measurements or third-party ability reproductions.",
+  "championPatches": [
+    {
+      "id": "captain-america-wwii",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-america-wwii",
+          "deep-captain-america-wwii"
+        ],
+        "decisions": [
+          {
+            "title": "Use the Bleed branch only against a susceptible defender",
+            "text": "Captain America (WWII) can use SP2 when the defender is vulnerable to Bleed, but immunity or rapid Purify erases much of that purpose. Choose a safer straightforward Special instead of building the entire attack plan around an effect that cannot stick."
+          },
+          {
+            "title": "Treat a possible SP1 Stun as an opening to confirm",
+            "text": "SP1 can create a Stun opportunity, but do not start a Heavy or new combo until the effect appears on the defender. Stun immunity and quest nodes can remove the expected follow-up, making a safe disengage the better decision."
+          },
+          {
+            "title": "Separate the WWII kit from classic Captain America",
+            "text": "The WWII version and the basic Captain America are separate roster identities, even if their defensive style looks similar. Confirm the champion portrait and current ability card before copying Fatigue or other mechanics from another version."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cassandra-nova",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cassandra-nova",
+          "deep-cassandra-nova"
+        ],
+        "decisions": [
+          {
+            "title": "Channel Daunted only from an opening you can protect",
+            "text": "Cassandra Nova's Heavy-based Channel can develop Daunted toward her Neuroshock loop. The resource is useful only if the defender lets the setup finish, so choose a knockdown recovery rather than starting a long Heavy in neutral."
+          },
+          {
+            "title": "Wait for the Neuroshock threshold before spending the setup",
+            "text": "The recorded kit links a developed Daunted count to Neuroshock applications from basic hits. Track the actual count and the defender's Shock-family protection; do not assume the opening combo is already dealing the fully ramped damage."
+          },
+          {
+            "title": "Choose SP1 sustain or SP2 pressure based on risk",
+            "text": "SP1 supports a recovery objective, while SP2 can build more Neuroshock damage and SP3 spends a developed Daunted bank. Compare health, opponent power and remaining node time before choosing a slow burst at the cost of survival."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cosmic-ghost-rider",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cosmic-ghost-rider",
+          "kit-cosmic-ghost-rider",
+          "expanded-core-cosmic-ghost-rider"
+        ],
+        "decisions": [
+          {
+            "title": "Plan Judgments before the first combo ends",
+            "text": "Cosmic Ghost Rider can gain different buffs from light-ending and medium-ending combos. Choose the required Judgment order before entering the fight, because accidental Precision or a premature trigger can change the subsequent SP2 damage setup."
+          },
+          {
+            "title": "Heavy into SP2 only from a stable opening",
+            "text": "A Heavy can enable an Aptitude opportunity before SP2 creates important offensive buffs. If a node punishes Heavy or the defender immediately counters, a textbook maximum-buff sequence is worse than a shorter safe Special punish."
+          },
+          {
+            "title": "Do not promise Armor Break against every defender",
+            "text": "After the Judgment cycle, the control phase can convert resources into Armor Breaks. Armor Break immunity, external buff interactions and Fate Seal can change this outcome, so verify the specific defender before advertising the full damage loop."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyclops-blue-team",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cyclops-blue-team",
+          "deep-cyclops-blue-team"
+        ],
+        "decisions": [
+          {
+            "title": "Check Precision count before using Unblockable Special",
+            "text": "Blue Team Cyclops can build Precision through the third basic hit and suitable intercepts; the recorded kit unlocks Unblockable Specials after enough stacks. Confirm the threshold before firing through block, or the defender may still defend normally."
+          },
+          {
+            "title": "Use SP2 to develop the resource rather than rush SP3",
+            "text": "An SP2 can strengthen the Precision setup while the regular combo continues building stacks. In a short fight, decide whether the immediate SP2 damage is enough instead of saving every bar for a later attacker-only SP3 payoff."
+          },
+          {
+            "title": "Keep the twenty-stack SP3 condition exact",
+            "text": "The recorded one-time SP3 option depends on building a much larger Precision bank than the Unblockable threshold. Do not claim the move is available early or repeatedly; note that node effects which alter buffs or Special access may also change the plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "daredevil-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-daredevil-classic",
+          "deep-daredevil-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Value Miss interaction only for the effect it answers",
+            "text": "Daredevil (Classic) can be useful against Miss-oriented opponents, but his avoidance and counterplay should not be described as universal anti-Evade or protection from every defensive node. Check the exact trigger before choosing him."
+          },
+          {
+            "title": "Use SP1 Precision without assuming Stun",
+            "text": "SP1 can help with Precision and offers a possible Stun, which must be confirmed before extending the attack. A Stun-immune defender or an unfavorable spacing window calls for disengaging rather than starting a guaranteed-looking combo."
+          },
+          {
+            "title": "Do not import the Hell's Kitchen version's utility",
+            "text": "Daredevil (Classic) is distinct from Daredevil (Hell's Kitchen). Compare the actual roster entry and awakened status before applying a guide that mentions mechanics unavailable to the classic version, particularly in high-stakes fights."
+          }
+        ]
+      }
+    }
+  ]
+}

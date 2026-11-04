@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-champion enrichment batch 07D-1: original conditional field notes based on linked references; not independent gameplay testing.",
+  "championPatches": [
+    {
+      "id": "green-goblin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-green-goblin",
+          "deep-green-goblin"
+        ],
+        "decisions": [
+          {
+            "title": "Build Cunning while keeping Specials controllable",
+            "text": "Green Goblin develops Cunning with his power progression, but banking power indefinitely can let the defender become dangerous. Check the visible meter and bait a manageable opponent Special before making the next attack decision."
+          },
+          {
+            "title": "Choose SP1 only when its control has value",
+            "text": "SP1 can provide a Power Drain opportunity and Weakness rather than a guaranteed complete shutoff. Confirm the effect landed before continuing pressure, especially when an enemy Special would be unsafe."
+          },
+          {
+            "title": "Check Incinerate and Poison protection separately",
+            "text": "SP2 can supply Incinerate and a chance for Poison, which are different damage effects with separate immunity checks. Do not count on the chance-based application as part of every damage calculation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "groot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-groot",
+          "deep-groot"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Pacifism without feeding dangerous Specials",
+            "text": "Groot can gain Pacifism as the opponent gains and spends power, but provoking dangerous attacks only for resources creates avoidable risk. Use a defender whose Special pattern you can consistently handle."
+          },
+          {
+            "title": "Use Fury before the conversion window expires",
+            "text": "Pacifism can convert into a short Fury and Cruelty opportunity. Observe the actual active buffs and remaining time before launching a Special, rather than holding power until the bonuses disappear."
+          },
+          {
+            "title": "Weigh SP2 healing against immediate progress",
+            "text": "SP2 offers missing-health recovery while SP1 serves a different damage objective. When healing is blocked or the defender is nearly defeated, a safer faster finish can be more valuable than building to the recovery option."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hulk-ragnarok",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hulk-ragnarok",
+          "deep-hulk-ragnarok"
+        ],
+        "decisions": [
+          {
+            "title": "Track Crowd Excitement before committing to SMASH",
+            "text": "Hulk (Ragnarok) develops Crowd Excitement through combat and gains a specific SMASH opportunity. Confirm readiness and establish a safe Heavy opening before committing to the hit."
+          },
+          {
+            "title": "Spend power on the control effect the fight needs",
+            "text": "SP1 can offer Heal Block and SP2 can provide Enervate, addressing different threats. Assess whether the defender is healing or gaining too much power before choosing which Special to use."
+          },
+          {
+            "title": "Use SP3 for a longer-fight resource plan",
+            "text": "SP3 can accelerate Crowd Excitement, but saving three bars is costly when the opponent is close to defeat. Compare remaining health, node pressure, and safety before choosing the slower setup."
+          }
+        ]
+      }
+    }
+  ]
+}

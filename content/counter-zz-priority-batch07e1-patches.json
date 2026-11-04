@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion batch 07E-1 of forty: original source-linked and condition-specific notes.",
+  "sources": [
+    {
+      "id": "b07-isophyne-balance",
+      "title": "Kabam balance update — Isophyne and Deathless champions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/395671/balance-update-isophyne-and-the-deathless",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "iron-man-infinity-war",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-iron-man-infinity-war",
+          "deep-iron-man-infinity-war"
+        ],
+        "decisions": [
+          {
+            "title": "Establish both damage effects before expecting Plasma",
+            "text": "Iron Man (Infinity War) can apply Shock through SP1 and Incinerate through SP2, then use eligible repulsor hits for Plasma. Confirm both effects are present rather than assuming Plasma is automatic after one Special."
+          },
+          {
+            "title": "Choose another route when debuffs are prevented",
+            "text": "Shock immunity, Incinerate immunity or a debuff-blocking node can break the normal Plasma setup. SP3 may offer an alternative entry, but check active effects before expecting equivalent damage."
+          },
+          {
+            "title": "Separate his defensive and offensive applications",
+            "text": "His Armor and Auto-Block-related defender pressure are different from the two-debuff attacking plan. When using him, time attacks around available resources; when facing him, watch Armor state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iron-patriot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-iron-patriot",
+          "deep-iron-patriot"
+        ],
+        "decisions": [
+          {
+            "title": "Apply SP1 Armor Break only when the target allows it",
+            "text": "Iron Patriot can use SP1 for Armor Break, which is useful against an armored defender when the effect actually sticks. If the target resists Armor Break, do not continue as though the opening damage window exists."
+          },
+          {
+            "title": "Use the costly SP3 Stun for a specific purpose",
+            "text": "SP3 offers a stronger Stun opportunity than chasing uncertain control, but it costs significant power. Check Stun immunity and defender health before investing in an effect that may not help."
+          },
+          {
+            "title": "Keep this kit distinct from other Iron Man versions",
+            "text": "Iron Patriot, Iron Man and Iron Man (Infinity War) have different resource and timing requirements. Confirm the exact champion identity before copying Reactor or Plasma advice from another variant."
+          }
+        ]
+      }
+    },
+    {
+      "id": "isophyne",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-isophyne",
+          "deep-isophyne",
+          "b07-isophyne-balance"
+        ],
+        "decisions": [
+          {
+            "title": "Build Energy Vulnerability before the main Special",
+            "text": "Isophyne's SP1 can apply Energy Vulnerability, including additional pressure under the relevant power condition. Track the actual debuff count and timer before committing another Special to a burst."
+          },
+          {
+            "title": "Use Wither when opponent Power Gain matters",
+            "text": "SP2 can establish Wither and support Nullify interactions, but node-protected Power Gain or Nullify resistance can alter control. Check the matchup instead of promising guaranteed power shutdown."
+          },
+          {
+            "title": "Treat Ego development as a long-fight investment",
+            "text": "Long encounters can reward developing Ego and using SP3 to enhance later vulnerability windows. Kabam's balance review offers context, not proof that this is always the fastest possible rotation."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-profile batch 07D-2: original decision notes with source citations and conditional setup requirements.",
+  "championPatches": [
+    {
+      "id": "ikaris",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ikaris",
+          "deep-ikaris"
+        ],
+        "decisions": [
+          {
+            "title": "Maintain Incinerate before the SP2 multiplier",
+            "text": "Ikaris can establish Incinerate effects with SP1 and sustain them using safe attacks. Track the visible timer so the resource is still present when SP2 is launched; a lapsed stack cannot support the intended conversion."
+          },
+          {
+            "title": "Check Incinerate protection before choosing the ramp",
+            "text": "SP2 can multiply established Incinerate pressure, but immunity, Purify and node-specific effect rules can interrupt this entire plan. Select another fight approach if the defender cannot retain the effects."
+          },
+          {
+            "title": "Treat SP3 as a resource-consuming cash-out",
+            "text": "SP3 can turn a developed Incinerate bank into a bigger immediate payoff but consumes or changes the effects you spent time building. Compare remaining defender health against the rebuild cost before using it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iron-fist-immortal",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-iron-fist-immortal",
+          "deep-iron-fist-immortal"
+        ],
+        "decisions": [
+          {
+            "title": "Use Armor Break pressure only on eligible targets",
+            "text": "Immortal Iron Fist can gain offensive value through eligible critical hits and Armor Breaks. Against an Armor Break-immune defender, verify the actual damage and control that remain instead of assuming every critical hit builds the same setup."
+          },
+          {
+            "title": "Target opposing attack buffs only from a safe Heavy",
+            "text": "A Heavy can interact with specific opposing buffs such as Fury, Cruelty or Precision. Without those buffs or a safe opening, attempting the move provides little benefit and exposes the attacker to unnecessary damage."
+          },
+          {
+            "title": "Time Specials while personal buffs are active",
+            "text": "The preferred Special payoff depends on the current Precision and Armor Break state, not simply on reaching a power bar. Check durations and the defender's effect protection before choosing the punish."
+          }
+        ]
+      }
+    }
+  ]
+}

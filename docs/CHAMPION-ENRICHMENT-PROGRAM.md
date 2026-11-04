@@ -21,7 +21,7 @@ The second command writes `docs/champion-enrichment-tracker.csv` and `docs/champ
 
 ## Assignment and acceptance
 
-Every nonpilot champion joins a deterministically ranked work queue divided into **20-champion batches**. Batch order considers missing decision notes and rotations, the depth of utility and scoped protection research, demand from recorded counter matchups, and whether it is a special roster-only identity. The two special identity records are excluded from publication work until identity and current-game eligibility can be verified; they remain in the tracker.
+Every nonpilot champion joins a deterministically ranked work queue divided into **40-champion batches** from 5 November 2026 onward (previous cohorts used 20). Batch order considers missing decision notes and rotations, the depth of utility and scoped protection research, demand from recorded counter matchups, and whether it is a special roster-only identity. The two special identity records are excluded from publication work until identity and current-game eligibility can be verified; they remain in the tracker.
 
 For each champion in a batch:
 1. Confirm the exact champion identity, current kit and relevant game version; check source references, prefer official source notes and cross-check contradictions.
@@ -80,3 +80,12 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - The notes include conditional resource/setup checks, awakened-only caveats, effect immunities, and version-sensitive references. They are editorial interpretations rather than independently benchmarked fight results, verified optimal rotations or copied ability lists.
 - **Beast deferred** from this round: Kabam announced a November 2026 Beast update; existing older Freestyle/Acrobatic rotation content should not receive a new endorsement until the live rework/buff kit is checked. An additional candidate, Captain America, takes the twentieth slot.
 - Existing third-party kit/relic compilations remain withheld. The existing legal audit, AdSense, indexing and domain settings are not changed by this content batch.
+
+## Batch 07: doubled cohort — 5 November 2026
+
+- The standard audit queue and scheduled enrichment handoff now prioritize **40 champions per batch**, doubling the prior 20-profile cohort. Individual patch files remain small so each champion can be reviewed and fixed without broad changes.
+- This batch adds **120 new original, source-linked fight decisions across 40 profiles**: Captain America (WWII), Cassandra Nova, Cosmic Ghost Rider, Cyclops (Blue Team), Daredevil (Classic), Darkhawk, Dazzler, Deadpool (X-Force), Diablo, Doctor Octopus, Dracula, Elektra, Gambit, Gentle, Ghost, Green Goblin, Groot, Hulk (Ragnarok), Ikaris, Iron Fist (Immortal), Iron Man (Infinity War), Iron Patriot, Isophyne, Kang, Kindred, King Groot, Loki, Madelyne Pryor, Magneto (House of X), Mangog, Masacre, Nebula, Nico Minoru, Nightcrawler, Northstar, Odin, Pixie, Professor X, Proxima Midnight and Psycho-Man.
+- After validation and merge, cumulative field-note coverage should be **170 / 334**: **162 eligible profiles** remain across **5 batches** of up to 40, and **two** identity-eligibility exceptions continue separately.
+- **Beast remains deferred:** announced November 2026 rework replaces the old Freestyle/Acrobatic model; current notes should be authored from the verified released kit rather than republishing outdated source advice. Later queue assignments should keep Beast visible.
+- These are independently worded editorial interpretations of referenced mechanics with resource, activation, matchup and version caveats. They are **not independent gameplay tests, guaranteed optimal rotations, or comprehensive per-champion kit verifications**. Missing protection records and unreviewed Stat Focus still require separate provenance work.
+- The previous commercial-rights remediation safeguards remain active. No AdSense, advertising, indexing, private-source publication, boss guide or repository visibility settings were changed by this cohort.

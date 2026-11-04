@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07H-1: original source-linked field notes.",
+  "championPatches": [
+    {
+      "id": "odin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-odin",
+          "deep-odin"
+        ],
+        "decisions": [
+          {
+            "title": "Set Odinforce goals before entering a path",
+            "text": "Odin has pre-fight choices and can develop Odinforce through eligible knockdowns, but the most useful setup depends on the encounter. Pick the fight that needs each option rather than spending a limited pre-fight benefit without planning."
+          },
+          {
+            "title": "Use SP1 True Strike against the right defender",
+            "text": "SP1 can offer True Strike and Bulwark under the relevant Odinforce condition. Check that Odinforce is active and that the defender has an avoidance or Auto-Block interaction the utility can actually answer."
+          },
+          {
+            "title": "Count unique buffs before SP2 cash-out",
+            "text": "SP2 can gain value from several distinct personal buffs while Odinforce is active. Track which buffs remain, and beware of Nullify or buff-punishing nodes that can disrupt a planned damage window."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pixie",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-pixie",
+          "deep-pixie"
+        ],
+        "decisions": [
+          {
+            "title": "Reduce spell cooldowns without rushing unsafe combos",
+            "text": "Pixie can shorten spell cooldowns using specific Light attacks. Check the spell timer and defender movement rather than forcing an extra attack solely to complete the countdown."
+          },
+          {
+            "title": "Gain Wisps when the spell trigger is actually eligible",
+            "text": "Her Heavy and anti-Evade spell options can build Wisps under the right conditions. Verify that the defender presents the trigger you want and that there is a safe opening for the cast."
+          },
+          {
+            "title": "Use SP2 conversion before follow-up Prowess expires",
+            "text": "SP2 can convert a developed Wisp resource, while SP1 can benefit from the remaining Prowess window. Watch the duration and opponent power before attempting the second Special."
+          }
+        ]
+      }
+    },
+    {
+      "id": "professor-x",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-professor-x",
+          "deep-professor-x"
+        ],
+        "decisions": [
+          {
+            "title": "Charge Channeling only when spacing is controlled",
+            "text": "Professor X can build Channeling through safe Heavy charges and SP1 interactions. A long Heavy startup against a prepared defender is not a reliable option; create a recovery opening first."
+          },
+          {
+            "title": "Convert Channeling with the appropriate cancel",
+            "text": "Movement and block cancels can influence his Prowess resources. Check the active state after a cancellation before launching the next Special, rather than assuming every backdash refreshes the intended effect."
+          },
+          {
+            "title": "Attempt Mind Control chains with enough resources",
+            "text": "Maximum Channeling can enable Mind Control and a Special-attack sequence. Monitor remaining power and duration, because that resource state does not guarantee unlimited chained Specials in every matchup."
+          }
+        ]
+      }
+    }
+  ]
+}

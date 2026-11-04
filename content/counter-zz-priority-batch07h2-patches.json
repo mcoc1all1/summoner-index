@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07H-2: final two of forty champion source-linked profiles, original conditional notes.",
+  "championPatches": [
+    {
+      "id": "proxima-midnight",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-proxima-midnight",
+          "deep-proxima-midnight"
+        ],
+        "decisions": [
+          {
+            "title": "Identify the current mission before attacking",
+            "text": "Proxima Midnight's missions can require well-timed blocks, intercepts or knockdowns. Read the active objective before choosing a basic attack sequence, because completing the wrong action does not progress the intended mission."
+          },
+          {
+            "title": "Spend mission Prowess on a Special with a real opening",
+            "text": "Completed missions can provide Prowess and improve Special payoff. Check the visible buff and opponent's power first; a high-damage sequence is not useful if the defender can interrupt before the Special lands."
+          },
+          {
+            "title": "Choose SP1 control or SP2 Stun by actual defender needs",
+            "text": "SP1 can support healing control and SP2 provides another possible Stun opening. Heal Block and Stun immunity are different matchup constraints, so use the effect that addresses the fight rather than selecting by damage alone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "psycho-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-psycho-man",
+          "deep-psycho-man"
+        ],
+        "decisions": [
+          {
+            "title": "Switch modes with a purpose before building the next effect",
+            "text": "Psycho-Man changes emotional modes through specific fourth-light inputs. Confirm whether Hate, Fear or Doubt is active before setting up a Special; the mode affects the expected control and damage outcome."
+          },
+          {
+            "title": "Build Fury in Hate before deciding how to refresh it",
+            "text": "A Hate-mode SP2 can establish Fury, while rotating modes may help maintain the offensive setup. Track the buff timer and safe combo options instead of switching modes so frequently that the main damage window is lost."
+          },
+          {
+            "title": "Choose Shock, healing or power control deliberately",
+            "text": "Different emotional modes provide distinct Special utility, including Shock, recovery or power-related control. Check the opponent's immunity and your current health before choosing a mode rather than promising all those effects at once."
+          }
+        ]
+      }
+    }
+  ]
+}

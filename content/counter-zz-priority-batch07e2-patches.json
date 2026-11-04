@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07E-2, original source-linked field notes.",
+  "championPatches": [
+    {
+      "id": "kang",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-kang",
+          "deep-kang"
+        ],
+        "decisions": [
+          {
+            "title": "Save SP2 Power Drain for a meaningful power bar",
+            "text": "Kang's SP2 can remove power and create a Stun opening. Bait the defender to a manageable power level first; using the Special when no power needs removing sacrifices much of its control purpose."
+          },
+          {
+            "title": "Confirm Stun before taking the follow-up",
+            "text": "A follow-up depends on the defender actually being Stunned, which can fail under Stun immunity or restrictive nodes. Observe the effect after SP2 rather than starting an unsafe Heavy attack."
+          },
+          {
+            "title": "Use SP3 Heal Block only when it changes the matchup",
+            "text": "SP3 can provide healing control, but the extra power cost is not always justified against an opponent that does not regenerate. Compare the likely health saved against the time spent building power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kindred",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-kindred",
+          "deep-kindred"
+        ],
+        "decisions": [
+          {
+            "title": "Establish Dread Aura from a protected opening",
+            "text": "Kindred can charge Heavy to develop Dread Aura and Degeneration pressure. The setup exposes him if attempted at neutral range, so first secure a predictable recovery or node-supported opening."
+          },
+          {
+            "title": "Maintain the Outbreak degeneration cycle carefully",
+            "text": "SP1 can create charges and Degeneration while Outbreak rewards the appropriate follow-up cycle. Track the visible resource state and timer before spending power, or the setup may be lost."
+          },
+          {
+            "title": "Evaluate degeneration protection when choosing counters",
+            "text": "When facing Kindred, separate a champion's Degeneration resistance from total immunity. Healing, node interactions and exact Special timing can change the expected outcome of the matchup."
+          }
+        ]
+      }
+    }
+  ]
+}

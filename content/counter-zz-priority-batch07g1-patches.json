@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07G-1, three new champion profiles; independently worded player decisions, source IDs and conditional constraints.",
+  "championPatches": [
+    {
+      "id": "masacre",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-masacre",
+          "deep-masacre"
+        ],
+        "decisions": [
+          {
+            "title": "Build Ignition through safe blocked-hit opportunities",
+            "text": "Masacre can use interactions with an opponent's block to develop Ignition, but repeatedly attacking an unsafe block can invite counters. Check how the defender behaves on blocked hits and avoid a fixed combo when nodes punish contact."
+          },
+          {
+            "title": "Separate SP1 Disorient utility from SP2 burst",
+            "text": "SP1 can offer Disorient while the ignited bat supports a distinct damage loop. Decide whether the fight needs ability-accuracy pressure or straightforward damage before spending the next power bar."
+          },
+          {
+            "title": "Confirm the current SP2 block-damage rules",
+            "text": "The recorded kit has a special block-focused SP2 route while Ignition is active, but patches can change exact behavior. Verify the installed ability card and active Ignition state before using an older showcase as guaranteed evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nebula",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-nebula",
+          "deep-nebula"
+        ],
+        "decisions": [
+          {
+            "title": "Build Amp Charges only when blocking is actually safe",
+            "text": "Nebula can accumulate Amp Charges while holding block, but a premature well-timed block changes the setup. Watch the charge count and the opponent's block-pressure nodes before banking resources."
+          },
+          {
+            "title": "Transfer charges through a timed defensive opening",
+            "text": "A well-timed block can transfer prepared charges into Shock pressure. If the opponent is Shock-immune or the block cannot be made safely, do not describe the maximum charge burst as an available default."
+          },
+          {
+            "title": "Use SP2 for damage or SP1 for power control",
+            "text": "SP2 can cash out while Shocks remain active, whereas SP1 can serve an important control role against dangerous power. Check the defender's power bar and the remaining Shock timer before choosing the higher-damage branch."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nico-minoru",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-nico-minoru",
+          "deep-nico-minoru"
+        ],
+        "decisions": [
+          {
+            "title": "Choose the spell that solves this fight before entry",
+            "text": "Nico Minoru's pre-fight spell choices have quest-level limits, so using a single-use option too early may remove it from a later encounter. Plan the path and defender mechanics instead of spending every spell immediately."
+          },
+          {
+            "title": "Maintain Pentacle setup from actual eligible hits",
+            "text": "Her third-light interactions can help place Pentacles, while spells and Specials interact with the resulting pressure. Use a safe combo opening and inspect the active marks rather than assuming the effect stays indefinitely."
+          },
+          {
+            "title": "Distinguish enemy Buff Immunity from self-immunity",
+            "text": "SP2 can supply Poison pressure and a Buff Immunity effect on the opponent. That does not make Nico herself immune to every Buff or debuff; verify which side receives the effect before selecting her as a counter."
+          }
+        ]
+      }
+    }
+  ]
+}

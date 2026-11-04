@@ -9,7 +9,7 @@ const hasNotes=c=>Array.isArray(c.fieldNotes?.decisions)&&c.fieldNotes.decisions
 const safeString=x=>String(x??'').replaceAll(/\r?\n/g,' ');
 const csvCell=x=>'"'+safeString(x).replaceAll('"','""')+'"';
 
-export function championEnrichmentAudit(rawDb,{batchSize=20}={}){
+export function championEnrichmentAudit(rawDb,{batchSize=40}={}){
  if(!Number.isInteger(batchSize)||batchSize<5||batchSize>50)
   throw Error('Batch size must be an integer from 5 to 50');
  const db=publicResearchView(rawDb); // never export source-derived private fields or draft focus choices
