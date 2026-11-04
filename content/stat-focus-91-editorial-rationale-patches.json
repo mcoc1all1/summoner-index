@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "adam-warlock",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Special Damage",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Adam Warlock must maintain Sovereignty through active hits before using SP2 to suspend its timer while in the pod. Critical Rating is a direct-hit experiment across equivalent Sovereignty and Fury stacks, not a way to extend the timer or trigger criticals while the pod is inactive.",
+        "defenseReason": "Editorial trial: Special Damage on defense only matters if his specials actually connect; it does not enhance the pod stun, pod-entry recovery or Sovereignty's passive power. Compare a mitigation option against attackers that safely disengage before specials.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "america-chavez",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: America Chavez chooses Utopian, Dark or Negative Zone dimensions with different Heavy timings and then converts those choices into special outcomes. Critical Rating is a trial for crit-capable direct hits at identical dimension stacks; it will not automatically strengthen Utopian's noncritical energy bursts or Dark healing.",
+        "defenseReason": "Editorial trial: Armor Penetration could increase eligible damage against armored attackers, but it does not grant another dimension, prevent Wither from stripping the newest dimension, or give extra healing. Compare resistance if the defender cannot safely complete Heavy setups.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "angela",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Angela cycles Huntress buffs by moving between power bars and can duplicate the current buff with critical hits. Testing Critical Rating may improve her chance to duplicate that buff, but it does not prevent Nullify or guarantee sufficient buff uptime for the awakened protection. Use identical initial Fury and power ranges.",
+        "defenseReason": "Editorial trial: Armor Rating is a physical-damage mitigation trial, not an additional Armor Up Buff for Angela's signature and not a protection against buff removal. Compare Energy Resistance if attackers tend to use energy specials.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "ant-man",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Ant-Man gains Pym Particles from SP1 and stacks Fatigue before turning that setup into Power Sting or Poison. Critical Rating is a direct-hit comparison at equal particle counts; the focus does not raise the chance to land Fatigue or change the conversion rate of debuffs.",
+        "defenseReason": "Editorial trial: Physical Resistance may reduce incoming physical hits while Ant-Man rebuilds particles. It does not automatically raise Glancing chance, create particles or protect a Fatigue stack from Purify; compare defense against the actual attacker's damage type.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "ant-man-future",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Future Ant-Man builds Nano-Armor and uses Surging Swarm to enable Disintegration and SP2 Power Detonation. Critical Rating can be tested on eligible direct strikes at matched armor and detonation state, but is not assumed to increase Disintegration damage or accelerate power-control effects.",
+        "defenseReason": "Editorial trial: Armor Penetration only improves eligible direct hits against armor; it does not rebuild Nano-Armor after an intercept, prevent Pierce from disabling Glancing or protect the defender from Power Detonation counterplay. Compare a mitigation focus against high-pressure attackers.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "anti-venom",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Anti-Venom chooses a Genetic Memory debuff with his second medium, then converts accumulated effects through SP1 and SP2. Critical Rating could raise eligible critical-hit frequency, but cannot substitute for maintaining Klyntar or guarantee Fury from an unbuilt stack. Compare identical Memory choice and debuff counts.",
+        "defenseReason": "Editorial trial: Armor Penetration is an outgoing direct-hit trial against armored targets, not a way to stop Klyntar Purify or increase the potency of Petrify. Compare physical mitigation when the attacker can force risky medium-end setup.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "apocalypse",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Apocalypse builds Genetic Code across fights and later uses different combo endings to pick SP1/SP2 debuffs before pausing them with SP3. Critical Rating is a direct-hit experiment with equal Genetic Code and Prowess, not a multiplier for every Bleed/Poison/Incinerate tick or a way to speed immunity adaptation.",
+        "defenseReason": "Editorial trial: Armor Penetration may help direct attacks into armor but does not give Genetic Code, guarantee an adaptation before first exposure or bypass node restrictions. Compare resistance when the defender must withstand damage to establish its ramp.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "arcade",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Arcade places a Poisonous Cloud and corner traps, then spends tickets to choose prizes and improve debuff pressure. Critical Rating is a direct-hit comparison only; it will not by itself add cloud ticks, extend trap duration or replace positioning the opponent inside a hazard.",
+        "defenseReason": "Editorial trial: Armor Penetration is a conditional direct-hit pressure choice against armor, not an Auto-Block chance or new token source. Compare physical mitigation when heavy punishes and knockdowns reset Arcade's trap economy.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "arnim-zola",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Arnim Zola uses pre-fight Special Lock, recovery-punish heavies and SP1 Energize before SP2 Disintegration. Critical Rating should be measured on eligible direct hits with the same Energize and Fury stacks; it cannot be credited for the separate Disintegration damage-over-time.",
+        "defenseReason": "Editorial trial: Armor Penetration affects armored opponents' direct-hit mitigation, not the number of ESP charges, SP2 Disintegrations or the SP3 self-repair interrupt window. Compare defensive resistance against opponents who can safely stun or heavy-counter his setup.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "attuma",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Attuma converts eligible debuffs or Hydration through Heavy and uses SP2 to build Cruelty while preserving personal Concussion. Critical Rating is a trial on crit-capable direct hits; it does not extend Hydration, grant a True Accuracy effect or override Coldsnap-accelerated decay.",
+        "defenseReason": "Editorial trial: Armor Penetration may help his physical strikes against armored attackers, but does not make Hydration persist through Shock or Incinerate or grant 10-stack Incinerate immunity sooner. Compare mitigation if the attacker can punish his special animations.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "bastion",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Bastion builds Virus from medium hits and blocks, then uses Pursuit, Disintegration and Infection for Fury and SP2 pressure. Critical Rating is a direct-hit trial at equal Virus and Infection state; do not assume it increases Infection ticks or bypasses the three-unique-buff limit.",
+        "defenseReason": "Editorial trial: Armor Penetration only affects eligible hits into armor; it does not create Virus charges, prevent an opponent from holding multiple Buffs, or extend Infection. Compare resistance against attackers who can block safely during setup.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "beta-ray-bill",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Beta Ray Bill stacks Intensify by Heavy charging, then uses SP2 Shocks and SP1 as those Shocks expire. Critical Rating may change the frequency of crit-capable direct hits at equal Intensify, but it cannot raise Shock expiration burst potency by assumption or bypass Shock immunity.",
+        "defenseReason": "Editorial trial: Armor Penetration can be tested for eligible physical strikes into armored targets; it does not add Intensify, make Shocks stick through immunity or grant SP3 Resonance. Compare Energy Resistance against attackers whose special damage is mostly energy.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "black-cat",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Black Cat moves the Calling Card between fighters to choose Vicious or Sabotage during the Heist, then uses SP2 for critical Bleeds. Critical Rating is a trial only for eligible direct hits at the same Heist ownership and combo; it cannot increase the number of Combo Shields or bypass Bleed immunity.",
+        "defenseReason": "Editorial trial: Armor Penetration is a damage-pressure experiment against armored opponents. It does not extend the Heist, stop Bleed immunity or guarantee her defensive sabotage succeeds against an Ability Accuracy-immune attacker; compare mitigation in those matchups.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "black-panther",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Black Panther builds Cruelty and inactive Panther's Might charges before switching modes with Heavy or SP1, then punishes openings with SP2. Critical Rating may help crit-capable attacks at equal Cruelty and mode uptime; it cannot extend Panther's Might or bypass Bleed immunity.",
+        "defenseReason": "Editorial trial: Armor Penetration only affects direct hits versus armor, not the time required to charge Panther's Might or the effect of the awakened purification. Compare a defensive resistance focus if the attacker repeatedly interrupts the mode.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "black-widow-deadly-origin",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Black Widow (Deadly Origin) builds Insight with intercepts or recovery punishes, then uses light-hit Shock and SP2 during a short window. Critical Rating should be compared for eligible direct damage at equal Insight/Precision state; it is not a guarantee of stronger Shock damage or longer Insight uptime.",
+        "defenseReason": "Editorial trial: Armor Penetration may improve direct hits against armor but cannot make Shock-immune defenders vulnerable or extend the awakened Sabotage. Compare Energy Resistance against attackers who defeat her by bypassing Insight pressure.",
+        "note": "Champion-specific research hypothesis based on source-linked community focus choices and the documented kit. Not independently gameplay-tested or certified best-in-slot."
+      }
+    }
+  ]
+}
