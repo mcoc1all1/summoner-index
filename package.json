@@ -8,7 +8,8 @@
     "test": "node scripts/run-with-accuracy-patches.mjs node --test tests/*.test.mjs",
     "dev": "node scripts/serve.mjs",
     "release:check": "node scripts/public-release.mjs --check",
-    "build:public": "node scripts/public-release.mjs"
+    "build:public": "node scripts/public-release.mjs",
+    "rights:inventory": "node scripts/source-rights-inventory.mjs"
   },
   "engines": {
     "node": ">=22"

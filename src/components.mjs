@@ -16,7 +16,7 @@ export function protectionPanel(db,c){
 }
 
 export function championCard(db,c,filters={}){
- const coverage=c.coverage==='roster'?(c.referenceFacts?'Source catalogue':'Guide pending'):'Detailed guide';
+ const coverage=c.coverage==='roster'?(c.referenceFacts?.status==='source-link-only'?'Kit guide pending':c.referenceFacts?'Source catalogue':'Guide pending'):'Detailed guide';
  return `<article class="champion-card champion-card--${e(c.class?.toLowerCase()||'universal')}">
   <div class="champion-card-identity"><div class="card-top">${avatar(c)}<button class="save" data-save="${c.id}" aria-label="Save ${e(c.name)}" aria-pressed="false">☆</button></div>
   <div class="champion-card-title">${badge(c.class)}<h3><a href="/champions/${c.id}">${e(c.name)}</a></h3></div></div>
