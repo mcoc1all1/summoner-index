@@ -13,14 +13,31 @@ const read=(folder,name)=>JSON.parse(fs.readFileSync(path.join(folder,name),'utf
 export function provenanceReview(base=root){
  const folder=path.join(base,'content');
  const immunity=read(folder,'immunity-roster-audit-patches.json');
+ // Reflect explicit follow-up resolutions without assuming other catalog sources have
+ // been audited. Removing a misleading ID is a valid outcome, not verified immunity.
+ const followUpFile='immunity-verified-20261104-patches.json';
+ const followUp=fs.existsSync(path.join(folder,followUpFile))?read(folder,followUpFile):{championPatches:[]};
+ const resolved=new Map();
+ for(const patch of followUp.championPatches||[]){
+  for(const effectId of patch.removeImmunityIds||[])resolved.set(patch.id+':'+effectId,'removed-after-review');
+  for(const record of patch.addProtections||[])resolved.set(patch.id+':'+record.effectId,'scoped-and-source-linked');
+ }
  const immunityClaims=(immunity.championPatches||[]).flatMap(patch=>{
   const locallyScoped=new Set((patch.addProtections||[]).map(record=>record.effectId));
-  return (patch.addImmunityIds||[]).map(effectId=>({
-   championId:patch.id,effectId,patchFile:'immunity-roster-audit-patches.json',
-   scopeRecordedInThisPatch:locallyScoped.has(effectId),
-   reviewNeeded:!locallyScoped.has(effectId),
-   reason:locallyScoped.has(effectId)?'Scoped protection recorded in this patch':'Activation, debuff/passive form and claim-specific provenance must be checked against the merged catalog'
-  }));
+  return (patch.addImmunityIds||[]).map(effectId=>{
+   const laterResolution=resolved.get(patch.id+':'+effectId)||null;
+   const local=locallyScoped.has(effectId);
+   return {
+    championId:patch.id,effectId,patchFile:'immunity-roster-audit-patches.json',
+    scopeRecordedInThisPatch:local,
+    resolvedInLaterPatch:laterResolution,
+    reviewNeeded:!local&&!laterResolution,
+    reason:laterResolution==='removed-after-review'?'Broad immunity tag removed; ability described separately':
+      laterResolution==='scoped-and-source-linked'?'Specific conditionality and source documented in follow-up patch':
+      local?'Scoped protection recorded in originating patch':
+      'Activation, debuff/passive form and claim-specific provenance must be checked against the merged catalog'
+   };
+  });
  });
  const focusFiles=fs.readdirSync(folder).filter(name=>/^stat-focus-.*-patches\.json$/.test(name)).sort();
  const statFocus=focusFiles.flatMap(file=>{
