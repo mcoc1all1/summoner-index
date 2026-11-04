@@ -60,3 +60,12 @@ The source-specific review state, current-client gameplay test status, and copyr
 
 - Added eight kit-specific trial explanations for Iceman, Havok, Baron Zemo, Bishop, Blade, Rintrah, Shuri, and Wiccan in `content/stat-focus-80-editorial-rationale-patches.json`.
 - There are now **132 historical focus patch entries** but only **108 distinct current recommendations**; of the latter, **83** lack explicit champion-specific attack and defense explanations. The counter does not independently validate the recommendation itself.
+
+
+## Fifth immunity batch — source / synergy boundaries
+
+- Doctor Bong: recorded source-based Nullify and Power Sting protection as a **kit claim** with named scope; unrelated control mechanics not inferred.
+- Crossbones: Nullify and Stagger require the **Hydra Recruitment** synergy and a qualifying Contempt interaction; not always-on standalone immunities.
+- Prowler: reversed-controls immunity requires the **Spider-Punk synergy and selected pre-fight**; the pre-fight has an inverted-input tradeoff.
+- The Hood: Stun immunity is **conditional on awakening and Invisibility**; no blanket Stun label.
+- **45** original broad immunity records remain unresolved (previously 51); resolving provenance does not itself establish a verified current-client gameplay test or source-reuse permission.
