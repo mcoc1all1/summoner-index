@@ -30,3 +30,10 @@ Run `node scripts/provenance-review.mjs --summary` for counts or `node scripts/p
 - Added champion-specific *editorial hypotheses* for eight commonly sought Stat Focus choices (Kushala, Onslaught, Serpent, Human Torch, Warlock, High Evolutionary, Black Panther (Civil War), Bullseye). **These are not experimental findings**, and the selections remain medium-confidence research starting points.
 
 Updated source patches: `content/immunity-verified-20261104-patches.json` and `content/stat-focus-60-current-refresh-patches.json`.
+
+## 4 November follow-up — effect-level protection and source limitations
+
+- Added the **effect** form category to the domain validator, patch validator, UI filters and protection labels. Nullify, Fate Seal, Stagger, reversed controls and Buff immunity should not automatically be presented as debuff-only or passive-only effects. The form filter now includes **Other effects**.
+- Added specific conditions for Red Skull's protection from **champion-sourced** Nullify, Fate Seal and Stagger (not all quest-node effects), Rintrah's Stun Immunity at 15+ Mystical Charges, Nick Fury's post-Decoy Stun Immunity and Auto-Block interaction, Juggernaut's Gem-dependent reversed controls protection, and Titania's self-Buff immunity with Neutralize caveat.
+- Updated provenance queue to consolidate all `immunity-verified-*-patches.json` follow-ups. **71** originally broad immunity additions remain flagged for claim-level scope review (previously 78). This reduction means supporting conditions were recorded, not that independent gameplay testing was completed.
+- These are research and editorial corrections, **not** clearance to copy website text or a universal assertion that a node can never bypass an immunity.
