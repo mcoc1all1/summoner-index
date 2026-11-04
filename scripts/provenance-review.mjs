@@ -56,16 +56,26 @@ export function provenanceReview(base=root){
    };
   });
  });
+ // Patch files are applied alphabetically. Later entries override earlier
+ // selections, so effective champion-level coverage differs from raw patch count.
+ const focusByChampion=new Map();
+ for(const entry of statFocus)focusByChampion.set(entry.championId,entry);
+ const effectiveFocus=[...focusByChampion.values()];
  return {
   purpose:'Editorial research and provenance queue, not copyright clearance or gameplay verification',
   immunity:{total:immunityClaims.length,scopeFollowups:immunityClaims.filter(x=>x.reviewNeeded).length,claims:immunityClaims},
-  statFocus:{total:statFocus.length,rationaleFollowups:statFocus.filter(x=>x.reviewNeeded).length,claims:statFocus}
+  statFocus:{
+   total:statFocus.length,rationaleFollowups:statFocus.filter(x=>x.reviewNeeded).length,
+   effectiveTotal:effectiveFocus.length,
+   effectiveRationaleFollowups:effectiveFocus.filter(x=>x.reviewNeeded).length,
+   effectiveClaims:effectiveFocus,claims:statFocus
+  }
  };
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  const result=provenanceReview();
  if(process.argv.includes('--summary')){
-  console.log(JSON.stringify({purpose:result.purpose,immunity:{total:result.immunity.total,scopeFollowups:result.immunity.scopeFollowups},statFocus:{total:result.statFocus.total,rationaleFollowups:result.statFocus.rationaleFollowups}},null,2));
+  console.log(JSON.stringify({purpose:result.purpose,immunity:{total:result.immunity.total,scopeFollowups:result.immunity.scopeFollowups},statFocus:{total:result.statFocus.total,rationaleFollowups:result.statFocus.rationaleFollowups,effectiveTotal:result.statFocus.effectiveTotal,effectiveRationaleFollowups:result.statFocus.effectiveRationaleFollowups}},null,2));
  }else console.log(JSON.stringify(result,null,2));
 }
