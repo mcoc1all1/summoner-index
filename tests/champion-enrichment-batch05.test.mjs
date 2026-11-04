@@ -39,10 +39,10 @@ test('batch 05 reaches 110 enriched records without losing past notes',()=>{
  for(const id of prior)assert.equal(db.champions.find(c=>c.id===id)?.fieldNotes?.decisions?.length,3,id);
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
- assert.equal(report.summary.completedPilot,110);
+ assert(report.summary.completedPilot>=110,'batch 05 remains published after later enrichment');
  assert.equal(report.summary.identityReview,2);
- assert.equal(report.summary.queued,222);
- assert.equal(report.summary.batches,12);
+ assert(report.summary.queued<=222,'the unreviewed queue must not grow');
+ assert(report.summary.batches<=12,'later batches must shrink the remaining workload');
 });
 
 test('variant distinctions, source validity and publication-safety hold',()=>{
