@@ -34,5 +34,5 @@ test('new profiles and matchup records retain honest review limits',()=>{
 });
 test('comparison preserves the conditions behind protection',()=>{
  const html=compareTable(db,['scorpion','black-widow-claire-voyant']);
- assert.match(html,/Conditional protection/);assert.match(html,/Default Poison Sting/);assert.match(html,/curse-dependent/);
+ assert.match(html,/Reviewed conditional protections/);assert.match(html,/Default Poison Sting/);assert.match(html,/curse-dependent/);
 });
