@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09B/09H: original source-linked conditional Field Notes, not independent combat testing.",
+  "sources": [
+    {
+      "id": "b09-joaquin-balance",
+      "title": "Kabam balance update — Arnim Zola and Falcon (Joaquin Torres)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399521/balance-update-arnim-zola-and-falcon-joaquin-torres",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "elsa-bloodstone",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-elsa-bloodstone",
+          "deep-elsa-bloodstone"
+        ],
+        "decisions": [
+          {
+            "title": "Choose combo enders for Busted and Hellfire",
+            "text": "Elsa can use a Light-ending sequence to prepare Busted and a Medium ender for a different Hellfire payoff. Check the actual debuffs before selecting an attack pattern; a defender resistant to an effect may make the other path preferable."
+          },
+          {
+            "title": "Watch each ammunition pool before SP2",
+            "text": "Her weapons have distinct ammunition supplies, and reloading changes the follow-up damage options and power generation. Check the remaining shots rather than automatically launching SP2 after a standard number of combos."
+          },
+          {
+            "title": "Use SP1 Precision when critical damage can connect",
+            "text": "SP1 helps prepare Precision for later critical hits against a Busted opponent. Against critical resistance or an unsafe opposing Special, a more controlled reload and punish may outperform rushing a high-damage sequence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "falcon-joaquin-torres",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-falcon-joaquin-torres",
+          "deep-falcon-joaquin-torres",
+          "b09-joaquin-balance"
+        ],
+        "decisions": [
+          {
+            "title": "Use Defensive Instinct when Slow is the counter",
+            "text": "Joaquin's defensive mode can apply Slow around eligible opponent Specials. Check whether the defender's Evade or Unstoppable behavior is actually affected and allow time for the effect to appear rather than claiming unconditional shutdown."
+          },
+          {
+            "title": "Switch to Aggressive Instinct for the Trauma plan",
+            "text": "The second-Medium interaction changes modes, so use it deliberately when building Trauma. Track which mode is active; an accidental switch can cost a damage window or the defensive utility needed for this encounter."
+          },
+          {
+            "title": "Reach Peak Performance only when there is enough runway",
+            "text": "Maximum Velocity can enable Peak Performance and a more complete attack loop, but Kabam's balance discussion notes shorter fights can limit that ramp. Against a quick opponent, prefer an achievable SP2 sequence over assuming the longest rotation completes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "franken-castle",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-franken-castle",
+          "deep-franken-castle"
+        ],
+        "decisions": [
+          {
+            "title": "Activate running Unstoppable from usable distance",
+            "text": "Franken-Castle can enter a running Unstoppable state after a dash-back, but spacing is important. Check whether the defender has Slow or other anti-Unstoppable measures before charging forward into a dangerous counter."
+          },
+          {
+            "title": "Build Incinerate and Berserk during safe Heavy openings",
+            "text": "A Heavy and SP2 can support Incinerate and Berserk as a linked offense. If the target is Incinerate-immune, review whether the remaining attack plan still justifies forcing an exposed Heavy."
+          },
+          {
+            "title": "Carry the offensive state into SP1 rather than guessing timing",
+            "text": "Reactivating Unstoppable before a prepared SP1 can enhance the sequence, but only while the relevant buff is active. Check enemy power and time remaining so the setup does not expire before the Special connects."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ghost-rider",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ghost-rider",
+          "deep-ghost-rider"
+        ],
+        "decisions": [
+          {
+            "title": "Map the Judgment sequence before using Specials",
+            "text": "Ghost Rider's Judgments arise from different attacks and Specials, so decide which effects the defender needs before consuming the available opportunities. An early irrelevant Judgment may reduce flexibility later in a long fight."
+          },
+          {
+            "title": "Save a safe Heavy for a developed Lifesteal payoff",
+            "text": "A Heavy Judgment can reward a more complete set of earlier Judgments with stronger sustain. Use a reliable recovery window and confirm healing is permitted, rather than deliberately accepting damage while trying to unlock recovery."
+          },
+          {
+            "title": "Use SP3 Damnation as a long-fight reset tool",
+            "text": "SP3 can apply Damnation and eventually reset Judgment opportunities, but saving three bars may be impractical against a nearly defeated opponent. Check the fight duration and opponent's damage-effect resistance before investing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "goldpool",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-goldpool",
+          "deep-goldpool"
+        ],
+        "decisions": [
+          {
+            "title": "Establish Taunt without risking the combo",
+            "text": "Goldpool can develop Taunt through an uninterrupted combo and maintain it with a safe Heavy. Check the defender's Special pattern and whether Taunt is allowed before forcing extra attacks just to preserve the cycle."
+          },
+          {
+            "title": "Allow the SP2 dance only against a safe defender",
+            "text": "His first SP2 can produce a longer dance interaction and Prowess under the relevant setup. Ensure the target can be Stunned and is not about to use an unsafe Special; do not assume every encounter guarantees the animation's best outcome."
+          },
+          {
+            "title": "Use SP3 only when Prowess or regeneration needs renewal",
+            "text": "SP3 can refresh useful existing states, but a long power investment makes little sense if there is nothing worth refreshing. Track active Prowess, missing health and remaining fight time before choosing it."
+          }
+        ]
+      }
+    }
+  ]
+}

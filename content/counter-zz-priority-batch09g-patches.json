@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09G/09H original source-linked attack decisions with variant, resource, immunity and node caveats.",
+  "championPatches": [
+    {
+      "id": "king-groot-deathless",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-king-groot-deathless",
+          "deep-king-groot-deathless"
+        ],
+        "decisions": [
+          {
+            "title": "Use the Deathless variant's Malice for lasting Armor Break",
+            "text": "Deathless King Groot can establish persistent Armor Break through an SP1 during Malice. Confirm the form and Armor Break eligibility before planning indefinite pressure; regular King Groot's Poison rotation is not interchangeable."
+          },
+          {
+            "title": "Build Ignition before the SP2 Incinerate payoff",
+            "text": "The Deathless version rewards an Ignition resource that strengthens SP2 Incinerate. Check the actual bank and opposing fire protection before spending two power bars; a fast Special without setup may underperform."
+          },
+          {
+            "title": "Pause the relevant effects only from a safe Heavy",
+            "text": "His Heavy can extend damaging effect uptime while the Malice cooldown changes Fury access. Avoid forcing the move into a dangerous defender merely to keep a timer paused, and monitor which effects remain when Malice ends."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kraven",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-kraven",
+          "deep-kraven"
+        ],
+        "decisions": [
+          {
+            "title": "Place an SP1 trap where the defender can enter it",
+            "text": "Kraven's trap must arm before the opponent can be held in it, and positioning is essential. Choose a manageable Special-bait or corner approach rather than assuming the trap activates instantly on placement."
+          },
+          {
+            "title": "Use a Heavy or SP2 to push the opponent into the armed trap",
+            "text": "A safe knockback can move the defender into a prepared trap and help start a follow-up sequence. Check how far the opponent will travel, since a poorly positioned push may leave them outside the trap's area."
+          },
+          {
+            "title": "Use SP2 Bleed refresh only while Root remains useful",
+            "text": "A trapped Rooted defender can provide a Bleed opportunity, with SP3 offering remote activation in some longer fights. Bleed immunity, Root resistance and dangerous enemy Specials can change which line is worth the power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lady-deathstrike",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-lady-deathstrike",
+          "deep-lady-deathstrike"
+        ],
+        "decisions": [
+          {
+            "title": "Build Ferocity and Rupture without losing the armor plan",
+            "text": "Lady Deathstrike's nail hits can build Rupture and Ferocity while eligible combos support Armor. Check whether the defender can receive Rupture before committing to a long combo that has little other payoff."
+          },
+          {
+            "title": "Choose a second-Medium ending when Heal Block is needed",
+            "text": "The recorded kit can provide Heal Block from a specific combo ending. Against a regenerating defender, target that input deliberately; against a nonhealing target, prioritize a safe damage rotation instead."
+          },
+          {
+            "title": "Watch Ferocity pause rules before blocking",
+            "text": "Certain defensive actions can end a useful Ferocity pause, making an otherwise safe blocked hit costly to the setup. Track the timer and choose the next Special opening without sacrificing necessary survival for one extra buff tick."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lizard",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-lizard",
+          "deep-lizard"
+        ],
+        "decisions": [
+          {
+            "title": "Apply Rejuvenate and Fervor without assuming permanent healing",
+            "text": "Lizard can use SP1 to develop a healing and offensive state while applying Ruptures. Check whether the defender or node can block his regeneration before treating a longer fight as automatically survivable."
+          },
+          {
+            "title": "Pause Ruptures only after a genuine non-stun Heavy punish",
+            "text": "A Heavy after the opponent's eligible recovery can maintain damaging effects, but the setup has conditions that can fail against Stun-reliant openings. Check the state and spacing rather than forcing a Heavy at neutral range."
+          },
+          {
+            "title": "Bait the defender's Special with Ruptures still active",
+            "text": "His burst route benefits from Rupture pressure when the opponent uses a Special, followed by a possible SP2 or SP3 cash-out. Watch the debuff timer and enemy power so the prepared damage is not lost before activation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "longshot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-longshot",
+          "deep-longshot"
+        ],
+        "decisions": [
+          {
+            "title": "Build Good Karma through a protected Heavy",
+            "text": "Longshot can charge Heavy to gain Good Karma and transfer it to the opponent under appropriate conditions. Choose a safe punish window; a random Heavy at neutral range is not a reliable way to develop the bank."
+          },
+          {
+            "title": "Maintain Bad Karma only through events the defender actually performs",
+            "text": "Baited Heavies and Specials can refresh relevant Karma interactions. If the defender refuses to use those moves or nodes interfere with the debuffs, do not assume the same SP2 damage as a cooperative matchup."
+          },
+          {
+            "title": "Use SP2 during Pure of Heart when buffs justify the burn",
+            "text": "SP2 can cash out opponent buffs and Karma during the appropriate state. A buffless or Incinerate-immune opponent changes that value, so check the actual effect protection before deciding that the longer setup is worthwhile."
+          }
+        ]
+      }
+    }
+  ]
+}

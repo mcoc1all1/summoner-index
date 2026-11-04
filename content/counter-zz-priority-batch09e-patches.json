@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09E/09H original source-linked decision entries; conditional setup and limitations, no independent gameplay tests.",
+  "sources": [
+    {
+      "id": "b09-imperiosa-recap",
+      "title": "December 2025 game livestream summary — Imperiosa fractured bar and opening lock",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/407934/livestream-summary-12-5",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "hulk-immortal",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hulk-immortal",
+          "deep-hulk-immortal"
+        ],
+        "decisions": [
+          {
+            "title": "Build Rage without letting the short timer waste earlier hits",
+            "text": "Immortal Hulk can gain Rage through eligible Medium attacks, but the window is not indefinite. Track current stacks and choose a safe Heavy when it can boost the sequence; an interrupted Heavy risks the entire ramp."
+          },
+          {
+            "title": "Use SP2 during the developed offensive and suppression window",
+            "text": "SP2 can provide Stun and Suppression as part of a high-Rage attack, but defender immunities and incoming Special timing matter. Confirm the actual effects before assuming an automatic follow-up combo."
+          },
+          {
+            "title": "Respect Gamma reserves and Immortality cooldown on defense",
+            "text": "His survival mechanic has resource and cooldown requirements; it is not blanket invulnerability. When using or fighting him, check remaining Gamma and relevant node damage rather than treating the signature safety as unlimited."
+          }
+        ]
+      }
+    },
+    {
+      "id": "imperiosa",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-imperiosa",
+          "deep-imperiosa",
+          "b09-imperiosa-recap"
+        ],
+        "decisions": [
+          {
+            "title": "Clear the opening Special Lock before planning a normal rotation",
+            "text": "Imperiosa starts with a special power situation and an opening self-lock that requires eligible actions to clear. Watch the lock state instead of assuming a Special is immediately usable because the power bar appears partially filled."
+          },
+          {
+            "title": "Choose SP3 Corrosion for an encounter long enough to refresh it",
+            "text": "An SP3 can introduce Corrosion, while SP1 can refresh relevant damaging effects under the recorded kit. Against a short encounter or corrosion-resistant target, holding three bars may not be worth the risk."
+          },
+          {
+            "title": "Use SP2 Root while managing fractured power thresholds",
+            "text": "SP2 can Root the opponent and change which power-dependent buffs are active. Check the resulting bar and the defender's Special threat before staying close for a follow-up; Root does not automatically suppress enemy power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "invisible-woman",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-invisible-woman",
+          "deep-invisible-woman"
+        ],
+        "decisions": [
+          {
+            "title": "Trigger Invisibility through actual dodges rather than a passive wait",
+            "text": "Invisible Woman gains offensive opportunities by evading eligible attacks and building Fragility. Check the visible Invisibility state and the defender's anti-Miss rules before assuming she can safely stand through another basic combo."
+          },
+          {
+            "title": "Choose dodges over blocks when preserving a paused window",
+            "text": "The recorded Invisibility approach rewards clean avoidance, while taking blocked hits can change the timer and defensive flow. Use an opponent whose attacks you can predict instead of fishing for every possible Fragility trigger."
+          },
+          {
+            "title": "Convert Force Field into an SP2 Fury payoff at the right time",
+            "text": "SP1 or SP3 can help develop Force Field, with SP2 offering a different attack opportunity from that resource. Watch remaining shield strength and avoid presenting a fully ramped burst as available immediately at fight start."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jabari-panther",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-jabari-panther",
+          "deep-jabari-panther"
+        ],
+        "decisions": [
+          {
+            "title": "Use controlled intercepts or Stun punishes to build charges",
+            "text": "Jabari Panther can develop the resource for the Hunt through eligible aggressive openings, while SP1 adds Ensnare. Choose an opening the defender actually permits; taking a dangerous combo merely to reach Hunt is not an efficient setup."
+          },
+          {
+            "title": "Trigger the Hunt only when charges and target health justify it",
+            "text": "A Special with enough charges can begin a Fury-enhanced Hunt window. Track the current counter and enemy power before launching, since starting Hunt without room to continue attacks wastes the buff."
+          },
+          {
+            "title": "Save the late-Hunt Heavy for a safe Bleed opportunity",
+            "text": "A Heavy near Hunt's end can offer extra Bleed pressure, but Bleed-immune defenders or unsafe spacing reduce its value. Prefer a clean finish over risking the fight for one extra stack."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jessica-jones",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-jessica-jones",
+          "deep-jessica-jones"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP1 objects for their distinct effects",
+            "text": "Jessica Jones can throw different objects through SP1, building Investigation and creating different debuff results. Track which objects have already appeared rather than expecting each SP1 to provide the same control."
+          },
+          {
+            "title": "Pause only the debuff a safe Heavy can actually maintain",
+            "text": "A Heavy can preserve certain useful non-Stun SP1 debuffs. Confirm that a relevant effect is active, and make the Heavy during a verified punish window; forcing a charge into an aggressive defender is rarely worth a small timer extension."
+          },
+          {
+            "title": "Choose SP2 after object variety has developed",
+            "text": "SP2 can gain Fury value from having thrown different objects, so it is more attractive after the relevant Investigation setup. Against a short defender, a faster SP1 sequence may offer safer damage than waiting for a maximal object collection."
+          }
+        ]
+      }
+    }
+  ]
+}

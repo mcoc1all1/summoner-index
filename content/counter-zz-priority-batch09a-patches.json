@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09A/09H: original source-linked conditional fight decisions, not independent gameplay testing or reproduced external kit text.",
+  "championPatches": [
+    {
+      "id": "dani-moonstar",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dani-moonstar",
+          "deep-dani-moonstar"
+        ],
+        "decisions": [
+          {
+            "title": "Build an Illusion before relying on Falter",
+            "text": "Dani's defensive trick depends on an Illusion being available to trigger Falter when an eligible attack is blocked. Check the active state and the opponent's anti-Miss mechanics before deliberately inviting attacks toward the setup."
+          },
+          {
+            "title": "Convert a real Miss into Neural Arrows and Prowess",
+            "text": "Neural Arrows build from the relevant missed-attack interaction, while your strikes during Falter can contribute Prowess. Do not treat either resource as present at fight start; read the indicators before committing to the next Special."
+          },
+          {
+            "title": "Time SP2 with prepared arrows and vulnerability",
+            "text": "SP1 can develop Energy Vulnerability for a later SP2, which benefits from a sufficient Neural Arrow bank. Check the remaining vulnerability timer and whether the defender resists Energy damage before chasing the full ramp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "daredevil-hells-kitchen",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-daredevil-hells-kitchen",
+          "deep-daredevil-hells-kitchen"
+        ],
+        "decisions": [
+          {
+            "title": "Build the combo for Stick's Apprentice deliberately",
+            "text": "Daredevil (Hell's Kitchen) rewards reaching a combo threshold before the enhanced sequence. Avoid trading health simply to cross it; a clean punish or intercepted opening is better than starting the ramp while the defender has a dangerous Special ready."
+          },
+          {
+            "title": "Use Heavy Cruelty or SP1 Precision for the current goal",
+            "text": "A safely timed Heavy and SP1 can support different critical-hit resources. Check which buff is active and whether the defender resists critical damage before deciding the next attack is worth the bar."
+          },
+          {
+            "title": "Plan the post-SP2 combo recovery",
+            "text": "SP2 can spend accumulated combo for Bleed pressure and later Fury. Account for the lost combo momentum and the defender's Bleed immunity, rather than promising an instant repeat of the fully developed state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dark-phoenix",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dark-phoenix",
+          "deep-dark-phoenix"
+        ],
+        "decisions": [
+          {
+            "title": "Build Embers with eligible attacks before the burst",
+            "text": "Dark Phoenix can develop Embers through second-Medium endings and SP1. Track the count rather than assuming every normal combo generates the same setup; avoid wasting power before there is enough to support SP2."
+          },
+          {
+            "title": "Save SP3 ramp for a fight that will last",
+            "text": "The recorded kit gives SP3 a lasting Ember and Nova Flame role. Three bars may be wasteful against a low-health opponent, so compare the remaining fight time against the value of continuing after the investment."
+          },
+          {
+            "title": "Use SP2 with an actual Ember bank",
+            "text": "SP2 spends built resources for its stronger damage sequence, so the following combo begins from a reduced state. Check the defender's fire-related protections and plan whether another build cycle is realistic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "doctor-bong",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-doctor-bong",
+          "deep-doctor-bong"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP1 to establish Panic and Heavy Proficiency",
+            "text": "Doctor Bong can begin his control and Reverb plan with SP1, but the later Heavy sequence depends on his prepared state. Check the current effects and find a genuine punish opening before charging a Heavy."
+          },
+          {
+            "title": "Protect critical-hit combo milestones",
+            "text": "His developing combo can supply guaranteed-critical opportunities that help sustain the payoff. Do not force an unsafe extension solely to reach the next milestone; an interrupted combo erases the value of a more ambitious setup."
+          },
+          {
+            "title": "Cash Reverb through a timed Heavy or cancel",
+            "text": "A developed Reverb bank makes the Heavy or Heavy-cancelled Special route more attractive, while SP2 can speed later combo progression. Check the active stacks and opposing power rather than spending the entire ramp during a vulnerable animation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "doctor-voodoo",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-doctor-voodoo",
+          "deep-doctor-voodoo"
+        ],
+        "decisions": [
+          {
+            "title": "Count combo parity before using an awakened Special",
+            "text": "Doctor Voodoo's awakened ability makes odd and even combo states matter. Check the hit count before SP1 or SP2; the wrong parity can produce a different effect from the Poison or Power Burn plan you intended."
+          },
+          {
+            "title": "Use SP1 buff conversion where the defender provides buffs",
+            "text": "Building Loa and converting eligible opponent buffs can create Poison pressure, but a buffless or Poison-immune defender changes the payoff. Choose the opening based on the actual target rather than cycling SP1 blindly."
+          },
+          {
+            "title": "Pick SP2 power behavior deliberately",
+            "text": "The recorded kit differentiates the even-combo Power Burn interaction from the odd-combo power-leakage option. Inspect enemy power, your Loa state and whether the defender resists those effects before deciding which parity to launch on."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09D/09H: source-linked original fight decision notes, not independent live game tests.",
+  "championPatches": [
+    {
+      "id": "heimdall",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-heimdall",
+          "deep-heimdall"
+        ],
+        "decisions": [
+          {
+            "title": "Build Vanir resources before committing to a permanent buff",
+            "text": "Heimdall can gain Vanir charges and choose offensive buffs through particular basic attacks. Track which Fury or Precision state is ready before attempting a Heavy, because a premature charge can leave the next Special without its intended setup."
+          },
+          {
+            "title": "Convert an existing temporary Vanir buff with a safe Heavy",
+            "text": "A Heavy can help preserve a timed offensive buff and support a longer path plan. Choose an actual recovery or Stun opening rather than holding a Heavy at neutral range solely for persistent value."
+          },
+          {
+            "title": "Use True Strike only while the Special-granted effect remains",
+            "text": "Heimdall can establish True Strike through a Special and then use it against eligible Evade or Auto-Block. Taking a hit or allowing the buff to expire changes the matchup, so do not assume permanent control from team entry."
+          }
+        ]
+      }
+    },
+    {
+      "id": "high-evolutionary",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-high-evolutionary",
+          "deep-high-evolutionary"
+        ],
+        "decisions": [
+          {
+            "title": "Develop detonation charges before using the field",
+            "text": "High Evolutionary can accumulate debuff-linked detonation resources through basic attacks and well-timed blocks. Check the actual counter before spending power, because a field created with no developed setup may produce a weaker cash-out."
+          },
+          {
+            "title": "Position the SP2 field for a realistic follow-up",
+            "text": "SP2 creates a field that needs at least one champion inside its area for the planned interaction. Avoid exposing yourself to a dangerous Special just to stand in the field; choose spacing that supports a safe SP1 follow-up."
+          },
+          {
+            "title": "Use SP1 during the field rather than after it fades",
+            "text": "A field-supported SP1 can amplify damage and consume active Combo Detonation. Watch the duration and defender's debuff protections before launching, since a late Special will not reproduce a fully prepared field result."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hit-monkey",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hit-monkey",
+          "deep-hit-monkey"
+        ],
+        "decisions": [
+          {
+            "title": "Use guaranteed-critical nunchaku hits only on open targets",
+            "text": "Hit-Monkey can create a dependable critical sequence with the appropriate Medium-Light-Medium timing against an unblocked opponent. A defender who blocks or applies anti-critical protection changes the outcome; do not force the sequence into a ready block."
+          },
+          {
+            "title": "Select Assassin's Cunning or Primal Rage intentionally",
+            "text": "After obtaining a Scheme, your next defensive movement or aggressive attacks can lead toward different effects. Pick the state that addresses the defender's evasion or damage requirements instead of alternating at random."
+          },
+          {
+            "title": "Launch SP2 after a critical hit only when the opening is safe",
+            "text": "A recent critical hit can set up SP2's stronger sequence, but the timing is not worth eating a Special counterattack. Track whether the required Scheme and power are available before treating the critical SP2 as guaranteed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hobgoblin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hobgoblin",
+          "deep-hobgoblin"
+        ],
+        "decisions": [
+          {
+            "title": "Repeat the correct basic attack to build Incinerate and Maniacal",
+            "text": "Hobgoblin's attack rhythm can develop Incinerate and Maniacal charges through repeat hits and third Lights. Plan a safe combo and check which effect the defender can receive rather than defaulting to a full string regardless of immunity."
+          },
+          {
+            "title": "Choose the SP1 setup that matches the preceding attack",
+            "text": "His SP1 can contribute to charge development, with different utility tied to the preceding basic attack selection. Review the active resources and timing before spending power so the Special delivers the control needed."
+          },
+          {
+            "title": "Spend a developed Lunatic Laugh window with a safe cancel",
+            "text": "A Heavy charge can establish the Laugh setup for an SP2 follow-up. Confirm the defender is recovering and that the chosen damage effect is not protected; starting a vulnerable Heavy purely to maximize damage is not required."
+          }
+        ]
+      }
+    },
+    {
+      "id": "howard-the-duck",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-howard-the-duck",
+          "deep-howard-the-duck"
+        ],
+        "decisions": [
+          {
+            "title": "Choose Auto-Masher versus manual Mash before entering",
+            "text": "Howard can manage a timed Mash interaction at fight start, or use the available pre-fight option to alter that execution. Choose based on whether the matchup safely allows manual inputs; a distracted opening can lose useful armor."
+          },
+          {
+            "title": "Build Fury in safe Stun windows before Heavy Armor Break",
+            "text": "His offensive plan can reward Fury and a Heavy Armor Break after a reliable Stun. Confirm the opponent is Stunned and can receive Armor Break before committing to the exposed Heavy sequence."
+          },
+          {
+            "title": "Select SP1 Heal Block or SP2 Suppression for the actual threat",
+            "text": "A regenerating defender may reward SP1 healing control, whereas a dangerous Power Gain pattern can make SP2 Suppression more valuable. Do not count on Mash-related bonus value without performing its input or choosing Auto-Masher."
+          }
+        ]
+      }
+    }
+  ]
+}
