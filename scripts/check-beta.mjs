@@ -52,10 +52,10 @@ for(const filename of fs.readdirSync(root).filter(n=>/^catalog-(?:.+)\.json$/.te
 // The full, compact, and hashed JSON artifacts must agree on every public
 // editorial field. Checking only the unhashed catalog was insufficient.
 const canonicalById=new Map(publicDb.champions.map(c=>[c.id,c]));
-const jsonFiles=fs.readdirSync(root).filter(name=>/^catalog(?:-[a-z-]+)?(?:\\.[0-9a-f]{16})?\\.json$/.test(name));
-assert(jsonFiles.some(name=>/^catalog\\.[0-9a-f]{16}\\.json$/.test(name)),
+const jsonFiles=fs.readdirSync(root).filter(name=>/^catalog(?:-[a-z-]+)?(?:\.[0-9a-f]{16})?\.json$/.test(name));
+assert(jsonFiles.some(name=>/^catalog\.[0-9a-f]{16}\.json$/.test(name)),
  'hashed canonical dataset was not inspected');
-assert(jsonFiles.some(name=>/^catalog-loadouts\\.[0-9a-f]{16}\\.json$/.test(name)),
+assert(jsonFiles.some(name=>/^catalog-loadouts\.[0-9a-f]{16}\.json$/.test(name)),
  'hashed loadout dataset was not inspected');
 for(const filename of jsonFiles){
  const data=JSON.parse(fs.readFileSync(new URL(filename,root),'utf8'));
