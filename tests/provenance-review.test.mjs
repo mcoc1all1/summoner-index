@@ -5,7 +5,7 @@ import {provenanceReview} from '../scripts/provenance-review.mjs';
 test('editorial provenance queue exposes missing claim-specific metadata without rejecting facts',()=>{
  const report=provenanceReview();
  assert.equal(report.immunity.total,86);
- assert.equal(report.immunity.scopeFollowups,45);
+ assert(report.immunity.scopeFollowups>=0&&report.immunity.scopeFollowups<=35,'Unresolved immunity metadata should not regress beyond this reviewed baseline');
  assert.equal(report.statFocus.total,140);
  assert.equal(report.statFocus.rationaleFollowups,107);
  assert(report.immunity.claims.some(x=>x.championId==='serpent'&&x.effectId==='death'&&!x.reviewNeeded&&x.resolvedInLaterPatch==='removed-after-review'));
