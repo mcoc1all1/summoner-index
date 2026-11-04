@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 08C (3/8), five independent source-linked champion decision sets. No borrowed third-party kit wording or gameplay test claims.",
+  "championPatches": [
+    {
+      "id": "thanos",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thanos",
+          "deep-thanos"
+        ],
+        "decisions": [
+          {
+            "title": "Use the opening power advantage for a controlled first Special",
+            "text": "Thanos can start with an unusual early power opportunity in the recorded roster kit. Decide whether the opponent needs immediate Heal Block before spending it, and avoid pushing a dangerous defender into an unsafe Special threshold."
+          },
+          {
+            "title": "Choose SP1 Heal Block only where healing is relevant",
+            "text": "SP1 can provide a healing-control branch while interacting with the target's armor. A defender that does not regenerate may call for SP2 damage instead; do not treat Heal Block as an automatic damage multiplier."
+          },
+          {
+            "title": "Keep rare roster Thanos separate from boss mechanics",
+            "text": "A playable Thanos and story-boss versions can have different nodes and phases. Verify the exact roster champion before applying boss tutorials or claiming special phase rules belong to his ordinary attacking kit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thor",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thor",
+          "deep-thor"
+        ],
+        "decisions": [
+          {
+            "title": "Use awakened Armor Break only when the prerequisites exist",
+            "text": "Classic Thor's awakened interaction can reward a Parry Stun with Armor Break, but an unawakened Thor or Stun-immune defender changes this plan. Check the signature and exact effect before timing the next Special."
+          },
+          {
+            "title": "Spend power while actual Fury and Armor Break are active",
+            "text": "Damage increases depend on visible buffs and debuffs, not merely an expected combo count. Use a safe Special punish while the favorable window is present, rather than waiting so long that the resources expire."
+          },
+          {
+            "title": "Do not plan around an unconfirmed chance-based Stun",
+            "text": "A Special may produce a Stun opportunity, but it must be observed before starting a second combo. Some nodes and defenders prevent the effect outright; use a normal recovery punish as the baseline."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unstoppable-colossus",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-unstoppable-colossus",
+          "deep-unstoppable-colossus"
+        ],
+        "decisions": [
+          {
+            "title": "Build Fury through ordinary safe combos",
+            "text": "Unstoppable Colossus benefits from Fury pressure without needing to accept hits to generate armor. Avoid deliberately trading damage for a faster setup, particularly against defenders with dangerous contact effects."
+          },
+          {
+            "title": "Tie an Unstoppable follow-up to the correct awakening state",
+            "text": "His awakened Special interaction can provide Unstoppable pressure, but that is not universal safety on unawakened copies. Check the active status and the opponent's ability to counter Unstoppable before extending offense."
+          },
+          {
+            "title": "Choose SP3 Armor support only for long fights",
+            "text": "SP3 may improve the armor-related value of a longer engagement. Against a near-defeated opponent, a simpler lower-cost Special can be safer, so weigh the setup time against remaining health and node pressure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vision-age-of-ultron",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-vision-age-of-ultron",
+          "deep-vision-age-of-ultron"
+        ],
+        "decisions": [
+          {
+            "title": "Burn enough enemy power to make the control meaningful",
+            "text": "Vision (Age of Ultron) has a power-removal game plan, but launching SP1 when the defender is nearly empty may waste the control effect. Track the enemy bar and bait a manageable opening before choosing the Special."
+          },
+          {
+            "title": "Aim for zero power only when Heal Block is needed",
+            "text": "SP2 can remove more power and potentially meet the condition for a Heal Block payoff. Check the actual final power meter, since a partially drained opponent should not be described as Heal Blocked automatically."
+          },
+          {
+            "title": "Keep awakened power return conditional",
+            "text": "His signature can change how quickly the next Special becomes available. An unawakened copy should not be credited with the same repeatability, and power-control-resistant nodes can undermine either version's strategy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "yellow-jacket",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-yellow-jacket",
+          "deep-yellow-jacket"
+        ],
+        "decisions": [
+          {
+            "title": "Build Nuclear Core without feeding unsafe Specials",
+            "text": "Yellow Jacket can develop Nuclear Core through combat and opponent Special interactions, but a deliberately baited SP3 is not a reasonable resource plan. Track the meter while preserving a safe defensive rhythm."
+          },
+          {
+            "title": "Choose SP1 Power Sting or SP2 Petrify by defender mechanic",
+            "text": "SP1's Power Sting can punish eligible Special use, while SP2 can help suppress regeneration or power gains with Petrify. Neither effect solves every defensive node; check the relevant immunity before choosing."
+          },
+          {
+            "title": "Treat Meltdown contact damage as conditional",
+            "text": "When Nuclear Core enters Meltdown, Yellow Jacket's retaliatory pressure changes, but it does not justify deliberately taking full combos on attack. Observe the active state and plan to rebuild after the core resets."
+          }
+        ]
+      }
+    }
+  ]
+}
