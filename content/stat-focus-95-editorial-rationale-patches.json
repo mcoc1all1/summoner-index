@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "scope": "Original champion-specific, source-linked editorial hypotheses; no gameplay results or copied ability descriptions.",
+  "championPatches": [
+    {
+      "id": "shocker",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Armor Penetration",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-shocker"
+        ],
+        "attackReason": "Shocker cannot land critical hits. His kit instead uses Critical Rating to reduce the opponent's Armor Rating on attacks, so this trial measures armor reduction during the SP2 Stun into charged Heavy window rather than extra critical-hit frequency. Compare identical Vibro-Shock charge totals and heavy release timing against an armored opponent; Armor Penetration is an alternative to measure, not a known superior choice.",
+        "defenseReason": "Armor Penetration affects outgoing hits against armor; it does not protect Shocker when an attacker lands or blocks a hit. If the defender objective is to survive long enough to accumulate Vibro-Shock Charges or trigger his charge-based Auto-Block, compare Block Proficiency instead. Neither option replaces his charge requirements.",
+        "note": "Source-checked distinction: Critical Rating converts into Armor Rating reduction for this champion, who cannot crit. Original editorial comparison; not independently gameplay-tested."
+      }
+    },
+    {
+      "id": "venom",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-venom"
+        ],
+        "attackReason": "Venom's critical hits can apply Bleed, while a Precision Genetic Memory Buff already increases his chance to crit. Critical Rating is worth testing for eligible attack frequency and the resulting Bleed opportunities, but its incremental value may shrink when Precision is active or the opponent cannot Bleed. Keep the same Genetic Memory set and rotation when comparing Critical Damage Rating as an alternative.",
+        "defenseReason": "Armor Penetration is an outgoing-damage trial against armored attackers, not an incoming-damage shield. Venom's own Armor Up and Physical Resistance buffs depend on his Genetic Memory cycle; the focus does not generate or preserve those buffs. Compare Block Proficiency if the defender is losing health while blocking, and separate that result from the matchup's armor level.",
+        "note": "Original stat/kit interaction explanation written from cited mechanics. These are matchup-dependent editorial hypotheses, not measured outcomes."
+      }
+    },
+    {
+      "id": "galan",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-galan"
+        ],
+        "attackReason": "Galan builds Planetary Mass before beginning Harvest and cashes out through a special-driven sequence. Critical Rating is only a trial for eligible direct hits during that preparation and execution; it should not be described as increasing fixed Harvest payouts or the Mass gained from Armor Up. Compare equal starting Mass, buff state and SP1 timing, with Special Damage as the separate direct-hit alternative.",
+        "defenseReason": "Energy Resistance is an incoming-damage mitigation choice for energy-heavy attackers, not an enhancement to Harvest, Mass accumulation or Galan's own resistance buffs. Compare Physical Resistance against a physical-damage attacker; keep attacker class, special usage and defensive buff cycle consistent rather than declaring one setting universally best.",
+        "note": "Champion-specific comparison of direct critical hits against Harvest setup and of energy versus physical mitigation. No independent in-game benchmark."
+      }
+    },
+    {
+      "id": "angela",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Rating",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-angela"
+        ],
+        "attackReason": "Angela cycles Fury and Precision through her power ranges, and critical hits can duplicate the active Huntress buff. Critical Rating is therefore a trial for how reliably her eligible hits produce a useful duplication opportunity; it is not a guaranteed increase to every buff's potency or duration. Compare equal power bands and the same starting Huntress buffs against Critical Damage Rating.",
+        "defenseReason": "Armor Rating can reduce eligible incoming hit damage but does not itself produce an Armor Up Buff, guarantee upkeep of Huntress buffs or prevent Nullify. Compare Block Proficiency against attacks that must be blocked, and separate incoming mitigation from Angela's own buff-based offense.",
+        "note": "Independent kit-specific editorial hypothesis based on cited mechanics and community starting suggestions. Not a gameplay-tested or universally optimal setup."
+      }
+    }
+  ]
+}

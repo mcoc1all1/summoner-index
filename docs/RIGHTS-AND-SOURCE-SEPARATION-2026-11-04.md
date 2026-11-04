@@ -3,7 +3,7 @@
 ## Status
 
 - **Technical public-beta data filter:** corrected before rendering all pages and JSON, including hashed assets.
-- **Generic Stat Focus notes:** 75 source-linked recommendations still use a common generic rationale. The public build temporarily withholds them until an individually researched attacker/defender explanation is approved; the canonical research notes are preserved. These are not 75 proven incorrect recommendations.
+- **Generic Stat Focus notes:** The previous queue had **75** source-linked recommendations using a common generic rationale. Four (Shocker, Venom, Galan, and Angela) now have source-linked kit-specific editorial tests; **71** remain in the rationale backlog. The public build withholds the remaining generic entries until an individually researched attacker/defender explanation is approved; the canonical research notes are preserved. These are not 75 proven incorrect recommendations.
 - **Boss-guide expression rights:** 4 prominent guides have pending manual reviews, not clearance. All other published boss guides must enter the same rights review. Run `npm run build && npm run rights:guides` for a current source-linked queue. `npm run rights:require-cleared` deliberately fails while any are pending. This is separate from gameplay accuracy.
 - **Public GitHub source catalog:** STILL EXPOSED. `content/catalog.json` and historical commits are visible because this repository is public. Publication filtering does not fix GitHub source/history exposure.
 - **Advertising/AdSense:** deliberately out of scope. Do not change consent, indexing, domain, or ads settings as part of this work.
