@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "claire-self-vs-target-buff-20261104",
+      "title": "Claire Voyant kit: Special 2 inflicts Buff Immunity on the opponent; her own immunities depend on active Curse",
+      "url": "https://www.mcoc.help/champions/black-widow-claire-voyant/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "nico-ward-buff-target-20261104",
+      "title": "Nico Minoru kit: Buff Immunity applies to opponent; Ward grants Nico Poison and Rupture protection",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Nico_Minoru",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "nico-june-recap-20261104",
+      "title": "Nico Minoru pre-fight spell overview and defender Buff Immunity",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/396095/stream-recap-may-30-2025",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "hulk-synergy-conditions-20261104",
+      "title": "Hulk kit: conditional Silver Surfer, Hulkbuster and Overseer synergy immunities",
+      "url": "https://www.mcoc.help/champions/hulk/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "hulk-team-synergy-discussion-20261104",
+      "title": "Hulk 2023 rework: player discussion identifying synergy-dependent defenses",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/331739/hulk-buff",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "lizard-kit-buff-heal-20261104",
+      "title": "Lizard kit: Special Attack Buff Immunity and Buff/Unstoppable-dependent Heal Block immunity",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Lizard",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "high-evo-kit-origin-20261104",
+      "title": "High Evolutionary kit: Buff immunity only against opponent-granted Buffs; Neutralize and Rupture immunity",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/High_Evolutionary",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "black-widow-claire-voyant",
+      "removeImmunityIds": [
+        "buff"
+      ]
+    },
+    {
+      "id": "nico-minoru",
+      "removeImmunityIds": [
+        "buff"
+      ],
+      "addProtections": [
+        {
+          "effectId": "poison",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Nico gains Poison effect immunity only while the once-per-quest Ward pre-fight spell is selected. Her Buff Immunity ability is inflicted on the opponent; she is not inherently self-Buff-immune.",
+          "sourceIds": [
+            "nico-ward-buff-target-20261104",
+            "nico-june-recap-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "rupture",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Nico gains Rupture effect immunity through the Ward pre-fight spell, which can be chosen once per quest. Other pre-fight choices do not supply this immunity.",
+          "sourceIds": [
+            "nico-ward-buff-target-20261104",
+            "nico-june-recap-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "hulk",
+      "addProtections": [
+        {
+          "effectId": "buff",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Hulk is immune to gaining Buffs only with the Silver Surfer synergy on the team. This is self-Buff immunity, not immunity to an opponent's Buff Immunity Debuff. Without the synergy, his base kit does not provide this protection.",
+          "sourceIds": [
+            "hulk-synergy-conditions-20261104",
+            "hulk-team-synergy-discussion-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "nullify",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Requires the Hulkbuster Don't Mention Puny Banner! synergy; Hulk's base kit alone is not Nullify-immune. This effect-level protection does not establish coverage of every quest-node interaction.",
+          "sourceIds": [
+            "hulk-synergy-conditions-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "fate-seal",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Requires the Hulkbuster Don't Mention Puny Banner! synergy to protect Hulk from Fate Seal. The synergy must be active in the team; base Hulk is not Fate Seal-immune.",
+          "sourceIds": [
+            "hulk-synergy-conditions-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "stagger",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Requires the Hulkbuster Don't Mention Puny Banner! synergy to protect Hulk from Stagger. Do not assume this ability without that teammate.",
+          "sourceIds": [
+            "hulk-synergy-conditions-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Hulk gains reversed-controls protection through The Overseer synergy, not his basic kit. Some node interactions need separate gameplay verification.",
+          "sourceIds": [
+            "hulk-synergy-conditions-20261104",
+            "hulk-team-synergy-discussion-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "lizard",
+      "addProtections": [
+        {
+          "effectId": "buff",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Lizard is self-Buff-immune only for the duration of his own Special Attacks. The immunity can remove active Buffs during that interval, but is not an always-on protection. It does not mean immunity to the opponent's Buff Immunity Debuff.",
+          "sourceIds": [
+            "lizard-kit-buff-heal-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "heal-block",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Lizard is immune to Heal Block only while a Buff or Unstoppable effect is active on him. This is not permanent Heal Block immunity; check current effect and linked-node behavior.",
+          "sourceIds": [
+            "lizard-kit-buff-heal-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "high-evolutionary",
+      "addProtections": [
+        {
+          "effectId": "buff",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "High Evolutionary prevents Buffs granted to him by the opponent. He is not generally unable to gain his own beneficial effects. Conditional here restricts the source of the Buff, not an active timer.",
+          "sourceIds": [
+            "high-evo-kit-origin-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "neutralize",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Evolved Physiology makes High Evolutionary immune to Neutralize effects. The kit does not require a charge or pre-fight selection, but linked quest nodes still need checking.",
+          "sourceIds": [
+            "high-evo-kit-origin-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "rupture",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Evolved Physiology makes High Evolutionary immune to Rupture effects. This is protection from the named effect, not proof of immunity to all damage-over-time sources.",
+          "sourceIds": [
+            "high-evo-kit-origin-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
