@@ -59,3 +59,41 @@ test('public browser payloads cannot re-expose copied reference data',()=>{
   }
  }
 });
+
+test('withheld and ineligible focus values never survive public filtering',()=>{
+ const pub=publicResearchView(original);
+ const privateById=new Map(original.champions.map(c=>[c.id,c]));
+ for(const c of pub.champions){
+  const originalChampion=privateById.get(c.id);
+  const withheld=originalChampion.statFocusReview?.status!=='reviewed'
+    ||originalChampion.statFocusEligibility?.status!=='confirmed';
+  if(!c.loadout)continue;
+  if(withheld){
+   assert.equal(c.loadout.attackFocus,'Not reviewed',c.id);
+   assert.equal(c.loadout.defenseFocus,'Not reviewed',c.id);
+   assert.match(c.loadout.attackReason,/not yet approved/,c.id);
+   assert.match(c.loadout.defenseReason,/not yet approved/,c.id);
+  }
+  assert.equal(c.loadout.attackAlternative,'Not reviewed',c.id);
+  assert.equal(c.loadout.defenseAlternative,'Not reviewed',c.id);
+ }
+ assert(original.champions.some(c=>c.loadout?.attackAlternative!=='Not reviewed'),
+  'canonical private editorial draft is not overwritten');
+});
+
+test('compact loadout and compare data cannot expose withheld focus drafts',()=>{
+ const views=catalogViews(publicResearchView(original));
+ const originalById=new Map(original.champions.map(c=>[c.id,c]));
+ for(const [key,view] of Object.entries(views)){
+  for(const c of view.champions||[]){
+   const source=originalById.get(c.id);
+   const withheld=source.statFocusReview?.status!=='reviewed'
+     ||source.statFocusEligibility?.status!=='confirmed';
+   if(!c.loadout)continue;
+   if(withheld){
+    assert.equal(c.loadout.attackFocus,'Not reviewed',key+': '+c.id);
+    assert.equal(c.loadout.defenseFocus,'Not reviewed',key+': '+c.id);
+   }
+  }
+ }
+});
