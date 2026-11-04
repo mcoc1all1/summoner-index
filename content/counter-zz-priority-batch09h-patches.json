@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09H/09H, completing 40 profiles with 120 independently written source-linked fight decisions. No independent gameplay tests.",
+  "championPatches": [
+    {
+      "id": "luke-cage",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-luke-cage",
+          "deep-luke-cage"
+        ],
+        "decisions": [
+          {
+            "title": "Build Exhaustion through safe Light-to-Heavy choices",
+            "text": "Luke Cage can develop Exhaustion through eligible combo and Heavy patterns, supporting later control. Check the opponent's debuff immunity and make a Heavy only after creating a reliable punish window."
+          },
+          {
+            "title": "Use SP2 Concussion only when enough Exhaustion is present",
+            "text": "An SP2 can convert a developed Exhaustion setup into Concussion pressure. If the target resists ability-accuracy reduction or cleanses debuffs, do not assume this disables every defensive effect."
+          },
+          {
+            "title": "Choose SP1 Stun or SP3 Trauma for a specific encounter",
+            "text": "SP1 can support a Stun opportunity while the other required effect is active, whereas SP3 may reward a longer damage plan. Confirm the Stun before extending your combo, and compare the expensive setup with the fight's remaining duration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lumatrix",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-lumatrix",
+          "deep-lumatrix"
+        ],
+        "decisions": [
+          {
+            "title": "Enter a Heavy-charge Evade window only when available",
+            "text": "Lumatrix can use a charged Heavy with the relevant Evade resource to develop Cunning and Invisibility. Check cooldown and opponent anti-Evade tools before treating a charged Heavy as a universal safe intercept."
+          },
+          {
+            "title": "Keep Invisibility going with SP1 when resources permit",
+            "text": "SP1 can help maintain the Invisibility plan, with additional Cunning value depending on retained power. Count the current resources instead of assuming every SP1 refresh gives the maximum offensive benefit."
+          },
+          {
+            "title": "Save SP2 Fury for a developed Cunning bank",
+            "text": "A high Cunning count can support stronger SP2 damage while SP3 may offer a longer protected Invisibility state. Check the opponent's anti-Miss mechanic and your available power to decide whether the slow setup is viable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mbaku",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mbaku",
+          "deep-mbaku"
+        ],
+        "decisions": [
+          {
+            "title": "Finish a Heavy and roar only from a safe opening",
+            "text": "M'Baku's Heavy-related Fury setup includes an animation that can leave him vulnerable when rushed. First create a recovery opportunity and verify the buff is active before planning the next attack."
+          },
+          {
+            "title": "Use the dash-range condition to trigger Unstoppable",
+            "text": "Running in from outside striking range can activate a specific Unstoppable opportunity. Slow and other anti-Unstoppable effects can disrupt it, so check the actual buff instead of expecting any forward dash to protect you."
+          },
+          {
+            "title": "Spend SP2 after Unstoppable damage has developed",
+            "text": "SP2 can cash accumulated damage from his Unstoppable pressure, with a combo-related resource cost. Check how much offensive value is banked and whether you can rebuild afterward, rather than launching it immediately on two bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "maestro",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-maestro",
+          "deep-maestro"
+        ],
+        "decisions": [
+          {
+            "title": "Build Neutronium before spending an ISO-8 Special",
+            "text": "Maestro can gain Neutronium through eligible second-Medium endings and Specials. Watch the counter and relevant ISO-8 effects before expecting SP2 to provide the fully prepared Fury payoff."
+          },
+          {
+            "title": "Choose SP2 when the right ISO-8 state is active",
+            "text": "SP2 can reward an available ISO-8 condition with Fury, but an opponent or node that removes buffs may interrupt the next step. Check the state and power before committing to a longer damage cycle."
+          },
+          {
+            "title": "Use SP1 during Superior Rage without shortening the window",
+            "text": "During Superior Rage, SP1 can benefit from developed Fury and energy-damage pressure. Avoid unnecessary knockdowns that end the useful state early; choose a Special punish that fits the remaining timer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mister-fantastic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mister-fantastic",
+          "deep-mister-fantastic"
+        ],
+        "decisions": [
+          {
+            "title": "Select pre-fight debuffs for the actual path threat",
+            "text": "Mister Fantastic can bring pre-fight choices targeting healing, power behavior or damage-over-time. Select the debuff that addresses the next defenders instead of activating every option without regard to availability or stacking rules."
+          },
+          {
+            "title": "Refresh the selected debuffs only from controlled openings",
+            "text": "Heavy attacks and Specials can support the uptime of prepared effects, but a long Heavy charge is unsafe if the defender can immediately counterattack. Check the debuff timer and opponent power before attempting a refresh."
+          },
+          {
+            "title": "Build Careful Study only when Special baiting is practical",
+            "text": "SP1 can encourage an opponent's repeated Specials, supporting Careful Study, while SP3 offers a different debuff-dependent Fury plan. Avoid baiting an especially dangerous Special purely to accelerate the setup."
+          }
+        ]
+      }
+    }
+  ]
+}
