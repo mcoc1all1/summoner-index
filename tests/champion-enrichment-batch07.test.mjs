@@ -74,10 +74,10 @@ test('40-size batches preserve all earlier 130 profiles and 2 special exceptions
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
  assert.equal(report.summary.batchSize,40);
- assert.equal(report.summary.completedPilot,170);
+ assert(report.summary.completedPilot>=170,'batch 07 coverage persists through subsequent batches');
  assert.equal(report.summary.identityReview,2);
- assert.equal(report.summary.queued,162);
- assert.equal(report.summary.batches,5);
+ assert(report.summary.queued<=162,'new batches do not increase missing profile queue');
+ assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
  assert.equal(report.rows.filter(x=>x.batch===1).length,40);
  for(const id of ['doctor-doom','silk','kate-bishop','sunspot','colossus','scorpion','terrax','blade'])
   assert.equal(db.champions.find(x=>x.id===id)?.fieldNotes?.decisions?.length,3,id);
