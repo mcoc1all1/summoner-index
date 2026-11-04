@@ -69,3 +69,10 @@ The source-specific review state, current-client gameplay test status, and copyr
 - Prowler: reversed-controls immunity requires the **Spider-Punk synergy and selected pre-fight**; the pre-fight has an inverted-input tradeoff.
 - The Hood: Stun immunity is **conditional on awakening and Invisibility**; no blanket Stun label.
 - **45** original broad immunity records remain unresolved (previously 51); resolving provenance does not itself establish a verified current-client gameplay test or source-reuse permission.
+
+
+## Further Stat Focus evidence review (round 9)
+
+- Added eight kit-specific, **unverified comparison hypotheses** for Captain America (Infinity War), Carnage, Cassandra Nova, Dragon Man, Hulkbuster, Iron Man, Silver Surfer and White Tiger. Recorded focus selections remain the source-linked community choices; rationales identify eligible direct hits, setup prerequisites and mechanics that the focus cannot be assumed to modify.
+- New effective-rationale backlog: **75 of 108** distinct current champion recommendations, not 75 confirmed wrong selections. Total historical patch entries increased to **140** because each revision is preserved for provenance.
+- Source-checked means the cited kit was considered; current gameplay, reuse rights and actual stat calculations still require separate verification.
