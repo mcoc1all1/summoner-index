@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 05C of 05D. Five unique profiles, original fight decisions with source references and mechanic caveats, not independent gameplay testing.",
+  "sources": [
+    {
+      "id": "b05-captain-marvel-binary",
+      "title": "Community guide — Captain Marvel (Movie) Binary timing",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/244496/the-unofficial-captain-marvel-movie-guide",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b05-dust-discussion",
+      "title": "Player walkthrough — Dust's Sandstorm setup",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/359108/first-look-at-dust",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "vision",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-vision",
+          "deep-vision"
+        ],
+        "decisions": [
+          {
+            "title": "Decide whether SP1 or SP2 handles the power threat",
+            "text": "Vision's Specials can reduce opponent power, so choose the cheaper SP1 when a smaller drain is enough and reserve SP2 for a larger threat. Power-control immunity and modified Power Gain may change the outcome."
+          },
+          {
+            "title": "Time healing control around reaching zero power",
+            "text": "The useful Heal Block interaction depends on reducing the opponent's power to zero with the relevant Special, not merely using any Special. Watch the actual power bar instead of claiming permanent Heal Block uptime."
+          },
+          {
+            "title": "Repeat a power-control loop only while it works",
+            "text": "Against dangerous Special attacks, reliable power denial may matter more than immediate damage. Bait a safe opening, rebuild power, and repeat only while the defender remains vulnerable to that control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "annihilus",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-annihilus",
+          "deep-annihilus"
+        ],
+        "decisions": [
+          {
+            "title": "Confirm Cosmic Control Rod status first",
+            "text": "Annihilus's Armor Break and Stifle pressure depends on his Cosmic Control Rod state. If the Rod is absent or suppressed, expected effects change; check the visible icon before following a familiar debuff plan."
+          },
+          {
+            "title": "Use SP1 to manage active Stifles",
+            "text": "A timed SP1 can refresh or pause Stifle while preparing a larger payoff. First verify those effects are present on the defender; debuff prevention or a disruptive node can otherwise waste the Special."
+          },
+          {
+            "title": "Cash out with SP2 only at favorable spacing",
+            "text": "The Stifle-driven SP2 plan is more attractive when the opponent is near the wall, but cornering a defender also narrows your escape options. Commit only with manageable power and a reliable punish opening."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-marvel",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-marvel",
+          "deep-captain-marvel",
+          "b05-captain-marvel-binary"
+        ],
+        "decisions": [
+          {
+            "title": "Verify the Movie version before using Binary",
+            "text": "The Captain Marvel roster entry here uses Binary Charges and Binary Ignition, unlike Captain Marvel (Classic). Gain charges through appropriate blocks or SP1, then activate Binary deliberately instead of using an older Fury-only rotation."
+          },
+          {
+            "title": "Spend SP2 while Binary has time left",
+            "text": "Binary can strengthen a follow-up Special, but charge timers and opposing power are live constraints. Choose the SP2 window when a counterattack is unlikely, and use a safe Heavy only if charges genuinely need extending."
+          },
+          {
+            "title": "Do not give signature protection to unduped copies",
+            "text": "Awakened Movie Captain Marvel can gain an Indestructible interaction around a sufficiently charged Binary entry. That protection has activation and timing conditions; it is neither permanent nor available on an unawakened copy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dust",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dust",
+          "deep-dust",
+          "b05-dust-discussion"
+        ],
+        "decisions": [
+          {
+            "title": "Convert Sand only after building useful resources",
+            "text": "Dust accumulates Sand through eligible attacks and punishes, then a Heavy can convert the setup into Sandstorm. Check the visible bank before using Heavy; triggering the storm early weakens the intended Special window."
+          },
+          {
+            "title": "Use a safe Sandstorm for the main damage Special",
+            "text": "SP2's Physical Vulnerability can support Sandstorm damage, but the setup still needs a reliable Heavy opening. A defender or node that punishes Heavy attacks can make that entry far less attractive."
+          },
+          {
+            "title": "Separate situational control from blanket immunity",
+            "text": "Dust has utility against certain Unstoppable interactions while Sandstorm is active, but that does not make every hit an unconditional answer to all Unstoppable effects. Check the actual state, timer, and node."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iron-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-iron-man",
+          "deep-iron-man"
+        ],
+        "decisions": [
+          {
+            "title": "Track Armor and Reactor before planning the burst",
+            "text": "The recorded Iron Man kit uses Armor development and a Reactor payoff. Check the current Armor state, including losses from Armor Break, before assuming the next Special has the complete setup."
+          },
+          {
+            "title": "Choose SP1 control or SP3 Incinerate intentionally",
+            "text": "A Reactor-supported SP1 can provide Armor Break, while SP3 can support Incinerate pressure. Match the Special to the defender's protection; Armor Break immunity and Incinerate immunity demand different plans."
+          },
+          {
+            "title": "Recheck older Iron Man advice after kit changes",
+            "text": "Iron Man has changed since the game's launch period, so legacy one-line damage comparisons may not describe the current kit. Verify the installed champion description and Reactor behavior before an expensive rank-up."
+          }
+        ]
+      }
+    }
+  ]
+}

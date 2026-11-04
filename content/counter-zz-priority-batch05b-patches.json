@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 05B of 05D. Five independently written source-linked profiles; not combat testing or copied kit material.",
+  "sources": [
+    {
+      "id": "b05-apocalypse-spotlight",
+      "title": "Kabam champion spotlight — Apocalypse and updated synergies",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/219555/champion-spotlight-apocalypse-updated-synergies/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "apocalypse",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-apocalypse",
+          "kit-apocalypse",
+          "expanded-core-apocalypse",
+          "b05-apocalypse-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Build Genetic Code with path planning",
+            "text": "Genetic Code can carry over between eligible fights and change the available attack plan. Check your intended first opponents; Robot interactions have exclusions, so a Mutant class label alone does not prove every charge will be granted."
+          },
+          {
+            "title": "Choose the combo ender for the debuff",
+            "text": "Before SP1 or SP2, decide whether a Light- or Medium-ending sequence applies the effect needed, then refresh personal debuffs with a safely timed Heavy. Node restrictions and ability-accuracy control can alter which debuffs actually stick."
+          },
+          {
+            "title": "Decide whether SP3 is worth the time",
+            "text": "SP3 can strengthen an established debuff plan but costs significant time and power. In short fights, a simpler attack sequence may be safer; do not assume maximum Genetic Code or Horseman team utility without its required setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-marvel-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-marvel-classic",
+          "deep-captain-marvel-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Use the Classic version's simple damage plan",
+            "text": "Captain Marvel (Classic) leans on Fury and conventional Specials rather than Binary Ignition. Build power safely and take a visible Fury opening, but do not import Movie Captain Marvel's Binary Charge meter into this older kit."
+          },
+          {
+            "title": "Bank power only when awakening rewards it",
+            "text": "An awakened power-related attack benefit can make holding power useful, but delaying every Special also increases exposure to dangerous nodes. Check both awakening status and the defender's power behavior before keeping a full bar."
+          },
+          {
+            "title": "Reserve SP1 True Damage for the right defense",
+            "text": "SP1's True Damage can help when Armor mitigation matters, but it does not promise to bypass every passive resistance or quest-node protection. Spend power for this interaction when the matchup makes it relevant."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-marvel",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ms-marvel",
+          "deep-ms-marvel"
+        ],
+        "decisions": [
+          {
+            "title": "Do not confuse this Ms. Marvel with Kamala",
+            "text": "The classic Ms. Marvel entry has a distinct Fury and power-management kit. Confirm the roster identity before applying tips for Ms. Marvel (Kamala Khan), whose Heavy-driven Fury setup is not interchangeable."
+          },
+          {
+            "title": "Weigh stored power against Special timing",
+            "text": "When awakened, retained power may enhance her offense, but holding it indefinitely is risky against Power Control or Special-punishing nodes. Decide whether the immediate Special or power-related attack benefit better suits this fight."
+          },
+          {
+            "title": "Use True Damage to answer Armor, not everything",
+            "text": "A well-timed SP1 offers a True Damage option for Armor-focused opponents; SP2 is more straightforward while Fury is active. Neither automatically solves Miss, Evade, or damage caps, so identify the defender's mechanic first."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ms-marvel-kamala-khan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ms-marvel-kamala-khan",
+          "deep-ms-marvel-kamala-khan"
+        ],
+        "decisions": [
+          {
+            "title": "Earn Heavy-triggered Fury from a safe punish",
+            "text": "Kamala Khan's Fury plan rewards Heavy attacks, but charging Heavy without space or defender recovery is unnecessary risk. Build only the stacks you can maintain, especially when the opponent resists Stun."
+          },
+          {
+            "title": "Check whether SP1 Nullify matters here",
+            "text": "SP1 can extend the Fury plan and offer Nullify utility, which matters most against removable Buffs. Against a buffless or Nullify-resistant opponent, use it for the remaining offensive purpose instead of expecting control."
+          },
+          {
+            "title": "Save SP3 setup for a fight long enough to use it",
+            "text": "A longer-lasting Fury state may justify an SP3 investment, but waiting for three bars can cost more health than the attack increase returns. Compare remaining defender health and node pressure before choosing that slower route."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nick-fury",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-nick-fury",
+          "kit-nick-fury",
+          "fury-light-combo",
+          "expanded-core-nick-fury"
+        ],
+        "decisions": [
+          {
+            "title": "Build Bleed only if the defender can receive it",
+            "text": "Light-ending attacks can feed a Bleed and Internal Bleed plan, but Bleed immunity or Purify-related nodes change the damage expectation. Check defender effects before treating this as the fastest default cycle."
+          },
+          {
+            "title": "Read Tactical Charges before selecting a counter",
+            "text": "Tactical Charges can unlock offensive utility against Evade or Miss-based defenders. Check the current resource threshold rather than assuming every opening attack bypasses those defenses from the start of combat."
+          },
+          {
+            "title": "Keep Life Model Decoy tied to awakening",
+            "text": "Nick Fury's Life Model Decoy transformation depends on the signature ability and changes the remaining fight. An unawakened copy cannot be advertised with the same second-life safety, and an awakened one still requires phase tracking."
+          }
+        ]
+      }
+    }
+  ]
+}

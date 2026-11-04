@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 05D of 05D. Five original, source-linked profiles with practical fight caveats; not independently gameplay-tested or reused ability-guide prose.",
+  "sources": [
+    {
+      "id": "b05-infamous-aura",
+      "title": "Community report — Iron Man (Infamous) SP1 Aura requirement",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/403155/iron-man-infamous-special-attack-1-no-longer-unblockable/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "iron-man-infamous",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-iron-man-infamous",
+          "deep-iron-man-infamous",
+          "b05-infamous-aura"
+        ],
+        "decisions": [
+          {
+            "title": "Activate Aura before relying on Special control",
+            "text": "Iron Man (Infamous) can enter Aura of Iron through a Shock-to-Heavy setup. Do not assume SP1 becomes Unblockable merely because a special animation has begun; check that the relevant Aura is active before committing into a defender's block."
+          },
+          {
+            "title": "Use SP3 control when the cycle can be sustained",
+            "text": "While Aura is active, an SP3 setup can support subsequent Special Lock pressure. Decide whether the fight needs that control or immediate damage, and track the timer so enemy power does not become dangerous unexpectedly."
+          },
+          {
+            "title": "Check opponent power before choosing SP2",
+            "text": "The SP2 payoff can depend on Aura and the opponent's current power. Avoid feeding the defender an unsafe SP3 simply to improve theoretical damage; a modest punish is better than losing control of the fight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jack-olantern",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-jack-olantern",
+          "deep-jack-olantern"
+        ],
+        "decisions": [
+          {
+            "title": "Plan the first Heavy hit as a Special cancel",
+            "text": "Jack O'Lantern can exploit a Heavy-to-SP1 cancel while building Inflamed. Try the timing in a genuine recovery window rather than starting Heavy at neutral range, where the defender may retaliate before the Special begins."
+          },
+          {
+            "title": "Protect Inflamed without forcing every intercept",
+            "text": "Inflamed can develop with aggressive play and Special timings, but intercepts are not mandatory when the defender or node makes them unsafe. Watch the stack and timer rather than risking health for one extra application."
+          },
+          {
+            "title": "Spend SP2 once the setup is established",
+            "text": "A Heavy-cancelled SP2 can convert an established Inflamed stack into a stronger debuff payoff. Check the opponent's relevant damage protection and the available punish window before investing the whole ramp in one attack."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kingpin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-kingpin",
+          "kit-kingpin",
+          "expanded-core-kingpin"
+        ],
+        "decisions": [
+          {
+            "title": "Choose SP1 when defensive ability control matters",
+            "text": "Kingpin's SP1 pressure can apply Degeneration and suppress some defensive activity, but that does not guarantee bypassing node-protected abilities. Identify the mechanic you want to control instead of treating him as a universal counter."
+          },
+          {
+            "title": "Watch Rage before expecting Overpower",
+            "text": "Kingpin benefits when debuff interactions feed Rage and Overpower. Build through safe exchanges rather than accepting avoidable hits, and check the current state before counting on an Unblockable Special."
+          },
+          {
+            "title": "Treat Unstoppable as a situational opening",
+            "text": "SP2 can offer an Unstoppable-related offensive window, but it is not a reason to trade with dangerous Specials or reflected contact damage. Use that opening only when the defender's likely response is understood."
+          }
+        ]
+      }
+    },
+    {
+      "id": "magik",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-magik",
+          "deep-magik"
+        ],
+        "decisions": [
+          {
+            "title": "Track Limbo when the power state changes",
+            "text": "Magik's Limbo state can open opportunities for Degeneration pressure as power conditions change. Inspect the visible state and timer before relying on a specific damage result, especially when node rules alter power or Limbo interactions."
+          },
+          {
+            "title": "Charge Heavy only during a real opening",
+            "text": "Heavy attacks can serve the tactical Limbo sequence, but their exposure still matters. Use a confirmed recovery or spacing opening rather than holding Heavy while a defender can unexpectedly launch a Special."
+          },
+          {
+            "title": "Pick SP2 or SP3 for the available effects",
+            "text": "SP2 can build on existing Degeneration pressure, while SP3 may reward a different configuration of effects. Do not assume every opponent supplies the same buffs and debuffs; check the current fight before choosing the slower payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sasquatch",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sasquatch",
+          "deep-sasquatch"
+        ],
+        "decisions": [
+          {
+            "title": "Choose basic-hit endings for Rage and Rupture",
+            "text": "Sasquatch's resource development rewards particular attacks. End a safe combo with the hit you actually need rather than automatically using every possible hit, and leave room to avoid the defender's next Special."
+          },
+          {
+            "title": "Spend SP2 during a useful Wrath window",
+            "text": "Wrath creates a distinct offensive opportunity. Build the relevant Ruptures first, then commit to SP2 while the window remains active; if the resources are low, rebuilding may be safer than a weak cash-out."
+          },
+          {
+            "title": "Separate regeneration from unconditional protection",
+            "text": "When fighting Sasquatch, healing control and Wrath timing can matter more than raw damage. Do not mistake his sustain for universal immunity, and recheck quest-specific regeneration rules before choosing an attacker."
+          }
+        ]
+      }
+    }
+  ]
+}

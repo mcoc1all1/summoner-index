@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 05A of 05D. Five distinct profiles; original decision notes, source-linked, not independently gameplay-tested or kit-text reuse.",
+  "sources": [
+    {
+      "id": "b05-scorpion-stings-community",
+      "title": "Community discussion — Scorpion Sting timing and Special baiting",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/326595/how-to-burst-scorpion-s-sting-debuffs",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "scorpion",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-scorpion",
+          "kit-scorpion",
+          "expanded-core-scorpion",
+          "b05-scorpion-stings-community"
+        ],
+        "decisions": [
+          {
+            "title": "Pick Sting chemistry from the defender",
+            "text": "Choose the Sting type at the pre-fight screen based on the defender's damage-effect protection rather than defaulting to one option. Check the chosen setting's defensive benefit separately, instead of claiming every incoming effect is covered."
+          },
+          {
+            "title": "Bait a Special before the Sting expires",
+            "text": "Apply Stings through a manageable combo and SP1, then create a safe opportunity for the defender to launch a Special while those effects are still active. Stings can expire during a long bait; monitor the timer rather than promising a delayed burst."
+          },
+          {
+            "title": "Make Heavy to SP2 a spacing decision",
+            "text": "A Heavy charge can develop Torment for the SP2 payoff, but only try the linked attack when the opponent is recovering or otherwise vulnerable. Losing the fight to squeeze in one extra resource cycle is not a useful rotation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "titania",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-titania",
+          "deep-titania"
+        ],
+        "decisions": [
+          {
+            "title": "Choose the debuff for the next window",
+            "text": "SP1 can set up Weakness and Debilitate, while SP2 supports Physical Vulnerability. Decide which effect helps against the actual defender and node before spending power; a generic Special rotation loses value when debuffs cannot be maintained."
+          },
+          {
+            "title": "Treat Haymaker as a timed resource",
+            "text": "Haymaker changes Titania's safety and damage options, but certain actions can consume the window. Check whether it is ready before dashing or committing to a Heavy, and do not plan a long punish around a state that has already ended."
+          },
+          {
+            "title": "Duplicate debuffs only from a safe Heavy",
+            "text": "During Haymaker, the first Heavy hit can exploit existing personal debuffs before a follow-up Special. Use an actual stun or punish window and inspect the defender's debuff immunity; an unsafe Heavy can waste the entire setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "void",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-void",
+          "deep-void"
+        ],
+        "decisions": [
+          {
+            "title": "Allow passive debuffs time to develop",
+            "text": "Void's pressure becomes valuable as his personal passive debuffs accumulate. In a short fight, repeated SP1s may take longer than expected; check the defender's resistances and the node before relying on gradual damage or healing control."
+          },
+          {
+            "title": "Separate awakened Fear of the Void",
+            "text": "Fear of the Void changes the long-fight payoff when Void is awakened. An unawakened Void still applies useful passive debuffs, but the awakened pressure loop and associated effects are not automatically available on every roster copy."
+          },
+          {
+            "title": "Keep the debuff engine safe while building",
+            "text": "Maintain clean Special baits and measured openings rather than accepting a full combo just to rush damage. Lost health and altered timing can turn a theoretically favorable regeneration matchup into a losing exchange."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vox",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-vox",
+          "deep-vox"
+        ],
+        "decisions": [
+          {
+            "title": "Choose when to convert Corrupted buffs",
+            "text": "Build Corrupted offensive buffs through safe attacks, then trigger the intended Special conversion when the required personal Degeneration state permits it. The value comes from managing the conversion, not using a Special whenever power fills."
+          },
+          {
+            "title": "Plan the next Special before expiry",
+            "text": "After Degeneration effects appear, track their remaining time and decide whether there is enough power and spacing to reclaim or extend the cycle. A late Special may miss the planned Intensify payoff entirely."
+          },
+          {
+            "title": "Do not transfer attacker rules to defense",
+            "text": "A defending Vox's Degeneration interactions can create a different risk from an attacking rotation. Evaluate visible effects and nodes, distinguishing documented champion behavior from older reports of unusual damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "abomination",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-abomination",
+          "deep-abomination"
+        ],
+        "decisions": [
+          {
+            "title": "Use Fury without inventing a new ramp",
+            "text": "Classic Abomination has a relatively straightforward Special plan. Build power without unnecessary risk, then check whether an available Fury makes a Special worthwhile; avoid promising a unique ramp mechanic that the installed kit does not provide."
+          },
+          {
+            "title": "Check Poison protection first",
+            "text": "Poison pressure weakens against a protected defender, and additional contact-based applications may depend on awakening. Read the opponent's exact effect protection rather than treating classic Abomination as universal damage-over-time coverage."
+          },
+          {
+            "title": "Keep the Immortal variant separate",
+            "text": "Abomination (Immortal) is a separate roster entry with another ability package. Confirm the exact icon and champion before applying outside guides; the Immortal version's Acid Burn tools should not be attributed to classic Abomination."
+          }
+        ]
+      }
+    }
+  ]
+}
