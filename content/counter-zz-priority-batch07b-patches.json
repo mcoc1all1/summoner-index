@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-profile champion batch 07B (2/8). Independently authored conditional fight decisions, linked to existing champion references; no game performance testing.",
+  "championPatches": [
+    {
+      "id": "darkhawk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-darkhawk",
+          "deep-darkhawk"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP3 when Null Mode solves the defender's problem",
+            "text": "Darkhawk's Null Mode can support Heal Block and Shock-oriented pressure, but waiting for three power bars increases fight exposure. Check whether the defender actually regenerates or is Shock-susceptible before choosing that long route."
+          },
+          {
+            "title": "Make Shock uptime a visible rather than assumed condition",
+            "text": "During Null Mode, attacks and SP1 can support additional Shock opportunities. A Shock-immune opponent or effect-cleansing node disrupts the payoff; check the active debuffs instead of claiming every hit adds reliable damage."
+          },
+          {
+            "title": "Use SP2 when power control is the safer objective",
+            "text": "If the opponent's Special attacks are dangerous, SP2 can offer a different way to manage power generation. Evaluate the immediate safety benefit against the more expensive Null Mode setup, and do not treat both as the same utility."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dazzler",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dazzler",
+          "deep-dazzler"
+        ],
+        "decisions": [
+          {
+            "title": "Build Tempo through actions you can execute reliably",
+            "text": "Dazzler's SP1, timing interactions and follow-up dashes can help develop Tempo. A difficult node may make perfect rhythm unsafe, so use the steps you can consistently complete rather than assuming maximum stacks immediately."
+          },
+          {
+            "title": "Check Energy Vulnerability before the SP2 cash-out",
+            "text": "Energy Vulnerability supports a stronger follow-up when the effect remains active. Watch its timer, target immunity and your current Special bar before committing; a late SP2 after expiration loses much of the setup's value."
+          },
+          {
+            "title": "Do not assume all rhythm inputs are automatic",
+            "text": "The recorded Special rhythm can reward correctly timed inputs with Precision and damage. Practice the timing in ordinary fights first, and distinguish an awakened benefit or node-assisted opening from universally guaranteed performance."
+          }
+        ]
+      }
+    },
+    {
+      "id": "deadpool-x-force",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-deadpool-x-force",
+          "deep-deadpool-x-force"
+        ],
+        "decisions": [
+          {
+            "title": "Build charges with deliberate movement and combo hits",
+            "text": "Deadpool (X-Force) can develop resources through specific forward movement and basic-hit positions. Count the actual charge state before spending it, rather than assuming a standard five-hit combo always produces the same setup."
+          },
+          {
+            "title": "Apply Daunted before the planned charge cash-out",
+            "text": "SP2 can establish Daunted, setting up a subsequent Heavy or SP1 payoff when enough charges are available. Decide how you will create the safe Heavy opening before launching SP2; otherwise the debuff may expire unused."
+          },
+          {
+            "title": "Keep this X-Force rotation separate from other Deadpools",
+            "text": "Deadpool and Deadpool (X-Force) are separate entries with different resource triggers. Check the exact portrait and ability card, especially when older community videos refer loosely to 'Deadpool' without specifying the version."
+          }
+        ]
+      }
+    },
+    {
+      "id": "diablo",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-diablo",
+          "deep-diablo"
+        ],
+        "decisions": [
+          {
+            "title": "Choose ingredients rather than consuming every pre-fight slot",
+            "text": "Diablo's ingredients have an opportunity cost because unused slots can provide Vials of Might. Set pre-fights for the defender's actual effect needs, then keep enough general resources for the remaining path."
+          },
+          {
+            "title": "Use Poison setup only against a vulnerable target",
+            "text": "A Heavy or second Medium can support personal Poison pressure, which SP2 can reapply for a burst window. Poison immunity or a debuff-punishing node calls for another plan; damage assumptions from a susceptible defender do not transfer."
+          },
+          {
+            "title": "Treat recovery and interruption timing as tactical choices",
+            "text": "SP1 can support recovery or a distinct interrupted-drink interaction, while maintaining the Philosopher's Mix affects ingredient value. Take that slower route only when incoming damage and opponent power permit it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "doctor-octopus",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-doctor-octopus",
+          "deep-doctor-octopus"
+        ],
+        "decisions": [
+          {
+            "title": "Build the Breakthrough category your opponent enables",
+            "text": "Doctor Octopus tracks different categories from opponent power gains, blocking and landed hits. Notice whether the fight actually feeds Physics, Chemistry or Biology, then work toward the useful category rather than waiting for the wrong trigger."
+          },
+          {
+            "title": "Use SP1 to trigger or maintain the relevant Breakthrough",
+            "text": "When a desired category leads the resource state, SP1 can activate it or refresh an existing effect. A rushed Special with the wrong category developed may waste the control window; check the visible counters first."
+          },
+          {
+            "title": "Do not erase the active setup with an unnecessary Heavy",
+            "text": "The recorded Breakthrough interaction can be altered by Heavy attacks, while SP3 can duplicate established value. If the fight benefits from a continuing Breakthrough, prefer a safe Special route over a habitual Heavy reset."
+          }
+        ]
+      }
+    }
+  ]
+}
