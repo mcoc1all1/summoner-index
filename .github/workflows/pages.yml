@@ -18,6 +18,8 @@ jobs:
           node-version: '22'
       - run: npm run build
       - run: npm test
+      - name: Reject stale or incomplete rights approvals
+        run: npm run rights:check
       - name: Build public beta
         run: npm run build && node scripts/check-beta.mjs
         env:

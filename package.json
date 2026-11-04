@@ -7,11 +7,12 @@
     "build": "node scripts/run-with-accuracy-patches.mjs node scripts/build-with-profile.mjs",
     "test": "node scripts/run-with-accuracy-patches.mjs node --test tests/*.test.mjs",
     "dev": "node scripts/serve.mjs",
-    "release:check": "node scripts/public-release.mjs --check",
-    "build:public": "node scripts/public-release.mjs",
+    "release:check": "node scripts/run-with-accuracy-patches.mjs node scripts/public-release.mjs --check",
+    "build:public": "node scripts/run-with-accuracy-patches.mjs node scripts/public-release.mjs",
     "rights:inventory": "node scripts/source-rights-inventory.mjs",
-    "rights:guides": "node scripts/rights-review-queue.mjs",
-    "rights:require-cleared": "node scripts/rights-review-queue.mjs --require-cleared"
+    "rights:guides": "node scripts/run-with-accuracy-patches.mjs node scripts/rights-review-queue.mjs",
+    "rights:check": "node scripts/run-with-accuracy-patches.mjs node scripts/rights-review-queue.mjs --check-integrity",
+    "rights:require-cleared": "node scripts/run-with-accuracy-patches.mjs node scripts/rights-review-queue.mjs --require-cleared"
   },
   "engines": {
     "node": ">=22"
