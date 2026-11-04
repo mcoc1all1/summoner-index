@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "immunity-drbong-official-recap-20261104",
+      "title": "Kabam April 2, 2026 stream recap: Doctor Bong Nullify and Power Sting immunities",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/413353/stream-recap-april-2-2026",
+      "kind": "official-recap",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-drbong-champion-20261104",
+      "title": "Doctor Bong champion kit: always-active Nullify and Power Sting immunity",
+      "url": "https://www.mcoc.help/champions/doctor-bong/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-crossbones-hydra-20261104",
+      "title": "Crossbones Hydra Recruitment: synergy-dependent Contempt immunities",
+      "url": "https://www.mcoc.help/champions/crossbones/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-prowler-spiderpunk-20261104",
+      "title": "Prowler Splitting Heads synergy: pre-fight reversed-controls protection and inverted inputs",
+      "url": "https://auntm.ai/champions/prowler",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-hood-awakened-20261104",
+      "title": "The Hood updated signature: Stun immunity during invisibility",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/The_Hood",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-hood-forum-20261104",
+      "title": "Player troubleshooting: The Hood is not Stun immune outside Invisibility",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/316964/hood-awakened-ability-and-stun-immunity",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "doctor-bong",
+      "addProtections": [
+        {
+          "effectId": "nullify",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Doctor Bong's base kit lists Nullify immunity as always active. This is resistance to the named Nullify effect, not a claim that Fate Seal, Stagger, buff theft or quest mechanics are also blocked.",
+          "sourceIds": [
+            "immunity-drbong-official-recap-20261104",
+            "immunity-drbong-champion-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "power-sting",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Doctor Bong's base kit lists Power Sting immunity as always active. This does not imply immunity to Power Drain, Power Lock or other unrelated power-control effects.",
+          "sourceIds": [
+            "immunity-drbong-official-recap-20261104",
+            "immunity-drbong-champion-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "crossbones",
+      "addProtections": [
+        {
+          "effectId": "nullify",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Crossbones requires the unique Hydra Recruitment synergy with Punisher 2099 or Red Skull. That synergy protects him against Nullify while his Contempt bonus applies, ordinarily against #Hero defenders. Without the synergy or the qualifying Contempt condition, this protection is not part of his base kit.",
+          "sourceIds": [
+            "immunity-crossbones-hydra-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "stagger",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Stagger immunity requires the Hydra Recruitment synergy with Punisher 2099 or Red Skull and an active Contempt bonus. Do not classify Crossbones as universally Stagger immune when fighting without that synergy or a qualifying opponent.",
+          "sourceIds": [
+            "immunity-crossbones-hydra-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "prowler",
+      "addProtections": [
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "With Spider-Punk's Splitting Heads synergy present, Prowler can choose a pre-fight option that makes him immune to subsequent reversed-controls effects. The trade-off is that his own controls stay inverted for the entire fight. Do not classify him as naturally reverse-controls immune without that synergy and selected pre-fight.",
+          "sourceIds": [
+            "immunity-prowler-spiderpunk-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "the-hood",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "The Hood's awakened Dark Dealings signature grants Stun immunity only while his Invisibility is active. This is not permanent Stun protection, and the unawakened champion should not be presented as Stun immune. Older pre-rework descriptions placed immunity during Invisibility cooldown; use the updated kit instead.",
+          "sourceIds": [
+            "immunity-hood-awakened-20261104",
+            "immunity-hood-forum-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
