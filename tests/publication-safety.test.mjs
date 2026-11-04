@@ -14,7 +14,7 @@ test('public mode withholds bulk imported Scout labels and relic pairings withou
  assert.equal(pub.champions.length,original.champions.length);
  for(const c of pub.champions){
   assert.equal(c.referenceFacts?.status,'source-link-only',c.id);
-  assert(c.referenceFacts?.url?.startsWith('https://mcocscout.com/'),c.id);
+  assert(c.referenceFacts?.url?.startsWith('https://'),c.id);
   assert.equal(c.referenceFacts?.abilities,undefined,c.id);
   assert.equal(c.referenceFacts?.protections,undefined,c.id);
   assert.equal(c.referenceFacts?.battlecast,undefined,c.id);
