@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "shang-chi",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Shang-Chi builds Chi with Wushu Strike sequences and spends it on a SP2 whose hits are guaranteed critical. Critical Damage Rating may therefore affect the direct critical-hit portion more predictably than raising critical chance for those hits. Compare matched Chi totals and note that critical resistance and node effects can alter the result.",
+        "defenseReason": "Block Penetration is a defender pressure option only when attacks hit into the opponent's Block; it does not grant additional Chi, Slow or guaranteed criticals. Compare a mitigation focus if the attacker rarely blocks or defeats Shang-Chi through special punishes.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "colossus",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Colossus builds Armor Ups with well-timed blocks, then uses a heavy-to-SP2 window for damage. Critical Rating is a direct-hit trial, not a way to create Armor Up buffs or bypass the champion's Armor Break restrictions. Compare damage at equal Armor Up counts, with Block Proficiency as a survival alternative.",
+        "defenseReason": "Armor Rating may reduce incoming damage that is actually mitigated by armor, but Stat Focus does not grant another Armor Up Buff and will not automatically improve interactions that specifically count Armor Ups. Compare Physical Resistance and check opposing Armor Break mechanics.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "corvus-glaive",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Corvus's charged Glaive hits already critically strike while his Glaive Immunity is active, so Critical Damage Rating may improve eligible charged-hit damage more directly than extra critical chance. Compare equal mission progress, Glaive charges and immunity uptime; do not assume the focus shortens recharge or improves hits after all charges are spent.",
+        "defenseReason": "Armor Penetration is a tentative outgoing damage/pressure setting against armored opponents; it does not add Glaive charges, expand his mission bonuses or prevent the post-charge downtime. Check whether the incoming defender's armor can actually be reduced before choosing this over a defensive mitigation focus.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "domino",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Domino's critical chance and Lucky/Unlucky states fluctuate. Critical Rating is a controlled starting point for testing direct-hit critical frequency; it is not assumed to increase Critical Failure damage, which depends on failed opponent abilities and scales from attack. Compare several repeated fights under similar conditions before attributing a gain to Stat Focus.",
+        "defenseReason": "Armor Penetration may help eligible direct hits against armored opponents, but it does not increase her Critical Failure triggers, Critical Bleed chance or Lucky/Unlucky duration. Compare physical or energy mitigation instead if survival determines the matchup.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "dust",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Dust builds Sand and converts it into Prowess before throwing SP2 during Sandstorm. Special Damage is a trial for connected special-hit output at matched Sand and Prowess, not a blanket increase to Sandstorm damage or every associated passive effect. Compare full fights and avoid mixing different Sandstorm states.",
+        "defenseReason": "Armor Penetration could help eligible direct attacks against armor, not add Sand, Prowess or Sandstorm uptime. Test against a comparable armored defender and use a mitigation focus if Dust is taking too much damage before the storm.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "enchantress",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Enchantress uses SP1 and spellbook inputs to prepare spell categories for SP2. Special Damage is a direct-special hit trial at matched spell counts; spell-dependent effects and removal triggers should be measured separately rather than treated as automatically scaled. Compare a Block Proficiency setup option if the cast sequence is unsafe.",
+        "defenseReason": "Armor Penetration is an offensive stat on the defending champion only when her applicable hits face armor. It does not produce extra spells, preserve a nine-spell collection or change her removal triggers. Compare a resistance option in matchups where the attacker dodges or avoids taking basic-hit pressure.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "hit-monkey",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Critical Damage Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Hit-Monkey's nunchaku attacks and timely SP2 hits can be guaranteed criticals, making Critical Damage Rating a reasonable direct-hit experiment. It will not necessarily increase Bleed damage or the chance of entering Assassin's Cunning versus Primal Rage; track the same Scheme and compare equal combinations.",
+        "defenseReason": "Critical Damage Rating can improve eligible defending critical hits, but it does not make the AI choose a Scheme, force a critical hit on non-guaranteed attacks or protect against a counter. Test against opponents who can withstand critical pressure, and compare a mitigation focus where survival matters.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    },
+    {
+      "id": "titania",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial test rationale: Titania uses SP1/SP2 debuffs and Haymaker openings to deliver heavy and special damage. Critical Rating is a test for eligible direct hits at comparable personal debuff stacks, not a guaranteed increase to the duration of Haymaker, her passive Fury or every duplicated debuff. Compare Block Proficiency if sustaining the setup is more important.",
+        "defenseReason": "Armor Penetration can help eligible direct hits into armor but will not make Haymaker permanent, negate an opponent's cleanse or create an unblockable opening. This is an opponent-dependent defender pressure experiment, not a recommendation that Titania should be preferred as a defender.",
+        "note": "Champion-specific editorial hypothesis derived from the catalogued kit and cited community focus suggestion; not independent gameplay testing or a claim of best-in-slot performance."
+      }
+    }
+  ]
+}
