@@ -9,7 +9,9 @@
     "dev": "node scripts/serve.mjs",
     "release:check": "node scripts/public-release.mjs --check",
     "build:public": "node scripts/public-release.mjs",
-    "rights:inventory": "node scripts/source-rights-inventory.mjs"
+    "rights:inventory": "node scripts/source-rights-inventory.mjs",
+    "rights:guides": "node scripts/rights-review-queue.mjs",
+    "rights:require-cleared": "node scripts/rights-review-queue.mjs --require-cleared"
   },
   "engines": {
     "node": ">=22"
