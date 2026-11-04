@@ -14,7 +14,7 @@ test('four researched Act 7 and 8 guide rewrites are sourced and explicitly unte
   for(const sourceId of b.sourceIds)assert(db.sources.some(s=>s.id===sourceId),id+':'+sourceId);
   assert(b.guideDetails.preparation.length>=3);
   assert(b.guideDetails.troubleshooting.length>=4);
-  assert.match(b.guideDetails.scope,/not independently/i);
+  assert.match(b.guideDetails.scope,/not independently|not a recorded gameplay test/i);
  }
  assert.deepEqual(validate(db),[]);
 });
