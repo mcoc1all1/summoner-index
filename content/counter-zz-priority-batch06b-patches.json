@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 06B. Five original decision-focused entries grounded in existing references; gameplay outcomes not independently tested.",
+  "sources": [
+    {
+      "id": "b06-g2099-sp3-reports",
+      "title": "Kabam forum — historical reports of Guillotine 2099 SP3 combo carryover issues",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/324790/guillotine-2099-bugged-doesn-t-start-the-fight-with-100hits",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "dragon-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dragon-man",
+          "deep-dragon-man"
+        ],
+        "decisions": [
+          {
+            "title": "Choose SP1 utility instead of forcing SP2 damage",
+            "text": "Dragon Man can use SP1 when Slow or Ineptitude matters, while SP2 supports an Incinerate-heavy offensive plan. Pick the actual control requirement of the defender before spending your bars on damage alone."
+          },
+          {
+            "title": "Spend accumulated Incinerates from a safe Heavy",
+            "text": "After SP2 establishes Incinerate pressure, a well-timed Heavy can convert that setup into additional damage. If the defender resists Incinerate or the node punishes Heavy, do not expect the standard sequence to work unchanged."
+          },
+          {
+            "title": "Consider SP3 only when extra power infrastructure pays off",
+            "text": "SP3 can develop the longer-fight Power Charge plan, but the opening investment costs both time and safety. Against a low-health defender, a shorter SP1 or SP2 line may be more practical than chasing maximum ramp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guillotine-2099",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-guillotine-2099",
+          "deep-guillotine-2099",
+          "b06-g2099-sp3-reports"
+        ],
+        "decisions": [
+          {
+            "title": "Decide whether to spend Digi-Souls at the pre-fight",
+            "text": "Guillotine 2099's selectable functions have real opportunity costs, including protection and recovery resources. Check whether the encounter calls for a specific function rather than activating every available option automatically."
+          },
+          {
+            "title": "Treat the combo meter as a path resource",
+            "text": "Combo Shields and controlled power denial can keep the longer-fight engine intact. If you want the next fight to start with a developed combo, arrange the SP3 finish while the defender is low enough for it to secure a knockout."
+          },
+          {
+            "title": "Recheck the SP3 carryover instead of promising it blindly",
+            "text": "Older community reports describe occasions when an SP3 finish did not deliver the expected next-fight combo. Treat those as historical bug reports, not current proof of failure, and confirm the present in-game behavior on critical paths."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hulk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hulk",
+          "deep-hulk"
+        ],
+        "decisions": [
+          {
+            "title": "Build Gamma Rage only after the Fury setup is visible",
+            "text": "Hulk's current recorded plan builds Fury before entering Gamma Rage, which is different from older generic low-health advice. Check the current buffs and a safe Heavy opportunity before trying to force the transition."
+          },
+          {
+            "title": "Put the SP2 Trauma window where it can be used",
+            "text": "SP2 can set up Trauma pressure that is more useful when the remaining Rage sequence can exploit it. Check whether the opponent's defensive effects or node block that plan, rather than launching the Special solely because it is available."
+          },
+          {
+            "title": "Expect repeated Stun windows to change",
+            "text": "An SP1 plan can create offensive openings while Rage is active, but repeated Stuns do not all provide identical follow-up time. Confirm the defender's state before extending a combo, especially against Stun immunity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "man-thing",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-man-thing",
+          "deep-man-thing"
+        ],
+        "decisions": [
+          {
+            "title": "Use the defender's buffs to decide whether to ramp",
+            "text": "Man-Thing's Agitation and related interactions can benefit from opponents with removable buffs. Against a buff-poor or Nullify-resistant target, the usual medium-attack setup may produce less pressure than expected."
+          },
+          {
+            "title": "Cash Toxic Pustules only when a Heavy is safe",
+            "text": "SP1 can create Toxic Pustules that reward a subsequent Heavy before expiry. Check both the remaining timer and spacing; landing the cash-out matters more than committing to a risky Heavy that gets interrupted."
+          },
+          {
+            "title": "Check Poison and Armor Break resistance separately",
+            "text": "The damage and control plan can involve Poison as well as Armor Break, which have distinct defender protections. Do not assume immunity to one effect automatically protects against the other, or that both are always available."
+          }
+        ]
+      }
+    },
+    {
+      "id": "medusa",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-medusa",
+          "deep-medusa"
+        ],
+        "decisions": [
+          {
+            "title": "Build Armor Shattered only against removable armor",
+            "text": "Medusa's Armor Break buildup can convert into Armor Shattered and provide useful robot-facing control. Confirm the defender can receive the relevant effects; Armor Break immunity or node restrictions can prevent the expected setup."
+          },
+          {
+            "title": "Choose a Bleed follow-up based on the target's immunity",
+            "text": "Once Armor Shattered is established, basic-attack choices can support a Bleed damage line. A Bleed-immune opponent changes that payoff, so plan around actual control and damage rather than assuming both work."
+          },
+          {
+            "title": "Track the Shatter duration before relying on control",
+            "text": "Armor Shattered can be a strong tactical state, but it is not an indefinite guarantee in every fight. Watch the remaining timer and rebuild if necessary before taking a risk that depends on suppressing the defender's abilities."
+          }
+        ]
+      }
+    }
+  ]
+}

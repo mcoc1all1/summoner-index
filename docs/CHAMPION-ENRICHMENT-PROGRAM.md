@@ -72,3 +72,11 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - These notes separate awakened from base abilities, distinguish similarly named champion variants and identify resource, timer, opponent and node limitations. They are original editorial guidance, not independent gameplay tests or reproduced ability lists.
 - Existing public-safety restrictions on unreviewed Stat Focus, third-party kit compilations and relic pairings remain in force. AdSense and unrelated launch/indexing decisions remain untouched.
 - Source links support ongoing research rather than establish in-game testing or content-reuse permission. Follow up when live kit wording changes.
+
+## Batch 06 result — 5 November 2026
+
+- Added **60 independent, source-linked fight-decision notes** for **20** roster entries: Terrax, Bishop, Hyperion, Crossbones, Dormammu, Dragon Man, Guillotine 2099, Hulk, Man-Thing, Medusa, Morningstar, Red Skull, Sauron, Vulture, Agatha Harkness, Agent Venom, Air-Walker, Black Bolt, Blade and Captain America.
+- After passing checks and merging, cumulative field-note coverage becomes **130 of 334** champion records; **202 eligible profiles** remain in **11** subsequent batches, plus **2** roster-identity exceptions.
+- The notes include conditional resource/setup checks, awakened-only caveats, effect immunities, and version-sensitive references. They are editorial interpretations rather than independently benchmarked fight results, verified optimal rotations or copied ability lists.
+- **Beast deferred** from this round: Kabam announced a November 2026 Beast update; existing older Freestyle/Acrobatic rotation content should not receive a new endorsement until the live rework/buff kit is checked. An additional candidate, Captain America, takes the twentieth slot.
+- Existing third-party kit/relic compilations remain withheld. The existing legal audit, AdSense, indexing and domain settings are not changed by this content batch.

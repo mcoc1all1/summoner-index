@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 06D. Five original, player-actionable, source-linked profiles; avoids copying protected third-party kit text and keeps newer variant mechanics separate.",
+  "sources": [
+    {
+      "id": "b06-blade-stellar-variant",
+      "title": "MCOC Team — Blade (Stellar Forged) as distinct 2026 champion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/415925/blade-stellar-forged-piece-selector",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "agent-venom",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-agent-venom",
+          "deep-agent-venom"
+        ],
+        "decisions": [
+          {
+            "title": "Protect Klyntar Rage rather than trading hits",
+            "text": "Agent Venom can lose useful offensive momentum when hit, making safe punishes more valuable than a reckless attack race. Build through clean basic attacks and check the Rage state before launching a committed Special."
+          },
+          {
+            "title": "Use SP1 when Bleed is actually valuable",
+            "text": "SP1 can create Bleed chances and provide Evade-related utility, but a Bleed-immune defender changes the damage calculation. Confirm any Evade reduction is sufficient for this specific defender before relying on it as full anti-Evade."
+          },
+          {
+            "title": "Reserve SP2 for a target that accepts Incinerate",
+            "text": "SP2 offers a different damage-effect option, but Incinerate immunity or effect-punishing nodes reduce its payoff. Choose the move for the opponent in front of you instead of repeating a fixed rotation regardless of matchup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "air-walker",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-air-walker",
+          "deep-air-walker"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Dark Tide as a multi-step investment",
+            "text": "SP1 can develop Dark Tide and Armor Break, but early-fight pressure does not equal the fully developed state. Check whether the opponent is vulnerable to Armor Break before building a long plan around a debuff that might never land."
+          },
+          {
+            "title": "Use Heavy-to-Special cancellation only when secured",
+            "text": "A safely charged Heavy can enhance a follow-up Special with Fury and power-related benefits. Attempt it during known recovery or a suitable node window; unprotected Heavy startup may erase the advantage you hoped to gain."
+          },
+          {
+            "title": "Check whether attacking SP3 is currently unlocked",
+            "text": "Air-Walker's persistent progression can affect access to an offensive SP3. A fresh quest or single isolated fight may not offer the same choice as a developed path, so verify the current state before saving power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-bolt",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-bolt",
+          "deep-black-bolt"
+        ],
+        "decisions": [
+          {
+            "title": "Check the signature before planning a buff ramp",
+            "text": "Black Bolt's awakened critical-hit-related buffs can change the offensive plan. If the champion is unawakened, do not include the signature payoff as a guaranteed part of the recommended rotation."
+          },
+          {
+            "title": "Choose SP2 when Armor Break has value",
+            "text": "SP2 can provide multiple chances to inflict Armor Break, but Armor Break immunity or node restrictions can eliminate the control payoff. Use ordinary safe attacks instead of overcommitting to a Special that cannot apply its planned effect."
+          },
+          {
+            "title": "Confirm SP1 Stun before extending pressure",
+            "text": "SP1's True Damage and possible Stun serve different purposes. Even when the hit connects, Stun is not a guaranteed follow-up; wait for the effect to appear before attempting another attack in a dangerous opening."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blade",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-blade",
+          "deep-blade",
+          "b06-blade-stellar-variant"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Bleed application as matchup-dependent",
+            "text": "Blade can generate Bleed from well-timed defensive play and Specials, but Bleed-immune or Purify-heavy opponents alter the main damage plan. Do not assume a familiar SP2 damage loop will perform equally on every defender."
+          },
+          {
+            "title": "Use awakened recovery only when power and space permit",
+            "text": "An awakened Blade can spend time holding block to regenerate under the relevant power and health conditions. Check the current power reserve and the opponent's pressure before using recovery, rather than inviting a blocked combo for a small heal."
+          },
+          {
+            "title": "Keep original Blade separate from Stellar-Forged Blade",
+            "text": "Blade (Stellar Forged) is a distinct champion identity introduced in 2026. Tips from the newer character's spotlight and acquisition events must not be transferred to this original Blade's Bleed, Danger Sense or recovery kit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-america",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-america",
+          "deep-captain-america"
+        ],
+        "decisions": [
+          {
+            "title": "Use Perfect Block as a defensive tool, not a full game plan",
+            "text": "Captain America's kit rewards timely blocks and can create Fatigue opportunities, but an opponent with unblockable attacks or block-punishing nodes changes the risk. Prioritize spacing and safe punishes over farming blocks."
+          },
+          {
+            "title": "Check Fatigue before expecting a stronger Stun chance",
+            "text": "A Special can be more useful while the relevant Fatigue effect is active, but that does not make Stun automatic or overcome explicit Stun immunity. Confirm the effect on the defender before committing to an extended combo."
+          },
+          {
+            "title": "Do not mix the classic and WWII variants",
+            "text": "Captain America and Captain America (WWII) have separate roster identities and may offer different Special and defensive effects. Confirm the exact champion when borrowing rotation advice from older videos or community lists."
+          }
+        ]
+      }
+    }
+  ]
+}
