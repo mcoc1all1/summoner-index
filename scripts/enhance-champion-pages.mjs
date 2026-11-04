@@ -4,10 +4,12 @@ import {fileURLToPath} from 'node:url';
 import {basePath,localAttributes} from '../src/deployment.mjs';
 import {escapeHtml as e} from '../src/domain.mjs';
 import {championProfilePage} from '../src/champion-profile.mjs';
+import {publicResearchView} from '../src/publication-safety.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
-const db=JSON.parse(fs.readFileSync(path.join(root,'content/catalog.json'),'utf8'));
+const sourceDb=JSON.parse(fs.readFileSync(path.join(root,'content/catalog.json'),'utf8'));
+const db=process.env.PUBLIC_BETA==='1'?publicResearchView(sourceDb):sourceDb;
 const base=basePath(process.env.SITE_BASE_PATH||'');
 const opponents=[...db.champions,...db.bosses];
 const notice='<p class="coverage-link"><a href="/coverage">Content coverage</a> · <a href="/methodology">Sources & methodology</a></p>';
