@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "immunity-imiw-molecular-20261104",
+      "title": "Iron Man Infinity War molecular armor Coldsnap protection",
+      "url": "https://mcocscout.com/champions/iron-man-infinity-war",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-kindred-dread-20261104",
+      "title": "Kindred Dread Aura grants temporary Stun protection",
+      "url": "https://mcocscout.com/champions/kindred",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-deathstrike-nanobots-20261104",
+      "title": "Lady Deathstrike kit distinguishes Mutant AAR and Nanobots protection",
+      "url": "https://mcocscout.com/champions/lady-deathstrike",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-longshot-debuff-aar-20261104",
+      "title": "Longshot ability-accuracy restrictions and Debuff exception",
+      "url": "https://www.mcoc.help/champions/longshot/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-madelyne-forcefield-20261104",
+      "title": "Madelyne Pryor Force Field allows conditional Rupture protection while attacking",
+      "url": "https://www.mcoc.help/champions/madelyne-pryor/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-photon-signature-20261104",
+      "title": "Photon signature Neutralize immunity activation",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Photon",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-purgatory-dimensional-20261104",
+      "title": "Purgatory Dimensional Buddies Bleed synergy",
+      "url": "https://www.mcoc.help/champions/purgatory/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-redskull-mutant-aa-20261104",
+      "title": "Red Skull ability accuracy modification protection against Mutant opponents",
+      "url": "https://www.mcoc.help/champions/red-skull/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "iron-man-infinity-war",
+      "addProtections": [
+        {
+          "effectId": "coldsnap",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Iron Man (Infinity War) is immune to Coldsnap only while a Molecular Armor effect is active. His armor effects can be consumed, so do not mistake this for permanent Coldsnap immunity.",
+          "sourceIds": [
+            "immunity-imiw-molecular-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "kindred",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Kindred becomes Stun Immune only during Dread Aura, activated by charging a Heavy Attack or automatically as a defender at health thresholds. Stun can apply outside that window.",
+          "sourceIds": [
+            "immunity-kindred-dread-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "lady-deathstrike",
+      "addProtections": [
+        {
+          "effectId": "ability-accuracy-reduction",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Lady Deathstrike's Ability Accuracy cannot be modified while fighting Mutant opponents. This is a matchup-restricted protection and does not provide an all-class shield from ability-accuracy effects.",
+          "sourceIds": [
+            "immunity-deathstrike-nanobots-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "armor-break",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Armor Break immunity requires Nanobots Regenerator to be active after being struck by an opponent's SP1 or SP2, and her personal Armor Up must still be present. Armor Break is not always blocked.",
+          "sourceIds": [
+            "immunity-deathstrike-nanobots-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "heal-block",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Lady Deathstrike immediately removes incoming Heal Block effects, but loses access to Willpower healing for the original duration. This prevents the named Heal Block from persisting, not every form of healing suppression.",
+          "sourceIds": [
+            "immunity-deathstrike-nanobots-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "rupture",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Rupture Debuff immunity is present during Nanobots Regenerator while her Armor Up is active, generally when struck by the opponent's SP1 or SP2. Without that protection window she is not broadly Rupture-immune.",
+          "sourceIds": [
+            "immunity-deathstrike-nanobots-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "longshot",
+      "addProtections": [
+        {
+          "effectId": "ability-accuracy-reduction",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Longshot's innate Luck means Ability Accuracy reductions cannot affect him unless they are applied through Debuffs. This protection only applies to non-Debuff reductions; Debuffs can still reduce his Ability Accuracy.",
+          "sourceIds": [
+            "immunity-longshot-debuff-aar-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "madelyne-pryor",
+      "addProtections": [
+        {
+          "effectId": "rupture",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Madelyne Pryor is immune to Rupture only as an attacker while her Force Field has remaining integrity. A depleted Field or fighting as defender does not meet this protection condition.",
+          "sourceIds": [
+            "immunity-madelyne-forcefield-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "photon",
+      "addProtections": [
+        {
+          "effectId": "neutralize",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Photons's Neutralize effect immunity comes from her signature ability, The Full Spectrum, and therefore requires an awakened champion. The immunity is active after awakening rather than requiring Pure Light Form.",
+          "sourceIds": [
+            "immunity-photon-signature-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "purgatory",
+      "addProtections": [
+        {
+          "effectId": "bleed",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Purgatory gains Bleed immunity only through the Dimensional Buddies synergy with Mephisto, The Hood, Magik or Dormammu. Without that synergy her base kit provides Incinerate protection but not Bleed immunity.",
+          "sourceIds": [
+            "immunity-purgatory-dimensional-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "red-skull",
+      "addProtections": [
+        {
+          "effectId": "ability-accuracy-reduction",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Red Skull's Ability Accuracy cannot be modified when fighting a Mutant opponent. This is separate from his champion-sourced Nullify, Fate Seal and Stagger immunities and does not apply against every class.",
+          "sourceIds": [
+            "immunity-redskull-mutant-aa-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
