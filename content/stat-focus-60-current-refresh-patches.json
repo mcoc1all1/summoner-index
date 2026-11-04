@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-11-02",
+  "reviewedAt": "2026-11-04",
   "championPatches": [
     {
       "id": "kushala",
@@ -9,8 +9,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-kushala-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-kushala-20261102"
+        ],
+        "attackReason": "Editorial rationale: Kushala builds Blessings through well-timed blocks and uses SP2 to apply Soul Barb before further Incinerates from SP1. Special Damage is worth testing against the direct special-hit portion of that rotation. It must not be assumed to boost Soul Barb or Incinerate damage over time; compare complete fights at equivalent Blessing stacks.",
+        "defenseReason": "Block Penetration is a defensive-pressure trial only when Kushala's defender specials or attacks connect into an opponent's Block. It does not improve her Blessing acquisition, Soul Barb or Incinerate potency; compare a resistance focus if incoming damage or matchup survival is the priority."
       }
     },
     {
@@ -20,8 +25,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-onslaught-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-onslaught-20261102"
+        ],
+        "attackReason": "Editorial rationale: Onslaught builds Neuroshock and converts it into Degeneration using SP2. Special Damage is a trial for connected special-hit damage, not an automatic multiplier of Neuroshock or Degeneration ticks. Compare the same Neuroshock stacks and total fight time before treating it as the preferred attacker setting.",
+        "defenseReason": "Block Penetration could add pressure only on attacks the opposing player blocks. It does not strengthen Neuroshock, Degeneration, Delirium or Crush, so compare it with a defensive mitigation option in matchups where the attacker does not block."
       }
     },
     {
@@ -31,8 +41,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-serpent-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-serpent-20261102"
+        ],
+        "attackReason": "Editorial rationale: The Serpent develops Dread and Culforce before a buff- and SP2-driven burst. Critical Rating may improve direct hits that are eligible to crit, but it is not a guaranteed boost to his Fury, Power Gain or any noncritical damage. Compare equivalent Culforce and Dread stacks in the same matchup.",
+        "defenseReason": "Block Penetration is a trial for his block pressure while cycling buffs and specials; it does not increase Culforce or extend Death Immunity. Evaluate it against resistance options when the defending fight is decided by incoming damage instead of hits into Block."
       }
     },
     {
@@ -42,8 +57,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-human-torch-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-human-torch-20261102"
+        ],
+        "attackReason": "Editorial rationale: Human Torch builds Temperature through safe heavy openings and applies Incinerate or Nova Flame while baiting enemy specials. Block Proficiency is a survival-oriented setup trial where blocking is unavoidable; it does not increase Temperature, Incinerate or Nova Flame damage. Compare actual health remaining with a direct-damage alternative.",
+        "defenseReason": "Block Penetration affects attacks made into the opponent's Block, not Temperature, Smoulder, Incinerate or Nova Flame. It is a matchup-specific pressure option and must be compared against mitigation when the attacker does not block Torch's offense."
       }
     },
     {
@@ -53,8 +73,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-warlock-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-warlock-20261102"
+        ],
+        "attackReason": "Editorial rationale: Warlock establishes Virus/Infection, refreshes it with SP2, and may spend Infections on SP1 power control. Critical Rating is a direct-hit damage trial only; it does not imply greater Infection-based heal prevention or Power Burn. Compare damage and control reliability at matching Infection counts.",
+        "defenseReason": "Block Penetration can add defender pressure only through actual hits into Block. It does not prolong Infection, bypass immunity or improve the power-control side of Warlock's kit; compare a mitigation focus against attackers that avoid block damage."
       }
     },
     {
@@ -64,8 +89,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-high-evolutionary-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-high-evolutionary-20261102"
+        ],
+        "attackReason": "Editorial rationale: High Evolutionary builds detonation charges while using well-timed blocks, then places an Evolutionary Field with SP2 and detonates with SP1. Block Proficiency is a health-preserving setup trial, not a direct boost to Combo Detonation. Compare a Special Damage alternative only on eligible special-hit damage at equal charge counts.",
+        "defenseReason": "Block Penetration is a tentative defender pressure choice when opponents block attacks during the Evolutionary Field setup. It does not increase the strength of the field, Combo Detonation or debuff application; compare resistance under the same attacking matchup."
       }
     },
     {
@@ -75,8 +105,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-bpcw-20261102"]
+        "note": "Refreshed after comparing the current GuiaMTC loadout guide with a current champion-specific Stat Focus reference. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-bpcw-20261102"
+        ],
+        "attackReason": "Editorial rationale: Black Panther (Civil War) builds Reflect Charges using well-timed blocks and SP1 while Reflective Matrix is active, then releases Kinetic Burst. Block Proficiency is a survival trial for the setup; it is not a guaranteed Kinetic Burst multiplier. Compare health loss and damage at equal charges.",
+        "defenseReason": "Block Penetration has value only on attacks that connect into Block. It does not create Reflect Charges, extend Matrix uptime or directly strengthen Kinetic Burst; compare defensive resistance if attackers play around blocking."
       }
     },
     {
@@ -86,8 +121,13 @@
         "defenseFocus": "Block Penetration",
         "checkedAt": "2026-11-02",
         "confidence": "medium",
-        "note": "Current champion-specific reference agrees with the existing recommendation; retained after GuiaMTC refresh.",
-        "sourceIds": ["stat-focus-guiamtc-current-20261102", "stat-focus-scout-bullseye-20261102"]
+        "note": "Current champion-specific reference agrees with the existing recommendation; retained after GuiaMTC refresh. This editorial rationale explains a suggested experiment, not measured gameplay performance or rights clearance.",
+        "sourceIds": [
+          "stat-focus-guiamtc-current-20261102",
+          "stat-focus-scout-bullseye-20261102"
+        ],
+        "attackReason": "Editorial rationale: Bullseye's guaranteed critical hits make Critical Damage Rating a more direct trial than extra crit chance on those guaranteed hits. Test against critical resistance and separate critical special-hit damage from Instant Bleed before concluding it is best.",
+        "defenseReason": "Block Penetration is a pressure trial for attacks or specials that the opponent blocks. It does not increase Killer Instinct, Instant Bleed or guarantee an opening; compare physical resistance where the attacking player avoids blocking."
       }
     }
   ]
