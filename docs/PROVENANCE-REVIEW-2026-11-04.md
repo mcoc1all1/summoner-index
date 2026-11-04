@@ -47,3 +47,16 @@ Updated source patches: `content/immunity-verified-20261104-patches.json` and `c
 - Improved the audit to distinguish **124 historical recommendation patch entries** from **108 distinct champions' effective latest settings**. Of these latest entries, **91 still lack an explicit champion-specific attacker and defender rationale**. A raw count of missing older patch entries overstates the current live editorial queue because newer records override them.
 
 The source-specific review state, current-client gameplay test status, and copyright/expression clearance remain distinct and are not certified by these patches.
+
+## Fourth claim-scope batch — Armor Up, helmet state and synergy requirements
+
+- Ironheart's Coldsnap and Reversed Controls protections are documented as conditional on an active Armor Up; the broad Ability Accuracy Reduction immunity ID was removed because the cited kit protects only narrower circumstances.
+- Mysterio's Poison and Ability Accuracy Reduction protections depend on an intact helmet; his reversed-controls protection requires Emma Frost's Mental Immunity synergy.
+- The Moondragon `death` label was removed because the cited effect is a situational Death Immunity/second-chance mechanic, not ordinary immunity to an incoming Death status effect.
+- Bullseye's Precision protection is classified as an effect-level interaction, not an incoming debuff immunity.
+- **51** originally unscoped broad immunity claims remain in the originating audit (down from 58). Documented corrections are not equivalent to independent gameplay testing, and any uncertain source claim stays subject to review.
+
+## Further Stat Focus editorial rationale
+
+- Added eight kit-specific trial explanations for Iceman, Havok, Baron Zemo, Bishop, Blade, Rintrah, Shuri, and Wiccan in `content/stat-focus-80-editorial-rationale-patches.json`.
+- There are now **132 historical focus patch entries** but only **108 distinct current recommendations**; of the latter, **83** lack explicit champion-specific attack and defense explanations. The counter does not independently validate the recommendation itself.
