@@ -22,6 +22,35 @@ function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
  }
 }}
 walk(fileURLToPath(root));
+// Copyright-risk publication gate: check generated files, not just source files.
+const publicDb=JSON.parse(fs.readFileSync(new URL('catalog.json',root),'utf8'));
+for(const c of publicDb.champions){
+ const f=c.referenceFacts;
+ assert.equal(f?.status,'source-link-only',c.id+' must link to, not mirror, the compiled reference');
+ for(const field of ['abilities','protections','battlecast','statcast'])
+  assert.equal(f?.[field],undefined,c.id+': source compilation '+field+' exposed');
+ assert.deepEqual(c.relicIds||[],[],c.id+': source-derived relic pairing exposed');
+ if(c.loadout){
+  assert.equal(c.loadout.battlecastId,null,c.id+': battlecast pairing exposed');
+  assert.equal(c.loadout.statcastId,null,c.id+': statcast pairing exposed');
+ }
+ const html=fs.readFileSync(new URL('champions/'+c.id+'/index.html',root),'utf8');
+ assert.match(html,/EXTERNAL KIT REFERENCE/,c.id+': link-only reference missing');
+ assert.doesNotMatch(html,/SOURCE CATALOGUE ·/,c.id+': raw compilation UI leaked');
+}
+for(const filename of fs.readdirSync(root).filter(n=>/^catalog-(?:.+)\.json$/.test(n))){
+ const data=JSON.parse(fs.readFileSync(new URL(filename,root),'utf8'));
+ for(const c of data.champions||[]){
+  for(const field of ['abilities','protections','battlecast','statcast'])
+   assert.equal(c.referenceFacts?.[field],undefined,filename+': '+c.id+': '+field);
+  if(c.loadout){
+   assert.equal(c.loadout.battlecastId,null,filename+': '+c.id);
+   assert.equal(c.loadout.statcastId,null,filename+': '+c.id);
+  }
+ }
+}
+assert.equal(fs.existsSync(new URL('content-workbench/',root)),false,'editor workbench must not be deployed');
+
 const sitemap=fs.readFileSync(new URL('sitemap.xml',root),'utf8');
 assert.equal([...sitemap.matchAll(/<loc>/g)].length,2);
 for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.mjs'))){
