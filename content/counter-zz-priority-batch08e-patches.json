@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-champion batch 08E (5/8), five original, source-linked fight-decision profiles, not independently tested.",
+  "championPatches": [
+    {
+      "id": "bastion",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-bastion",
+          "deep-bastion"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Virus charges before the Infection damage window",
+            "text": "Bastion can generate Virus charges through eligible Medium attacks and well-timed blocks. Count the actual charges before beginning a Heavy setup; an unprepared SP2 lacks the intended Infection-related payoff."
+          },
+          {
+            "title": "Use Heavy Pursuit only during a reliable opening",
+            "text": "Heavy attacks can establish Pursuit and Disintegration as part of Bastion's offensive cycle, but the startup can be punished. Create a predictable recovery window and check whether the opponent resists Disintegration."
+          },
+          {
+            "title": "Choose SP1 or SP2 while Infection is actually active",
+            "text": "His Specials can interact differently with Infection and existing Disintegrations. Read the visible state and enemy power bar rather than spending power after the effect expired and claiming the same damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-panther",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-panther",
+          "deep-black-panther"
+        ],
+        "decisions": [
+          {
+            "title": "Build Panther's Might from the correct resource sequence",
+            "text": "Black Panther's reworked recorded rotation uses unfinished-combo movement and Cruelty to build toward Panther's Might. Watch the inactive charge state rather than assuming a normal full combo activates the mode."
+          },
+          {
+            "title": "Use Heavy or SP1 to enter the damage window safely",
+            "text": "A properly prepared Heavy or SP1 can enter Panther's Might, but an exposed Heavy is a poor way to rush the transformation. Choose the activation that matches the current defender recovery and node restrictions."
+          },
+          {
+            "title": "Save SP2 for an actual Cruelty-enhanced opportunity",
+            "text": "His SP2 can benefit from developed Cruelty while Panther's Might is maintained. Check the buffs and remaining duration; an early Special may give less value than a clean setup, but waiting too long also loses uptime."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-panther-civil-war",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-panther-civil-war",
+          "deep-black-panther-civil-war"
+        ],
+        "decisions": [
+          {
+            "title": "Build Reflective Matrix resources without taking avoidable hits",
+            "text": "Black Panther (Civil War) can use well-timed blocks and SP1 to develop charges while Reflective Matrix is active. Do not deliberately accept dangerous blocked Specials merely to accelerate the counter."
+          },
+          {
+            "title": "Refresh charges with the correct dash-back trigger",
+            "text": "An unfinished combo followed by dash-back can support charge management in the recorded kit. Check that the Matrix state is active and the defender is not ready to punish your retreat before relying on the maneuver."
+          },
+          {
+            "title": "Choose SP2 or Heavy-cancel release based on safety",
+            "text": "A developed Matrix can be released through the relevant Special or a Heavy-cancel sequence. Verify the resource is available and keep the exit safe; a lost defensive state changes the next opponent response."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-tarantula",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-tarantula",
+          "deep-black-tarantula"
+        ],
+        "decisions": [
+          {
+            "title": "Build Cunning before using the special-avoidance plan",
+            "text": "Black Tarantula gains Cunning through eligible combos and SP1 interactions, but the strength of his later offense depends on the actual resource state. Check the count instead of assuming the opening Special completes the setup."
+          },
+          {
+            "title": "Use dash-based Special Evade only when its cooldown permits",
+            "text": "The recorded kit allows a timed evade of an incoming Special, with Medium attacks influencing reavailability. Do not claim permanent Special immunity; observe the cooldown and choose an escape route if the ability is unavailable."
+          },
+          {
+            "title": "Launch SP2 inside the Vulnerability opportunity",
+            "text": "SP2 can support Vulnerability and beam damage after the required setup. Verify the defender's effect protection and the remaining timing window rather than forcing two bars into a matchup that cancels the payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-widow",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-widow",
+          "deep-black-widow"
+        ],
+        "decisions": [
+          {
+            "title": "Build SP1 Precision and Cruelty for a visible damage window",
+            "text": "Classic Black Widow can gain offensive buffs through SP1, but the next combo benefits only while those effects are active. Track their durations and avoid losing the opening by saving another bar unnecessarily."
+          },
+          {
+            "title": "Treat SP3 Stun as chance-based rather than guaranteed",
+            "text": "A possible SP3 Stun does not authorize a free follow-up on every defender. Check Stun immunity and the actual result before starting another combo, especially when a high-health opponent can punish a mistake."
+          },
+          {
+            "title": "Keep the classic version distinct from Claire and Deadly Origin",
+            "text": "Classic Black Widow, Claire Voyant and Deadly Origin have different damage effects and utility. Confirm the exact roster entry before copying Bleed, curse or Shock instructions from another Black Widow guide."
+          }
+        ]
+      }
+    }
+  ]
+}

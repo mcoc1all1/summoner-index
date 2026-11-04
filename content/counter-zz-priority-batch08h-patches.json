@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion batch 08H (8/8). Five independently worded and source-linked decision profiles. Mechanical details should be rechecked after game updates; not in-game testing.",
+  "sources": [
+    {
+      "id": "b08-colossus-aoa-spotlight",
+      "title": "Kabam champion spotlight — Colossus (Age of Apocalypse), October 2026",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-colossus-age-of-apocalypse/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b08-colossus-aoa-input-report",
+      "title": "Community input report — Colossus (Age of Apocalypse) Steel Burst timing",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/419757/colossus-age-of-apocalypse-steel-burst-inconsistent-and-unintuitive",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "cassie-lang",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cassie-lang",
+          "deep-cassie-lang"
+        ],
+        "decisions": [
+          {
+            "title": "Use brief Heavy charging to place dormant Stings safely",
+            "text": "Cassie Lang can shrink during an eligible Heavy sequence and build Sting pressure, but it still needs spacing and an attack she can avoid. Check the defender's range and avoid assuming every incoming Special can be handled by that movement."
+          },
+          {
+            "title": "Use particle-supported Poison to help preserve Stings",
+            "text": "A Light-ending combo can contribute Poison while suitable particle resources are present. Poison protection or debuff removal changes that support loop, so track the actual effects rather than claiming the Sting timers stay extended automatically."
+          },
+          {
+            "title": "Set Taunt before an SP2 intended to capitalize on it",
+            "text": "SP1 can supply Taunt, while SP2 may benefit from using the opponent's affected state. Check the Taunt timer and defender power before spending two bars, since a baited Special can consume the opening."
+          }
+        ]
+      }
+    },
+    {
+      "id": "civil-warrior",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-civil-warrior",
+          "deep-civil-warrior"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Armor with a defender that does not strip it immediately",
+            "text": "Civil Warrior builds Armor with attacks and SP1, but Armor Break or Nullify can erase valuable setup. Check whether the current fight lets those buffs remain before waiting for a full defensive stack."
+          },
+          {
+            "title": "Convert Armor to Fury only when you can use the resulting window",
+            "text": "His dash-back block input can support a Fury conversion, but it changes the resource state. Time it ahead of a clean punish instead of triggering it at a distance that prevents the following Special from landing."
+          },
+          {
+            "title": "Pick Heavy Heal Block or SP2 Power Burn by threat",
+            "text": "Heal Block matters against regeneration while SP2 Power Burn addresses a different power-related problem. Check the defender's actual mechanic before selecting a move simply because it has more bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "colossus-age-of-apocalypse",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-colossus-age-of-apocalypse",
+          "deep-colossus-age-of-apocalypse",
+          "b08-colossus-aoa-spotlight",
+          "b08-colossus-aoa-input-report"
+        ],
+        "decisions": [
+          {
+            "title": "Build Osmium Prowess before spending a Steel Burst",
+            "text": "Colossus (Age of Apocalypse) builds Osmium Prowess through repeated eligible hits. Confirm the count before using the double-tap Block Steel Burst input; an early or missed activation may disrupt the intended combo extension."
+          },
+          {
+            "title": "Practice the double-tap input outside a dangerous fight",
+            "text": "A community report describes the Steel Burst block input as difficult to execute consistently. This is a player-experience report, not proof the kit always fails; learn the timing on a manageable opponent before using it in a critical quest."
+          },
+          {
+            "title": "Use Berserk SP2 only when the remaining window is playable",
+            "text": "SP2 can enter Berserk and expand the Prowess setup, while the available Specials change during the state. Check the opponent's power and mobility first, since an overly passive defender can waste the limited Berserk window."
+          }
+        ]
+      }
+    },
+    {
+      "id": "count-nefaria",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-count-nefaria",
+          "deep-count-nefaria"
+        ],
+        "decisions": [
+          {
+            "title": "Build Charges through a genuine defensive or counter-Evade opening",
+            "text": "Count Nefaria can develop resources from well-timed blocks and certain counter-Evade interactions. Verify the trigger and the opponent's Evade behavior before treating every basic combo as a full ramp."
+          },
+          {
+            "title": "Use SP1 to move Build Ups into the resource you actually need",
+            "text": "SP1 can consume Build Ups for charge and recovery benefits. Check the existing resource count and current health instead of automatically spending every bar when another setup would be more valuable."
+          },
+          {
+            "title": "Cash SP2 during a developed Overcharge state",
+            "text": "A higher charge bank can make the SP2 Fury and damage window more attractive. Against an opponent with energy-damage mitigation or hostile power rules, assess whether the longer ramp remains safe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cull-obsidian",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cull-obsidian",
+          "deep-cull-obsidian"
+        ],
+        "decisions": [
+          {
+            "title": "Plan persistent mission progress over several fights",
+            "text": "Cull Obsidian can develop persistent charges through eligible combo and knockout missions. His early and fully ramped fights are not equivalent, so choose quest order deliberately before evaluating his strongest burst."
+          },
+          {
+            "title": "Use a safe Heavy for Armor Break before Rout",
+            "text": "A Heavy can prepare Armor Break and a dash-back block input can enter Rout, but both need manageable spacing. Check Armor Break immunity and current enemy power before committing to the expensive offensive sequence."
+          },
+          {
+            "title": "Choose SP2 effect pause or SP3 buff restoration intentionally",
+            "text": "SP2 can help maintain Armor Break while SP3 supports a different buff-restoration objective. A near-defeated defender may not justify the SP3 investment, and armor-immune opponents may erase SP2's intended benefit."
+          }
+        ]
+      }
+    }
+  ]
+}

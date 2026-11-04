@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion batch 08F (6/8), original source-linked conditional fight decisions, not in-game combat testing or copied kit content.",
+  "sources": [
+    {
+      "id": "b08-blue-marvel-official",
+      "title": "Kabam champion spotlight — Blue Marvel (release reference)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-blue-marvel/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b08-blade-stellar-official",
+      "title": "Kabam champion spotlight — Blade (Stellar Forged) variant reference",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-blade-stellar-forged/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "black-widow-claire-voyant",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-widow-claire-voyant",
+          "kit-black-widow-claire-voyant",
+          "expanded-core-black-widow-claire-voyant"
+        ],
+        "decisions": [
+          {
+            "title": "Select the curse with fourth-light finishers before choosing SP2",
+            "text": "Claire Voyant can cycle Blood, Plague and Hellfire with a fourth-light combo ending. Choose the form for healing, power control or damage before spending power; a mismatched curse makes the next SP2 solve a different problem."
+          },
+          {
+            "title": "Use target immunity interactions only for the matching curse",
+            "text": "Each curse has an associated damage effect and possible utility from the opponent's immunity. Check which effect is relevant rather than assuming Poison, Bleed and Incinerate immunities are interchangeable."
+          },
+          {
+            "title": "Save SP3 Death Touch setup for fights long enough to use it",
+            "text": "SP3 can spend accumulated resources on Death Touch, but its value depends on a prepared charge state and time remaining. In short fights, SP2 in the appropriate curse may provide a safer and more direct result."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-widow-deadly-origin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-black-widow-deadly-origin",
+          "deep-black-widow-deadly-origin"
+        ],
+        "decisions": [
+          {
+            "title": "Trigger Insight from a genuine punish or intercept",
+            "text": "Black Widow (Deadly Origin) develops Insight from specific aggressive openings, not from every basic attack. Confirm the state and choose controlled punish opportunities rather than chasing a reckless intercept into a dangerous defender."
+          },
+          {
+            "title": "Set up Shock before an Insight-enhanced SP2",
+            "text": "Light attacks can apply Shock while an Insight window supports additional offense. Check whether the defender can retain Shock before planning the SP2 chain, since Shock immunity or Purify may erase the expected benefit."
+          },
+          {
+            "title": "Treat SP1 anti-Evade as condition-specific utility",
+            "text": "SP1 can provide a situational way to answer Evade, but it is not automatic protection against Miss, Auto-Block or every defensive node. Check activation requirements and current Insight timing before selecting the counter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blade-stellar-forged",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-blade-stellar-forged",
+          "deep-blade-stellar-forged",
+          "b08-blade-stellar-official"
+        ],
+        "decisions": [
+          {
+            "title": "Build Degeneration from real block and buff events",
+            "text": "Blade (Stellar Forged) has a distinct Degeneration plan using well-timed blocks and enemy buff expiry. Do not transfer the original Blade's Bleed-based rotation or Danger Sense assumptions without checking this variant's resources."
+          },
+          {
+            "title": "Use SP1 Torment only when the matchup benefits",
+            "text": "SP1 can support Torment and a temporary Danger Sense-related opportunity when its conditions are met. Check the target's classification, current passive effects and the remaining duration before building a follow-up around it."
+          },
+          {
+            "title": "Spend SP2 while Torment is maintained",
+            "text": "A developed Torment window can support a stronger SP2, but the payoff is conditional on the relevant debuffs and proximity interactions. Preserve health and power rather than staying dangerously close just to force one more Degeneration tick."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blue-marvel",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-blue-marvel",
+          "deep-blue-marvel",
+          "b08-blue-marvel-official"
+        ],
+        "decisions": [
+          {
+            "title": "Start Overload with a safe Heavy before expecting the ramp",
+            "text": "Blue Marvel can apply Overload through Heavy attacks and extend the setup with a timed block input. Confirm the effect and spacing first, especially when an aggressive defender can punish the Heavy or negate the debuff."
+          },
+          {
+            "title": "Use SP1 Provoke and Wither for a control objective",
+            "text": "SP1 can supply Provoke, Wither and help maintain debuff pressure while charges develop. Check whether the opponent's power gain is actually affected and whether Provoke makes the next Special bait safer."
+          },
+          {
+            "title": "Wait for Stable Release before the stronger SP2 conversion",
+            "text": "SP2 can reward the Stable Release state and its timing interactions, while SP3 offers a longer ramp. In a brief Battlegrounds-style fight, this setup may take too long; do not project fully ramped damage onto a fresh fight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cable",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cable",
+          "deep-cable"
+        ],
+        "decisions": [
+          {
+            "title": "Avoid promising the Heavy setup against every Robot",
+            "text": "Cable's recorded Heavy-based plan has matchup exceptions, including Robot-related constraints. Check the exact defender before relying on a repeated Heavy to create a useful debuff opportunity."
+          },
+          {
+            "title": "Choose SP2 only when the damage effect can survive",
+            "text": "SP2 can offer Incinerate and a Concussion chance, but neither is guaranteed through every immunity or node. Use a safe punish and inspect the actual effects before scheduling the next attack around their uptime."
+          },
+          {
+            "title": "Reserve SP3 True Strike for an avoidance problem",
+            "text": "SP3 can establish True Strike-related utility and alter subsequent SP1 pressure. Against a defender with no Evade or Auto-Block threat, the extra setup may not justify waiting for three bars of power."
+          }
+        ]
+      }
+    }
+  ]
+}

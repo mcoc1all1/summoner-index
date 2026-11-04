@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Forty-profile batch 08D (4/8): five original decision-focused entries using existing references and Kabam balance context; no independent combat tests.",
+  "sources": [
+    {
+      "id": "b08-zola-balance",
+      "title": "MCOC balance team — Arnim Zola and Joaquin Torres review (historical)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399521/balance-update-arnim-zola-and-falcon-joaquin-torres",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "adam-warlock",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-adam-warlock",
+          "deep-adam-warlock"
+        ],
+        "decisions": [
+          {
+            "title": "Build Sovereignty without a Parry that resets it",
+            "text": "Adam Warlock's Sovereignty progression rewards a planned attack sequence, including specific light-hit and Special interactions. A habitual Parry Stun can interrupt that sequence, so identify an appropriate no-Stun opening first."
+          },
+          {
+            "title": "Use SP2 pod timing to protect developed momentum",
+            "text": "SP2 can move Adam into his defensive pod interaction while preserving a prepared resource state. Check enemy power and the exit timing; do not treat the pod as unlimited protection from every node or passive effect."
+          },
+          {
+            "title": "Do not assume his signature is mandatory for base mechanics",
+            "text": "His awakened ability can change the matchup's safety and performance, but the recorded resource cycle has its own base requirements. Separate the signature-specific benefits from normal Sovereignty timing when writing a rank-up recommendation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ant-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ant-man",
+          "deep-ant-man"
+        ],
+        "decisions": [
+          {
+            "title": "Set up particles before trying to cash out Power Sting",
+            "text": "Ant-Man can gain particles and Fatigue with SP1, then spend particles through Heavy for another effect. Check the particle count first and use a genuine recovery opening, because a forced Heavy can waste the entire setup."
+          },
+          {
+            "title": "Use SP2 Poison only against an eligible defender",
+            "text": "SP2 can turn developed Fatigue into Poison pressure, but a Poison-immune or cleansing target changes the payoff. Compare this plan with the safer available utility instead of treating the conversion as guaranteed damage."
+          },
+          {
+            "title": "Keep defensive Glancing distinct from attacker immunity",
+            "text": "Ant-Man's defensive interactions should not be described as automatic protection from every attack on offense. Check whether the state and incoming attack meet the relevant condition before relying on mitigation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "arcade",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-arcade",
+          "deep-arcade"
+        ],
+        "decisions": [
+          {
+            "title": "Spend Prize tickets on a specific matchup objective",
+            "text": "Arcade's selectable prizes can change the fight before it starts. Review the ticket cost and defender mechanics rather than taking all available options; a prize with little relevance may weaken a later encounter."
+          },
+          {
+            "title": "Keep the opponent inside a Poisonous Cloud safely",
+            "text": "A Heavy or SP1 can deploy a Poisonous Cloud, but the benefit depends on positioning and the defender's Poison protection. Do not trade unnecessary hits merely to keep the defender standing in a harmful area."
+          },
+          {
+            "title": "Choose SP2 when Bleed and Incinerate are useful",
+            "text": "SP2 can introduce separate damaging debuffs and a corner-trap strategy. Check both immunities and whether the defender's movement allows the trap; a blocked effect cannot be assumed to contribute to damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "arnim-zola",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-arnim-zola",
+          "deep-arnim-zola",
+          "b08-zola-balance"
+        ],
+        "decisions": [
+          {
+            "title": "Use pre-fight Special Lock for the right enemy move",
+            "text": "Arnim Zola can target a Special choice through pre-fight control. Determine which attack is actually dangerous on this node rather than applying a lock to the wrong bar and expecting the defender's entire kit to stop."
+          },
+          {
+            "title": "Set up Energize before the SP2 Disintegration payoff",
+            "text": "A safely landed Heavy and SP1 can develop Energize and Fury, while SP2 spends resources for more Disintegration damage. Check the current counters and opponent's debuff protection before committing to the cash-out."
+          },
+          {
+            "title": "Do not treat Zola's defensive stall as effortless offense",
+            "text": "Kabam's balance team described strong Battlegrounds defending times and a separate attacker signature contribution. Respect the distinction: defensive success is not evidence that an unawakened attack rotation has equal damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "baron-zemo",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-baron-zemo",
+          "deep-baron-zemo"
+        ],
+        "decisions": [
+          {
+            "title": "Set up SP2 Root only when spacing is controllable",
+            "text": "Baron Zemo's SP2 can establish Root for a controlled offensive window. Verify that the opponent is vulnerable and cannot immediately punish with a dangerous Special, rather than treating Root as a universal escape tool."
+          },
+          {
+            "title": "Use SP1 Disorient as an extension of the active setup",
+            "text": "SP1 can support Disorient pressure while Root and other debuffs are already present. If the defender resists ability-accuracy reductions, do not promise identical control; inspect the effect before continuing the attack."
+          },
+          {
+            "title": "Consider SP3 only after meaningful persistent effects exist",
+            "text": "His longer fight may benefit from accumulating indefinite effects before a more expensive Special. Against a short defender or node that cleanses debuffs, a faster SP2 route can be better than waiting for maximum ramp."
+          }
+        ]
+      }
+    }
+  ]
+}

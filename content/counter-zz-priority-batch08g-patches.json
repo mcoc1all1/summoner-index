@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion batch 08G (7/8), five original player-actionable source-linked decisions sets. Official Carina Tivan October 2026 reference; no independent gameplay tests.",
+  "sources": [
+    {
+      "id": "b08-carina-spotlight",
+      "title": "Kabam champion spotlight — Carina Tivan (October 2026)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-carina-tivan/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "captain-america-infinity-war",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-america-infinity-war",
+          "deep-captain-america-infinity-war"
+        ],
+        "decisions": [
+          {
+            "title": "Bank Kinetic Potential only through safe timed blocks",
+            "text": "Captain America (Infinity War) gains Kinetic Potential from eligible blocks, but accepting repeated block damage to reach maximum can be counterproductive. Track the charges and stop blocking when the defender threatens an Unblockable attack."
+          },
+          {
+            "title": "Use Heavy into SP2 only when Fury will last through the attack",
+            "text": "A safely started Heavy can create Fury before an SP2 damage window. Check the current Kinetic Potential and opponent recovery rather than forcing an exposed Heavy startup against an aggressive defender."
+          },
+          {
+            "title": "Reserve SP1 suppression for a defender ability you can affect",
+            "text": "SP1 can support a different defensive-ability suppression objective with adequate setup. Node-protected abilities or ability-accuracy immunity may limit the payoff, so do not advertise it as a universal shutdown."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-america-sam-wilson",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-america-sam-wilson",
+          "deep-captain-america-sam-wilson"
+        ],
+        "decisions": [
+          {
+            "title": "Activate Lock-On deliberately before the SP2 burst",
+            "text": "Captain America (Sam Wilson) can use a dash-back and held-block input to enter Lock-On. Confirm the state and available spacing; SP2 without the required setup does not deliver the same planned payoff."
+          },
+          {
+            "title": "Build Armor through SP1 before spending it on offense",
+            "text": "SP1 can establish Physical Vulnerability and support an Armor-building sequence. Track current Armor Up before a later SP2 rather than assuming the initial defensive stacks remain after enemy Armor Break."
+          },
+          {
+            "title": "Use Lock-On only for the defensive mechanic it handles",
+            "text": "Lock-On can improve reliability against certain evasive or otherwise troublesome defenders, but it is not an unconditional answer to every node. Check whether the opponent's avoidance is actually within its scope."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-britain",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-britain",
+          "deep-captain-britain"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP1 Slow when Unstoppable or Evade is the obstacle",
+            "text": "Captain Britain's SP1 can supply Slow and Exhaustion pressure, but Slow is not a blanket answer to every passive or node effect. Verify that the target can receive Slow before choosing the control branch."
+          },
+          {
+            "title": "Build an extended Psionic Mode only for long encounters",
+            "text": "SP3 can support a longer empowered Psionic Mode when started in the correct state. Check which mode is currently active and how much fight remains; saving three bars in a short encounter can waste the benefit."
+          },
+          {
+            "title": "Choose SP2 Bulwark when the next attack needs protection",
+            "text": "SP2 can offer Bulwark and enable a follow-up Neuroshock plan. Check whether the opponent is protected from the relevant damage effect, and use the defensive buff for a real safety need rather than an automatic rotation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "carina-tivan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-carina-tivan",
+          "deep-carina-tivan",
+          "b08-carina-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Build Power Gain before chasing a Myriad buff",
+            "text": "Carina's first Light and SP1 can develop Power Gain, while overstacking converts extra applications into Unblockable buffs. A Myriad damage plan depends on a substantial Unblockable reserve, so check the visible count before the next Special."
+          },
+          {
+            "title": "Use SP2 Corrosion during a developed Myriad window",
+            "text": "SP2 can deliver Corrosion, which benefits from the appropriate offensive buffs and armor-related setup. A defender protected from Corrosion or an enemy that removes buffs changes the expected damage substantially."
+          },
+          {
+            "title": "Plan SP3 around unique buffs and quest-long ISO-8 shards",
+            "text": "SP3 can add multiple unique buffs that increase a developed Myriad payoff, while persistent ISO-8 shard progression rewards certain longer quests. Do not assume an unbuilt fresh encounter starts with the same persistent ramp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnage",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-carnage",
+          "deep-carnage"
+        ],
+        "decisions": [
+          {
+            "title": "Establish a Bleed only when the matchup permits it",
+            "text": "Carnage can use Heavy attacks to build Bleed pressure before his Mutation cycle. An opponent that is Bleed-immune removes this part of the normal damage plan; avoid risking an unsafe Heavy for an effect that cannot stick."
+          },
+          {
+            "title": "Choose the desired permanent Mutation buff before the timer ends",
+            "text": "Carnage's Mutation can convert an eligible attack choice into a longer-lasting offensive buff. Decide which effect the fight needs rather than ending the timer with a random attack and expecting the same ramp every time."
+          },
+          {
+            "title": "Use Unblockable Special pressure only under the recorded conditions",
+            "text": "The interplay with active Bleed or Armor Break can change a Special's Unblockable opportunity. Confirm the relevant debuff and defender protections first; an immune target or cleansed debuff invalidates the assumption."
+          }
+        ]
+      }
+    }
+  ]
+}
