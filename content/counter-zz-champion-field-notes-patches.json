@@ -1,0 +1,343 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "scope": "10 original, source-linked player decision guides; secondary research and official notes are references, not licensed prose or gameplay testing.",
+  "sources": [
+    {
+      "id": "field-doom-kabam-aura",
+      "title": "Kabam clarification — Doctor Doom's Aura and combat power",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/180010/can-we-have-an-explanation-from-an-admin-about-dr-doom-change-at-new-patch",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-kushala-kabam-balance",
+      "title": "Kabam balance review — Kushala",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/363592/balance-update-kushala-and-cheelth",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-onslaught-kabam-balance",
+      "title": "Kabam balance review — Onslaught",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/366986/balance-upate-maestro-onslaught-guillotine-deathless",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-bullseye-kabam-balance",
+      "title": "Kabam balance review — Bullseye",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/369780/balance-update-bullseye-and-white-tiger",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-torch-kabam-spotlight",
+      "title": "Kabam champion spotlight — Human Torch",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-human-torch/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-warlock-kabam-spotlight",
+      "title": "Kabam champion spotlight — Warlock",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-warlock/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "field-venom-kabam-changelog",
+      "title": "Kabam changelog — Venom's Genetic Memory and specials",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/395292",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "doctor-doom",
+      "addAbilityIds": [
+        "shock",
+        "stagger",
+        "power-steal",
+        "incinerate"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-doom-kabam-aura",
+          "expanded-core-doctor-doom"
+        ],
+        "decisions": [
+          {
+            "title": "Aura is not Power Lock",
+            "text": "Doom's Aura can stop his own Light, SP1 and SP2 hits from granting the opponent combat power. Kabam clarified that this is not a Power Lock effect; do not assume it triggers nodes or immunity checks that explicitly react to Power Lock."
+          },
+          {
+            "title": "Build a controllable opening",
+            "text": "If a medium Shock lands, a heavy can turn that short opportunity into Stun and Stagger. Use a safe recovery window rather than charging a heavy into an active opponent; defenders that shrug off Shock can deny that setup."
+          },
+          {
+            "title": "Know what breaks the loop",
+            "text": "Slow or Petrify can stop Aura from activating, while Shock resistance or immunity interferes with the medium-to-heavy sequence. Check those interactions before planning an SP3 Aura into repeated SP1 power-steal cycle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kushala",
+      "addAbilityIds": [
+        "degeneration"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-kushala-kabam-balance",
+          "expanded-core-kushala"
+        ],
+        "decisions": [
+          {
+            "title": "Build Blessings deliberately",
+            "text": "Kushala's blocks, intercepts and heavy interactions produce different Blessing opportunities. In a long fight, watch which Blessing is weakest before repeating a trigger: maintaining a balanced set is more useful than blindly rushing specials."
+          },
+          {
+            "title": "Choose the damage conversion",
+            "text": "SP1 can remove opposing buffs and add Incinerates; SP2 uses the Ignition setup to produce Soul Barb. Against buff-heavy defenders, inspect actual buffs and the Soul Barb state before spending power instead of assuming every special produces the same damage."
+          },
+          {
+            "title": "Check the opposing protections",
+            "text": "Incinerate immunity, Nullify resistance and node-granted buffs can each change the rotation. Her own Bleed and Incinerate protections do not establish immunity to every energy effect or debuff; identify the mechanic separately."
+          }
+        ]
+      }
+    },
+    {
+      "id": "onslaught",
+      "addAbilityIds": [
+        "daunted",
+        "degeneration",
+        "delirium"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-onslaught-kabam-balance",
+          "expanded-core-onslaught"
+        ],
+        "decisions": [
+          {
+            "title": "Separate setup from cash-out",
+            "text": "SP1 establishes Neuroshock pressure, whereas SP2 converts accumulated Neuroshocks into Degeneration. Record the active stacks before deciding to launch SP2; a defensive node that changes power or damage-over-time behavior may change the result."
+          },
+          {
+            "title": "Avoid accidental Daunted triggers",
+            "text": "A well-timed block can place Daunted and restrict Willpower healing. When fighting Onslaught, do not blindly Parry for every opening. A backward dash can remove a Neuroshock under the kit's conditions, but Metal champions have an additional restriction."
+          },
+          {
+            "title": "Resistance is not immunity",
+            "text": "Onslaught reduces the potency of several damage effects; that is not equivalent to an immunity to Shock, Bleed or Incinerate. Damage modifiers and Willpower interactions still need a specific matchup check, especially before using a Shock-focused attacker."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bullseye",
+      "addAbilityIds": [
+        "true-accuracy",
+        "cruelty",
+        "unblockable"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-bullseye-kabam-balance",
+          "expanded-core-bullseye"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Killer Instinct as a timed threat",
+            "text": "After Bullseye reaches a bar of power, Killer Instinct can Evade basic attacks while he is not blocking. Attackers should watch the active timer and avoid forcing unsafe punish attempts; the effect cannot simply be assumed disabled by Ability Accuracy reduction."
+          },
+          {
+            "title": "Connect counterattack to the right special",
+            "text": "When using Bullseye, an Evade counterattack can create a brief opening for a follow-up special. A successful Perfect Release contributes to Dialed In, but mistiming it changes that progression; practice the release rather than assuming the bonus is automatic."
+          },
+          {
+            "title": "Plan for unavoidable-looking Bleed",
+            "text": "His blade attacks can produce Bleed even when a defender avoids the strike or uses Dexterity. A counter plan needs to address both the Evade and Bleed pressure; ordinary class advantage alone does not solve that defensive combination."
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent",
+      "addAbilityIds": [
+        "true-focus",
+        "unblockable",
+        "fear",
+        "fury"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "expanded-core-serpent",
+          "serpent"
+        ],
+        "decisions": [
+          {
+            "title": "Separate persistent Dread from Culforce",
+            "text": "Dread is a quest-level resource while Culforce is built and spent through fight actions. Before choosing a burst sequence, check the current charge state and wall position; do not assume one type of charge substitutes for the other."
+          },
+          {
+            "title": "Do not confuse resistances with immunities",
+            "text": "The Serpent protects against Power Lock, Special Lock, Heal Block, Fate Seal and Coldsnap, but reduces Bleed duration rather than being universally Bleed immune. His Power Drain/Burn interaction is also a potency reduction; read the node before assuming zero power loss."
+          },
+          {
+            "title": "Check the special and knockout states",
+            "text": "True Focus and opening Unblockable windows affect how the opponent can avoid his specials. His once-per-fight Death Immunity depends on the relevant Dread and knockout conditions, so it is not a permanent immunity to every source of damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "human-torch",
+      "addAbilityIds": [
+        "power-sting",
+        "energy-damage"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-torch-kabam-spotlight",
+          "expanded-core-human-torch"
+        ],
+        "decisions": [
+          {
+            "title": "Spend Flame On intentionally",
+            "text": "Flame On consumes a persistent pre-fight resource and changes Incinerates to Nova Flames for that battle. This can solve some Incinerate-immune matchups, but do not spend the charge until you know the upcoming fight needs it."
+          },
+          {
+            "title": "Choose a safe heat-building window",
+            "text": "Charging Heavy raises Temperature, while Incinerates and Smoulders help maintain it. SP1 can help stabilize Temperature and SP3 can provide another Nova Form route; simply charging a Heavy into a live special is not a safe setup."
+          },
+          {
+            "title": "Read the counters to your burn loop",
+            "text": "A Bleed on Human Torch shortens his Incinerate duration, and Incinerate-immune opponents can blunt the ordinary loop. Nova Flame's Power Sting punishes opposing specials, but only while the appropriate Nova Flame effect is active."
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlock",
+      "addAbilityIds": [
+        "power-drain",
+        "armor-break",
+        "power-burn"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-warlock-kabam-spotlight",
+          "expanded-core-warlock"
+        ],
+        "decisions": [
+          {
+            "title": "Make Infection a confirmed state",
+            "text": "Warlock builds his Techno-Organic Virus before Infection prevents recovery. Watch the actual Infection indicator instead of assuming one contact hit permanently blocks healing; champion and node interactions can change the buildup."
+          },
+          {
+            "title": "Choose SP1 or SP2 for a reason",
+            "text": "SP1 is a power-control option but consumes existing Infections. SP2 instead supports Armor Break and refreshes an Infection, making it a better consideration when preserving the anti-heal window matters more than draining power."
+          },
+          {
+            "title": "Match the immunity to the hazard",
+            "text": "Warlock has several specific damaging-effect immunities, but they do not remove every node penalty or non-damaging debuff. Identify whether the fight requires Bleed/Poison/Coldsnap/Frostbite protection, power management, or something unrelated."
+          }
+        ]
+      }
+    },
+    {
+      "id": "angela",
+      "addAbilityIds": [
+        "precision"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "deep-angela",
+          "roster-angela"
+        ],
+        "decisions": [
+          {
+            "title": "Watch the current power band",
+            "text": "Angela's offensive Huntress buffs depend on where her power sits. Build power intentionally to access Fury and Precision; landing critical hits can duplicate a Huntress buff, but the active buff state matters to the outcome."
+          },
+          {
+            "title": "Use specials to reinforce, not replace, the setup",
+            "text": "An SP1 while Fury is present supports a longer Fury window. In a longer fight, an SP3 is more appealing when Aptitude is already active. Record the existing buffs before choosing a special rather than treating them as interchangeable damage buttons."
+          },
+          {
+            "title": "Duration reduction has boundaries",
+            "text": "Angela's signature and buffs can shorten some incoming debuff durations, but duration reduction does not mean immunity to passive damage. Buff Nullify or other buff removal can also cut off the offensive plan; verify those separately."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shocker",
+      "addAbilityIds": [
+        "auto-block",
+        "prowess-removal"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "deep-shocker",
+          "roster-shocker"
+        ],
+        "decisions": [
+          {
+            "title": "Critical Rating does not create critical hits",
+            "text": "Shocker cannot land critical hits. His Critical Rating instead lowers the opponent's Armor Rating on attacks. Measure that interaction against an armored target rather than recommending Precision as if it raised critical-hit frequency."
+          },
+          {
+            "title": "Count charges before committing",
+            "text": "Vibro-Shock Charges unlock special defensive and dash options after enough stacks. Spending them for Auto-Block or losing them to a mistimed exchange reduces what the next action can do; watch the charge count, not only the power bar."
+          },
+          {
+            "title": "Control the SP2-to-Heavy window",
+            "text": "SP2 can supply the Stun and Physical Vulnerability opening used for a charged Heavy release. Check Stun restrictions, defender recovery and spacing first; delaying the release too long can waste the setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "venom",
+      "addAbilityIds": [
+        "precision",
+        "cruelty"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "field-venom-kabam-changelog",
+          "deep-venom"
+        ],
+        "decisions": [
+          {
+            "title": "Manage the random Genetic Memory set",
+            "text": "Venom's Klyntar Mutation adds Genetic Memory buffs over time. A Heavy can reroll the newest one, so use it to pursue a useful buff instead of assuming your opening buffs will match every opponent."
+          },
+          {
+            "title": "Know the cost of the SP2 finish",
+            "text": "SP2 trades accumulated Genetic Memory buffs for a shorter Fury-oriented burst. That may suit a low-health finish, but it also means rebuilding afterward; compare that choice against continued buff stacking in longer fights."
+          },
+          {
+            "title": "Check Klyntar dependence",
+            "text": "His Spider-Verse Evade control and other opponent-specific interactions rely on Klyntar conditions. Incinerate or buff removal can interrupt those advantages; SP1's buff theft and healing also depend on suitable opposing buffs."
+          }
+        ]
+      }
+    }
+  ]
+}
