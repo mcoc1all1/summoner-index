@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {fingerprint} from '../src/rights-assessment.mjs';
 import {rightsReviewQueue} from '../scripts/rights-review-queue.mjs';
 
 const source=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url),'utf8'));
@@ -23,5 +24,8 @@ test('rights approval requires an accepted basis and specific supporting evidenc
   rights:{status:'reviewed',basis:'unclassified',evidence:'Credit to source'}}]};
  assert.equal(rightsReviewQueue(db,manifest).reviewed,0);
  manifest.reviews[0].rights={status:'reviewed',basis:'independently-authored-facts',evidence:'Record of independent research and passage comparison'};
+ assert.equal(rightsReviewQueue(db,manifest).reviewed,0);
+ manifest.reviews[0]={...manifest.reviews[0],reviewer:'Test fixture',fingerprint:fingerprint(db,db.bosses[0])};
+ Object.assign(manifest.reviews[0].rights,{expression:'Facts described originally',arrangement:'Functional sequence',compilation:'No copied compilation',unresolved:[],sources:[{sourceId:'x',url:'https://example.org/test',access:'compared',comparison:'Manual comparison fixture',licenseStatus:'No license relied on',locator:'Main text',checkedAt:'2026-11-04'}]});
  assert.equal(rightsReviewQueue(db,manifest).reviewed,1);
 });

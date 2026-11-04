@@ -1,12 +1,10 @@
 import {bossGuidance} from './boss-guidance.mjs';
 import {contentPolicy} from './content-policy.mjs';
-import {createHash} from 'node:crypto';
+import {fingerprint,rightsAssessmentReasons} from './rights-assessment.mjs';
+export {fingerprint} from './rights-assessment.mjs';
 import {escapeHtml as e} from './domain.mjs';
 import {validDate} from './review.mjs';
 
-export function fingerprint(db,boss){
-  return createHash('sha256').update(JSON.stringify({boss,sources:boss.sourceIds.map(id=>db.sources.find(s=>s.id===id))})).digest('hex');
-}
 export function assessPublication(db,manifest){
   const eligible=[],held=[];
   const ids=manifest.selectedBossIds||[];
@@ -20,7 +18,7 @@ export function assessPublication(db,manifest){
       if(review.fingerprint!==fingerprint(db,boss))reasons.push('Content or evidence changed since review');
       if(!validDate(review.reviewedAt)||!review.reviewer?.trim())reasons.push('Dated reviewer identity missing');
       if(review.accuracy?.status!=='source-checked'||!review.accuracy.evidence?.trim())reasons.push('Accuracy evidence review missing');
-      if(!['independently-authored-facts','licensed','permission','documented-exception'].includes(review.rights?.basis)||!review.rights?.evidence?.trim()||review.rights?.status!=='reviewed')reasons.push('Content reuse assessment missing');
+      reasons.push(...rightsAssessmentReasons(db,boss,review));
       if(!review.limitations?.trim())reasons.push('Reader-facing limitations missing');
       if(!review.attribution?.trim())reasons.push('Attribution/change notice missing');
     }
