@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "captain-america-infinity-war",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Captain America (Infinity War) gathers Kinetic Potential through well-timed blocks and converts a Heavy-triggered Fury window into a Special 2. Critical Rating could raise eligible direct-hit critical frequency, but cannot add Kinetic Potential, lengthen Fury or replace the heavy-cancel timing. Compare equal potential and the same special openings.",
+        "defenseReason": "Armor Penetration is an outgoing damage experiment on armored matchups, not a defensive survival improvement. It does not stop Kinetic Potential decay, prevent charges being spent by specials, or bypass every armor-based node. Compare a blocking or resistance setting when taking hits while charging is the limiting factor.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "carnage",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Carnage uses timed Mutations to gain permanent offensive Buffs and can choose Precision effects to improve direct-hit critical frequency. Critical Rating is therefore a trial best measured against an unchanged Mutation selection and equal Bleed/Armor Break setup; it is not assumed to amplify Bleed ticks.",
+        "defenseReason": "Armor Rating is an incoming mitigation trial, but it does not generate Mutation Buffs or prevent an opponent from Nullifying the Buffs that Carnage relies on. Compare physical resistance where appropriate and do not treat the setting as a guarantee against armor removal.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "cassandra-nova",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Cassandra Nova Channels to build Daunted until Neuroshock becomes available. Critical Rating may help eligible direct attacks, but cannot remove the Daunted threshold or boost Neuroshock ticks by assumption. Compare equal Channel progress and avoid confusing critical-hit variation with damage produced by Neuroshock.",
+        "defenseReason": "Armor Penetration may help eligible hits against armored attackers but will not preserve Daunted after being hit or change the rate of Neuroshock application. Compare mitigation where the opponent can interrupt Channeling, and separate block damage from her other passive effects.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "dragon-man",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Dragon Man builds Incinerate and Fury while cornering the opponent, then may cash out accumulated Incinerates with Heavy. Special Damage is a direct special-hit hypothesis at matched Cornered state, Fury and Incinerate count; it should not be described as a flat bonus to each Incinerate tick or the Heavy detonation.",
+        "defenseReason": "Armor Penetration is a direct-hit pressure choice against opponents with armor. It does not grant Power Charges, bypass the Stun interaction that removes one, or reproduce the damage gained from successful corner positioning. Compare resistance where prolonged defender pressure matters more.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "hulkbuster",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Hulkbuster builds Shocks and obtains special block-break bonuses by throwing SP1 or SP2 into Block. Critical Rating is an eligible direct-hit experiment, not a way to raise Shock damage or guarantee the opponent will block a special. Compare the same Armor Up and block-break pattern while measuring direct hits separately.",
+        "defenseReason": "Armor Rating is a mitigation trial against armor-relevant incoming attacks; it does not create an Armor Up Buff, improve the special block-break effects, or save the champion if Armor Up is removed. Compare Block Proficiency for actual blocked-hit damage rather than assuming more armor helps every matchup.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "iron-man",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Iron Man assembles Armor Up effects to activate the Arc Reactor, then spends Reactor charges on stronger specials. Critical Rating may help eligible direct attacks, but cannot accelerate Reactor activation or increase charge duration. Compare fixed Reactor and Armor Up states, and check Special Damage as the direct-burst alternative.",
+        "defenseReason": "Armor Penetration may improve eligible direct damage into armor, but it does not add Reactor charges, prolong Armor Ups or protect the defender from power/armor control. Compare Block Proficiency or resistance when his survival during the Reactor cycle is the key constraint.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "silver-surfer",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Silver Surfer collects distinct rotating Buff types, builds a special window with Aptitude, and spends Power Cosmic. Critical Rating can be trialled for eligible direct-hit crit frequency, but does not replace the unique-Buff setup or increase Buff duration. Compare equal Buff diversity, Power Cosmic and Aptitude before judging the focus.",
+        "defenseReason": "Armor Rating may reduce eligible physical incoming hits but does not create Armor Up Buffs, prevent Nullify disrupting the rotating-Buff cycle, or lengthen his brief Phase after spending Power Cosmic. Compare another mitigation setting for energy-heavy attackers.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    },
+    {
+      "id": "white-tiger",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: White Tiger cycles specials to build Fury, while a dash-in can grant a short Precision window. Critical Rating is a direct-hit frequency experiment that should be compared with matching Fury and Precision timing; it is not a way to extend Bleed or guaranteed healing denial on SP2.",
+        "defenseReason": "Armor Penetration may support eligible direct-hit pressure into armor, but it does not remove enemy Power Gain, extend Fury or create the Bleed-based healing-denial window against Bleed-immune defenders. Compare physical resistance when defender durability is more important than blocked or armored-hit damage.",
+        "note": "Kit-specific editorial comparison based on already cited community starting picks; the effect is not independently gameplay-tested. Review actual eligible stat mechanics and target matchup before investing."
+      }
+    }
+  ]
+}
