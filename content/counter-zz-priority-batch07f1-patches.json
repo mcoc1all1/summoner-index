@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07F-1 of forty profiles: King Groot, Loki and Madelyne Pryor original conditional guidance.",
+  "championPatches": [
+    {
+      "id": "king-groot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-king-groot",
+          "deep-king-groot"
+        ],
+        "decisions": [
+          {
+            "title": "Check Malice before applying indefinite Armor Break",
+            "text": "King Groot's SP1 can provide a lasting Armor Break during Malice, but that state must actually be active. Check the buff and opponent Armor Break immunity before planning the rest of the fight around permanent control."
+          },
+          {
+            "title": "Use SP2 Poison when the defender can receive it",
+            "text": "SP2 during Malice can support a longer Poison plan, while some Robot matchups involve a different direct-damage route. Confirm target type and effect protection instead of promising equal Poison output into every class."
+          },
+          {
+            "title": "Keep recovery separate from damage progression",
+            "text": "SP3 can offer a healing objective in longer fights, while a Heavy can pause active damage effects if it connects safely. Choose recovery only when the health and power investment outweigh immediate attack progress."
+          }
+        ]
+      }
+    },
+    {
+      "id": "loki",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-loki",
+          "deep-loki"
+        ],
+        "decisions": [
+          {
+            "title": "Only steal buffs worth the power investment",
+            "text": "Loki's SP1 can copy selected opponent buffs, but some defenders have nothing useful to steal or protect their buffs from removal. Check the live buff icons before using SP1 as the central matchup strategy."
+          },
+          {
+            "title": "Use SP3 Curse only if the fight is long enough",
+            "text": "SP3 can establish Curse for sustained buff-related pressure, but reaching three power bars costs time. Decide whether an immediate attack is safer, especially against defenders whose buffs cannot be replicated."
+          },
+          {
+            "title": "Refresh Curse with a safe Heavy, not an unsafe habit",
+            "text": "A Heavy can support Curse maintenance, while SP2 offers a different Unblockable damage route. Use an actual recovery opening before committing; the risk of an interrupted Heavy can erase the benefit of extending Curse."
+          }
+        ]
+      }
+    },
+    {
+      "id": "madelyne-pryor",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-madelyne-pryor",
+          "deep-madelyne-pryor"
+        ],
+        "decisions": [
+          {
+            "title": "Build the Pit only if you can keep the opponent positioned",
+            "text": "Madelyne Pryor's SP2 can establish a Pit and associated Hinder pressure, but the defender must interact with that zone for the setup to matter. Plan spacing and the next punish before spending two bars."
+          },
+          {
+            "title": "Punish recovery to build Misery without rushing",
+            "text": "The recorded scythe interaction can add Misery after a suitable Heavy, combo or Special recovery. Wait for a verified opening rather than repeatedly rushing the defender to accelerate a debuff that may not be safe."
+          },
+          {
+            "title": "Use SP1 or SP3 for different survival goals",
+            "text": "SP1 can help maintain Force Field while SP3 offers a more costly power-related play. Choose based on current defensive resources and the opponent's Special threat, not simply on the largest damage animation."
+          }
+        ]
+      }
+    }
+  ]
+}
