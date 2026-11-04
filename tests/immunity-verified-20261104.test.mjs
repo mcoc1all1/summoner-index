@@ -37,7 +37,7 @@ test('source-scoped protections require dated, attributable evidence',()=>{
   for(const p of champion.protections||[]){
    if(p.checkedAt==='2026-11-04'){
     assert(p.sourceIds.length);
-    assert.match(p.checkedAt,/^\\d{4}-\\d{2}-\\d{2}$/);
+    assert.match(p.checkedAt,/^\d{4}-\d{2}-\d{2}$/);
    }
   }
  }
