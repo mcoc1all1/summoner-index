@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "immunity-magik-kit-20261104",
+      "title": "magik source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/magik/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-hood-kit-20261104",
+      "title": "hood source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/the-hood/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-overseer-kit-20261104",
+      "title": "overseer source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/the-overseer/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-spiral-kit-20261104",
+      "title": "spiral source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/spiral/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-thanos-kit-20261104",
+      "title": "thanos source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/thanos-deathless/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-solvarch-kit-20261104",
+      "title": "solvarch source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/solvarch/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-maker-kit-20261104",
+      "title": "maker source-linked ability and synergy verification",
+      "url": "https://www.mcoc.help/champions/the-maker/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "magik",
+      "addProtections": [
+        {
+          "effectId": "bleed",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Magik gains Bleed immunity only with Purgatory's Dimensional Buddies synergy in the team. The synergy applies to #Dimensional Beings; it is not permanent standalone Bleed immunity.",
+          "sourceIds": [
+            "immunity-magik-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "the-hood",
+      "addProtections": [
+        {
+          "effectId": "bleed",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "The Hood gains Bleed immunity only through Purgatory's Dimensional Buddies synergy. The ability does not follow from his awakened Invisibility-dependent Stun immunity.",
+          "sourceIds": [
+            "immunity-hood-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "the-overseer",
+      "addProtections": [
+        {
+          "effectId": "neutralize",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "The Overseer's Neutralize immunity requires the Spider-Man (Supreme) From the Contest synergy. Without that specific teammate his base kit does not grant Neutralize immunity.",
+          "sourceIds": [
+            "immunity-overseer-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "The Overseer gains Reversed Controls immunity via his Gamma-team synergy with Hulk, Hulk (Immortal), Hulk (Ragnarok) or Joe Fixit. The synergy must be present; do not assume inherent reversed-controls immunity.",
+          "sourceIds": [
+            "immunity-overseer-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "spiral",
+      "addProtections": [
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Spiral's Reversed Controls immunity is supplied by her synergy with Gambit or Rogue, and does not belong to her standalone kit. Falter immunity is a separate base ability.",
+          "sourceIds": [
+            "immunity-spiral-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "thanos-deathless",
+      "addProtections": [
+        {
+          "effectId": "power-burn",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Power Burn immunity requires the Deathless Processor synergy supplied by Vision (Deathless). It is not part of the base Deathless Titan physiology.",
+          "sourceIds": [
+            "immunity-thanos-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "power-drain",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Power Drain immunity requires the Deathless Processor synergy with Vision (Deathless). Do not generalize this to an unsynergized Thanos (Deathless).",
+          "sourceIds": [
+            "immunity-thanos-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "solvarch",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ],
+      "addProtections": [
+        {
+          "effectId": "crush",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Solvarch resists Crush only while a Steadfast Passive is active. When a Crush or Unblockable hit would break Block, Armor Up Passives can be spent to trigger Steadfast; with no Armor Ups or after Steadfast expires this is not unconditional Crush immunity.",
+          "sourceIds": [
+            "immunity-solvarch-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "the-maker",
+      "removeImmunityIds": [
+        "shock"
+      ]
+    }
+  ]
+}
