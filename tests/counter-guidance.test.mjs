@@ -30,8 +30,13 @@ test('confidence labels describe evidence rather than looking like ratings',()=>
  assert.equal(counterConfidence({score:1}).label,'Limited evidence');
  assert.equal(counterConfidence({score:2}).label,'Community recommended');
  assert.equal(counterConfidence({score:3}).label,'Community-backed · kit supported');
- assert.equal(counterConfidence({score:4}).label,'Tested on documented nodes');
- assert.equal(counterConfidence({score:5}).label,'Repeatedly tested');
+ assert.equal(counterConfidence({score:4}).label,'Community-backed · kit supported');
+ assert.equal(counterConfidence({score:5}).label,'Community-backed · kit supported');
+ const tested={gameplayTested:true,gameVersion:'v59.0',testedAt:'2026-11-03',testEvidence:'Video run recorded in current client'};
+ assert.equal(counterConfidence({score:4,review:tested}).label,'Tested on documented nodes');
+ assert.equal(counterConfidence({score:5,review:{...tested,testCount:2}}).label,'Repeatedly tested');
+ assert.equal(counterConfidence({score:5,review:tested}).label,'Tested on documented nodes');
+ assert.equal(counterConfidence({score:5,review:{...tested,testedAt:'unknown'}}).label,'Community-backed · kit supported');
 });
 
 test('invalid condition lists are rejected without requiring them on legacy records',()=>{
