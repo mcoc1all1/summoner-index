@@ -4,8 +4,13 @@
 function publicFocus(source){
  if(!source)return source;
  const kept={...source};
+ const genericRationale=/^Community-corroborated starting point; matchup and playstyle can change the preferred choice\.$/;
  const isReviewed=source.statFocusReview?.status==='reviewed'
-   && source.statFocusEligibility?.status==='confirmed';
+   && source.statFocusEligibility?.status==='confirmed'
+   && !genericRationale.test(source.loadout?.attackReason||'')
+   && !genericRationale.test(source.loadout?.defenseReason||'');
+ if(source.statFocusReview?.status==='reviewed'&&!isReviewed)
+  kept.statFocusReview={...source.statFocusReview,status:'withheld',note:'Specific attacker and defender rationale must be authored and reviewed before publication.'};
  if(kept.loadout){
   kept.loadout={
    ...kept.loadout,
