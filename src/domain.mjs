@@ -65,7 +65,7 @@ export function validate(db) {
         ref('immunities',p.effectId,c.id);
         const key=JSON.stringify([p.effectId,p.forms,p.availability,p.condition]);
         if(seen.has(key))errors.push(`${c.id}: duplicate protection`);seen.add(key);
-        if(!Array.isArray(p.forms)||!p.forms.length||p.forms.some(f=>!['debuff','passive'].includes(f))||new Set(p.forms).size!==p.forms.length)errors.push(`${c.id}: invalid protection forms`);
+        if(!Array.isArray(p.forms)||!p.forms.length||p.forms.some(f=>!['debuff','passive','effect'].includes(f))||new Set(p.forms).size!==p.forms.length)errors.push(`${c.id}: invalid protection forms`);
         if(!['always','conditional'].includes(p.availability)||!validDate(p.checkedAt)||typeof p.condition!=='string'||!p.condition.trim())errors.push(`${c.id}: protection needs activation, condition and review date`);
         if(!Array.isArray(p.sourceIds)||!p.sourceIds.length)errors.push(`${c.id}: protection needs evidence`);else p.sourceIds.forEach(id=>ref('sources',id,c.id));
       }}
