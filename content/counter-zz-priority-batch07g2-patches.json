@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07G-2: original conditional, sourced champion field notes.",
+  "championPatches": [
+    {
+      "id": "nightcrawler",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-nightcrawler",
+          "deep-nightcrawler"
+        ],
+        "decisions": [
+          {
+            "title": "Switch between fighting modes with intent",
+            "text": "Nightcrawler changes modes through specific combo endings and a dash-back block input. Confirm which mode is active before spending power, since the next Special and its available utility depend on the current state."
+          },
+          {
+            "title": "Build Swashbuckling Precision from eligible hits",
+            "text": "Swashbuckling offers Precision opportunities through particular medium hits and timing interactions. Set up a safe combo opening and check the actual buff state rather than assuming the benefit is present immediately."
+          },
+          {
+            "title": "Choose Specials for the relevant damage effect",
+            "text": "SP2 can support Bleed-focused pressure while a different Special route can convert existing Bleeds into Incinerate. Check defender protection and the active effect timer before deciding which sequence to use."
+          }
+        ]
+      }
+    },
+    {
+      "id": "northstar",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-northstar",
+          "deep-northstar"
+        ],
+        "decisions": [
+          {
+            "title": "Build Momentum before entering Speed Burst",
+            "text": "Northstar develops Momentum and Reverb-related resources through eligible attacks and Specials. Track the visible stacks and find a safe dash or recovery opening before expecting the Speed Burst result."
+          },
+          {
+            "title": "Spend the developed charge window deliberately",
+            "text": "SP2 can convert accumulated resources into offensive value while SP1 can influence timing. Check the remaining duration and opponent power before launching, or the intended resource window may be lost."
+          },
+          {
+            "title": "Keep the SP3 upgrade for longer encounters",
+            "text": "SP3 can improve subsequent Speed Burst triggering under the recorded rules, but it requires a sizeable power investment. A shorter fight may favor an earlier Special rather than a longer setup with little time to pay off."
+          }
+        ]
+      }
+    }
+  ]
+}
