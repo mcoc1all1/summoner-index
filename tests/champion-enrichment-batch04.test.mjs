@@ -33,10 +33,10 @@ test('batch 04 reaches ninety profiles while retaining all prior pilot and batch
   assert.equal(db.champions.find(x=>x.id===id)?.fieldNotes?.decisions?.length,3,id);
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
- assert.equal(report.summary.completedPilot,90);
+ assert(report.summary.completedPilot>=90,'batch 04 remains present after subsequent batches');
  assert.equal(report.summary.identityReview,2);
- assert.equal(report.summary.queued,242);
- assert.equal(report.summary.batches,13);
+ assert(report.summary.queued<=242,'new enrichment must not increase the missing-profile queue');
+ assert(report.summary.batches<=13,'the queue must shrink as later batches complete');
 });
 
 test('high-risk mechanical caveats are surfaced without bulk imported content',()=>{
