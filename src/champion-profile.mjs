@@ -46,7 +46,7 @@ export function championProtectionPanel(db,c){
  const total=statusOrder.reduce((sum,key)=>sum+groups[key].length,0);
  const reviewed=['always','conditional','synergy'].filter(key=>groups[key].length).map(key=>protectionGroup(db,groups,key)).join('');
  const unverified=groups.unknown.length?`<details class="unverified-protections"><summary>Unverified protections · ${groups.unknown.length}</summary><p class="muted">These source-listed protections still need activation or scope review.</p><div class="protection-grid">${groups.unknown.map(record=>protectionCard(db,record,'unknown')).join('')}</div></details>`:'';
- const body=total?reviewed+unverified:'<div class="empty protection-empty"><h3>No structured immunity record yet</h3><p>Open the source catalogue below for the information currently available.</p></div>';
+ const body=total?reviewed+unverified:'<div class="empty protection-empty"><h3>No structured immunity record yet</h3><p>The linked external kit reference may contain more details; unrecorded abilities are not necessarily absent.</p></div>';
  return `<section class="panel immunity-hub" id="immunities"><div class="section-head"><div><span class="eyebrow">IMMUNITIES & PROTECTIONS</span><h2>What the kit is protected from</h2></div><a class="text-link" href="/champions?immunity=&activation=all">Browse immunity finder →</a></div><div class="protection-legend" aria-label="Immunity status legend"><span class="legend-always">Always</span><span class="legend-conditional">Conditional</span><span class="legend-synergy">Synergy / pre-fight</span></div>${body}${c.resistanceNote?`<p class="notice"><strong>Resistance / scope note:</strong> ${e(c.resistanceNote)}</p>`:''}</section>`;
 }
 
@@ -65,9 +65,9 @@ function championLoadoutSummary(db,c){
  const defense=verifiedFocus?c.loadout?.defenseFocus:null;
  if(battle)rows.push(['Battlecast',battle]);
  if(statcast)rows.push(['Statcast',statcast]);
- if(attack)rows.push(['Attacker focus',attack]);
- if(defense)rows.push(['Defender focus',defense]);
- const status=c.loadoutException?'Eligibility review required':verifiedFocus?'7★ Stat Focus eligibility verified':'Stat Focus recommendation not published yet';
+ if(attack&&attack!=='Not reviewed')rows.push(['Attacker focus',attack]);
+ if(defense&&defense!=='Not reviewed')rows.push(['Defender focus',defense]);
+ const status=c.loadoutException?'Eligibility review required':rows.some(([label])=>label==='Attacker focus'||label==='Defender focus')?'Editorial Stat Focus trial · eligibility verified':verifiedFocus?'7★ eligible · specific focus recommendation withheld':'Stat Focus recommendation not published yet';
  const summary=rows.length?`<div class="loadout-summary-grid">${rows.map(([label,value])=>`<div><span>${e(label)}</span><strong>${e(value)}</strong></div>`).join('')}</div>`:'<p class="muted">No champion-specific relic or Stat Focus recommendation is published yet.</p>';
  return `${summary}<p class="loadout-status">${e(status)}</p><details class="loadout-evidence"><summary>Why these choices, alternatives & evidence</summary>${loadoutPanel(db,c)}</details>`;
 }
@@ -87,7 +87,8 @@ export function championProfilePage(db,c,{incoming=[],outgoing=[],opponents=[],v
  const guidePending=c.coverage==='roster';
  const signature=c.signatureTarget??null;
  const focusVerified=c.statFocusEligibility?.status==='confirmed';
- const attackFocus=focusVerified?(c.loadout?.attackFocus||c.focusTrial?.attackFocus||null):null;
+ const suggestedFocus=focusVerified?(c.loadout?.attackFocus||c.focusTrial?.attackFocus||null):null;
+ const attackFocus=suggestedFocus==='Not reviewed'?null:suggestedFocus;
  const quickUtility=utility.slice(0,6);
  const remainingUtility=utility.slice(6);
  const statusLine=`${coverageLabel(c)} · ${sevenStarLabel(c)}`;

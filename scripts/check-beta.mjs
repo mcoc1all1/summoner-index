@@ -78,6 +78,18 @@ for(const filename of jsonFiles){
 
 assert.equal(fs.existsSync(new URL('content-workbench/',root)),false,'editor workbench must not be deployed');
 
+// Coverage must not mistake intentionally withheld third-party reference data for
+// confirmed absence, nor present unreviewed Stat Focus drafts as published.
+const coverageHtml=fs.readFileSync(new URL('coverage/index.html',root),'utf8');
+assert.match(coverageHtml,/Structured protections/);
+assert.match(coverageHtml,/External reference only/);
+assert.match(coverageHtml,/Draft withheld/);
+assert.match(coverageHtml,/A zero means no structured record is published here/);
+assert.doesNotMatch(coverageHtml,/<th>Listed abilities<\/th>/);
+assert.doesNotMatch(coverageHtml,/<th>Relic shortlist<\/th>/);
+const directoryHtml=fs.readFileSync(new URL('champions/index.html',root),'utf8');
+assert.match(directoryHtml,/community kit reference lists are linked externally/);
+
 const sitemap=fs.readFileSync(new URL('sitemap.xml',root),'utf8');
 assert.equal([...sitemap.matchAll(/<loc>/g)].length,2);
 for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.mjs'))){
