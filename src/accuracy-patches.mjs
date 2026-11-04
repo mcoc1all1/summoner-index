@@ -81,6 +81,20 @@ function applyChampionPatch(db, patch) {
     champion.immunityIds=(champion.immunityIds||[]).filter(effectId=>!remove.has(effectId));
     if(Array.isArray(champion.protections))champion.protections=champion.protections.filter(record=>!remove.has(record.effectId));
   }
+  if(patch.addAbilityIds){
+    if(!Array.isArray(patch.addAbilityIds))throw new Error(`Ability enrichment for ${patch.id} must be a list`);
+    for(const id of patch.addAbilityIds)if(!db.abilities.some(a=>a.id===id))throw new Error(`Unknown utility label ${id} for ${patch.id}`);
+    champion.abilityIds=[...new Set([...(champion.abilityIds||[]),...patch.addAbilityIds])];
+  }
+  if(patch.fieldNotes){
+    const notes=patch.fieldNotes,label=`Champion field notes for ${patch.id}`;
+    if(!validDate(notes.checkedAt)||!Array.isArray(notes.decisions)||notes.decisions.length<2||notes.decisions.length>5)
+      throw new Error(`${label} requires a dated set of 2–5 decision notes`);
+    for(const item of notes.decisions)if(typeof item?.title!=='string'||!item.title.trim()||typeof item?.text!=='string'||item.text.trim().length<70)
+      throw new Error(`${label} needs meaningful original titles and explanations`);
+    assertSources(db,notes.sourceIds,label);
+    champion.fieldNotes=structuredClone(notes);
+  }
   if(patch.statFocusEligibility){
     const x=patch.statFocusEligibility;
     if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt))throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);
