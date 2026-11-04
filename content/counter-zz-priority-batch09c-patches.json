@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09C/09H: original matchup-specific editorial guidance, citing existing champion sources and verified game-team spotlights.",
+  "sources": [
+    {
+      "id": "b09-goblin-spotlight",
+      "title": "Kabam champion spotlight — Green Goblin (Stellar Forged)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-green-goblin-stellar-forged/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b09-gwenom-recap",
+      "title": "September 2026 MCOC community livestream recap — Gwenom abilities",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/418879/stream-recap-september-4-2026",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "green-goblin-stellar-forged",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-green-goblin-stellar-forged",
+          "deep-green-goblin-stellar-forged",
+          "b09-goblin-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Use distinct debuffs to increase the SP2 Incinerate payoff",
+            "text": "Stellar-Forged Green Goblin gains offensive value from the number of unique debuffs on the opponent, not simply the total stack count. Establish Medium Exhaustion, Heavy Halt and Incinerate, and SP1 Wither as safety permits before the SP2 cash-out."
+          },
+          {
+            "title": "Use the Fractured Power Bar for the SP1 to SP2 sequence",
+            "text": "The unusual power bar allows him to follow a first Special with a second sooner than a conventional kit. Check remaining power and debuff timers so SP2 refreshes a developed setup rather than starting again after everything expired."
+          },
+          {
+            "title": "Counter his defender protections with the right attack type",
+            "text": "As a defender, he starts with defensive Protections that expire faster under eligible intercepts and guaranteed critical hits. A counter able to combine those actions is more purposeful than assuming raw damage alone bypasses his resistances."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guillotine",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-guillotine",
+          "deep-guillotine"
+        ],
+        "decisions": [
+          {
+            "title": "Build Souls through safe critical and Bleed pressure",
+            "text": "Guillotine can generate Bleeds and Soul Charges from suitable attacks, but Bleed immunity can change the early resource plan. Check the defender's effect protection before treating a long Soul ramp as guaranteed."
+          },
+          {
+            "title": "Apply Bleed Curse from a safe Heavy before your cash-out",
+            "text": "A Heavy can prepare Bleed Curse for later Special utility; forcing it while the defender can counterattack loses the benefit. Use a predictable recovery opening, then choose your Special according to whether damage or healing reversal matters."
+          },
+          {
+            "title": "Use SP2 healing reversal for a real regeneration threat",
+            "text": "Her SP2 can reverse opponent healing under the relevant state, including stronger Unshackled circumstances. Against a non-healing target, the same investment may offer less value than a direct damage line or a longer SP3 Soul payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gwenom",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-gwenom",
+          "deep-gwenom",
+          "b09-gwenom-recap"
+        ],
+        "decisions": [
+          {
+            "title": "Select different Symbiote buffs through planned Heavy cancels",
+            "text": "Gwenom can chain a Heavy from a non-ending basic attack to choose among a rotating set of personal buffs. Track the selected state and do not accidentally repeat one option when the matchup needs Grit or another distinct effect."
+          },
+          {
+            "title": "Build Armor Break and Spider-Sense before SP2",
+            "text": "Her critical attacks can contribute Armor Break and SP1 can develop Spider-Sense, preparing a stronger Corrosion payoff. Armor Break-immune opponents change that setup; verify the active effects instead of assuming the full damage threshold."
+          },
+          {
+            "title": "Spend Spider-Sense on SP2 only when Corrosion will matter",
+            "text": "SP2 consumes developed Spider-Sense for a Corrosion-focused burst, and SP3 may reset how buffs are gained. Check enemy protection, available power, and fight length before spending all the accumulated resources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gwenpool",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-gwenpool",
+          "deep-gwenpool"
+        ],
+        "decisions": [
+          {
+            "title": "Build the Bleed loop against a susceptible defender",
+            "text": "Gwenpool's basic hits can support Bleed pressure, and a safe Heavy can turn an existing Bleed into a longer one. Bleed-immune or Purify-heavy opponents weaken this plan, so avoid a risky Heavy that cannot preserve an effect."
+          },
+          {
+            "title": "Choose SP2 when controlling power from received hits is useful",
+            "text": "SP2 can limit the opponent's power gain from being struck, changing how safely you can extend attacks. Check the defender's power immunity and node power sources rather than promising the move disables every form of Power Gain."
+          },
+          {
+            "title": "Maintain the Enervate interaction only with an active Bleed",
+            "text": "The recorded Enervate renewal depends on consuming a Bleed when the effect expires. If Bleeds are absent or cleansed, do not expect uninterrupted control; watch the timers and prepare to bait another Special safely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hawkeye",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-hawkeye",
+          "deep-hawkeye"
+        ],
+        "decisions": [
+          {
+            "title": "Use Heavy Slow only if the defender's trigger qualifies",
+            "text": "Hawkeye can apply Slow from a safe Heavy when an opponent's Evade or Unstoppable threatens the fight. Check the effect's permitted targets and node immunity instead of treating Slow as protection from every defensive animation."
+          },
+          {
+            "title": "Practice SP1 arrow-release timing before a difficult fight",
+            "text": "SP1 offers a timed block-and-release arrow interaction for its stronger result and Suppression. The input must be executed correctly; do not promise identical control from an untimed Special or during a laggy encounter."
+          },
+          {
+            "title": "Use SP2 Fragility when the following attacks can capitalize",
+            "text": "SP2 can offer Fragility but costs additional power and a recovery opening. Check the active Bleed and Fragility timers, then follow with safe hits that preserve the effects instead of rushing against a prepared defender."
+          }
+        ]
+      }
+    }
+  ]
+}
