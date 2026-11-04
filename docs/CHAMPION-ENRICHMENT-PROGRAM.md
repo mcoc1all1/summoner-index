@@ -50,3 +50,9 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - Notes incorporate official clarification where available (e.g. Ant-Man (Future) SP2 requiring active Power Detonation, Hercules Immortality interaction with SP3), and explicitly distinguish source-linked editor guidance from measured gameplay tests.
 - Aarkus's 2026 community stream recap describes proposed changes, not verified live kit; the note says to verify against the installed kit. Existing structured protection records and third-party reference compilations remain unchanged.
 - Rebuild the tracker after merge: `npm run enrichment:tracker`.
+
+## Batch 03 result — 5 November 2026
+
+- Drafted 60 distinct decision-focused notes for the next 20 priority champions: Sunspot, Absorbing Man, Galan, Hulkling, Enchantress, Domino, Hulkbuster, Aegon, Black Cat, Killmonger, Mantis, Mojo, Mordo, Spider-Gwen, Spider-Man (Classic), Spider-Man (Supreme), Symbiote Supreme, Wasp, Corvus Glaive and Mister Sinister.
+- Cumulative enriched profiles on successful merge: **70 of 334**. The nonexception queue becomes **262 profiles** across **14 batches** of 20 or fewer; two roster/identity exceptions remain.
+- Source-linked explanations focus on action decisions, tradeoffs, and matchup mechanics. They do not assert independent gameplay tests, universal ability coverage, precise numerical performance or protected third-party kit reuse. Continue independently checking current versions and contradictory kit reports during future passes.
