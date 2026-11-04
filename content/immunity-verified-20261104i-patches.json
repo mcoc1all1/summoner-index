@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "immunity-shehulk-specific-20261104",
+      "title": "shehulk — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/she-hulk-deathless/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-shuri-specific-20261104",
+      "title": "shuri — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/shuri/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-weaponx-specific-20261104",
+      "title": "weaponx — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/wolverine-weapon-x/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-sinister-specific-20261104",
+      "title": "sinister — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/mister-sinister/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-kingpin-specific-20261104",
+      "title": "kingpin — source-linked immunity scope and exceptions",
+      "url": "https://mcocscout.com/champions/kingpin",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-ddhk-specific-20261104",
+      "title": "ddhk — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/daredevil-hells-kitchen/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-x23-specific-20261104",
+      "title": "x23 — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/wolverine-x-23/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-sauron-specific-20261104",
+      "title": "sauron — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/sauron/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-franken-specific-20261104",
+      "title": "franken — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/franken-castle/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-sasquatch-specific-20261104",
+      "title": "sasquatch — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/sasquatch/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-attuma-specific-20261104",
+      "title": "attuma — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/attuma/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "immunity-sersi-specific-20261104",
+      "title": "sersi — source-linked immunity scope and exceptions",
+      "url": "https://www.mcoc.help/champions/sersi/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "she-hulk-deathless",
+      "addProtections": [
+        {
+          "effectId": "rupture",
+          "availability": "conditional",
+          "forms": [
+            "effect"
+          ],
+          "condition": "She-Hulk (Deathless) gains Rupture immunity only through the synergy with Thanos (Deathless). Without that teammate this protection is not part of her base Poison-immune kit.",
+          "sourceIds": [
+            "immunity-shehulk-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "shuri",
+      "addProtections": [
+        {
+          "effectId": "ability-accuracy-reduction",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Shuri's adaptive technology prevents modification of her Ability Accuracy from the start of a fight; her Shock and Precision effect immunities are separate abilities. This does not prevent the opponent's accuracy from being modified.",
+          "sourceIds": [
+            "immunity-shuri-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "wolverine-weapon-x",
+      "removeImmunityIds": [
+        "petrify"
+      ]
+    },
+    {
+      "id": "mister-sinister",
+      "addProtections": [
+        {
+          "effectId": "regen-rate-mod",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Mister Sinister's Molecular Regeneration prevents opponents from reducing his Regeneration Rate. This protection specifically covers incoming regeneration-rate reductions; it does not prohibit increases from his own Combo Meter mechanic.",
+          "sourceIds": [
+            "immunity-sinister-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "kingpin",
+      "addProtections": [
+        {
+          "effectId": "regen-rate-mod",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Kingpin's Regeneration Rate is set to 50% at fight start and is immune to modification from outside effects except Poison. Poison remains able to change his rate; do not describe this as immunity to Poison or every form of regeneration manipulation.",
+          "sourceIds": [
+            "immunity-kingpin-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "daredevil-hells-kitchen",
+      "addProtections": [
+        {
+          "effectId": "regen-rate-mod",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Daredevil (Hell's Kitchen) begins with a 40% Base Regeneration Rate and is immune to regeneration-rate modifications except those caused by Poison. The exception is material for healing-reversal matchups.",
+          "sourceIds": [
+            "immunity-ddhk-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "wolverine-x-23",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ]
+    },
+    {
+      "id": "sauron",
+      "addProtections": [
+        {
+          "effectId": "regen-rate-mod",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Sauron's Regeneration Rate cannot be increased or decreased by outside sources. This is distinct from his self-triggered Regeneration Passives and does not grant immunity to Heal Block or other unrelated healing mechanics.",
+          "sourceIds": [
+            "immunity-sauron-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "franken-castle",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ],
+      "addProtections": [
+        {
+          "effectId": "petrify",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Franken-Castle's reanimated physiology grants Petrify immunity, independent of his Berserk effects. This named effect immunity does not include a blanket immunity to all other power-control effects.",
+          "sourceIds": [
+            "immunity-franken-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "spectre",
+          "availability": "always",
+          "forms": [
+            "effect"
+          ],
+          "condition": "Franken-Castle's reanimated physiology grants Spectre immunity from fight start, separate from his base regeneration rate floor.",
+          "sourceIds": [
+            "immunity-franken-specific-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "sasquatch",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ]
+    },
+    {
+      "id": "attuma",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ]
+    },
+    {
+      "id": "sersi",
+      "removeImmunityIds": [
+        "regen-rate-mod"
+      ]
+    }
+  ]
+}
