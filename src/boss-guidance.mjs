@@ -6,6 +6,13 @@ export function bossVerification(boss){
  return `<div class="notice"><strong>Verification status: ${e(v.label||v.status)}.</strong> Source check: ${e(v.checkedAt||'not recorded')} · Gameplay tested: ${v.gameplayTested?'yes':'no'}. ${e(v.note||'')}</div>`;
 }
 
+// Pending editorial review is a publication state, not a finding of infringement.
+// Do not promote a source-based draft to a current-client gameplay test.
+export function bossEditorialReviewNotice(review){
+ if(!review||review.accuracy?.status!=='pending'&&review.rights?.status!=='pending')return '';
+ return '<aside class="notice boss-editorial-review" aria-label="Guide review status"><strong>Research draft · review in progress.</strong> This guide\'s source-based explanation, current-game accuracy and reuse review are not complete. Check the linked references, in-game abilities and nodes before spending resources.</aside>';
+}
+
 function list(items=[]){return items.length?`<ul>${items.map(t=>`<li><p>${e(t)}</p></li>`).join('')}</ul>`:'';}
 function cheatSheet(rows=[]){
  if(!rows.length)return '';

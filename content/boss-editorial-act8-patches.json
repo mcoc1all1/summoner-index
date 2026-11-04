@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "scytalis-player-final-phase-20261104",
+      "title": "Scytalis final phase discussion • player reports and quoted mechanic text",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/365946/bug-in-act-8-1-6-boss",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "scytalis-player-trap-interaction-20261104",
+      "title": "Scytalis trap interactions • player troubleshooting",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/316928/act-8-1-6-bw-scytalis-another-issue",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "bahamet-player-removal-20261104",
+      "title": "Bahamet phase-two charge and reflection discussion • player reports",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/375422/8-2-6-bahamet-phase-2-bug",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "bahamet-player-reflection-20261104",
+      "title": "Bahamet charge generation and wave troubleshooting • player reports",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/356106/8-2-6-bahamet-boss/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "bossPatches": [
+    {
+      "id": "scytalis",
+      "summary": "The winning decision changes with the health bar: bait the correct special, confirm the trap is armed, and choose a knockdown or Prowess-building finish.",
+      "sourceIds": [
+        "scytalis",
+        "boss-scytalis-kit-review",
+        "scytalis-player-final-phase-20261104",
+        "scytalis-player-trap-interaction-20261104"
+      ],
+      "phases": [
+        {
+          "name": "Setup — wait for an armed trap",
+          "text": "First identify which special produces the trap in the current phase. Give it time to arm, then position Scytalis for a knockdown over it. If she is blocking or the trap is still inactive, pushing her across the marker will not open the fight."
+        },
+        {
+          "name": "Opening • 100–81%",
+          "text": "Look for SP1. Once its trap is armed, move Scytalis across it with a well-spaced heavy or special knockdown. Use the resulting armor-down interval for damage; when she changes phase, expect protection to return."
+        },
+        {
+          "name": "Middle • 80–41%",
+          "text": "The trap now comes from SP2. Contact from ordinary combo hits is no longer enough to spring it on Scytalis: line up an actual knockdown. If the trap disappears before you connect, reset rather than forcing an attack into Corrupted Armor."
+        },
+        {
+          "name": "Late • 40–6%",
+          "text": "Return to baiting SP1, but keep the middle-phase habit of using a knockdown to connect with the armed trap. This is still a temporary armor-down opening; do not confuse it with the different finish mechanic."
+        },
+        {
+          "name": "Finish • 5–0%",
+          "text": "Change the plan at 5%. Use SP2 to create a trap and avoid relying on heavies, which Scytalis evades even when stunned. A trap can add Prowess, but will not remove Corrupted Armor. Instead, spend those Prowess effects through the hits of your special attacks to reduce the protection."
+        }
+      ],
+      "mistakes": [
+        "Trying to move Scytalis before the current trap has armed.",
+        "Continuing to bait SP1 after the fight has entered a phase that needs SP2.",
+        "Expecting ordinary combo contact to trigger a trap after the opening phase.",
+        "Throwing repeated heavies into the final 5% Evade mechanic.",
+        "Waiting for the armor to drop at the finish instead of using Prowess-backed special hits."
+      ],
+      "avoid": "Source-based Act 8.1.6 decision guide, not a recorded gameplay test. Read the currently displayed phase and linked path nodes before committing resources. A cited player report describes trap behavior inconsistencies; this guide does not diagnose or guarantee a workaround for a live bug.",
+      "guideDetails": {
+        "attackerProfile": [
+          "A champion comfortable with special-attack timing and repositioning can execute the trap loop without relying on one specific matchup recommendation.",
+          "Access to Prowess helps in the finish, when special hits rather than an armor-down interval determine progress.",
+          "Reliable special damage and controlled spacing are more important than forcing repeated basic attacks into Corrupted Armor."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "100–81%",
+            "objective": "Bait SP1 → wait for armed trap → knockdown",
+            "watch": "Trap can appear before it becomes active"
+          },
+          {
+            "stage": "80–41%",
+            "objective": "Bait SP2 → move her with a knockdown",
+            "watch": "Combo contact no longer triggers her trap"
+          },
+          {
+            "stage": "40–6%",
+            "objective": "Bait SP1 → repeat armed-trap knockdown",
+            "watch": "Check the new phase before repeating a setup"
+          },
+          {
+            "stage": "5–0%",
+            "objective": "Bait SP2 → collect Prowess → land special hits",
+            "watch": "Heavies Evaded; traps no longer remove Corrupted Armor"
+          }
+        ],
+        "preparation": [
+          "Before each bait, check both the current health phase and which special is required; the sequence is SP1, SP2, SP1, SP2.",
+          "Observe the trap's armed state before pushing Scytalis through it. Avoid stepping over the marker yourself.",
+          "Reserve a safe method of landing specials for the final 5%, when Prowess becomes more important than opening a normal armor-down window."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "She crosses the trap but it does nothing",
+            "response": "First check whether the trap has armed and whether Scytalis was blocking. After the opening phase, confirm that you actually knocked her down rather than just hitting her toward the trap."
+          },
+          {
+            "problem": "My attacks barely damage her again",
+            "response": "Look at her current phase and armor status. The trap window is temporary, and protection resets at transitions; build the next valid opening rather than spending specials blindly."
+          },
+          {
+            "problem": "The trap or damage window changes near 5%",
+            "response": "At the final threshold, switch from opening her armor to generating Prowess and spending it through special hits. Repeated heavies are unreliable because she Evades them."
+          },
+          {
+            "problem": "The displayed trap behavior seems inconsistent",
+            "response": "Check the on-screen phase and in-game ability text. Community posts describe apparent bugs, but this source-based guide cannot confirm whether your current game build has the same issue."
+          }
+        ],
+        "scope": "Act 8.1.6 Scytalis only. Decision-focused explanation synthesized from cited mechanic descriptions and player troubleshooting. Not independently tested in the current client; exact activation timing, linked path nodes and later encounter variants are not certified."
+      },
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-11-04",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "The phase-switch and final Prowess instructions were compared with multiple community discussions. The text is an editorial synthesis, not an independently recorded fight or a claim of cleared source reuse."
+      },
+      "reviewedAt": "2026-11-04"
+    },
+    {
+      "id": "bahamet",
+      "summary": "Build his Volatility to produce a radiation wave; spend your special to earn Removal charges, then use the phase-specific method to weaken his armor.",
+      "sourceIds": [
+        "bahamet",
+        "bahamet-counter",
+        "boss-bahamet-kit-review",
+        "bahamet-player-removal-20261104",
+        "bahamet-player-reflection-20261104"
+      ],
+      "phases": [
+        {
+          "name": "Setup — read both charge counters",
+          "text": "Watch two different resources: Bahamet's Volatility helps trigger the wave, while your Removal charges determine which armor interaction you can perform. Stay near enough during his buildup to encourage Volatility, then bait a special once he has the required stacks. Plan to answer the resulting radiation wave with your own special."
+        },
+        {
+          "name": "Opening • 100–81%",
+          "text": "Intercept a radiation blast with SP1 or SP2 to obtain a Removal charge, then knock Bahamet down while you hold it. That knockdown, not the charge alone, creates the temporary armor-down opening. Use the window, then rebuild when the armor returns."
+        },
+        {
+          "name": "Middle • 80–41%",
+          "text": "The required action changes: use a special into a radiation blast first to collect Removal charges, and reflect a later blast back toward Bahamet using a well-timed block or heavy while a charge is active. If reflection fails, verify your charge before blaming the timing."
+        },
+        {
+          "name": "Late • 40–11%",
+          "text": "Keep the charge-first reflection plan, but inspect the blast's appearance. A red Fire Blast must be avoided, not reflected. Only attempt the reflection on a suitable radiation blast while your Removal charge remains active."
+        },
+        {
+          "name": "Finish • 10–0%",
+          "text": "Stop searching for a new Removal charge; it is no longer required for reflecting. The final exchange may continue because Bahamet can return a reflected radiation blast. Respond to each return until it reaches him and reduces his armor's damage reduction; continue dodging fire blasts."
+        },
+        {
+          "name": "Between damage windows",
+          "text": "A phase change restores Corrupted Armor and clears your Removal charges. Re-read the counters before the next interaction. Repeating the same special twice in a row can also invite Auto-Block while the armor is active, so do not assume a repeated burst will land safely."
+        }
+      ],
+      "mistakes": [
+        "Confusing Bahamet's Volatility with your own Removal charges.",
+        "Trying a phase-two or phase-three reflection without first acquiring a Removal charge.",
+        "Treating a red Fire Blast as though it were a reflectable radiation wave.",
+        "Spending the special needed to earn a charge before the blast appears.",
+        "Expecting the final phase to follow the same knockdown or charged-reflection rules as earlier phases."
+      ],
+      "avoid": "Act 8.2.6 source-based decision guide, not a solo recommendation or verified current-game timing script. Charge names, blast appearance and path-specific nodes must be checked against the actual encounter. Community reports are cited as corroboration rather than presented as first-hand gameplay tests.",
+      "guideDetails": {
+        "attackerProfile": [
+          "Comfort with well-timed blocks or heavy spacing matters once reflecting the blast becomes the damage entry.",
+          "Plan access to an SP1 or SP2 for charge generation instead of spending all power immediately before the wave.",
+          "Consider a champion you can control reliably during repeated radiation exchanges, especially in the final phase."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Prepare",
+            "objective": "Build Bahamet's Volatility → bait special → expect a wave",
+            "watch": "Volatility is not your Removal charge"
+          },
+          {
+            "stage": "100–81%",
+            "objective": "Special into wave → gain charge → knock him down",
+            "watch": "Obtaining the charge alone does not remove armor"
+          },
+          {
+            "stage": "80–41%",
+            "objective": "Special into wave → charge → reflect a later wave",
+            "watch": "A charge is required for this reflection"
+          },
+          {
+            "stage": "40–11%",
+            "objective": "Repeat charged reflection on radiation only",
+            "watch": "Red fire projectile cannot be reflected"
+          },
+          {
+            "stage": "10–0%",
+            "objective": "Reflect returns until blast hits Bahamet",
+            "watch": "Charge no longer needed; armor weakens progressively"
+          }
+        ],
+        "preparation": [
+          "Learn which icon belongs to Bahamet's Volatility and which represents the attacker's Removal charges; do not treat them as one counter.",
+          "Keep power ready for a special response to the radiation blast, especially when preparing the phase-two or phase-three reflect.",
+          "Watch projectile color before responding and check linked path modifiers; the base fight guide does not cover every node combination."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "No radiation wave follows his special",
+            "response": "Check whether Bahamet had enough Volatility when he threw it. Your own Removal charge is not the trigger for his wave."
+          },
+          {
+            "problem": "I got a charge but still cannot hurt him in phase one",
+            "response": "A knockdown is the next required step. Use the charge to create the armor-down window rather than trying to damage through the protection."
+          },
+          {
+            "problem": "My parry or heavy does not reflect the blast",
+            "response": "Before the finish, confirm you earned and still hold a Removal charge by answering an earlier radiation blast with your special. Also check that the projectile is not red."
+          },
+          {
+            "problem": "He sends the final wave back at me",
+            "response": "Treat it as a multi-step exchange. Read his response and prepare to reflect the radiation blast again; do not advance as though the first reflection has completed the mechanic."
+          }
+        ],
+        "scope": "Original Act 8.2.6 Bahamet only. Decision-focused explanation based on cited community mechanics and troubleshooting. Not independently gameplay-tested; exact timings, linked path nodes and any later variants remain outside scope."
+      },
+      "verification": {
+        "status": "community-cross-checked",
+        "checkedAt": "2026-11-04",
+        "gameplayTested": false,
+        "label": "Community-sourced · cross-checked",
+        "note": "Charge ownership and phase-specific responses were compared with forum troubleshooting reports and community mechanic references. No independent current-client test or source-reuse clearance is claimed."
+      },
+      "reviewedAt": "2026-11-04"
+    }
+  ]
+}

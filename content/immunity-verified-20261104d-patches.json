@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "ironheart-armor-immunity-20261104",
+      "title": "Ironheart kit • Armor Up-dependent immunities and targeted AAR protection",
+      "url": "https://www.auntm.ai/champions/ironheart/tier/6",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "mysterio-helmet-20261104",
+      "title": "Mysterio • Helmet integrity governs poison and ability-accuracy protection",
+      "url": "https://mcocscout.com/champions/mysterio",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "mysterio-emma-reverse-20261104",
+      "title": "Emma Frost • Mental Immunity synergy grants Mysterio reversed-controls immunity",
+      "url": "https://www.marvelsynergy.com/champions/emma-frost",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "moondragon-phyla-death-20261104",
+      "title": "Moondragon and Phyla-Vell • synergy-triggered Death Immunity Passive",
+      "url": "https://www.mcoc.help/champions/moondragon/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "bullseye-precision-kit-20261104",
+      "title": "Bullseye • I Never Miss blocks Precision and Fatigue effects",
+      "url": "https://www.mcoc.help/champions/bullseye/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "ironheart",
+      "removeImmunityIds": [
+        "ability-accuracy-reduction"
+      ],
+      "addProtections": [
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Reversed Controls immunity requires an active Armor Up effect. Her indefinite Armor Up can be removed and its restoration delayed by Armor Break, so the protection is not guaranteed while Armor Up is absent.",
+          "sourceIds": [
+            "ironheart-armor-immunity-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "coldsnap",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Coldsnap immunity applies only while Ironheart has an active Armor Up. Armor Break can delay restoration of the indefinite Armor Up, creating a period without this immunity.",
+          "sourceIds": [
+            "ironheart-armor-immunity-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "incinerate",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Incinerate immunity requires an Armor Up effect to be active; Armor Break and loss of Armor Up may interrupt it.",
+          "sourceIds": [
+            "ironheart-armor-immunity-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "frostbite",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Frostbite immunity requires an active Armor Up; it is not unconditional during Armor Break or other loss of Armor Up.",
+          "sourceIds": [
+            "ironheart-armor-immunity-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "mysterio",
+      "addProtections": [
+        {
+          "effectId": "ability-accuracy-reduction",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Mysterio's own Ability Accuracy cannot be reduced while his helmet is intact. Armor Break Debuffs or knockdown by a Spider-Verse Hero crack the helmet for about 10 seconds and suspend the protection. This is not immunity to all effects that modify the opponent's abilities.",
+          "sourceIds": [
+            "mysterio-helmet-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Mysterio gains Reversed Controls immunity through the unique Mental Immunity synergy with Emma Frost. This immunity is not part of his standalone base kit.",
+          "sourceIds": [
+            "mysterio-emma-reverse-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "poison",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Poison immunity applies while Mysterio's helmet remains intact. Armor Break Debuffs and knockdowns by Spider-Verse Heroes crack the helmet for about 10 seconds, suspending it. Do not treat a current immunity index's broad label as unconditional.",
+          "sourceIds": [
+            "mysterio-helmet-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "moondragon",
+      "removeImmunityIds": [
+        "death"
+      ]
+    },
+    {
+      "id": "bullseye",
+      "addProtections": [
+        {
+          "effectId": "precision",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Bullseye's I Never Miss ability always prevents Precision effects and triggers a personal Cruelty Buff when immunity activates, subject to that Buff's cooldown. Precision is usually a beneficial effect; this record is not immunity to an incoming Precision Debuff or to critical hits generally.",
+          "sourceIds": [
+            "bullseye-precision-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}

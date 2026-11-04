@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "iceman",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Iceman applies Coldsnap and builds Frostbites from critical hits before detonating with Heavy. Critical Rating might improve eligible critical-hit frequency, but must not be described as amplifying the Frostbite detonation itself. Compare equal Ice Armor states and identical enemies; Coldsnap-immune defenders undermine the rotation regardless of focus.",
+        "defenseReason": "Physical Resistance is a matchup-specific mitigation trial against physical incoming hits while Ice Armor is down or recharging. It does not speed Ice Armor recovery or prevent a Coldsnap-immune attacker from avoiding his control. Energy Resistance is an alternative against energy-heavy attackers.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "havok",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Havok builds Plasma Charges, converts them into Prowess with Heavy and uses specials for bursts or detonations. Critical Rating is only an experiment for direct eligible critical-hit damage; it does not inherently strengthen plasma detonations or restore Plasma Charges consumed by power control. Compare identical charges and Prowess totals.",
+        "defenseReason": "Physical Resistance only mitigates physical incoming damage. It does not improve Havok's plasma retaliation, protect the charges from Power Drain or Burn, or overcome Armor Up opponents that suppress Plasma Build Up damage. Compare Energy Resistance where appropriate.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "baron-zemo",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Block Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Baron Zemo builds Root windows and indefinite Bleeds. Critical Damage Rating may benefit eligible critical direct hits, but it should not be assumed to increase the indefinite Bleed damage created during Root. Compare equal Root duration and Bleed stacks, and test a setup-survival alternative when opponents resist Bleed.",
+        "defenseReason": "Block Penetration is a conditional defender-pressure hypothesis for attacks that connect into Block; it does not prevent Root escape, cleanse, or make the indefinite Bleed stack unavoidable. A mitigation focus is a better comparison when the attacker rarely blocks.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "bishop",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Special Damage",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Bishop uses Prowess to strengthen a special-attack burst after building power through blocks and energy exposure. Critical Rating can be trialled for direct-hit crit frequency at equal Prowess, but cannot be treated as an automatic boost to his Incinerate or Overload damage. Compare the same starting power and Prowess.",
+        "defenseReason": "Special Damage on defense may increase eligible direct special hits only if the attacker is caught by them. It does not speed Bishop's persistent power, eliminate Overload risk or improve his passive Incinerate. Compare Block Proficiency when predictable blocked-hit survival is more relevant.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "blade",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Blade applies Bleed with well-timed blocks and uses SP2 for critical Bleed pressure. Critical Rating is a direct critical-hit frequency trial, not a guaranteed increase to individual Bleed ticks or Danger Sense activation. Test at equal power, Bleed stacks and opponent susceptibility; consider a survival setup alternative.",
+        "defenseReason": "Armor Penetration is a direct-hit trial against opponents with meaningful armor; it does not add Bleeds, regenerate Blade's health or bypass Bleed immunity. Use incoming-damage mitigation as the comparison if a defender matchup relies on survival rather than hit penetration.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "rintrah",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Rintrah gains Mystical Charges, Roots opponents and stacks Ruptures before a SP2 cash-out. Critical Rating is an experiment for eligible basic and special direct hits; do not treat it as guaranteed Rupture tick amplification. Compare equal charge stacks, Root windows and SP2 timing, since knockdowns disrupt the resource plan.",
+        "defenseReason": "Armor Penetration may improve eligible direct hits against armored opponents, but cannot maintain 15+ Mystical Charges, extend Stun Immunity or prevent his timer from expiring. Compare resistance against attackers that prevent Rintrah's Root setup.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "shuri",
+      "statFocusRecommendation": {
+        "attackFocus": "Armor Penetration",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Shuri's special effects depend on Shock and Critical Shock ramp. Armor Penetration may improve eligible direct hits against armor, but it is not a general substitute for Critical Damage Rating, which the kit can use for Critical Shock scaling. Measure direct hits separately from Shock effects at equal Matrix Charges and test the alternative explicitly.",
+        "defenseReason": "Armor Penetration is a damage-pressure trial only for hits affected by armor; it does not increase Untouchable duration, turn Armor Up passives into Buffs or bypass a Shock-immune opponent. Compare Block Proficiency or resistance for incoming damage.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    },
+    {
+      "id": "wiccan",
+      "statFocusRecommendation": {
+        "attackFocus": "Physical Resistance",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial comparison: Wiccan maintains distinct spells and converts Incinerate and Shock into Plasma. Physical Resistance is a survival-oriented setup trial for physical hits while casting spells; it is not a damage focus and will not increase Plasma, spell duration or SP2 output. Compare direct special damage at equal spell counts if damage is the objective.",
+        "defenseReason": "Physical Resistance can reduce physical incoming damage but does not stop Incinerate immunity from blocking Wiccan's Plasma creation, and does not negate Concussion or Disorient that may disrupt his spell sequence. Compare Energy Resistance against energy-heavy opponents.",
+        "note": "Champion-specific comparison hypothesis anchored to the catalogued kit, with community choices as starting points. This is not a gameplay-tested best choice."
+      }
+    }
+  ]
+}

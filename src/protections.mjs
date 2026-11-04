@@ -29,7 +29,7 @@ export function matchingProtections(c,f={}) {
 }
 
 export function protectionLabel(p) {
- const scope=p.forms.length===2?'Debuffs and passives':p.forms[0]==='debuff'?'Debuffs · passive protection unverified':p.forms[0]==='passive'?'Passives · debuff protection unverified':'Form scope not yet reviewed';
+ const scope=p.forms.includes('effect')?'Effect-level interaction · not classified as a debuff or passive':p.forms.includes('debuff')&&p.forms.includes('passive')?'Debuffs and passives':p.forms[0]==='debuff'?'Debuffs · passive protection unverified':p.forms[0]==='passive'?'Passives · debuff protection unverified':'Form scope not yet reviewed';
  const activation=p.availability==='always'?'Always active':p.availability==='conditional'?'Conditional':'Activation not yet reviewed';
  return `${scope} · ${activation}`;
 }

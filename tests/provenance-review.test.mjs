@@ -1,0 +1,31 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {provenanceReview} from '../scripts/provenance-review.mjs';
+
+test('editorial provenance queue exposes missing claim-specific metadata without rejecting facts',()=>{
+ const report=provenanceReview();
+ assert.equal(report.immunity.total,86);
+ assert.equal(report.immunity.scopeFollowups,45);
+ assert.equal(report.statFocus.total,140);
+ assert.equal(report.statFocus.rationaleFollowups,107);
+ assert(report.immunity.claims.some(x=>x.championId==='serpent'&&x.effectId==='death'&&!x.reviewNeeded&&x.resolvedInLaterPatch==='removed-after-review'));
+ assert(report.immunity.claims.some(x=>x.championId==='peni-parker'&&x.effectId==='stun'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='bullseye'&&x.effectId==='fatigue'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='red-skull'&&x.effectId==='nullify'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='juggernaut'&&x.effectId==='reversed-controls'&&!x.reviewNeeded));
+ assert(report.statFocus.claims.some(x=>x.championId==='kushala'&&!x.reviewNeeded&&x.championSpecificReasonRecorded));
+ assert(report.statFocus.claims.some(x=>x.championId==='shang-chi'&&!x.reviewNeeded));
+ assert.equal(report.statFocus.effectiveTotal,108);
+ assert.equal(report.statFocus.effectiveRationaleFollowups,75);
+ assert(report.statFocus.effectiveClaims.some(x=>x.championId==='shang-chi'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='black-widow-claire-voyant'&&x.effectId==='buff'&&x.resolvedInLaterPatch==='removed-after-review'));
+ assert(report.statFocus.claims.some(x=>x.championId==='carina-tivan'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='moondragon'&&x.effectId==='death'&&x.resolvedInLaterPatch==='removed-after-review'));
+ assert(report.immunity.claims.some(x=>x.championId==='ironheart'&&x.effectId==='reversed-controls'&&!x.reviewNeeded));
+ assert(report.statFocus.effectiveClaims.some(x=>x.championId==='wiccan'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='crossbones'&&x.effectId==='stagger'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='doctor-bong'&&x.effectId==='nullify'&&!x.reviewNeeded));
+ assert(report.immunity.claims.some(x=>x.championId==='prowler'&&x.effectId==='reversed-controls'&&!x.reviewNeeded));
+ assert(report.statFocus.effectiveClaims.some(x=>x.championId==='white-tiger'&&!x.reviewNeeded));
+ assert.match(report.purpose,/not copyright clearance/i);
+});
