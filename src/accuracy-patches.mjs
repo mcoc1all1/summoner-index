@@ -25,7 +25,7 @@ function assertSources(db,sourceIds,label){
 function validateProtectionPatch(db,championId,record){
   const label=`Protection patch for ${championId}/${record?.effectId||'unknown'}`;
   if(!record||!db.immunities.some(effect=>effect.id===record.effectId))throw new Error(`${label} references unknown immunity`);
-  if(!Array.isArray(record.forms)||!record.forms.length||record.forms.some(form=>!['debuff','passive'].includes(form)))throw new Error(`${label} needs reviewed forms`);
+  if(!Array.isArray(record.forms)||!record.forms.length||record.forms.some(form=>!['debuff','passive','effect'].includes(form)))throw new Error(`${label} needs reviewed forms`);
   if(!['always','conditional'].includes(record.availability)||!validDate(record.checkedAt)||typeof record.condition!=='string'||!record.condition.trim())throw new Error(`${label} needs activation, condition and review date`);
   assertSources(db,record.sourceIds,label);
 }
