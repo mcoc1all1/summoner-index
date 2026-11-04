@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07F-2: Magneto House of X and Mangog source-linked tactical notes, original and untested.",
+  "championPatches": [
+    {
+      "id": "magneto-house-of-x",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-magneto-house-of-x",
+          "deep-magneto-house-of-x"
+        ],
+        "decisions": [
+          {
+            "title": "Pick Guidance before the eligible team fight",
+            "text": "Magneto (House of X) can provide Guidance utility to qualifying allies through his pre-fight, but it is not a universal effect for every team member. Verify the ally's tags and intended passive Parry Stun before using a slot."
+          },
+          {
+            "title": "Build Heavy Prowess only from stable openings",
+            "text": "A Heavy can develop Prowess for an upcoming Special, but the defender must leave room to charge safely. Avoid treating every wall position or stun-immune matchup as an opportunity for the same setup."
+          },
+          {
+            "title": "Check Metal and Armor Break interactions separately",
+            "text": "SP1 can prepare Armor Break for SP2, with a different damage effect against Metal opponents in the recorded kit. Confirm the opponent's Metal tag and effect protections rather than claiming one damage type works on all targets."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mangog",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mangog",
+          "deep-mangog"
+        ],
+        "decisions": [
+          {
+            "title": "Build Hatred without assuming a fixed combo timer",
+            "text": "Mangog can develop Hatred from eligible combo endings and SP1; track the actual meter instead of entering every Special at a predetermined combo count. The Enrage transition needs the right resource state."
+          },
+          {
+            "title": "Use SP2 control only while its conditions permit it",
+            "text": "SP2 can provide Power Steal and a potential Stun opening that supports further pressure. A defender immune to Stun or protected from Power Steal can remove that opportunity, making a normal safe punish preferable."
+          },
+          {
+            "title": "Sustain Enrage from real Hatred triggers",
+            "text": "Once Enrage is active, continued Hatred generation can help maintain the offensive window. Do not force unsafe hits merely to prolong the mode; watch the defender's power bar and the current remaining duration."
+          }
+        ]
+      }
+    }
+  ]
+}
