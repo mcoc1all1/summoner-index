@@ -15,12 +15,14 @@ export function provenanceReview(base=root){
  const immunity=read(folder,'immunity-roster-audit-patches.json');
  // Reflect explicit follow-up resolutions without assuming other catalog sources have
  // been audited. Removing a misleading ID is a valid outcome, not verified immunity.
- const followUpFile='immunity-verified-20261104-patches.json';
- const followUp=fs.existsSync(path.join(folder,followUpFile))?read(folder,followUpFile):{championPatches:[]};
+ const followUpFiles=fs.readdirSync(folder).filter(name=>/^immunity-verified-.*-patches\.json$/.test(name)).sort();
  const resolved=new Map();
- for(const patch of followUp.championPatches||[]){
-  for(const effectId of patch.removeImmunityIds||[])resolved.set(patch.id+':'+effectId,'removed-after-review');
-  for(const record of patch.addProtections||[])resolved.set(patch.id+':'+record.effectId,'scoped-and-source-linked');
+ for(const file of followUpFiles){
+  const followUp=read(folder,file);
+  for(const patch of followUp.championPatches||[]){
+   for(const effectId of patch.removeImmunityIds||[])resolved.set(patch.id+':'+effectId,'removed-after-review');
+   for(const record of patch.addProtections||[])resolved.set(patch.id+':'+record.effectId,'scoped-and-source-linked');
+  }
  }
  const immunityClaims=(immunity.championPatches||[]).flatMap(patch=>{
   const locallyScoped=new Set((patch.addProtections||[]).map(record=>record.effectId));
