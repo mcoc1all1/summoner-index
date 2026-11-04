@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "official-peni-spotlight-protection-20261104",
+      "title": "Peni Parker champion spotlight • Sync-Shield and Angel Attack synergy",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-peni-parker/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "official-titania-spotlight-protection-20261104",
+      "title": "Titania champion spotlight • Buff immunity",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-titania/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "titania-absorbing-man-synergy-20261104",
+      "title": "Absorbing Man • Rogue's Romance synergy grants Titania Bleed protection",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Absorbing_Man",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "official-bullseye-spotlight-protection-20261104",
+      "title": "Bullseye champion spotlight • precision and fatigue interactions",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-bullseye/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "official-serpent-spotlight-protection-20261104",
+      "title": "The Serpent champion spotlight • Ancient Terror and signature Death Immunity",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-the-serpent/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "official-champion-spotlight-protection-20261104",
+      "title": "The Champion champion spotlight • final quest node signature protection",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-the-champion/",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "official-champion-act6-boss-kit-20261104",
+      "title": "Act 6 boss kit update • The Champion signature protection",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/304277/big-changes-coming-to-act-6-this-june",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "peni-parker",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Without synergies, Sync-Shield prevents Stun when Peni is Blocking or Auto-Blocking a hit. The Angel Attack synergy with Air-Walker or Falcon grants Stun immunity for as long as Sync-Shield is active. It is not an unconditional, always-on Stun immunity.",
+          "sourceIds": [
+            "official-peni-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "titania",
+      "addProtections": [
+        {
+          "effectId": "bleed",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Bleed immunity requires the unique Rogue's Romance synergy supplied by Absorbing Man on the team. Titania's base Buff immunity does not by itself grant Bleed immunity. Passive Bleed scope has not been independently tested.",
+          "sourceIds": [
+            "titania-absorbing-man-synergy-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "bullseye",
+      "addProtections": [
+        {
+          "effectId": "fatigue",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "always",
+          "condition": "Bullseye's always-active I Never Miss kit prevents Fatigue effects. The same ability also says he is immune to Precision, but Precision is a beneficial effect and is not classified here as an incoming debuff.",
+          "sourceIds": [
+            "official-bullseye-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "serpent",
+      "removeImmunityIds": [
+        "death"
+      ],
+      "addProtections": [
+        {
+          "effectId": "fate-seal",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "always",
+          "condition": "Ancient Terror grants Fate Seal effect immunity from the start of the fight. Debuff application is covered by this record; other effect forms should be checked against the in-game ability text.",
+          "sourceIds": [
+            "official-serpent-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "special-lock",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "always",
+          "condition": "Ancient Terror grants immunity to Special Lock effects throughout the fight. This review establishes incoming debuff protection; do not generalize to every power-control mechanic.",
+          "sourceIds": [
+            "official-serpent-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "power-lock",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "always",
+          "condition": "Ancient Terror grants Power Lock immunity. Reduced potency of Power Drain or Power Burn is separate and must not be described as full immunity to those effects.",
+          "sourceIds": [
+            "official-serpent-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "heal-block",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "always",
+          "condition": "Ancient Terror grants Heal Block immunity. This does not mean The Serpent cannot suffer all forms of regeneration modification.",
+          "sourceIds": [
+            "official-serpent-spotlight-protection-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "the-champion",
+      "addProtections": [
+        {
+          "effectId": "regen-rate-mod",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Do not treat this protection as unconditional. The Champion's signature description links protection from regeneration-modifying effects (except Poison) to the regenerative boss-node ability when attacking or defending the final node in a Quest. Check awakening and the active regeneration condition; passive-effect scope is not established here.",
+          "sourceIds": [
+            "official-champion-spotlight-protection-20261104",
+            "official-champion-act6-boss-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
