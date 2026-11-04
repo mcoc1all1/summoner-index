@@ -34,3 +34,11 @@ For each champion in a batch:
 The tracker is refreshed after each merged batch. Scores measure **research priority, not combat strength**; scores will change when a batch is completed. The source catalog is still in a public repository and remains a separate migration task.
 
 AdSense, domain, advertising, consent and indexing settings are excluded from this program.
+
+## Batch 01 result — 4 November 2026
+
+- Added **60 original, source-linked decision notes** across **20** priority-ranked profiles: Silk, Falcon, Magneto, Shang-Chi, America Chavez, Jean Grey, Spider-Ham, Negasonic Teenage Warhead, Knull, Omega Sentinel, Omega Red, Immortal Abomination, Chee'ilth, Sersi, Gorr, Namor, Shathra, Archangel, Ebony Maw and Gladiator.
+- Cumulative decision-note coverage: **30 of 334** champion records (10 previous + 20 this batch).
+- The other **302** non-exception records are queued for **16 additional batches** of up to 20; Summoned Symbioid and Ghost Rider (Robbie Reyes) remain identity/availability review exceptions.
+- Batch 01 includes only original player-facing editorial decisions supported by existing cited kit references, not copied source ability lists or new unqualified immunities. These descriptions are **not** independently gameplay-tested.
+- Refresh the sorted CSV/JSON tracker after this batch with `npm run enrichment:tracker`; positions re-rank as content coverage changes.

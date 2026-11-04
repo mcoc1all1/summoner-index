@@ -26,7 +26,7 @@ test('ten champions gain independently written, referenced fight decisions and s
   assert.equal((html.match(/class="panel"/g)||[]).length,3,id);
   assert.match(championProfilePage(db,c),/id="field-notes"/,id);
  }
- assert.equal(db.champions.filter(c=>c.fieldNotes).length,10);
+ assert(db.champions.filter(c=>c.fieldNotes).length>=10,'the original pilot cohort must remain enriched after later batches');
 });
 
 test('enrichment preserves existing immunities and adds only recognized utility labels',()=>{

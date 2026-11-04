@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "scope": "Twenty prioritized champion-specific editorial decision guides based on existing source-linked kit research. No independent game-client testing, bulk source-kit publication, invented immunity statuses, or performance claims.",
+  "championPatches": [
+    {
+      "id": "silk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-silk",
+          "deep-silk"
+        ],
+        "decisions": [
+          {
+            "title": "Manage the wall before committing",
+            "text": "Silk benefits from forcing space toward the boundary, but chasing a retreat can open you to a counterhit. Use measured combos to keep pressure while maintaining enough space to react to specials."
+          },
+          {
+            "title": "Treat Slow as setup-dependent",
+            "text": "Awakened Slow is useful against Evade and Unstoppable, but check whether the correct attack or wall condition has triggered it. Do not assume every Silk hit suppresses those defensive abilities."
+          },
+          {
+            "title": "Know when her safety net is unavailable",
+            "text": "Her special-attack Evade has conditions and downtime, and being critically hit can change access to it. Check the active state before attempting a risky intercept or relying on an automatic escape."
+          }
+        ]
+      }
+    },
+    {
+      "id": "falcon",
+      "addAbilityIds": [
+        "bleed"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "kit-falcon",
+          "expanded-core-falcon"
+        ],
+        "decisions": [
+          {
+            "title": "Use Recon before testing ability suppression",
+            "text": "A backdash followed by a held block sets up Falcon's timed Lock On. Confirm the buff or effect is active before assuming that an opponent's Evade, Auto-Block or other defensive trigger will be suppressed."
+          },
+          {
+            "title": "Spend the limited offensive window",
+            "text": "While Locked On, choose a short repeatable sequence and decide whether SP1's Bleed or SP2's direct burst fits the defender. Don't use the timed scan duration as an excuse to attack into an unsafe special."
+          },
+          {
+            "title": "Plan for mechanics Lock On cannot solve",
+            "text": "Lock On reduces specified defensive ability accuracy during Falcon's attacks; it does not guarantee every node or debuff is disabled. If the defender resists ability-accuracy changes, choose a different control plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "magneto",
+      "addAbilityIds": [
+        "bleed",
+        "armor-break"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "kit-magneto",
+          "expanded-core-magneto"
+        ],
+        "decisions": [
+          {
+            "title": "Read the Metal tag before selecting him",
+            "text": "Magneto's Magnetized suppression and signature damage advantages are strongest in Metal matchups. Verify the opposing champion's current classification instead of relying on costume, appearance or Tech class alone."
+          },
+          {
+            "title": "Set up Prowess without sacrificing safety",
+            "text": "Knockdowns and charged heavies can contribute different Prowess stacks. Build only as many as you can safely protect, and avoid charging a Heavy while an opponent has a live punish window."
+          },
+          {
+            "title": "Choose the SP3 payoff for the matchup",
+            "text": "SP3 can convert the developed Prowess state into significant damage against Metal enemies. Check whether Bleed sticks; an immune Metal defender changes the finishing effect and the value of a Bleed-oriented plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shang-chi",
+      "addAbilityIds": [
+        "stun",
+        "unblockable",
+        "precision"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "shang",
+          "expanded-core-shang-chi"
+        ],
+        "decisions": [
+          {
+            "title": "Select a Wushu Strike on purpose",
+            "text": "Shang-Chi's combo endings trigger different utility: Slow, Cleanse, Unblockable or Stun. Decide which response the matchup demands before committing to a sequence; an accidental finisher can leave that strike unavailable."
+          },
+          {
+            "title": "Reset the useful strikes safely",
+            "text": "A Heavy can ready spent Wushu Strikes and help prepare the critical-damage window. Do not use a slow Heavy merely to reset the toolkit if the defender can interrupt or punish the charge."
+          },
+          {
+            "title": "Convert accumulated Chi at the right time",
+            "text": "SP2 rewards a deliberate Chi setup with guaranteed critical attacks. Compare the added damage against the risk of extending the fight, and remember that Cleanse removes debuffs rather than making him innately immune."
+          }
+        ]
+      }
+    },
+    {
+      "id": "america-chavez",
+      "addAbilityIds": [
+        "wither",
+        "unblockable"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-america-chavez",
+          "deep-america-chavez"
+        ],
+        "decisions": [
+          {
+            "title": "Pick the dimension, not merely the heavy",
+            "text": "Her Heavy timing selects a different dimension depending on where you cancel or complete the attack. Choose the dimension needed for the opponent's buffs or power behavior before following it with a special."
+          },
+          {
+            "title": "Budget power around active dimensions",
+            "text": "SP1 provides different power rewards according to distinct active dimensions. Count which dimensions are actually present; repeating the same one may fail to create the setup you expected."
+          },
+          {
+            "title": "Avoid confusing power mechanics",
+            "text": "Negative Zone manipulates ability power rate, but ordinary combat power and direct power gains may behave differently. Wither can remove a newer dimension, so inspect the current set before planning an SP2 payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jean-grey",
+      "addAbilityIds": [
+        "purify"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-jean-grey",
+          "deep-jean-grey"
+        ],
+        "decisions": [
+          {
+            "title": "Build Neuroshock before cashing out",
+            "text": "Use her light and Heavy interactions to establish debuffs and Psionic resources. An SP2 launched before sufficient Neuroshocks are active may miss the intended payoff, especially if the defender shrugs off the setup."
+          },
+          {
+            "title": "Choose the conversion step carefully",
+            "text": "Heavy actions can Purify relevant debuffs and contribute to her resource cycle; SP1 changes how accumulated effects persist. Compare the visible debuff and passive counts instead of expecting every cycle to produce identical stacks."
+          },
+          {
+            "title": "Watch the Force Field limitations",
+            "text": "Poison can slow Force Field recovery, and Heavy power gain changes once enough power is stored. Do not mistake her reversed-control protection for blanket protection against every control or damage effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-ham",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-spider-ham",
+          "deep-spider-ham"
+        ],
+        "decisions": [
+          {
+            "title": "Build the opponent's power only with a plan",
+            "text": "Porker Poppers punish special use, so the goal is to place them while giving the defender a manageable reason to throw a special. Don't push to SP3 without a safe way to bait the attack."
+          },
+          {
+            "title": "Choose the taunt window",
+            "text": "SP1 can pause existing Poppers and apply Taunt. Confirm the current Popper and power state first; a special without stacked Poppers sacrifices part of his damage plan."
+          },
+          {
+            "title": "Read Spider-Nonsense before gambling on defense",
+            "text": "Nonsense modifies survivability but can reach a reset point. Power Sting immunity or Purify also breaks the main loop, so switch your game plan rather than assuming extra hits will always restore the same pressure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "negasonic-teenage-warhead",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-negasonic-teenage-warhead",
+          "deep-negasonic-teenage-warhead"
+        ],
+        "decisions": [
+          {
+            "title": "Do not treat Precognition as permanent",
+            "text": "Precognition's protective behavior depends on its active state and can be disabled by specific control effects and knockdowns. Check the icon before intentionally taking a contact-based opening."
+          },
+          {
+            "title": "Separate vulnerability from burn stacking",
+            "text": "A well-timed Heavy can apply Incinerate Vulnerability, then SP2 builds much of the passive Incinerate pressure. Confirm the vulnerability first so that a high-risk special is not spent without its intended setup."
+          },
+          {
+            "title": "Refresh only where it matters",
+            "text": "Light attacks and SP1 help maintain her damage effects. Incinerate-immune defenders can deny the core loop; a synergy-dependent exception should not be described as part of her default kit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "knull",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-knull",
+          "deep-knull"
+        ],
+        "decisions": [
+          {
+            "title": "Build Living Abyss before initiating Corruption",
+            "text": "Knull's basic attack pattern builds Living Abyss, but launching the Corruption sequence too early shortens the available damage setup. Compare the stack count and the opponent's Armor Break interactions before starting the timer."
+          },
+          {
+            "title": "Select SP1 or SP3 with the fight length in mind",
+            "text": "SP1 starts a countdown into Corruption while SP3 can enter a longer window immediately. The latter costs more power, so choose it for an encounter where the extended duration is actually worth the buildup."
+          },
+          {
+            "title": "Different attack types have different roles",
+            "text": "During Corruption, light and SP2 interactions can help preserve the window, while other symbiote strikes can produce recovery. Against Armor Break immunity, the expected conversion and damage pattern may not occur."
+          }
+        ]
+      }
+    },
+    {
+      "id": "omega-sentinel",
+      "addAbilityIds": [
+        "armor-up"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-omega-sentinel",
+          "deep-omega-sentinel"
+        ],
+        "decisions": [
+          {
+            "title": "Select the weapon for the task",
+            "text": "Omega Sentinel can carry a distinct set of pre-fight weapon debuffs. Decide whether Heal Block, Tracking or another form of control is needed before fighting; changing weapons with Heavy can replace the desired setup."
+          },
+          {
+            "title": "Keep utility active through combo choices",
+            "text": "Second-medium hits apply the chosen weapon effect, whereas light-ending combos can pause existing effects. Use those endings intentionally rather than repeating the same sequence and allowing vital debuffs to expire."
+          },
+          {
+            "title": "Preserve the SP2 damage window",
+            "text": "Once the relevant utility is stacked, SP2 can add Incinerate or Mutant Plasma pressure. Stun can interrupt Self-Repair, and Nullify/Fate Seal resistance should not be mistaken for immunity to every possible node effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "omega-red",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-omega-red",
+          "deep-omega-red"
+        ],
+        "decisions": [
+          {
+            "title": "Trade proximity for controllable Death Spores",
+            "text": "Omega Red wants to stay close long enough to stack spores, but staying in punish range without a safe opening is costly. Watch the opponent's recovery and use movement to maintain pressure rather than face-tanking hits."
+          },
+          {
+            "title": "Use Heavy to protect the setup",
+            "text": "A well-timed Heavy can extend spore pressure through Degeneration. If you retreat for too long without maintaining the effect, the stacks can disappear and the following special has much less value."
+          },
+          {
+            "title": "Choose SP1 recovery versus SP2 offense",
+            "text": "SP1 can consume spores for a recovery trade-off, whereas SP2 supports Death Field pressure. Robots accumulate spores differently; do not interpret identical fight time as evidence the champion is underperforming."
+          }
+        ]
+      }
+    },
+    {
+      "id": "abomination-immortal",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-abomination-immortal",
+          "deep-abomination-immortal"
+        ],
+        "decisions": [
+          {
+            "title": "Self-Poison is fuel, not an accidental hazard",
+            "text": "Immortal Abomination's own Poison state contributes to his defensive and offensive cycle. Track the number of self-Poisons before activating a proximity-based Toxic Aura rather than assuming the Aura remains effective without fuel."
+          },
+          {
+            "title": "Use SP2 only when close pressure is possible",
+            "text": "The Toxic Aura needs the enemy nearby to apply Poison and enable Acid Burn. If a defender forces repeated disengagement, choose a safer interval rather than wasting the active window."
+          },
+          {
+            "title": "Recognize Poison immunity as a genuine constraint",
+            "text": "Poison-immune opponents can prevent the regular Acid Burn payoff. SP1 can replenish self-Poisons and Petrify, but it does not override all Poison immunities or every anti-healing mechanic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheeilth",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-cheeilth",
+          "deep-cheeilth"
+        ],
+        "decisions": [
+          {
+            "title": "Time Spirit-related punishes instead of racing",
+            "text": "Chee'ilth can gain better progress through properly timed defensive actions and recovery punishes. Read the opponent's current recovery window before choosing a Heavy, especially against an Unstoppable or stun-restricting node."
+          },
+          {
+            "title": "Keep Bleed pressure without overcommitting",
+            "text": "Her Heavy can add Bleeds and pause existing damage effects. Confirm that the opponent is vulnerable to Bleed; if immune, use her other utility rather than prolonging a damage-over-time plan that cannot work."
+          },
+          {
+            "title": "Spend each special for a specific purpose",
+            "text": "SP1 emphasizes Grit and pressure, SP2 brings Tranquilize and anti-Miss use cases, and the once-per-fight SP3 can support recovery. Cleanse charges are finite, so do not treat them as innate immunity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sersi",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-sersi",
+          "deep-sersi"
+        ],
+        "decisions": [
+          {
+            "title": "Know when Glancing is protecting you",
+            "text": "Sersi can activate Glancing around a Heavy charge, but it is not a shield against every passive or damage-over-time interaction. Confirm the opponent's damage type before relying on it as your only safety plan."
+          },
+          {
+            "title": "Convert Transmutation with positioning",
+            "text": "Medium endings help build Transmutation; close-range specials can convert the resource toward Fury or True Damage. Choosing the wrong distance may refresh a different effect and delay the burst."
+          },
+          {
+            "title": "Refresh buffs without feeding the wrong defender",
+            "text": "Far-range SP1 can maintain useful buffs, but the opponent may punish or remove them using Stagger or Fate Seal. Read those enemy tools before building an otherwise strong buff engine."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gorr",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-gorr",
+          "deep-gorr"
+        ],
+        "decisions": [
+          {
+            "title": "Cycle the Shadow Magic you actually need",
+            "text": "Gorr's fourth-light endings change Shadow Magic, while second-medium attacks place the corresponding damage effect. Choose the next effect according to debuff immunity and the defender's cleansing ability."
+          },
+          {
+            "title": "Do not overlook converted debuffs",
+            "text": "If an opponent is immune to one damaging effect, Gorr may gain a Degeneration route instead. Check what actually appears; do not assume a Poison-immune or Shock-immune defender takes zero damage from the complete rotation."
+          },
+          {
+            "title": "Protect Fury after SP2",
+            "text": "Different active debuffs help create the SP2 Fury payoff, but Nullify or fast debuff removal can dismantle it. Recheck the debuff mix and the active Fury buffs before repeating a heavy investment in power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "namor",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-namor",
+          "deep-namor"
+        ],
+        "decisions": [
+          {
+            "title": "Build Outrage with attention to opponent type",
+            "text": "Namor's Outrage increases through time and certain failed Bleed applications, but some opponents such as Robots do not provide the same buildup. Count the resource rather than using an identical timing script for every defender."
+          },
+          {
+            "title": "Prepare Fury before Imperius Rex",
+            "text": "His burst is strongest when the Fury setup already exists and Rex is ready to spend power. Launching the window before setting up offense can waste the seconds in which discounted specials are available."
+          },
+          {
+            "title": "Avoid passive play during Rex",
+            "text": "Power drains continuously during the Rex state. Repeated SP2s can be efficient, but only with a safe opening and sufficient remaining power; a Heavy can help convert Outrage, but exposes you if timed poorly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shathra",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-shathra",
+          "deep-shathra"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Eggs and Wasps as separate resources",
+            "text": "Shathra builds Eggs with her attacks and specials, then hatches them into Wasps. Before using a Heavy to steal power, verify Wasps are available to spend; Eggs alone are not the same resource."
+          },
+          {
+            "title": "Position a Heavy around the opponent's power",
+            "text": "A charged Heavy can trade Wasps for Power Steal, but a blocked or interrupted Heavy loses tempo. Use it only when the opponent has accessible power and a recovery interval safe enough to hold the charge."
+          },
+          {
+            "title": "Spend SP2 to exploit Vulnerability",
+            "text": "A Heavy-cancel into SP2 can create additional Vulnerability and an Unblockable opportunity. Fourth-light attacks can instead spend Wasps on Nullify, so choose the sequence that fits the defender's buffs and your current resource goal."
+          }
+        ]
+      }
+    },
+    {
+      "id": "archangel",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "archangel-kit",
+          "expanded-core-archangel"
+        ],
+        "decisions": [
+          {
+            "title": "Bleed is only the first step",
+            "text": "Archangel needs Bleed applications to help establish Poison and eventually convert both into Neurotoxin. Make sure the defender is actually susceptible to both effects before relying on the familiar Heavy-attack setup."
+          },
+          {
+            "title": "Respect a failed Parry or Heavy opening",
+            "text": "The traditional Heavy-heavy sequence works only if an opponent allows safe recovery or Stun. A stun-immune defender can punish a thoughtless Heavy; switch to other openings rather than assuming the setup is guaranteed."
+          },
+          {
+            "title": "Count Neurotoxins instead of heavies",
+            "text": "Conversion depends on the effects present at the relevant moment, so the number of Heavies is not a reliable proxy for damage. Bleed or Poison immunity can end the payoff entirely, and ability-accuracy suppression has its own conditions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebony-maw",
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-ebony-maw",
+          "deep-ebony-maw"
+        ],
+        "decisions": [
+          {
+            "title": "Think about Persuasion as a fight-long plan",
+            "text": "Ebony Maw builds Persuasion while avoiding actions that interrupt Focus. Knockdown choice matters: an early Heavy or SP3 may be useful tactically but can delay the ongoing persuasion setup."
+          },
+          {
+            "title": "Read Falter rather than assuming Miss",
+            "text": "Falter can make a direct attack miss, but opponent class and the precise attack category matter. Science attackers have a special interaction with the guaranteed-critical Miss behavior, so don't treat every incoming strike as harmless."
+          },
+          {
+            "title": "Choose the SP2 timing for ongoing pressure",
+            "text": "SP2 during the right Falter window can increase Degeneration and refresh control. If non-damaging debuffs or Nullify interference delay Focus, reassess rather than relying on a fixed opening sequence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gladiator",
+      "addAbilityIds": [
+        "unblockable"
+      ],
+      "fieldNotes": {
+        "checkedAt": "2026-11-04",
+        "sourceIds": [
+          "roster-gladiator",
+          "deep-gladiator"
+        ],
+        "decisions": [
+          {
+            "title": "Build Confidence without losing it immediately",
+            "text": "Gladiator's heavy-pressure plan creates Intimidate and increases Confidence, but taking hits spends the same resource. Choose a safe Heavy after a non-finishing basic attack instead of charging directly into an opponent's active counter."
+          },
+          {
+            "title": "Convert pressure into a special deliberately",
+            "text": "At a developed Confidence state, Heavy into SP2 can produce a high-value damage window, including Unblockable and Incinerate interactions. Compare the setup risk against simply resetting spacing and trying again."
+          },
+          {
+            "title": "Check what Power Drain immunity actually covers",
+            "text": "Gladiator has source-linked protection against Power Drain and Power Burn, but that does not prove every Power Lock or special-control node is disabled. Vigilance helps with Miss; it does not prevent damage from an unsafe special intercept."
+          }
+        ]
+      }
+    }
+  ]
+}
