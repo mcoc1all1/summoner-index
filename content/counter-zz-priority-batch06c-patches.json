@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 06C. Five independently worded tactical entries with resource, effect and source-date caveats. Not measured damage tests.",
+  "sources": [
+    {
+      "id": "b06-agatha-spotlight",
+      "title": "Kabam champion spotlight — Agatha Harkness (2026 released champion)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-agatha-harkness/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b06-agatha-team-recap",
+      "title": "MCOC July 2026 team stream recap — Agatha power-steal and Amplify",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2975145",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "morningstar",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-morningstar",
+          "deep-morningstar"
+        ],
+        "decisions": [
+          {
+            "title": "Invest in Souls only on a path that can reward the ramp",
+            "text": "Morningstar improves over successive eligible fights as Souls accumulate, so plan the quest order before choosing her for a single short encounter. A zero-resource start is not equivalent to her developed state."
+          },
+          {
+            "title": "Use SP3 capture without sacrificing the fight",
+            "text": "An early SP3 can set up a Soul capture objective, but the remaining attacks must still be survived and completed. Check opponent health, incoming node pressure and whether the path allows enough fights to benefit from the investment."
+          },
+          {
+            "title": "Choose SP2 when opponent buffs create real value",
+            "text": "Morningstar can scale differently against buff-rich opponents, while SP1 offers another Soul-oriented use. If the defender has few useful buffs or strongly resists control, a standard SP2 burst may not justify waiting for two bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-skull",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-red-skull",
+          "deep-red-skull"
+        ],
+        "decisions": [
+          {
+            "title": "Track Armor Up before choosing a Special",
+            "text": "Red Skull's Armor resource influences both defense and Shock pressure. Check the current armor state before committing to SP2; Armor Break or buff-control nodes may remove the setup that the rotation expects."
+          },
+          {
+            "title": "Use Heavy for healing control only when needed",
+            "text": "A safe Heavy can apply Heal Block, which matters against a regenerating defender more than in an ordinary damage race. Bait an attack first; charging a risky Heavy just to add control against a nonhealing opponent wastes tempo."
+          },
+          {
+            "title": "Preserve active Shocks with the right follow-up",
+            "text": "SP2 and SP1 can work as a linked Shock-pressure sequence, but immunity or Purify-related effects may interrupt it. Monitor whether the Shock has actually landed before spending another bar to extend the plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sauron",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sauron",
+          "deep-sauron"
+        ],
+        "decisions": [
+          {
+            "title": "Build Prowess without assuming every trigger happens",
+            "text": "Sauron can develop Prowess through a distinctive light-attack interaction, but the trigger is not a guaranteed reward on every hit. Watch the visible stacks before relying on an Extinction-centered damage window."
+          },
+          {
+            "title": "Choose whether to trade Prowess for Heavy Fury",
+            "text": "A safe Heavy can redirect some accumulated Prowess toward Fury, offering a different payoff. Decide based on fight length and defender behavior rather than spending stacks automatically at the first possible opening."
+          },
+          {
+            "title": "Do not treat SP1 recovery as passive immortality",
+            "text": "SP1 can be part of a healing plan under the relevant setup, while SP2 favors another offensive direction. A Heal Block or restrictive node can change the recovery value, so check the active effects and available power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vulture",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-vulture",
+          "deep-vulture"
+        ],
+        "decisions": [
+          {
+            "title": "Count Core Charges before attempting Raptor Strike",
+            "text": "Vulture's Core Charge economy affects Power Drain and later Special options. A Raptor Strike must actually connect for the expected result; confirm an opening after the dash-back instead of assuming the move controls power from any distance."
+          },
+          {
+            "title": "Choose SP1 replenishment or SP2 burn by objective",
+            "text": "SP1 can help sustain the resource plan while SP2 offers Siphon Burn damage. When the defender's power is dangerous, control and charge recovery may be more useful than an immediate damage cash-out."
+          },
+          {
+            "title": "Keep awakened long-fight loops conditional",
+            "text": "A longer Special cycle can include additional Incinerate interactions when the appropriate signature is available. An unawakened Vulture or an Incinerate-immune target should not be promised the same sustained sequence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "agatha-harkness",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-agatha-harkness",
+          "deep-agatha-harkness",
+          "b06-agatha-spotlight",
+          "b06-agatha-team-recap"
+        ],
+        "decisions": [
+          {
+            "title": "Establish the actual prison zone before forcing damage",
+            "text": "Agatha can create an area of effect with SP1, alongside Atrophy pressure and an Amplify setup. Observe the placed zone and defender position; a damaging sequence built for opponents inside it may not work when they escape."
+          },
+          {
+            "title": "Use SP2 or SP3 after the required power setup",
+            "text": "Her empowered Specials depend on developing the appropriate resources and timing. Do not assume a freshly started fight delivers the same payoff as a fully prepared one, or that an aggressive intercept is safe on every node."
+          },
+          {
+            "title": "Distinguish published mechanics from older fan concepts",
+            "text": "Agatha's 2026 release has official spotlight information, but older community kit concepts are fan proposals, not game documentation. Confirm power-steal, Amplify and buff interactions against the released ability text before recommending counters."
+          }
+        ]
+      }
+    }
+  ]
+}
