@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "black-tarantula-nullify-synergy-20261104",
+      "title": "Black Tarantula champion kit and Mister Negative / White Tiger synergy",
+      "url": "https://www.mcoc.help/champions/black-tarantula/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "blue-marvel-antimatter-kit-20261104",
+      "title": "Blue Marvel Living Antimatter Reactor ability and Power Steal protection",
+      "url": "https://mcocscout.com/champions/blue-marvel",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "count-nefaria-ionic-kit-20261104",
+      "title": "Count Nefaria Ionic Energy always-active effects",
+      "url": "https://mcocscout.com/champions/count-nefaria",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "dazzler-base-synergy-20261104",
+      "title": "Dazzler always-active kit and Kitty Pryde Incinerate synergy",
+      "url": "https://www.mcoc.help/champions/dazzler/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "diablo-grain-uru-20261104",
+      "title": "Diablo Grain of Uru Philosopher's Mix pre-fight ingredient",
+      "url": "https://www.mcoc.help/champions/diablo/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "strange-immunity-crosscheck-20261104",
+      "title": "Doctor Strange source catalog does not list a Coldsnap immunity",
+      "url": "https://mcocscout.com/champions/doctor-strange",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "gentle-block-20261104",
+      "title": "Gentle Well-Timed Block Stun protection",
+      "url": "https://mcocscout.com/champions/gentle",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "imperiosa-special-lock-20261104",
+      "title": "Imperiosa interrupt-triggered Special Lock protection",
+      "url": "https://mcocscout.com/champions/imperiosa",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "black-tarantula",
+      "addProtections": [
+        {
+          "effectId": "nullify",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Nullify immunity requires the unique synergy with Mister Negative or White Tiger on the team. It is not part of Black Tarantula's standalone base kit.",
+          "sourceIds": [
+            "black-tarantula-nullify-synergy-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "blue-marvel",
+      "addProtections": [
+        {
+          "effectId": "power-steal",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Blue Marvel's Living Antimatter Reactor grants Power Steal immunity from the start of the fight. His minimum Combat Power Rate and energy-attack properties are separate, not broader immunity to other power-control effects.",
+          "sourceIds": [
+            "blue-marvel-antimatter-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "count-nefaria",
+      "addProtections": [
+        {
+          "effectId": "power-steal",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Count Nefaria's Ionic Energy physiology prevents Power Steal from the start of the fight. This does not imply full immunity to Power Drain, Power Burn or Power Lock.",
+          "sourceIds": [
+            "count-nefaria-ionic-kit-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "dazzler",
+      "removeImmunityIds": [
+        "bad-vibes"
+      ],
+      "addProtections": [
+        {
+          "effectId": "incinerate",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Incinerate immunity is obtained through Dazzler's Kitty Pryde synergy with Lockheed's assistance. The synergy must be active; Dazzler's base kit does not independently grant Incinerate immunity.",
+          "sourceIds": [
+            "dazzler-base-synergy-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "diablo",
+      "addProtections": [
+        {
+          "effectId": "armor-break",
+          "forms": [
+            "debuff"
+          ],
+          "availability": "conditional",
+          "condition": "Armor Break Debuff immunity requires selecting Grain of Uru in Diablo's pre-fight menu and having the resulting Philosopher's Mix active after a Special Attack. This does not establish immunity to every passive Armor Break effect.",
+          "sourceIds": [
+            "diablo-grain-uru-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Stun immunity requires Grain of Uru selected for the fight and the Philosopher's Mix active after a Special Attack. It is not always active before the Mix is triggered or when it expires.",
+          "sourceIds": [
+            "diablo-grain-uru-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "doctor-strange",
+      "removeImmunityIds": [
+        "coldsnap"
+      ]
+    },
+    {
+      "id": "gentle",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Gentle is immune to Stun while he is performing a Well-Timed Block. Outside that action, his Bleed immunity does not provide blanket Stun immunity.",
+          "sourceIds": [
+            "gentle-block-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "imperiosa",
+      "addProtections": [
+        {
+          "effectId": "special-lock",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Imperiosa gains a four-second window of Special Lock immunity after either champion lands or blocks an Intercept, combo-ending attack or Heavy Attack. Outside that window she can be passively Special Locked by her own physiology.",
+          "sourceIds": [
+            "imperiosa-special-lock-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
