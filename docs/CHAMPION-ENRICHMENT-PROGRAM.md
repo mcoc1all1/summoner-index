@@ -64,3 +64,11 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - Sources include existing champion reference links and seven additional Kabam or current community reference URLs. Official spotlight landing pages were only usable as links during research, not as readable full ability text. Commentary and older balance proposals are labeled as version context, not independent gameplay testing.
 - Reviewed caveats include Colossus's conditional Armor Break interaction, awakened Kitty's Phase safety, Iceman's Ice Armor spend, Mysterio's helmet dependency, Nimrod's contested 2026 signature wording, and Shuri's tuned Shock ramp.
 - No private source compilations, third-party ability text, unsupported full-immunity claims or relic shortlists are republished. The notes remain source-linked editorial guidance, not verified optimal gameplay.
+
+## Batch 05 result — 5 November 2026
+
+- Added **60 original fight-decision notes across 20 further profiles** in four small patch files: Scorpion, Titania, Void, Vox, Abomination, Apocalypse, Captain Marvel (Classic), Ms. Marvel, Ms. Marvel (Kamala Khan), Nick Fury, Vision, Annihilus, Captain Marvel (Movie roster entry), Dust, Iron Man, Iron Man (Infamous), Jack O’Lantern, Kingpin, Magik and Sasquatch.
+- Upon passing checks and merging, the cumulative target is **110 of 334** champions with source-linked Field Notes; **222 remaining eligible** across **12** further batches of up to 20, plus two identity/availability exceptions.
+- These notes separate awakened from base abilities, distinguish similarly named champion variants and identify resource, timer, opponent and node limitations. They are original editorial guidance, not independent gameplay tests or reproduced ability lists.
+- Existing public-safety restrictions on unreviewed Stat Focus, third-party kit compilations and relic pairings remain in force. AdSense and unrelated launch/indexing decisions remain untouched.
+- Source links support ongoing research rather than establish in-game testing or content-reuse permission. Follow up when live kit wording changes.
