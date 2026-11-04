@@ -190,7 +190,7 @@
             "effect"
           ],
           "availability": "conditional",
-          "condition": "Photons's Neutralize effect immunity comes from her signature ability, The Full Spectrum, and therefore requires an awakened champion. The immunity is active after awakening rather than requiring Pure Light Form.",
+          "condition": "Photon's Neutralize effect immunity comes from her signature ability, The Full Spectrum, and therefore requires an awakened champion. The immunity is active after awakening rather than requiring Pure Light Form.",
           "sourceIds": [
             "immunity-photon-signature-20261104"
           ],
