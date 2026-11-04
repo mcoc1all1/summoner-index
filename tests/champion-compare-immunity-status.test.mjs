@@ -14,7 +14,7 @@ test('comparison differentiates reviewed always-on, conditional and unknown prot
  assert.match(html,/Reviewed always-active protections/);
  assert.match(html,/Reviewed conditional protections/);
  assert.match(html,/Source-listed effects · activation unreviewed/);
- assert.match(html,/Open a champion page for activation details/);
+ assert.match(html,/open a champion page for activation details/i);
  assert.doesNotMatch(html,/Immunities \(curated subset\)/);
  assert.match(html,/TITANIA|Titania/);
  assert.match(html,/Mysterio/);
