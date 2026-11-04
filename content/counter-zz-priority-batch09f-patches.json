@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 09F/09H original champion fight decisions with source IDs, conditional utility and practical caveats; not tested optimal rotations.",
+  "championPatches": [
+    {
+      "id": "joe-fixit",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-joe-fixit",
+          "deep-joe-fixit"
+        ],
+        "decisions": [
+          {
+            "title": "Choose card suits for the desired fight resource",
+            "text": "Joe Fixit draws different benefits from Medium, Light and Heavy attack choices, including offense, recovery and power-related effects. Decide which resource the defender demands before playing for a matching suit."
+          },
+          {
+            "title": "Finish a matching hand before the chosen Special",
+            "text": "Dead Man's Hand can create different debuff payoffs when the suit setup is ready. Check the visible card state and the opponent's effect resistance rather than firing a Special as soon as the first card appears."
+          },
+          {
+            "title": "Use SP2 to replay value, not just repeat an empty hand",
+            "text": "SP2 can reuse the preceding hand while SP1 offers a Bleed branch. A defender that is Bleed-immune or a poorly formed hand changes the expected benefit, so verify the previous effect before investing two power bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jubilee",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-jubilee",
+          "deep-jubilee"
+        ],
+        "decisions": [
+          {
+            "title": "Select the Firework color for this defender's actual issue",
+            "text": "Jubilee's Orange, Pink and Blue Surge modes reward different damage and utility decisions. Confirm which mode is active before spending power; the opponent's power and ability-accuracy needs should determine the choice."
+          },
+          {
+            "title": "Build Prowess outside Surge, then spend it when timing is safe",
+            "text": "Prowess resources develop in a particular state and can be lost in a poorly timed transition. A Heavy may end an unwanted Surge, but use an actual recovery window rather than charging blindly during the enemy's Special readiness."
+          },
+          {
+            "title": "Reserve SP3 persistent conversion for a real long-fight need",
+            "text": "SP2 can help maintain the chosen Surge while SP3 may reward a path-long Prowess investment. In a short fight, a prepared SP2 can be more useful than banking three bars that may not pay off."
+          }
+        ]
+      }
+    },
+    {
+      "id": "juggernaut",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-juggernaut",
+          "deep-juggernaut"
+        ],
+        "decisions": [
+          {
+            "title": "Keep the Gem active by avoiding unnecessary blocks",
+            "text": "Juggernaut's Unstoppable and Momentum progression changes when he blocks or takes hits. Prefer safe movement and open attacks to maintain the window, and check whether the defender has Slow or another counter to Unstoppable."
+          },
+          {
+            "title": "Launch SP2 at the actual maximum Momentum state",
+            "text": "A developed Momentum bank makes SP2 attractive, but a blocked hit just before the Special can spend resources and weaken the payoff. Check stacks and enemy power before launching the prepared burst."
+          },
+          {
+            "title": "Reactivate a disabled Gem instead of expecting automatic protection",
+            "text": "If the Gem is disabled, a safe Special opening may be needed before the normal offensive plan resumes. Do not assume the champion stays Unstoppable while control effects or node restrictions prevent his primary ability."
+          }
+        ]
+      }
+    },
+    {
+      "id": "karnak",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-karnak",
+          "deep-karnak"
+        ],
+        "decisions": [
+          {
+            "title": "Preserve Focus when True Strike solves a defender mechanic",
+            "text": "Karnak develops Focus when he avoids damage, and SP1 can help handle Evade or Auto-Block. Check whether the opponent actually relies on those effects before using the attack; Focus has little value if the matchup makes it irrelevant."
+          },
+          {
+            "title": "Use a Heavy recovery punish for Fragility",
+            "text": "A safely landed Heavy after a Special can add Fragility without spending Focus. Waiting for the opponent to finish the attack is safer than forcing a heavy startup in neutral space merely to get the debuff sooner."
+          },
+          {
+            "title": "Extend Fury from SP2 only with suitable knockdowns",
+            "text": "SP2 can establish a Fury window, and knockdowns can help preserve it under the recorded kit. Track the active buff and avoid assuming unlimited duration against a defender who blocks the follow-up."
+          }
+        ]
+      }
+    },
+    {
+      "id": "karolina-dean",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-karolina-dean",
+          "deep-karolina-dean"
+        ],
+        "decisions": [
+          {
+            "title": "Use sunlight positioning only when the lane remains safe",
+            "text": "Karolina can gain resources and power from standing in sunlight, but staying in an unsafe zone while an enemy Special is ready can outweigh that gain. Check current position and available escape space before committing to the ramp."
+          },
+          {
+            "title": "Build Iridescence before expecting strong SP2 Incinerate",
+            "text": "SP1 can develop Iridescence while SP2 can apply Incinerate effects from a prepared state. Check the active resource and opposing Incinerate immunity; an unprepared or immune encounter will not reproduce a showcase burst."
+          },
+          {
+            "title": "Launch follow-up Specials from the relevant light area",
+            "text": "The recorded setup can reward Specials that start inside sunlight, including Unblockable-related pressure. Confirm the zone and enemy power before firing, rather than treating every Special as if it receives the same environmental benefit."
+          }
+        ]
+      }
+    }
+  ]
+}
