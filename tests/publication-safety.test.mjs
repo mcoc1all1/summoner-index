@@ -97,3 +97,18 @@ test('compact loadout and compare data cannot expose withheld focus drafts',()=>
   }
  }
 });
+
+test('generic community rationale is not sufficient to publish a focus recommendation',()=>{
+ const source=structuredClone(original);
+ const c=source.champions.find(c=>c.loadout);
+ c.statFocusEligibility={status:'confirmed',checkedAt:'2026-11-04',sourceIds:[c.sourceIds[0]]};
+ c.statFocusReview={status:'reviewed',reviewedAt:'2026-11-04'};
+ c.loadout.attackFocus='Critical Rating';
+ c.loadout.defenseFocus='Block Proficiency';
+ c.loadout.attackReason='Community-corroborated starting point; matchup and playstyle can change the preferred choice.';
+ c.loadout.defenseReason='Community-corroborated starting point; matchup and playstyle can change the preferred choice.';
+ const pub=publicResearchView(source).champions.find(x=>x.id===c.id);
+ assert.equal(pub.statFocusReview.status,'withheld');
+ assert.equal(pub.loadout.attackFocus,'Not reviewed');
+ assert.equal(pub.loadout.defenseFocus,'Not reviewed');
+});
