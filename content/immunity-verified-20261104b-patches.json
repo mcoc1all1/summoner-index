@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "sources": [
+    {
+      "id": "rintrah-official-update-20261104",
+      "title": "Rintrah updated kit — 15 Mystical Charges grant Stun Immunity",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/351914/updating-rintrah-and-info-page-in-december",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "red-skull-fandom-kit-20261104",
+      "title": "Red Skull always-active immunity applies to champion-sourced effects",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Red_Skull",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "red-skull-node-exception-20261104",
+      "title": "Red Skull's champion ability immunity does not automatically cover nodes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/375363/why-redskull-buff-getting-nullified-in-battlegrounds",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "nick-fury-lmd-community-20261104",
+      "title": "Nick Fury Life Model Decoy signature Stun Immunity — community-reproduced ability text",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/195969/awakened-nick-furry-getting-stunned/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "juggernaut-gem-reverse-controls-20261104",
+      "title": "Juggernaut reversed-controls immunity requires active Gem of Cyttorak; historical node exceptions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/328629/juggernaut-and-reversed-controls-immunity",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "titania-buff-neutralize-20261104",
+      "title": "Buff-immune Titania can still trigger Neutralize-dependent hazards",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/347444/how-can-dexterity-buffs-be-failed-for-buff-immune-champs",
+      "kind": "community-report",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "id": "kabam-status-effect-types-20261104",
+      "title": "Kabam support — debuff immunity and passive status effects are distinct",
+      "url": "https://help.kabamsupport.com/hc/en-us/articles/360052574431-Battle-Status-Effects",
+      "kind": "official",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "rintrah",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Stun Immunity activates while Rintrah holds at least 15 Mystical Charges. His charges can fall after knockdowns or timer expiry; this is not permanent immunity from fight start. Source gives Stun Immune as an effect-level protection; debuff versus passive coverage is not separately established in this review.",
+          "sourceIds": [
+            "rintrah-official-update-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "red-skull",
+      "addProtections": [
+        {
+          "effectId": "nullify",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Red Skull's own always-active protection applies to Nullify effects originating from Champion abilities, not every matching effect produced by a quest node. Conditional here refers to effect origin, not a charge or fight timer. The kit does not establish blanket protection from node-sourced effects.",
+          "sourceIds": [
+            "red-skull-fandom-kit-20261104",
+            "red-skull-node-exception-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "fate-seal",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Red Skull's own always-active protection applies to Fate Seal effects originating from Champion abilities, not every matching effect produced by a quest node. Conditional here refers to effect origin, not a charge or fight timer. The kit does not establish blanket protection from node-sourced effects.",
+          "sourceIds": [
+            "red-skull-fandom-kit-20261104",
+            "red-skull-node-exception-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "effectId": "stagger",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Red Skull's own always-active protection applies to Stagger effects originating from Champion abilities, not every matching effect produced by a quest node. Conditional here refers to effect origin, not a charge or fight timer. The kit does not establish blanket protection from node-sourced effects.",
+          "sourceIds": [
+            "red-skull-fandom-kit-20261104",
+            "red-skull-node-exception-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "nick-fury",
+      "addProtections": [
+        {
+          "effectId": "stun",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Awakened Nick Fury becomes Stun Immune after the Life Model Decoy is destroyed, with his permanent Fury's Fury Buff. While striking Auto-Block he also has a separate conditional Stun Immunity interaction. Do not treat unawakened Nick as permanently immune.",
+          "sourceIds": [
+            "nick-fury-lmd-community-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "juggernaut",
+      "addProtections": [
+        {
+          "effectId": "reversed-controls",
+          "forms": [
+            "effect"
+          ],
+          "availability": "conditional",
+          "condition": "Juggernaut's protection depends on the Gem of Cyttorak remaining active. The Gem can be disabled, and historical Special Chaos Inversion node interactions were disputed and subsequently discussed as bugs. Verify the current node and Gem state rather than assuming unconditional immunity.",
+          "sourceIds": [
+            "juggernaut-gem-reverse-controls-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "titania",
+      "addProtections": [
+        {
+          "effectId": "buff",
+          "forms": [
+            "effect"
+          ],
+          "availability": "always",
+          "condition": "Titania is immune to gaining Buffs; this does not prevent passive beneficial effects or all effects that punish an attempted Buff. Neutralize and some other opponent mechanics can still trigger before Buff Immunity prevents an applied Buff. This is self-Buff immunity, not immunity to incoming Buff Immunity Debuffs.",
+          "sourceIds": [
+            "titania-buff-neutralize-20261104",
+            "kabam-status-effect-types-20261104"
+          ],
+          "checkedAt": "2026-11-04"
+        }
+      ]
+    }
+  ]
+}
