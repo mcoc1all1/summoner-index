@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-04",
+  "championPatches": [
+    {
+      "id": "captain-america-sam-wilson",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Captain America (Sam Wilson) activates Lock-On with a backdash/block, builds Armor Up and Physical Vulnerability using SP1, then spends armor for SP2 Ruptures. Critical Rating is a direct-hit frequency experiment with equal armor and Lock-On, not a multiplier for Rupture ticks or Physical Vulnerability potency.",
+        "defenseReason": "Editorial trial: Armor Penetration only helps eligible direct damage into armor; it does not replace spent armor, strengthen Lock-On or preserve Glancing after SP2. Compare Armor Rating or resistance if opponents punish him during armor rebuilding.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "captain-britain",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Captain Britain uses Psionic Mode, Exhaustion and SP2 Bulwark to add Neuroshock while choosing an extended SP3 mode in long fights. Special Damage is an eligible SP2/SP3 hit experiment at matched Psionic resources, not an assumed increase to Neuroshock damage over time.",
+        "defenseReason": "Editorial trial: Armor Penetration may change direct hits against armored opponents but does not accelerate Psionic Mode, grant Bulwark or fix Power Drain counters. Compare resistance if the opponent frequently interrupts her mode setup.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "captain-marvel",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Energy Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Captain Marvel accumulates persistent Energy Charges and deliberately enters Binary Ignition for a short Fury-backed SP2 burst. Critical Rating may boost eligible direct-hit critical frequency at equivalent charges and Binary duration, but it does not give free Energy Charges or extend Fury after they are spent.",
+        "defenseReason": "Editorial trial: Energy Resistance mitigates eligible energy hits during the defender's charge and Binary cycles. It does not prevent Mystic interactions from causing charge-based damage or negate the Binary timer; compare Physical Resistance against physical-pressure attackers.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "civil-warrior",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Civil Warrior converts Armor Up into Fury to pressure the opponent, while Heavy applies Heal Block and SP2 controls power. Critical Rating is a trial for eligible direct strikes at equal armor-to-Fury conversion, not a way to gain Armor Up or lengthen the Power Burn effect.",
+        "defenseReason": "Editorial trial: Armor Rating is a defensive stat experiment that does not generate the Armor Up Buffs spent for Fury. Compare damage received before and after his armor conversion; consider resistance when opponents can remove buffs outright.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "crossbones",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Crossbones cannot land ordinary critical hits, converting critical chance into extra Fury opportunities as he maintains Overrun. Critical Rating should therefore be tested for its interaction with Fury generation rather than presented as ordinary critical-hit damage. Compare Fury stacks and Overrun uptime at equal openings.",
+        "defenseReason": "Editorial trial: Armor Penetration is a conditional damage experiment against armored opponents. It does not preserve Fury from Nullify or Stagger and cannot bypass opposing Ability Accuracy protections that limit Crossbones's suppression.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "cull-obsidian",
+      "statFocusRecommendation": {
+        "attackFocus": "Physical Resistance",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Cull Obsidian completes persistent mission objectives before enabling a high-damage Rout window with Armor Breaks and Thanos's Favor. Physical Resistance is a survival-oriented setup trial rather than a direct increase to Rout; compare accumulated health loss at matching mission progress.",
+        "defenseReason": "Editorial trial: Armor Penetration may help eligible hits against armor but cannot add persistent charges, restore a lost Favor buff or replace applying Armor Break. Compare mitigation when the defender is most exposed before Rout.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "dani-moonstar",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Dani Moonstar gains Neural Arrows from Miss interactions and Prowess while a Falter is active, then fires SP2 after SP1 Energy Vulnerability. Critical Rating can be evaluated for direct-hit frequency with five Arrows and equal Prowess; it does not make an anti-Miss target miss or add Arrows.",
+        "defenseReason": "Editorial trial: Armor Penetration affects eligible direct attacks against armor, not the strength of Falter or the duration of Illusion. Compare resistance when an attacker can knock her down and remove Illusion before resource building.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "dazzler",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Dazzler builds Tempo via synchronized SP1 inputs, then spends it on SP2 while Energy Vulnerability is active. Special Damage is an eligible connected-hit trial at equal Tempo and vulnerability; do not assume it changes the separate rhythm Precision effect or mitigates Cowardice.",
+        "defenseReason": "Editorial trial: Armor Penetration can help eligible direct hits into Armor Rating, but it does not generate Tempo, extend Energy Vulnerability, or bypass Cowardice restrictions on special damage. Compare Energy Resistance if attackers reliably avoid the rhythm payoff.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "deadpool-x-force",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Deadpool (X-Force) builds Slap Charges from movement and selected light hits before applying Daunted with SP2 and spending charges on Heavy/SP1. Block Proficiency is a setup-health trial, not a damage buff or a way to create Slap Charges. Compare an eligible special-hit focus only with matching Daunted windows.",
+        "defenseReason": "Editorial trial: Armor Rating may mitigate armor-relevant incoming damage, but does not prevent Bleed immunity from removing the intended instant-effect conversion or extend Daunted. Compare Physical Resistance against basic-hit pressure.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "diablo",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "defenseFocus": "Armor Rating",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Diablo uses pre-fight ingredients to shape Philosopher's Mix, then cycles Poisons with Heavy, SP1 and SP2. Block Proficiency can support safer setup when blocking is necessary; it does not boost Poison ticks, extend the Mix or stop Poison-immune opponents. Test against a direct-special choice at equal ingredient setup.",
+        "defenseReason": "Editorial trial: Armor Rating is an incoming mitigation comparison and cannot substitute for Grain of Uru Stun/Armor Break protection, which only activates through the selected pre-fight and active Mix. Compare resistance if his opponent deals substantial nonphysical damage.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "doctor-voodoo",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Doctor Voodoo builds Loa and selects even- or odd-combo specials to convert Buffs to Poison and change Power Burn/Power Steal behavior. Critical Rating is an eligible hit-frequency test at identical Loa and combo parity, not an amplifier for Poison ticks or a replacement for the correct power-control special.",
+        "defenseReason": "Editorial trial: Physical Resistance is a mitigation trial during Loa building; it does not prevent Poison or Power Control immunities from countering the plan. Compare Energy Resistance when the expected opponent deals primarily energy damage.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "ebony-maw",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Ebony Maw develops Persuasion through Focus while avoiding knockdowns, then times SP2 during Falter to refresh and intensify Degeneration. Special Damage is a direct special-hit experiment at equal Persuasion and Falter; it cannot be assumed to boost the ongoing Degeneration effect or accelerate mission completion.",
+        "defenseReason": "Editorial trial: Armor Penetration may change eligible direct damage against armor but does not force Miss on Science opponents, shorten Focus cooldown or guarantee Falter remains active. Compare mitigation against opponents who can shut down the Persuasion ramp.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "elsa-bloodstone",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Elsa Bloodstone alternates Hellfire and ordinary rounds, applying Busted before using critical strikes for offensive payoff. Critical Damage Rating is a candidate for eligible critical hits at equal Precision, ammunition and Busted state; it does not increase reloading speed or counter damage-type immunities.",
+        "defenseReason": "Editorial trial: Armor Penetration may help eligible basic damage into armored opponents, not make her counter-Evade permanent or bypass a defender immune to both damage types. Compare resistance if her time-limited counterplay leaves her exposed between reloads.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "emma-frost",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Emma Frost switches between defensive Diamond and attacking Telepath based on power-bar relation, gaining Prowess from blocks and Telepath critical hits. Critical Rating is a direct-hit/Prowess-generation experiment with equal form time, not permission to ignore Armor Break forcing her out of Diamond.",
+        "defenseReason": "Editorial trial: Armor Penetration may aid eligible Telepath strikes against armor, but does not create Diamond's immunities, sustain Prowess after specials or prevent form-changing hazards. Compare defensive resistance against attackers who force Telepath form.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    },
+    {
+      "id": "falcon",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "defenseFocus": "Energy Resistance",
+        "checkedAt": "2026-11-04",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026"
+        ],
+        "attackReason": "Editorial trial: Falcon uses Recon to create a temporary Lock-On window that suppresses opposing defensive abilities, then selects SP1 Bleed or SP2 critical-hit damage. Critical Damage Rating is an eligible burst trial at equal Lock-On uptime and successful critical hits, not a way to suppress an Ability Accuracy-immune node.",
+        "defenseReason": "Editorial trial: Energy Resistance is an incoming mitigation experiment against energy-heavy attacks while Falcon waits through Recon cooldown. It does not extend Lock-On, block non-damage counters or increase SP2 critical-hit opportunities.",
+        "note": "Champion-specific research hypothesis grounded in the catalogued kit and cited community starting choices; not independently gameplay-tested or certified best-in-slot."
+      }
+    }
+  ]
+}
