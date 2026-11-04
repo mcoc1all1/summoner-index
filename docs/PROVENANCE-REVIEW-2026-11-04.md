@@ -37,3 +37,13 @@ Updated source patches: `content/immunity-verified-20261104-patches.json` and `c
 - Added specific conditions for Red Skull's protection from **champion-sourced** Nullify, Fate Seal and Stagger (not all quest-node effects), Rintrah's Stun Immunity at 15+ Mystical Charges, Nick Fury's post-Decoy Stun Immunity and Auto-Block interaction, Juggernaut's Gem-dependent reversed controls protection, and Titania's self-Buff immunity with Neutralize caveat.
 - Updated provenance queue to consolidate all `immunity-verified-*-patches.json` follow-ups. **71** originally broad immunity additions remain flagged for claim-level scope review (previously 78). This reduction means supporting conditions were recorded, not that independent gameplay testing was completed.
 - These are research and editorial corrections, **not** clearance to copy website text or a universal assertion that a node can never bypass an immunity.
+
+## 4 November follow-up — opposing Buff Immunity and effective Stat Focus coverage
+
+- Corrected **Black Widow (Claire Voyant)** and **Nico Minoru**: their Buff Immunity ability is applied to the opponent and does not establish innate self-Buff immunity. Removed the misleading `buff` immunity IDs.
+- Scoped **Nico Minoru** Poison/Rupture immunity to the Ward pre-fight spell, **Hulk** self-Buff/Nullify/Fate Seal/Stagger/Reversed Controls protection to named synergies, **Lizard** self-Buff immunity to his specials and Heal Block immunity to active Buff/Unstoppable, and **High Evolutionary** self protection only against opponent-granted Buffs. His Neutralize and Rupture protections are separately documented.
+- Second batch resolves **13** more broad catalog assertions or removes misleading IDs. **58** original-patch immunity effects remain queued for individual review (down from 71). The report counts review metadata, not confirmed incorrect mechanics.
+- Wrote eight more original, source-linked **Stat Focus test rationales** (Shang-Chi, Colossus, Corvus Glaive, Domino, Dust, Enchantress, Hit-Monkey, Titania). Recommended settings are unchanged; no measured gameplay claim has been added.
+- Improved the audit to distinguish **124 historical recommendation patch entries** from **108 distinct champions' effective latest settings**. Of these latest entries, **91 still lack an explicit champion-specific attacker and defender rationale**. A raw count of missing older patch entries overstates the current live editorial queue because newer records override them.
+
+The source-specific review state, current-client gameplay test status, and copyright/expression clearance remain distinct and are not certified by these patches.
