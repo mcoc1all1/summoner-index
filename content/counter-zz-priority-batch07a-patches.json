@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 07 cohort of 40; installment A covers eight profiles. Remaining 32 must be researched before this cohort is treated as complete. Editorial guidance linked to pre-existing catalog references; not live gameplay verification.",
+  "championPatches": [
+    {
+      "id": "beast",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-beast",
+          "deep-beast"
+        ],
+        "decisions": [
+          {
+            "title": "Select Freestyle for Bleed-dependent damage",
+            "text": "Beast's Freestyle mode supports Bleed pressure, so confirm that the defender can receive Bleed before committing to that sequence. If Bleed is blocked or purified, prioritize the available direct damage instead of assuming the same outcome."
+          },
+          {
+            "title": "Treat Acrobatic as a separate survival plan",
+            "text": "Acrobatic changes Beast's defensive options and can support recovery under the appropriate signature and combo conditions. Do not transfer an awakened healing sequence to an unawakened copy; verify the active mode before starting it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "captain-america-wwii",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-captain-america-wwii",
+          "deep-captain-america-wwii"
+        ],
+        "decisions": [
+          {
+            "title": "Use Perfect Block as a chance-based safety layer",
+            "text": "Captain America (WWII) can mitigate incoming hits with Perfect Block, but it is not a guarantee against every attack. Bait a punishable action rather than taking repeated blocked hits to gamble on perfect outcomes."
+          },
+          {
+            "title": "Check Bleed susceptibility before using SP2",
+            "text": "SP2's Bleed option is weaker against Bleed immunity or rapid purification. When that damage effect is unavailable, consider whether the fight is worth taking with this champion rather than assuming every special has equivalent value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cassandra-nova",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cassandra-nova",
+          "deep-cassandra-nova"
+        ],
+        "decisions": [
+          {
+            "title": "Establish Daunted before planning Neuroshock damage",
+            "text": "Cassandra Nova needs the relevant Daunted resource to make her Neuroshock offense effective. Track the on-screen count and avoid deliberately absorbing hits to accelerate it; an interrupted Heavy can undo the intended advantage."
+          },
+          {
+            "title": "Choose a special for the remaining fight length",
+            "text": "SP2 helps develop Neuroshock pressure while SP3 can consume an established resource for a different payoff. Against a short opponent, investing in a long setup may be less useful than a safer finish; check immunity first."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cosmic-ghost-rider",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cosmic-ghost-rider",
+          "kit-cosmic-ghost-rider"
+        ],
+        "decisions": [
+          {
+            "title": "Watch the Judgment count and buff order",
+            "text": "Cosmic Ghost Rider's rotation depends on earning distinct Judgments from personal buff triggers. A premature Dexterity Precision or unexpected buff can change the order, so check the visible Judgment meter before planning a Heavy-to-SP2 sequence."
+          },
+          {
+            "title": "Do not force Aptitude through a dangerous Heavy",
+            "text": "Aptitude can improve the ensuing buff-based damage setup, but a Heavy is only worthwhile during a confirmed recovery window. Fate Seal or other buff control can disrupt the entire sequence; evaluate the defender before committing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyclops-blue-team",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-cyclops-blue-team",
+          "deep-cyclops-blue-team"
+        ],
+        "decisions": [
+          {
+            "title": "Check the class requirement for True Focus",
+            "text": "Cyclops (Blue Team) has a non-Tech matchup condition for his opening True Focus utility. Do not treat it as unconditional anti-Miss and anti-Evade against a Tech defender; inspect the actual opponent and node first."
+          },
+          {
+            "title": "Spend Precision at the right special threshold",
+            "text": "Precision buildup can change his special options, but the higher-resource SP3 benefit is not a repeatable free resource. Count the stacks and choose the special that fits the current fight rather than banking indefinitely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "daredevil-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-daredevil-classic",
+          "deep-daredevil-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Separate Miss bypass from Evade coverage",
+            "text": "Daredevil (Classic) has useful Miss interaction, but that does not automatically counter Evade or Auto-Block. Read the defender's actual mechanic before selecting him as a universal avoidance counter."
+          },
+          {
+            "title": "Confirm the SP1 Stun condition",
+            "text": "The SP1 Stun opportunity depends on a qualifying critical hit and a defender who can be stunned. Do not chain an unsafe Heavy until the effect appears; protect the remaining Precision opportunity with a safe punish."
+          }
+        ]
+      }
+    },
+    {
+      "id": "darkhawk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-darkhawk",
+          "deep-darkhawk"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP3 when Null Mode utility matters",
+            "text": "Darkhawk's SP3 can establish Null Mode and Heal Block. Against regeneration that utility may justify the extra power investment, but a debuff-immune or purifying defender changes the value of that plan."
+          },
+          {
+            "title": "Track mode changes after knockdown",
+            "text": "A knockdown can move Darkhawk into a different mode and interrupt the planned Shock offense. Check the current mode after an opponent counterattack instead of continuing a Null Mode rotation that is no longer active."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dazzler",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-dazzler",
+          "deep-dazzler"
+        ],
+        "decisions": [
+          {
+            "title": "Practice the SP1 rhythm before relying on Tempo",
+            "text": "Dazzler's special timing inputs help establish the Tempo and Energy Vulnerability setup. Missing the rhythm can weaken the following burst; do not assume the intended effect is active without checking its indicator."
+          },
+          {
+            "title": "Use SP2 while Energy Vulnerability remains active",
+            "text": "The SP2 payoff depends on correctly timed inputs and the preceding vulnerability window. If that effect expires or is purified, the planned burst changes; watch the timer and avoid claiming unconditional Unblockable damage."
+          }
+        ]
+      }
+    }
+  ]
+}
