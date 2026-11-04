@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "40-champion enrichment batch 08A (1/8). Original source-linked player decisions; not independently combat-tested or published source-kit compilation.",
+  "championPatches": [
+    {
+      "id": "psylocke",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-psylocke",
+          "deep-psylocke"
+        ],
+        "decisions": [
+          {
+            "title": "Earn a Psi-Charge before planning power denial",
+            "text": "Psylocke can obtain a Psi-Charge when the opponent reaches a power threshold. Watch that threshold and use SP1 at an appropriate time; opening with SP1 before a charge is prepared may not start the intended control loop."
+          },
+          {
+            "title": "Preserve a charge while the defender has zero power",
+            "text": "Her recurring power-suppression plan needs a Psi-Charge and an opponent at zero power. Heavy attacks and certain Specials can spend the charge, so do not use those moves automatically while the defender is contained."
+          },
+          {
+            "title": "Choose SP2 Power Lock only when the shorter control fails",
+            "text": "SP2 can create a temporary Power Lock option, but it costs more power and may face resistance or immunity. Check the defender's current power bar and node rules before replacing a working SP1 drain cycle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "punisher-2099",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-punisher-2099",
+          "deep-punisher-2099"
+        ],
+        "decisions": [
+          {
+            "title": "Build battery for a real Overdrive window",
+            "text": "Punisher 2099's SP1 can speed the battery economy, and Overdrive changes pressure on the opponent's power. Check the current battery level before assuming that normal attacks already benefit from the fully developed state."
+          },
+          {
+            "title": "Use Overdrive power suppression rather than chasing an unsafe race",
+            "text": "During Overdrive, limiting enemy power can be valuable against dangerous Specials, but battery use is finite. Monitor its drain, especially when automatic defensive interactions also spend energy, and keep a safe exit plan."
+          },
+          {
+            "title": "Spend SP2 Armor Break only when the battery can afford it",
+            "text": "SP2 offers Armor Break pressure but has a resource cost that may shorten Overdrive. Against Armor Break immunity or a short encounter, weigh the immediate Special against preserving the more useful power-control effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "purgatory",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-purgatory",
+          "deep-purgatory"
+        ],
+        "decisions": [
+          {
+            "title": "Build Bloodthirst through controlled openings",
+            "text": "Purgatory develops Bloodthirst using eligible basics, blocks and SP1. Read the visible counter rather than assuming every combo contributes equally; a defensive node that punishes blocks can make one method too risky."
+          },
+          {
+            "title": "Choose Rampage damage or SP1 recovery according to health",
+            "text": "During Rampage, SP2 can offer an Unblockable Degeneration route while SP1 may support recovery. Check whether the opponent resists Degeneration and whether the current health deficit justifies using power on sustain."
+          },
+          {
+            "title": "Capture a class soul only when the finishing condition is met",
+            "text": "A Special knockout can secure a persistent opponent-class benefit for a later fight. Check the active soul and remaining health before saving power for the finishing blow, and do not assume single-fight modes start fully ramped."
+          }
+        ]
+      }
+    },
+    {
+      "id": "quake",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-quake",
+          "kit-quake",
+          "expanded-core-quake"
+        ],
+        "decisions": [
+          {
+            "title": "Build Concussion before trusting the avoidance loop",
+            "text": "Quake's Heavy charge creates Earthquake pressure and a Concussion sequence, but Evade coverage does not apply unconditionally to every incoming hit. Establish the state in a safe matchup before committing to the loop."
+          },
+          {
+            "title": "Treat a successful Evade as an invitation to reset safely",
+            "text": "After an eligible basic attack is Evaded, recover defensively and begin the next Heavy charge only when spacing permits. Do not promise the same timing against a defender with unusually fast recovery or a special ready."
+          },
+          {
+            "title": "Check True Strike and node overrides before selecting Quake",
+            "text": "True Strike, anti-Evade rules and certain attack forms can disrupt the usual Quake approach. A demonstrated avoidance loop in a normal fight is not evidence that it bypasses every boss, unstoppable node or Special attack."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rocket-raccoon",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-rocket-raccoon",
+          "deep-rocket-raccoon"
+        ],
+        "decisions": [
+          {
+            "title": "Protect the combo before banking Scrap",
+            "text": "Rocket Raccoon's Scrap rewards sustained critical hits, so avoiding unnecessary damage and combo loss matters more than forcing a risky attack. Check the resource count before expecting a boosted SP2 grenade."
+          },
+          {
+            "title": "Use Heavy Armor Break only when it addresses the defender",
+            "text": "A Heavy may apply Armor Break, but the target may resist it or punish Heavy attacks. If the defender does not rely on armor, saving the safe opening for a more dependable Special may be the better use of time."
+          },
+          {
+            "title": "Choose SP1 drain or SP2 burst based on incoming Specials",
+            "text": "SP1 can provide power control while SP2 can spend developed Scrap on damage. A threatening defender Special changes the tradeoff; control can be worth more than a larger grenade hit that arrives too late."
+          }
+        ]
+      }
+    }
+  ]
+}
