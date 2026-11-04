@@ -56,3 +56,11 @@ AdSense, domain, advertising, consent and indexing settings are excluded from th
 - Drafted 60 distinct decision-focused notes for the next 20 priority champions: Sunspot, Absorbing Man, Galan, Hulkling, Enchantress, Domino, Hulkbuster, Aegon, Black Cat, Killmonger, Mantis, Mojo, Mordo, Spider-Gwen, Spider-Man (Classic), Spider-Man (Supreme), Symbiote Supreme, Wasp, Corvus Glaive and Mister Sinister.
 - Cumulative enriched profiles on successful merge: **70 of 334**. The nonexception queue becomes **262 profiles** across **14 batches** of 20 or fewer; two roster/identity exceptions remain.
 - Source-linked explanations focus on action decisions, tradeoffs, and matchup mechanics. They do not assert independent gameplay tests, universal ability coverage, precise numerical performance or protected third-party kit reuse. Continue independently checking current versions and contradictory kit reports during future passes.
+
+## Batch 04 result — 5 November 2026
+
+- Prepared **60 original, source-linked field notes** for the next 20 high-priority champions: Colossus, Iceman, Beta Ray Bill, Kitty Pryde, Electro, Peni Parker, Photon, Rintrah, Emma Frost, Ironheart, Mephisto, Mysterio, Red Hulk, Shuri, Korg, Nimrod, Sentinel, Thing, Anti-Venom and Attuma.
+- At successful merge: **90 of 334** records will have field notes, leaving **242** non-exception profiles across **13** further batches, plus **two** identity-review exceptions.
+- Sources include existing champion reference links and seven additional Kabam or current community reference URLs. Official spotlight landing pages were only usable as links during research, not as readable full ability text. Commentary and older balance proposals are labeled as version context, not independent gameplay testing.
+- Reviewed caveats include Colossus's conditional Armor Break interaction, awakened Kitty's Phase safety, Iceman's Ice Armor spend, Mysterio's helmet dependency, Nimrod's contested 2026 signature wording, and Shuri's tuned Shock ramp.
+- No private source compilations, third-party ability text, unsupported full-immunity claims or relic shortlists are republished. The notes remain source-linked editorial guidance, not verified optimal gameplay.

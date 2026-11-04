@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion field-note batch 04: 20 priority profiles with original decision-focused explanations, source-linked kit facts, official context where available, and explicitly unverified current-game edge cases. Not a gameplay test or permission to reproduce bulk third-party kit text.",
+  "sources": [
+    {
+      "id": "b04-colossus-official-rework",
+      "title": "Kabam discussion — Colossus post-beta Armor Up opening",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/166131/what-exactly-changed-between-the-beta-and-now/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-iceman-tuneup-context",
+      "title": "Kabam balance notes — Iceman Coldsnap immunity tuneup planning (historical)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/326412/spider-man-supreme-and-spot-balancing-update",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-bill-spotlight",
+      "title": "Kabam champion spotlight — Beta Ray Bill (reference landing page)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-beta-ray-bill/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-rintrah-spotlight",
+      "title": "Kabam champion spotlight — Rintrah (reference landing page)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-rintrah/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-photon-spotlight",
+      "title": "Kabam champion spotlight — Photon (reference landing page)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-photon/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-shuri-balance",
+      "title": "Kabam team balance notes — Shuri ramp and upkeep changes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/328873/attuma-and-shuri-balance-update/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b04-nimrod-description-report",
+      "title": "2026 community report — Nimrod signature text changed",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2922731",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "colossus",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "colossus",
+          "expanded-core-colossus",
+          "b04-colossus-official-rework"
+        ],
+        "decisions": [
+          {
+            "title": "Start by reading Armor Up, not just class",
+            "text": "Colossus enters combat with indefinite Armor Up buffs, and his X-Men teammates can change the starting stack. Kabam documented a post-beta adjustment to his opening armor. Count today's buffs before judging whether a lengthy Armor-building rotation is necessary."
+          },
+          {
+            "title": "Convert a safe Stun into a damage window",
+            "text": "After a successful Stun, the recorded heavy interaction offers a short Fury opportunity. Link that to SP2 only when the defender can be safely stunned and spacing permits a heavy cancel. A stun-immune defender requires a different punish."
+          },
+          {
+            "title": "Keep conditional Armor Break protection conditional",
+            "text": "His roster record has multiple core damage-effect immunities, but protection from Armor Break has a condition. Do not advertise blanket Armor Break immunity in the champion finder; read the actual activation requirement and opponent ability before selection."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iceman",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "iceman",
+          "expanded-core-iceman",
+          "b04-iceman-tuneup-context"
+        ],
+        "decisions": [
+          {
+            "title": "Check Coldsnap before relying on anti-Evade",
+            "text": "Iceman's Coldsnap can stop Evade while it is active, but that is a debuff applied to the opponent, not an always-on anti-Evade effect. If Coldsnap cannot land or expires, your next basic attack may still trigger Evade."
+          },
+          {
+            "title": "Treat Ice Armor as an expendable safety layer",
+            "text": "SP2 can offer a stronger immediate damage play while consuming Ice Armor. Watch its restoration timing before accepting any hit; SP3 may be a better route when you need to regain the defensive layer."
+          },
+          {
+            "title": "Detonate only stacks you can actually maintain",
+            "text": "Build Frostbites through eligible critical hits, then use a safely timed Heavy to cash them out. The best window depends on the visible stack count and the opponent's cold-effect protection; an old champion spotlight may predate later utility changes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "beta-ray-bill",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-beta-ray-bill",
+          "deep-beta-ray-bill",
+          "b04-bill-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Remove Armor Up without demanding Armor Break",
+            "text": "Beta Ray Bill's first medium can remove an opposing Armor Up effect. That is useful against armor-reliant defenders where Armor Break immunity would defeat a different champion; verify the actual armor effect before assuming every Armor passive will disappear."
+          },
+          {
+            "title": "Plan Heavy to SP2 as a linked decision",
+            "text": "A safely charged Heavy can raise Intensify, while the SP2 cancel pauses buffs and applies Shocks. Check the opponent's Power bar and available recovery opening before the Heavy; the added damage is not worth an interrupted special."
+          },
+          {
+            "title": "Match Shock expiration to the SP1 finish",
+            "text": "His Shock timing can reward medium-started combos and a correctly timed SP1. Shock-immune targets change this plan substantially; SP3 Resonance may provide a different payoff, but should not be represented as identical damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kitty-pryde",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "kitty-kit",
+          "expanded-core-kitty-pryde"
+        ],
+        "decisions": [
+          {
+            "title": "Check whether Prowess is high enough to Phase",
+            "text": "Kitty needs a Prowess threshold before dashing forward to Phase. A dash without sufficient Prowess is simply a dash; use safe critical openings or permitted Stuns to establish the resource before relying on Miss."
+          },
+          {
+            "title": "Do not transfer awakened protection to an unduped Kitty",
+            "text": "Her signature changes how damage is prevented while Phase is active. An unawakened Kitty can still use Phase offensively, but should not be given the same claims about surviving all damage during the phased window."
+          },
+          {
+            "title": "Keep the original Kitty separate from 2026 variants",
+            "text": "The newer Star-Lord (Kitty Pryde) champion is a separate roster identity. Check the icon and champion name when reading new November discussions; its element-gun mechanics do not automatically belong to the original Kitty Pryde."
+          }
+        ]
+      }
+    },
+    {
+      "id": "electro",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-electro",
+          "deep-electro"
+        ],
+        "decisions": [
+          {
+            "title": "Calculate retaliation without taking unnecessary hits",
+            "text": "Electro's contact-based defensive retaliation can punish opponents who hit into him. That is a defender consideration, not a recommendation to deliberately absorb combos while using him on attack; protect your own health and work from safer openings."
+          },
+          {
+            "title": "Distinguish Shock resistance from a Shock immunity tag",
+            "text": "The recorded kit has unusual benefits when Shock effects are involved, but those interactions are not automatically equivalent to universal immunity. Read whether the incoming effect is a Shock debuff, passive or damage node before relying on him."
+          },
+          {
+            "title": "Treat chance-based Stuns as opportunities",
+            "text": "SP2 has a possible Stun, not a guaranteed opening. If it does not occur, disengage and rebuild safely rather than attempting a heavy follow-up on a live opponent; an awakened critical benefit is also subject to its power-state condition."
+          }
+        ]
+      }
+    },
+    {
+      "id": "peni-parker",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-peni-parker",
+          "deep-peni-parker"
+        ],
+        "decisions": [
+          {
+            "title": "Read the Sync-Shield before any blocking plan",
+            "text": "Peni Parker's Sync-Shield supports block protection and Auto-Block while charged. When the shield is depleted, a cooldown window changes the defender's threat. An attacker should check the shield state instead of assuming each blocked hit produces the same result."
+          },
+          {
+            "title": "Bank Spider-Sense only while power is controlled",
+            "text": "Her SP1 helps build Spider-Sense stacks, including a situational payoff around enemy power. Bait a manageable special and avoid giving the defender an unanswerable SP3 simply to add one more stack."
+          },
+          {
+            "title": "Use SP2 only if Incinerates can work",
+            "text": "SP2 turns accumulated resources into Incinerate damage, so protection from Incinerate changes the expected burst. Choose another defender or a different fight plan rather than trying to force the same damage through immunity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "photon",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-photon",
+          "deep-photon",
+          "b04-photon-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Differentiate attacker and defender charges",
+            "text": "Photon gains Electromagnetic Charges through kit interactions, but the AI-facing charge rules are not the same as the player's attacking setup. When countering her, watch the actual charge meter and Pure Light state rather than following the offensive rotation."
+          },
+          {
+            "title": "Enter Pure Light on purpose",
+            "text": "On attack, a backdash-and-hold-block input can trigger Pure Light after sufficient charges. If the defender has a special ready, secure space first; once the form is active, spend SP2 inside the intended window."
+          },
+          {
+            "title": "Do not call Miss coverage automatic on every hit",
+            "text": "Her Medium attacks and Pure Light provide distinct anti-Miss interactions. Node rules, debuff prevention and form uptime still matter. Separately verify a Bleed or Power Steal protection rather than inferring broader immunity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rintrah",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-rintrah",
+          "deep-rintrah",
+          "b04-rintrah-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Build charges from real buff interactions",
+            "text": "Rintrah can earn Mystical Charges as enemy buffs fail under Neutralize. Against buff-poor opponents, that acceleration does not exist; do not copy a buff-rich defender's timing and expect the same SP2 ramp."
+          },
+          {
+            "title": "Use Root only when you control spacing",
+            "text": "Root can support a high-damage Rupture window but limits your movement. Check the opponent's special pattern before rooting yourself at close range; pause Ruptures with a well-timed Heavy only when the opening is actually safe."
+          },
+          {
+            "title": "Choose SP2 for cash-out, SP3 for a different objective",
+            "text": "SP2 spends developed charge pressure on damage, while SP3 offers recovery and positioning. A late SP2 after the resource timer clears wastes the setup; check the charge meter and desired fight outcome first."
+          }
+        ]
+      }
+    },
+    {
+      "id": "emma-frost",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-emma-frost",
+          "deep-emma-frost"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Diamond and Telepath as distinct defensive states",
+            "text": "Diamond form has special immunities and resistance; Telepath instead supplies a more offensive, Prowess-oriented state. An immunity active in Diamond cannot be promised while Emma is in Telepath, so inspect her power differential before selecting her."
+          },
+          {
+            "title": "Check whether the next special switches forms",
+            "text": "Specials can spend Prowess and temporarily change Emma's form. Time a special around a planned Telepath damage burst rather than launching only because a power bar fills; defense changes with the active form."
+          },
+          {
+            "title": "Use Armor Break as a targeted defender answer",
+            "text": "Armor Break forces her out of Diamond and delays returning while the effect persists. That is valuable counterplay, but a defender immune to Armor Break or protected by a node may retain Diamond's protection."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ironheart",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ironheart",
+          "deep-ironheart"
+        ],
+        "decisions": [
+          {
+            "title": "Choose the Repulsor effect before the fight",
+            "text": "Ironheart's pre-fight allows distinct damage effects such as Incinerate or Rupture. Select it based on the defender's actual immunity and the node, then track applications instead of assuming both damage types are available simultaneously."
+          },
+          {
+            "title": "Refresh debuffs without losing Armor Up",
+            "text": "SP1 can pause or maintain Repulsor pressure while Light attacks help build Armor Up for an SP2 conversion. Armor Break can strip important protection; check current Armor Up before relying on her shield or blocked-hit benefits."
+          },
+          {
+            "title": "Recognize Tracking as its own utility",
+            "text": "Tracking gives anti-Miss interaction and may support extra blocking utility, but it is not a blanket counter to Evade, Unstoppable or every defensive trigger. Pick the right utility for the specific opponent mechanic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mephisto",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mephisto",
+          "deep-mephisto"
+        ],
+        "decisions": [
+          {
+            "title": "Do not spend the Soul reserve blindly",
+            "text": "Mephisto uses Souls for several offensive choices and a low-health safety response. Burning Souls on SP1 or another setup can leave less available for the emergency Regeneration. Track the remaining Souls before taking a calculated risk."
+          },
+          {
+            "title": "Keep Incineration Aura in safe proximity",
+            "text": "SP2 enables close-range Incineration Aura pressure. Standing near the defender increases damage uptime, but it also exposes you to their specials; bait a manageable attack and re-enter only during a safe recovery."
+          },
+          {
+            "title": "Differentiate getting energy from being incinerated",
+            "text": "Mephisto's own Incinerate exposure can benefit his power economy, but that does not prove immunity to every form of fire, energy or passive damage. An Incinerate-immune target also changes the value of his offensive aura."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mysterio",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mysterio",
+          "deep-mysterio"
+        ],
+        "decisions": [
+          {
+            "title": "Check the helmet before trusting Poison immunity",
+            "text": "Mysterio's poison protection and ability-accuracy defense depend on an intact helmet. Armor Break and certain Spider-Verse Hero knockdowns can crack it; the same fight can shift from safe to unsafe when the helmet disappears."
+          },
+          {
+            "title": "Spend Chemical Gas on the needed utility",
+            "text": "Second-medium attacks generate Chemical Gas. SP2 can offer power control, while a fourth-light finisher gives Heal Block; build only enough resource for the effect the defender actually requires instead of following one rotation everywhere."
+          },
+          {
+            "title": "Keep Frenzy and Poison prerequisites visible",
+            "text": "SP3 can unlock a Frenzy sequence and Heavy can use stored gas for Poison damage. Against Poison immunity, this particular cash-out loses value; choose direct damage or a different attacker rather than assuming the gas bypasses immunity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-hulk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-red-hulk",
+          "deep-red-hulk"
+        ],
+        "decisions": [
+          {
+            "title": "Count Heat rather than overexposing yourself to damage",
+            "text": "Red Hulk's Heat improves physical pressure. Some energy-based and Mystic interactions can accelerate it, but deliberately taking hits to reach a stack target is risky. SP1 is a safer way to help build Heat when you have an opening."
+          },
+          {
+            "title": "Distinguish debuff conversion from full immunity",
+            "text": "Converting or benefiting from particular incoming debuffs is not a blanket protection from all passive damage. Check the node's exact effect type before treating Red Hulk as an answer to a Shock, Poison or Incinerate hazard."
+          },
+          {
+            "title": "Choose SP2 healing only when you can afford the Heat",
+            "text": "SP2 can recover health by spending an offensive resource. In longer quests the heal may be worth delaying damage; when near a finish, keeping Heat and continuing safe basics may be the better choice."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shuri",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-shuri",
+          "deep-shuri",
+          "b04-shuri-balance"
+        ],
+        "decisions": [
+          {
+            "title": "Plan the Shock ramp around the tuned kit",
+            "text": "Kabam documented changes intended to shorten Shuri's ramp and improve Shock maintenance. Do not apply older stack limits and durations by memory; count present Shock effects and verify current SP and Heavy timing."
+          },
+          {
+            "title": "Prefer a safe Heavy for critical-Shock conversion",
+            "text": "A Heavy can refresh existing Shocks and convert eligible effects into Critical Shock Passives. If you cannot create a safe punish window, a rushed Heavy may lose the fight and the accumulated damage setup."
+          },
+          {
+            "title": "Avoid claiming every Armor Up is a removable buff",
+            "text": "Shuri uses Armor Up Passives in parts of her protection. Those aren't automatically removed by an ability that only Nullifies buffs. Similarly, Shock immunity on the opponent is a real constraint on her offensive plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "korg",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-korg",
+          "deep-korg"
+        ],
+        "decisions": [
+          {
+            "title": "Count Rock Shield charges when countering him",
+            "text": "Korg's Rock Shield mitigates incoming hits while charged. Each suitable strike can alter that protection; don't assume repeated contact hits always deal the same damage. Plan around the actual shield meter and the chosen attack type."
+          },
+          {
+            "title": "Do not treat contact retaliation as universal",
+            "text": "His awakened retaliatory damage can punish contact attacks, but energy and non-contact interactions can bypass some of that pressure. Find a safe attacker whose damage does not depend on standing inside retaliation range."
+          },
+          {
+            "title": "Spend Crowd Excitement in a purposeful special",
+            "text": "When using Korg, Crowd Excitement can support an SP2 Bleed window or a Heavy-based Armor Break. If the target is Bleed immune, pick utility and direct hits over attempting a standard Bleed-cashout."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nimrod",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "nimrod-kit",
+          "expanded-core-nimrod",
+          "b04-nimrod-description-report"
+        ],
+        "decisions": [
+          {
+            "title": "Select Titan versus Blitz for the mechanic, not class",
+            "text": "Titan protocol supports Armor Up and charge generation; Blitz can remove enemy Prowess and Regeneration. The fourth-light finisher switches protocols, so inspect which mode is actually active before choosing a Mutant fight."
+          },
+          {
+            "title": "Build Eradicate with charges visible",
+            "text": "Protocol Charges enable an Eradicate special window. Launching SP2 before sufficient charges can produce a different outcome than an Eradicate SP2, and a subsequent SP2 inside a refreshed window may have a different signature-damage interaction."
+          },
+          {
+            "title": "Treat January 2026 signature wording as version-sensitive",
+            "text": "Players reported a change to Nimrod's signature text in January 2026 and disputed exactly when damage bonuses apply. This is a prompt for a current-game comparison, not proof of a universal nerf; avoid publishing a fixed percentage or guaranteed repeated SP2 bonus."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentinel",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sentinel",
+          "deep-sentinel"
+        ],
+        "decisions": [
+          {
+            "title": "Choose safe repeated defender actions for Analysis",
+            "text": "Sentinel's Analysis gains value as it identifies repeated opponent patterns. Bait manageable basic or special actions rather than repeatedly risking an SP3 just to fill the meter; the resource affects both damage and power efficiency."
+          },
+          {
+            "title": "Check which special meets the current requirement",
+            "text": "A developed Analysis state can support longer SP2 Incinerates, while SP1 brings Heal Block and Armor Break. Against an Incinerate-immune defender, SP2's damage plan changes; prioritize whichever utility still applies."
+          },
+          {
+            "title": "Save the emergency replacement for a real need",
+            "text": "His special quest-limited replacement or recovery option is not an unlimited refill. Track whether that resource is available before relying on it for a long path, and don't count it as ordinary regeneration on every fight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thing",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thing",
+          "deep-thing"
+        ],
+        "decisions": [
+          {
+            "title": "Treat Rock Stacks as both protection and a spending resource",
+            "text": "Thing can build Rock Stacks through well-timed blocks, converting removed stacks into Fury. A particular stack count improves special options, but every removal changes his defensive state; don't spend stacks just to chase a damage number."
+          },
+          {
+            "title": "Bleed immunity still changes the stack counter",
+            "text": "Thing prevents Bleed damage yet Bleed attempts can remove Rock Stacks. An opponent who tries to bleed him can unexpectedly alter when Fury or a special becomes available; watch the counter instead of equating immunity with no interaction."
+          },
+          {
+            "title": "Separate buff-control immunities by exact mechanism",
+            "text": "His set of reported immunities includes several specific buff-control and damage effects, but the published finder should never infer that he is protected against all ability accuracy reduction or every node-sourced debuff. Verify the exact effect and mode."
+          }
+        ]
+      }
+    },
+    {
+      "id": "anti-venom",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-anti-venom",
+          "deep-anti-venom"
+        ],
+        "decisions": [
+          {
+            "title": "Choose which Genetic Memory debuff the opponent needs",
+            "text": "Anti-Venom can select different utilities with the second-medium sequence, such as Decelerate, Petrify or Disorient. Against an Evade-heavy defender, the best choice may differ from a healer; decide based on the encounter first."
+          },
+          {
+            "title": "Use SP1 to build a controlled debuff set",
+            "text": "SP1 can accelerate applications and support Petrify. If the defender Purifies the debuffs, the intended SP2 payoff shrinks; don't launch the special merely because the power bar is full."
+          },
+          {
+            "title": "Do not spend all debuffs for a bad SP2 window",
+            "text": "SP2 can exchange much of the current setup for Fury. This is a good finisher when the enemy can be hit safely, but a poor trade if the opponent is about to shrug the debuffs or interrupt the special."
+          }
+        ]
+      }
+    },
+    {
+      "id": "attuma",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-attuma",
+          "deep-attuma"
+        ],
+        "decisions": [
+          {
+            "title": "Keep Hydration above the useful threshold",
+            "text": "Attuma's damage and defensive interactions depend on Hydration, which changes through his attacks and incoming effects. Coldsnap can accelerate loss, while Shock and Incinerate interactions may consume stacks; watch the meter rather than relying on passive protection forever."
+          },
+          {
+            "title": "Ability-accuracy changes can backfire",
+            "text": "His kit can reverse the direction of ability-accuracy modifications. An effect intended to suppress an Attuma defensive trigger may instead improve its reliability; confirm the exact debuff and node before planning an AAR-based counter."
+          },
+          {
+            "title": "Select the special for the remaining setup",
+            "text": "SP1 can contribute True Accuracy and SP2 can supply Cruelty alongside Concussion management. An SP3 Bleed route changes against Bleed immunity; choose based on the visible Hydration and opponent protections, not a single fixed rotation."
+          }
+        ]
+      }
+    }
+  ]
+}
