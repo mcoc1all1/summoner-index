@@ -51,3 +51,9 @@ Once you have GitHub CLI (`gh`) authenticated and have reviewed the script, run 
 ## Editorial clearance checklist for each boss
 
 Record a dated reviewer, evidence URLs, a manual comparison of substantial prose passages/unique selection, treatment of any copied headings/diagrams, whether facts were independently written or licensed, and whether the content changed since the last review. Keep accuracy separately documented. Mark `rights.status='reviewed'` only with an actual supported legal basis and evidence; a comparison that finds no verbatim copy is not a blanket clearance.
+
+## 5 November 2026 — preflight for a clean publishing repository
+
+Before copying `dist/` to a new public distribution repo, run the current beta build followed by `npm run distribution:preflight`. This fails if the output includes raw source/research directories, internal editorial files, known private-key/token patterns, unfiltered third-party reference lists, named relic shortlists, indexed HTML, or sitemap URLs. GitHub Pages CI also runs it after the public-beta build.
+
+**This is an artifact check, not migration.** The original research catalog and Git history are still present publicly in this repository; the owner must create a private source repository and intentionally cut over to a clean-history public distribution repository. Do not copy `content/`, `docs/`, `tests/`, `scripts/` or old `.git` history into the public publishing destination. Do not remove `noindex` until the owner approves the commercial launch.
