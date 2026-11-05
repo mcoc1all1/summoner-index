@@ -90,7 +90,8 @@ export function auditCommercialReadiness(root=rootDefault,{today=new Date().toIS
  const findings=manualCommercialFindings(register,{today});
  if(rights.pending)findings.push({id:'boss-guide-expression',severity:'blocker',detail:`${rights.pending} of ${rights.total} boss guides do not have current individually documented expression/rights assessments.`});
  if(!quality.totalPages)findings.push({id:'missing-build',severity:'blocker',detail:'Run the public-beta build before auditing generated pages.'});
- if(quality.indexablePages<=2)findings.push({id:'site-wide-noindex',severity:'blocker',detail:`Only ${quality.indexablePages} generated pages are currently indexable; keep noindex until the approved SEO rollout.`});
+ if(quality.indexablePages===0)findings.push({id:'owner-indexing-hold',severity:'blocker',detail:'All published pages are intentionally noindex by owner instruction. Do not lift this hold until commercial rights, content-quality, domain and advertising reviews are complete and the owner authorizes launch.'});
+ else if(quality.indexablePages<=2)findings.push({id:'site-wide-noindex',severity:'blocker',detail:`Only ${quality.indexablePages} generated pages are indexable; an authorized launch indexing plan is still required.`});
  if(quality.missingTitleCount||quality.missingDescriptionCount||quality.missingCanonicalCount)
   findings.push({id:'page-metadata',severity:'blocker',detail:'Generated pages lack essential title, description or canonical metadata. See quality examples.'});
  if(quality.possibleAdTagsCount)
