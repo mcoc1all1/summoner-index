@@ -81,7 +81,7 @@ test('40-champion batch reaches 250 of 334 field-note records',()=>{
  assert.equal(report.summary.totalChampions,334);
  assert.equal(report.summary.batchSize,40);
  assert(report.summary.completedPilot>=250,'batch 09 coverage remains present after later enrichment');
- assert.equal(report.summary.identityReview,2);
+ assert(report.summary.identityReview<=2,'resolution can reduce exceptions');
  assert(report.summary.queued<=82,'new batches should not enlarge the previous unreviewed queue');
  assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
  assert.equal(report.summary.queued+report.summary.completedPilot+report.summary.identityReview,334);
