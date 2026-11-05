@@ -6944,6 +6944,55 @@
       "checkedAt": "2026-11-05"
     },
     {
+      "id": "corroboration-spiral-serpent-20261106",
+      "title": "Independent Spiral champion review discussing Serpent matchup",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/381068/champion-review-spiral",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-prowler-domino-20261106",
+      "title": "Independent Ordeal clear report using Prowler against Domino",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/412544/curb-stomping-the-ordeal-my-0-revive-hero-run",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-sunspot-dust-20261106",
+      "title": "Independent Elite Bounty completion report using Sunspot against Dust",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/378911/elite-bounty-counters-thread",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-luke-enchantress-20261106",
+      "title": "Separate player discussion reporting Luke Cage versus Enchantress",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/382340/champs-that-counter-enchantress-onslaught-and-bullseye/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-galan-red-skull-20261106",
+      "title": "Independent post-buff Red Skull discussion with Galan user report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/396926/who-is-buffed-red-skull-counter",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-shuri-domino-20261106",
+      "title": "Separate Battlegrounds discussion with Shuri-versus-Domino report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376757/bg-counters-for-tough-defenders",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "corroboration-hulkling-arcade-20261106",
+      "title": "Player defender-selection discussion mentioning Hulkling as Arcade counter",
+      "url": "https://www.reddit.com/r/MarvelContestOfChamps/comments/1jxs7oa/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -52769,7 +52818,8 @@
       "attackerId": "shuri",
       "defenderId": "domino",
       "sourceIds": [
-        "counter-research-shuri-20261031"
+        "counter-research-shuri-20261031",
+        "corroboration-shuri-domino-20261106"
       ],
       "abilityIds": [
         "shock"
@@ -55906,7 +55956,8 @@
         "fury"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-hulkling-arcade-20261106"
       ],
       "score": 2,
       "why": "Hulkling is repeatedly listed by players as an Arcade counter, with Poison immunity and access to Unblockable pressure reducing two common sources of friction.",
@@ -56084,7 +56135,8 @@
         "power-steal"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-spiral-serpent-20261106"
       ],
       "score": 3,
       "why": "Spiral is repeatedly recommended into The Serpent; Falter immunity and Destroy give her tools for two of the matchup's most disruptive defensive effects.",
@@ -56141,7 +56193,8 @@
         "debilitate"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-luke-enchantress-20261106"
       ],
       "score": 2,
       "why": "Luke Cage is a current community-reported Enchantress counter; Concussion and Debilitate give useful control once you are correctly clearing her spells.",
@@ -56191,7 +56244,8 @@
         "power-lock"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-prowler-domino-20261106"
       ],
       "score": 2,
       "why": "Players commonly point to Prowler for Domino; his non-contact Medium attacks and non-critical damage pattern reduce some of the usual friction in the matchup.",
@@ -56293,7 +56347,8 @@
         "incinerate"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-sunspot-dust-20261106"
       ],
       "score": 2,
       "why": "Sunspot is repeatedly reported as a Dust counter because Incinerate can remove Sand and interfere with her Sandstorm setup.",
@@ -56447,7 +56502,8 @@
         "incinerate"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "corroboration-galan-red-skull-20261106"
       ],
       "score": 2,
       "why": "Galan is a widely reported Red Skull option because Red Skull's many Armor Up Buffs give Galan abundant buff-based ramp for Harvest damage.",
