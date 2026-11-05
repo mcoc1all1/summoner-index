@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11G: independently authored, source-linked fight guidance with activation, positioning, and effect-protection caveats.",
+  "sources": [
+    {
+      "id": "b11-wave-may-recap",
+      "title": "Community recap of May 2026 MCOC livestream — Wave gameplay overview",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2951829",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "viv-vision",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-viv-vision",
+          "deep-viv-vision"
+        ],
+        "decisions": [
+          {
+            "title": "Choose Light or Medium finishers for the defender's actual control need",
+            "text": "Viv Vision can use combo enders for Suppression or Heal Block while resetting Phase availability. Target the effect that matters and check the next attack's timing, rather than assuming both types of control are always active."
+          },
+          {
+            "title": "Prepare SP2 block inputs with enough Armor to convert",
+            "text": "Her SP2 can convert Armor Up into Solar Energy through timed block inputs. Check remaining Armor and practice the timing before expecting full resources from every SP2 animation."
+          },
+          {
+            "title": "Use SP1 while the defender's power permits Solar Energy payoff",
+            "text": "SP1 can spend prepared Solar Energy on damage and power-related follow-up. If the enemy power bar has moved outside the useful range or the state expired, reconsider the Special rather than forcing a weak cash-out."
+          }
+        ]
+      }
+    },
+    {
+      "id": "war-machine",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-war-machine",
+          "deep-war-machine"
+        ],
+        "decisions": [
+          {
+            "title": "Use an Armory Boost only on an eligible ally that benefits",
+            "text": "War Machine's pre-fight Armory Boosts have limits and eligibility requirements. Check the path and team before consuming a support charge; a boost with no relevant matchup value may be better saved."
+          },
+          {
+            "title": "Use SP2 Armor Break before the Rupture-oriented follow-up",
+            "text": "SP2 can establish Armor Break while SP1 can support Rupture and Suppression. If the defender is protected from either effect, the normal linked sequence needs revision; inspect what landed."
+          },
+          {
+            "title": "Refresh useful non-Stun debuffs with a safe Heavy",
+            "text": "A Heavy can extend his personal debuff plan when its internal cooldown permits it. Check the timer and defender recovery instead of forcing the move whenever a debuff is close to expiring."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wave",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-wave",
+          "deep-wave",
+          "b11-wave-may-recap"
+        ],
+        "decisions": [
+          {
+            "title": "Use a combo-to-Heavy opening rather than an exposed Heavy",
+            "text": "Wave can chain from a basic hit into a Heavy that creates a personal Stun and other utility. Choose a controlled recovery opening, and check any anti-Stun or anti-Miss node before assuming the follow-up is protected."
+          },
+          {
+            "title": "Choose SP1 setup or SP2 Battered for the next exchange",
+            "text": "SP1 can develop relevant debuffs while SP2 offers Battered as a different pressure tool. Inspect which effects the defender resists before committing power, since a generic two-bar cycle may not supply the needed utility."
+          },
+          {
+            "title": "Use special-punish Heavies only during the actual debuff window",
+            "text": "A prepared window can reward punishing enemy Specials with Heavy attacks, while SP3 raises stack limits for longer fights. Track remaining duration and spacing instead of taking an unsafe Special bait for one extra stack."
+          }
+        ]
+      }
+    },
+    {
+      "id": "werewolf-by-night",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-werewolf-by-night",
+          "deep-werewolf-by-night"
+        ],
+        "decisions": [
+          {
+            "title": "Use first Medium and fourth Light hits to prepare Rupture",
+            "text": "Werewolf by Night's damage plan can build Rupture through specific attacks. Check target Rupture protection and avoid an exposed combo solely to complete the set before the defender launches a dangerous Special."
+          },
+          {
+            "title": "Create distance before Chilling Howl",
+            "text": "The Chilling Howl setup can develop Lycanthropy Charges when Ruptures and power interactions align. Position safely and observe the resources rather than activating the move too close to a prepared counterattack."
+          },
+          {
+            "title": "Spend SP2 during the useful Curse window",
+            "text": "The Curse state can improve offensive pressure, but its duration requires active management. Check whether attacks can safely maintain the state and whether the defender's remaining health warrants another SP2 cycle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "white-tiger",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-white-tiger",
+          "deep-white-tiger"
+        ],
+        "decisions": [
+          {
+            "title": "Use combo ends to answer eligible enemy Power Gain buffs",
+            "text": "White Tiger can remove certain Power Gain or Energize effects with combo endings. Check whether those buffs are present and removable; a node's unmodifiable passive power may not yield the same control."
+          },
+          {
+            "title": "Build SP1 Fury and time Precision with the next dash",
+            "text": "SP1 can contribute Fury while a brief dash-related Precision effect can support Specials. Watch the active buffs and enemy power instead of assuming an early SP1 guarantees a full later burst."
+          },
+          {
+            "title": "Choose SP2 Bleed and healing denial only against susceptible targets",
+            "text": "SP2 can add Bleed pressure and a temporary healing-control window. Bleed immunity or regeneration rules can alter the payoff, so make a practical choice between continuing Fury and spending two bars."
+          }
+        ]
+      }
+    }
+  ]
+}
