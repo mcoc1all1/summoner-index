@@ -1,0 +1,80 @@
+name: Seed noindex website-only branch (no cutover)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/seed-site-publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seed-noindex-website-only-branch
+  cancel-in-progress: false
+
+jobs:
+  stage-site-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read existing public source without modifying main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Verify historical code, unit tests and pending rights register
+        run: |
+          npm run build
+          npm test
+          npm run rights:check
+
+      - name: Build current verified site at its ORIGINAL public URL with noindex
+        env:
+          SITE_ORIGIN: https://mcoc1all1.github.io
+          SITE_BASE_PATH: /summoner-index
+          PUBLIC_BETA: '1'
+        run: |
+          npm run build
+          node scripts/check-beta.mjs
+          npm run distribution:preflight
+
+      - name: Stage site files with checksums away from the source checkout
+        run: node scripts/stage-clean-publication.mjs --output "$RUNNER_TEMP/summoner-existing-site-branch"
+
+      - name: Check out original public repo in an isolated worktree
+        uses: actions/checkout@v6
+        with:
+          repository: mcoc1all1/summoner-index
+          ref: main
+          path: site-target
+          persist-credentials: true
+
+      - name: Push only the new orphan site-publish branch without force
+        env:
+          PUBLISH_PUSH: '1'
+        run: |
+          bash scripts/write-publication-branch.sh \
+            "$RUNNER_TEMP/summoner-existing-site-branch/site" \
+            "$GITHUB_WORKSPACE/site-target"
+
+      - name: Assert original main was not changed and history root is independent
+        run: |
+          set -euo pipefail
+          source_main="$(git rev-parse HEAD)"
+          new_main="$(git -C site-target rev-parse main)"
+          test "$source_main" = "$new_main"
+          test "$(git -C site-target rev-parse --abbrev-ref HEAD)" = 'site-publish'
+          test "$(git -C site-target log --reverse --format=%s | head -n 1)" = \
+            'Initialize Summoner Index noindex website-only branch'
+          test -f site-target/index.html
+          test ! -e site-target/content/catalog.json
+          test ! -e site-target/.github
+          echo "Clean public site-publish branch created. Original main remains untouched."
+          echo "IMPORTANT: Existing Pages Settings and live website have NOT switched."
+          echo "Historical source files on public main and old refs remain accessible."
