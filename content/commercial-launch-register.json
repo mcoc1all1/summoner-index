@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "reviewPurpose": "Evidence-backed prelaunch decisions. Pending is not a finding of infringement. No commercial activation is authorized.",
+  "checks": [
+    {
+      "id": "third-party-expression",
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewer": null,
+      "evidence": null,
+      "scope": "Independent comparison or documented permission/licensing for non-boss pages, abilities, reference selections, original guide prose, Fandom adaptations and any externally sourced media."
+    },
+    {
+      "id": "source-repository-separation",
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewer": null,
+      "evidence": null,
+      "scope": "Publish only approved generated content from a clean public distribution repository; move canonical third-party research and history to a private development repository."
+    },
+    {
+      "id": "original-value-review",
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewer": null,
+      "evidence": null,
+      "scope": "Review indexed candidate pages for original helpful content, functionality, accurate caveats, non-duplicative intent, and usability on mobile."
+    },
+    {
+      "id": "privacy-consent-and-disclosures",
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewer": null,
+      "evidence": null,
+      "scope": "Update live privacy disclosures for any future advertising/analytics; configure applicable consent management and verify requirements before loading tags."
+    },
+    {
+      "id": "domain-and-seo-migration",
+      "status": "pending",
+      "reviewedAt": null,
+      "reviewer": null,
+      "evidence": null,
+      "scope": "Verify an owned custom domain, DNS/HTTPS, canonical/OG URLs, redirects, Search Console, and an approved indexable sitemap before broad indexing."
+    }
+  ]
+}
