@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 11E, five source-linked editorial profiles with conditional timing, effects and resource checks.",
+  "championPatches": [
+    {
+      "id": "the-overseer",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-overseer",
+          "deep-the-overseer"
+        ],
+        "decisions": [
+          {
+            "title": "Build Gamma Power without forcing dangerous Heavy baits",
+            "text": "The Overseer can gain Gamma through the fight and use a Heavy Taunt to influence opponent Specials. Only bait attacks you can reliably avoid; an unsafe enemy SP3 is not worth a faster resource ramp."
+          },
+          {
+            "title": "Activate Cosmic Mode with enough Gamma for a real follow-up",
+            "text": "A Special can enter Cosmic Mode when the required Gamma is available. Confirm the current count and mode state before using Light-heavy offensive sequences that depend on the related bonus damage."
+          },
+          {
+            "title": "Choose SP1 recovery or SP2 Energize for the next objective",
+            "text": "SP1 can contribute to sustain during Cosmic Mode while SP2 can prepare a power-related follow-up. Check Heal Block and the defender's power behavior rather than assuming either choice is always a full damage rotation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thor-jane-foster",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thor-jane-foster",
+          "deep-thor-jane-foster"
+        ],
+        "decisions": [
+          {
+            "title": "Develop self-Shock and Stagger from a safe combo-to-Heavy opening",
+            "text": "Thor (Jane Foster) can apply Stagger and build self-Shock through eligible attacks and Heavy transitions. Check the active effects and the defender's buff behavior before relying on a later Special cash-out."
+          },
+          {
+            "title": "Use SP1 Fervor only when it can improve subsequent Shocks",
+            "text": "SP1 can make additional self-Shock generation attractive, but building the stack while an aggressive defender threatens another Special adds risk. Use a safe punish and monitor which effects remain."
+          },
+          {
+            "title": "Spend SP2 when prepared self-Shocks justify the damage",
+            "text": "SP2 can convert developed self-Shocks into an offensive payoff, while SP3 can support a longer power cycle. Against Shock-altering nodes or a short fight, the expensive setup may not be worth the exposure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thor-ragnarok",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thor-ragnarok",
+          "deep-thor-ragnarok"
+        ],
+        "decisions": [
+          {
+            "title": "Build combo safely before investing in Fury",
+            "text": "Thor (Ragnarok) can develop offensive momentum through basics and SP1. Check the next enemy Special and your combo count rather than taking additional hits solely to reach the damage window."
+          },
+          {
+            "title": "Use SP2 Fury when contact Shocks can remain on target",
+            "text": "SP2 can help establish Fury and a Shock-related contact plan that may enable Armor Break. A Shock-immune or Armor Break-immune defender can change the payoff, so verify the actual effects after connecting."
+          },
+          {
+            "title": "Treat Boon SP3 as a conditional power investment",
+            "text": "Boon can enable special power opportunities and an SP3-enhanced Fury plan, but taking an opposing Special may interfere with the state. Track active Power Gain rather than assuming three bars arrive automatically."
+          }
+        ]
+      }
+    },
+    {
+      "id": "toad",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-toad",
+          "deep-toad"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Paralytic Poison with the intended Medium and tongue hits",
+            "text": "Toad applies his damage effect through specific eligible attacks, including second Mediums. Check opponent Poison protection before using repeated full combos; immunity can eliminate the payoff you are trying to build."
+          },
+          {
+            "title": "Use SP1 healing and Prowess only when they can remain active",
+            "text": "SP1 can activate regeneration and help develop Prowess, but maintaining pressure affects the healing window. Check whether the defender prevents regeneration and whether your next attacks can safely pause its timing."
+          },
+          {
+            "title": "Spend SP2 for Slow and Poison burst after a useful Prowess setup",
+            "text": "SP2 may consume developed Prowess for damage while offering Slow utility. Check both immunity and whether the defender actually relies on an Evade or Unstoppable mechanic before choosing it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ultron",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ultron",
+          "deep-ultron"
+        ],
+        "decisions": [
+          {
+            "title": "Respect the timed Evade Function instead of relying on permanent defense",
+            "text": "Ultron's Evade follows a cooldown rather than making every incoming hit miss. Check the active function and anti-Evade effects before choosing a risky offensive approach."
+          },
+          {
+            "title": "Use SP1 Stun only if an actual follow-up is possible",
+            "text": "SP1 can create a short Stun opening against eligible defenders. Wait for the effect before starting another combo, especially against Stun-immune opponents or nodes that punish repeated contact."
+          },
+          {
+            "title": "Use SP2 to extend the relevant Cauterize damage window",
+            "text": "SP2 can improve Cauterize and associated offensive pressure, while Self-Repair affects survival in a different way. Watch the current states and incoming Stun risk rather than treating either as unconditional protection."
+          }
+        ]
+      }
+    }
+  ]
+}

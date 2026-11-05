@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11F: original, source-linked tactical Field Notes for five distinct champion variants, including limited buff and phase resources.",
+  "championPatches": [
+    {
+      "id": "ultron-classic",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ultron-classic",
+          "deep-ultron-classic"
+        ],
+        "decisions": [
+          {
+            "title": "Build Poison only against a defender that can retain it",
+            "text": "Ultron (Classic) can use basic attacks to inflict Poison while developing Fury. Poison immunity or cleansing removes much of the standard setup, so avoid promising the same Special damage or healing control."
+          },
+          {
+            "title": "Convert active Poisons into Heal Block when regeneration matters",
+            "text": "A Special can use existing Poisons to extend a Heal Block opportunity. Check that the opponent has enough active effects and actually heals; spending the bar without either condition gives limited control value."
+          },
+          {
+            "title": "Treat timed Evade and Stun as conditional safety tools",
+            "text": "The Classic variant can offer chance-based Stun and a timed Evade. Neither should be represented as guaranteed protection from the next Special or a node's unavoidable damage; verify the visible state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "valkyrie",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-valkyrie",
+          "deep-valkyrie"
+        ],
+        "decisions": [
+          {
+            "title": "Use Light and Medium finishers to control the combo resource",
+            "text": "Valkyrie can reverse and restore combo progress through different enders, creating opportunities when the count crosses multiples of ten. Track both the count and available buffs instead of using an ordinary five-hit pattern every time."
+          },
+          {
+            "title": "Convert Pierce and Bulwark with a safe Heavy",
+            "text": "A safely landed Heavy can convert accumulated buffs into stronger temporary passives and apply Intimidate. Find an actual recovery opening and check buff-removal nodes before committing to the setup."
+          },
+          {
+            "title": "Launch SP2 into block only when the pressure window is ready",
+            "text": "SP2 and subsequent blocked basic hits can benefit from the prepared Fury and Pierce plan. Check opponent block-related nodes and your remaining buff time; hitting block is not safe against every defender."
+          }
+        ]
+      }
+    },
+    {
+      "id": "venom-the-duck",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-venom-the-duck",
+          "deep-venom-the-duck"
+        ],
+        "decisions": [
+          {
+            "title": "Select which Aberration buffs deserve permanent storage",
+            "text": "Venom the Duck generates buffs through Aberration, and SP1 can accelerate the cycle. Watch the actual buff result before storing it, since a poor permanent choice may use part of the limited fight-by-fight capacity."
+          },
+          {
+            "title": "Bank desired buffs with a safe Heavy or Special",
+            "text": "A Heavy or eligible Special can store active buffs, but there is a limit on how many can be banked. Count what is already saved rather than wasting an exposed Heavy on a buff that would not fit."
+          },
+          {
+            "title": "Use SP3 stored-buff activation only when quest length pays back",
+            "text": "SP3 can reactivate useful banked buffs in later fights, while SP2 can support Toxic Armor damage. Against a single defender or a buff-removing node, that persistent investment can lose value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "venompool",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-venompool",
+          "deep-venompool"
+        ],
+        "decisions": [
+          {
+            "title": "Build Cookin' Meter against an opponent with useful buffs",
+            "text": "Venompool's SP1 can remove eligible opponent buffs while accelerating Cookin' Meter. A buffless or Nullify-resistant target alters the ramp, so inspect the buff icons before treating every SP1 as the same boost."
+          },
+          {
+            "title": "Reroll the newest Blender Buff only when it is a poor fit",
+            "text": "A safe Heavy can replace the most recent Blender Buff and provide Vicious pressure. Check the active buffs and opponent behavior; repeated unnecessary rerolls can cost more time than accepting a modest benefit."
+          },
+          {
+            "title": "Use SP2 after preparing the desired buff package",
+            "text": "SP2 can capitalize on the existing buffs and its dance interaction, while SP3 is a longer-fight acceleration option. Choose based on the current state and remaining health rather than assuming the longest animation is best."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vision-deathless",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-vision-deathless",
+          "deep-vision-deathless"
+        ],
+        "decisions": [
+          {
+            "title": "Burn the opponent's power across the correct threshold",
+            "text": "Deathless Vision can gain Phase-related resources when a Special burns the defender below a full-bar threshold. Inspect the actual bar before attacking; a Special that does not cross the threshold may miss the intended charge."
+          },
+          {
+            "title": "Use a precisely timed block input to phase with a charge",
+            "text": "A well-timed block interaction can spend a Phase charge and create a Miss opportunity. Confirm charge availability and opponent anti-Miss tools before relying on it to avoid an otherwise dangerous attack."
+          },
+          {
+            "title": "Recycle power burns for control or use SP3 to secure a charge",
+            "text": "Repeated Special interactions can replenish phase resources and support Heal Block, while SP3 offers a higher-cost charge option. Against a power-control-resistant defender, do not promise the same repeatable cycle."
+          }
+        ]
+      }
+    }
+  ]
+}

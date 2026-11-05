@@ -78,10 +78,10 @@ test('batch 10 preserves history and reaches 290/334 profile-note coverage',()=>
  const audit=championEnrichmentAudit(db);
  assert.equal(audit.summary.totalChampions,334);
  assert.equal(audit.summary.batchSize,40);
- assert.equal(audit.summary.completedPilot,290);
- assert.equal(audit.summary.queued,42);
+ assert(audit.summary.completedPilot>=290,'batch 10 coverage persists in later cohorts');
+ assert(audit.summary.queued<=42,'subsequent batches must not enlarge the outstanding queue');
  assert.equal(audit.summary.identityReview,2);
- assert.equal(audit.summary.batches,2);
+ assert.equal(audit.summary.batches,Math.ceil(audit.summary.queued/audit.summary.batchSize));
  assert.equal(audit.summary.queued+audit.summary.completedPilot+audit.summary.identityReview,334);
  for(const id of ['doctor-doom','silk','kate-bishop','sunspot','colossus',
   'scorpion','terrax','psylocke','gwenom','mister-fantastic','mister-negative'])

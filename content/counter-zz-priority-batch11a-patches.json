@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11A of 11H: five original, source-linked champion fight-decision profiles. Editorial interpretation only, not independently measured combat or reproduced source-kit text.",
+  "sources": [
+    {
+      "id": "b11-noir-v59-fix",
+      "title": "Kabam v59.0 release notes — Spider-Man Noir Crumble interaction fix",
+      "url": "https://playcontestofchampions.com/news/v59-0-release-notes/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "spider-man-2099",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-2099",
+          "deep-spider-man-2099"
+        ],
+        "decisions": [
+          {
+            "title": "Apply Exhaustion before using a power-control Special",
+            "text": "Spider-Man 2099 can apply Exhaustion with a safe Heavy and Physical Vulnerability through SP1. Read the current debuffs and opponent's power before treating the follow-up SP2 as a fully prepared control window."
+          },
+          {
+            "title": "Use SP2 Wither against a real Power Gain threat",
+            "text": "SP2 can offer Wither while its burst benefits from unique personal debuffs. A defender immune to Wither or whose power comes from an unmodified node may require another counter rather than an assumed complete shutdown."
+          },
+          {
+            "title": "Extend debuff uptime through eligible dodges",
+            "text": "A successful dash-back dodge and prevented-buff interactions can help maintain pressure. Track the remaining effects instead of backdashing into a corner simply to refresh a timer; SP3 Slow is a separate long-fight choice."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-noir",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-noir",
+          "deep-spider-man-noir",
+          "b11-noir-v59-fix"
+        ],
+        "decisions": [
+          {
+            "title": "Follow the visible Clue before accumulating Cruelty",
+            "text": "Spider-Man Noir develops Dormant Cruelty from completing specified Clue actions. Check the current on-screen task, since using a generic combo may not earn the resource needed for the intended SP2."
+          },
+          {
+            "title": "Use second Lights to establish Disorient safely",
+            "text": "Repeated eligible Light attacks can develop Disorient, but the defender may resist ability-accuracy reduction. Choose safe openings and verify the effect before relying on it to disable a dangerous defensive trigger."
+          },
+          {
+            "title": "Cash Crumble into a deliberate block-pressure window",
+            "text": "SP2 can convert Cruelty and introduce Crumble, after which hitting block can create a Rooted follow-up. This requires a live Crumble state and the correct attack rhythm; the October patch also addressed an Evade-prevention issue, so avoid old bug claims."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-punk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-punk",
+          "deep-spider-punk"
+        ],
+        "decisions": [
+          {
+            "title": "Build Crowd Members without feeding unsafe Specials",
+            "text": "Spider-Punk can gain crowd through successful defensive Special dodges and a punish. Select a defender whose Special can be safely avoided; do not repeatedly bait a dangerous attack solely to increase the audience count."
+          },
+          {
+            "title": "Practice SP2 chord input before expecting the full Rupture setup",
+            "text": "His SP2 rewards correctly timed rhythm inputs that develop Rupture and crowd. A missed input changes the result, and Rupture immunity can erase the damage plan; choose a manageable opening before spending two bars."
+          },
+          {
+            "title": "Use SP1 while Ruptures have time remaining",
+            "text": "SP1 can capitalize on active Rupture pressure, while SP3 offers longer-fight duration improvement. Check the timer and remaining defender health rather than holding power until the setup expires."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-slayer-j-jonah-jameson",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-slayer-j-jonah-jameson",
+          "deep-spider-slayer-j-jonah-jameson"
+        ],
+        "decisions": [
+          {
+            "title": "Complete the current Headline before changing objectives",
+            "text": "Spider-Slayer uses a displayed Headline that can require specific actions. Read it before committing; a safe Heavy can reroll an unsuitable task, but forcing that Heavy while the defender can counterattack is not a good trade."
+          },
+          {
+            "title": "Use the camera only from protected spacing",
+            "text": "The hold-block and upward-swipe camera interaction can develop a Falter and Fury opening. Confirm the resulting state and any anti-Miss protection instead of assuming the defender's next hit will always miss."
+          },
+          {
+            "title": "Spend Specials before the defender reaches an unsafe power state",
+            "text": "His Specials can produce Power Burn under relevant enemy-power conditions. Watch the defender's current bar and avoid keeping them at maximum power merely to increase a potential payoff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-woman",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-woman",
+          "deep-spider-woman"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Fury before deciding how to spend it",
+            "text": "Spider-Woman can build Fury through basics and SP2, but the stack count and remaining time matter. Choose a safe attacking window rather than spending SP1 before any useful buff is present."
+          },
+          {
+            "title": "Refresh Fury with an eligible dodge, not a risky guess",
+            "text": "Correctly dodging a Special or using an available Evade can help maintain Fury. Check the defender's anti-Evade tools and the active timer before assuming repeated defensive movement sustains damage indefinitely."
+          },
+          {
+            "title": "Use SP1 Sting and Shock pressure when the defender can receive it",
+            "text": "SP1 can convert offensive buffs into Shock and Power Sting opportunities. Check whether the relevant effects landed before baiting another enemy Special; Shock immunity or effect cleansing changes the intended burst."
+          }
+        ]
+      }
+    }
+  ]
+}

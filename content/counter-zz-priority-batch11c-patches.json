@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11C: original source-linked player guidance for five champions, with explicit resource, awakening and fight-length conditions.",
+  "championPatches": [
+    {
+      "id": "stryfe",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-stryfe",
+          "deep-stryfe"
+        ],
+        "decisions": [
+          {
+            "title": "Bait the defender's Special before committing to an Invisibility loop",
+            "text": "Stryfe can build Telepathic Charges through a cloak and safe Heavies, but an immediate opposing Special may remove the opening. Check enemy power and spacing before using SP1 to establish the planned attack cycle."
+          },
+          {
+            "title": "Spend charges on Concussion only when ability control matters",
+            "text": "A fourth-Light ender can consume charges to apply Concussion, providing a different utility from saving them for burst. Check whether the targeted defender ability can be reduced rather than expecting node-level shutdown."
+          },
+          {
+            "title": "Reserve SP3 persistent charges for a multi-fight path",
+            "text": "SP3 can help bank developed charges across eligible fights, while SP2 may provide a faster finish. Decide whether the path length supports the extra investment and inspect any Shock-related opponent protection."
+          }
+        ]
+      }
+    },
+    {
+      "id": "super-skrull",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-super-skrull",
+          "deep-super-skrull"
+        ],
+        "decisions": [
+          {
+            "title": "Develop the proper receptor buff before attempting Overload",
+            "text": "Super-Skrull can accumulate Fury from offense and Armor through blocking, with a receptor cycle affecting Overload. Avoid taking unnecessary block damage just to build the defensive half of the setup."
+          },
+          {
+            "title": "Choose SP1 or SP2 for the buff conversion needed",
+            "text": "SP1 can convert some Fury to Armor while SP2 can move Armor toward Fury. Check the current buff mix, since a buff-removing opponent can change the next Overload payoff dramatically."
+          },
+          {
+            "title": "Use SP3 Aptitude only when the future buff cycle pays back",
+            "text": "SP3 can make a longer ramp more appealing through Aptitude. Against a low-health defender or a node that strips buffs, an earlier Special may be both safer and more effective."
+          }
+        ]
+      }
+    },
+    {
+      "id": "superior-iron-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-superior-iron-man",
+          "deep-superior-iron-man"
+        ],
+        "decisions": [
+          {
+            "title": "Set the opening buff pre-fight to solve the defender",
+            "text": "Superior Iron Man can choose an opening buff and develop missing types from second-Medium attacks. Select the useful effect for the encounter instead of applying a fixed damage-only plan on every node."
+          },
+          {
+            "title": "Duplicate an existing buff only while it is actually present",
+            "text": "Fourth-Light hits can add copies of personal buff types while SP2 supports additional copies and Armor Break. Check the active buffs and target Armor Break immunity before pursuing a large stack."
+          },
+          {
+            "title": "Save SP3 buff pauses for an encounter that lasts",
+            "text": "SP3 can help maintain a developed buff package while Fury remains active, but it requires three bars. If the opponent is nearly defeated or repeatedly Nullifies, a shorter route has less exposure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "taskmaster",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-taskmaster",
+          "deep-taskmaster"
+        ],
+        "decisions": [
+          {
+            "title": "Read Exploit Weakness's requested attack before committing",
+            "text": "Taskmaster's key damage plan asks for a particular attack type at a given moment. Check the active prompt and defender recovery instead of throwing a fixed combo that may miss the actual objective."
+          },
+          {
+            "title": "Use a safe Heavy for cooldown management",
+            "text": "A Heavy can alter the Exploit Weakness cooldown, but it remains punishable if started too close to an active defender. Take an opening after a blocked Special or other genuine recovery, not while the opponent can interrupt."
+          },
+          {
+            "title": "Keep awakened Concussion progression separate from the base kit",
+            "text": "The signature can reward repeated exploits with passive Concussion and improved follow-ups. An unawakened Taskmaster should not be credited with that control loop, and ability-accuracy immunity can change its value."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thanos-deathless",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-thanos-deathless",
+          "deep-thanos-deathless"
+        ],
+        "decisions": [
+          {
+            "title": "Prepare Energy before asking Heavy to apply Armor Shattered",
+            "text": "Deathless Thanos develops Energy through eligible hits and can spend a developed state on a Heavy Armor Shattered opportunity. Check the counter and a safe recovery window before assuming armor control is available."
+          },
+          {
+            "title": "Use SP1 Fury or SP2 Corrosion based on opponent protection",
+            "text": "SP1 can support Fury, while an Energy-funded SP2 can apply Corrosion. Against a defender protected from Corrosion, the extra resource spend may be less useful than a safer immediate Special."
+          },
+          {
+            "title": "Invest in SP3's expanded Energy ceiling only for long fights",
+            "text": "SP3 can improve the Energy economy later in an encounter. If the defender's remaining health is low, a shorter SP2 cash-out may deliver more practical value than the three-bar investment."
+          }
+        ]
+      }
+    }
+  ]
+}
