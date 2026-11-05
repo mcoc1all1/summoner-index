@@ -76,7 +76,7 @@ test('batch 08 brings field-note coverage to 210 and keeps previous cohorts',()=
  assert.equal(audit.summary.totalChampions,334);
  assert.equal(audit.summary.batchSize,40);
  assert(audit.summary.completedPilot>=210,'batch 08 remains enriched after subsequent cohorts');
- assert.equal(audit.summary.identityReview,2);
+ assert(audit.summary.identityReview<=2,'resolved identities can reduce exceptions');
  assert(audit.summary.queued<=122,'subsequent enrichment should not increase the queue');
  assert.equal(audit.summary.batches,Math.ceil(audit.summary.queued/audit.summary.batchSize));
  for(const id of ['doctor-doom','silk','kate-bishop','sunspot','colossus',
