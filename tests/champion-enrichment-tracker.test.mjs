@@ -7,18 +7,21 @@ test('complete roster coverage yields a stable prioritized batch queue and revie
  const result=championEnrichmentAudit(db);
  assert.equal(result.summary.totalChampions,db.champions.length);
  assert(result.summary.completedPilot>=10,'must preserve first ten enriched champions');
- assert.equal(result.summary.identityReview,2,'special roster-only characters are not automatically assigned guides');
+ assert.equal(result.summary.identityReview,1,'only the unresolved historical Symbioid remains an identity exception');
  assert.equal(result.summary.queued+result.summary.completedPilot+result.summary.identityReview,result.summary.totalChampions);
  assert.equal(result.summary.batches,Math.ceil(result.summary.queued/result.summary.batchSize),'all remaining roster entries need explicit batch coverage');
  const work=result.rows.filter(r=>r.batch!==null);
  assert.equal(new Set(work.map(r=>r.id)).size,work.length);
  assert(work.every((r,i)=>r.priorityRank>0),'all queued profiles have a rank');
  for(const r of work)assert(r.batch>=1&&r.batch<=result.summary.batches);
- for(const exception of ['summoned-symbioid','ghost-rider-robbie-reyes']){
+ for(const exception of ['summoned-symbioid']){
   const row=result.rows.find(r=>r.id===exception);
   assert(row?.identityReview,exception);
   assert.equal(row.batch,null,exception);
  }
+ const robbie=result.rows.find(r=>r.id==='ghost-rider-robbie-reyes');
+ assert.equal(robbie?.completed,true,'Robbie Reyes must have a sourced, published guide');
+ assert.equal(robbie?.identityReview,false,'Robbie is no longer an unresolved identity');
 });
 test('tracker exports no protected kit compilations or withheld Stat Focus picks',()=>{
  const report=championEnrichmentAudit(db);
