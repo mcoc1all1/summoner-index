@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-05",
+  "scope": "Page-level editorial source comparison for four high-traffic boss guides. This records observed overlap and independently worded corrections, not commercial expression clearance or a current-game test.",
+  "status": "pending",
+  "cases": [
+    {
+      "id": "gwenmaster",
+      "status": "pending",
+      "expressionAssessment": "The six Plot Armor stages necessarily follow the in-game encounter sequence, and use functional in-game terminology. Current site prose is organized around what a player should do, but the phase-by-phase structure closely follows published ability transcripts; a full passage/selection review remains necessary.",
+      "arrangementAssessment": "Natural boss order alone is not evidence of plagiarism. Distinctive explanatory arrangement or near-parallel transcript wording must still be reviewed.",
+      "changed": "Clarified that completing the task before countdown expiry redirects SP2 damage; distinguish stored armor progress from unverified partial-task carryover.",
+      "sources": [
+        {
+          "url": "https://www.mcoc-guide.com/gwenmaster-spotlight-all-abilities/",
+          "access": "text-compared",
+          "finding": "Found complete community-posted ability transcript with six Plot Armor stages, distinct objective conditions and SP2 failure/success effects; did not copy ability text."
+        },
+        {
+          "url": "https://mcochub.insaneskull.com/quests/gwenmaster",
+          "access": "search-excerpt-only",
+          "finding": "Found overlapping mechanic names and stage order in a third-party ability compilation; full source-expression comparison remains pending."
+        }
+      ],
+      "openIssues": [
+        "Inspect the full cited community transcript and the original publisher ability text where accessible.",
+        "Compare each rendered guide paragraph, cheat sheet and troubleshooting against its cited expression and record any required rewrite.",
+        "No current-client verification of partial objective state across attempts."
+      ]
+    },
+    {
+      "id": "kang-conqueror",
+      "status": "pending",
+      "expressionAssessment": "The existing guide describes the Power Loop and match-specific path checks in independent decision-focused prose. Paradox-specific warning is supported by player reports, but this does not validate an entire external kit transcript or establish original authorship of every guide paragraph.",
+      "arrangementAssessment": "The Power Loop and health-stage order is inherent to the game; review copied selection or unusual phrasing before approval.",
+      "changed": "Distinguished Time Collapse from Paradox-linked lane restrictions and advised checking the intended champion's saved effects before spending resources.",
+      "sources": [
+        {
+          "url": "https://forums.playcontestofchampions.com/en/discussion/284432/7-3-6-kang-why-am-i-dealing-zero-damage",
+          "access": "text-compared",
+          "finding": "Players describe damage not registering on certain linked paths, and discussion links class/buff requirements and held Paradox charges to damage reduction; no assertion these older reports prove a live bug."
+        },
+        {
+          "url": "https://mcochub.insaneskull.com/quests/kang-boss-tech",
+          "access": "not-fully-accessible",
+          "finding": "Cited third-party ability transcript was not available as complete readable text during this pass."
+        }
+      ],
+      "openIssues": [
+        "Compare the complete boss-kit and video/guide sources.",
+        "Confirm current linked node requirements separately from historical forum posts."
+      ]
+    },
+    {
+      "id": "scytalis",
+      "status": "pending",
+      "expressionAssessment": "The guide's stage ordering tracks fixed health phases and describes trap interactions in decision language, rather than reproducing a full source list. The final-stage instructions overlap mechanically with a community post that quotes the encounter's ability description. Complete expression comparison is pending.",
+      "arrangementAssessment": "Health-phase chronology is a functional feature of the encounter, not independent evidence of copying; check any nonfunctional choice of phrasing in the complete source.",
+      "changed": "Distinguished trap source, arming state, and actual knockdown as separate checks; explained that at the final threshold Prowess and specials replace the usual armor-down objective.",
+      "sources": [
+        {
+          "url": "https://forums.playcontestofchampions.com/en/discussion/365946/bug-in-act-8-1-6-boss",
+          "access": "text-compared",
+          "finding": "Player thread contains a quoted final-phase description of SP2 traps, armed timing, Heavy Evade and special-hit Prowess interaction; guide uses paraphrased decision instructions."
+        },
+        {
+          "url": "https://mcoc.mx/game/boss/8-1-6/",
+          "access": "not-fully-accessible",
+          "finding": "Third-party boss guide was not fully readable during this review; passage-by-passage comparison remains outstanding."
+        }
+      ],
+      "openIssues": [
+        "Compare source language on the Scytalis phase descriptions against all linked guides.",
+        "Verify whether any recent game changes altered trap timing or final-phase behavior."
+      ]
+    },
+    {
+      "id": "bahamet",
+      "status": "pending",
+      "expressionAssessment": "The guide follows mandatory mechanics (Volatility, Removal, reflection and red blasts), but is written as warnings and troubleshooting decisions rather than a copied source transcript. The original source's full ability structure and distinct selection remain to be reviewed.",
+      "arrangementAssessment": "The chronological phase sequence is necessary for reliable instructions. More complete expression and compilation comparison is required before a commercialization decision.",
+      "changed": "Explained charge-first reflection in middle phases, nonreflectable Fire Blasts, and the risk of mistaking visually similar buff indicators.",
+      "sources": [
+        {
+          "url": "https://forums.playcontestofchampions.com/en/discussion/375422/8-2-6-bahamet-phase-2-bug",
+          "access": "text-compared",
+          "finding": "Multiple players explicitly correct charge-first reflection timing and note visual confusion with Cleanse-like icons."
+        },
+        {
+          "url": "https://forums.playcontestofchampions.com/en/discussion/356106/8-2-6-bahamet-boss/p1",
+          "access": "text-compared",
+          "finding": "Players corroborate using one special into a wave before attempting the subsequent reflected wave."
+        },
+        {
+          "url": "https://mcochub.insaneskull.com/quests/bahamet",
+          "access": "text-compared",
+          "finding": "Third-party boss ability listing supplies phase thresholds and unique charge mechanics; current guide still requires independent expression/arrangement review, with no use of its raw transcript."
+        }
+      ],
+      "openIssues": [
+        "Compare all rendered Bahamet paragraphs, not only the updated troubleshooting item, to the complete cited source passages.",
+        "Do not treat historical bug reports as current-client evidence."
+      ]
+    }
+  ],
+  "approvalRule": "A pending case requires specific dated passage-level independent-expression comparisons, source licensing or lawful-basis evidence if protected text is reused, and a separate gameplay/accuracy review before status can change."
+}

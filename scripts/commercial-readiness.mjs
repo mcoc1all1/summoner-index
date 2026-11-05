@@ -87,6 +87,13 @@ export function auditCommercialReadiness(root=rootDefault,{today=new Date().toIS
  const register=JSON.parse(fs.readFileSync(path.join(content,'commercial-launch-register.json'),'utf8'));
  const rights=rightsReviewQueue(db,guideManifest);
  const quality=publicPageQuality(path.join(root,'dist'));
+ const pilotFile=path.join(content,'boss-commercial-review-casefiles.json');
+ const pilotCases=fs.existsSync(pilotFile)?JSON.parse(fs.readFileSync(pilotFile,'utf8')).cases||[]:[];
+ const pilotSourceComparisons={
+  count:pilotCases.length,
+  pending:pilotCases.filter(item=>item.status!=='cleared').length,
+  examples:pilotCases.map(item=>({id:item.id,status:item.status,comparedSources:(item.sources||[]).filter(src=>src.access==='text-compared').length,unresolved:(item.openIssues||[]).length}))
+ };
  const findings=manualCommercialFindings(register,{today});
  if(rights.pending)findings.push({id:'boss-guide-expression',severity:'blocker',detail:`${rights.pending} of ${rights.total} boss guides do not have current individually documented expression/rights assessments.`});
  if(!quality.totalPages)findings.push({id:'missing-build',severity:'blocker',detail:'Run the public-beta build before auditing generated pages.'});
@@ -108,6 +115,7 @@ export function auditCommercialReadiness(root=rootDefault,{today=new Date().toIS
   scope:'Automated pre-application checklist; no rights/license verdict, Google approval or independent gameplay testing.',
   site:{champions:db.champions.length,bossGuides:rights.total,relics:db.relics.length},
   bossRights:{reviewed:rights.reviewed,pending:rights.pending,pendingExamples:rights.items.filter(i=>i.status==='pending').slice(0,12).map(i=>({id:i.id,reason:i.reason}))},
+  pilotSourceComparisons,
   publicQuality:quality,findings,blockers:blockers.length
  };
 }

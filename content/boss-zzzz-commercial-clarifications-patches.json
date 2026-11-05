@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "notes": "Four original troubleshooting clarifications grounded in cited player issues; not claims of firsthand combat testing or independent rights clearance.",
+  "bossPatches": [
+    {
+      "id": "gwenmaster",
+      "guideDetails": {
+        "attackerProfile": [
+          "Favor a champion whose heavy and all three specials you can reliably execute; Doom's objective demands all four knockdown types.",
+          "Prioritize predictable power management and comfort reversing the Dexterity input in Emma Frost's challenge.",
+          "A familiar attacker and clean objective execution matter more here than assuming one specific champion is a universal solution."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Every Plot Armor",
+            "objective": "Read objective → pause timer when safe → finish before expiry",
+            "watch": "Failing timer hurts the attacker via SP2"
+          },
+          {
+            "stage": "Emma Frost",
+            "objective": "Change power-bar difference → four Prowess → Dexterity during SP1",
+            "watch": "Reverse controls"
+          },
+          {
+            "stage": "Killmonger",
+            "objective": "Remove Counterpunch with safe hits and knockdowns",
+            "watch": "Unstoppable on block; reflected special contact"
+          },
+          {
+            "stage": "Invisible Woman",
+            "objective": "Intercept/special for Fury → deplete Force Field",
+            "watch": "Invisibility causes Miss"
+          },
+          {
+            "stage": "Doctor Doom",
+            "objective": "Heavy + SP1 + SP2 + SP3 knockdowns, once each",
+            "watch": "Passive power steal; repeating used methods"
+          },
+          {
+            "stage": "Aarkus",
+            "objective": "Make distance → reach ten Armor Breaks → knockdown",
+            "watch": "Nearby power gain and Coldsnap hazard"
+          },
+          {
+            "stage": "Iron Man",
+            "objective": "Remove Armor Up using fourth light/block break and heavy-interrupt",
+            "watch": "Auto-Block after SP1"
+          }
+        ],
+        "preparation": [
+          "Read the linked quest node and current in-game objective text before starting; this guide does not cover every linked-path modifier.",
+          "Choose an attacker with predictable power generation and a usable Heavy, SP1, SP2 and SP3. This is an execution checklist, not a ranked counter list.",
+          "Prepare for reverse controls, Miss, reflection and Auto-Block across different objectives; reassess when Plot Armor changes."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Her SP2 damages me and the same objective returns",
+            "response": "First identify which Plot Armor objective is still active. Completing it before the countdown ends redirects the SP2 damage to Gwenmaster; ordinary attacks alone may not solve the task. Use controlled intercepts and recovery punishes to gain decision time. If a new attempt begins, recheck the currently displayed armor rather than guessing that partial objective counts survived."
+          },
+          {
+            "problem": "I can't clear Emma Frost's challenge",
+            "response": "Count four Prowess effects from cycling the power-bar relationship. Then activate Dexterity during her SP1 with the reversed controls in mind."
+          },
+          {
+            "problem": "My specials hit into damage reflection",
+            "response": "Check whether Killmonger's Vibranium Armor is active after SP1. Avoid contact-damage specials while that effect is present."
+          },
+          {
+            "problem": "The Invisible Woman objective seems stuck",
+            "response": "Look for the Force Field and Invisibility effects separately. Avoid repeatedly missing into Invisibility; return to safe intercept/special openings when you can hit."
+          },
+          {
+            "problem": "Doom's objective refuses another knockdown",
+            "response": "Track all four distinct methods and whether the knockdown connected. Repeating a method does not satisfy a missing one; account for passive power steal."
+          },
+          {
+            "problem": "Iron Man Auto-Blocks my combo",
+            "response": "After SP1, seek a safe heavy-versus-heavy interruption to remove Auto-Block, or continue with a valid armor-removal method when the opening is available."
+          }
+        ],
+        "scope": "Original 7.2.6 Gwenmaster fight, covering the core six-Plot-Armor sequence rather than linked-path variants. Synthesized from cited historical community mechanics and player advice. Not independently tested in the current game client; no claim that every partially completed objective survives a knockout."
+      }
+    },
+    {
+      "id": "kang-conqueror",
+      "guideDetails": {
+        "attackerProfile": [
+          "Choose a champion with controllable power and specials that reliably knock down; fast or passive power gain may help or hinder different numbers.",
+          "Practice using SP1 dodge-versus-block choices to adjust power; avoiding SP2 remains the safer starting approach.",
+          "For Paradox-linked paths, confirm that your chosen attacker and carried path effects meet that path's separate damage condition before committing to the boss."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Prompt 0",
+            "objective": "Stay below one full bar until the timer ends",
+            "watch": "No matching-special shortcut"
+          },
+          {
+            "stage": "Prompt 1–3",
+            "objective": "Match full bars or knock down with matching special",
+            "watch": "Special must actually cause the knockdown"
+          },
+          {
+            "stage": "100–91%",
+            "objective": "Gain 3 Power Charges → Time Collapse",
+            "watch": "Stop attacking into the transition"
+          },
+          {
+            "stage": "90–51%",
+            "objective": "Gain 4 charges → Time Collapse",
+            "watch": "Passive gain and cheaper specials affect power targets"
+          },
+          {
+            "stage": "50–2%",
+            "objective": "Gain 6 charges → Time Collapse",
+            "watch": "Passive drain and repeated combo-ending drain"
+          },
+          {
+            "stage": "2–0%",
+            "objective": "Build and land SP3 before Kang",
+            "watch": "Unblockable, lethal opposing SP3"
+          },
+          {
+            "stage": "Linked paths",
+            "objective": "Check Paradox/node requirements separately",
+            "watch": "Time Collapse does not replace path-specific conditions"
+          }
+        ],
+        "preparation": [
+          "Confirm you selected Kang the Conqueror in story 7.3.6—not Superior Kang from 7.4.6.",
+          "Read all linked nodes before leaving the path. Some Paradox-linked routes demand specific charges, class combinations or effects before normal Time Collapse damage works.",
+          "Pick an attacker whose specials can score knockdowns and whose power meter you can steer. Remember that phase transitions reset power."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "I perform the right special but don't receive a charge",
+            "response": "Make sure the nonzero prompt matches the special and that its hit actually knocked Kang down. For zero, wait until the timer ends while holding below one bar. Historical reports mention ability-accuracy interactions, but they do not establish a current bug."
+          },
+          {
+            "problem": "I enter Time Collapse but deal zero damage",
+            "response": "Separate boss mechanics from the chosen lane. Power Loop success opens Time Collapse, but linked Paradox nodes can still require an appropriate champion class, matching buffs or saved charges from the preceding path. Re-read the specific node and check which champion holds the required effects before spending another revive. Older community reports cannot confirm a current bug."
+          },
+          {
+            "problem": "I keep overshooting the power target",
+            "response": "SP1 offers a power-control choice: successful dodges add power while blocked hits drain it. In later phases, passive gain, reduced special costs or drain can change your usual timing."
+          },
+          {
+            "problem": "Kang stops taking damage and turns aggressive",
+            "response": "Check whether you triggered a phase transition. He becomes temporarily Indestructible and later rushes Unblockable; back off, avoid the rush and rebuild power after the reset."
+          },
+          {
+            "problem": "The last 2% won't move",
+            "response": "The finish requires SP3, not another Time Collapse. Build power by managing distance during his Unblockable phase and launch yours before his lethal SP3."
+          }
+        ],
+        "scope": "Core 7.3.6 Tech Kang Power Loop and finish, with a warning about certain Paradox-dependent linked paths. Exact path node values, character-specific counters and current-client AAR interactions are not certified. This is source-linked editorial preparation, not a recorded gameplay test."
+      }
+    },
+    {
+      "id": "scytalis",
+      "guideDetails": {
+        "attackerProfile": [
+          "A champion comfortable with special-attack timing and repositioning can execute the trap loop without relying on one specific matchup recommendation.",
+          "Access to Prowess helps in the finish, when special hits rather than an armor-down interval determine progress.",
+          "Reliable special damage and controlled spacing are more important than forcing repeated basic attacks into Corrupted Armor."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "100–81%",
+            "objective": "Bait SP1 → wait for armed trap → knockdown",
+            "watch": "Trap can appear before it becomes active"
+          },
+          {
+            "stage": "80–41%",
+            "objective": "Bait SP2 → move her with a knockdown",
+            "watch": "Combo contact no longer triggers her trap"
+          },
+          {
+            "stage": "40–6%",
+            "objective": "Bait SP1 → repeat armed-trap knockdown",
+            "watch": "Check the new phase before repeating a setup"
+          },
+          {
+            "stage": "5–0%",
+            "objective": "Bait SP2 → collect Prowess → land special hits",
+            "watch": "Heavies Evaded; traps no longer remove Corrupted Armor"
+          }
+        ],
+        "preparation": [
+          "Before each bait, check both the current health phase and which special is required; the sequence is SP1, SP2, SP1, SP2.",
+          "Observe the trap's armed state before pushing Scytalis through it. Avoid stepping over the marker yourself.",
+          "Reserve a safe method of landing specials for the final 5%, when Prowess becomes more important than opening a normal armor-down window."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "She crosses the trap but it does nothing",
+            "response": "Check three independent things: whether the phase requires an SP1 or SP2 trap, whether that trap has armed, and whether the contact was a genuine knockdown. Walking or hitting her across a marker may not be enough in later phases. At 5% health or lower, the objective switches to gaining Prowess and using special hits rather than removing Corrupted Armor with a trap."
+          },
+          {
+            "problem": "My attacks barely damage her again",
+            "response": "Look at her current phase and armor status. The trap window is temporary, and protection resets at transitions; build the next valid opening rather than spending specials blindly."
+          },
+          {
+            "problem": "The trap or damage window changes near 5%",
+            "response": "At the final threshold, switch from opening her armor to generating Prowess and spending it through special hits. Repeated heavies are unreliable because she Evades them."
+          },
+          {
+            "problem": "The displayed trap behavior seems inconsistent",
+            "response": "Check the on-screen phase and in-game ability text. Community posts describe apparent bugs, but this source-based guide cannot confirm whether your current game build has the same issue."
+          }
+        ],
+        "scope": "Act 8.1.6 Scytalis only. Decision-focused explanation synthesized from cited mechanic descriptions and player troubleshooting. Not independently tested in the current client; exact activation timing, linked path nodes and later encounter variants are not certified."
+      }
+    },
+    {
+      "id": "bahamet",
+      "guideDetails": {
+        "attackerProfile": [
+          "Comfort with well-timed blocks or heavy spacing matters once reflecting the blast becomes the damage entry.",
+          "Plan access to an SP1 or SP2 for charge generation instead of spending all power immediately before the wave.",
+          "Consider a champion you can control reliably during repeated radiation exchanges, especially in the final phase."
+        ],
+        "cheatSheet": [
+          {
+            "stage": "Prepare",
+            "objective": "Build Bahamet's Volatility → bait special → expect a wave",
+            "watch": "Volatility is not your Removal charge"
+          },
+          {
+            "stage": "100–81%",
+            "objective": "Special into wave → gain charge → knock him down",
+            "watch": "Obtaining the charge alone does not remove armor"
+          },
+          {
+            "stage": "80–41%",
+            "objective": "Special into wave → charge → reflect a later wave",
+            "watch": "A charge is required for this reflection"
+          },
+          {
+            "stage": "40–11%",
+            "objective": "Repeat charged reflection on radiation only",
+            "watch": "Red fire projectile cannot be reflected"
+          },
+          {
+            "stage": "10–0%",
+            "objective": "Reflect returns until blast hits Bahamet",
+            "watch": "Charge no longer needed; armor weakens progressively"
+          }
+        ],
+        "preparation": [
+          "Learn which icon belongs to Bahamet's Volatility and which represents the attacker's Removal charges; do not treat them as one counter.",
+          "Keep power ready for a special response to the radiation blast, especially when preparing the phase-two or phase-three reflect.",
+          "Watch projectile color before responding and check linked path modifiers; the base fight guide does not cover every node combination."
+        ],
+        "troubleshooting": [
+          {
+            "problem": "No radiation wave follows his special",
+            "response": "Check whether Bahamet had enough Volatility when he threw it. Your own Removal charge is not the trigger for his wave."
+          },
+          {
+            "problem": "I got a charge but still cannot hurt him in phase one",
+            "response": "A knockdown is the next required step. Use the charge to create the armor-down window rather than trying to damage through the protection."
+          },
+          {
+            "problem": "My parry or heavy does not reflect the blast",
+            "response": "Check that you still hold a Removal charge from landing a special into an earlier radiation blast: a well-timed block alone does not replace the charge requirement in phases two and three. Also check whether the projectile is red (a Fire Blast, which cannot be reflected). Community reports note visually similar Cleanse and Removal icons; read the active effect rather than trusting appearance alone."
+          },
+          {
+            "problem": "He sends the final wave back at me",
+            "response": "Treat it as a multi-step exchange. Read his response and prepare to reflect the radiation blast again; do not advance as though the first reflection has completed the mechanic."
+          }
+        ],
+        "scope": "Original Act 8.2.6 Bahamet only. Decision-focused explanation based on cited community mechanics and troubleshooting. Not independently gameplay-tested; exact timings, linked path nodes and any later variants remain outside scope."
+      }
+    }
+  ]
+}
