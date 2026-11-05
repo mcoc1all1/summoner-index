@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Original kit-specific Stat Focus A/B desk research. Each entry compares an existing source-linked community starting choice with an alternative at equal resources; no gameplay measurements, rights clearance or best-in-slot claim.",
+  "championPatches": [
+    {
+      "id": "longshot",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Special Damage",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-longshot",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Longshot, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Charge a heavy safely to gain Good Karma, then land it to transfer Karma. Compare Critical Rating against the same opponent, rank and resources. Special Damage should be evaluated on the eligible SP2 hit itself, not assumed to multiply buff-driven Incinerate or Pure of Heart damage.",
+        "defenseReason": "For Longshot on defense, Special Damage helps eligible direct Special hits on defense, not the defender's blocking or passive damage-over-time effects. Kit limitation: Preventing or removing the Special 2 Incinerate also removes its Fate Seal. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Special Damage versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "mantis",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-mantis",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Mantis, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Alternate Infuriate intercepts and Intimidate blocked hits to accumulate Mixed Emotions. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Mantis on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Knockdowns remove Emotions and failure to establish Sleep leaves the heavy setup exposed. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "mister-sinister",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-mister-sinister",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Mister Sinister, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Safely charge a heavy long enough to gain Vicious and start Genetic Manipulation. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Mister Sinister on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Robots cannot receive the Special 1 transfer; Tech opponents bypass his Unblockable-special blocking. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "mojo",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-mojo",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Mojo, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Complete safe audience prompts; use heavy to replace an unsuitable prompt. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Mojo on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Failed prompts lose Followers; low physical resistance punishes mistakes. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "nico-minoru",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-nico-minoru",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Nico Minoru, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Choose a pre-fight spell for the matchup; each spell can be used only once per quest. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Nico Minoru on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Heavy attacks spend current health; Poison immunity outside Cosmic matchups can limit damage. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "peni-parker",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Physical Resistance",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-peni-parker",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Peni Parker, Block Proficiency is a survival experiment for the blocking required by the setup, not a direct offensive damage multiplier. Keep the source-linked setup constant: Use Special 1 near an enemy power threshold to gain additional Spider-Sense. Compare Physical Resistance against the same opponent, rank and resources. This Block Proficiency trial tests survival while retaining Sync-Shield, not additional Spider-Sense stacks.",
+        "defenseReason": "For Peni Parker on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Incinerate immunity blocks her main damage; a depleted shield leaves a cooldown window. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Block Proficiency versus Physical Resistance and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "prowler",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-prowler",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Prowler, Critical Damage Rating can affect eligible direct critical-hit damage; separate that from Fury potency, Damage-over-Time and attacks that do not naturally crit. Keep the source-linked setup constant: Use second-medium finishers to establish Falter and bait enemy specials. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Prowler on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Cannot-Miss abilities bypass Falter, and power-drain immunity restricts the Fury setup. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Damage Rating versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "punisher-2099",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-punisher-2099",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Punisher 2099, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Use Special 1 to accelerate battery charging. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Punisher 2099 on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Enemy buffs slow charging; automatic triggers compete for battery. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "red-skull",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-red-skull",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Red Skull, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Build armor as either champion gains power; use heavy when Heal Block is needed. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Red Skull on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Armor removal reduces several benefits; excessive blocking consumes the same resource. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    }
+  ]
+}
