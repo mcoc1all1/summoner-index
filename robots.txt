@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mcoc1all1.github.io/summoner-index/sitemap.xml
