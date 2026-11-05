@@ -41,7 +41,7 @@ test('enrichment does not destroy prior notes, immunity records or publish withh
  assert.equal(audit.summary.totalChampions,334);
  assert(audit.summary.completedPilot>=50,'batch 02 and preceding guides must remain present');
  assert.equal(audit.summary.queued+audit.summary.completedPilot+audit.summary.identityReview,334);
- assert.equal(audit.summary.identityReview,2);
+ assert(audit.summary.identityReview<=2,'a previously unresolved identity may be verified without introducing new exceptions');
  assert(audit.summary.batches>=0);
  for(const id of ids){
   const c=db.champions.find(c=>c.id===id);
