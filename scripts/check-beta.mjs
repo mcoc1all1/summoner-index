@@ -18,7 +18,8 @@ function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
    const local=url.slice(base.length).split(/[?#]/)[0];
    assert.ok(fs.existsSync(new URL('.'+local,root)),`Missing target: ${url}`);
   }
-  if(file.includes(path.sep+'champions'+path.sep)||file.includes(path.sep+'quests'+path.sep))assert.match(text,/content="noindex,follow"/);
+  // Even the homepage and methodology stay unindexed until the owner authorizes the ad launch.
+  assert.match(text,/<meta name="robots" content="noindex,follow">/,`Beta page unexpectedly indexable: ${file}`);
  }
 }}
 walk(fileURLToPath(root));
@@ -91,9 +92,12 @@ const directoryHtml=fs.readFileSync(new URL('champions/index.html',root),'utf8')
 assert.match(directoryHtml,/community kit reference lists are linked externally/);
 
 const sitemap=fs.readFileSync(new URL('sitemap.xml',root),'utf8');
-assert.equal([...sitemap.matchAll(/<loc>/g)].length,2);
+assert.equal([...sitemap.matchAll(/<loc>/g)].length,0,'Public beta sitemap must not advertise any page for indexing');
+const robots=fs.readFileSync(new URL('robots.txt',root),'utf8');
+assert.match(robots,/Allow:\s*\//,'Crawlers must be able to read page-level noindex');
+assert.doesNotMatch(robots,/Disallow:\s*\//,'Blocking crawlers hides noindex instructions');
 for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.mjs'))){
  const text=fs.readFileSync(new URL(file,root),'utf8');
  for(const [,url] of text.matchAll(/(?:href|src|action)="(\/[^\"]*)"/g))assert.ok(url.startsWith(base+'/'),`Runtime URL outside project in ${file}: ${url}`);
 }
-console.log(`Beta checked: ${pages} HTML files, local links, provisional indexing and runtime link templates.`);
+console.log(`Beta checked: ${pages} HTML files, local links, all-pages noindex, empty sitemap and runtime link templates.`);

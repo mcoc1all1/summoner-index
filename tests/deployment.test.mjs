@@ -7,10 +7,11 @@ test('deployment paths reject traversal and preserve external URLs',()=>{
  for(const bad of ['/../x','//evil.test','/x?y','/x"','/x%2fy'])assert.throws(()=>basePath(bad));
  assert.equal(localAttributes('<a href="/champions?a=b">A</a><a href="https://example.org">B</a><a href="#x">C</a>','/summoner-index'),'<a href="/summoner-index/champions?a=b">A</a><a href="https://example.org">B</a><a href="#x">C</a>');
 });
-test('beta never indexes provisional gameplay pages or overrides existing exclusions',()=>{
- assert.equal(betaNoindex('/champions/doctor-doom',false,true),true);
- assert.equal(betaNoindex('/',false,true),false);
- assert.equal(betaNoindex('/methodology',true,true),true);
+test('public beta excludes EVERY route from indexing, including landing and methodology',()=>{
+ for(const route of ['/', '/methodology', '/champions/doctor-doom', '/guides', '/privacy'])
+  assert.equal(betaNoindex(route,false,true),true,route);
+ assert.equal(betaNoindex('/',false,false),false,'non-beta builds retain independent indexing state');
+ assert.equal(betaNoindex('/methodology',true,false),true,'existing exclusions always win');
 });
 test('feedback strips query secrets and rejects external or outside-project pages',()=>{
  const origin='https://mcoc1all1.github.io',base='/summoner-index';
