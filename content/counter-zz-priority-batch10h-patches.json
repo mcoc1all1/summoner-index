@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10H: last five of 40 source-linked, independently written fight-decision profiles; this is editorial advice, not claimed live gameplay testing.",
+  "championPatches": [
+    {
+      "id": "spider-man-stark-enhanced",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-stark-enhanced",
+          "deep-spider-man-stark-enhanced"
+        ],
+        "decisions": [
+          {
+            "title": "Build Poise with real Dexterity opportunities",
+            "text": "Stark Enhanced Spider-Man can gain Poise by correctly dodging attacks with Dexterity. Choose a familiar Special or basic animation before chasing the resource; intentionally taking a hit to gain stacks is not worthwhile."
+          },
+          {
+            "title": "Use SP1 Stun only with the required Stark AI condition",
+            "text": "SP1 can supply a strong Stun opening while Stark AI is active, but the state and Stun immunity both matter. Check the indicator and confirm the Stun before committing to another attack sequence."
+          },
+          {
+            "title": "Choose SP2 Shock or emergency Heavy Power Drain by threat",
+            "text": "SP2 can deliver Shock damage while an eligible Heavy can help control power. Against a Shock-immune or dangerous power-gaining defender, evaluate which utility keeps the fight safe rather than always maximizing Poise first."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-miles-morales",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-miles-morales",
+          "deep-spider-man-miles-morales"
+        ],
+        "decisions": [
+          {
+            "title": "Progress the correct challenges before promising full Camo utility",
+            "text": "Miles can develop different challenges using well-timed blocks, intercepts and dodged attacks. Check each current objective rather than treating every combo as progress; the full Special-triggered Camo plan depends on completing them."
+          },
+          {
+            "title": "Bait a manageable Special to enter Camo",
+            "text": "Opponent Specials can trigger Camo, opening an opportunity for a Heavy Taunt and Rupture plan. Check the opponent's anti-Miss or True Strike and available space, since Camo is not blanket immunity to the next attack."
+          },
+          {
+            "title": "Spend SP2 only with a developed personal-debuff mix",
+            "text": "SP2 can benefit from Camo and several applied personal debuffs, while SP1 offers Weakness utility. Against Rupture-resistant or cleansing defenders, a shorter control route can be safer than holding two bars for a weakened burst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-pavitr-prabhakar",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-pavitr-prabhakar",
+          "deep-spider-man-pavitr-prabhakar"
+        ],
+        "decisions": [
+          {
+            "title": "Build web seals through reliable knockdowns and SP1",
+            "text": "Pavitr can create stage webs and seals from eligible knockdowns and SP1. Track where the opponent lands and how many seals are active rather than launching a Special as though the maximum setup is already complete."
+          },
+          {
+            "title": "Create vulnerability only from the permitted movement trigger",
+            "text": "An eligible dodge or opponent dash can help make Energy Vulnerability part of the following Special sequence. Check the state and defender's Energy resistance instead of inventing a permanent debuff application from every attack."
+          },
+          {
+            "title": "Spend SP2 during an established seal and Fury window",
+            "text": "SP2 can deliver stronger damage after enough seals and supporting offensive buffs have been developed. SP3 offers a different longer-fight Neutralize and recovery approach; choose based on target buffs and remaining fight duration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-stealth-suit",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-stealth-suit",
+          "deep-spider-man-stealth-suit"
+        ],
+        "decisions": [
+          {
+            "title": "Select the cartridge that counters the actual defender",
+            "text": "Stealth Suit Spider-Man can choose Web-Foam Slow, Tranquilizer Enervate or Flash Bang Fragility. Set the pre-fight option for the target's mechanic, because a wrong cartridge cannot be swapped for free mid-quest."
+          },
+          {
+            "title": "Apply cartridges through the correct Light or SP2 input",
+            "text": "A fourth Light hit or SP2 can use the loaded cartridge while Spider-Sense shapes the rotation. Watch remaining ammunition and active effects; a zero-cartridge sequence cannot provide the same counter utility."
+          },
+          {
+            "title": "Keep Fury and Precision active with deliberate dash timing",
+            "text": "Replacing an existing cartridge effect can create Fury, while dash-back can pause certain personal buffs. Check their timers and use a safe spacing opportunity; SP3 may be worthwhile only when the reload cost is justified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spider-man-symbiote",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spider-man-symbiote",
+          "deep-spider-man-symbiote"
+        ],
+        "decisions": [
+          {
+            "title": "Maintain Reflex buffs with the correct Light hit",
+            "text": "Symbiote Spider-Man can use third-Light attacks to develop and refresh Reflex-related buffs. Count the sequence rather than repeating generic five-hit combos that may miss the intended trigger."
+          },
+          {
+            "title": "Use Heavy Armor Break before the desired Special buff",
+            "text": "A safe Heavy can prepare Armor Break for a following SP1 Cruelty or SP2 Precision setup. Armor Break immunity or a dangerous Heavy punish makes this rotation weaker, so consider a direct Special instead."
+          },
+          {
+            "title": "Treat post-Special Evade as a timed resource",
+            "text": "A Special can create an Evade opportunity that supports further Armor Break in the right circumstances, while SP3 can reward a longer build. Check enemy anti-Evade effects before relying on it to protect a risky follow-up."
+          }
+        ]
+      }
+    }
+  ]
+}

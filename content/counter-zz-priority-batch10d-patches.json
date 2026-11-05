@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10D: original source-linked conditional tactical guidance for five profiles; no copied kit text or independent damage benchmarks.",
+  "championPatches": [
+    {
+      "id": "prowler",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-prowler",
+          "deep-prowler"
+        ],
+        "decisions": [
+          {
+            "title": "Set up Falter before asking the opponent for a Special",
+            "text": "Prowler can build Falter through eligible second-Medium finishers and use it to influence Special baiting. Check whether the opponent can Miss; True Strike or anti-Miss nodes can make this a poor control option."
+          },
+          {
+            "title": "Punish emptied power with a Heavy for Incinerate",
+            "text": "A drained defender after a Special can provide a safer Heavy opening that applies Incinerate. Watch the actual power bar and recovery animation rather than assuming every enemy Special leaves the same window."
+          },
+          {
+            "title": "Use SP2 when Power Creep and damaging effects are established",
+            "text": "SP2 can build and detonate Ruptures with the right Power Creep and Incinerate state. Against Incinerate or Rupture protection, reevaluate the cash-out rather than saving two bars for a blocked effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "punisher",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-punisher",
+          "deep-punisher"
+        ],
+        "decisions": [
+          {
+            "title": "Build Physical Resistance from the intended Light-hit sequence",
+            "text": "Punisher can develop resistance through first and third Light attacks, but a high block-pressure defender may still punish careless play. Check the active buffs before planning to enter a closer-range Special exchange."
+          },
+          {
+            "title": "Use a safe Heavy to refresh Impact before the next Special",
+            "text": "Impact can be acquired through Specials and maintained through a Heavy. Do not expose yourself simply to refresh the timer when the enemy already has a dangerous Special attack prepared."
+          },
+          {
+            "title": "Treat SP2 into block as a situational Unstoppable setup",
+            "text": "SP2 can create an Unstoppable opportunity through the recorded blocked-hit interaction, with SP1 supplying follow-up Precision and Bleed value. Check Slow and Bleed protections, and do not deliberately attack block if doing so triggers a dangerous node."
+          }
+        ]
+      }
+    },
+    {
+      "id": "quick-silver",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-quick-silver",
+          "deep-quick-silver"
+        ],
+        "decisions": [
+          {
+            "title": "Build Momentum before entering Terminal Velocity",
+            "text": "Quicksilver can gain Momentum through safe attacks, backdashes and an eligible Heavy. Check current stacks and the opponent's intercept threat before trying to maximize the meter during neutral spacing."
+          },
+          {
+            "title": "Use SP1 maintenance or SP3 transition according to fight length",
+            "text": "SP1 helps maintain the debuff and Momentum setup, while SP3 can provide Terminal Velocity more directly. An opponent near defeat may not justify saving three bars; keep the simpler control route available."
+          },
+          {
+            "title": "Spend SP2 during Terminal Velocity for the intended Whiplash payoff",
+            "text": "SP2 can add Trauma and boost Whiplash while the high-Momentum state is active. Check the actual state, debuff timers and the Medium-Light-Medium detonation trigger before claiming the full damage output."
+          }
+        ]
+      }
+    },
+    {
+      "id": "red-goblin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-red-goblin",
+          "deep-red-goblin"
+        ],
+        "decisions": [
+          {
+            "title": "Choose the combo ender for a relevant personal buff",
+            "text": "Red Goblin can develop Energize, Fury or Aptitude from different basic finishing attacks. Decide whether power, offense or burst scaling matters before triggering the next Special rather than collecting buffs without purpose."
+          },
+          {
+            "title": "Use Heavy or SP2 for Carnage Bomb setup only when safe",
+            "text": "The available buff mix can contribute to damaging Carnage Bomb effects through Heavy or SP2. Check damage-effect immunity and find a real punish window; a rushed Heavy can waste more than the additional debuff provides."
+          },
+          {
+            "title": "Use SP1 with developed debuffs or SP3 for Frenzy in longer fights",
+            "text": "SP1 can gain value from several active debuff types, while SP3 can enable a more committed Frenzy route. If effects are cleansed or the fight will end soon, choose an earlier direct damage option."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rhino",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-rhino",
+          "deep-rhino"
+        ],
+        "decisions": [
+          {
+            "title": "Build dash Fury without assuming every dash is protected",
+            "text": "Rhino can develop Fury and Taunt through eligible dash attacks, but his Unstoppable has activation rules and anti-Unstoppable counters. Check the actual state before committing to another dash against a ready defender."
+          },
+          {
+            "title": "Maintain Fury with clean intercepts or recovery punishes",
+            "text": "A successful intercept or a safe punish can help preserve offensive buffs while his physical resistance develops. Avoid deliberately taking blocked hits just to build defensive resources; that can lose the damage race."
+          },
+          {
+            "title": "Use SP2 for stacked Trauma only if the target accepts it",
+            "text": "SP2 can extend Trauma pressure while SP1 can offer a separate Stun and Unstoppable opportunity. A Stun-immune or Trauma-resistant opponent changes the desired Special, so verify which effect is actually needed."
+          }
+        ]
+      }
+    }
+  ]
+}

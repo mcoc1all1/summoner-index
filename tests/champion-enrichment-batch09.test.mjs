@@ -80,10 +80,10 @@ test('40-champion batch reaches 250 of 334 field-note records',()=>{
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
  assert.equal(report.summary.batchSize,40);
- assert.equal(report.summary.completedPilot,250);
+ assert(report.summary.completedPilot>=250,'batch 09 coverage remains present after later enrichment');
  assert.equal(report.summary.identityReview,2);
- assert.equal(report.summary.queued,82);
- assert.equal(report.summary.batches,3);
+ assert(report.summary.queued<=82,'new batches should not enlarge the previous unreviewed queue');
+ assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
  assert.equal(report.summary.queued+report.summary.completedPilot+report.summary.identityReview,334);
  for(const id of ['doctor-doom','silk','kate-bishop','sunspot','scorpion','terrax','psylocke','gwenom','mister-fantastic']){
   assert.equal(db.champions.find(x=>x.id===id)?.fieldNotes?.decisions?.length,3,id);

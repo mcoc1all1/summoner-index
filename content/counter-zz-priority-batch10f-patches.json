@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10F: original tactical decisions and conditional kit limits. Not gameplay benchmarks or replicated third-party source text.",
+  "sources": [
+    {
+      "id": "b10-shatterstar-kabam-spotlight",
+      "title": "Kabam champion spotlight — Shatterstar",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-shatterstar/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "sentry",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sentry",
+          "deep-sentry"
+        ],
+        "decisions": [
+          {
+            "title": "Build Solar Energy from the actual debuff and buff cycle",
+            "text": "Sentry's resource plan involves applying debuffs and developing Bulwark before converting effects through Specials. Watch active resources rather than assuming the most damaging form is available from the opening combo."
+          },
+          {
+            "title": "Choose the attack type for the active offensive phase",
+            "text": "Absolute Strength rewards basic attacks while Brilliant Might shifts value toward Heavies. Check the current phase and find a safe Heavy opening; forcing one in an unfavorable state adds risk without the intended payoff."
+          },
+          {
+            "title": "Spend SP2 on a prepared debuff setup, SP3 for sustain",
+            "text": "SP2 can gain Fury value when suitable debuffs are present, while SP3 can support recovery at a different resource cost. Against healing-blocking nodes or a defender near defeat, prefer a shorter safe finish."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shatterstar",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-shatterstar",
+          "deep-shatterstar",
+          "b10-shatterstar-kabam-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Build Daunted through the trigger the opponent actually allows",
+            "text": "Shatterstar can gain Daunted by interrupting eligible Heavy attacks or through combo milestones. Do not rush an intercept against a dangerous defender; plan a punish you can reliably execute."
+          },
+          {
+            "title": "Watch Pursuit and Uncanny thresholds before investing power",
+            "text": "His attacking plan rewards reaching specific Daunted and Uncanny states, with a distinct two-bar power benefit. Confirm the active state before assuming SP2 is automatically stronger or that Uncanny persists indefinitely."
+          },
+          {
+            "title": "Use SP2 to develop Uncanny, then SP1 while it lasts",
+            "text": "SP2 can supply timed Uncanny and SP1 can exploit it for instant Bleed pressure. Check Bleed resistance and any once-per-fight SP3 choice before investing a full cycle in an opponent that nullifies the effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "she-hulk",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-she-hulk",
+          "deep-she-hulk"
+        ],
+        "decisions": [
+          {
+            "title": "Use Heavy Slow against an actual Evade or Unstoppable threat",
+            "text": "She-Hulk can apply Slow and remove eligible Unstoppable through a safely landed Heavy. A defender immune to Slow or an unsafe Heavy opening changes this counter plan; do not treat Slow as a universal mechanic bypass."
+          },
+          {
+            "title": "Keep Fury alive by baiting manageable Specials",
+            "text": "Her SP1 Fury can be sustained through the opponent's Special activity, so target a defender whose attacks can be safely dodged. Do not repeatedly feed a dangerous SP3 just to preserve the damage buff."
+          },
+          {
+            "title": "Spend SP2 when Petrify is more useful than another Fury cycle",
+            "text": "SP2 can provide Petrify for healing or power control against susceptible targets. Check what the opponent actually does; a nonregenerating or power-control-resistant defender may favor maintaining SP1 pressure instead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "she-hulk-deathless",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-she-hulk-deathless",
+          "deep-she-hulk-deathless"
+        ],
+        "decisions": [
+          {
+            "title": "Use Heavy Fear only when the defender and class permit it",
+            "text": "Deathless She-Hulk has a distinct Heavy-based Fear interaction that differs from regular She-Hulk's Slow. Confirm the class restrictions and that the Heavy lands safely before claiming the target's avoidance is controlled."
+          },
+          {
+            "title": "Build Trauma and preserve it through safe Special baits",
+            "text": "Basic attacks and SP1 can establish Trauma, while eligible opposing Specials can help refresh the setup. Track timer and damage-effect resistance rather than assuming the debuff survives any long bait."
+          },
+          {
+            "title": "Choose SP2 Wither or SP3 extension by fight objective",
+            "text": "Wither can address certain power-gain problems while SP3 supports a longer effect plan. The defender's power mechanics and remaining health should decide the Special, not merely a fixed two- or three-bar rotation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "silver-centurion",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-silver-centurion",
+          "deep-silver-centurion"
+        ],
+        "decisions": [
+          {
+            "title": "Build Incinerate and Shock before expecting Plasma",
+            "text": "Silver Centurion's Light-ending attacks can apply Incinerate and the recorded kit can combine it with Shock for Plasma. If either effect is blocked by immunity, do not assume the complete damage loop will develop."
+          },
+          {
+            "title": "Activate Lock-On after choosing safe proximity",
+            "text": "His Lock-On can become available by staying close to the opponent, but proximity is unsafe against some contact, Special and node effects. Watch the activation indicator instead of assuming the form begins automatically."
+          },
+          {
+            "title": "Use Medium endings and Specials while Lock-On remains",
+            "text": "Medium-ending combos can support the Lock-On offensive cycle, with SP1 extending that state and SP2 building or consuming Plasma. Check the timer and opponent protection before spending a full developed stack."
+          }
+        ]
+      }
+    }
+  ]
+}
