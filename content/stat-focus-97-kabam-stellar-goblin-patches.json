@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Explicit first-party recommended focus for Stellar-Forged Green Goblin, from Kabam's dated release spotlight. Editorial comparison, not player-tested best-in-slot.",
+  "championPatches": [
+    {
+      "id": "green-goblin-stellar-forged",
+      "statFocusRecommendation": {
+        "attackFocus": "Adrenaline",
+        "attackAlternative": "Armor Rating",
+        "defenseFocus": "Block Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "relic-kabam-stellar-goblin-2026",
+          "focus-kabam-v51-balance-2025",
+          "roster-green-goblin-stellar-forged"
+        ],
+        "attackReason": "Kabam identifies Adrenaline or Armor Rating as alternatives for this champion's limited long-fight sustain. Trial Adrenaline for recovery rather than claiming it increases the SP2 Incinerate multiplier; compare Armor Rating against the same encounter, damage taken, and debuff setup.",
+        "defenseReason": "Kabam explicitly names Block Penetration as a defender option because this kit pressures blocking opponents with debuffs. It increases outgoing blocked-hit damage, not incoming durability; compare Block Proficiency against an attacker who safely avoids most blocked hits.",
+        "note": "Publisher-named options, independently summarized. The choice is a measured-comparison starting point, not a verified best-in-slot relic or Stat Focus result."
+      }
+    }
+  ]
+}
