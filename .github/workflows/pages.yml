@@ -1,60 +1,22 @@
-name: Publish public beta
+name: Legacy public-source publishing disabled
+
+# The live Pages site remains available from its most recent successful build.
+# The verified site-only output is staged on the separate site-publish branch.
+# This legacy main-branch workflow must not redeploy private research sources.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
-concurrency:
-  group: pages
-  cancel-in-progress: false
+
 jobs:
-  build:
+  status:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm run build
-      - run: npm test
-      - name: Reject stale or incomplete rights approvals
-        run: npm run rights:check
-      - name: Build public beta
-        run: npm run build && node scripts/check-beta.mjs
-        env:
-          SITE_ORIGIN: https://mcoc1all1.github.io
-          SITE_BASE_PATH: /summoner-index
-          PUBLIC_BETA: '1'
-      - name: Reject unsafe public distribution files and accidental indexing
-        run: npm run distribution:preflight
-      - name: Stage clean site without research/history (no remote writes)
-        run: node scripts/stage-clean-publication.mjs --output "$RUNNER_TEMP/summoner-clean-publication"
-      - name: Export clean, noindex site snapshot for future repository migration
-        uses: actions/upload-artifact@v4
-        with:
-          name: clean-noindex-beta-site
-          path: ${{ runner.temp }}/summoner-clean-publication/site/
-          include-hidden-files: true
-          retention-days: 3
-      - name: Audit commercial readiness (advisory; no advertisements enabled)
-        run: npm run commercial:audit
-      - name: Inventory all content reuse candidates (advisory)
-        run: npm run rights:triage
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Explain the publishing migration
+        run: |
+          echo "Old public source build/deploy is frozen after staging site-publish."
+          echo "Current live site stays available until GitHub Pages source is switched by the owner."
+          echo "Future generated public website content comes from private summoner-index-source."
+          echo "All pages must remain noindex; no ads are authorized."
+          echo "No deployment is performed by this legacy workflow."
