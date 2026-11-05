@@ -12,8 +12,8 @@ test('source-comparison casefiles never self-certify rights from community evide
  assert.equal(data.status,'pending');
  for(const row of data.cases){
   assert.equal(row.status,'pending',row.id);
-  assert.match(row.expressionAssessment,/\S{30}/);
-  assert.match(row.arrangementAssessment,/\S{30}/);
+  assert(row.expressionAssessment.trim().length>=30,row.id+' expression assessment needs detail');
+  assert(row.arrangementAssessment.trim().length>=30,row.id+' arrangement assessment needs detail');
   assert(row.openIssues.length>=1,row.id);
   assert(row.sources.length>=2,row.id);
   assert(row.sources.some(s=>s.access==='text-compared'),row.id);
