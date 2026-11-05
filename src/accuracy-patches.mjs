@@ -86,6 +86,27 @@ function applyChampionPatch(db, patch) {
     for(const id of patch.addAbilityIds)if(!db.abilities.some(a=>a.id===id))throw new Error(`Unknown utility label ${id} for ${patch.id}`);
     champion.abilityIds=[...new Set([...(champion.abilityIds||[]),...patch.addAbilityIds])];
   }
+  if(patch.rotationReview){
+    const review=patch.rotationReview,label=`Sourced rotation review for ${patch.id}`;
+    if((champion.rotation||[]).length)throw new Error(`${label} cannot silently replace an existing rotation`);
+    if(!validDate(review.checkedAt)||!Array.isArray(review.steps)
+      ||review.steps.length<2||review.steps.length>5
+      ||review.steps.some(step=>typeof step!=='string'||step.trim().length<70))
+      throw new Error(`${label} requires 2–5 original, sufficiently detailed rotation steps and a review date`);
+    assertSources(db,review.sourceIds,label);
+    if(typeof review.note!=='string'||review.note.trim().length<40)
+      throw new Error(`${label} needs scope and verification limitations`);
+    champion.rotation=structuredClone(review.steps);
+    champion.playstyle=review.steps.join(' ');
+    champion.researchReview={
+      status:'guide-added',checkedAt:review.checkedAt,
+      note:review.note,sourceIds:structuredClone(review.sourceIds)
+    };
+    champion.kitReview={
+      status:'community-sourced',checkedAt:review.checkedAt,
+      gameVersion:null,batch:'sourced-rotation-review'
+    };
+  }
   if(patch.fieldNotes){
     const notes=patch.fieldNotes,label=`Champion field notes for ${patch.id}`;
     if(!validDate(notes.checkedAt)||!Array.isArray(notes.decisions)||notes.decisions.length<2||notes.decisions.length>5)

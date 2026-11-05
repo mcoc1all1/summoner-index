@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Final current-kit enrichment: Yondu field notes and Ghost Rider (Robbie Reyes) original editorial rotation plus field notes. Does not mark Beast's forthcoming November rework reviewed or treat historic Summoned Symbioid as a standard rankable champion.",
+  "sources": [
+    {
+      "id": "b12-yondu-kabam-spotlight",
+      "title": "Kabam champion spotlight — Yondu (official historical reference)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-yondu/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b12-robbie-spotlight",
+      "title": "Kabam champion spotlight — Ghost Rider (Robbie Reyes), October 2026",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-ghost-rider-robbie-reyes/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b12-robbie-ability-index",
+      "title": "Third-party current kit transcription — Ghost Rider (Robbie Reyes); use for fact-checking, not reproduced source text",
+      "url": "https://www.mcoc.help/champions/ghost-rider-robbie-reyes/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "yondu",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-yondu",
+          "deep-yondu",
+          "b12-yondu-kabam-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Choose Yaka Arrow pressure for the actual defender",
+            "text": "Yondu's non-contact Yaka Arrow hits can apply Rupture, including through an opponent's block. Against Rupture immunity the kit has an Armor Break fallback, so check Armor Break protection separately rather than assuming the same damage or utility in every matchup."
+          },
+          {
+            "title": "Use blocked-arrow interactions against Armor or Prowess",
+            "text": "Eligible arrow attacks into block can remove opponent Armor Up or Prowess and reward Yondu with Armor Up. First identify whether those effects are present; avoid repeatedly hitting block against a defender or quest node that punishes blocked contact or buff removal."
+          },
+          {
+            "title": "Bait safe Specials before choosing SP1 control or SP2 Fury",
+            "text": "SP1 offers Stifle and a Heal Block route, while SP2 gains greater Fury value after the opponent has launched Specials. Bait only attacks you can safely evade, then spend power while the resulting window matters; the awakened Weakness effect is not available on an unawakened copy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ghost-rider-robbie-reyes",
+      "rotationReview": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "official-v59-release-notes-20261002",
+          "official-robbie-reyes-recap-20261002",
+          "b12-robbie-spotlight",
+          "b12-robbie-ability-index"
+        ],
+        "note": "Source-linked editorial rotation based on the released October 2026 Robbie Reyes kit. Individual damage values, mastery variations, optimal path matchups and advanced input reliability have not been independently tested; this is not Stat Focus or relic approval.",
+        "steps": [
+          "Build Speed through clean basic attacks. When a Gear Shift timer appears at a Speed threshold, use an eligible fourth combo hit for Grit or a safely charged Heavy for Amplify; check spacing before committing to the Heavy.",
+          "Use SP1 to apply Energy Vulnerability and Soul Barb while also developing Speed. Keep the opponent's power under control so the next Special can begin while the Energy Vulnerability effect is still active.",
+          "Follow with SP2 during the prepared vulnerability window and with enough Speed to support its Ignition conversion and Soul Barb pressure. Starting Ignition buffs from the signature ability must not be assumed on an unawakened copy."
+        ]
+      },
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "official-v59-release-notes-20261002",
+          "official-robbie-reyes-recap-20261002",
+          "b12-robbie-spotlight",
+          "b12-robbie-ability-index"
+        ],
+        "decisions": [
+          {
+            "title": "Shift Gears with a safe action when Speed crosses a threshold",
+            "text": "Robbie builds Speed from basics and can gain Power Gain by completing the timed Gear Shift action. Use the fourth combo hit or a protected Heavy only when the defender cannot punish; failing to shift before the timer ends changes the expected power loop."
+          },
+          {
+            "title": "Use SP1 to establish Energy Vulnerability before SP2",
+            "text": "SP1 applies Energy Vulnerability and Soul Barb, making a subsequent SP2 more attractive if those effects remain active. Check both the timer and opponent power instead of using SP2 automatically at the first available opportunity."
+          },
+          {
+            "title": "Separate base-kit immunities from awakened starting resources",
+            "text": "Robbie has documented Bleed and Incinerate immunity, but that does not make him universally immune to damaging effects. His signature can provide starting Ignition buffs; verify awakening and the remaining Speed before predicting a full SP2 conversion."
+          }
+        ]
+      }
+    }
+  ]
+}

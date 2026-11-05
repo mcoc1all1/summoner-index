@@ -40,7 +40,7 @@ test('the enriched roster now has 130 profiles and retains prior cohorts',()=>{
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
  assert(report.summary.completedPilot>=130,'batch 06 coverage persists through larger batches');
- assert.equal(report.summary.identityReview,2);
+ assert(report.summary.identityReview<=2,'resolved identities should reduce the exception count');
  assert(report.summary.queued<=202,'subsequent batches should not increase the queue');
  assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
 });

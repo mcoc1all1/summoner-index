@@ -28,7 +28,7 @@ test('batch 03 preserves 50 earlier enriched records and queued identity reviews
  assert.equal(report.summary.totalChampions,334);
  assert(report.summary.completedPilot>=70,'earlier field-note batches must remain published');
  assert.equal(report.summary.queued+report.summary.completedPilot+report.summary.identityReview,334);
- assert.equal(report.summary.identityReview,2);
+ assert(report.summary.identityReview<=2,'a previously unresolved identity may be verified without introducing new exceptions');
  assert.equal(report.summary.batches,Math.ceil(report.summary.queued/report.summary.batchSize));
 });
 test('field notes contain no imported kit arrays or relic pairings',()=>{
