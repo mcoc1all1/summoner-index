@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10C: original source-linked fight decisions with resource and matchup caveats; not independent gameplay verification.",
+  "championPatches": [
+    {
+      "id": "old-man-logan",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-old-man-logan",
+          "deep-old-man-logan"
+        ],
+        "decisions": [
+          {
+            "title": "Build self-Bleeds only to support an actual Fury conversion",
+            "text": "Old Man Logan can accumulate self-Bleed passives through combat and refresh them with a safe Heavy. Check remaining regeneration and the current effect count instead of deliberately taking unsafe hits to accelerate damage."
+          },
+          {
+            "title": "Time a Special near the regeneration transition",
+            "text": "A Special timed around regeneration can change some developed effects into Fury. Avoid throwing the Special too early or after recovery has already expired; the window affects whether the longer build is worth its cost."
+          },
+          {
+            "title": "Choose SP2 Bleed or SP1 when the opponent is immune",
+            "text": "SP2 is useful against a Bleed-susceptible defender, while SP1 can be a practical alternative when Bleed is unavailable. Watch the Fury timer and consider whether another Heavy pause can be executed safely."
+          }
+        ]
+      }
+    },
+    {
+      "id": "patriot",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-patriot",
+          "deep-patriot"
+        ],
+        "decisions": [
+          {
+            "title": "Build Resolve with safe Light hits before planning Reversal",
+            "text": "Patriot's Light attacks and SP1 can build combo, Resolve and Physical Vulnerability. Read the current Resolve level before using a risky defensive counter, because a low-resource Reversal may not produce the intended damage opening."
+          },
+          {
+            "title": "Trigger Heavy Reversal only into an eligible basic attack",
+            "text": "The charged-Heavy Reversal has a specific incoming-hit condition and is not blanket protection against Specials. Verify range and the opposing node before practicing the counter in a high-stakes fight."
+          },
+          {
+            "title": "Use SP2 as the defender stands after a genuine Reversal",
+            "text": "A properly timed SP2 can benefit from Unblockable and a longer Fury or Precision window. If Reversal never triggered, do not assume the same follow-up buffs will be present."
+          }
+        ]
+      }
+    },
+    {
+      "id": "phoenix",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-phoenix",
+          "deep-phoenix"
+        ],
+        "decisions": [
+          {
+            "title": "Use non-ending basics to prepare a controlled Heavy aura",
+            "text": "Phoenix's Heavy interaction can produce a passive Stun opportunity after the correct setup. Check whether the defender is eligible and in range before charging; a normal Heavy at neutral range is not automatically safe."
+          },
+          {
+            "title": "Build SP1 Fury only when the defender is Incinerated",
+            "text": "SP1 can reward an Incinerated opponent with Fury. If the target is Incinerate-immune or the debuff has expired, the next Special should not be planned around a damage buff that was never granted."
+          },
+          {
+            "title": "Treat SP3 as a limited survival choice rather than passive immortality",
+            "text": "SP2 can develop Phoenix Force and extend the offensive plan, whereas SP3 can serve a distinct survival or healing tradeoff. Track any once-per-fight charge and node healing restrictions before spending three bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "phyla-vell",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-phyla-vell",
+          "deep-phyla-vell"
+        ],
+        "decisions": [
+          {
+            "title": "Develop Precision before a Heavy Resonance cash-out",
+            "text": "Phyla-Vell can gain Precision from safe combos and Dexterity triggers. Check the current buff state rather than assuming the first Heavy automatically delivers a fully ramped SP2."
+          },
+          {
+            "title": "Release a prepared Heavy for Resonance with adequate spacing",
+            "text": "A Heavy can establish dormant Resonance while also changing power availability. Time the cancellation and attack after a real recovery; mistiming a charged Heavy can lose both the buff window and fight control."
+          },
+          {
+            "title": "Link second Heavy hit to SP2 only when the setup remains",
+            "text": "The recorded sequence can cancel the second Heavy hit into SP2 with useful Precision and Resonance. Check the defender's protections and your current power first, rather than treating the high-damage sequence as unconditional."
+          }
+        ]
+      }
+    },
+    {
+      "id": "platinum-pool",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-platinum-pool",
+          "deep-platinum-pool"
+        ],
+        "decisions": [
+          {
+            "title": "Read the active cards before choosing a Special",
+            "text": "Platinum Pool's card effects can change the useful route from one fight to another. Inspect the current hand and available buffs; a memorized rotation may not perform identically when a different card is drawn."
+          },
+          {
+            "title": "Establish Bleed before trying for the SP2 dance",
+            "text": "SP1 can create Bleed pressure maintained by eligible basic hits. A Bleed-immune defender or a prematurely expired debuff can remove the setup needed for the more rewarding SP2 outcome."
+          },
+          {
+            "title": "Complete the SP2 interaction only when Stun is allowed",
+            "text": "SP2 can support a Stun-assisted dance and card draw, while SP3 can redraw. Check the defender's Stun immunity and remaining health before choosing a two-bar setup that may be impossible to complete."
+          }
+        ]
+      }
+    }
+  ]
+}
