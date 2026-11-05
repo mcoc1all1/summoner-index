@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10B: independently worded tactical Field Notes, with setup, opponent/node limitations and existing provenance. Not independently gameplay-tested.",
+  "championPatches": [
+    {
+      "id": "moondragon",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-moondragon",
+          "deep-moondragon"
+        ],
+        "decisions": [
+          {
+            "title": "Build Mind Blast from real intercept or heavy-punish openings",
+            "text": "Moondragon can earn Mind Blasts from interrupting eligible enemy attacks or attacking a safely blocked opponent. Check the charge state instead of assuming every attack adds a charge, and avoid an unsafe intercept to rush the ramp."
+          },
+          {
+            "title": "Use SP1 to establish the Transcendence resources",
+            "text": "SP1 and its channel support charge generation that can sustain a Transcendence phase. Track the available charges and duration; launching the next Special after Transcendence expires loses part of the intended value."
+          },
+          {
+            "title": "Choose SP2 or Transcendence SP3 for fight length",
+            "text": "SP2 is a more immediate energy-burst choice while SP3 during Transcendence can introduce Critical Incinerate and extend the state. Verify fire-related protection and whether saving three bars is worthwhile on this defender."
+          }
+        ]
+      }
+    },
+    {
+      "id": "morbius",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-morbius",
+          "deep-morbius"
+        ],
+        "decisions": [
+          {
+            "title": "Apply Bleeds with a safe Psionic Glide, not blind forward movement",
+            "text": "Morbius's distance or recovery-based Glide can help establish Bleed pressure. Its positioning requirement matters: bait a suitable attack and inspect the defender's Bleed immunity before assuming the opening will work."
+          },
+          {
+            "title": "Use SP1 when Fervor would otherwise delay another Glide",
+            "text": "SP1 can add Bleed and alter the Fervor state that gates repeat Glides. Check which state is active and whether a second glide is useful, rather than launching it on cooldown into a Bleed-immune opponent."
+          },
+          {
+            "title": "Reserve SP2 for the developed Petrify and debuff window",
+            "text": "SP2 can offer a critical damage and recovery payoff under the right setup. Check Petrify, the total useful debuffs and the defender's ability to block healing before spending two bars on an assumed full burst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mr-knight",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mr-knight",
+          "deep-mr-knight"
+        ],
+        "decisions": [
+          {
+            "title": "Use timed blocks for Tranquilize and punish with the correct hit",
+            "text": "Mr. Knight's control opportunities differ between well-timed blocks and Light punishes of committed attacks. Choose the required trigger deliberately; a standard uninterrupted combo does not establish both effects on demand."
+          },
+          {
+            "title": "Schedule SP1 around a real phase transition",
+            "text": "SP1 can interact with the current phase for Sleep and a Light Proficiency benefit. Watch the phase indicator and confirm the defender is vulnerable to Sleep instead of treating every SP1 as an automatic extended opening."
+          },
+          {
+            "title": "Use SP2 to sustain the Full Moon critical window",
+            "text": "SP2 can influence Full Moon timing, which changes the value of Lights and Specials. Compare the phase duration with the opponent's remaining health before spending power on a setup that might end after the knockout."
+          }
+        ]
+      }
+    },
+    {
+      "id": "night-thrasher",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-night-thrasher",
+          "deep-night-thrasher"
+        ],
+        "decisions": [
+          {
+            "title": "Choose the SP1 gadget from the previous attack",
+            "text": "Night Thrasher's SP1 can apply different effects following a neutral opening, Light or Medium attack. Plan whether Shock, Disorient or Incinerate answers the defender; the wrong preceding input can produce the wrong utility."
+          },
+          {
+            "title": "Use a knockdown to refresh only effects already active",
+            "text": "A knockdown can help maintain his applied Gadgets, but it does not create missing debuffs. Confirm the target has the useful effects before attempting an exposed Heavy solely to gain extra duration."
+          },
+          {
+            "title": "Cash multiple distinct debuffs into SP2 Precision",
+            "text": "SP2 benefits from building a variety of Gadget effects, while SP3 can serve longer-duration planning. Check each immunity and your power bar rather than claiming a stacked payoff from a defender that cleanses the setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "okoye",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-okoye",
+          "deep-okoye"
+        ],
+        "decisions": [
+          {
+            "title": "Build Precision from actual dodges and Medium attacks",
+            "text": "Okoye can use specific Medium attacks and correctly timed dodges to replenish Precision. The dodge must be performed safely; do not assume passive resource generation while holding block or waiting at long distance."
+          },
+          {
+            "title": "Reach the combo threshold before relying on Vicious",
+            "text": "Her high-combo offense can develop a Vicious window while Precision buffs pause. Track the combo and buffs before SP2, and consider whether the current fight is long enough to make a fully developed combo worthwhile."
+          },
+          {
+            "title": "Refresh damaging effects only when the Heavy condition is met",
+            "text": "SP2 can supply multiple debuffs, while a sufficiently built combo permits a Heavy to reapply effects. Check the target's protections and create a punish opening rather than trying a vulnerable Heavy merely to preserve a high combo count."
+          }
+        ]
+      }
+    }
+  ]
+}
