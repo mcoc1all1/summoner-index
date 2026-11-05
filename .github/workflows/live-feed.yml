@@ -1,52 +1,18 @@
-name: Check official MCOC announcements
+name: Legacy public-repository feed publisher disabled
 
+# Do not update historical public research or auto-deploy from public main.
+# Source development and feed refresh now belong to private summoner-index-source.
 on:
-  schedule:
-    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
-  actions: write
-
-concurrency:
-  group: live-feed-update
-  cancel-in-progress: true
+  contents: read
 
 jobs:
-  refresh:
+  status:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Check official News & Announcements feed
-        run: node scripts/update-live-feed.mjs
-      - name: Validate site after feed update
-        run: |
-          npm run build
-          npm test
-      - name: Publish safe official announcement metadata
-        id: publish
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          if git diff --quiet -- content/live.json; then
-            echo "No official feed changes to publish."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/live.json
-          git commit -m "Refresh official MCOC announcements"
-          git push origin HEAD:main
-          echo "changed=true" >> "$GITHUB_OUTPUT"
-      - name: Redeploy public beta after feed update
-        if: steps.publish.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run pages.yml --ref main
+      - run: |
+          echo "Legacy public-source scheduled feed updates are disabled."
+          echo "Use the private source repository for future content changes."
+          echo "The site-publish branch is separate and must remain noindex."
