@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 11B of 11H: original, source-linked tactical decisions with activation and matchup limitations.",
+  "championPatches": [
+    {
+      "id": "spiral",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-spiral",
+          "deep-spiral"
+        ],
+        "decisions": [
+          {
+            "title": "Follow the action pattern rather than repeating standard combos",
+            "text": "Spiral rewards cycling Light, Medium, block and dodge actions to advance her preparation. Read the current resource and avoid forcing a risky dodge simply to complete the pattern faster."
+          },
+          {
+            "title": "Use SP1 to create Dancing Blades with a playable opening",
+            "text": "SP1 can develop Rupture and summon Dancing Blades that change follow-up spacing. Practice the blade interactions on a manageable defender before treating every blocked attack as a protected punish."
+          },
+          {
+            "title": "Choose SP2 cash-out only after Ruptures are established",
+            "text": "A developed Rupture setup can make SP2 valuable; SP3 has a different role when application is obstructed. Check immunity, active effects and remaining opponent health before banking additional power."
+          }
+        ]
+      }
+    },
+    {
+      "id": "squirrel-girl",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-squirrel-girl",
+          "deep-squirrel-girl"
+        ],
+        "decisions": [
+          {
+            "title": "Use Light hits for combo and Mediums for Bleed by objective",
+            "text": "Squirrel Girl can develop combo through Lights while Mediums help establish Bleed. Decide whether the next SP2 needs combo or an active Bleed before choosing the ender, and check the defender's Bleed resistance."
+          },
+          {
+            "title": "Spend SP1 on protection when combo retention matters",
+            "text": "SP1 can offer Combo Shield or Distraction, which may help a long ramp survive mistakes. A short fight may not justify sacrificing damage to build a shield, so read remaining health and node pressure."
+          },
+          {
+            "title": "Transfer Tippy with SP2 only from a prepared setup",
+            "text": "An SP2 knockdown can transfer Tippy for Instant Bleed after combo and debuffs have developed. Confirm the activation before starting another Heavy recall; a Bleed-immune opponent changes the value substantially."
+          }
+        ]
+      }
+    },
+    {
+      "id": "star-lord",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-star-lord",
+          "deep-star-lord"
+        ],
+        "decisions": [
+          {
+            "title": "Prioritize an intact combo over rushing a high-damage hit",
+            "text": "Star-Lord's offensive potential can improve with sustained combo count, making a clean fight important. Bait safe Specials and avoid exposing the streak for one more hit when the defender's power is dangerous."
+          },
+          {
+            "title": "Use SP2 while a useful Fury window is actually active",
+            "text": "A Fury opportunity can make the next SP2 worthwhile, but there is no guarantee the same buff will be present after a long bait. Track the visible state and choose a safe punish rather than waiting indefinitely."
+          },
+          {
+            "title": "Treat Element Gun effects as chance-based utility",
+            "text": "The Element Gun can apply different effects, but a particular result is not reliable on command. Do not select Star-Lord as a guaranteed power-control or healing counter without a confirmed alternate plan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "storm",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-storm",
+          "deep-storm"
+        ],
+        "decisions": [
+          {
+            "title": "Build Prowess without ignoring the opponent's critical defenses",
+            "text": "Storm can gain Prowess through eligible critical hits and some interactions with incoming effects. Check whether the target resists critical damage and whether the developing buff count justifies waiting for SP2."
+          },
+          {
+            "title": "Use a safe Heavy to pause a developed Prowess bank",
+            "text": "A Heavy knockdown can help maintain the prepared Prowess window, but the timing and incoming Special threat matter. Do not force a Heavy at neutral range solely to extend a buff by a short interval."
+          },
+          {
+            "title": "Choose SP2 damage or SP1 follow-up based on confirmed Stun",
+            "text": "SP2 may create a strong damage and Stun opportunity; SP1 can be useful against an already Stunned defender. Confirm the Stun landed before planning an extended combo, especially against Stun-immune nodes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "storm-pyramid-x",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-storm-pyramid-x",
+          "deep-storm-pyramid-x"
+        ],
+        "decisions": [
+          {
+            "title": "Select the Tempest that fits the defender's damage effects",
+            "text": "Storm (Pyramid X) can choose Ice or Lightning with different protection and offensive utility. Read the opponent's damaging debuffs and choose accordingly rather than treating the two Tempests as interchangeable."
+          },
+          {
+            "title": "Use eligible power events to build Prowess safely",
+            "text": "Prowess can grow as either fighter reaches power thresholds, but deliberately feeding an unsafe enemy SP3 is a poor resource plan. Track power on both sides and charge Heavy only during a confirmed opening."
+          },
+          {
+            "title": "Choose SP2 Shock versus SP3 dual-Tempest ramp",
+            "text": "SP2 can offer a Shock-oriented cash-out, while SP3 can enable a longer combined Tempest plan. Check Shock immunity and the remaining encounter length before committing to the expensive setup."
+          }
+        ]
+      }
+    }
+  ]
+}
