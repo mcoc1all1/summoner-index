@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Original kit-specific Stat Focus A/B desk research. Each entry compares an existing source-linked community starting choice with an alternative at equal resources; no gameplay measurements, rights clearance or best-in-slot claim.",
+  "championPatches": [
+    {
+      "id": "emma-frost",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-emma-frost",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Emma Frost, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Build indefinite Prowess with well-timed blocks in Diamond Form. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Emma Frost on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Armor Break forces Telepath and prevents returning to Diamond while active. Specials spend Prowess and temporarily switch form. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "falcon",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-falcon",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Falcon, Critical Damage Rating can affect eligible direct critical-hit damage; separate that from Fury potency, Damage-over-Time and attacks that do not naturally crit. Keep the source-linked setup constant: Dash back and hold block until Lock On activates. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Falcon on defense, Energy Resistance mitigates eligible incoming energy damage but does not prevent debuff application or special control. Kit limitation: Defensive ability suppression is not blanket control over every mechanic. Check ability-accuracy immunity, resistance and node exceptions before relying on it. Compare Physical Resistance using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Damage Rating versus Critical Rating and Energy Resistance versus Physical Resistance are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "falcon-joaquin-torres",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-falcon-joaquin-torres",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Falcon (Joaquin Torres), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Let Defensive Instinct apply Slow when the opponent uses a special. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Falcon (Joaquin Torres) on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Critical hits cannot be regenerated by the personal recovery mechanic; purification removes the debuff plan. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "gambit",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-gambit",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Gambit, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Hold block safely to accumulate Kinetic Charges. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Gambit on defense, Energy Resistance mitigates eligible incoming energy damage but does not prevent debuff application or special control. Kit limitation: Prowess removal dismantles the damage window; Stun immunity removes control. Compare Physical Resistance using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Energy Resistance versus Physical Resistance are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "gamora",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-gamora",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Gamora, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Use light attacks for Fury and medium attacks for Cruelty. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Gamora on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Nullify or buff prevention disrupts her buildup. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "gentle",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-gentle",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Gentle, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Use Special 1 to build Muscle Mass and apply Fear. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Gentle on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Tech opponents prevent special attacks from pausing Unstoppable; maximum Mass makes specials cost health. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "gladiator",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-gladiator",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Gladiator, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Charge heavy after a non-ending basic hit for the short stun opening. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Gladiator on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Being hit costs Confidence. Attacking into enemy specials remains a timing-sensitive risk. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "gorr",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-gorr",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Gorr, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Use fourth-light finishers to cycle Shadow Magic types. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Gorr on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Buff removal disrupts Shadow Magic; debuff cleansing reduces damage and Fury setup. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "guardian",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-guardian",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Guardian, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Use Special 1 to add Force Field charges and Taunt, preserving Armor Up. Avoid fourth-light finishers unless their charge-consuming Power Drain is needed. Compare Critical Damage Rating against the same opponent, rank and resources. Guardian converts natural critical opportunities into Shock. Test their resulting Shock pattern separately from direct-hit critical damage.",
+        "defenseReason": "For Guardian on defense, Physical Resistance mitigates eligible incoming physical damage and should not be treated as protection from every energy attack or debuff. Kit limitation: Armor removal disrupts important defensive conditions. His limited Power Drain buys time but is not a permanent power lock. Compare Energy Resistance using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Physical Resistance versus Energy Resistance are falsifiable alternatives."
+      }
+    }
+  ]
+}

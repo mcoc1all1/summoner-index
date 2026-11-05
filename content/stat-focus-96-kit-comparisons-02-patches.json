@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Original kit-specific Stat Focus A/B desk research. Each entry compares an existing source-linked community starting choice with an alternative at equal resources; no gameplay measurements, rights clearance or best-in-slot claim.",
+  "championPatches": [
+    {
+      "id": "bastion",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-bastion",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Bastion, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Use medium attacks and well-timed blocks to build Virus charges. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Bastion on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: More than three unique opponent buffs prevent new Virus charges. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "beta-ray-bill",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-beta-ray-bill",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Beta Ray Bill, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Charge a heavy safely to stack Intensify. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Beta Ray Bill on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Shock immunity changes the damage plan; Special 3 Resonance provides an alternative. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "black-cat",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-black-cat",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Black Cat, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Steal the card with an intercept or a safe recovery punish; use heavy hits to plant it back. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Black Cat on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Bleed immunity reduces damage. Losing combo reduces suppression, and defensive ability-accuracy immunity can defeat that utility. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "black-panther",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-black-panther",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Black Panther, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Dash back after unfinished combos to gain inactive charges while building Cruelty. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Black Panther on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Bleed immunity weakens the damage plan; maintaining the mode needs reliable openings. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "black-widow-deadly-origin",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-black-widow-deadly-origin",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Black Widow (Deadly Origin), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Punish a recovery window or intercept to activate Insight; keep landing hits. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Black Widow (Deadly Origin) on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Shock immunity removes the main burst setup; Insight windows are short. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "captain-america-sam-wilson",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-captain-america-sam-wilson",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Captain America (Sam Wilson), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Dash back and hold block to activate Lock-On. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Captain America (Sam Wilson) on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Special 2 consumes most armor, temporarily reducing defensive coverage. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "captain-britain",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-captain-britain",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Captain Britain, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Use Special 1 to establish Slow and preserve Exhaustion. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Captain Britain on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Cowardice and Special Power Drain undermine the ramp; Tech opponents bypass some protection of personal effects. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "captain-marvel",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-captain-marvel",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Captain Marvel, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Build charges with well-timed blocks and Special 1. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Captain Marvel on defense, Energy Resistance mitigates eligible incoming energy damage but does not prevent debuff application or special control. Kit limitation: Mystic-generated charges hurt her; spending charges ends the Fury window. Compare Physical Resistance using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Energy Resistance versus Physical Resistance are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "civil-warrior",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Rating",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-civil-warrior",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Civil Warrior, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Build armor with basic attacks and Special 1. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Civil Warrior on defense, Armor Rating reduces eligible incoming damage without creating an Armor Up buff or blocking Armor Break. Kit limitation: Converting armor removes its defensive benefits until rebuilt. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Rating versus Block Proficiency are falsifiable alternatives."
+      }
+    }
+  ]
+}

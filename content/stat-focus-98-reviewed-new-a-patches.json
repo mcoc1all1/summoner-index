@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Ten new 7-star-eligible champions with concrete attacker and defender hypotheses; recommended values are trial candidates, not measured best-in-slot choices.",
+  "championPatches": [
+    {
+      "id": "nimrod",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Block Proficiency",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "nimrod-kit",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Blocking is part of building Armor and Titan Protocol Charges, so Block Proficiency is a survival trial rather than extra Shock damage. Compare Special Damage at the same Protocol and Prowess-removal window.",
+        "defenseReason": "On defense, Block Proficiency can reduce damage only from hits that are actually blocked. It does not create Armor Ups, change the Titan-to-Blitz swap or automatically stop an attacker who plays around Auto-Block.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "kitty-pryde",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "kitty-kit",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Critical Rating could increase eligible critical events while building the Prowess needed for Phase, but it does not grant her awakened Phase safety or increase Incinerate ticks. Compare Critical Damage Rating at the same Prowess stack.",
+        "defenseReason": "Physical Resistance only mitigates eligible physical attacks and does not make Ghost, Psychic or Miss-counter effects harmless. Compare Energy Resistance while recording the Phase state and actual incoming attack type.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "archangel",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "archangel-kit",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can help maintain health while using blocks and Heavy openings for Bleed-to-Poison-to-Neurotoxin, but cannot amplify Neurotoxin damage. Compare Critical Rating only with both Bleed and Poison active and identical parry safety.",
+        "defenseReason": "Physical Resistance can help against physical hits that bypass ordinary defensive play but does not protect against Poison, Bleed or a debuff-immune attacker. Compare Block Proficiency for situations involving repeated blocked basics.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "absorbing-man",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "absorbing-man-kit",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency is a practical survival experiment while building and maintaining Black Uru or Magma. It does not create Forms, extend their active timer or directly boost Rupture and Incinerate ticks; compare Special Damage at the same Form and charge.",
+        "defenseReason": "Physical Resistance may reduce incoming physical damage while a Form is active, but the selected Form and its actual immunities remain separate. Compare Energy Resistance against a suitable energy-hitting opponent.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "abomination-immortal",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-abomination-immortal",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can reduce chip damage during a slow self-Poison and Toxic Aura setup; it does not create more Acid Burn stacks. Compare Special Damage on the same Poison and Petrify state rather than mixing survivability with damage.",
+        "defenseReason": "Physical Resistance can mitigate eligible incoming physical hits but has no direct effect on self-Poison, Acid Burn or enemy debuff immunity. Check whether Energy Resistance is better against an energy-damage matchup.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "agatha-harkness",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-agatha-harkness",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Special Damage can be tested during an empowered Rune Prison Special window; it does not automatically increase Atrophy control or any damage over time. Compare Critical Rating on the same prison positioning and SP2 animation.",
+        "defenseReason": "Physical Resistance is an incoming physical-hit mitigation trial, not a substitute for staying inside an active Rune Prison. Compare Energy Resistance for energy Specials that cannot be reliably avoided.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "black-widow-claire-voyant",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-black-widow-claire-voyant",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency supports safe curse cycling where the player blocks while selecting Blood, Plague or Hellfire. It does not grant immunities from the wrong curse or increase Poison/Incinerate ticks; compare Special Damage under the same curse.",
+        "defenseReason": "Physical Resistance mitigates physical hits, not opponent-granted debuffs or Bleed/Poison immunity conditions. Compare Energy Resistance while holding the selected curse and active defensive resources constant.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "blue-marvel",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-blue-marvel",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Special Damage may increase eligible direct hits of SP2 after Overload and Stable Release. It cannot generate Antimatter or guarantee the Wither/Provoke control of SP1; compare Critical Rating with an identical Release state.",
+        "defenseReason": "Physical Resistance addresses incoming physical damage but cannot replace Stable Release defense or prevent a dangerous enemy power bar. Compare Block Proficiency for the same baited Special and block sequence.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "cassie-lang",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-cassie-lang",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Critical Damage Rating can increase eligible direct crits during a Taunt, Poison and Power Sting setup, but should not be credited with Power Sting detonation itself. Compare Critical Rating with matched Sting and particle counts.",
+        "defenseReason": "Physical Resistance helps only against physical hits; it does not make a charged-Heavy shrinking sequence safe against anti-Miss or contact nodes. Compare Block Proficiency during controlled baiting.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    },
+    {
+      "id": "cheeilth",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Block Proficiency",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-cheeilth",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can reduce chip damage while gaining Spirit Charges from well-timed blocks, but it does not refresh Bleeds or extend a Heavy recovery punish on its own. Compare Special Damage at the same Spirit count.",
+        "defenseReason": "Block Proficiency on defense only protects actual blocks, not her complete cleansing or Bleed-based control. Compare Physical Resistance against a fixed physical attacking pattern without changing Spirit Charge state.",
+        "note": "Independent, champion-specific desk comparison of the published kit and official Focus system. No matched gameplay trials have been completed; these are alternatives to test, not proven rankings."
+      }
+    }
+  ]
+}

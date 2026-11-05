@@ -12,7 +12,7 @@ const catalogPath=path.join(contentDir,'catalog.json');
 const original=fs.readFileSync(catalogPath,'utf8');
 const patchFiles=[
   'accuracy-patches.json',
-  ...fs.readdirSync(contentDir).filter(name=>/^(?:boss|counter|rarity|immunity|stat-focus)-.*-patches\.json$/.test(name)).sort()
+  ...fs.readdirSync(contentDir).filter(name=>/^(?:boss|counter|rarity|immunity|stat-focus|relic)-.*-patches\.json$/.test(name)).sort()
 ];
 let db=JSON.parse(original);
 for(const name of patchFiles){

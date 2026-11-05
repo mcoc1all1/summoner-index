@@ -116,6 +116,29 @@ function applyChampionPatch(db, patch) {
     assertSources(db,notes.sourceIds,label);
     champion.fieldNotes=structuredClone(notes);
   }
+  if(patch.relicResearch){
+    const x=patch.relicResearch,label=`Relic research for ${patch.id}`;
+    if(x.status!=='editorial-trial'||!validDate(x.checkedAt))
+      throw new Error(`${label} requires dated editorial-trial status`);
+    if(!['statcast','battlecast','compare'].includes(x.priority)
+      ||!['Critical Rating','Critical Damage Rating','Block Proficiency','Armor Rating','Special Damage','Physical Resistance','Energy Resistance','Armor Penetration'].includes(x.statcastAttribute))
+      throw new Error(`${label} needs an explicit attribute test, not an inferred statue variant`);
+    if(['statcastReason','battlecastReason','comparison','limitations'].some(key=>typeof x[key]!=='string'||x[key].trim().length<65))
+      throw new Error(`${label} needs distinct, substantive attack/defense and comparison limitations`);
+    assertSources(db,x.sourceIds,label);
+    if(!x.sourceIds.some(id=>db.sources.find(src=>src.id===id)?.kind==='official'))
+      throw new Error(`${label} needs an original publisher source for relic mechanics`);
+    if(x.battlecastId){
+      const relic=db.relics.find(item=>item.id===x.battlecastId);
+      if(!relic||relic.kind!=='battlecast'||relic.class!==champion.class)
+        throw new Error(`${label} references an invalid or wrong-class Battlecast`);
+      if(x.officialPairing!==true)
+        throw new Error(`${label} cannot present a source-list-derived Battlecast pairing as independently endorsed`);
+    }
+    if(x.gameplayTested!==false)
+      throw new Error(`${label} must not claim unavailable gameplay test evidence`);
+    champion.relicResearch=structuredClone(x);
+  }
   if(patch.statFocusEligibility){
     const x=patch.statFocusEligibility;
     if(!['confirmed','ineligible','unverified'].includes(x.status)||!validDate(x.checkedAt))throw new Error(`Invalid Stat Focus eligibility patch for ${patch.id}`);

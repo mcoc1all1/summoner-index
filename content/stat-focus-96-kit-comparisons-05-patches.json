@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Original kit-specific Stat Focus A/B desk research. Each entry compares an existing source-linked community starting choice with an alternative at equal resources; no gameplay measurements, rights clearance or best-in-slot claim.",
+  "championPatches": [
+    {
+      "id": "guillotine-deathless",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Rating",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-guillotine-deathless",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Guillotine (Deathless), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Attack to accumulate Souls and critical-hit Degeneration. Compare Critical Damage Rating against the same opponent, rank and resources. Record Soul spending and any critical-hit Degeneration before attributing changes to the selected Stat Focus.",
+        "defenseReason": "For Guillotine (Deathless) on defense, Armor Rating reduces eligible incoming damage without creating an Armor Up buff or blocking Armor Break. Kit limitation: Souls expire over time; critical prevention reduces Degeneration applications. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Rating versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "guillotine-2099",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-guillotine-2099",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Guillotine 2099, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Choose pre-fights while keeping any Digi-Souls needed for armor or recovery. Compare Critical Damage Rating against the same opponent, rank and resources. Guillotine 2099 does not naturally crit; its ordinary basic-hit Degeneration chance scales with Critical Rating. Test that chance separately from any Huntress pre-fight guaranteed critical hits.",
+        "defenseReason": "For Guillotine 2099 on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Losing the combo wastes ramp; stun interrupts self-repair. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "hulk",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-hulk",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Hulk, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Build Fury through normal attacks. A heavy can enter Gamma Rage early once enough Fury is present. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Hulk on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Stun immunity, Purify and debuff protection can break the loop. Do not deliberately lose health just to gain damage. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "hulk-immortal",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-hulk-immortal",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Hulk (Immortal), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Use medium attacks to build Rage without letting its short timer expire. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Hulk (Immortal) on defense, Physical Resistance mitigates eligible incoming physical damage and should not be treated as protection from every energy attack or debuff. Kit limitation: Immortality requires sufficient Radiation and an available cooldown; self-damage rapidly lowers health. Compare Energy Resistance using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Physical Resistance versus Energy Resistance are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "iron-man-infamous",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-iron-man-infamous",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Iron Man (Infamous), Critical Damage Rating can affect eligible direct critical-hit damage; separate that from Fury potency, Damage-over-Time and attacks that do not naturally crit. Keep the source-linked setup constant: Apply Shock with medium attacks, then charge a close heavy to consume it and activate Aura. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Iron Man (Infamous) on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Armor Break prevents restoration of his crucial Armor Up; power-burn immunity disrupts control. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Damage Rating versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "iron-man-infinity-war",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-iron-man-infinity-war",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Iron Man (Infinity War), a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Apply Shock with Special 1 and Incinerate with Special 2. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Iron Man (Infinity War) on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Armor Break removes Molecular Armor and its protections. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "jack-olantern",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Rating",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-jack-olantern",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Jack O’Lantern, Critical Damage Rating can affect eligible direct critical-hit damage; separate that from Fury potency, Damage-over-Time and attacks that do not naturally crit. Keep the source-linked setup constant: Cancel the first heavy hit into Special 1 to benefit from Precision while building Inflamed. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Jack O’Lantern on defense, Armor Rating reduces eligible incoming damage without creating an Armor Up buff or blocking Armor Break. Kit limitation: Incinerate becomes Plasma against Mutants; target immunities still need checking. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Damage Rating versus Critical Rating and Armor Rating versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "juggernaut",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-juggernaut",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Juggernaut, a Critical Rating trial changes eligible would-be critical event frequency; it must not be assumed to increase noncritical debuff tick damage. Keep the source-linked setup constant: Advance and land safe attacks to build Unstoppable; blocking and taking hits spend stacks. Compare Critical Damage Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Juggernaut on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Non-damaging debuffs and knockdowns disable the Gem. Source numeric fields conflict, so no exact damage or duration is promised. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Critical Rating versus Critical Damage Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    },
+    {
+      "id": "kindred",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-kindred",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "For Kindred, Special Damage is a direct-special-hit experiment, not proof that resulting Poison, Shock, Incinerate, Rupture or Degeneration ticks increase. Keep the source-linked setup constant: Charge a heavy safely to spend power on Dread Aura. Compare Critical Rating against the same opponent, rank and resources. Do not mistake a changed direct hit for proof of longer resource uptime or stronger debuff ticks.",
+        "defenseReason": "For Kindred on defense, Armor Penetration may improve the defender's outgoing direct hits against armored attackers; it does not reduce incoming damage, so a mitigation choice is a real alternative. Kit limitation: Heavy hits shorten Outbreak; being punished after a special pauses charge gain. Compare Block Proficiency using the same attack type, defensive sequence, relic state and node; no across-mode ranking or gameplay result is claimed.",
+        "note": "Original dated kit-aware editorial comparison; based on the cited champion rotation and Kabam Stat Focus design, not independent combat tests. Existing community setting remains a hypothesis; Special Damage versus Critical Rating and Armor Penetration versus Block Proficiency are falsifiable alternatives."
+      }
+    }
+  ]
+}

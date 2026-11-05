@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Final eight individually authored Stat Focus comparison rationales; conditional editorial hypotheses, not performance measurements.",
+  "championPatches": [
+    {
+      "id": "thanos-deathless",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-thanos-deathless",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "A Necrotic Energy bank and an Armor Shattered opening precede the SP2 Corrosion. Critical Damage Rating should be tested on eligible critical direct hits, not presumed to multiply the Corrosion tick or increase Fury resources. Use the documented setup: Build energy through hits and use Special 1 to establish Fury. Compare Critical Rating with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Armor Penetration changes outgoing direct-hit damage against armor, not incoming survival from the opposing attack. His Energy ramp and defender damage mitigation must be treated separately. Relevant kit limitation: Heavy and specials spend energy; careless counterattacks remain unsafe against anti-Unstoppable effects. Compare Block Proficiency against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "ultron",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-ultron",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "The Function timer and Cauterize setup affect his direct hits and ongoing damage differently. Critical Rating is an eligible-hit frequency hypothesis, not proof that Cauterize damage or Self-Repair is improved. Use the documented setup: Track the Evade Function timer rather than expecting constant automatic defense. Compare Special Damage with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Energy Resistance can reduce eligible incoming energy hits but does not make Ultron immune to Energy debuffs or Stun; the timed Evade Function and Self-Repair have separate activation rules. Relevant kit limitation: Evade counters remove a defensive tool. Stun interrupts Self-Repair; healing restrictions still matter. Compare Physical Resistance against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "venompool",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Armor Rating",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-venompool",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Venompool's rotating Blender Buff and Fury state determine available direct-hit opportunities. Compare Critical Rating at an identical Cookin' Meter and buff set without attributing Toxic Armor or SP2 DoT increases to critical chance. Use the documented setup: Build Cookin’ Meter and use Special 1 against buffed opponents to remove buffs and accelerate the meter. Compare Special Damage with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Armor Rating is mitigation on incoming eligible hits, not an additional Blender Armor Up buff. Match the same buff rotation and incoming attack when comparing Block Proficiency. Relevant kit limitation: Short fights and buff control reduce value; a special intercept is not automatically safe. Compare Block Proficiency against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "vision-aarkus",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-vision-aarkus",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Vision (Aarkus) applies Armor Break through proximity and uses SP2 to reach Armor Shattered; Critical Rating may affect eligible direct hits, not the ticking Coldsnap or Armor Shattered status itself. Use the documented setup: Let Power Gain build and remain near the opponent safely to apply Armor Breaks. Compare Special Damage with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Energy Resistance can modify eligible energy damage received, not the uptime of the opponent's Armor Shattered or proximity effects. Compare a physical mitigation focus against an attack of the proper type. Relevant kit limitation: Buff control removes the source of proximity effects; Armor Break immunity stops the main plan. Compare Physical Resistance against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "vox",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Energy Resistance",
+        "defenseAlternative": "Physical Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-vox",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Vox spends Corrupted Buffs to apply Degeneration. Critical Rating is a direct-hit trial and should not be credited with extra Degeneration tick potency or regenerated Corrupted Fury without evidence. Use the documented setup: Build Corrupted Fury and Cruelty through basic attacks, adding Precision through safe Dexterity use. Compare Critical Damage Rating with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Energy Resistance mitigates eligible energy hits while Corrupted buff management operates independently. Compare Physical Resistance under the same incoming attack sequence. Relevant kit limitation: Nullifying Corrupted Buffs hurts Vox; purification or Degeneration resistance cuts the main damage. Compare Physical Resistance against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "war-machine",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-war-machine",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "War Machine's Armor Break SP2 and Rupture SP1 establish a control route. Critical Rating may alter eligible direct-hit frequency, not Rupture potency or pre-fight Armory Boost availability. Use the documented setup: Select an eligible Armory Boost before the fight if support is needed; charges are limited. Compare Special Damage with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Armor Penetration tests outgoing damage against armored attackers. It does not protect War Machine from debuffs or block damage; compare Block Proficiency on the same node. Relevant kit limitation: Armor Break or Rupture immunity weakens the sequence. Cleanse charges are finite, not debuff immunity. Compare Block Proficiency against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "werewolf-by-night",
+      "statFocusRecommendation": {
+        "attackFocus": "Armor Penetration",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-werewolf-by-night",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Werewolf by Night develops Ruptures before Chilling Howl and SP2 Lycanthropy. Armor Penetration can affect armor-mitigated direct hits but must not be assigned Rupture tick or Curse damage without testing. Use the documented setup: Apply Rupture with first-medium and fourth-light hits; create distance for a safe Chilling Howl. Compare Critical Rating with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "On defense, Armor Penetration may change outgoing direct hits but is not a form of survival or anti-Rupture protection. Compare Block Proficiency against the same attackers. Relevant kit limitation: Power suppression restricts howls, Slow counters Unstoppable, and Silver opponents reduce healing. Compare Block Proficiency against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    },
+    {
+      "id": "wong",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Armor Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "stat-focus-community-table-2025",
+          "stat-focus-guiamtc-july-2026",
+          "roster-wong",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Wong's SP1 spells and SP2 depend on Mandala selection and Eldritch Energy. Special Damage is a trial on eligible direct Special hits while holding active spells equal, not a way to generate more Eldritch Energy. Use the documented setup: Use fourth-light combo endings to select a Mandala, then Special 1 to cast its spell. Compare Critical Rating with matched resources, defender and attack timing; this is an editorial A/B design, not measured output.",
+        "defenseReason": "Armor Penetration affects outgoing hits versus armored attackers, not the duration or count of the Mandala effects. Compare incoming block mitigation when that is the defensive bottleneck. Relevant kit limitation: Wither consumes spells; unsafe heavy charging remains vulnerable to suitable counters. Compare Block Proficiency against the same opponent and node, without assuming that the first choice wins every matchup.",
+        "note": "Original, source-checked kit-specific Stat Focus comparison. Historic community selection is retained only as a starting hypothesis; no independent in-game A/B testing or best-in-slot proof."
+      }
+    }
+  ]
+}

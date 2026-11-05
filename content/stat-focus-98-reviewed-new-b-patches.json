@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Ten more sourced 7-star Focus editorial hypotheses, not verified performance rankings or live testing.",
+  "championPatches": [
+    {
+      "id": "colossus-age-of-apocalypse",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-colossus-age-of-apocalypse",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Special Damage should be tested on the direct hits of a Berserk SP2 after an equal Osmium Prowess and Steel Burst setup. It cannot grant an extra Steel Burst or solve missed double-tap inputs; compare Critical Rating with identical combo count.",
+        "defenseReason": "Physical Resistance mitigates eligible incoming physical hits but does not increase Osmium Prowess or guarantee Berserk uptime. Compare Block Proficiency when the Steel Burst sequence requires substantial blocking.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "count-nefaria",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-count-nefaria",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency may help survive well-timed blocks needed to earn Build Ups and Ionic Overcharge, but is not a direct SP2 Fury amplifier. Compare Critical Rating after matching Overcharge Charges and Energy Build Ups.",
+        "defenseReason": "Physical Resistance reduces some incoming physical hits but cannot create an extra Overcharge or absorb all energy damage. Compare Energy Resistance on the exact same incoming special and node.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "cyclops-blue-team",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-cyclops-blue-team",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Critical Damage Rating can be tested on eligible crits when Precision and Prowess are present; it does not create more Precision from third hits or intercepts. Compare Special Damage at identical Prowess, especially for the final Special burst.",
+        "defenseReason": "Physical Resistance is a physical-hit defensive trial, not protection against energy beams or Prowess removal. Compare Energy Resistance against an attacker whose primary output is energy.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "daredevil-hells-kitchen",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Rating",
+        "attackAlternative": "Critical Damage Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-daredevil-hells-kitchen",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Critical Rating may alter eligible crit frequency in the higher-combo Stick's Apprentice damage mode, but does not accelerate the combo or replace signature-dependent benefits. Compare Critical Damage Rating at the same combo count.",
+        "defenseReason": "Physical Resistance can help incoming physical-hit mitigation but cannot guarantee debuff purification or prevent Bleed from an enemy. Compare Block Proficiency under the same parry and block rhythm.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "dark-phoenix",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-dark-phoenix",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can reduce the chip damage taken while stacking Embers from second-Mediums and SP1. It does not add Embers or multiply Nova Flame ticks. Compare Special Damage on the same Ember bank and SP2 setup.",
+        "defenseReason": "Physical Resistance mitigates only eligible physical hits; it does not extend Nova Flame duration or the Phoenix survival trigger. Compare Energy Resistance with the same attack type and recovery state.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "doctor-strange",
+      "statFocusRecommendation": {
+        "attackFocus": "Special Damage",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-doctor-strange",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Special Damage can be compared on eligible direct SP2 or SP3 hits after Arcane Fonts and Placebo removal are prepared. It must not be credited with improved Power Gain or automatic Nullify triggers.",
+        "defenseReason": "Physical Resistance may reduce physical-hit damage but not maintain an active Blessing or protect against incoming debuffs. Compare Block Proficiency while holding the same Blessing rotation and opposing attack pattern.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "dracula",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-dracula",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency may reduce damage while working toward Dire Degeneration through safe Heavy interrupts, but does not boost degeneration ticks. Compare Special Damage under an equal curse and recovery-opening setup.",
+        "defenseReason": "Physical Resistance mitigates incoming physical hits but does not restore lost healing or stop all Bleed consequences. Compare Energy Resistance on an energy-special matchup while retaining the same Degeneration resources.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "ghost-rider",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-ghost-rider",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can preserve health while applying and ordering Judgments, but it cannot generate a Judgment or enhance SP3 Damnation by itself. Compare Special Damage with the same judgment count and recovery window.",
+        "defenseReason": "Physical Resistance is a physical-hit defensive experiment, not protection against Nullify or the opponent's debuff immunity. Compare Energy Resistance while maintaining the same Judgment progress.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "gwenom",
+      "statFocusRecommendation": {
+        "attackFocus": "Block Proficiency",
+        "attackAlternative": "Special Damage",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-gwenom",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Block Proficiency can help survive Heavy-cancel windows while cycling different Symbiote buffs, but it cannot create Spider-Sense or raise Corrosion tick damage. Compare Special Damage after the same buff and Spider-Sense setup.",
+        "defenseReason": "Physical Resistance protects against some physical hits but cannot substitute for Grit or an active defensive Symbiote buff. Compare Block Proficiency against block-pressure matchups.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    },
+    {
+      "id": "hulkling",
+      "statFocusRecommendation": {
+        "attackFocus": "Critical Damage Rating",
+        "attackAlternative": "Critical Rating",
+        "defenseFocus": "Physical Resistance",
+        "defenseAlternative": "Energy Resistance",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "roster-hulkling",
+          "focus-kabam-v51-balance-2025"
+        ],
+        "attackReason": "Critical Damage Rating could increase eligible direct-hit critical payoffs while Shapeshift, Pierce and Aptitude buffs are present, but it does not increase Shapeshift charge generation. Compare Critical Rating with the same Unblockable trigger.",
+        "defenseReason": "Physical Resistance can mitigate eligible incoming physical damage but does not prevent opposing Neutralize or buff Nullify. Compare Block Proficiency under the same attacker combo and active defensive buffs.",
+        "note": "Original kit-based A/B research for 7-star Focus eligibility. The comparison has not been replicated in the live client; claims are conditional on the documented resources and effect immunities."
+      }
+    }
+  ]
+}

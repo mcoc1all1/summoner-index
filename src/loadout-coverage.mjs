@@ -14,11 +14,13 @@ export function loadoutCoverage(db){
   battlecast:!!c.loadout?.battlecastId,statcast:!!c.loadout?.statcastId,
   exception:!!c.loadoutException,
   relicCheckedAt:c.loadout?.relicCheckedAt||null,
+  originalRelicTrial:c.relicResearch?.status==='editorial-trial'&&c.relicResearch?.gameplayTested===false,
   gameplayTested:false
  }));
  return {total:rows.length,attacker:rows.filter(r=>r.attacker).length,
   defender:rows.filter(r=>r.defender).length,
   verifiedFocus:rows.filter(r=>r.focusVerified).length,
+  originalRelicTrials:rows.filter(r=>r.originalRelicTrial).length,
   hiddenFocusDrafts:rows.filter(r=>r.focusWithheld).length,
   bothRelics:rows.filter(r=>r.battlecast&&r.statcast).length,
   oneRelic:rows.filter(r=>r.battlecast!==r.statcast).length,
