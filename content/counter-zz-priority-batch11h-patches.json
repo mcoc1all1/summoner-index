@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11H completes 40 source-linked original champion profiles, 120 editorial fight decisions overall; not independent game testing or third-party kit reproduction.",
+  "championPatches": [
+    {
+      "id": "winter-soldier",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-winter-soldier",
+          "deep-winter-soldier"
+        ],
+        "decisions": [
+          {
+            "title": "Choose ammunition before committing to a Special",
+            "text": "Winter Soldier can cycle loaded ammunition through a dash-back held-block input. Check the next ammo type and the defender's actual control vulnerability rather than launching a Special expecting an unavailable effect."
+          },
+          {
+            "title": "Use a visible Fury window rather than a fixed combo count",
+            "text": "A Fury opportunity can increase the value of the next Special. Watch the active state and enemy power before spending it; a delayed setup may expire during a long Special bait."
+          },
+          {
+            "title": "Keep awakened Power Drain conditional",
+            "text": "SP2 can supply multiple hits while an awakened Power Drain interaction may improve control. Unawakened copies should not be promised the signature effect, and power-control immunity can still change the matchup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wolverine-weapon-x",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-wolverine-weapon-x",
+          "deep-wolverine-weapon-x"
+        ],
+        "decisions": [
+          {
+            "title": "Build Rage without trading unnecessary contact damage",
+            "text": "Weapon X can develop Rage through Specials and other kit events, while a Heavy may double a small bank. Check the actual resource and the defender's contact effects before trying to accelerate the setup with unsafe exchanges."
+          },
+          {
+            "title": "Enter Berserk only when the current stacks justify it",
+            "text": "A Special at the right Rage level or SP3 can start Berserk, changing the next damage opportunity. Track how much time remains and the enemy's Power Gain before committing to an aggressive sequence."
+          },
+          {
+            "title": "Use SP2 to extend a real Berserk window",
+            "text": "SP2 can help prolong the active Berserk phase, but cannot be treated as permanent uptime after cooldown begins. Plan the next punish and disengage safely when the mode ends."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wolverine-x-23",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-wolverine-x-23",
+          "deep-wolverine-x-23"
+        ],
+        "decisions": [
+          {
+            "title": "Build Pursuit and Frenzy from reliable recovery punishes",
+            "text": "Wolverine (X-23) can use interrupts and Special dodges to develop offensive resources. Check the current Frenzy count rather than assuming the next Light attack will unlock the higher-value follow-up."
+          },
+          {
+            "title": "Use SP2 Vicious before the fourth-Light Stun sequence",
+            "text": "An SP2 can set up Vicious for a later Eviscerating Stun opportunity once Frenzy reaches its relevant threshold. Confirm the Stun appears before starting the rapid Light chain; Stun immunity invalidates that branch."
+          },
+          {
+            "title": "Choose SP3 when the Stun route is unavailable",
+            "text": "SP3 can provide a different critical-damage direction if the defender cannot be Stunned. Compare remaining health and effect protections before using three bars solely to imitate the standard X-23 stun-loop damage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wong",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-wong",
+          "deep-wong"
+        ],
+        "decisions": [
+          {
+            "title": "Select the desired Mandala with a fourth-Light ender",
+            "text": "Wong can prepare distinct Mandalas through fourth-Light combo hits and activate related spells with SP1. Confirm the current selection before casting, since the wrong rune alters the next defensive or offensive benefit."
+          },
+          {
+            "title": "Use safe Heavy channeling for Eldritch Energy",
+            "text": "A Heavy can spend Eldritch Energy and influence available power while active spells are maintained. Choose a genuine recovery opening rather than extending channeling while the defender has a Special ready."
+          },
+          {
+            "title": "Spend SP2 only after enough useful spells are active",
+            "text": "SP2 can gain damage and refresh value from established spells; SP3 can be an alternative way to establish all three. Track their durations and opponent protections instead of expecting the fully developed burst in the opening seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "yelena-belova",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-yelena-belova",
+          "deep-yelena-belova"
+        ],
+        "decisions": [
+          {
+            "title": "Set up Bleed Vulnerability before trying to maximize combo damage",
+            "text": "Yelena Belova can use a Heavy to apply Bleed Vulnerability and SP1 block pressure or SP2 Disarm to develop combo. Check the opponent's Bleed protection and a safe opening before committing to the ramp."
+          },
+          {
+            "title": "Enter Elimination only after the actual combo requirement",
+            "text": "The Elimination state is tied to combo progress and can be accelerated through the appropriate Special. Watch the current count and your ability to hold it rather than treating the mode as active immediately."
+          },
+          {
+            "title": "Use SP2 to maintain Bleed Vulnerability during Elimination",
+            "text": "SP2 can refresh useful debuff pressure in the Elimination window, but a long bait may let the state run out. Track remaining combo resources and defender immunity before spending two bars."
+          }
+        ]
+      }
+    }
+  ]
+}
