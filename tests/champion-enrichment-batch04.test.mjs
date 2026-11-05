@@ -34,7 +34,7 @@ test('batch 04 reaches ninety profiles while retaining all prior pilot and batch
  const report=championEnrichmentAudit(db);
  assert.equal(report.summary.totalChampions,334);
  assert(report.summary.completedPilot>=90,'batch 04 remains present after subsequent batches');
- assert.equal(report.summary.identityReview,2);
+ assert(report.summary.identityReview<=2,'a previously unresolved identity may be verified without introducing new exceptions');
  assert(report.summary.queued<=242,'new enrichment must not increase the missing-profile queue');
  assert(report.summary.batches<=13,'the queue must shrink as later batches complete');
 });
