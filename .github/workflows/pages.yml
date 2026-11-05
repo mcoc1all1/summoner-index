@@ -26,6 +26,8 @@ jobs:
           SITE_ORIGIN: https://mcoc1all1.github.io
           SITE_BASE_PATH: /summoner-index
           PUBLIC_BETA: '1'
+      - name: Audit commercial readiness (advisory; no advertisements enabled)
+        run: npm run commercial:audit
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
