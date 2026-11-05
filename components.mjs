@@ -3,6 +3,7 @@ import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.mjs';
 import {requirementCheck} from './roster.mjs';
 import {escapeHtml as e,names,getCounters} from './domain.mjs';
 import {counterMechanicSummary} from './counter-mechanics-ui.mjs';
+import {counterEvidenceLabel} from './counter-provenance.mjs';
 
 export const badge=c=>`<span class="badge ${c.toLowerCase()}">${e(c)}</span>`;
 export const avatar=(c,large=false)=>`<span aria-hidden="true" class="avatar ${c.class?.toLowerCase()||'boss'} ${large?'large':''}">${e(c.initials||c.name.slice(0,2).toUpperCase())}</span>`;
@@ -37,18 +38,8 @@ export function sources(db,ids){
  return `<details class="sources"><summary>Evidence & sources <span>${unique.length} ${unique.length===1?'reference':'references'}</span></summary>${sourceList(db,unique)}</details>`;
 }
 
-export function counterConfidence(c){
- const review=c.review||{};
- const documentedTest=review.gameplayTested===true
-  && typeof review.gameVersion==='string'&&review.gameVersion.trim()
-  && typeof review.testedAt==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(review.testedAt)
-  && typeof review.testEvidence==='string'&&review.testEvidence.trim();
- if(documentedTest&&c.score>=5&&Number.isInteger(review.testCount)&&review.testCount>=2)return {label:'Repeatedly tested',className:'confidence-tested'};
- if(documentedTest&&c.score>=4)return {label:'Tested on documented nodes',className:'confidence-tested'};
- // A numerical score is not evidence that anyone recorded a gameplay test.
- if(c.score>=3)return {label:'Community-backed · kit supported',className:'confidence-supported'};
- if(c.score>=2)return {label:'Community recommended',className:'confidence-community'};
- return {label:'Limited evidence',className:'confidence-limited'};
+export function counterConfidence(c,db){
+ return counterEvidenceLabel(c,db||{sources:[]});
 }
 
 function buildRows(db,c){
@@ -61,12 +52,12 @@ function buildRows(db,c){
 
 export function counterCard(db,c,owned){
  const a=db.champions.find(a=>a.id===c.attackerId);
- const confidence=counterConfidence(c);
+ const confidence=counterConfidence(c,db);
  const rows=buildRows(db,c);
  const ownership=owned?`<p class="ownership owned">Owned · ${e(requirementCheck(c,owned).message)}</p>`:owned===null?'<p class="ownership not-owned">Not in your roster</p>':'<p class="ownership"><a href="/summoner-index/roster">Add to My Roster to check requirements →</a></p>';
  return `<article class="counter-card"><div class="counter-head">${avatar(a)}<div><a href="/summoner-index/champions/${a.id}"><h3>${e(a.name)}</h3></a>${badge(a.class)}</div><span class="confidence-badge ${confidence.className}">${e(confidence.label)}</span></div>
  ${ownership}<section class="counter-glance" aria-label="Counter at a glance"><h4>At a glance</h4><div class="counter-glance-grid"><div><strong>Relevant utility</strong><div class="chips">${chips(names(db,'abilities',c.abilityIds).slice(0,4))||'<span class="muted">See detailed evidence</span>'}</div></div><div><strong>Game modes</strong><p>${e(names(db,'gameModes',c.modeIds).join(', ')||'Check matchup context')}</p></div><div><strong>Awakening</strong><p>${c.requirements?.awakened===true?'Required':c.requirements?.awakened===false?'Not required for recorded plan':'Not established'}</p></div><div><strong>Known signature minimum</strong><p>${Number.isInteger(c.requirements?.minSignature)?e(String(c.requirements.minSignature)):'Not established'}</p></div></div><p class="counter-glance-plan"><strong>Fight plan:</strong> ${e(c.strategy)}</p><p class="counter-glance-risk"><strong>Watch out:</strong> ${e(c.risks)}</p></section><details class="counter-context"><summary>Why this counter works and what to check</summary><div class="chips">${chips(names(db,'gameModes',c.modeIds))}</div><p><strong>Why it works:</strong> ${e(c.why)}</p>${counterMechanicSummary(db,c)}<div class="chips">${chips(names(db,'abilities',c.abilityIds))}</div>
- <section class="counter-plan"><h4>Fight plan</h4><p>${e(c.strategy)}</p>${c.conditions?.length?`<h4>Check before choosing</h4><ul>${c.conditions.map(condition=>`<li>${e(condition)}</li>`).join('')}</ul>`:''}${rows.length?`<dl class="counter-build">${rows.map(([label,value])=>`<dt>${e(label)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`:''}<p class="risk"><strong>Watch out</strong> ${e(c.risks)}</p></section></details><details class="confidence-details"><summary>Why this confidence?</summary><p>${e(c.scoreReason)}</p><p class="muted">${e(c.review?.status||'community-sourced')}${c.review?.reviewedAt?' · reviewed '+e(c.review.reviewedAt):''}${c.review?.gameVersion?' · '+e(c.review.gameVersion):''}</p></details>${sources(db,c.sourceIds)}</article>`;
+ <section class="counter-plan"><h4>Fight plan</h4><p>${e(c.strategy)}</p>${c.conditions?.length?`<h4>Check before choosing</h4><ul>${c.conditions.map(condition=>`<li>${e(condition)}</li>`).join('')}</ul>`:''}${rows.length?`<dl class="counter-build">${rows.map(([label,value])=>`<dt>${e(label)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`:''}<p class="risk"><strong>Watch out</strong> ${e(c.risks)}</p></section></details><details class="confidence-details"><summary>Why this confidence?</summary><p>${e(c.scoreReason)}</p><p class="muted">${e(c.review?.status||'community-sourced')}${c.review?.reviewedAt?' · sources reviewed '+e(c.review.reviewedAt):''}${c.review?.gameVersion?' · claimed game version '+e(c.review.gameVersion):''}</p><p class="muted counter-rights-pending">Source-linked editorial selection; current-client testing and independent expression/compilation review are not documented. A reference link is not a reuse license.</p></details>${sources(db,c.sourceIds)}</article>`;
 }
 
 export function bossCard(b){return `<a class="boss-card" href="/summoner-index/bosses/${b.id}"><div class="boss-art ${b.id}" aria-hidden="true"><span>${b.id==='bahamet'?'◈':'⌖'}</span><small>${/^\d/.test(b.chapter)?'ACT ':''}${e(b.chapter)}</small></div><div><span class="eyebrow">${/^\d/.test(b.chapter)?'STORY QUEST':'SPECIAL QUEST'} · ${e(b.chapter)}</span><h3>${e(b.name)} <span>↗</span></h3><p>${e(b.summary)}</p><span class="text-link">Open fight guide →</span></div></a>`;}
@@ -81,7 +72,7 @@ export function compareTable(db,ids){
  return `<section class="compare-insights" aria-label="Comparison overview"><div><span class="eyebrow">AT A GLANCE</span><strong>${different} of ${evaluated.length} attributes differ</strong><p>Different values reflect recorded review status, not a strength ranking. Always-active, conditional and unreviewed protection lists are separate; open a champion page for activation details. An empty field does not mean a weak champion.</p></div><button class="secondary compare-toggle" type="button" aria-pressed="false" data-compare-toggle>Show differences only</button></section><div class="compare-mini-grid">${mobile}</div><div class="table-scroll compare-table-scroll" tabindex="0" aria-label="Champion comparison, scroll horizontally"><table><caption>Curated attributes · missing values mean not reviewed</caption><thead><tr><th scope="col">Compare attributes</th>${heads}</tr></thead><tbody>${evaluated.map(row=>`<tr class="${row.different?'compare-diff':'compare-same'}"><th scope="row">${e(row.label)}${row.different?'<span class="visually-hidden"> · different values</span>':''}</th>${row.values.map(value=>`<td>${e(value)||'<span class="compare-unreviewed">Not reviewed</span>'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
 
-export const scoreNote=`<details class="score-note"><summary>How confidence labels work</summary><p><strong>Limited evidence</strong> means only part of the matchup is supported. <strong>Community recommended</strong> means players have reported the counter. <strong>Community-backed · kit supported</strong> also has documented utility that matches the fight. <strong>Tested on documented nodes</strong> and <strong>Repeatedly tested</strong> are reserved for recorded gameplay tests. Confidence describes the evidence behind the recommendation; it is not a champion rating or win-rate score.</p></details>`;
+export const scoreNote=`<details class="score-note"><summary>How evidence labels work</summary><p>A <strong>single cited source</strong> is a research lead, not independent confirmation. Linked player reports, official pages and kit references describe the source types, not a win-rate ranking. Only a dated, documented in-game test may receive a tested label. A citation does not grant permission to reproduce third-party writing, data compilations or artwork. Counter selections and prose still require individual rights review before commercial use.</p></details>`;
 
 export function counterResults(db,id,mode='',roster=null){
  const all=getCounters(db,id,mode);

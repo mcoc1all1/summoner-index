@@ -51556,29 +51556,6 @@
       "scoreReason": "Multiple community references; player execution is essential."
     },
     {
-      "id": "colossus-scytalis",
-      "attackerId": "colossus",
-      "defenderId": "scytalis",
-      "modeIds": [
-        "questing"
-      ],
-      "abilityIds": [
-        "armor-up"
-      ],
-      "sourceIds": [
-        "scytalis",
-        "colossus"
-      ],
-      "why": "Colossus is listed as a Scytalis option in the community fight reference.",
-      "strategy": "Prioritize positioning her into the trap and spend damage during the opening.",
-      "risks": "A champion pick alone will not remove Corrupted Armor. Trap timing needs practice.",
-      "awakening": null,
-      "signature": null,
-      "relicId": null,
-      "score": 2,
-      "scoreReason": "One direct fight reference; detailed rotation and requirements await review."
-    },
-    {
       "awakening": "Required for the damage-prevention plan described here.",
       "signature": null,
       "relicId": null,
