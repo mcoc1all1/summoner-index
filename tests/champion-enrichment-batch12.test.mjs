@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {applyAccuracyPatches} from '../src/accuracy-patches.mjs';
 import {championEnrichmentAudit} from '../scripts/champion-enrichment-tracker.mjs';
 import {championFieldNotes} from '../src/champion-field-notes.mjs';
 const db=JSON.parse(fs.readFileSync(new URL('../content/catalog.json',import.meta.url),'utf8'));
@@ -29,4 +30,19 @@ test('332 champion notes and exactly the two explicitly scoped gaps remain',()=>
  assert.equal(report.summary.identityReview,1);
  assert.deepEqual(report.rows.filter(r=>r.status==='Queued').map(r=>r.id),['beast']);
  assert.deepEqual(report.rows.filter(r=>r.status==='Identity review first').map(r=>r.id),['summoned-symbioid']);
+});
+
+test('new sourced rotations cannot overwrite existing instructions or use unknown sources',()=>{
+ const robbie=db.champions.find(x=>x.id==='ghost-rider-robbie-reyes');
+ const review={
+  checkedAt:'2026-11-05',
+  sourceIds:robbie.fieldNotes.sourceIds,
+  note:'Sourced editorial instructions are not a test of the champion damage output or current game performance.',
+  steps:['Build Speed using basic attacks and select a safe opening before using the planned first Special.',
+   'Use the visible Energy Vulnerability and relevant debuff timers to select the next attack safely.']
+ };
+ assert.throws(()=>applyAccuracyPatches(db,{championPatches:[{id:robbie.id,rotationReview:review}]}),/cannot silently replace/);
+ const copy=structuredClone(db);
+ copy.champions.find(x=>x.id===robbie.id).rotation=[];
+ assert.throws(()=>applyAccuracyPatches(copy,{championPatches:[{id:robbie.id,rotationReview:{...review,sourceIds:['unknown-id']}}]}),/unknown source/);
 });
