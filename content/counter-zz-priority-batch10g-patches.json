@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10G: source-linked, original conditional decisions, with community reports explicitly separated from verified game mechanics.",
+  "sources": [
+    {
+      "id": "b10-solvarch-player-report",
+      "title": "Community discussion — Solvarch matchup-dependent performance concerns (player report)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/405295/solvarch",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "b10-silver-samurai-combo-report",
+      "title": "Community discussion — Silver Samurai combo-shield interaction",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/410489/silver-samurai-ready-to-strike-bug",
+      "kind": "community-report",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "silver-sable",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-silver-sable",
+          "deep-silver-sable"
+        ],
+        "decisions": [
+          {
+            "title": "Deploy SP1 Sable Mines before building the Shock cash-out",
+            "text": "Silver Sable can use SP1 to establish Sable Mines and Tracking. Check the mine's placement and opponent movement before building a long Shock plan around a trap the defender may never contact."
+          },
+          {
+            "title": "Cross a mine only from a controlled opening",
+            "text": "An eligible mine crossing can grant Fervor and influence non-damaging debuff cleansing, but a badly timed dash puts Sable in harm's way. Ensure the mine is positioned where the next dodge or punish can safely reach it."
+          },
+          {
+            "title": "Use SP2 knockback to convert existing Shocks at the mine",
+            "text": "SP2 can push the opponent into a mine and convert prepared Shocks into Critical Shocks. Monitor current Shocks, distance and immunity, since an unarmed or missed mine removes the planned burst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "silver-samurai",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-silver-samurai",
+          "deep-silver-samurai",
+          "b10-silver-samurai-combo-report"
+        ],
+        "decisions": [
+          {
+            "title": "Give the opponent combo while keeping their shield active",
+            "text": "Silver Samurai uses second-Medium and eligible non-stunned Heavy interactions to increase the opponent's combo meter, then consumes it with Specials. Watch the shield cap; crossing it incorrectly can cause combo loss before the intended cash-out."
+          },
+          {
+            "title": "Choose SP2 for a developed enemy combo bank",
+            "text": "SP2 can consume much more of the opponent's combo than SP1 and apply Daunted resources. Confirm the enemy has accumulated enough combo and avoid an unnecessary extra Heavy that might push it beyond protected thresholds."
+          },
+          {
+            "title": "Enter Unblockable only after Daunted reaches the required count",
+            "text": "His Overload and Unblockable pressure depends on consuming enough opponent combo for a large Daunted bank. Check the visible count, since launching SP1 too early may spend resources without entering the intended damage state."
+          }
+        ]
+      }
+    },
+    {
+      "id": "silver-surfer",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-silver-surfer",
+          "deep-silver-surfer"
+        ],
+        "decisions": [
+          {
+            "title": "Pick Power Cosmic's next buff before the Heavy or SP1",
+            "text": "Silver Surfer cycles through different dormant Power Cosmic options. Check which buff is ready, then trigger it deliberately with a safe Heavy or SP1 rather than expecting the same personal buff every time."
+          },
+          {
+            "title": "Refresh existing buffs by generating a new distinct type",
+            "text": "The rotation can reward creating a different Power Cosmic buff and refreshing already active ones. Watch the types and timers; simply repeating an unavailable or identical trigger may not preserve the whole stack."
+          },
+          {
+            "title": "Use SP2 with a useful diversity of buffs",
+            "text": "SP2 scales better after several distinct buffs are prepared, while SP1 can serve Vigilance and SP3 can improve a longer plan. A buff-removing opponent may make immediate utility safer than banking for a maximum-damage SP2."
+          }
+        ]
+      }
+    },
+    {
+      "id": "solvarch",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-solvarch",
+          "deep-solvarch",
+          "b10-solvarch-player-report"
+        ],
+        "decisions": [
+          {
+            "title": "Build Core Charge in Absorb before using the conversion",
+            "text": "Solvarch can develop Core Charge through second-Medium attacks while inflicting Coldsnap. Check whether the opponent is susceptible and whether energy-damage interactions support the resource plan before selecting this longer setup."
+          },
+          {
+            "title": "Time the block input inside Specials for the current mode",
+            "text": "The recorded kit uses a timed block action to convert resources differently in Absorb and Release modes. Confirm which mode is active before the Special and practice timing in a manageable fight; a missed input changes the payoff."
+          },
+          {
+            "title": "Choose Release SP2 healing control or an SP3 charge cash-out",
+            "text": "SP2 in Release can address healing while a developed Core Charge bank may support SP3 burst. Reports of weak damage in some matchups are player experiences, not verified universal results; test the actual defender before investing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sorcerer-supreme",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sorcerer-supreme",
+          "deep-sorcerer-supreme"
+        ],
+        "decisions": [
+          {
+            "title": "Select the Blessing that solves the defender's problem",
+            "text": "Sorcerer Supreme rotates between Blessings, and a safe Heavy can change the active one. Choose recovery, Slow or Armor Break utility for the current enemy instead of automatically entering the same SP1 sequence."
+          },
+          {
+            "title": "Use SP1 to create the aura and rune actually needed",
+            "text": "SP1 can establish a Nullification Aura and different runes under Raggadorr, Ikonn or Cyttorak. Check which Blessing is active and whether the opponent is protected from Nullify or the selected debuff."
+          },
+          {
+            "title": "Reserve SP3 permanent rune storage for a longer encounter",
+            "text": "An SP3 can bank a more persistent rune under the desired Blessing, while SP2 can help pause active runes. In a short fight, delaying every Special until three bars may cost more health than the stored effect returns."
+          }
+        ]
+      }
+    }
+  ]
+}
