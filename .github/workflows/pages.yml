@@ -28,6 +28,8 @@ jobs:
           PUBLIC_BETA: '1'
       - name: Audit commercial readiness (advisory; no advertisements enabled)
         run: npm run commercial:audit
+      - name: Inventory all content reuse candidates (advisory)
+        run: npm run rights:triage
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
