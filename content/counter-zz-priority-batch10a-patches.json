@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10A/10H. Five unique profiles with independently written, source-linked matchup decisions; these are editorial interpretations, not live fight measurements or copied source kits.",
+  "championPatches": [
+    {
+      "id": "mister-negative",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mister-negative",
+          "deep-mister-negative"
+        ],
+        "decisions": [
+          {
+            "title": "Set up Light Energy without assuming every block grants a charge",
+            "text": "Mister Negative can gain Light Energy from well-timed defensive actions and removing certain buffs through a backdash. Watch the real energy count and avoid taking repeated block damage just to hurry the ramp."
+          },
+          {
+            "title": "Convert Light Energy with a safely positioned Heavy",
+            "text": "His charged Heavy can interact with incoming basic attacks and convert built Light Energy into Dark Energy. This is timing-sensitive: create enough space and check the defender's anti-Evade tools before treating a Heavy as a protected opening."
+          },
+          {
+            "title": "Spend Dark Energy with SP2 before it expires",
+            "text": "SP2 can convert stored Dark Energy into Degeneration pressure, but only while the intended resource remains. Check both the resource timer and any defender Degeneration protection before spending two power bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "misty-knight",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-misty-knight",
+          "deep-misty-knight"
+        ],
+        "decisions": [
+          {
+            "title": "Balance Anti-Metal and Cryogenic charge generation",
+            "text": "Misty Knight builds different resources from Light endings and well-timed blocks versus Medium endings and dodges. Choose the sequence based on the missing resource rather than completing identical combos regardless of current charge counts."
+          },
+          {
+            "title": "Use a Heavy to correct the lower resource only from a safe punish",
+            "text": "An eligible Heavy can help even out her charge state, but the move is not an invitation to trade with a prepared defender. If the fight cannot safely permit that setup, reconsider waiting for SP3 as an alternative."
+          },
+          {
+            "title": "Aim SP2 at a defender vulnerable to Coldsnap",
+            "text": "SP2 can spend Cryogenic resources and open Frostbite pressure during Coldsnap. A defender protected against those effects weakens the cash-out; check whether SP1 Armor Break provides a more relevant option."
+          }
+        ]
+      }
+    },
+    {
+      "id": "modok",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-modok",
+          "deep-modok"
+        ],
+        "decisions": [
+          {
+            "title": "Track the hit counter before the critical-rating trigger",
+            "text": "MODOK's offense can reward reaching a particular attack-count state before a Special. Inspect the visible counter and use a reliable punish rather than assuming a Special launched at any point has the same critical potential."
+          },
+          {
+            "title": "Choose Heavy Incinerate or SP2 Bleed by target protection",
+            "text": "Heavy attacks may create Incinerate opportunities while SP2 can supply Bleed. These are separate damage effects: verify the target's immunity and avoid a risky Heavy when neither effect can be applied."
+          },
+          {
+            "title": "Use SP1 for the healing or Power Gain problem it answers",
+            "text": "SP1 can interfere with specific healing or power behavior under the recorded kit. Because reduction amounts and activation can change, rely on the current ability card and node rules instead of claiming that all Power Gain is disabled."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mole-man",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-mole-man",
+          "deep-mole-man"
+        ],
+        "decisions": [
+          {
+            "title": "Keep Monster Mass below Frenzy when True Accuracy matters",
+            "text": "Mole Man's defensive utility can change after crossing the Monster Mass threshold and entering Frenzy. If the matchup requires True Accuracy, watch the actual count instead of taking extra hits or launching SP1 just to ramp damage."
+          },
+          {
+            "title": "Switch deliberately into the Frenzy damage plan",
+            "text": "When True Accuracy is no longer the priority, a safe Heavy or SP1 can support the transition into Frenzy. Check whether the opponent's Miss or Evade matters before abandoning the utility-oriented state."
+          },
+          {
+            "title": "Spend SP2 while the critical window is truly active",
+            "text": "Frenzy can offer a guaranteed-critical opportunity, but it lasts only while relevant resources remain. Track Mass depletion and cooldown, and do not assume the same critical burst can be repeated immediately after it ends."
+          }
+        ]
+      }
+    },
+    {
+      "id": "moon-knight",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-moon-knight",
+          "deep-moon-knight"
+        ],
+        "decisions": [
+          {
+            "title": "Check the current offensive buff rather than lunar assumptions",
+            "text": "Moon Knight's damage can vary with the available Precision or Fury effects and the recorded phase conditions. Confirm the actual active state before planning a Special; an old lunar-cycle showcase is not proof of a permanent buff."
+          },
+          {
+            "title": "Use SP1 or SP2 for different damage plans",
+            "text": "SP1 can support critical opportunities while SP2 can provide Bleed-oriented pressure. A Bleed-immune defender changes the second choice, so match the Special to protection and the available safe opening."
+          },
+          {
+            "title": "Never rely on an unconfirmed Stun or Evade",
+            "text": "His chance-based control and evasion interactions are not unconditional. Watch for an actual Stun before extending a combo, and preserve health rather than assuming a lunar Evade will automatically prevent the next hit."
+          }
+        ]
+      }
+    }
+  ]
+}
