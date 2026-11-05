@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Champion enrichment batch 10E: original, sourced tactical decisions with conditional timers, effects and state checks. No independent gameplay testing.",
+  "championPatches": [
+    {
+      "id": "ronin",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ronin",
+          "deep-ronin"
+        ],
+        "decisions": [
+          {
+            "title": "Select the stance with the number of Lights before backdashing",
+            "text": "Ronin can enter Guard, Wraith or Demon after one, two or three Lights followed by a dash-back. Check which stance actually activates; an accidental extra Light changes whether purification, defensive control or Bleed is available."
+          },
+          {
+            "title": "Choose Guard for purification instead of defaulting to damage",
+            "text": "Guard can answer certain debuffs, whereas Wraith and Demon offer different offensive effects. Inspect the opponent's debuff and defensive-ability behavior before choosing the stance rather than forcing Bleed into a protected target."
+          },
+          {
+            "title": "Cash Cruelty with the Special suited to the defender",
+            "text": "A developed Cruelty bank can make SP2 Bleed or SP3 Fury valuable, but each spends time and resources. Verify Bleed protection and remaining fight length before consuming all the setup at once."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ruby-thursday",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-ruby-thursday",
+          "deep-ruby-thursday"
+        ],
+        "decisions": [
+          {
+            "title": "Use SP1 Circuitry when Special 2 restriction matters",
+            "text": "Ruby Thursday can activate Circuitry with SP1 and pressure the defender's Special choice. Check the current power level and node rules instead of assuming every opposing Special or passive ability becomes disabled."
+          },
+          {
+            "title": "Build Disintegration while Circuitry remains active",
+            "text": "Safe attacks during Circuitry can produce instant Disintegration pressure. Monitor the duration and the target's relevant effect mitigation; a long disengage can leave little state to cash out."
+          },
+          {
+            "title": "Land SP2 near the end of a developed Circuitry window",
+            "text": "An SP2 can take advantage of active-time scaling and Unblockable pressure, but a late attack after expiry loses the intended payoff. Bait the opponent safely before committing two power bars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sandman",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-sandman",
+          "deep-sandman"
+        ],
+        "decisions": [
+          {
+            "title": "Build Resistance and personal debuffs before Unstable",
+            "text": "Sandman's Unstable state depends on resource development through eligible attacks and Specials. Track the actual stacks before planning a rooted Heavy loop; the state is not present automatically when the fight starts."
+          },
+          {
+            "title": "Use SP3 shortcut only when the remaining fight is long",
+            "text": "SP3 can accelerate the Unstable setup and increase vulnerability for a longer encounter. Against a short defender, saving three bars may sacrifice more time and health than the shortcut returns."
+          },
+          {
+            "title": "Use Heavy Root only while resources and spacing permit it",
+            "text": "The Unstable Heavy sequence can support repeated knockdowns, but basic attacks may consume a resource needed to maintain it. Check enemy Special pressure and the active count before attempting another loop."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scarlet-witch-sigil",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-scarlet-witch-sigil",
+          "deep-scarlet-witch-sigil"
+        ],
+        "decisions": [
+          {
+            "title": "Build Instability and check the stack before SP2",
+            "text": "Scarlet Witch (Sigil) can develop Instability through SP1 and buff-removal interactions from timely blocks. Watch the current count before a heavy-to-power cycle; relying on an unseen resource can change the next Special result."
+          },
+          {
+            "title": "Spend Instability on Power Gain only from a safe Heavy",
+            "text": "Near the appropriate Instability threshold, Heavy can create a power-related benefit. Use a real punish opening rather than charging into an opponent with an available Special solely to accelerate the next bar."
+          },
+          {
+            "title": "Choose SP2 debuffs or SP3 resource cash-out deliberately",
+            "text": "SP2 provides a different offensive effect from SP3's larger Instability and buff expenditure. A defender protected from the relevant debuffs or buff interactions can make the expensive sequence less attractive."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scream",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-scream",
+          "deep-scream"
+        ],
+        "decisions": [
+          {
+            "title": "Build Madness while rotating the Hybrid buff you actually need",
+            "text": "Scream's fourth-Light finishers refresh Madness and cycle the selected Hybrid buff; second-Medium hits can then collect the active choice. Check the current icon before spending attacks on a defensive buff when the next fight needs offense."
+          },
+          {
+            "title": "Use SP1 to begin a prepared damage chain, not an empty burst",
+            "text": "SP1 can convert Madness into Fervor pressure, while other attacks add Bleed and Armor Break. Monitor the effects and available power so the subsequent SP2 has sufficient debuffs to benefit from its burst mechanic."
+          },
+          {
+            "title": "Cash SP2 while Madness and debuffs are available",
+            "text": "SP2 consumes Madness and scales with personal debuffs, with an Unblockable condition at the necessary count. Check the count, Bleed immunity and defender power before assuming a maximum burst from every SP2."
+          }
+        ]
+      }
+    }
+  ]
+}
