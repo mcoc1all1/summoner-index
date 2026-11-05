@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "Batch 11D: independent editorial decisions linked to champion-specific references. The Maker's published champion entry is distinct from historic unofficial fan concepts.",
+  "sources": [
+    {
+      "id": "b11-the-champion-spotlight",
+      "title": "Kabam champion spotlight — The Champion (2018 reference)",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-the-champion/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "the-champion",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-champion",
+          "deep-the-champion",
+          "b11-the-champion-spotlight"
+        ],
+        "decisions": [
+          {
+            "title": "Plan around Persistent Charges and opponent buff removal",
+            "text": "The Champion builds persistent resources over time, but enemy combo progress and Nullify can disrupt them. Track the count rather than treating the high-charge Fury and Unstoppable cycle as available at the opening bell."
+          },
+          {
+            "title": "Use intercept utility only after its charge requirement",
+            "text": "Certain Light and Medium intercepts can offer True Accuracy or Armor Break after enough Persistent Charges. Check both the charge count and the enemy's avoidance or armor mechanics before taking an unsafe intercept."
+          },
+          {
+            "title": "Choose SP1 healing or SP2 critical damage based on the fight",
+            "text": "An eligible SP1 can spend charges on Regeneration, while SP2 can turn a developed resource bank into a damage window. The Champion's final-node benefits are separate conditions, not guaranteed in every attacker assignment."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-destroyer",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-destroyer",
+          "deep-the-destroyer"
+        ],
+        "decisions": [
+          {
+            "title": "Build Destruction Charges through real punishes and intercepts",
+            "text": "The Destroyer can earn charges from appropriate Heavy or Special punish windows and SP1. Count the resource as it develops rather than rushing a risky intercept into a defender with dangerous counterattacks."
+          },
+          {
+            "title": "Choose SP3 for established Degeneration instead of only immediate damage",
+            "text": "A developed charge state can open Power Gain and support an SP3 Degeneration and Fury plan. Check the defender's Degeneration mitigation and fight duration before holding for three bars."
+          },
+          {
+            "title": "Use SP2 only while the Degeneration window is still active",
+            "text": "SP2 can help pause a prepared Degeneration and deliver burst damage, with Energize contributing to a subsequent cycle. Watch the current effects and defender power rather than assuming every SP2 repeats a full ramp."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-hood",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-hood",
+          "deep-the-hood"
+        ],
+        "decisions": [
+          {
+            "title": "Apply Hex with bullet-supported Medium attacks",
+            "text": "The Hood's Medium attacks can spend bullets to establish Hexes, and eligible buff removal can replenish ammunition. Confirm the target has removable buffs before treating an entire quest as self-sustaining."
+          },
+          {
+            "title": "Pick SP2 Fate Seal for an actual buff-heavy opponent",
+            "text": "SP2 can supply Fate Seal and an Invisibility window, which can answer certain opponent buff engines. A buffless or Nullify-resistant defender changes that utility; do not overpromise an automatic control outcome."
+          },
+          {
+            "title": "Detonate accumulated Hexes from a safe Heavy",
+            "text": "A Heavy can cash built Hexes into damage, but a rushed attack can lose the entire setup. Check the Hex count and a real recovery opening, especially when ammunition is already low."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-leader",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-leader",
+          "deep-the-leader"
+        ],
+        "decisions": [
+          {
+            "title": "Build Spectre and Wither with the correct Light hits",
+            "text": "The Leader's first and third Light attacks can contribute different control effects. Check which debuff is active and whether the defender's healing or Power Gain is susceptible before treating the combo as complete utility coverage."
+          },
+          {
+            "title": "Place the opponent over a usable Door before baiting a Special",
+            "text": "The closed Door becomes important when the opposing Special activates in the right position. Watch the field and enemy power; an unsafe bait or an opponent outside the area can waste the Gamma setup."
+          },
+          {
+            "title": "Use SP1 healing control, SP2 power control or SP3 long damage",
+            "text": "His Specials address distinct needs, with a developed open-Door state improving a longer SP3 approach. Match the spend to the encounter rather than waiting for maximum power on a short fight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "the-maker",
+      "fieldNotes": {
+        "checkedAt": "2026-11-05",
+        "sourceIds": [
+          "roster-the-maker",
+          "deep-the-maker"
+        ],
+        "decisions": [
+          {
+            "title": "Select Planned Obsolescence for the actual encounter",
+            "text": "The Maker can choose pre-fight effects that change how an opponent is controlled. Review the selected options and their limitations, instead of importing older unofficial fan-designed Maker mechanics found in community searches."
+          },
+          {
+            "title": "Use SP1 mine placement before planning the detonation",
+            "text": "SP1 places a mine and gives a basis for later Tactical Evasion interactions. Check the mine's location and the defender's movement rather than launching a follow-up Special with no reliable way to trigger it."
+          },
+          {
+            "title": "Overcharge the mine during SP2 only when the hit will connect",
+            "text": "SP2 can interact with the placed mine against a vulnerable, unblocking opponent. Confirm positioning and a safe punish; after the mine is consumed, rebuild it before expecting another identical cash-out."
+          }
+        ]
+      }
+    }
+  ]
+}
