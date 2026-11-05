@@ -8,5 +8,6 @@ export function localAttributes(text,base) {
  return text.replace(/\b(href|src|action)="\/(?!\/)/g,`$1="${base}/`);
 }
 export function betaNoindex(route,existing,beta) {
- return existing || (beta && !['/','/methodology'].includes(route));
+ // Owner requested every public-beta route remain excluded from indexing until ad launch is authorized.
+ return Boolean(existing || beta);
 }
