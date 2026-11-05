@@ -22,3 +22,6 @@ jobs:
           SITE_ORIGIN: https://mcoc1all1.github.io
           SITE_BASE_PATH: /summoner-index
           PUBLIC_BETA: '1'
+
+      - name: Reject unsafe public distribution files and accidental indexing
+        run: npm run distribution:preflight
