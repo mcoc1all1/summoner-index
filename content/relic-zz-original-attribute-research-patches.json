@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-05",
+  "scope": "First-party Statcast design and class-eligible attribute research on twelve champions. These are original, untested comparison plans; only Green Goblin's Battlecast name is explicitly recommended by Kabam.",
+  "sources": [
+    {
+      "id": "relic-kabam-statcasts-dev-2025",
+      "title": "Kabam developer diary: Statcast Relics, attributes and champion scaling examples",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/398489/dev-diary-statcast-relics/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "relic-kabam-defender-active-2025",
+      "title": "Kabam update: Statcasts work on defense, Battlecasts do not",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/403822/relics-titan-and-war-compensation-and-other-quick-updates",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "focus-kabam-v51-balance-2025",
+      "title": "Kabam balance update: attacker and defender Stat Focus mechanics",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/397890/balance-update-to-attacker-defender-stat-focus/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    },
+    {
+      "id": "relic-kabam-stellar-goblin-2026",
+      "title": "Kabam champion spotlight: Green Goblin (Stellar Forged) focus and Hulk Battlecast",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-green-goblin-stellar-forged/",
+      "kind": "official",
+      "checkedAt": "2026-11-05"
+    }
+  ],
+  "championPatches": [
+    {
+      "id": "hulkbuster",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "compare",
+        "statcastAttribute": "Critical Rating",
+        "statcastReason": "Low base Critical Rating makes a same-rank, same-matchup Statcast Critical Rating trial meaningful, but a direct-hit improvement must be distinguished from Shock and Power Burn damage.",
+        "battlecastReason": "The Hulkbuster Battlecast is worth comparing only with its actual selected rune and an attack sequence that can satisfy the trigger; a Striker alone is not evidence of extra power control.",
+        "comparison": "Compare equal Armor Up and Shock setups against one defender; record SP1 into block control, SP2 damage and health lost using each relic at the same rank.",
+        "limitations": "Crit bonuses cannot create Armor Ups or bypass a defender's Power Burn immunity; the named Statcast variant and the Battlecast rune are unverified.",
+        "sourceIds": [
+          "roster-hulkbuster",
+          "deep-hulkbuster",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "kingpin",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Critical Rating",
+        "statcastReason": "Kabam identifies Kingpin's relatively low base Critical Rating as a possible stat-boost opportunity. Evaluate eligible direct hits during equal Rage and Overpower conditions.",
+        "battlecastReason": "A Battlecast could still be superior if its verified runes enhance the specific Degeneration, Rage or utility sequence, rather than just offering another striker hit.",
+        "comparison": "Against a fixed unarmored practice defender, compare matched Rage stacks, SP1 output and block damage taken across three clean fights before investing.",
+        "limitations": "Do not promise more Rage or stronger Degeneration ticks from Critical Rating; actual Statcast primary and secondary attributes must be inspected in game.",
+        "sourceIds": [
+          "roster-kingpin",
+          "kit-kingpin",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "guardian",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Critical Damage Rating",
+        "statcastReason": "Guardian converts natural critical opportunities into Shock-related damage. Kabam specifically points to Critical Damage Rating as a scaling stat, which should be compared at fixed Force Field resources.",
+        "battlecastReason": "A Hulkbuster-style Battlecast may add utility only if its current rune effects actually work with Guardian's Armor and Shock interactions; do not inherit the third-party shortlist.",
+        "comparison": "Measure the same SP2 sequence at identical Force Field charge counts with the actual owned Statcast attributes and a separately verified Battlecast rune setup.",
+        "limitations": "Critical Damage Rating is not a guarantee of critical-hit frequency or Shock application; never assume one statue name fixes the secondary stat.",
+        "sourceIds": [
+          "roster-guardian",
+          "kit-guardian",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "shuri",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Critical Damage Rating",
+        "statcastReason": "Shuri's Critical Shocks are an explicit example in Kabam's Statcast design notes. Compare Critical Damage Rating while holding Matrix Charges and the Shock refresh timing constant.",
+        "battlecastReason": "A Battlecast option needs its rune triggers independently confirmed on Shuri; do not import relic pairings from the withheld compiled source catalog.",
+        "comparison": "Test the same number of Critical Shock conversions on the same defender and record direct-hit versus damage-over-time changes separately.",
+        "limitations": "Enemy Shock immunity and Miss counters can invalidate the trial; an attribute-only hypothesis does not verify any exact Statcast variant.",
+        "sourceIds": [
+          "roster-shuri",
+          "deep-shuri",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "lady-deathstrike",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Armor Rating",
+        "statcastReason": "Kabam identifies Armor Rating as scaling Lady Deathstrike's damage. Test the attribute with the same Armor state, Rupture count and Ferocity window.",
+        "battlecastReason": "Any Battlecast must be evaluated for a concrete rune trigger and a safe Striker cancel, not simply because it shares the champion's Tech class.",
+        "comparison": "Compare matching basic-hit sequences with and without the owned Armor Rating relic; log Rupture damage and block health loss independently.",
+        "limitations": "An Armor Rating increase is not another Armor Up buff. Losing her Armor state or facing Rupture immunity invalidates the straightforward comparison.",
+        "sourceIds": [
+          "roster-lady-deathstrike",
+          "deep-lady-deathstrike",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "jack-olantern",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Critical Damage Rating",
+        "statcastReason": "Jack O'Lantern uses a Heavy-cancel into SP1 with Precision and Inflamed; Kabam lists him among champions with damage scaling from Critical Damage Rating.",
+        "battlecastReason": "Evaluate any Battlecast only if its official or in-game rune can trigger safely during the Heavy cancel or Inflamed phase; the existing shortlist is unapproved.",
+        "comparison": "Match the same Inflamed count and the SP1 cancel timing, then compare damage before and after the actual Statcast's primary and secondary attributes.",
+        "limitations": "Do not infer that Critical Damage Rating raises critical chance or the duration of Inflamed; the exact secondary variant remains unchecked.",
+        "sourceIds": [
+          "roster-jack-olantern",
+          "deep-jack-olantern",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "mister-negative",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Block Proficiency",
+        "statcastReason": "Mister Negative builds Light Energy through well-timed blocks and uses a charged Heavy to convert that resource. Kabam suggests additional Block Proficiency for survivability.",
+        "battlecastReason": "A Battlecast candidate is not a substitute for a documented safe Heavy counter-Evade opening; verify whether its rune activates during the planned conversion first.",
+        "comparison": "Against one controlled basic-combo defender, compare block damage over ten eligible block events while holding the Light Energy and Dark Energy sequence constant.",
+        "limitations": "Block Proficiency changes blocking survival, not the number of guaranteed Dark Energy charges; anti-Evade opponents may invalidate the attack route.",
+        "sourceIds": [
+          "roster-mister-negative",
+          "deep-mister-negative",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "tigra",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Block Proficiency",
+        "statcastReason": "Tigra's Sense maintenance and careful non-contact Special punishes reward surviving occasional unavoidable blocks. Kabam identifies Block Proficiency as a useful Statcast trial.",
+        "battlecastReason": "A Battlecast should be judged on whether an equipped rune assists Neutralize or the safe Heavy punish; a striker animation is not itself proof of synergy.",
+        "comparison": "Hold Senses, opponent and Special punish sequence equal, then measure chip damage from blocking and Rupture uptime with the owned Statcast versus a verified Battlecast.",
+        "limitations": "Blocking stats do not turn unsafe contact hits into a Tigra Miss or bypass Neutralize resistance; relic secondary attributes remain unconfirmed.",
+        "sourceIds": [
+          "roster-tigra",
+          "kit-tigra",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "guillotine-deathless",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "statcast",
+        "statcastAttribute": "Block Proficiency",
+        "statcastReason": "Kabam proposes Block Proficiency as a survivability lever for Deathless Guillotine. Test it while holding Soul charges and the SP2 healing-reversal choice equal.",
+        "battlecastReason": "The competing Battlecast should be considered only after its rune applicability is checked for this specific Soul-spending and critical-hit Degeneration kit.",
+        "comparison": "Use the same long-fight opponent to compare total blocked damage, Soul count after the test and SP2 healing-reversal uptime, controlling relic rank.",
+        "limitations": "More Block Proficiency does not create Souls or guarantee a heal-reversal trigger; no exact Statcast primary-secondary statue has been selected.",
+        "sourceIds": [
+          "roster-guillotine-deathless",
+          "deep-guillotine-deathless",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "green-goblin-stellar-forged",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "battlecast",
+        "statcastAttribute": "Armor Rating",
+        "statcastReason": "Kabam's champion spotlight favors sustain-oriented offensive Stat Focus such as Adrenaline or Armor Rating. For Statcasts, test Armor Rating primarily for comparable survival, not as a unique-debuff generator.",
+        "battlecastReason": "Kabam explicitly recommends the Hulk Battlecast for this champion because its Physical Vulnerability can contribute another distinct debuff during a tank-style damage sequence.",
+        "comparison": "Compare Hulk Battlecast with any class-compatible Armor Rating Statcast over the same SP1-to-SP2 debuff cycle, matching opponent armor and completed debuff types.",
+        "limitations": "The Battlecast endorsement is a publisher suggestion, not tested best-in-slot performance. Check the actual rune, relic rarity and owned Statcast secondary.",
+        "sourceIds": [
+          "roster-green-goblin-stellar-forged",
+          "deep-green-goblin-stellar-forged",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025",
+          "relic-kabam-stellar-goblin-2026"
+        ],
+        "gameplayTested": false,
+        "battlecastId": "battlecast-hulk",
+        "officialPairing": true
+      },
+      "statFocusRecommendation": {
+        "attackFocus": "Adrenaline",
+        "attackAlternative": "Armor Rating",
+        "defenseFocus": "Block Penetration",
+        "defenseAlternative": "Block Proficiency",
+        "checkedAt": "2026-11-05",
+        "confidence": "medium",
+        "sourceIds": [
+          "relic-kabam-stellar-goblin-2026",
+          "focus-kabam-v51-balance-2025",
+          "roster-green-goblin-stellar-forged"
+        ],
+        "attackReason": "Kabam identifies Adrenaline or Armor Rating as alternatives for this champion's limited long-fight sustain. Trial Adrenaline for recovery rather than claiming it increases the SP2 Incinerate multiplier; compare Armor Rating against the same encounter, damage taken, and debuff setup.",
+        "defenseReason": "Kabam explicitly names Block Penetration as a defender option because this kit pressures blocking opponents with debuffs. It increases outgoing blocked-hit damage, not incoming durability; compare Block Proficiency against an attacker who safely avoids most blocked hits.",
+        "note": "Publisher-named options, independently summarized. The choice is a measured-comparison starting point, not a verified best-in-slot relic or Stat Focus result."
+      }
+    },
+    {
+      "id": "jean-grey",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "compare",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "Jean Grey's SP2-oriented energy offense offers a test of Special Damage, but changes in Neuroshock stack and Energy Penetration can dominate a raw stat comparison.",
+        "battlecastReason": "A Battlecast with an applicable Special boost may outperform a Statcast in one fight; verify the rune and never infer its utility from a community name-matching table.",
+        "comparison": "Use the same Neuroshock and Prowess setup against a single defender to compare SP2 damage, total duration and blocked health loss across repeated fights.",
+        "limitations": "Special Damage focus and relic stats are not equivalent, and this trial does not establish any exact Jean Grey Statcast secondary variant.",
+        "sourceIds": [
+          "roster-jean-grey",
+          "deep-jean-grey",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    },
+    {
+      "id": "spider-woman",
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-05",
+        "priority": "compare",
+        "statcastAttribute": "Critical Rating",
+        "statcastReason": "Spider-Woman's Fury buildup and later Power Sting and Shock interactions create separate direct-hit and debuff contributions; trial Critical Rating only on the direct-hit portion.",
+        "battlecastReason": "Some players report a particular Science Battlecast can change her damage substantially, but this is community experience and needs confirmation of rune and mechanic rather than copied pairing data.",
+        "comparison": "Record a fixed Fury count, SP1 Shock and Sting ticks, and SP2 direct-hit damage against the same opponent before selecting the owned relic to rank.",
+        "limitations": "No named Battlecast has been independently approved here; Power Sting triggers and incoming Special behavior vary by defender and node.",
+        "sourceIds": [
+          "roster-spider-woman",
+          "deep-spider-woman",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
+      }
+    }
+  ]
+}
