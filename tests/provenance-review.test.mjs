@@ -6,7 +6,7 @@ test('editorial provenance queue exposes missing claim-specific metadata without
  const report=provenanceReview();
  assert.equal(report.immunity.total,86);
  assert(report.immunity.scopeFollowups>=0&&report.immunity.scopeFollowups<=35,'Unresolved immunity metadata should not regress beyond this reviewed baseline');
- assert.equal(report.statFocus.total,144);
+ assert(report.statFocus.total>=246,'new source-linked focus rationale records extend the history without erasing older trials');
  assert.equal(report.statFocus.rationaleFollowups,107);
  assert(report.immunity.claims.some(x=>x.championId==='serpent'&&x.effectId==='death'&&!x.reviewNeeded&&x.resolvedInLaterPatch==='removed-after-review'));
  assert(report.immunity.claims.some(x=>x.championId==='peni-parker'&&x.effectId==='stun'&&!x.reviewNeeded));
@@ -15,8 +15,8 @@ test('editorial provenance queue exposes missing claim-specific metadata without
  assert(report.immunity.claims.some(x=>x.championId==='juggernaut'&&x.effectId==='reversed-controls'&&!x.reviewNeeded));
  assert(report.statFocus.claims.some(x=>x.championId==='kushala'&&!x.reviewNeeded&&x.championSpecificReasonRecorded));
  assert(report.statFocus.claims.some(x=>x.championId==='shang-chi'&&!x.reviewNeeded));
- assert.equal(report.statFocus.effectiveTotal,108);
- assert.equal(report.statFocus.effectiveRationaleFollowups,71);
+ assert.equal(report.statFocus.effectiveTotal,139,'Thirty newly reviewed plus the publisher-supported Goblin recommendation');
+ assert.equal(report.statFocus.effectiveRationaleFollowups,0,'All current reviewed recommendations must include distinct attacker and defender rationale');
  for(const id of ['shocker','venom','galan','angela'])assert(report.statFocus.effectiveClaims.some(x=>x.championId===id&&!x.reviewNeeded),id);
  assert(report.statFocus.effectiveClaims.some(x=>x.championId==='shang-chi'&&!x.reviewNeeded));
  assert(report.immunity.claims.some(x=>x.championId==='black-widow-claire-voyant'&&x.effectId==='buff'&&x.resolvedInLaterPatch==='removed-after-review'));
