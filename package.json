@@ -17,7 +17,8 @@
     "enrichment:tracker": "node scripts/run-with-accuracy-patches.mjs node scripts/champion-enrichment-tracker.mjs --write",
     "commercial:audit": "node scripts/run-with-accuracy-patches.mjs node scripts/commercial-readiness.mjs",
     "commercial:enforce": "node scripts/run-with-accuracy-patches.mjs node scripts/commercial-readiness.mjs --enforce",
-    "rights:triage": "node scripts/run-with-accuracy-patches.mjs node scripts/content-rights-triage.mjs"
+    "rights:triage": "node scripts/run-with-accuracy-patches.mjs node scripts/content-rights-triage.mjs",
+    "distribution:preflight": "node scripts/public-distribution-preflight.mjs"
   },
   "engines": {
     "node": ">=22"
