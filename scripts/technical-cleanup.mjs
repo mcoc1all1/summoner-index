@@ -60,7 +60,7 @@ const redirectTarget=`${base}/events`;
 const feedbackTarget=`${base}/feedback?path=${encodeURIComponent(redirectTarget)}`;
 fs.writeFileSync(path.join(legacyDir,'index.html'),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Events & News | Summoner Index · MCOC</title><meta name="description" content="Events & News has moved to the current Summoner Index events route."><meta name="robots" content="noindex,follow"><link rel="canonical" href="${origin}${base}/events"><meta http-equiv="refresh" content="0; url=${redirectTarget}"><script>location.replace(${JSON.stringify(redirectTarget)}+location.search+location.hash)</script></head><body><p class="beta-bar"><strong>Public beta</strong> <a href="${base}/methodology">How recommendations are sourced →</a></p><main><h1>Events & News moved</h1><p>Continue to <a href="${redirectTarget}">Events & News</a>.</p><p><a href="${feedbackTarget}">Report an issue</a></p></main></body></html>`);
 
-// Keep the intentionally small beta sitemap, but make lastmod reflect the newest reviewed content.
+// Update lastmod for any future explicitly approved routes; beta sitemap is intentionally empty.
 const sitemap=path.join(out,'sitemap.xml');
 if(fs.existsSync(sitemap)){
  let xml=fs.readFileSync(sitemap,'utf8');
