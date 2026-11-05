@@ -18,7 +18,8 @@
     "commercial:audit": "node scripts/run-with-accuracy-patches.mjs node scripts/commercial-readiness.mjs",
     "commercial:enforce": "node scripts/run-with-accuracy-patches.mjs node scripts/commercial-readiness.mjs --enforce",
     "rights:triage": "node scripts/run-with-accuracy-patches.mjs node scripts/content-rights-triage.mjs",
-    "distribution:preflight": "node scripts/public-distribution-preflight.mjs"
+    "distribution:preflight": "node scripts/public-distribution-preflight.mjs",
+    "distribution:stage": "node scripts/stage-clean-publication.mjs"
   },
   "engines": {
     "node": ">=22"

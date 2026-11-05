@@ -25,3 +25,5 @@ jobs:
 
       - name: Reject unsafe public distribution files and accidental indexing
         run: npm run distribution:preflight
+      - name: Verify isolated, noindex public-site staging (no remote writes)
+        run: node scripts/stage-clean-publication.mjs --output "$RUNNER_TEMP/summoner-beta-snapshot"

@@ -33,6 +33,10 @@ export function inspectDistribution(dist,{requireNoindex=true}={}){
    if(!entry.isFile()){fail(issues,'unknown-file-type',relative);continue;}
    inventory.files++;
    inventory.bytes+=fs.statSync(file).size;
+   if(relative==='.nojekyll'){
+    if(fs.statSync(file).size!==0)fail(issues,'invalid-nojekyll','This Pages marker must be empty');
+    continue; // Safe root-level Jekyll bypass marker in the clean publishing snapshot.
+   }
    if(forbiddenFileNames.has(entry.name)||forbiddenExtensions.has(path.extname(entry.name).toLowerCase())||entry.name.startsWith('.')){
     fail(issues,'source-file-exposed',relative);
     continue;
