@@ -28,6 +28,15 @@ jobs:
           PUBLIC_BETA: '1'
       - name: Reject unsafe public distribution files and accidental indexing
         run: npm run distribution:preflight
+      - name: Stage clean site without research/history (no remote writes)
+        run: node scripts/stage-clean-publication.mjs --output "$RUNNER_TEMP/summoner-clean-publication"
+      - name: Export clean, noindex site snapshot for future repository migration
+        uses: actions/upload-artifact@v4
+        with:
+          name: clean-noindex-beta-site
+          path: ${{ runner.temp }}/summoner-clean-publication/site/
+          include-hidden-files: true
+          retention-days: 3
       - name: Audit commercial readiness (advisory; no advertisements enabled)
         run: npm run commercial:audit
       - name: Inventory all content reuse candidates (advisory)
