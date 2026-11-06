@@ -13908,14 +13908,10 @@
       "name": "Beast",
       "class": "Mutant",
       "initials": "B",
-      "coverage": "curated",
+      "coverage": "roster",
       "rosterCheckedAt": "2026-10-22",
-      "summary": "Choose a combat form before following its awakened combo sequence.",
-      "abilityIds": [
-        "bleed",
-        "regeneration",
-        "stun"
-      ],
+      "summary": "November 2026 redesigned kit: combat rotations, utility conditions and investment advice require a fresh current-build review.",
+      "abilityIds": [],
       "immunityIds": [],
       "tagIds": [],
       "sourceIds": [
@@ -13925,21 +13921,17 @@
       "relicIds": [],
       "ratings": {},
       "signatureTarget": null,
-      "awakening": "Awakening unlocks the form-specific chain bonuses, including Acrobatic healing.",
-      "playstyle": "Use Special 1 to enter Freestyle for critical-hit Bleeds. When awakened, complete medium-light-light-light-medium for Freestyle damage. For recovery, enter Acrobatic with Special 2, then block and perform medium-light-light-medium.",
-      "strengths": "Acrobatic reduces incoming critical damage and opponent power gained from hits.",
-      "risks": "Energy damage bypasses the physical-critical protection; broken combo sequences delay the next bonus.",
+      "awakening": "The redesigned Signature Ability has not been reviewed for this public guide.",
+      "playstyle": "",
+      "strengths": "Current redesigned kit role and practical matchups have not yet been independently reviewed for this profile.",
+      "risks": "Earlier Freestyle/Acrobatic and awakening-combo guidance predates the November 2026 redesign and is withheld.",
       "referenceFacts": {
         "status": "source-link-only",
         "url": "https://mcocscout.com/champions/beast",
         "checkedAt": "2026-10-23"
       },
-      "rotation": [
-        "Use Special 1 to enter Freestyle for critical-hit Bleeds.",
-        "When awakened, complete medium-light-light-light-medium for Freestyle damage.",
-        "For recovery, enter Acrobatic with Special 2, then block and perform medium-light-light-medium."
-      ],
-      "resistanceNote": "Bleed potency and duration are reduced; this is not Bleed immunity.",
+      "rotation": [],
+      "resistanceNote": "",
       "kitReview": {
         "status": "community-sourced",
         "checkedAt": "2026-10-23",
@@ -13992,7 +13984,10 @@
         "checkedAt": "2026-11-02",
         "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
         "sourceIds": []
-      }
+      },
+      "protections": [],
+      "synergyIds": [],
+      "synergies": []
     },
     {
       "id": "beta-ray-bill",
