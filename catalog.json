@@ -10786,19 +10786,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Colossus is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Bank Armor Up before burst",
+            "text": "Well-timed blocks and SP1 can build Armor Up for Colossus. The actual count matters for both resistance and offensive opportunity; don't convert your entire plan into an early special with no developed stack."
           },
           {
-            "title": "Choose a safe special window",
-            "text": "For Colossus, inspect the current Special Attack descriptions and compare their actual effects with your available punish windows. No universal Special 1/2/3 sequence was validated for this source-limited profile; choose the next action from the observed fight rather than a borrowed tier-list recipe."
+            "title": "Heavy cancel during a true opening",
+            "text": "A heavy started on a Stunned opponent can create a short Fury, which supports a heavy-to-SP2 punish. Confirm the Stun and distance; against Stun-immune defenders, find another safe recovery window."
           },
           {
-            "title": "Confirm Armor Break protection",
-            "text": "The structured records flag Armor Break protection for Colossus. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "SP2 is the payoff, not the setup",
+            "text": "SP2 can exploit temporary Fury and armor development for an Unblockable burst. If the opponent's recovery is uncertain, spend the special normally rather than losing an attempt to an interrupted heavy."
+          },
+          {
+            "title": "Respect the form of damage",
+            "text": "Colossus has meaningful protection against several damage effects, but a debuff immunity is not always passive-damage immunity. Check the node's actual effect form and any Armor Up removal mechanics."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -11129,19 +11135,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Kitty Pryde's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Establish a real Phase window",
+            "text": "Build Prowess from critical hits or Stuns before dashing into Phase. Check whether Phase is active before challenging a special; an ordinary dash without the prerequisite is not a safe substitute."
           },
           {
-            "title": "Track Phasing before committing",
-            "text": "The catalogue also records Phasing for Kitty Pryde. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Plan how to gain damage",
+            "text": "SP1 adds Incinerates, while a longer fight may reward SP3's sustained Incinerate setup. Choose the path according to the remaining health and whether the opponent actually permits Incinerates."
           },
           {
-            "title": "Confirm Incinerate protection",
-            "text": "The structured records flag Incinerate protection for Kitty Pryde. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Spend Prowess with SP2",
+            "text": "A developed Prowess stack makes SP2 attractive, but losing Prowess to Cowardice changes the output. Watch the stack total and active Phase state so the burst does not land during a vulnerable reset."
+          },
+          {
+            "title": "Awakening changes safety",
+            "text": "Her stronger damage-prevention interaction requires the awakened state while Phase is active. Do not present an unawakened Kitty as universally safe against damage, and watch anti-Miss and anti-Phase nodes."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -11793,19 +11805,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fury in this encounter",
-            "text": "Adam Warlock is catalogued with Fury. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Start Sovereignty under control",
+            "text": "The Sovereignty counter can begin through a suitable second-light hit into Block or a special. If the opponent is not giving safe contact, set up through an alternative rather than forcing the exact combo."
           },
           {
-            "title": "Track Taunt before committing",
-            "text": "The catalogue also records Taunt for Adam Warlock. Watch for its actual trigger while also tracking Fury; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Keep the counter moving",
+            "text": "The payoff depends on continued successful actions. A Parry Stun can disrupt the counter under the kit rules, so a normally safe stun-heavy habit may be counterproductive here."
           },
           {
-            "title": "Confirm Frostbite protection",
-            "text": "The structured records flag Frostbite protection for Adam Warlock. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use the pod to preserve progress",
+            "text": "SP2 can bring a pod phase and retain Sovereignty progress while you cannot attack normally. Decide whether protecting the developed counter is worth taking time away from direct combat."
+          },
+          {
+            "title": "Check buff and control disruption",
+            "text": "Buff Nullify, Stun-heavy nodes and forced disengagement interfere with the usual ramp. If maintaining Sovereignty is unrealistic, use safe basic punishes rather than planning an ideal long-chain state."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -11952,19 +11970,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Aegon's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Protect the persistent combo",
+            "text": "Aegon's long-quest value comes from building a large combo and retaining part of it with the awakened ability. Prioritize safe hits and defensive control rather than gambling the run for a little early damage."
           },
           {
-            "title": "Track Combo Shield before committing",
-            "text": "The catalogue also records Combo Shield for Aegon. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use SP1 for manageable growth",
+            "text": "SP1 offers a multi-hit way to continue building combo, but it must be safe against the defender's power and node. Keep a plan for baiting their special before chasing your next threshold."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Aegon, look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Change specials as combo improves",
+            "text": "SP2 can offer Bleed once enough combo utility is available, while SP3 may supply a longer Stun opportunity. Neither can replace the need to preserve the combo into the next fight."
+          },
+          {
+            "title": "Consider fight length and awakening",
+            "text": "In a short Battlegrounds fight or when unawakened, the long ramp can be a poor trade. Check the actual banked combo and health after each encounter rather than assuming permanent progress survives automatically."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -12413,19 +12437,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Power control in this encounter",
-            "text": "America Chavez has a recorded Power control interaction. Read the active quest node and confirm exactly when it changes the opponent's power or special access; do not infer universal power control from the ability name. Test the trigger in a safe opening."
+            "title": "Choose the dimension from the heavy",
+            "text": "A safe heavy with a different cancellation point selects a dimension. Decide which effect the opponent requires first; blindly finishing every heavy builds the same stage instead of the desired package."
           },
           {
-            "title": "Track Regeneration before committing",
-            "text": "The catalogue also records Regeneration for America Chavez. Watch for its actual trigger while also tracking Power control; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use SP1 when several dimensions exist",
+            "text": "SP1 can develop power gain from distinct active dimensions. Compare the number and duration of active dimensions before committing, because a rushed special may deliver little lasting benefit."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using America Chavez, look for opponent immunities, resistances and node effects that interrupt Power control. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Direct SP2 to the needed effect",
+            "text": "The final chosen dimension affects SP2: Utopian supports damage, Dark can support healing, and Negative Zone can affect Unblockable pressure. Pick it deliberately for the current defender and health state."
+          },
+          {
+            "title": "Protect the heavy setup",
+            "text": "Anti-Heavy nodes, unpunishable special recovery and buff denial can prevent dimension selection. Retreat and choose a simpler safe action instead of insisting on a heavy-special cancel in every fight."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -12529,19 +12559,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Aptitude in this encounter",
-            "text": "Angela is catalogued with Aptitude. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Use power bands deliberately",
+            "text": "Angela gains different Huntress buffs through her power-band progression. Critical hits can duplicate the currently relevant buff; identify what is active instead of trying to reproduce a single special timing on every enemy."
           },
           {
-            "title": "Track Armor Break before committing",
-            "text": "The catalogue also records Armor Break for Angela. Watch for its actual trigger while also tracking Aptitude; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "SP1 with Fury already present",
+            "text": "SP1 can reward an existing Fury setup. Throwing it immediately without the buff often misses the point of the damage-building route; check the current buffs before spending meter."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Angela, look for opponent immunities, resistances and node effects that interrupt Aptitude. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Choose SP3 for a developed fight",
+            "text": "In a longer encounter SP3 can support a stronger buff strategy when Aptitude is already active. That setup is not always worth the delay against a short-health defender or power-control node."
+          },
+          {
+            "title": "Mind nullify and buff restrictions",
+            "text": "Nullify, Buff Immunity and armor interactions can undermine both the offensive buffs and some awakened protection. Inspect the current buff count rather than assuming a fixed resistance or benefit."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -12945,19 +12981,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Ant-Man (Future) is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Start Nano-Armor proactively",
+            "text": "Interception or heavy punishes can create Nano-Armor and open the Surging Swarm sequence. Keep space for the next action rather than forcing an interception into an opponent who cannot be safely approached."
           },
           {
-            "title": "Track Disintegration before committing",
-            "text": "The catalogue also records Disintegration for Ant-Man (Future). Watch for its actual trigger while also tracking Armor Up; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use SP1 for setup and control",
+            "text": "SP1 can establish Disintegration and reduce the opponent's power under relevant conditions. That opens a different plan from merely rushing SP2 with no debuffs active."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Ant-Man (Future), look for opponent immunities, resistances and node effects that interrupt Armor Up. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Spend SP2 during the right state",
+            "text": "Power Detonation and existing Disintegrations shape the burst. If the relevant stage hasn't appeared or was dispelled, rebuild instead of using SP2 just because two bars are available."
+          },
+          {
+            "title": "Check debuff resistance and Armor removal",
+            "text": "Disintegration immunity, Armor Up removal and node-altered power control can undo the intended cycle. Confirm which parts of the protection come from Nano-Armor versus the active mode."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -14265,19 +14307,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Bishop's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Budget Prowess and power",
+            "text": "Well-timed blocks help build Prowess; that creates pressure but can also approach an Overload threshold. Check the next bar of power and avoid blindly holding charges when a defender can force contact."
           },
           {
-            "title": "Track Prowess before committing",
-            "text": "The catalogue also records Prowess for Bishop. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Pick SP1 or SP2 by fight",
+            "text": "SP1 favors nearby Incinerate pressure, while SP2 supplies a larger burst and related follow-up. If the defender resists Incinerate, the optimal choice may shift toward the direct damage window."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Bishop, look for opponent immunities, resistances and node effects that interrupt Incinerate. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Save recovery as an option",
+            "text": "Holding Block can consume Prowess for recovery and Bleed Purify under the kit's conditions. That is a defensive trade-off, not an extra source of damage: spend offensive resources only when survival needs it."
+          },
+          {
+            "title": "Check persistent quest state",
+            "text": "Bishop can carry power-related context between quest fights. Re-read his opening resources and the next node instead of assuming every encounter starts with the same Prowess and Overload pattern."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -14502,19 +14550,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Ability accuracy reduction in this encounter",
-            "text": "Black Cat is catalogued with Ability accuracy reduction. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Take the Calling Card intentionally",
+            "text": "An intercept or punish can move the Calling Card to Black Cat, while a heavy can plant it on the opponent. Track who holds it before allowing the Heist to finish."
           },
           {
-            "title": "Track Bleed before committing",
-            "text": "The catalogue also records Bleed for Black Cat. Watch for its actual trigger while also tracking Ability accuracy reduction; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose Vicious or Sabotage",
+            "text": "Card ownership at the end of a Heist affects the payoff. If you need Sabotage, don't accidentally steal the card back; if you need stronger damage, plan to retain it."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Black Cat, look for opponent immunities, resistances and node effects that interrupt Ability accuracy reduction. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Specials respond to card state",
+            "text": "SP1 behaves differently with the card on each side, while SP2 creates a critical Bleed opportunity. Choose the special for the active Heist state rather than assuming it has a fixed result."
+          },
+          {
+            "title": "Plan around Bleed and AAR counters",
+            "text": "Bleed immunity and opponent nodes that prevent ability-accuracy changes can blunt the value of her usual plan. Build the next Heist around a safe intercept rather than forcing card moves into an unstoppable defender."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -15786,19 +15840,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Concussion in this encounter",
-            "text": "Cable is catalogued with Concussion. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Use the heavy only when it applies",
+            "text": "A safe heavy can establish Cable's Degeneration pressure against suitable non-Robot targets. Confirm the opponent's #Robot tag and the current kit condition before treating the heavy as a universal damage source."
           },
           {
-            "title": "Track Degeneration before committing",
-            "text": "The catalogue also records Degeneration for Cable. Watch for its actual trigger while also tracking Concussion; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Avoid wasting an early special",
+            "text": "SP2 offers Incinerate and a possible Concussion under its rules. Against a defender resistant to those effects, hold power for another purpose rather than forcing a standard DoT sequence."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Cable, look for opponent immunities, resistances and node effects that interrupt Concussion. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "SP3 can open a different route",
+            "text": "When True Strike is required, SP3 can supply the relevant buff and alter what SP1 can do during it. This is a matchup-specific utility choice, not the fastest burst against every opponent."
+          },
+          {
+            "title": "Pair the right matchup with the right kit",
+            "text": "Robots, debuff restrictions, opponent purify, and special-attack limits can remove much of Cable's intended pressure. Treat his quest synergies or pre-fight additions separately from the standalone champion kit."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -16015,19 +16075,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Captain America (Infinity War)'s tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Charge before a heavy",
+            "text": "Use well-timed blocks to build Kinetic Potential, then inspect the charge count before beginning a heavy. A heavy started into the opponent's recovery is safer than relying on a Parry that the node may prevent."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for Captain America (Infinity War). Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Convert the Fury into SP2",
+            "text": "A charged heavy can supply Fury for a heavy-to-SP2 punish. Commit only if the opponent cannot intercept the heavy startup; if control is unreliable, return to building charges instead of forcing the conversion."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Captain America (Infinity War), look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Change the special for utility",
+            "text": "When defensive ability suppression matters more than immediate damage, inspect the charged SP1 route rather than automatically taking SP2. Check the defender's ability-accuracy immunity and the specific node wording."
+          },
+          {
+            "title": "Do not spend charges blindly",
+            "text": "If Kinetic Potential was consumed on an earlier interaction, a copied heavy-to-SP2 timing produces a weaker result. Rebuild through safe blocks and check the current awakened/class-synergy conditions before planning a long quest."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -17787,19 +17853,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Cosmic Ghost Rider is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Order Judgments instead of button-mashing",
+            "text": "A medium-ending combo and a light-ending combo develop different buffs. Heavy charging and SP2 add others, but an early Dexterity-triggered Precision may change the next Judgment; read the icons before the burst."
           },
           {
-            "title": "Track Power control before committing",
-            "text": "The catalogue also records Power control for Cosmic Ghost Rider. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Make the heavy safe",
+            "text": "Use a known punish or recovery window to gain Aptitude from the heavy. Charging one against a free opponent can waste the entire Judgment setup before you even reach SP2."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Cosmic Ghost Rider. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Turn the completed set into Armor Break",
+            "text": "After enough distinct Judgments, the kit can convert them into Armor Break pressure. The payoff depends on the active debuffs and buffs at that moment; do not assume every opponent takes the same burst."
+          },
+          {
+            "title": "Handle buff disruption explicitly",
+            "text": "Fate Seal, Buff Immunity, shortened buffs or Armor Break immunity can interrupt the expected sequence. If a needed Judgment cannot be built, adopt a shorter damage route rather than repeating the same combo blindly."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -18075,19 +18147,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Ability accuracy reduction in this encounter",
-            "text": "Crossbones is catalogued with Ability accuracy reduction. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Use the Overrun resource deliberately",
+            "text": "Dash back and hold Block to begin Overrun and refresh Fury. Plan the window where you can attack instead of using the stance purely to reach a higher visible buff count."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for Crossbones. Watch for its actual trigger while also tracking Ability accuracy reduction; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Heavy at the correct time",
+            "text": "A heavy can pause remaining Fury under the relevant conditions. Heavy intercepts or safe special recovery are useful, but forcing a raw heavy while the defender is ready risks losing the damage state."
           },
           {
-            "title": "Confirm Nullify protection",
-            "text": "The structured records flag Nullify protection for Crossbones. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Choose SP1 or SP2 by opponent",
+            "text": "SP1 supports additional Fury; SP2 adds Incinerate pressure while attack is elevated. A defender immune to Incinerate may favor the shorter Fury route instead."
+          },
+          {
+            "title": "Keep class and utility distinct",
+            "text": "Fury-driven offensive ability-accuracy reduction may help, but it is not universal immunity to defensive abilities. Purify or nodes that shorten buffs require you to rebuild the plan more often."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -20246,19 +20324,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Ability accuracy reduction in this encounter",
-            "text": "Domino is catalogued with Ability accuracy reduction. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Treat Lucky as a window",
+            "text": "Lucky and Unlucky are chance-dependent states, not a deterministic rotation. Build a clean combo and inspect which state is active before expecting enhanced critical effects or an opposing ability failure."
           },
           {
-            "title": "Track Armor Break before committing",
-            "text": "The catalogue also records Armor Break for Domino. Watch for its actual trigger while also tracking Ability accuracy reduction; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Heavy only on a safe stun",
+            "text": "A heavy against a stunned defender can reward the opening. If the opponent is Stun immune or can Purify, don't turn a probabilistic advantage into an unsafe heavy punish."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Domino, look for opponent immunities, resistances and node effects that interrupt Ability accuracy reduction. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Decide how to spend power",
+            "text": "SP1 while Lucky can support an existing Bleed/Stun setup; SP2 is an alternative for larger Bleed pressure. Choose from the debuffs already applied rather than assuming either special is always optimal."
+          },
+          {
+            "title": "Build a plan for bad RNG",
+            "text": "Domino can be strong without forcing every proc, but nodes that punish a failed ability, Bleed immunity and unstable defensive recovery make outcomes uneven. Leave room for ordinary damage when Lucky doesn't arrive."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -21897,19 +21981,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Ability accuracy reduction in this encounter",
-            "text": "Falcon is catalogued with Ability accuracy reduction. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Enter Recon safely",
+            "text": "Dash back and hold Block until Recon produces Lock On. Build a safe distance first, because a rushed backdash near the wall can be punished before the target is actually locked."
           },
           {
-            "title": "Track Bleed before committing",
-            "text": "The catalogue also records Bleed for Falcon. Watch for its actual trigger while also tracking Ability accuracy reduction; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Punish during Lock On",
+            "text": "The timed Lock On window suppresses eligible defensive abilities during Falcon's attacks. Use SP1 for additional Bleed or SP2 for critical pressure according to the opponent's vulnerability."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Falcon, look for opponent immunities, resistances and node effects that interrupt Ability accuracy reduction. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Respect the cooldown",
+            "text": "Once Lock On expires, the same target may Evade or trigger other abilities again. Disengage and plan the next scan rather than continuing the prior combo as though suppression never ends."
+          },
+          {
+            "title": "Defensive effects are not all equal",
+            "text": "Check whether the troublesome effect is affected by Falcon's Lock On or is protected by ability-accuracy rules. Bleed immunity and high armor can also make the short burst less rewarding."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -23072,19 +23162,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Coldsnap in this encounter",
-            "text": "The current research index lists Coldsnap among Gladiator's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Use heavy to establish pressure",
+            "text": "A charged heavy during the proper short opening can help build Confidence through the subsequent Intimidate exchange. Don't assume a free heavy exists whenever Gladiator's power bar is ready."
           },
           {
-            "title": "Track Confidence before committing",
-            "text": "The catalogue also records Confidence for Gladiator. Watch for its actual trigger while also tracking Coldsnap; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build Confidence before damage",
+            "text": "The next special has more value once Confidence has developed. Watch the actual charge and opponent behavior instead of forcing a heavy if they are simply holding block or baiting you."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Gladiator, look for opponent immunities, resistances and node effects that interrupt Coldsnap. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "SP2 after a controlled heavy",
+            "text": "An established Confidence setup can support a heavy-to-SP2 damage window, including useful Unblockable or Incinerate effects. If spacing is poor, use the special normally rather than risking a counterattack."
+          },
+          {
+            "title": "Respect defense and immunity conditions",
+            "text": "Confidence and Vigilance do not make every defensive ability disappear. Incinerate immunity, anti-Unblockable tools and nodes that change heavy recovery alter the fight substantially."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -23312,19 +23408,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Gorr's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Cycle the desired Shadow Magic",
+            "text": "Fourth-light endings change the active Shadow Magic, and second-medium endings can apply the corresponding damage effect. Check the selected type before completing a combo instead of stacking a single debuff the defender resists."
           },
           {
-            "title": "Track Degeneration before committing",
-            "text": "The catalogue also records Degeneration for Gorr. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Spread different effects before SP2",
+            "text": "Bleed, Poison and Shock from separate modes can make the SP2 Fury setup more productive. A defendant immune to one type may need a different ordering or a shorter plan."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Gorr, look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Refresh the Fury window",
+            "text": "Subsequent specials can help maintain the offensive buffs after SP2. Keep power flowing with safe combos rather than letting the Fury stage end while trying to maximize another Shadow Magic type."
+          },
+          {
+            "title": "Do not confuse diverse damage with immunity bypass",
+            "text": "Having multiple DoT options improves flexibility but doesn't override the defender's specific debuff protections or nodes. Confirm which damaging effects can actually land before starting the long ramp."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -23817,19 +23919,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Guardian is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Plan the next meter investment",
+            "text": "Treat Force Field as a stockpile to protect: consider SP1 when you need more defensive resources and Taunt, then examine the existing Armor Up before spending any of those charges on the next special."
           },
           {
-            "title": "Track Power control before committing",
-            "text": "The catalogue also records Power control for Guardian. Watch for its actual trigger while also tracking Armor Up; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Don't drain power by accident",
+            "text": "A light combo reaching its fourth hit can spend Force Field for Power Drain. That may solve a power-heavy matchup, but it competes with the stored resources needed for a bigger damage payoff."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Guardian, look for opponent immunities, resistances and node effects that interrupt Armor Up. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Choose immediate or delayed SP2",
+            "text": "A short fight may reward using SP2 with the charges already built, whereas SP3 offers a slower path to more persistent Force Field. Verify whether Armor Up is available if you intend to produce Shock."
+          },
+          {
+            "title": "Watch for layered counterplay",
+            "text": "When the opponent removes Armor, resists Shock, or ignores Taunt, more than one part of Guardian's plan can fail at once. Preserve spacing and bait specials normally rather than counting on a single defensive layer."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -25206,19 +25314,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Hit-Monkey's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Start with clean critical contact",
+            "text": "Medium–light–medium can trigger his natural critical-hit pattern against an unblocked opponent. Avoid feeding attacks into Block when the goal is to set up the next Scheme."
           },
           {
-            "title": "Track Precision before committing",
-            "text": "The catalogue also records Precision for Hit-Monkey. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose the Scheme deliberately",
+            "text": "After the relevant trigger, blocking or dodging can lead toward Assassin's Cunning while continued attacking supports Primal Rage. Their defensive and damage benefits are different; identify which you need."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Hit-Monkey, look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Spend SP2 just after a crit",
+            "text": "SP2 is most attractive when linked to the critical chain and the correct Scheme. If the sequence was interrupted, re-establish it rather than expecting the special to fix the lost setup."
+          },
+          {
+            "title": "Watch hit type and debuff limits",
+            "text": "Bleed immunity can eliminate part of the payoff, while Unblockable specials or defensive ability effects can punish the aggressive opening. Distinguish a critical-hit advantage from immunity to retaliation."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -25591,19 +25705,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fury in this encounter",
-            "text": "Hulk is catalogued with Fury. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Enter Gamma Rage on purpose",
+            "text": "Build Fury through clean basic attacks, then use a safe heavy to reach Gamma Rage when the fight allows it. Do not trigger the state merely because the button is available if the next special will be awkward to use."
           },
           {
-            "title": "Track Physical Vulnerability before committing",
-            "text": "The catalogue also records Physical Vulnerability for Hulk. Watch for its actual trigger while also tracking Fury; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Line up Trauma and the burst",
+            "text": "SP2 can provide a Trauma window whose duration interacts with Gamma Rage. Aim to have enough space and power to capitalize immediately rather than spending most of the effect chasing a retreating defender."
           },
           {
-            "title": "Confirm Buff protection",
-            "text": "The structured records flag Buff protection for Hulk. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use SP1 for a controlled opening",
+            "text": "During Rage, SP1's Stun can create room for follow-up damage, but repeated Stuns shorten. Track the actual Stun duration instead of assuming every loop will last as long as the first."
+          },
+          {
+            "title": "Watch stun immunity and spacing",
+            "text": "Stun-immune opponents or nodes that punish Heavy charging change both the entry and payoff. A strong Fury count does not justify a risky heavy when the defender is free to intercept."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -27650,19 +27770,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Ironheart's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Choose the correct pre-fight damage",
+            "text": "Select Incinerate or Rupture according to the defender's actual protection. A wrong pre-fight choice can cripple the whole route even if the rotation is executed flawlessly."
           },
           {
-            "title": "Track Rupture before committing",
-            "text": "The catalogue also records Rupture for Ironheart. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Keep Repulsors active before SP2",
+            "text": "Medium hits apply Repulsor pressure; SP1 can help pause debuffs. Avoid letting the stack expire during a long defensive standoff before investing in the next special."
           },
           {
-            "title": "Confirm Coldsnap protection",
-            "text": "The structured records flag Coldsnap protection for Ironheart. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Build Armor with intentional lights",
+            "text": "Light attacks can establish Armor Up for the SP2 reward. Check the Armor and Repulsor state together instead of treating a full bar of power as enough preparation."
+          },
+          {
+            "title": "Respect anti-Armor and Tracking limits",
+            "text": "Armor removal, Debuff immunity, and effects immune to Tracking can change both the payoff and utility. Ironheart's kit needs an explicit matchup check, not a blanket 'works everywhere' label."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -28730,19 +28856,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fury in this encounter",
-            "text": "Juggernaut is catalogued with Fury. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Protect the Crimson Gem",
+            "text": "Juggernaut's offensive rhythm relies on the Crimson Gem and Unstoppable stacks. Verify its current availability; a lost Gem means the usual momentum plan needs restoration."
           },
           {
-            "title": "Track Stagger before committing",
-            "text": "The catalogue also records Stagger for Juggernaut. Watch for its actual trigger while also tracking Fury; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build Momentum through contact",
+            "text": "Advance and land safe hits to build Unstoppable pressure. Blocking or taking damage can spend stacks, so a defensive-looking exchange immediately before SP2 may weaken the burst."
           },
           {
-            "title": "Confirm Reversed Controls protection",
-            "text": "The structured records flag Reversed Controls protection for Juggernaut. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use SP2 while the state is full",
+            "text": "A developed Momentum state supports the SP2 payoff. Aim to enter the special without wasting the available stacks on a blocked basic attack or unsafe heavy attempt."
+          },
+          {
+            "title": "Recovery is matchup-dependent",
+            "text": "Some control and node effects can disable the Gem or interrupt Unstoppable. Use a safe special opening to restore the kit when permitted; don't treat every opposing Stagger or Neutralize interaction as harmless."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -29649,19 +29781,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "King Groot is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Treat Malice as a resource window",
+            "text": "Wait for the relevant Malice period before choosing utility specials. SP1 can establish longer Armor Break behavior then; outside Malice the same meter may have a weaker long-term result."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for King Groot. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use SP2 when Poison matters",
+            "text": "SP2 during Malice can produce sustained Poison pressure, with additional context against Robots. Confirm the defender's Poison protection and fight length before choosing this over Armor Break."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for King Groot. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Maintain effects with a safe heavy",
+            "text": "A heavy can help keep Poison or Armor Break active. Only refresh it when the opponent is recovering; chasing indefinite upkeep into an active defender can cost more health than it saves."
+          },
+          {
+            "title": "Plan around healing and immunity",
+            "text": "SP3 is an option when recovery matters, but Poison immunity and Armor Break removal may limit the offensive plan. High durability does not eliminate the need to bait specials carefully."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -30057,19 +30195,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Knull is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Build Living Abyss without rushing",
+            "text": "Medium and heavy attacks establish Living Abyss before Corruption. Track the stacks and the defender's willingness to give heavy openings rather than opening with an underdeveloped special."
           },
           {
-            "title": "Track Degeneration before committing",
-            "text": "The catalogue also records Degeneration for Knull. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Start Corruption at a useful time",
+            "text": "SP1 can start a countdown toward Corruption; SP3 supplies a more immediate longer setup. Decide between the two by remaining fight length and the amount of available power."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Knull, look for opponent immunities, resistances and node effects that interrupt Armor Break. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Change attack mix during Corruption",
+            "text": "Sword and symbiote hits contribute different outcomes during the state. Favor suitable light attacks and SP2 when extending offensive pressure, while considering healing opportunities if health is becoming the constraint."
+          },
+          {
+            "title": "Beware armor and debuff mismatches",
+            "text": "Knull's output relies on the enemy accepting his Armor Break and Degeneration interactions. An opponent that shrugs off those effects can make a seemingly perfect Corruption window far less productive."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -30912,19 +31056,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Longshot's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Place Karma deliberately",
+            "text": "Charge a heavy in a safe window to build Good Karma, then land the attack when transfer is useful. Avoid charging blindly if the defender can interrupt or the node punishes Heavy contact."
           },
           {
-            "title": "Track Fate Seal before committing",
-            "text": "The catalogue also records Fate Seal for Longshot. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Bait moves that change Bad Karma",
+            "text": "The enemy's heavy and special usage can affect Bad Karma. Create room for a safe bait instead of relying on a defensive opponent to provide those triggers immediately."
           },
           {
-            "title": "Confirm Ability Accuracy Reduction protection",
-            "text": "The structured records flag Ability Accuracy Reduction protection for Longshot. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Spend during Pure of Heart",
+            "text": "SP2 during the right state can convert opposing Karma/buffs into a strong payoff. Check that the defender has appropriate buffs or Karma; a nullify-resistant or buffless opponent changes the damage math."
+          },
+          {
+            "title": "Pick SP1 for the exception",
+            "text": "SP1 can be an alternative under some Incinerate-resistant matchups. Confirm the actual effect and immunities rather than believing Longshot automatically bypasses all damage-over-time protections."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -32668,19 +32818,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Medusa is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Reach Armor Shattered first",
+            "text": "Repeated Armor Breaks can combine into Armor Shattered. Keep track of how many effects are active and their timing before assuming the defender's Robot abilities are already suppressed."
           },
           {
-            "title": "Track Armor Shatter before committing",
-            "text": "The catalogue also records Armor Shatter for Medusa. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose targets where Shatter matters",
+            "text": "Armor Shattered is especially relevant against many Robot opponents, but the exact ability suppression can depend on the defender and node. Don't treat any Armor Break stack as full ability shutdown."
           },
           {
-            "title": "Confirm Poison protection",
-            "text": "The structured records flag Poison protection for Medusa. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Add damage after control",
+            "text": "Once the Shattered condition is established, normal light or heavy interactions can support a Bleed plan. Verify Bleed eligibility and keep the Shatter state visible while spending power."
+          },
+          {
+            "title": "Rebuild instead of overcommitting",
+            "text": "Shatter expiry, Armor Break immunity or debuff Purify can undo the setup. If the opponent cannot be Shattered reliably, use safe specials and re-evaluate rather than blindly pursuing the standard sequence."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -33064,19 +33220,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Degeneration in this encounter",
-            "text": "The current research index lists Degeneration among Mister Negative's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Acquire Light Energy safely",
+            "text": "Use well-timed blocks and the kit's buff-removal interaction to gain Light Energy. Check whether the defender's buffs and the active node actually permit your chosen source; never assume backdash conversion always works."
           },
           {
-            "title": "Track Delirium before committing",
-            "text": "The catalogue also records Delirium for Mister Negative. Watch for its actual trigger while also tracking Degeneration; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Convert with a protected heavy",
+            "text": "The heavy-charge interaction turns Light into Dark Energy when properly timed around a basic attack. Set it up against a predictable attack instead of charging blindly near the wall."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Mister Negative, look for opponent immunities, resistances and node effects that interrupt Degeneration. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Deliver the SP2 before expiry",
+            "text": "Dark Energy is the resource behind a strong SP2 Degeneration burst. Confirm the active energy amount and timer before committing; an early or late special can waste the setup."
+          },
+          {
+            "title": "Respect energy and debuff counters",
+            "text": "The plan becomes less attractive against Degeneration protection or defenders whose accuracy rules frustrate a heavy counter-Evade. If the energy conversion is unsafe, fall back to a simpler control route."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -33682,19 +33844,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Mole Man's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Decide whether you need utility or burst",
+            "text": "At lower Monster Mass outside Frenzy, Mole Man's True Accuracy can be the reason to select him. Adding too much Mass can change the ability package, so don't build resources automatically."
           },
           {
-            "title": "Track Purify before committing",
-            "text": "The catalogue also records Purify for Mole Man. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build Mass only when ready to commit",
+            "text": "Heavies and SP1 can help advance the Mass state. If the defender is hard to heavy-punish, it may be safer to keep utility than force the Frenzy transition."
           },
           {
-            "title": "Confirm Shock protection",
-            "text": "The structured records flag Shock protection for Mole Man. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use Frenzy for a timed damage phase",
+            "text": "Frenzy opens a stronger critical-hit and SP2 opportunity. Plan your special meter before it begins, then make use of the brief state rather than wasting time baiting a special."
+          },
+          {
+            "title": "Watch what your Mass level disables",
+            "text": "Anti-Evade utility and Frenzy damage are not fully interchangeable. Purify, Shock and node-based effects also change the plan; verify the exact current Mass threshold before attempting a defender whose Evade is your primary problem."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -35339,19 +35507,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Nick Fury's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Apply Bleed where it sticks",
+            "text": "A light-ending combo can help build Bleed pressure and support Internal Bleed. Check Bleed immunity at the start; a target that cannot Bleed changes the value of repeated combo finishers."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for Nick Fury. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Earn Tactical Charges for utility",
+            "text": "SP1 can develop Tactical Charges. Pay attention to the actual threshold before relying on effects such as anti-Miss, anti-Evade or Unblockable; a single SP1 is not the same as a full tactical setup."
           },
           {
-            "title": "Confirm Stun protection",
-            "text": "The structured records flag Stun protection for Nick Fury. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Choose SP2 for the punish",
+            "text": "SP2 adds Bleed pressure and may create a Stun opening under the charge conditions. If Stun is blocked by the node, use the special for damage rather than planning a follow-up that will not happen."
+          },
+          {
+            "title": "Do not spend the Decoy accidentally",
+            "text": "An awakened Nick Fury can use the Life Model Decoy mechanic, which changes the fight after it triggers. Distinguish that one-time state from ordinary healing and check remaining quest health before risking the next exchange."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -36589,19 +36763,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Omega Sentinel is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Pick the weapon, not just the class",
+            "text": "Select her relevant utility weapon before engagement. Heal Block and tracking solve different problems from raw Incinerate pressure; choose based on the specific defender mechanic rather than the class icon."
           },
           {
-            "title": "Track Heal Block before committing",
-            "text": "The catalogue also records Heal Block for Omega Sentinel. Watch for its actual trigger while also tracking Armor Up; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Apply on the correct combo hit",
+            "text": "Second-medium hits are part of her debuff application. Endings that refresh or pause debuffs are useful only when the debuff is already present and the opponent lets you continue attacking."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Omega Sentinel, look for opponent immunities, resistances and node effects that interrupt Armor Up. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Heavy is a deliberate switch",
+            "text": "A heavy can help preserve existing effects while also changing the selected weapon. Avoid accidentally changing tools in the middle of a fight that depends on a particular Heal Block or Tracking state."
+          },
+          {
+            "title": "SP2 needs an established stack",
+            "text": "Use SP2 with an actual debuff setup for meaningful Incinerate or mutant-specific Plasma pressure. Debuff immunity and opposing Purify can remove much of the expected payoff."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -36844,19 +37024,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Auto-Block in this encounter",
-            "text": "Before relying on Peni Parker's Auto-Block, identify its start condition, duration and any opposing immunity or accuracy modifier in the current fight. Use the actual state indicator for the next punish; a listed defensive tool is not a guarantee against all opponents."
+            "title": "Treat Spider-Sense as the resource",
+            "text": "SP1 can build Spider-Sense depending on opponent power and successful interactions. Don't use it mindlessly when the opponent is at an awkward threshold; the charge result changes."
           },
           {
-            "title": "Track Incinerate before committing",
-            "text": "The catalogue also records Incinerate for Peni Parker. Watch for its actual trigger while also tracking Auto-Block; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Keep the Sync-Shield useful",
+            "text": "The Sync-Shield's remaining capacity shapes her defensive Power Burn and Auto-Block options. An expended shield weakens both her defense and the reliability of a new SP2 setup."
           },
           {
-            "title": "Confirm Incinerate protection",
-            "text": "The structured records flag Incinerate protection for Peni Parker. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "SP2 is a considered cash-out",
+            "text": "Use SP2 after developing sufficient Spider-Sense for Incinerate and burst pressure. Against a target that cannot be Incinerated, consider whether the same meter would create more control elsewhere."
+          },
+          {
+            "title": "Prepare for shield and debuff counters",
+            "text": "Shield removal, Incinerate immunity, passive power interaction and enemy special choices can undermine the plan. Rely on active shield values, not Peni's reputation as a difficult defender."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -37642,19 +37828,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Falter in this encounter",
-            "text": "Professor X is catalogued with Falter. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Develop Channeling with safe inputs",
+            "text": "Heavy charges and SP1 can help establish Channeling. Watch the build state before trying to exploit its cancellation effects; a heavy against an active opponent can be punished before you get any Prowess."
           },
           {
-            "title": "Track Prowess before committing",
-            "text": "The catalogue also records Prowess for Professor X. Watch for its actual trigger while also tracking Falter; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Convert Channeling into Prowess",
+            "text": "Cancel Channeling through an eligible action to produce Prowess, and keep track of the refresh route on backdash. A large stack is valuable only if you can preserve it into the next special window."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Professor X, look for opponent immunities, resistances and node effects that interrupt Falter. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Chain specials under Mind Control",
+            "text": "At maximum Channeling, the special that starts Mind Control changes subsequent power economics. Plan the follow-up before the first special; blindly spending meter may lose the discounted special chain."
+          },
+          {
+            "title": "Keep an answer for anti-Falter",
+            "text": "Some defenders or nodes prevent Falter/Miss from working as expected. If you cannot safely build Channeling or the defender ignores your avoidance, play a simpler punish game rather than relying on the ideal setup."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -38639,19 +38831,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Aftershock in this encounter",
-            "text": "Quake is catalogued with Aftershock. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Start the Aftershock cycle",
+            "text": "Build Earthquake by charging a heavy at controlled distance. Keep an eye on how much space remains: getting trapped at the wall makes the next Evade-and-reposition attempt far less forgiving."
           },
           {
-            "title": "Track Concussion before committing",
-            "text": "The catalogue also records Concussion for Quake. Watch for its actual trigger while also tracking Aftershock; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Evade is not unconditional",
+            "text": "Her basic-attack avoidance depends on the active Concussion/Earthquake sequence. Practice the opponent's first medium and light timing before attempting repeated heavy holds under pressure."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Quake, look for opponent immunities, resistances and node effects that interrupt Aftershock. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Let Aftershock resolve",
+            "text": "After a successful avoidance window, reset spacing and allow Aftershock's control and damage to land before re-establishing the next heavy charge. Do not turn a miss-timed sequence into an unplanned block trade."
+          },
+          {
+            "title": "Avoid anti-Evade and special traps",
+            "text": "True Strike, anti-Evade effects, Unblockable contact, special-attack chip damage, and some nodes can defeat the usual safety loop. Quake's basic-attack plan is not permission to ignore the opponent's specials."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -39004,19 +39202,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fragility in this encounter",
-            "text": "Red Guardian is catalogued with Fragility. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Protect shield Durability",
+            "text": "Use well-timed blocks and deliberate movement rather than spending shield resources on every attack. The value of the next SP2 depends on what remains of the shield when the special starts."
           },
           {
-            "title": "Track Perfect Block before committing",
-            "text": "The catalogue also records Perfect Block for Red Guardian. Watch for its actual trigger while also tracking Fragility; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Apply Slow before Unstoppable",
+            "text": "SP1 can establish Slow for matchups where stopping Unstoppable matters. Confirm that the target's Unstoppable is actually affected and that the Slow will remain active through your punish."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Red Guardian, look for opponent immunities, resistances and node effects that interrupt Fragility. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Cash out and recover",
+            "text": "SP2 uses an intact shield for damage and can fracture it. Plan the next stage after the burst: a broken shield needs restoration rather than repeating an immediately weaker SP2."
+          },
+          {
+            "title": "Keep Trauma and Fragility alive",
+            "text": "Safe heavies can refresh useful debuffs, while SP3 can restore the shield. Choose between maintaining pressure and spending time rebuilding based on the defender's actual openings, not a rigid fixed loop."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -39264,19 +39468,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Red Skull is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Let Armor determine the trade",
+            "text": "Red Skull's Armor Up resource interacts with power and attack choices. Watch the current Armor stacks because spending them on specials changes both offense and how well the next defensive exchange goes."
           },
           {
-            "title": "Track Heal Block before committing",
-            "text": "The catalogue also records Heal Block for Red Skull. Watch for its actual trigger while also tracking Armor Up; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Apply Heal Block when needed",
+            "text": "A heavy can provide Heal Block under the kit's conditions. Use it where the opponent actually heals, and do not attempt the heavy into an active defender just to apply an unnecessary debuff."
           },
           {
-            "title": "Confirm Ability Accuracy Reduction protection",
-            "text": "The structured records flag Ability Accuracy Reduction protection for Red Skull. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use SP2 to build Shock pressure",
+            "text": "When Armor is available, SP2 can establish a longer Shock window. Follow with SP1 to preserve or convert that pressure rather than spending a second special after all Shock effects have expired."
+          },
+          {
+            "title": "Check Shock and Armor counterplay",
+            "text": "Shock immunity, Armor Break, Armor Shatter and defensive nodes can interrupt the whole cycle. If Armor cannot persist, shift to controlled, smaller special punishes."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -39555,19 +39765,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Neutralize in this encounter",
-            "text": "Rintrah is catalogued with Neutralize. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Grow Mystical Charges first",
+            "text": "Successful hits and some failed opponent buff attempts help build charges, with SP1 supporting the ramp. Count the active charges before treating every light attack as a meaningful Rupture source."
           },
           {
-            "title": "Track Root before committing",
-            "text": "The catalogue also records Root for Rintrah. Watch for its actual trigger while also tracking Neutralize; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Keep the Rupture phase stable",
+            "text": "With sufficient resource, use suitable light attacks and Root windows to add Ruptures. A Rooted opponent is still dangerous when an Unblockable or special attack becomes available."
           },
           {
-            "title": "Confirm Stun protection",
-            "text": "The structured records flag Stun protection for Rintrah. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Pause with heavy and use SP2",
+            "text": "A safe heavy can help hold existing Ruptures before SP2 cashes out the setup. Work from a known recovery window: forcing a heavy under Root pressure can lose the entire burst."
+          },
+          {
+            "title": "Check Neutralize and spacing",
+            "text": "Buff-immune opponents may deny some charge interactions, while Rupture immunity removes damage. Tight corners and nodes that punish stationary Root change how aggressively Rintrah should play."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -42008,19 +42224,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Exhaustion in this encounter",
-            "text": "She-Hulk is catalogued with Exhaustion. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Start with a practical Slow",
+            "text": "A heavy can apply Slow and address some Unstoppable opponents. Look for a safe recovery or parry opening and verify that the target's specific Unstoppable interaction is susceptible to Slow."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for She-Hulk. Watch for its actual trigger while also tracking Exhaustion; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build Fury by baiting specials",
+            "text": "SP1 creates a Fury/Exhaustion setup, but the stronger long-fight route depends on regularly drawing opponent specials. Keep the defender at a manageable power level instead of pinning them in a corner."
           },
           {
-            "title": "Confirm Poison protection",
-            "text": "The structured records flag Poison protection for She-Hulk. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use SP2 when Petrify matters",
+            "text": "Choose SP2 for situations where weakening healing or power-gain behavior is worth more than another simple Fury cycle. Watch the actual debuff and node rules before assuming healing is shut off."
+          },
+          {
+            "title": "Identify fights that won't cooperate",
+            "text": "Passively defensive opponents, special-attack suppression, Slow immunity and high-stakes heavy punishes can disrupt her rhythm. If specials are not being thrown, preserve health rather than forcing Fury upkeep."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -42287,19 +42509,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Auto-Block in this encounter",
-            "text": "Before relying on Shocker's Auto-Block, identify its start condition, duration and any opposing immunity or accuracy modifier in the current fight. Use the actual state indicator for the next punish; a listed defensive tool is not a guarantee against all opponents."
+            "title": "Build Vibro-Shock methodically",
+            "text": "Normal attacks and SP1 help build charges. Track the current stack rather than using every heavy as soon as it becomes available; a low-charge release sacrifices the payoff."
           },
           {
-            "title": "Track Energize before committing",
-            "text": "The catalogue also records Energize for Shocker. Watch for its actual trigger while also tracking Auto-Block; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Start SP2 with correct spacing",
+            "text": "SP2 can apply a passive Stun and Physical Vulnerability opening. Check whether the defender's Stun controls apply and whether you will be near enough to charge the heavy during recovery."
           },
           {
-            "title": "Confirm Shock protection",
-            "text": "The structured records flag Shock protection for Shocker. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Release the heavy before control ends",
+            "text": "The charged heavy cashes out Vibro-Shock resources. Watch the remaining passive-Stun window; a maximal charge is worthless if the defender recovers and intercepts before release."
+          },
+          {
+            "title": "Mind charge spending and safety",
+            "text": "Auto-Block and other defensive actions can consume charges needed for offense. Against special Stun-immune conditions, use ordinary punish windows instead of assuming the standard SP2-heavy sequence works."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -43711,19 +43939,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Evade in this encounter",
-            "text": "Before relying on Spider-Ham's Evade, identify its start condition, duration and any opposing immunity or accuracy modifier in the current fight. Use the actual state indicator for the next punish; a listed defensive tool is not a guarantee against all opponents."
+            "title": "Apply Poppers deliberately",
+            "text": "Use medium attacks to establish Porker Poppers, and count how much opponent power you are creating. Too much damage during an opponent's low-power lull can leave several Poppers without a trigger."
           },
           {
-            "title": "Track Power Sting before committing",
-            "text": "The catalogue also records Power Sting for Spider-Ham. Watch for its actual trigger while also tracking Evade; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Force a usable special window",
+            "text": "SP1 pauses Poppers and applies Taunt, which can help encourage a special. Bait the special with space to dodge rather than attacking recklessly to make the opponent spend power."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Spider-Ham, look for opponent immunities, resistances and node effects that interrupt Evade. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Choose SP2 for a longer setup",
+            "text": "SP2 can add Poppers and reinforce Spider-Nonsense. It is more useful when there is enough fight left for the opponent to launch specials than when the next hit will end the battle."
+          },
+          {
+            "title": "Know the damage condition",
+            "text": "Special-attack avoidance and Power Sting rules matter more than the presence of a generic damage-over-time tag. Power Sting immunity or nodes that discourage special usage can significantly weaken this strategy."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -46130,19 +46364,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Concussion in this encounter",
-            "text": "Stryfe is catalogued with Concussion. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Create the invisible heavy",
+            "text": "After baiting the defender's special, SP1 can establish Invisibility. Use that protection to find a heavy opening that builds Telepathic Charges, but do not assume special attacks will Miss automatically."
           },
           {
-            "title": "Track Glancing before committing",
-            "text": "The catalogue also records Glancing for Stryfe. Watch for its actual trigger while also tracking Concussion; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose charge preservation or control",
+            "text": "A fourth-light ending can consume a charge to apply Concussion. When banking long-term resources is more valuable, avoid spending charges on unnecessary short-fight control."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Stryfe, look for opponent immunities, resistances and node effects that interrupt Concussion. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "SP3 for quest progress",
+            "text": "SP3 can preserve accumulated Telepathic Charges for later fights. In long quest paths this may matter more than a quick SP2 burst; in a short encounter, the immediate damage route can be preferable."
+          },
+          {
+            "title": "Recognize cloak counters",
+            "text": "Anti-Miss effects, Invisibility disruption, unavoidable special timing and aggressive nodes can defeat his easiest heavy access. Test the defender's exact interaction before building the whole route around hidden heavies."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -46240,19 +46480,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Sunspot's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Balance Incinerate against fuel",
+            "text": "Sunspot needs Solar Charges to maintain Flare State. Use Incinerates and safe heavies to reclaim resources; a reckless attack cycle can leave insufficient charge for the next useful special."
           },
           {
-            "title": "Track Prowess before committing",
-            "text": "The catalogue also records Prowess for Sunspot. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose SP1 only when sustainable",
+            "text": "SP1 builds a stronger Flare setup, but each stage increases the resource demand. Before repeating it, look at remaining Solar Charges and whether the defender can still be Incinerated."
           },
           {
-            "title": "Confirm Incinerate protection",
-            "text": "The structured records flag Incinerate protection for Sunspot. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Cash out with SP2",
+            "text": "An SP2 after a developed setup can reward the investment. If charge supply is low, take the damage opportunity rather than extending Flare purely to reach an idealized stack count."
+          },
+          {
+            "title": "Reset carefully on long fights",
+            "text": "SP3 can recover Solar Charges, but it costs meter and timing. Incinerate immunity, aggressive special denial or nodes that punish heavy charging can force a shorter and less flashy plan."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -47615,19 +47861,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fate Seal in this encounter",
-            "text": "The Hood is catalogued with Fate Seal. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Budget bullets and Hexes",
+            "text": "Medium attacks can place Hexes while consuming bullets; Nullifying actual opponent buffs can help replenish ammunition. A buffless defender may require more deliberate resource conservation."
           },
           {
-            "title": "Track Invisibility before committing",
-            "text": "The catalogue also records Invisibility for The Hood. Watch for its actual trigger while also tracking Fate Seal; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use SP2 to control buff windows",
+            "text": "SP2 can supply Fate Seal and Invisibility. Observe what is truly Nullified versus simply prevented; passive buffs and ability-accuracy rules can respond differently to the setup."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for The Hood. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Detonate only when worthwhile",
+            "text": "A safe heavy can detonate accumulated Hexes for damage. If there are too few Hexes or the heavy opening is unsafe, keep applying pressure rather than rushing the conversion."
+          },
+          {
+            "title": "Invisibility is not total safety",
+            "text": "Anti-Miss effects, opposing specials and node restrictions can defeat an evasive plan. Track bullet count across a longer quest and don't confuse temporary avoidance with a permanent immunity."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -48685,19 +48937,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Miss in this encounter",
-            "text": "Before relying on Tigra's Miss, identify its start condition, duration and any opposing immunity or accuracy modifier in the current fight. Use the actual state indicator for the next punish; a listed defensive tool is not a guarantee against all opponents."
+            "title": "Establish the two Senses",
+            "text": "SP1 can help establish Tigra's Sense effects, and landing hits with Neutralize conditions supports uptime. Verify which Sense is actually active before attempting a difficult special punish."
           },
           {
-            "title": "Track Neutralize before committing",
-            "text": "The catalogue also records Neutralize for Tigra. Watch for its actual trigger while also tracking Miss; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Only heavy-counter known non-contact hits",
+            "text": "Charging a heavy can make certain non-contact special hits Miss, creating Rupture opportunities. This needs practice on the defender's exact special animation; contact hits are not handled the same way."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Tigra, look for opponent immunities, resistances and node effects that interrupt Miss. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Make SP2 follow established pressure",
+            "text": "SP2 rewards a developed Rupture and Sense setup. If the opponent cannot accept Rupture or you missed your earlier special punish, rebuild rather than assuming SP2 is an automatic large burst."
+          },
+          {
+            "title": "Know the matchup before committing",
+            "text": "Anti-Miss, Neutralize resistance, Unblockable special contact and spacing limitations can collapse the familiar heavy-counter plan. Choose safer bait-and-punish cycles until the special hit types are proven."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -49089,19 +49347,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Ultron's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Plan around Function timing",
+            "text": "Ultron's Evade Function does not offer continuous protection. Watch its current cooldown and reserve your defensive movement for attacks that actually need an answer."
           },
           {
-            "title": "Track Evade before committing",
-            "text": "The catalogue also records Evade for Ultron. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose control or damage",
+            "text": "SP1 offers a Stun opportunity against susceptible defenders. If Stun is restricted, SP2's Cauterize and damage effect support may offer a more reliable return for the meter."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Ultron. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Protect Self-Repair",
+            "text": "Self-Repair is a recovery resource, not a reason to take avoidable hits. The opponent can exploit certain control windows; know what disables or interrupts the recovery before trading health for damage."
+          },
+          {
+            "title": "Read Robot-specific liabilities",
+            "text": "Robots can face special matchups or nodes targeting their tag. Confirm Bleed interactions, Power Drain and Armor Break conditions instead of assuming Ultron's regeneration automatically makes him a safe answer."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -49510,19 +49774,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bulwark in this encounter",
-            "text": "Valkyrie is catalogued with Bulwark. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Manipulate combo direction",
+            "text": "Light-ending and medium-ending combos move Valkyrie's count in different directions. Plan deliberate crossings of the relevant thresholds rather than building one long standard combo."
           },
           {
-            "title": "Track Intimidate before committing",
-            "text": "The catalogue also records Intimidate for Valkyrie. Watch for its actual trigger while also tracking Bulwark; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Develop Pierce and Bulwark",
+            "text": "Use those count transitions to build Pierce and Bulwark before taking a heavy opening. The payoff is much smaller if you assume the buffs exist without checking the current indicators."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Valkyrie, look for opponent immunities, resistances and node effects that interrupt Bulwark. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Attack block after a controlled SP2",
+            "text": "A heavy can convert the built buffs into more useful passives and Intimidate; SP2 can then strengthen blocked-hit damage. The defender must still be in a safe position for your next blocked attack."
+          },
+          {
+            "title": "Check protection and contact rules",
+            "text": "Block penetration and Pierce utility are not blanket anti-Auto-Block or anti-Evade. Nodes that punish hits into Block can turn her normal advantage into a liability, so inspect the fight first."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -49622,19 +49892,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Venom is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Shape Genetic Memory through heavies",
+            "text": "Venom gains Genetic Memory buffs over time; a safe heavy can reroll the newest one. Use the heavy when a different buff would help, not merely as a habitual attack that exposes you to a punish."
           },
           {
-            "title": "Track Bleed before committing",
-            "text": "The catalogue also records Bleed for Venom. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose SP1 for opponent buffs",
+            "text": "SP1 can interact with removable opponent buffs and provide sustain. Check that the defender actually has appropriate buffs, since buff theft doesn't work the same way against passive effects."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Venom, look for opponent immunities, resistances and node effects that interrupt Armor Break. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "SP2 trades setup for a burst",
+            "text": "SP2 can convert accumulated Genetic Memory into a temporary Fury-focused finish. Consider whether the enemy will die during the window, because rebuilding afterward can cost more time than maintaining current buffs."
+          },
+          {
+            "title": "Check Spider-Verse and Klyntar rules",
+            "text": "Control of some Evade effects depends on Klyntar conditions. Incinerate and opposing buff removal may interfere with the benefit; don't treat Venom as a universal anti-Evade answer."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -50562,19 +50838,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Heal Block in this encounter",
-            "text": "Viv Vision is catalogued with Heal Block. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Choose the finish for utility",
+            "text": "Different combo endings support Suppression or Heal Block. Watch the current defensive Phase option as well, rather than repeating one combo ending and assuming every utility effect will be present."
           },
           {
-            "title": "Track Incinerate before committing",
-            "text": "The catalogue also records Incinerate for Viv Vision. Watch for its actual trigger while also tracking Heal Block; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Translate Armor into Solar Energy",
+            "text": "SP2 and its timing-sensitive block interactions can convert Armor Up into Solar Energy. Practice the timing in a low-risk fight first; losing Armor without the expected conversion leaves a weak SP1 follow-up."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Viv Vision. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use SP1 at the right power state",
+            "text": "SP1 spends Solar Energy for a stronger payoff and can influence the opponent's power. A prepared SP1 when the defender is already manageable is safer than attempting the full sequence into three bars."
+          },
+          {
+            "title": "Track stun, armor and phase counters",
+            "text": "Armor removal, anti-Phase and node-altered power gain can interrupt the kit. The reference to a defensive Phase mechanic does not mean Viv can ignore Unblockable or anti-Miss specials."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -50705,19 +50987,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Degeneration in this encounter",
-            "text": "The current research index lists Degeneration among Void's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Start the debuff clock",
+            "text": "Void's Intimidating Presence cycles through debuffs over time. Use SP1 when safe to accelerate the pressure, but do not assume a single special delivers the exact debuff needed on demand."
           },
           {
-            "title": "Track Fatigue before committing",
-            "text": "The catalogue also records Fatigue for Void. Watch for its actual trigger while also tracking Degeneration; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Watch which effect is active",
+            "text": "Petrify matters against healing or power-gain interactions; other presence effects pressure damage or offense. Keep track of the actual debuff icons before deciding whether to stall or spend power."
           },
           {
-            "title": "Confirm Incinerate protection",
-            "text": "The structured records flag Incinerate protection for Void. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Preserve the awakened payoff",
+            "text": "On an awakened Void, Fear of the Void changes how the pressure compounds. Stay alive and defend cleanly until that stage develops; repeated mistakes can lose the debuff progress that gives long fights their value."
+          },
+          {
+            "title": "Check purify and immunity",
+            "text": "Purify, debuff-immunity nodes, shortened debuff durations and opponents that disrupt the cycle can erase the intended pressure. Bring another approach when the relevant Presence debuffs cannot stick."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -51458,19 +51746,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Power Gain in this encounter",
-            "text": "Werewolf By Night has a recorded Power Gain interaction. Read the active quest node and confirm exactly when it changes the opponent's power or special access; do not infer universal power control from the ability name. Test the trigger in a safe opening."
+            "title": "Start with the Rupture hits",
+            "text": "His first-medium and fourth-light interactions can add Rupture; verify the defender accepts those effects before spending time on a larger Lycanthropy setup."
           },
           {
-            "title": "Track Regeneration before committing",
-            "text": "The catalogue also records Regeneration for Werewolf By Night. Watch for its actual trigger while also tracking Power Gain; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Howl at a safe distance",
+            "text": "Create spacing for Chilling Howl, then develop Lycanthropy Charges through the relevant states and power crossings. A howl started into an approaching defender can erase any benefit."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Werewolf By Night, look for opponent immunities, resistances and node effects that interrupt Power Gain. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Use SP2 during the Curse",
+            "text": "Once Curse of Lycanthropy is active, maintain useful offensive contact to support uptime and release SP2 for the payoff. If the opponent breaks the sequence, rebuild rather than counting on the prior Curse."
+          },
+          {
+            "title": "Plan for buff and immunity exceptions",
+            "text": "SP1 can interact with selected Regeneration and Precision buffs, but not every passive effect qualifies. Rupture immunity or aggressive anti-Unstoppable nodes make a short, conservative fight plan preferable."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -51698,19 +51992,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Wiccan's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Cast spells from distinct actions",
+            "text": "Different combo endings, heavy attacks and dash-back block interactions can supply different spells. Check which spells are present rather than repeating a familiar combo and expecting a full four-spell package."
           },
           {
-            "title": "Track Neutralize before committing",
-            "text": "The catalogue also records Neutralize for Wiccan. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Refresh while building",
+            "text": "A new spell or an eligible special can pause earlier spells, making the ramp more sustainable. Track expiry before adding more attacks; losing an early spell can weaken the next SP2."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Wiccan, look for opponent immunities, resistances and node effects that interrupt Incinerate. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Spend SP2 or build Plasma",
+            "text": "SP2 benefits from multiple spell effects. If you need the Shock-to-Plasma route, arrange the current Flame/Incinerate state and follow the kit's Special conditions rather than throwing specials in arbitrary order."
+          },
+          {
+            "title": "Respect buff and debuff matchups",
+            "text": "Neutralize, Incinerate and Shock each meet different counters. An opponent immune to one effect can disrupt the payoff even though the rest of the spells still activate."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
