@@ -7021,6 +7021,13 @@
       "checkedAt": "2026-11-06"
     },
     {
+      "id": "photon-pure-light-block-defender-forum-20261106",
+      "title": "Photon defender Pure Light: 10 charges and held Block interaction • player report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/358155/bug-with-photon-or-did-i-miss-something",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -9904,7 +9911,7 @@
         ]
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-04",
+        "checkedAt": "2026-11-06",
         "sourceIds": [
           "field-bullseye-kabam-balance",
           "expanded-core-bullseye"
@@ -9920,7 +9927,7 @@
           },
           {
             "title": "Plan for unavoidable-looking Bleed",
-            "text": "His blade attacks can produce Bleed even when a defender avoids the strike or uses Dexterity. A counter plan needs to address both the Evade and Bleed pressure; ordinary class advantage alone does not solve that defensive combination."
+            "text": "When choosing Bleed protection against Bullseye, distinguish Basic from Special Attack avoidance. Kabam's 2024 balance announcement specified that Instant Bleed should stop triggering when an opponent uses Dexterity to avoid his Basic Attacks, while retaining the trigger when Special Attacks are avoided. Do not apply an older blanket Dexterity warning to every attack: blocked hits, other Bleed sources and Killer Instinct Evade still require separate defenses. Recheck the current client rather than treating the historic update statement as this site's gameplay test."
           }
         ]
       },
@@ -36752,16 +36759,17 @@
         ]
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-06",
         "sourceIds": [
           "roster-photon",
           "deep-photon",
-          "b04-photon-spotlight"
+          "b04-photon-spotlight",
+          "photon-pure-light-block-defender-forum-20261106"
         ],
         "decisions": [
           {
             "title": "Differentiate attacker and defender charges",
-            "text": "Photon gains Electromagnetic Charges through kit interactions, but the AI-facing charge rules are not the same as the player's attacking setup. When countering her, watch the actual charge meter and Pure Light state rather than following the offensive rotation."
+            "text": "When defending Photon has enough Electromagnetic Charges, do not assume only a knockdown or a higher-charge Special Attack can activate Pure Light. An independently described fight showed her entering the form after holding Block while she had at least ten charges; the resulting special was merely close in time. Watch the charge counter and Block-hold indicator, avoid committing during that transition, and verify the current fight's exact timer and nodes."
           },
           {
             "title": "Enter Pure Light on purpose",
