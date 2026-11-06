@@ -1,5 +1,5 @@
-import {escapeHtml as e} from './domain.2146128b39083b56.mjs';
-import {mechanicLabel} from './fight-mechanics.2146128b39083b56.mjs';
+import {escapeHtml as e} from './domain.99b6bf9976739c93.mjs';
+import {mechanicLabel} from './fight-mechanics.99b6bf9976739c93.mjs';
 
 const labels=(db,ids=[])=>ids.map(id=>mechanicLabel(db,id));
 const chipRow=(label,items,className)=>items.length?`<div class="counter-mechanic-row ${className}"><strong>${e(label)}</strong><div class="counter-mechanic-chips">${items.map(item=>`<span>${e(item)}</span>`).join('')}</div></div>`:'';

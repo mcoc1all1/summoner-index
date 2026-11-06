@@ -6433,6 +6433,20 @@
       "checkedAt": "2026-11-01"
     },
     {
+      "id": "collector-526-player-unblockable-20261106",
+      "title": "Collector 5.2.6 below-55% Unblockable and power-failure reports • distinct player discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/229305/collector-help-please",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "collector-526-player-bane-20261106",
+      "title": "Collector 5.2.6 Bane and Special Attack warning • first-person community planning discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/228273/how-many-units-shoul-i-save-for-collector-fight-and-what-should-be-my-team",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
       "id": "counter-tough-defenders-20261101",
       "title": "Player discussion: counters for difficult defenders",
       "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p2",
@@ -58642,7 +58656,9 @@
       "chapter": "5.2.6",
       "summary": "Transfer Bane safely and take short damage openings as his health unlocks additional defenses. This is the Act 5 encounter, not the Abyss Collector.",
       "sourceIds": [
-        "boss-collector-story-guide"
+        "boss-collector-story-guide",
+        "collector-526-player-unblockable-20261106",
+        "collector-526-player-bane-20261106"
       ],
       "phases": [
         {
