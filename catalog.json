@@ -55873,8 +55873,8 @@
       "sourceIds": [
         "community-cerastes-speedrun"
       ],
-      "why": "A current progression report describes Chee'ilth taking Cerastes almost to a solo, making her a credible community-supported option.",
-      "strategy": "Follow the armor rotation exactly and use the boss-created Stun for damage rather than relying on ordinary Parry-Stun openings.",
+      "why": "A historical player account described a near-solo attempt against Act 8.3.6 Cerastes using Chee'ilth. It supports a possible approach, not a completed solo or evidence of success in the 2026 game build.",
+      "strategy": "Use the current encounter's armor and Striker instructions as the primary fight plan, and capitalize on the openings actually provided by the boss. This historical near-solo report is not evidence of a repeatable, present-version clear.",
       "risks": "The final 5% sequence is execution-driven; damage output does not skip the 1% Light-Attack-into-Block finish.",
       "awakening": null,
       "signature": null,
@@ -55891,8 +55891,7 @@
       },
       "review": {
         "status": "community-sourced",
-        "reviewedAt": "2026-11-01",
-        "gameVersion": "59.0"
+        "reviewedAt": "2026-11-01"
       }
     },
     {
@@ -56061,8 +56060,8 @@
         "boss-carina-act94-counter-reports-202604"
       ],
       "score": 2,
-      "why": "Viv Vision is named alongside Ironheart as a successful Tech option for the Science/Tech-vulnerability Carina.",
-      "strategy": "Play the Corrupted ISO Blast mechanic cleanly and use the Tech-class vulnerability benefit for sustain rather than trying to bypass the projectile loop.",
+      "why": "A player suggested Viv Vision or Ironheart for Carina's Science/Tech-vulnerability version, but that comment does not document a Viv Vision clear. This remains a proposed matchup rather than a demonstrated success.",
+      "strategy": "If trying Viv Vision, first check that this is the Science/Tech-vulnerability fight and practice returning the Corrupted ISO Blast. Plan around the available controls and Phase 2 restrictions; the cited player recommendation does not establish a completed Viv fight.",
       "risks": "The source is a player recommendation; this build does not establish a required rotation, awakening level or guaranteed solo.",
       "scoreReason": "Direct community recommendation; no independent Fieldguide gameplay test.",
       "conditions": [
@@ -56866,8 +56865,8 @@
         "counter-tough-defenders-20261101"
       ],
       "score": 2,
-      "why": "Gladiator is a community-listed Arcade option whose Confidence ramp rewards clean punish windows and fast pressure.",
-      "strategy": "Build Confidence through safe openings, use Vigilance when Arcade's defensive state makes it relevant, and reserve your burst for a window that will not be interrupted by the active trap.",
+      "why": "Gladiator appears in one community contributor's broad Arcade counter shortlist, without a linked completed-fight account. His Confidence and Vigilance utility suggests a hypothesis to test, not a proven or independently corroborated matchup.",
+      "strategy": "Before testing Gladiator, inspect Arcade's active mode and node effects. Build Confidence through controlled punishes and only use Vigilance where it changes the active defensive interaction. No completed Arcade fight is demonstrated by the cited list, so do not infer that the matchup has a demonstrated outcome.",
       "risks": "This is a player-reported option rather than a tested hard counter. Arcade's active utility can still break the normal rotation.",
       "conditions": [
         "Check Arcade's current trap before starting the burst.",
