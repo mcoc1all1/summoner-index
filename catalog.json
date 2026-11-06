@@ -8202,6 +8202,13 @@
       "url": "https://www.mcoc-guide.com/special-solo-objectives-october-targets/",
       "kind": "community-reference",
       "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b8-sentinel-sauron",
+      "title": "Kabam 2026 Alliance Quest Raids update lists Sauron Heal Block boon and Sentinel Assault availability",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/409842/alliance-quest-raids-update",
+      "kind": "official",
+      "checkedAt": "2026-11-06"
     }
   ],
   "abilities": [
@@ -54712,7 +54719,8 @@
       "attackerId": "sentinel",
       "defenderId": "sauron",
       "sourceIds": [
-        "counter-research-sentinel-20261031"
+        "counter-research-sentinel-20261031",
+        "counter-corroboration-b8-sentinel-sauron"
       ],
       "abilityIds": [
         "heal-block"
@@ -54891,8 +54899,8 @@
       "abilityIds": [
         "degeneration"
       ],
-      "why": "Kabam reports successful Vox use against Thing.",
-      "strategy": "Manage Rock Stacks and bait specials before committing to a Degeneration damage window.",
+      "why": "Kabam reported Vox as effective against difficult Thing encounters using Degeneration pressure, but this is not a universal Raid setup. A separate player reports that Thing's Nullify immunity prevents the Vicious Placebo Tactician boost from activating against him in normal Raids, even with Vox.",
+      "strategy": "For Thing, manage Rock Stacks and Unstoppable while building Vox's damage-over-time rotation. In normal Raids, do not rely on the Vicious Placebo Tactician boost to Nullify Thing's Placebo buffs: his Nullify immunity can prevent that boost from working. Verify the specific boss and node package before investing resources.",
       "risks": "The balance report supports the matchup, not automatic suppression of Rock Stacks or Unstoppable.",
       "conditions": [
         "Maintain the normal Thing stack-management plan."
@@ -58174,8 +58182,8 @@
         "counter-tough-defenders-20261101"
       ],
       "score": 3,
-      "why": "Wasp is recommended because Shock, Petrify, passive Stun access and burst all help against Sasquatch regeneration.",
-      "strategy": "Prioritize Petrify during regeneration windows and burst when recovery is controlled.",
+      "why": "Wasp is a conditional community-suggested Sasquatch option, not a validated hard counter. Her Special 2 Power Sting can turn into Petrify after it completes its duration, giving a limited regeneration-control window; her passive Stun access is not reliable during Sasquatch's Stun-immune Wrath phase.",
+      "strategy": "Use Special 2 to establish Power Sting and allow its duration to finish before planning around the resulting Petrify. Watch Sasquatch's Wrath and regeneration windows, avoid assuming passive Stuns work during Wrath, and treat the matchup as unverified unless you have a recorded successful fight under comparable nodes.",
       "risks": "Missing the Petrify window can let Sasquatch heal back progress.",
       "conditions": [
         "Prioritize Petrify uptime.",
