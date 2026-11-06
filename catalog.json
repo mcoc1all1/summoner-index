@@ -7658,6 +7658,27 @@
       "checkedAt": "2026-11-02"
     },
     {
+      "id": "research-publisher-storm-pyramid-x-2026",
+      "title": "Kabam: 2026 Storm (Pyramid X) Ascension changes, special-damage scaling and Tempest conditions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/411574/ascension-launch-pool-mutant-and-tech",
+      "kind": "official",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "research-publisher-omega-red-base-2019",
+      "title": "Kabam gameplay clarification: Omega Red Death Spores and Death Field do not scale with attack modifiers",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/101136/omega-reds-death-spores-are-not-scaling-at-all-with-attack-boosts-nodes",
+      "kind": "official",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "research-publisher-sentinel-v48-2025",
+      "title": "Kabam v48.0 release notes: revised Sentinel Analysis and damage effects",
+      "url": "https://playcontestofchampions.com/news/v48-0-release-notes/",
+      "kind": "official",
+      "checkedAt": "2026-11-06"
+    },
+    {
       "id": "counter-maestro-options-20261103",
       "title": "Community discussion: Maestro counters and Glancing",
       "url": "https://www.reddit.com/r/ContestOfChampions/comments/1b82fio/help_with_maestro/",
@@ -28994,16 +29015,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Critical Rating",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Killmonger's critical hits can inflict Bleeds and his SP3 converts prior Bleed applications into a large finishing sequence. Critical Rating is therefore a test for Bleed trigger frequency on eligible hits, not guaranteed extra bleed damage per tick. Compare Special Damage with the same True Strike windows, landed hit count and SP3 setup; keep Bleed-immune opponents separate.",
+        "defenseFocus": "Armor Rating",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Armor Rating tests survival in encounters where Killmonger's Vibranium Armor remains active and the defender receives physical hits. It does not produce Indestructible charges or protect his kit from Armor Break. Compare Physical Resistance against the same attack type and record Reverberation windows separately from raw damage reduction.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-killmonger",
           "deep-killmonger",
@@ -29049,10 +29070,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-killmonger",
+          "deep-killmonger",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Critical Rating",
+        "statcastReason": "More eligible critical hits may create more Bleed applications for Killmonger's one-time SP3 cash-out; the stat should be assessed by Bleed count and timing, not assumed to raise potency of each individual Bleed tick.",
+        "battlecastReason": "A skill Battlecast's striker may facilitate recovery punish windows that grant True Strike, but only the selected rune's documented benefit should be measured; Indestructible charges remain a separate SP2 mechanic.",
+        "comparison": "Against a bleed-vulnerable opponent, use identical True Strike uptime and a fixed number of pre-SP3 hits. Measure Bleed triggers, direct hit damage and SP3 total, plus incoming damage taken at one matched relic rank.",
+        "limitations": "Do not recommend a specific skill Battlecast pairing from a copied chart, and do not apply a Bleed-focused result to Bleed-immune or Armor-Break-heavy defenders.",
+        "sourceIds": [
+          "roster-killmonger",
+          "deep-killmonger",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -29527,16 +29570,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Critical Rating",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Kabam identifies Kingpin's comparatively low base Critical Rating as an opportunity for a stat-boost experiment. Test Critical Rating on direct hits at the same Rage/Overpower setup against Special Damage; neither option is guaranteed to increase Degeneration ticks, Purify reliability or the number of Rage effects. Compare actual critical events and total fight time against the Special Damage alternative under the same Rage state.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance is a defensive survivability trial against physical attacks while Kingpin cycles Rage and Overpower; it does not force an opponent to place debuffs or give him blanket immunity. Compare Block Penetration where the attacking player actually blocks Kingpin's outgoing hits, and distinguish outgoing chip pressure from incoming mitigation.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-kingpin",
           "kit-kingpin",
@@ -29615,10 +29658,15 @@
         "gameplayTested": false
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-kingpin",
+          "kit-kingpin",
+          "focus-kabam-v51-balance-2025"
+        ]
       }
     },
     {
@@ -29792,16 +29840,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Korg spends Crowd Excitement on his pressure cycle and can use Special 2 Bleed stacks while Rock Shield remains a separate defensive resource. Compare Special Damage with Critical Damage Rating on equivalent direct special hits and the same Crowd Excitement; do not infer stronger Bleed ticks, an earlier Unblockable state, or more Rock Shield from these stats.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance is a candidate against incoming physical blows, but it should not be described as increasing Rock Hard Thorns reflection or refreshing Rock Shield charges. Compare Energy Resistance in a matched fight with energy-damage contact, because Korg's kit can be more exposed to that damage type.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-korg",
           "deep-korg",
@@ -29873,10 +29921,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-korg",
+          "deep-korg",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Physical Resistance",
+        "statcastReason": "Physical Resistance is a defensive survival experiment against ordinary physical hits, separate from Korg's Rock Shield Thorns reflection, whose damage scales with base attack. It cannot create or replenish Rock Shield charges.",
+        "battlecastReason": "A skill Battlecast could help Korg build Crowd Excitement or land an SP2 Bleed sequence if its rune allows it, but it cannot be assumed to improve his Rock Shield or activate defensively in PvP.",
+        "comparison": "Use one physical-contact attacker and one energy-contact attacker on identical nodes. Record shield recharge, incoming damage, Crowd Excitement, and SP2 Bleeds; compare a defensive Statcast against a rune-tested Battlecast on attack.",
+        "limitations": "The Battlecast does not provide PvP defense effects; energy hits bypass Korg's usual Thorns interaction, and a generic physical-mitigation win must not be advertised as an unconditional counter.",
+        "sourceIds": [
+          "roster-korg",
+          "deep-korg",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -31553,16 +31623,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Magneto (House of X) gains Prowess through combat and Heavy Attacks, then channels it into Specials, while pre-fight Guidance spends persistent charges for team utility. Special Damage is an attack trial at a fixed Prowess count; compare Critical Damage Rating for the same SP2 window and avoid treating either as extra Guidance charges or guaranteed Bleed/Degeneration ticks. Compare outgoing direct-hit Special damage with the alternative at matching Prowess stacks and Guidance state.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance can mitigate relevant basic hits while this support-oriented champion is defending; it does not boost Guidance, alter persistent-charge spending, or protect from every energy interaction. Compare Energy Resistance against an attacker whose key damage is actually energy, with the same PvP node package.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-magneto-house-of-x",
           "deep-magneto-house-of-x",
@@ -31622,10 +31692,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-magneto-house-of-x",
+          "deep-magneto-house-of-x",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "Prowess accumulated through Heavies and combat can enhance Magneto (House of X)'s Specials. A Special Damage Statcast is a targeted direct-hit experiment at equal Prowess count, not an increase to Guidance charges or automatic Bleed potency.",
+        "battlecastReason": "A mutant Battlecast striker may provide an extra safe heavy or maintain Prowess, but its actual rune must be known and any gain should be separated from the pre-fight Guidance team bonus.",
+        "comparison": "Use the same quest persistent-charge count, either with Guidance enabled in both runs or disabled in both. Compare SP2 direct hit and Bleed/Degeneration results with identical Prowess and striker use.",
+        "limitations": "The Guidance pre-fight is a shared team effect and should not be counted as a personal relic gain; no publisher-sanctioned Magneto pairing or owned Statcast secondary is identified.",
+        "sourceIds": [
+          "roster-magneto-house-of-x",
+          "deep-magneto-house-of-x",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -33201,16 +33293,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Critical Damage Rating",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Mole Man's Frenzy can make his hits guaranteed Critical Hits, so Critical Damage Rating is a more relevant experimental direct-hit lever than merely increasing crit chance during Frenzy. Compare Special Damage over the same Monster Mass and Frenzy window; neither setting extends Frenzy or makes the associated Bleed and Shock damage scale automatically.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance must be evaluated alongside Mole Man's Monster Mass protection and its expiry during Frenzy; another defensive stat does not confer permanent True Accuracy, Unstoppable or Debuff Purify. Compare Block Proficiency only for defender sequences that involve actual blocked hits and record where Frenzy suspends defensive utility.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-mole-man",
           "deep-mole-man",
@@ -33270,10 +33362,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-mole-man",
+          "deep-mole-man",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "statcast",
+        "statcastAttribute": "Critical Damage Rating",
+        "statcastReason": "During Frenzy, Mole Man can guarantee critical hits, making Critical Damage Rating worth testing on eligible direct contact attacks. It does not alter Monster Mass buildup, Bleed ticks or the Frenzy cooldown.",
+        "battlecastReason": "A skill Battlecast striker may extend the attack sequence, but the trigger and duration could change exactly when Monster Mass expires; verify the rune rather than crediting it with Frenzy access.",
+        "comparison": "Compare SP2 damage at fixed Monster Mass, identical Frenzy start/end, and no class-specific enemy protections. Match secondary attributes and relic rank, recording crit hit values, Bleed damage and full cycle time.",
+        "limitations": "A result against an opponent vulnerable to Crits does not establish reliability versus Crit-resistant or Bleed-immune champions. No exact relic variant or rune has been validated.",
+        "sourceIds": [
+          "roster-mole-man",
+          "deep-mole-man",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -35887,16 +36001,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Block Proficiency",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Omega Red's Death Spores and Death Field deal base-attack-scaling passive damage, and Kabam confirmed that ordinary attack boosts do not amplify those effects. Block Proficiency is a sustain trial for maintaining safe proximity without excessive chip while spores accumulate, not a damage multiplier. Compare Critical Rating only on eligible direct hits, separating heavy Degeneration and spore damage.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance is a mitigation hypothesis against eligible incoming physical hits while proximity pressure builds spores; it does not increase the Death Field, convert Bleed reduction into immunity, or help against unavoidable energy effects. Compare Block Proficiency on an attacker who blocks into Omega Red, with the same spore and node context.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-omega-red",
           "deep-omega-red",
@@ -35956,10 +36070,34 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-omega-red",
+          "deep-omega-red",
+          "focus-kabam-v51-balance-2025",
+          "research-publisher-omega-red-base-2019"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "statcast",
+        "statcastAttribute": "Block Proficiency",
+        "statcastReason": "Block Proficiency can help Omega Red preserve health while remaining in spore range; Kabam explicitly states Death Field and Death Spores do not scale from ordinary attack boosts, so avoid marketing a generic damage-stat relic as their multiplier.",
+        "battlecastReason": "A Battlecast striker could help safely maintain proximity or create a Heavy Degeneration opening, but its activation and damage must be verified separately from the existing passive Death Spores.",
+        "comparison": "For one non-Robot defender, match signature, distance, bleed state and time within Death Field. Compare block chip, number of maintained spores, heavy damage and fight duration using one equipped relic at a time.",
+        "limitations": "Do not infer synergy with an unnamed mutant Battlecast, and keep Death Field damage distinct from Heavy Degeneration that may scale differently. This is not measured gameplay evidence.",
+        "sourceIds": [
+          "roster-omega-red",
+          "deep-omega-red",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025",
+          "research-publisher-omega-red-base-2019"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -36018,16 +36156,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Omega Sentinel cycles pre-fight Nanite weapons, keeps non-damaging debuffs refreshed, and uses SP2 or SP3 to convert setup into damage. Compare Special Damage against Block Proficiency with identical weapon, armor consumption and debuff count. Do not assume a larger special hit changes the Incinerate/Plasma tick formula or improves Tracking and Heal Block uptime.",
+        "defenseFocus": "Armor Rating",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Armor Rating is relevant to Omega Sentinel's Armor Up and threshold-based Auto-Block defense, but an extra stat does not grant Armor Up buffs, change the required stacks, or bypass Armor Break. Compare Block Proficiency only where incoming attacks actually land on her block; track whether the attacker's kit ignores Auto-Block.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-omega-sentinel",
           "deep-omega-sentinel",
@@ -36073,10 +36211,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-omega-sentinel",
+          "deep-omega-sentinel",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Armor Rating",
+        "statcastReason": "Omega Sentinel's Armor Up stacks gate her Auto-Block; test Armor Rating as mitigation while holding actual Armor stacks equal. The relic does not generate a stack or grant Tracking, Heal Block or Plasma.",
+        "battlecastReason": "A verified tech Battlecast striker could extend a combo to reapply Nano-Shifting debuffs, but changing the combo changes Incinerate/Plasma stacks; isolate rune benefits and the selected pre-fight weapon.",
+        "comparison": "Use an identical opponent and pre-fight weapon, compare at equal Armor Up and non-damaging-debuff count, then record block damage, SP2 direct hit, Incinerate/Plasma ticks and total fight time.",
+        "limitations": "Do not identify a Statcast variant from statue art or endorse a tech Battlecast without publisher support. Auto-Block thresholds and mutant-specific Plasma must be separately reviewed.",
+        "sourceIds": [
+          "roster-omega-sentinel",
+          "deep-omega-sentinel",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -40681,16 +40841,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Block Proficiency",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Sentinel gains Analysis from opponent actions and becomes stronger as Analysis develops; a Block Proficiency trial addresses the cost of deliberately holding block during that ramp. Compare Special Damage after matching Analysis, Armor state and chosen special; this focus cannot directly strengthen Shock or Incinerate ticks or speed Analysis gains.",
+        "defenseFocus": "Armor Rating",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Armor Rating tests added survival on top of Sentinel's Analysis-linked Armor in fights where the attacker can land physical hits. It does not grant Analysis or increase the chance to apply Heal Block. Compare Block Proficiency under a matched attacking sequence that actually includes blocked hits, including the opponent's armor-penetration tools.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version; current 7-star availability is not established here. Check relic binding, owned variant and mode rules in game. Editorial review uses the linked kit baseline; it is not a fresh gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-sentinel",
           "deep-sentinel",
@@ -40774,10 +40934,34 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-sentinel",
+          "deep-sentinel",
+          "focus-kabam-v51-balance-2025",
+          "research-publisher-sentinel-v48-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Block Proficiency",
+        "statcastReason": "A Block Proficiency Statcast can test whether the health cost of maintaining Analysis while guarding repeated opponent actions is reduced; it does not itself create Analysis or boost Heal Block and damaging debuffs.",
+        "battlecastReason": "An equipped tech Battlecast may improve control through a striker or verified rune, but the striker must not be credited with Analysis it did not actually generate. Confirm the rune trigger and whether the opponent behaves similarly.",
+        "comparison": "Compare equal Analysis charge checkpoints, opponent special pattern, chip damage taken and SP1/SP2 rotation timing in the same fight. Match relic rank and rune activation and note any block damage avoided.",
+        "limitations": "The v48 Sentinel update is relevant; older analysis timing may be stale. A general tech relic shortlist is not evidence of a specifically endorsed Sentinel pairing.",
+        "sourceIds": [
+          "roster-sentinel",
+          "deep-sentinel",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025",
+          "research-publisher-sentinel-v48-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -41870,16 +42054,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Silk builds rapidly refreshed Physical Vulnerability and short Fury windows before cashing out with a burst on Special 1 or Special 2. Test Special Damage on connected special hits and separately log the physical burst; do not assume every burst channel scales with this stat. Compare Critical Rating at the same Vulnerability count and Fury duration.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance is a survival hypothesis for incoming physical hits while Silk's automatic Special Evade is on cooldown; it does not shorten that cooldown or stop energy attacks. Compare Block Proficiency only in an equivalent sequence where the defending Silk actually blocks, and track whether the opponent instead baits Evade.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; current rarity availability is not established here. Check relic class binding, mode restrictions and the exact owned effects in game before spending materials.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-silk",
           "deep-silk",
@@ -41925,10 +42109,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-silk",
+          "deep-silk",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "A Special Damage Statcast is worth testing around Silk's SP1/SP2 payout after Physical Vulnerability and Fury stacks. Record direct hit and burst damage separately; the latter is not automatically established as scaling with the stat.",
+        "battlecastReason": "A science Battlecast offers a striker extension and potentially useful runes, but a longer combo can also consume Silk's short buff windows or force a knockdown that clears her setup; verify its actual rune conditions first.",
+        "comparison": "Run the same defender and node with a fixed Physical Vulnerability count and SP2 timing. Match relic class, rarity/rank, secondary stat and rune conditions; compare HP spent, elapsed time and damage channels.",
+        "limitations": "Do not claim a named Statcast secondary or a publisher-approved Silk Battlecast pairing. Silk's special Evade cooldown and match-specific burst formulas need in-client review.",
+        "sourceIds": [
+          "roster-silk",
+          "deep-silk",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -45052,16 +45258,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Storm builds Prowess when eligible critical hits or immunities trigger, then spends a special window whose direct damage benefits from Prowess. Compare Special Damage with Critical Damage Rating at the same Prowess count and recorded critical hits. Neither pick generates Prowess by itself nor proves increased SP1 Shock damage over time.",
+        "defenseFocus": "Physical Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Physical Resistance offers a trial against ordinary physical counterattacks while Storm's Prowess and Special timing are contested; it is not equivalent to Shock immunity or a safeguard against energy specials. Compare Block Proficiency only under identical opponent actions that result in blocked hits.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-storm",
           "deep-storm",
@@ -45121,10 +45327,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-storm",
+          "deep-storm",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "statcast",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "Storm's Prowess directly rewards well-timed Special attacks; compare Special Damage when she has an identical number of Prowess buffs and log connected hit values independently from Shock damage.",
+        "battlecastReason": "A compatible mutant Battlecast striker might maintain a Prowess-and-heavy rotation, but a striker's rune effect and timing need a separate test because extra hits can change critical events and buff duration.",
+        "comparison": "Use matched Prowess count, opponent, source of critical hits and SP1/SP2 entry timing. Record direct damage, Shock ticks, blocked damage and elapsed time at the same relic rank.",
+        "limitations": "Shock damage scaling must not be inferred from Special Damage or Critical Rating absent an explicit kit interaction; the exact Statcast secondary is not verified in game.",
+        "sourceIds": [
+          "roster-storm",
+          "deep-storm",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -45179,16 +45407,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Storm (Pyramid X) builds Prowess, charges her Heavy into a special, and can use Ice SP1 Coldsnap or Lightning SP2 Shock. Kabam's 2026 update explicitly states these effects scale with Special Damage, making it a source-backed test candidate. Compare Critical Rating at the same Tempest choice, Prowess, Heavy charge and node; do not assume increased crit chance works on passive Coldsnap ticks.",
+        "defenseFocus": "Energy Resistance",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Energy Resistance is an incoming-damage survival trial, not a substitute for the active Ice/Lightning Tempest choices. Her Tempests can be disrupted by power-control effects and their protections are conditional. Compare Physical Resistance with the same selected default Tempest, attacker and node rather than treating energy mitigation as universal immunity.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-storm-pyramid-x",
           "deep-storm-pyramid-x",
@@ -45248,10 +45476,34 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-storm-pyramid-x",
+          "deep-storm-pyramid-x",
+          "focus-kabam-v51-balance-2025",
+          "research-publisher-storm-pyramid-x-2026"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "statcast",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "Kabam's 2026 Storm (Pyramid X) update specifically says her SP1 Coldsnap and SP2 Shocks scale with Special Damage, giving this Statcast attribute a stronger kit-mechanic basis than generic crit-rate advice.",
+        "battlecastReason": "A mutant Battlecast may provide striker continuity, but an extra combo can disturb her Heavy-charged Prowess and Tempest timing. Rune availability and the mode's defender restrictions must be checked on the owned relic.",
+        "comparison": "In separate Lightning and Ice Tempest trials, fix default Tempest, Prowess count and Heavy-charge length. Record direct special hits, SP1 Coldsnap/SP2 Shock ticks and fight time, then compare a rune-enabled Battlecast.",
+        "limitations": "Only 2026 revised-kit interactions support the stated scaling. Do not assume all Special Damage variants are available, that the statue names an exact secondary, or that this wins every match.",
+        "sourceIds": [
+          "roster-storm-pyramid-x",
+          "deep-storm-pyramid-x",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025",
+          "research-publisher-storm-pyramid-x-2026"
+        ],
+        "gameplayTested": false
       }
     },
     {
@@ -45414,16 +45666,16 @@
       "loadout": {
         "battlecastId": null,
         "statcastId": null,
-        "attackFocus": "Not reviewed",
+        "attackFocus": "Special Damage",
         "attackAlternative": "Not reviewed",
-        "attackReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
-        "defenseFocus": "Not reviewed",
+        "attackReason": "Sunspot spends Solar Charges to maintain Flare State, then builds Prowess for a Special 2 damage window. Special Damage should be compared with Critical Damage Rating at equal Flare stacks, Solar Charges and critical outcomes; neither option creates charges, avoids Shock ending Flare, or can be assumed to multiply all Incinerate ticks. Compare the complete SP2 damage and subsequent Incinerate damage in separate columns over identical fight length.",
+        "defenseFocus": "Block Proficiency",
         "defenseAlternative": "Not reviewed",
-        "defenseReason": "Champion-specific Stat Focus recommendation not yet approved for publication.",
+        "defenseReason": "Block Proficiency is relevant only on defender blocks and must not be confused with Sunspot's Perfect Block interaction against Incinerated opponents. Compare Physical Resistance when the attacking champion instead lands physical hits into openings; match the same nodes and record blocked versus unblocked damage.",
         "relicNotes": "External relic pairing suggestions are not published pending independent review.",
         "eligibility": "Stat focus applies only to an eligible 7-star version you own; this entry does not establish current 7-star availability. Check relic binding and mode eligibility in game. The date is an editorial review of the cited kit research, not a fresh check of every source or a gameplay test.",
         "status": "editorial-trial",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-11-06",
         "sourceIds": [
           "roster-sunspot",
           "deep-sunspot",
@@ -45483,10 +45735,32 @@
         ]
       },
       "statFocusReview": {
-        "status": "withheld",
-        "checkedAt": "2026-11-02",
-        "note": "Previous editorial Stat Focus draft withheld pending champion-specific review against external guidance and current kit interactions.",
-        "sourceIds": []
+        "status": "reviewed",
+        "checkedAt": "2026-11-06",
+        "confidence": "medium",
+        "note": "Independent kit-specific desk comparison: an experimental 7-star Stat Focus starting point, not a player-tested best-in-slot recommendation. Hold rank, node, opponent, signature, and relic constant; compare full-fight results.",
+        "sourceIds": [
+          "roster-sunspot",
+          "deep-sunspot",
+          "focus-kabam-v51-balance-2025"
+        ]
+      },
+      "relicResearch": {
+        "status": "editorial-trial",
+        "checkedAt": "2026-11-06",
+        "priority": "compare",
+        "statcastAttribute": "Special Damage",
+        "statcastReason": "Sunspot's Flare State and Prowess make a charged SP2 direct-hit comparison useful, provided the Solar Charge budget is held fixed. A larger connected special does not imply stronger Incinerate ticks.",
+        "battlecastReason": "A Battlecast striker may extend a Flare combo or create a safe reset, but using it can change the number of Solar Charges spent. Compare only after confirming the equipped rune can activate with the planned combo.",
+        "comparison": "Choose one non-Shock defender, identical mastery and Solar Charge starting state. Record SP2 direct hit, Incinerate damage, final Solar Charges and full fight time for both relic choices.",
+        "limitations": "Do not call any Battlecast the best choice without its actual rune and class binding; a Shock or high-Purify opponent invalidates a simple damage comparison.",
+        "sourceIds": [
+          "roster-sunspot",
+          "deep-sunspot",
+          "relic-kabam-statcasts-dev-2025",
+          "relic-kabam-defender-active-2025"
+        ],
+        "gameplayTested": false
       }
     },
     {
