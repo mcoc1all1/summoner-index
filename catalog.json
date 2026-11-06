@@ -7992,6 +7992,111 @@
       "url": "https://forums.playcontestofchampions.com/en/discussion/181648/what-are-some-good-heal-block-heal-reversal-champs",
       "kind": "community-report",
       "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-absorbing-man-knull",
+      "title": "Recorded Act 8.3.3 Knull boss gameplay with Absorbing Man",
+      "url": "https://www.youtube.com/watch?v=xRakbMlGnLo",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-aegon-nameless-grandmaster",
+      "title": "First-person Necropolis run describing Aegon against Nameless Grandmaster",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/356615/my-experience-at-necropolis",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-beta-ray-bill-ant-man-future",
+      "title": "Independent community Future Ant-Man matchup discussion specifically identifies Beta Ray Bill",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/393192/best-counter-for-arcade-future-ant-man",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-gamora-cerastes",
+      "title": "First-person Cerastes exploration record with two Gamora solos and accompanying video",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2536693",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-galan-mysterio",
+      "title": "Community Battlegrounds discussion explicitly includes Galan against Mysterio",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/350255/battleground-counters",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-human-torch-dragon-man",
+      "title": "Independent Act 7.2 Dragon Man boss guide recommends Human Torch and explains stun-shield mechanics",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/1798244",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-human-torch-superior-kang",
+      "title": "First-person Act 7.4.6 bug reports explicitly describe Human Torch reaching Kang phase transitions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/299973/superior-kang-broken-merged-threads/p2",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-jean-grey-vs-carina-mutant-mystic",
+      "title": "Independent Corrupted Carina Mystic/Mutant explanation recommends Jean Grey",
+      "url": "https://www.reddit.com/r/MarvelContestOfChamps/comments/1srxp3a/94_mysticmutant_boss_fight/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-kushala-maestro",
+      "title": "Official Kabam balance update states players adopted Kushala to counter Maestro",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/363592/balance-update-kushala-and-cheelth",
+      "kind": "official",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-negasonic-teenage-warhead-korg",
+      "title": "Independent player discussion describes Negasonic's non-contact attacks against Korg",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/371940/negasonic-any-good-or-not",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-sentinel-colossus",
+      "title": "First-person Variant Polar Opposites Colossus boss fight using Sentinel",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/225072/polar-opposites-variant-colossus",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-storm-glykhan",
+      "title": "Community post links recorded Storm gameplay against Act 8.4 Glykhan",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/365079/storm-is-the-best-option-for-fighting-glykhan",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-thanos-deathless-arcade",
+      "title": "Separate Battlegrounds discussion recommends Deathless Thanos versus Arcade",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/393192/best-counter-for-arcade-future-ant-man",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-thanos-deathless-spider-ham",
+      "title": "First-person Gauntlet test describes Deathless Thanos versus Spider-Ham",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2769153",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b4-tigra-sersi",
+      "title": "Independent Act 8.2.5 discussion recommends Tigra against Sersi",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/364659/sersi-8-2-5-boss",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
     }
   ],
   "abilities": [
@@ -53866,7 +53971,8 @@
       "attackerId": "beta-ray-bill",
       "defenderId": "ant-man-future",
       "sourceIds": [
-        "counter-research-bill-20261031"
+        "counter-research-bill-20261031",
+        "counter-corroboration-b4-beta-ray-bill-ant-man-future"
       ],
       "abilityIds": [
         "pulverize"
@@ -54145,7 +54251,8 @@
       "attackerId": "absorbing-man",
       "defenderId": "knull",
       "sourceIds": [
-        "counter-research-abs-20261031"
+        "counter-research-abs-20261031",
+        "counter-corroboration-b4-absorbing-man-knull"
       ],
       "abilityIds": [
         "form-switching"
@@ -54527,7 +54634,8 @@
       "attackerId": "sentinel",
       "defenderId": "colossus",
       "sourceIds": [
-        "counter-research-sentinel-20261031"
+        "counter-research-sentinel-20261031",
+        "counter-corroboration-b4-sentinel-colossus"
       ],
       "abilityIds": [
         "armor-break"
@@ -54561,7 +54669,8 @@
       "attackerId": "human-torch",
       "defenderId": "dragon-man",
       "sourceIds": [
-        "counter-research-dragon-man-20261031"
+        "counter-research-dragon-man-20261031",
+        "counter-corroboration-b4-human-torch-dragon-man"
       ],
       "abilityIds": [
         "nova-flame"
@@ -54595,7 +54704,8 @@
       "attackerId": "negasonic-teenage-warhead",
       "defenderId": "korg",
       "sourceIds": [
-        "counter-research-ntw-20261101"
+        "counter-research-ntw-20261101",
+        "counter-corroboration-b4-negasonic-teenage-warhead-korg"
       ],
       "abilityIds": [
         "incinerate"
@@ -54803,7 +54913,8 @@
       "attackerId": "tigra",
       "defenderId": "sersi",
       "sourceIds": [
-        "counter-research-sersi2-20261101"
+        "counter-research-sersi2-20261101",
+        "counter-corroboration-b4-tigra-sersi"
       ],
       "abilityIds": [
         "neutralize"
@@ -55009,7 +55120,8 @@
       "attackerId": "galan",
       "defenderId": "mysterio",
       "sourceIds": [
-        "counter-research-mysterio-20261101"
+        "counter-research-mysterio-20261101",
+        "counter-corroboration-b4-galan-mysterio"
       ],
       "abilityIds": [],
       "why": "Players report Galan as an option for handling Mysterio’s power manipulation.",
@@ -55294,7 +55406,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "community-superior-kang-torch"
+        "community-superior-kang-torch",
+        "counter-corroboration-b4-human-torch-superior-kang"
       ],
       "why": "Player reports describe Human Torch as a workable Superior Kang option with strong damage once the Slipstream mechanic is under control.",
       "strategy": "Use the normal boss mechanic first: gain Slipstream, trigger Wounded, then convert the window into Torch damage.",
@@ -55327,7 +55440,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "community-act8-crucible-boss-options"
+        "community-act8-crucible-boss-options",
+        "counter-corroboration-b4-gamora-cerastes"
       ],
       "why": "Community Act 8 reports specifically recommend Buff-heavy Cosmic attackers for Cerastes, and Gamora has been reported as a particularly strong fit.",
       "strategy": "Use the required Leg/Shield/Spirit Armor rotation first, then spend Gamora's burst during the all-armor-broken Stun.",
@@ -55393,7 +55507,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "community-act8-crucible-boss-options"
+        "community-act8-crucible-boss-options",
+        "counter-corroboration-b4-storm-glykhan"
       ],
       "why": "Community Act 8 counter lists call out Storm as a Glykhan option.",
       "strategy": "Create damage chains by fully avoiding a Heavy or Special Attack and punishing the recovery; use Storm's damage inside those valid chains.",
@@ -55493,7 +55608,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "boss-carina-act94-counter-reports-202604"
+        "boss-carina-act94-counter-reports-202604",
+        "counter-corroboration-b4-jean-grey-vs-carina-mutant-mystic"
       ],
       "score": 2,
       "why": "A current Act 9.4 discussion specifically reports Jean Grey as a successful option for the Mutant/Mystic-vulnerability Carina.",
@@ -55849,7 +55965,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "community-necropolis-grandmaster-first-clear"
+        "community-necropolis-grandmaster-first-clear",
+        "counter-corroboration-b4-aegon-nameless-grandmaster"
       ],
       "why": "Community first-clear reports commonly use a ramped Ægon as the primary damage dealer for the early Nameless Grandmaster phases.",
       "strategy": "Use Wounded windows for damage and keep the Striker for extending those windows when safe.",
@@ -56383,7 +56500,8 @@
         "corrosion"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "counter-corroboration-b4-thanos-deathless-arcade"
       ],
       "score": 2,
       "why": "Players list Deathless Thanos as an Arcade answer; Armor Shattered and sustained Corrosion give him ways to make progress without relying on one clean critical burst.",
@@ -56947,7 +57065,8 @@
         "corrosion"
       ],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "counter-corroboration-b4-thanos-deathless-spider-ham"
       ],
       "score": 2,
       "why": "Players list Deathless Thanos as a Spider-Ham answer; Counterpunch can create safer openings while Corrosion supplies steady damage.",
@@ -57359,7 +57478,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "counter-maestro-options-20261103"
+        "counter-maestro-options-20261103",
+        "counter-corroboration-b4-kushala-maestro"
       ],
       "score": 3,
       "why": "Players report Kushala as strong into Maestro because her Blessing setup and Special-focused damage work around Glancing pressure.",
