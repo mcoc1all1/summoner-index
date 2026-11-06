@@ -8258,6 +8258,13 @@
       "url": "https://forums.playcontestofchampions.com/en/discussion/409842/alliance-quest-raids-update",
       "kind": "official",
       "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "community-prowler-sinister-concussion-sp3-20251028",
+      "title": "Mister Sinister Concussion versus Prowler Special 3 power-drain interaction • October 2025 firsthand battle report",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1oiaocx/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
     }
   ],
   "abilities": [
@@ -56108,8 +56115,8 @@
         "boss-carina-act94-counter-reports-202604"
       ],
       "score": 2,
-      "why": "A second player in the same Act 9.4 discussion reports Red Skull as another Tech option that achieved a solo on this Carina version.",
-      "strategy": "Use Red Skull only as the attacker choice; the fight still revolves around returning the Corrupted ISO Blast, controlling Prowess and handling Root below 50%.",
+      "why": "A participant in an April 2026 Act 9 discussion reports a Red Skull solo and calls Red Skull another Tech option for Carina. The comment does not independently record the exact Science/Tech Signature Ability shown during that solo. This remains a plausible class-specific lead, not a documented test of that precise variant.",
+      "strategy": "Confirm that the fight explicitly has Science-Tech Vulnerability before selecting Red Skull. The route still requires managing and reflecting the Corrupted ISO Blast, controlling Prowess, and handling Root after the midpoint. The forum solo is a single player's account with no site-recorded replay of the exact variant.",
       "risks": "The solo is a community report and is not reproduced or version-tested by Fieldguide.",
       "scoreReason": "Community solo report with relevant class pairing; no independent test.",
       "conditions": [
@@ -58205,11 +58212,12 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "community-prowler-sinister-concussion-sp3-20251028"
       ],
       "score": 2,
-      "why": "Prowler is a situational Mister Sinister option rather than a reliable answer to every interaction. Player reports describe Sinister's Concussion interrupting Prowler's power-drain effect during the SP3 interaction, potentially leaving Sinister with full power.",
-      "strategy": "Do not rely on Prowler's SP3 to empty Mister Sinister's power while Concussion is active. Avoid feeding Sinister an SP3, manage his debuffs and power carefully, and consider a more reliable counter when the node set makes this interaction unsafe.",
+      "why": "Prowler is a conditional Mister Sinister choice, not a safe all-purpose counter. A separate October 2025 player battle report specifically shows Sinister's Concussion preventing Prowler's power drain while a Special 3 Power Efficiency interaction can leave Sinister at full power. The older forum list merely mentions Prowler as an option and does not demonstrate a safe rotation.",
+      "strategy": "Against Mister Sinister, inspect current Concussion effects before relying on Prowler's Special 3 power drain. Avoid giving Sinister an SP3 if the expected drain may fail; choose a different attack plan or attacker when the mode and nodes make that risk unacceptable. The cited adverse report identifies one interaction, not a reproducible solution or current-game tested win.",
       "risks": "Sinister can still heal or punish mistakes if the fight becomes a crit-heavy exchange.",
       "conditions": [
         "Keep the rotation controlled.",
@@ -58478,8 +58486,8 @@
         "counter-tough-defenders-20261101"
       ],
       "score": 3,
-      "why": "Wasp is a conditional community-suggested Sasquatch option, not a validated hard counter. Her Special 2 Power Sting can turn into Petrify after it completes its duration, giving a limited regeneration-control window; her passive Stun access is not reliable during Sasquatch's Stun-immune Wrath phase.",
-      "strategy": "Use Special 2 to establish Power Sting and allow its duration to finish before planning around the resulting Petrify. Watch Sasquatch's Wrath and regeneration windows, avoid assuming passive Stuns work during Wrath, and treat the matchup as unverified unless you have a recorded successful fight under comparable nodes.",
+      "why": "A community participant suggests Wasp against Sasquatch and mentions several abilities, but provides no completed fight recording. The public case rests on Wasp's conditional Special 2 Power Sting-to-Petrify interaction and the need to respect Sasquatch's Stun-immune Wrath phase; it is a matchup idea, not a proven hard counter.",
+      "strategy": "If using Wasp, apply Special 2's Power Sting and check whether it survives its full duration before relying on the resulting Petrify. Observe when Sasquatch enters Wrath: her passive Stun cannot safely be treated as active control during the Stun-immune state. The original shortlist alone does not show this rotation succeeding under comparable nodes.",
       "risks": "Missing the Petrify window can let Sasquatch heal back progress.",
       "conditions": [
         "Prioritize Petrify uptime.",
