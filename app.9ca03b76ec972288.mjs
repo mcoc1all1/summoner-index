@@ -1,17 +1,17 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
-import {mountLoadouts} from './loadouts.aadc4b89cf8b0658.mjs';
-import {mountRoster,readRoster} from './roster.aadc4b89cf8b0658.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.aadc4b89cf8b0658.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.aadc4b89cf8b0658.mjs';
+import {mountLoadouts} from './loadouts.9ca03b76ec972288.mjs';
+import {mountRoster,readRoster} from './roster.9ca03b76ec972288.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.9ca03b76ec972288.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.9ca03b76ec972288.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.aadc4b89cf8b0658.json',roster:'/catalog-roster.aadc4b89cf8b0658.json',champions:'/catalog-champions.aadc4b89cf8b0658.json',
- search:'/catalog-search.aadc4b89cf8b0658.json',counters:'/catalog-counters.aadc4b89cf8b0658.json',
- compare:'/catalog-compare.aadc4b89cf8b0658.json',loadouts:'/catalog-loadouts.aadc4b89cf8b0658.json',full:'/catalog.aadc4b89cf8b0658.json'
+ finder:'/catalog-finder.9ca03b76ec972288.json',roster:'/catalog-roster.9ca03b76ec972288.json',champions:'/catalog-champions.9ca03b76ec972288.json',
+ search:'/catalog-search.9ca03b76ec972288.json',counters:'/catalog-counters.9ca03b76ec972288.json',
+ compare:'/catalog-compare.9ca03b76ec972288.json',loadouts:'/catalog-loadouts.9ca03b76ec972288.json',full:'/catalog.9ca03b76ec972288.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -109,7 +109,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.aadc4b89cf8b0658.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.9ca03b76ec972288.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 
