@@ -56063,8 +56063,8 @@
         "counter-corroboration-b3-ironheart-vs-carina-science-tech"
       ],
       "score": 2,
-      "why": "A current Act 9.4 player report names Ironheart as a successful option for the Science/Tech-vulnerability Carina and separately reports a one-shot.",
-      "strategy": "Prioritize the Corrupted ISO Blast exchange over normal damage. Reflect the projectile, watch Prowess before SP1, and leave room for the repeated-return and Root mechanics below 50%.",
+      "why": "One Act 9.4.6 player reports an Ironheart one-shot, but does not identify which Carina variant they faced. A different player suggests Ironheart specifically for the Science/Tech-vulnerability encounter. The sources support trying this matchup, not a documented one-shot under this exact variant's nodes.",
+      "strategy": "First confirm that the Signature Ability is Science-Tech Vulnerability and that the Corrupted ISO Blast reflection rules apply. Use Ironheart only with a plan for safe projectile returns and the second-half Root sequence; do not assume an unspecified Carina one-shot establishes a reliable result for this variant.",
       "risks": "This is a community-reported matchup, not an independently reproduced solo in this build.",
       "scoreReason": "Direct community recommendation with a reported solo; still limited to community evidence.",
       "conditions": [
@@ -60713,7 +60713,6 @@
       "sourceIds": [
         "boss-carina9-kit",
         "boss-carina-infection-report",
-        "boss-carina-variants-report",
         "boss-carina-finale-report",
         "boss-v59-fixes",
         "boss-carina-simula-breakdown"
@@ -60950,7 +60949,6 @@
       "videoIds": [],
       "sourceIds": [
         "boss-carina-infection-report",
-        "boss-carina-variants-report",
         "boss-carina-simula-breakdown",
         "boss-v59-fixes",
         "boss-carina-act94-stream-recap-20260402",
@@ -61088,7 +61086,6 @@
       "videoIds": [],
       "sourceIds": [
         "boss-carina9-kit",
-        "boss-carina-variants-report",
         "boss-carina-simula-breakdown",
         "boss-v59-fixes",
         "boss-carina-act94-stream-recap-20260402",
@@ -61226,7 +61223,6 @@
       "reviewedAt": "2026-11-01",
       "videoIds": [],
       "sourceIds": [
-        "boss-carina-variants-report",
         "boss-carina-simula-breakdown",
         "boss-v59-fixes",
         "boss-carina-act94-stream-recap-20260402",
