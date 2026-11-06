@@ -8153,6 +8153,41 @@
       "url": "https://cerebro-bot.com/war-videos/cms8vrt6i5m7xoc0pxs7ntylq",
       "kind": "community-report",
       "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b6-kushala-sentinel",
+      "title": "First-person Act 6.1.2 Sentinel fight using Kushala, with bleed immunity and fight-node details",
+      "url": "https://www.reddit.com/r/MarvelContestOfChamps/comments/1kned4v",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b6-shang-chi-thing",
+      "title": "Independent Thing counter discussion explicitly cites Shang-Chi Medium–Medium Slow for Unstoppable",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1068vt4/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b6-red-guardian-spider-man-supreme",
+      "title": "2025 Boss Rush participant independently identifies Red Guardian's buff immunity as a possible Spider-Man Supreme answer",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/403285/side-quest-boss-rush-big-blue-week-1/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b6-mister-sinister-korg",
+      "title": "July 2026 Coliseum player reports seven health bars with rank-3 Mister Sinister against Korg",
+      "url": "https://www.reddit.com/r/MarvelContestOfChamps/comments/1v3o8qa/coliseum_korg/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b6-yelena-vs-carina-skill-cosmic",
+      "title": "Independent April 2026 Act 9.4.6 Carina thread includes both Yelena successes and final-phase failures",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/414111/carina-final-phase-bug",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
     }
   ],
   "abilities": [
@@ -53502,7 +53537,8 @@
       "attackerId": "shang-chi",
       "defenderId": "thing",
       "sourceIds": [
-        "counter-research-thing-20261031"
+        "counter-research-thing-20261031",
+        "counter-corroboration-b6-shang-chi-thing"
       ],
       "abilityIds": [
         "slow"
@@ -53958,7 +53994,8 @@
       "attackerId": "red-guardian",
       "defenderId": "spider-man-supreme",
       "sourceIds": [
-        "counter-research-buffs-20261031"
+        "counter-research-buffs-20261031",
+        "counter-corroboration-b6-red-guardian-spider-man-supreme"
       ],
       "abilityIds": [
         "buff-immunity"
@@ -55773,11 +55810,12 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "boss-carina-act94-counter-reports-202604"
+        "boss-carina-act94-counter-reports-202604",
+        "counter-corroboration-b6-yelena-vs-carina-skill-cosmic"
       ],
       "score": 2,
-      "why": "A current Act 9.4 discussion names Yelena as a successful Skill option for the Skill/Cosmic-vulnerability Carina.",
-      "strategy": "Use the favorable class pairing while still respecting Corrupted ISO Traps: track placement, wait out Inexorable, and use the required Heavy Attack or Reversal window to move Carina onto a Trap.",
+      "why": "Yelena has been recommended for Carina's Skill/Cosmic encounter, but independent April 2026 players reported inconsistent final-phase behavior. Some successfully finished with Yelena while others encountered a stalled health or Special Attack sequence.",
+      "strategy": "Treat Yelena as a provisional option not a universally reliable solo. Review current Act 9.4.6 phase behavior and reports before spending resources; have another eligible champion ready if the final phase behaves unexpectedly, and follow the encounter's class and phase requirements.",
       "risks": "This is a community recommendation rather than an independently tested route; Power Drain and Unsteady can still disrupt the rotation.",
       "scoreReason": "Direct community recommendation; no independent Fieldguide gameplay test.",
       "conditions": [
@@ -57779,11 +57817,12 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "counter-korg-options-20261103"
+        "counter-korg-options-20261103",
+        "counter-corroboration-b6-mister-sinister-korg"
       ],
       "score": 3,
-      "why": "Recent reports use Mister Sinister because ability-accuracy control and sustain make the Rock Stack loop more manageable.",
-      "strategy": "Establish the control, then use patient Light attacks and Special baiting.",
+      "why": "Mister Sinister can be a situational Korg attacker, but he does not automatically bypass Rock Shield Thorns. Coliseum players report meaningful damage with careful Light attacks, alongside significant punishment when using contact Heavy attacks while Rock Shield is active.",
+      "strategy": "Watch Korg's Rock Shield charges and prefer Light attacks while the shield remains. Avoid contact Heavy and other unsafe hits until the shield is depleted; check encounter nodes before trusting Sinister's Concussion, healing or survivability in this matchup.",
       "risks": "The fight worsens if the control is not active or nodes protect defensive abilities.",
       "conditions": [
         "Set up ability-accuracy control first.",
@@ -58048,7 +58087,8 @@
       ],
       "abilityIds": [],
       "sourceIds": [
-        "counter-tough-defenders-20261101"
+        "counter-tough-defenders-20261101",
+        "counter-corroboration-b6-kushala-sentinel"
       ],
       "score": 2,
       "why": "Players report Kushala as a reliable Sentinel option with Special-focused Mystic damage.",
