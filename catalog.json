@@ -8188,6 +8188,20 @@
       "url": "https://forums.playcontestofchampions.com/en/discussion/414111/carina-final-phase-bug",
       "kind": "community-report",
       "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b7-anti-venom-spider-man-classic",
+      "title": "Player-recorded Anti-Venom solo against Labyrinth of Legends Spider-Man Classic",
+      "url": "https://www.youtube.com/watch?v=pasjZZxTNwA",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "counter-corroboration-b7-anti-venom-spider-gwen",
+      "title": "October 2021 Anti-Venom solo objectives explicitly required defeating Spider-Gwen",
+      "url": "https://www.mcoc-guide.com/special-solo-objectives-october-targets/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-06"
     }
   ],
   "abilities": [
@@ -54243,7 +54257,8 @@
       "attackerId": "anti-venom",
       "defenderId": "spider-gwen",
       "sourceIds": [
-        "counter-research-anti-venom-20261031"
+        "counter-research-anti-venom-20261031",
+        "counter-corroboration-b7-anti-venom-spider-gwen"
       ],
       "abilityIds": [
         "ability-accuracy-reduction"
@@ -54277,7 +54292,8 @@
       "attackerId": "anti-venom",
       "defenderId": "spider-man-classic",
       "sourceIds": [
-        "counter-research-anti-venom-20261031"
+        "counter-research-anti-venom-20261031",
+        "counter-corroboration-b7-anti-venom-spider-man-classic"
       ],
       "abilityIds": [
         "ability-accuracy-reduction"

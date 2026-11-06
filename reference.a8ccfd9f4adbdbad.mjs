@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './domain.0cab2321d84c6952.mjs';
+import {escapeHtml as e} from './domain.a8ccfd9f4adbdbad.mjs';
 export function preparationNotes(facts){
  const has=pattern=>facts.abilities.some(a=>pattern.test(a));
  const notes=[];
