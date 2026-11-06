@@ -60578,7 +60578,6 @@
       "summary": "Remove Will through special-attack interactions rather than ordinary damage. Each depleted Will cycle advances the fight toward a heavy-attack finish.",
       "sourceIds": [
         "boss-doom9-kit",
-        "boss-doom9-guide",
         "boss-v59-fixes"
       ],
       "phases": [
