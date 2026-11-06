@@ -6447,6 +6447,20 @@
       "checkedAt": "2026-11-06"
     },
     {
+      "id": "ultron-act5-player-2018-dormant-cycle-20261106",
+      "title": "Classic Ultron 5.4.6 dormant buff and parry mechanics • 2018 player thread",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/58101/5-4-6-classic-ultron-fight/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "ultron-act5-player-2024-dormant-window-20261106",
+      "title": "Ultron 5.4.6 alternate player account • buff timing and non-parry options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399801/which-team-to-use-for-5-4-6-ultron",
+      "kind": "community-report",
+      "checkedAt": "2026-11-06"
+    },
+    {
       "id": "counter-tough-defenders-20261101",
       "title": "Player discussion: counters for difficult defenders",
       "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p2",
@@ -58749,7 +58763,9 @@
       "chapter": "5.4.6",
       "summary": "Read the dormant buff before applying a debuff. Parry itself can activate the effect you are trying to avoid.",
       "sourceIds": [
-        "boss-ultron-story-discussion"
+        "boss-ultron-story-discussion",
+        "ultron-act5-player-2018-dormant-cycle-20261106",
+        "ultron-act5-player-2024-dormant-window-20261106"
       ],
       "phases": [
         {
