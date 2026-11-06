@@ -58219,8 +58219,8 @@
         "counter-tough-defenders-20261101"
       ],
       "score": 3,
-      "why": "Community reports call out Kate because Tranquilize can suppress Sinister debuffs while Coldsnap supplies damage.",
-      "strategy": "Establish Tranquilize, keep Coldsnap active, and maintain the arrow rotation.",
+      "why": "Kate Bishop is a conditional Mister Sinister option because active Tranquilize may interfere with defensive debuff triggers while Coldsnap can deal damage over time. This is a reported interaction, not an independently measured solo or a promise that node-enhanced ability accuracy will be suppressed.",
+      "strategy": "Check the specific Sinister node and your arrow rotation first. Establish Tranquilize before relying on debuff suppression, then place Coldsnap during a safe punish window. If Tranquilize falls off or Concussion and immunity effects interfere, stop the planned sequence and rebuild a safe opening rather than assuming passive damage will finish the fight.",
       "risks": "If Tranquilize drops or nodes protect ability accuracy, Sinister defenses return.",
       "conditions": [
         "Maintain Tranquilize.",
