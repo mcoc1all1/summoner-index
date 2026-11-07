@@ -18,12 +18,16 @@ export function loadoutCoverage(db){
   exception:!!c.loadoutException,
   relicCheckedAt:c.loadout?.relicCheckedAt||null,
   originalRelicTrial:c.relicResearch?.status==='editorial-trial'&&c.relicResearch?.gameplayTested===false,
+  editorialRelicPair:c.relicEditorial?.status==='independent-editorial-trial',
+  relicPairHeld:c.relicEditorial?.status==='research-hold',
   gameplayTested:false
  }));
  return {total:rows.length,attacker:rows.filter(r=>r.attacker).length,
   defender:rows.filter(r=>r.defender).length,
   verifiedFocus:rows.filter(r=>r.focusVerified).length,
   originalRelicTrials:rows.filter(r=>r.originalRelicTrial).length,
+  authoredRelicPairs:rows.filter(r=>r.editorialRelicPair).length,
+  relicPairHolds:rows.filter(r=>r.relicPairHeld).length,
   catalogueTrials:rows.filter(r=>r.catalogueTrial&&r.focusVerified).length,
   editorialPicks:rows.filter(r=>r.editorialPick&&r.focusVerified).length,
   individuallyReviewed:rows.filter(r=>r.individuallyReviewed&&r.focusVerified).length,
