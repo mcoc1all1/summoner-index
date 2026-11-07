@@ -10362,19 +10362,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Up in this encounter",
-            "text": "Iceman is catalogued with Armor Up. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Check Ice Armor at entry",
+            "text": "Iceman's Ice Armor is an important defensive resource, but its presence and recovery conditions must be checked in the active fight. Start by verifying the armor icon rather than assuming it always absorbs the next dangerous hit."
           },
           {
-            "title": "Track Coldsnap before committing",
-            "text": "The catalogue also records Coldsnap for Iceman. Watch for its actual trigger while also tracking Armor Up; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use Frostbite as pressure",
+            "text": "Keep track of Frostbite charges and the specific actions that detonate them under the current kit. A special launched before charges are established can sacrifice the pressure that makes the encounter manageable."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Iceman. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Control the opponent's movement",
+            "text": "Coldsnap is valuable in Evade-sensitive situations only when it can be applied and maintained. Compare the defender's actual immunity and purification mechanics before using Iceman as a blanket anti-Evade answer."
+          },
+          {
+            "title": "Separate immunity from resistance",
+            "text": "Do not assume Ice Armor, temperature-related protection, and debuff immunities cover every form of environmental damage. Check whether the node applies a debuff, passive effect, or direct damage before trading hits."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -20709,19 +20715,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Incinerate in this encounter",
-            "text": "The current research index lists Incinerate among Dragon Man's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Work around power gain safely",
+            "text": "Dragon Man can gain power rapidly, but faster meter is only useful if the next special can be launched safely. Watch the opponent's special threshold before cornering them and avoid being trapped against the wall yourself."
           },
           {
-            "title": "Track Ineptitude before committing",
-            "text": "The catalogue also records Ineptitude for Dragon Man. Watch for its actual trigger while also tracking Incinerate; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Exploit the right positioning",
+            "text": "His pressure can be stronger when the opponent is pushed toward the wall. Establish spacing through a safe punish instead of dashing blindly into a corner, where an unexpected Unblockable attack may end the attempt."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Dragon Man. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Separate Incinerate from direct damage",
+            "text": "Check whether the target can receive Incinerate and whether the intended special needs a particular state to maximize value. Against immune defenders, use the available direct damage and control rather than expecting the same damage-over-time result."
+          },
+          {
+            "title": "Do not assume protection is permanent",
+            "text": "Armor interactions, power-control nodes and buff removal can affect the rhythm of the fight. Verify any Unstoppable or other defensive indicator before attempting to trade, especially during the opponent's special animation."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -29476,19 +29488,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Killmonger's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Open with controlled pressure",
+            "text": "Killmonger's defensive and offensive value changes with his active states. Establish clean punishes while watching the Reverberation and armor-related indicators, rather than assuming all incoming contact is safe."
           },
           {
-            "title": "Track Indestructible before committing",
-            "text": "The catalogue also records Indestructible for Killmonger. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use the SP2 protection intentionally",
+            "text": "His SP2 can establish Indestructible charges under the relevant kit rules. Treat those charges as a limited safety resource and track how they are consumed; they are not permission to ignore an entire multi-hit special."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Killmonger, look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Select the route for the defender",
+            "text": "Bleed pressure and direct damage do not have the same value in every matchup. Check the defender's Bleed protection and the intended special's current description before spending power on a familiar combo."
+          },
+          {
+            "title": "Plan for ability interruption",
+            "text": "Defenders who prevent or remove defensive states, as well as nodes that punish blocks or repeated contact, can break a riskier approach. If the Indestructible window is absent, return to normal dexterity and spacing."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -35240,19 +35258,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Power Drain in this encounter",
-            "text": "Nebula has a recorded Power Drain interaction. Read the active quest node and confirm exactly when it changes the opponent's power or special access; do not infer universal power control from the ability name. Test the trigger in a safe opening."
+            "title": "Build Shock Charges safely",
+            "text": "Nebula can develop Shock Charges while holding Block, but that defensive stance invites pressure from an aggressive opponent. Build only when distance and recovery permit it; do not sacrifice health chasing an ideal charge count."
           },
           {
-            "title": "Track Power Lock before committing",
-            "text": "The catalogue also records Power Lock for Nebula. Watch for its actual trigger while also tracking Power Drain; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Check the target's robot interactions",
+            "text": "Her kit includes matchup-specific Robot utility, but the benefit depends on the defender and the current ability wording. Verify the opponent's tag and the applicable condition before treating this as universal ability shutdown."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Nebula. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Convert charges into damage",
+            "text": "Her special attacks can turn a prepared charge state into meaningful Shock pressure. Inspect the charge total and defender's Shock protection before committing; a low-charge launch may be the right defensive choice in a short fight."
+          },
+          {
+            "title": "Avoid Shock-dead matchups",
+            "text": "Shock immunity, frequent purification, debuff-length changes and nodes that punish holding Block can remove the payoff. If the charge-to-Shock route is unavailable, use basic punishes rather than forcing an ineffective rotation."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -36268,19 +36292,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Energize in this encounter",
-            "text": "Odin is catalogued with Energize. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Choose prefight support deliberately",
+            "text": "Odin's pre-fight support is a roster decision, not simply another step in his personal damage rotation. Confirm which persistent benefits are available and which teammate should receive them before entering a long quest path."
           },
           {
-            "title": "Track Fury before committing",
-            "text": "The catalogue also records Fury for Odin. Watch for its actual trigger while also tracking Energize; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Track the Odinforce cycle",
+            "text": "When playing Odin himself, follow the Odinforce and buff indicators instead of assuming each special will have the same output. Power management matters if the next window is too short to complete the intended attack."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Odin, look for opponent immunities, resistances and node effects that interrupt Energize. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Line up an actual burst window",
+            "text": "Use a special only after checking whether its relevant buffs and attack conditions are active. If the opponent's power is close to a dangerous threshold, bait their special instead of forcing the ideal damage sequence."
+          },
+          {
+            "title": "Beware of buff disruption",
+            "text": "Nullify, Neutralize, buff immunity and nodes that punish gained buffs can change Odin's effectiveness. Reassess the plan after any buff removal; pre-fight team utility does not imply immunity to these counters."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -48439,19 +48469,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Fury in this encounter",
-            "text": "Thing is catalogued with Fury. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Bank Rock Stacks before committing",
+            "text": "Thing's Rock Stacks are part of both his resilience and his offensive timing. Watch the stack count during ordinary exchanges, then choose a safe punish rather than assuming every blocked hit will preserve the same setup."
           },
           {
-            "title": "Track Stagger before committing",
-            "text": "The catalogue also records Stagger for Thing. Watch for its actual trigger while also tracking Fury; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Plan the protection window",
+            "text": "When the opponent threatens a heavy burst, check whether the current kit's Protection condition is actually active. Do not treat a high Rock Stack count as unconditional immunity to Special Attack damage or to quest-node damage."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Thing. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Spend a special with purpose",
+            "text": "Decide whether the next special is intended to support damage or control based on the buffs and stacks visible in this fight. Bait an opponent special first if staying near maximum power would create an unsafe exchange."
+          },
+          {
+            "title": "Respect stack manipulation",
+            "text": "Ability-accuracy reduction, Nullify interactions, and nodes that punish defensive buffs or prolonged fights may undermine the plan. Recheck the current stack state after each special rather than copying a fixed sequence."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
