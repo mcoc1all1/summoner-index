@@ -20407,26 +20407,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Nullify before the opener",
-            "text": "Before bringing Doctor Strange into this fight, inspect Fate Seal, Nullify and Wither in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Use the current reworked kit, not 2018 blessings",
+            "text": "Doctor Strange received a major rework discussed by players in January 2026. Check the modern Fractured Power and spell indicators before planning the encounter; old Hoggoth/Agamotto rotation tutorials may describe a superseded ability set."
           },
           {
-            "title": "Develop Nullify and monitor Fate Seal",
-            "text": "The recorded Nullify mechanic may help Doctor Strange access certain defenders, but the opposing ability, node restrictions, and trigger must be checked. Do not use this label alone as evidence that a difficult matchup is solved. Track Fate Seal separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Set up the power interaction deliberately",
+            "text": "Modern Strange can use Wither-related utility against eligible extra Power Gain. Verify how Fractured Power or the current spell resource is activated rather than assuming it occurs automatically at the start of every fight."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Doctor Strange, the index highlights Nullify alongside Fate Seal, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Spend specials while the setup is active",
+            "text": "The revised rotation involves explicit spell activation and timing. Bait an opponent special, then launch from a safe recovery with the active personal resource; do not assume every double-tap Block interaction can be executed safely under pressure."
           },
           {
-            "title": "Handle Nullify failure conditions",
-            "text": "If Nullify cannot interact with this defender, do not force the risky matchup: check another attacker or a node-specific counter rather than relying on an ability keyword. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Do not inherit fan-made rework abilities",
+            "text": "Older forum posts propose entirely different blessing cycles and special effects. They are fan ideas, not proof of the January 2026 live kit; verify the current damage, healing and anti-buff conditions before assigning Strange a guaranteed boss counter."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -27796,26 +27796,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Incinerate before the opener",
-            "text": "Before bringing Iron Man into this fight, inspect Armor Break, Armor Up and Incinerate in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Identify whether Arc Overload is available",
+            "text": "Classic Iron Man can access Arc Overload regeneration under its kit and signature conditions. Check awakening and the current low-health trigger before treating the recovery as part of a long fight plan; an unawakened version may not behave the same way."
           },
           {
-            "title": "Develop Incinerate and monitor Armor Break",
-            "text": "For Iron Man, Incinerate is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Armor Break separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use Armor Up as a visible defensive state",
+            "text": "His armor effects can reduce particular incoming damage, but they are not equivalent to complete immunity or full protection against passive damage. Verify the actual Armor Up icon and whether the opponent inflicts Armor Break before choosing to trade."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Iron Man, the index highlights Incinerate alongside Armor Break, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Choose specials from the current offensive setup",
+            "text": "If the current kit supplies a specific Armor Break, energy or damage opportunity, launch from a safe punish rather than a generic SP2 habit. An opponent's power bar and debuff immunity matter more than an old damage showcase."
           },
           {
-            "title": "Handle Incinerate failure conditions",
-            "text": "When the target blocks Incinerate through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. A structured Incinerate protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Avoid fan-made rework mechanics",
+            "text": "Community posts often propose entirely new Arc Reactor stacks, Plasma effects and permanent Armor modes for Classic Iron Man. Unless a publisher update confirms the change, do not present those fan suggestions as a live-game ability."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -28101,26 +28101,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Incinerate before the opener",
-            "text": "Before bringing Iron Man (Infinity War) into this fight, inspect Incinerate, Plasma and Shock in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Track Molecular Armor before the next exchange",
+            "text": "Iron Man (Infinity War) develops Molecular Armor stacks that affect both his protection and offensive effects. Inspect the stack count before a special or blocked hit, and avoid assuming any amount of Armor Up makes him immune to damage."
           },
           {
-            "title": "Develop Incinerate and monitor Plasma",
-            "text": "For Iron Man (Infinity War), Incinerate is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Plasma separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use the right Shock and Incinerate interactions",
+            "text": "His kit can combine eligible Shock and Incinerate interactions into Plasma-related pressure under specified conditions. Confirm that the defender can receive the component effects and that the current attack actually triggers the desired conversion."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Iron Man (Infinity War), the index highlights Incinerate alongside Plasma, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Choose a special based on armor and timing",
+            "text": "Special attacks draw value from the present armor and debuff setup; don't fire into an immune target just to repeat a familiar combo. Bait the opponent's special before committing to an animation that leaves you exposed near the wall."
           },
           {
-            "title": "Handle Incinerate failure conditions",
-            "text": "When the target blocks Incinerate through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. A structured Bleed protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Respect the low-health Signature defense",
+            "text": "Awakened Iron Man (Infinity War) can trigger a strong Armor and Auto-Block emergency protocol at low health. The defender may also gain power while armor is active in this state; when facing him, do not mistake that power gain for an unrelated node bug."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -29250,26 +29250,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Petrify before the opener",
-            "text": "Before bringing Joe Fixit into this fight, inspect Bleed, Disorient, Life Steal and Petrify in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Select the suit from the actual combo ender",
+            "text": "Joe Fixit accumulates card-suit effects from his basic attack pattern. Check which Light or Medium hit ends the sequence and the suit icon granted; older discussions documented confusion between combo starts and endings, so use the actual live indicators."
           },
           {
-            "title": "Develop Petrify and monitor Bleed",
-            "text": "The catalog identifies Petrify as a potential power or control interaction for Joe Fixit. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Bleed separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Develop the suit that answers this fight",
+            "text": "Different suit stacks can support offense, survival or related utility. Decide whether an extended damage setup is worthwhile before taking unnecessary blocked damage, and do not assume the next short combo will produce the same suit as the previous one."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Joe Fixit, the index highlights Petrify alongside Bleed, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Spend power after the card state develops",
+            "text": "A special is most useful when it converts the currently built suit effects into the intended payoff. Watch the opponent's power meter and keep a safe recovery window instead of extending the combo solely for a theoretical maximum card stack."
           },
           {
-            "title": "Handle Petrify failure conditions",
-            "text": "When Petrify does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. A structured Poison protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Respect debuff and healing restrictions",
+            "text": "A regeneration- or debuff-dependent suit plan loses value against Heal Block, Purify and immunity nodes. Treat the suit count as a visible resource, not as automatic immunity or guaranteed life steal, and verify updated numerical values in the current kit."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -29765,26 +29765,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Fragility before the opener",
-            "text": "Before bringing Karnak into this fight, inspect Disorient, Fragility, Fury and True Strike in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Use the post-buff True utility deliberately",
+            "text": "Karnak's updated kit includes True Accuracy, True Damage and Vigilance-related interactions, giving him different answers to Evade, armor and Miss. Check the defender's actual protection before choosing whether the next SP1 True Strike is necessary."
           },
           {
-            "title": "Develop Fragility and monitor Disorient",
-            "text": "Fragility appears in Karnak's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Disorient separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Build the offensive passives in a safe window",
+            "text": "Replacing eligible permanent passive effects with True Strike can develop damage-related bonuses under his current kit rules. Watch the passive icons after the special rather than assuming the first SP1 always delivers a fully ramped state."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Karnak, the index highlights Fragility alongside Disorient, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Pick a special from the matchup's control needs",
+            "text": "When the opponent relies on Miss or Evade, prioritize the attack that maintains the appropriate True effect. Against a simple defender, a quicker damage route may be enough; bait the defender special before committing to a lengthy setup."
           },
           {
-            "title": "Handle Fragility failure conditions",
-            "text": "If Fragility stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Remember the 2021 champion overhaul",
+            "text": "Karnak's older Focus and class-disadvantage mechanics differ from his buffed version. Historical videos and forum suggestions may describe a different kit, so verify current True Strike duration, Poison resistance and signature effects."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -33480,26 +33480,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Bleed before the opener",
-            "text": "Before bringing Masacre into this fight, inspect Bleed, Disorient and Incinerate in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Ignite the bat through eligible blocks",
+            "text": "Masacre's bat ignition mechanic rewards specific blocked attacks before offering stronger Incinerate pressure. Watch the lit-bat state and position rather than striking into block indiscriminately when the defender can punish a Heavy."
           },
           {
-            "title": "Develop Bleed and monitor Disorient",
-            "text": "For Masacre, Bleed is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Disorient separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Choose whether the fight needs SP1 or SP2",
+            "text": "A developed bat can improve the damage available from his specials. Check the opponent's Incinerate immunity and current power level before spending two bars; a shorter safe special may be better if the defender is about to reach SP3."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Masacre, the index highlights Bleed alongside Disorient, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Preserve spacing when pressuring block",
+            "text": "His offensive pattern involves hitting the defender's block at appropriate times, which can create substantial defensive power. Keep room to bait and evade specials; do not treat the lit bat as permission to ignore a counterattack."
           },
           {
-            "title": "Handle Bleed failure conditions",
-            "text": "When the target blocks Bleed through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Avoid guaranteed Incinerate assumptions",
+            "text": "Incinerate-immune defenders and nodes that punish blocked hits can remove the main payoff. Confirm whether the current effect is a debuff or passive and whether any synergy is present before repeating a high-damage combo demonstration."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -33740,26 +33740,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Power Gain before the opener",
-            "text": "Before bringing Mephisto into this fight, inspect Incinerate, Power Gain and Regeneration in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Track the Soul Imprisonment opening",
+            "text": "Mephisto can use Soul Imprisonment to constrain certain opponent buff and soul interactions. Check that the defender can be affected and whether the suppression is active before assuming a power or regeneration mechanic is shut down."
           },
           {
-            "title": "Develop Power Gain and monitor Incinerate",
-            "text": "The catalog identifies Power Gain as a potential power or control interaction for Mephisto. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Incinerate separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Manage Aura of Incineration with spacing",
+            "text": "Aura of Incineration can pressure a nearby enemy but does not make standing in front of a defender safe. Watch aura duration and opponent specials, then use controlled movement rather than forcing proximity during an unavoidable attack."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Mephisto, the index highlights Power Gain alongside Incinerate, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Decide when SP1 control is preferable",
+            "text": "SP1-related Soul Imprisonment can be useful against buff-reliant targets, while a different special may better suit a direct-damage situation. If the opponent has no relevant removable effects, do not spend the whole fight waiting for that payoff."
           },
           {
-            "title": "Handle Power Gain failure conditions",
-            "text": "When Power Gain does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. A structured Poison protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Respect immunity and signature limitations",
+            "text": "Incinerate resistance, power-related node effects and immunity to the intended debuff can reduce his value. Verify the current signature and defensive regeneration rules independently instead of assuming Mephisto cannot be hurt by every energy or passive effect."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -33887,26 +33887,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Petrify before the opener",
-            "text": "Before bringing Mister Fantastic into this fight, inspect Petrify, Stagger, Suppression and Taunt in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Allocate the pre-fight debuffs for this defender",
+            "text": "Mister Fantastic can spend persistent charges to apply selected debuffs before an eligible fight. Choose whether Petrify, Suppression or another available option addresses this particular node; confirm that the charge is spent on the intended opponent before entering."
           },
           {
-            "title": "Develop Petrify and monitor Stagger",
-            "text": "The catalog identifies Petrify as a potential power or control interaction for Mister Fantastic. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Stagger separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use a safe Heavy to maintain the pre-fight setup",
+            "text": "His Heavy can pause selected pre-fight debuffs under the current kit. Establish spacing or bait a special first instead of charging a Heavy into an active defender; a historical bug concerning these pauses was marked resolved, so old demonstrations are not proof of current failure."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Mister Fantastic, the index highlights Petrify alongside Stagger, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Time SP2 when the selected debuffs matter",
+            "text": "SP2 interacts with previously selected pre-fight debuffs, but nodes that prevent early debuffs can frustrate the opening state. Verify whether the target actually received the effects and whether SP2 will reapply them before committing meter."
           },
           {
-            "title": "Handle Petrify failure conditions",
-            "text": "When Petrify does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Do not assume every power source is suppressed",
+            "text": "Petrify and Suppression can affect relevant regeneration or power-rate mechanics, but independent node power gain and debuff immunity may not behave identically. Check the defender's effect icons and current ability text before calling the matchup controlled."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -40079,26 +40079,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Fury before the opener",
-            "text": "Before bringing Red Goblin into this fight, inspect Aptitude, Energize, Fury and Incinerate in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Manage Bloodlust instead of chasing it blindly",
+            "text": "Red Goblin's Bloodlust and symbiote-related resource state affect his offensive pressure. Watch the actual counter before a Special Attack and avoid taking needless contact damage to force a ramp that the next defender might interrupt."
           },
           {
-            "title": "Develop Fury and monitor Incinerate",
-            "text": "Fury appears in Red Goblin's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Incinerate separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Choose where to spend the developed state",
+            "text": "A special can convert a useful Bloodlust state into meaningful damage or utility under its present rules. Make sure the opponent is in a punishable recovery rather than spending power merely because a resource icon reached a familiar count."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Red Goblin, the index highlights Fury alongside Incinerate, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Separate Incinerate from raw hit damage",
+            "text": "His energy and Incinerate pressure depends on whether the target can receive the effect. Against an Incinerate-immune defender, inspect the remaining direct damage tools rather than relying on old clips of a damage-over-time burst."
           },
           {
-            "title": "Handle Fury failure conditions",
-            "text": "If Fury stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. A structured Incinerate protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Check anti-buff and signature conditions",
+            "text": "Buff disruption, ability-accuracy changes and nodes that punish aggressive dashes can undermine Red Goblin's rhythm. Do not infer that his Carnage symbiote theme supplies the same kit as Carnage or Venom; confirm this champion's own abilities."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -42002,26 +42002,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Fury before the opener",
-            "text": "Before bringing Sauron into this fight, inspect Degeneration, Fury, Prowess and Unblockable in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Watch the Prowess buildup before committing",
+            "text": "Sauron's Prowess and mutant resource interactions influence when his offensive state becomes valuable. Build through controlled attacks and track the actual status icons rather than assuming a fixed number of blocked hits always triggers the same payoff."
           },
           {
-            "title": "Develop Fury and monitor Degeneration",
-            "text": "Fury appears in Sauron's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Degeneration separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use Unblockable pressure only when indicated",
+            "text": "Certain Sauron states can create Unblockable pressure, but the correct attack and timing must be confirmed. Do not dash at an active defender merely because a Prowess buff is visible; read the current special and buff conditions first."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Sauron, the index highlights Fury alongside Degeneration, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Preserve the advantage through a safe special",
+            "text": "When a useful offensive state is active, take the next genuine special recovery window. If the defender is close to maximum power, bait their special rather than extending Sauron's buildup until it becomes unsafe."
           },
           {
-            "title": "Handle Fury failure conditions",
-            "text": "If Fury stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. A structured Poison protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Check Purify, power control and node effects",
+            "text": "Mutant tags and Prowess do not confer blanket immunity to passive damage, Heal Block or power manipulation. Sauron's regeneration and debuff interactions depend on current kit conditions, so verify what the actual opponent can remove or prevent."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -51834,26 +51834,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Power Gain before the opener",
-            "text": "Before bringing Vision (Aarkus) into this fight, inspect Armor Break, Armor Shattered, Coldsnap and Power Gain in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Develop the Cold Aura and Armor Break connection",
+            "text": "Vision (Aarkus) can pressure nearby opponents through Cold Aura, Armor Break and subsequent Coldsnap interactions. Check whether the target can receive Armor Break first; without that precursor, the expected Coldsnap route may not occur."
           },
           {
-            "title": "Develop Power Gain and monitor Coldsnap",
-            "text": "The catalog identifies Power Gain as a potential power or control interaction for Vision (Aarkus). Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Coldsnap separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use the current improved attack-side armor setup",
+            "text": "Kabam's January 2026 preview announced faster, longer-lasting attacker Armor Break effects. Inspect the actual debuff duration and Armor Shattered state before applying a historical rotation based on shorter or slower pre-buff timers."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Vision (Aarkus), the index highlights Power Gain alongside Coldsnap, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Pause the relevant states through SP1",
+            "text": "The same preview described SP1 pausing Armor Shattered, Fury and Cold Aura in the updated kit. Launch only from a safe punish when those effects are active; a special thrown too early cannot extend a setup that has not developed."
           },
           {
-            "title": "Handle Power Gain failure conditions",
-            "text": "When Power Gain does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Respect armor immunity and true damage counters",
+            "text": "Armor Break-immune defenders may prevent the Coldsnap route, while opponents with reliable buff control or suitable protection can reduce the value of his Power Gain. Don't assume a Cold Aura label alone wins against every evade or stun-immune node."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -53706,26 +53706,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Bleed before the opener",
-            "text": "Before bringing Wolverine into this fight, inspect Bleed and Regeneration in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Establish Bleed only where it works",
+            "text": "Wolverine's ordinary attacks can place Bleed on eligible opponents while his regeneration supports sustained fights. Observe whether Bleed actually applies before investing the rest of the encounter in a damage-over-time rotation."
           },
           {
-            "title": "Develop Bleed and monitor Regeneration",
-            "text": "For Wolverine, Bleed is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Regeneration separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Protect the healing advantage",
+            "text": "Regeneration can offset chip damage, but it depends on current health, signature and node conditions rather than guaranteeing a safe trade. Use normal blocks and Dexterity against dangerous specials; purposely taking damage to trigger healing can fail on Heal Block."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Wolverine, the index highlights Bleed alongside Regeneration, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Choose the special based on remaining Bleeds",
+            "text": "A special may add meaningful pressure when the defender retains Bleed effects, but a fast-Purify opponent can clear them before the payoff. Prefer a short safe punish if the target is immune instead of saving meter for damage that cannot occur."
           },
           {
-            "title": "Handle Bleed failure conditions",
-            "text": "When the target blocks Bleed through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Confirm the exact Wolverine version",
+            "text": "Older Wolverine, Weapon X and Wolverine (X-23) are distinct champions with different mechanics. Verify the roster entry and current live abilities before using a synergy or special rotation borrowed from another Wolverine profile."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
