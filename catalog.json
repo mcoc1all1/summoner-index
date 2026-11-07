@@ -12120,7 +12120,7 @@
         "decisions": [
           {
             "title": "Position the defender inside Rune Prison",
-            "text": "Agatha’s empowered-special plan requires the defender to remain in her Rune Prison. First verify the prison is active and place the opponent where the effect can matter; chasing a retreating defender wastes the control window."
+            "text": "Agatha’s Special 1 creates the Rune Prison, where proximity changes how her attack and Atrophy effects operate. Check that the field is visible and that the opponent remains inside; forcing a chase as the field expires wastes the setup."
           },
           {
             "title": "Build spell pressure without losing spacing",
@@ -12128,7 +12128,7 @@
           },
           {
             "title": "Use empowered specials only while the prison matters",
-            "text": "Spend power after checking whether Atrophy, Power Steal and Energy Vulnerability are active. The prison is not proof that every independent node power source has stopped; choose the available punish rather than assuming a full lock."
+            "text": "An Empowered Special 2 or 3 requires enough power gained through Agatha’s own Ability Power Rate, not simply having two bars on the meter. Verify that requirement and the target’s Energy Vulnerability before committing to the punish; Rune Prison does not stop every power source."
           },
           {
             "title": "Check mobility and anti-control node restrictions",
@@ -24109,15 +24109,15 @@
         "decisions": [
           {
             "title": "Apply different debuffs before counting Fury",
-            "text": "Green Goblin (Stellar-Forged) benefits from the variety of debuff types on the defender. Check whether Exhaustion, Wither, Halt or Torment actually landed; several stacks of one effect are not necessarily several unique types."
+            "text": "Green Goblin (Stellar-Forged) benefits from the variety of debuff types on the defender. Check whether Exhaustion, Wither and Halt actually landed; Torment belongs to her Signature Ability, so confirm that she is awakened before counting it. Repeating one debuff type is not the same as establishing multiple unique types."
           },
           {
             "title": "Use distinct effects without sacrificing the punish window",
-            "text": "Build the debuff mix through controlled attacks while watching the opponent's special bar. The current resistances and debuff duration matter more than chasing an unverified maximum Fury count."
+            "text": "Use Mediums for Exhaustion, a safe Heavy for Halt and Incinerate, and Special 1 for Wither when the target allows them. The special meter is fractured, so verify its current state and keep debuffs from expiring before the conversion."
           },
           {
             "title": "Convert the mixture into SP2 Incinerate damage",
-            "text": "Use SP2 when the correct debuff diversity and Fury are active and the target can be Incinerated. If the defender Purifies quickly or has Incinerate immunity, do not extend the setup for a burst that cannot land."
+            "text": "After establishing several unique debuffs, use the available Special 2 from a safe opening: its first hit can inflict Incinerates based on debuff variety and its final hit refreshes personal debuffs. An Incinerate-immune target removes the primary damage payoff."
           },
           {
             "title": "Keep Stellar-Forged distinct from classic Goblin",
@@ -24962,11 +24962,11 @@
           },
           {
             "title": "Use Spider-Sense for the intended Corrosion action",
-            "text": "Her Spider-Sense resources interact with Corrosion and Armor Break. Confirm the state and keep the defender's power manageable; forcing another heavy into an active target can erase the developed resource."
+            "text": "Confirm the active Spider-Sense and Armor Break conditions before relying on Corrosion. Because Gwenom can chain a Heavy from her combo, use that option only when positioning and defender power permit it; chaining is not a guaranteed safe punish."
           },
           {
             "title": "Spend a special with the right buff mix",
-            "text": "A developed buff set and Armor Break can set up stronger Corrosion. Check the target permits Corrosion and use a safe punish rather than assuming an SP2 automatically delivers the complete damage window."
+            "text": "A mix of rotating Symbiote buffs and eligible Armor Breaks can support her later Corrosion pressure. Check which personal buffs are active and whether the defender resists the damage effect; spend the special at a safe recovery rather than assuming fixed SP2 damage."
           },
           {
             "title": "Watch buff denial and Armor Break immunity",
@@ -46107,7 +46107,7 @@
         "decisions": [
           {
             "title": "Investigate Clues through the specified attacks",
-            "text": "Spider-Man Noir builds Clues by using particular actions, not arbitrary combo spam. Check which clue is still missing and the current Cruelty state before pushing into a blocked defender."
+            "text": "Spider-Man Noir begins with hidden Clue objectives tied to combat actions such as dodging, blocking, or landing certain attacks. Check which action uncovered a Clue and whether a Dormant Cruelty appeared instead of treating every combo hit as progress."
           },
           {
             "title": "Build Disorient without forcing unsafe block pressure",
@@ -46115,7 +46115,7 @@
           },
           {
             "title": "Cash out a Crumble window against Block",
-            "text": "When enough clues and Cruelties are present, Crumble can change the value of blocked attacks. Verify Root or other control only if active; choose the safe opening and check whether the defender can withstand the expected damage."
+            "text": "Special 2 can establish Crumble; subsequent basic hits into Block can enable a short Rooted block-pressure sequence if its current conditions hold. Verify the Crumble icon, use only the intended Light attacks, and stop if the defender breaks the sequence."
           },
           {
             "title": "Watch Purify and defensive Evade exceptions",

@@ -1,5 +1,5 @@
-import {matchingProtections,protectionFilterActive} from './protections.569894eb257e3860.mjs';
-import {validDate} from './review.569894eb257e3860.mjs';
+import {matchingProtections,protectionFilterActive} from './protections.ffc56c51ace261f8.mjs';
+import {validDate} from './review.ffc56c51ace261f8.mjs';
 export const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const names = (db, type, ids=[]) => ids.map(id=>db[type].find(x=>x.id===id)?.name || id);
 const championAliases={
