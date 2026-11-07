@@ -389,3 +389,22 @@ body[data-page="/"] .finder-form .primary{width:100%;font-size:15px}
  .counter-card .counter-head .confidence-badge{flex-basis:auto}
  .table-scroll{max-width:100%;overscroll-behavior-x:contain}
 }
+
+
+/* Relic choices remain readable after the interactive catalog replaces the
+   initial server-rendered preview; no imagery or external assets required. */
+.relic-original-editorial{min-width:0}
+.relic-original-editorial>h3{margin-bottom:12px}
+.relic-original-editorial>dl{display:grid;grid-template-columns:minmax(125px,0.65fr) minmax(0,1.35fr);gap:10px 12px;padding:14px;border:1px solid var(--line);border-radius:9px;background:#ffffff05;margin:0 0 14px}
+.relic-original-editorial dt{font-size:12px;line-height:1.4;color:#c6d1cb;font-weight:600;margin:0}
+.relic-original-editorial dd{font-size:14px;line-height:1.45;color:var(--text);font-weight:600;margin:0;min-width:0;overflow-wrap:anywhere}
+.relic-original-editorial>details{margin:12px 0 0;padding:12px 14px;border:1px solid var(--line);border-radius:9px}
+.relic-original-editorial>details summary{font-size:14px;font-weight:600}
+.relic-original-editorial>details[open] summary{margin-bottom:12px}
+.relic-original-editorial>details p{margin:0 0 10px}
+.relic-original-editorial>details p:last-child{margin-bottom:0}
+@media(max-width:540px){
+ .relic-original-editorial>dl{grid-template-columns:1fr;gap:2px;padding:12px}
+ .relic-original-editorial dd{margin:0 0 12px}
+ .relic-original-editorial dd:last-child{margin-bottom:0}
+}
