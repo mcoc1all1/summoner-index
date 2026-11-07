@@ -1,5 +1,5 @@
-import {matchingProtections,protectionFilterActive} from './protections.ffc56c51ace261f8.mjs';
-import {validDate} from './review.ffc56c51ace261f8.mjs';
+import {matchingProtections,protectionFilterActive} from './protections.2b4311202f66b132.mjs';
+import {validDate} from './review.2b4311202f66b132.mjs';
 export const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const names = (db, type, ids=[]) => ids.map(id=>db[type].find(x=>x.id===id)?.name || id);
 const championAliases={
@@ -24,6 +24,7 @@ export function search(db, query='', filters={}) {
   const immune=/\b(immune|immunity)\b/.test(text);
   const defense=/\bdefenders?\b/.test(text);
   const matches=db.champions.filter(c=>{
+    if(filters.guideStatus && c.guideStatus!==filters.guideStatus) return false;
     if(filters.coverage && c.coverage!==filters.coverage) return false;
     if(filters.class && c.class!==filters.class) return false;
     if(protectionFilterActive(filters) && !matchingProtections(c,{activation:'always',...filters}).length) return false;

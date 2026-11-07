@@ -1,17 +1,17 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
-import {mountLoadouts} from './loadouts.ffc56c51ace261f8.mjs';
-import {mountRoster,readRoster} from './roster.ffc56c51ace261f8.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.ffc56c51ace261f8.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.ffc56c51ace261f8.mjs';
+import {mountLoadouts} from './loadouts.2b4311202f66b132.mjs';
+import {mountRoster,readRoster} from './roster.2b4311202f66b132.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.2b4311202f66b132.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.2b4311202f66b132.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.ffc56c51ace261f8.json',roster:'/catalog-roster.ffc56c51ace261f8.json',champions:'/catalog-champions.ffc56c51ace261f8.json',
- search:'/catalog-search.ffc56c51ace261f8.json',counters:'/catalog-counters.ffc56c51ace261f8.json',
- compare:'/catalog-compare.ffc56c51ace261f8.json',loadouts:'/catalog-loadouts.ffc56c51ace261f8.json',full:'/catalog.ffc56c51ace261f8.json'
+ finder:'/catalog-finder.2b4311202f66b132.json',roster:'/catalog-roster.2b4311202f66b132.json',champions:'/catalog-champions.2b4311202f66b132.json',
+ search:'/catalog-search.2b4311202f66b132.json',counters:'/catalog-counters.2b4311202f66b132.json',
+ compare:'/catalog-compare.2b4311202f66b132.json',loadouts:'/catalog-loadouts.2b4311202f66b132.json',full:'/catalog.2b4311202f66b132.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -83,8 +83,8 @@ if(db){
   if(['7','not-7'].includes(params.get('rarity')))$('#rarity-filter').value=params.get('rarity');
   let shown=24;
   const more=document.createElement('button');more.id='champ-more';more.textContent='Show 24 more';more.className='primary';$('#champ-results').after(more);
-  if(['curated','roster'].includes(params.get('coverage')))$('#coverage-filter').value=params.get('coverage');
-  const render=()=>{const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value,rarity=$('#rarity-filter').value,form=$('#immunity-form').value,activation=$('#immunity-activation').value;const immunityFilters={immunity:im,form,activation};let cs=search(db,query,{class:cl,...immunityFilters,coverage}).champions;if(rarity==='7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===true);if(rarity==='not-7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===false);cs.sort((a,b)=>a.name.localeCompare(b.name));$('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions · showing ${Math.min(shown,cs.length)}`;$('#champ-results').innerHTML=cs.length?cs.slice(0,shown).map(c=>championCard(db,c,immunityFilters)).join(''):'<div class="empty"><h3>No champions match these filters.</h3><p>Try another effect, form or activation setting, or clear other filters. Reviewed coverage is incomplete; no result does not mean no immunity exists.</p></div>';more.hidden=shown>=cs.length;const p=new URLSearchParams();if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(form)p.set('form',form);if(activation!=='always')p.set('activation',activation);if(coverage)p.set('coverage',coverage);if(rarity)p.set('rarity',rarity);history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));syncSaved();};
+  if(['authored','curated','held'].includes(params.get('guide')))$('#coverage-filter').value=params.get('guide');
+  const render=()=>{const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value,rarity=$('#rarity-filter').value,form=$('#immunity-form').value,activation=$('#immunity-activation').value;const immunityFilters={immunity:im,form,activation};let cs=search(db,query,{class:cl,...immunityFilters,guideStatus:coverage}).champions;if(rarity==='7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===true);if(rarity==='not-7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===false);cs.sort((a,b)=>a.name.localeCompare(b.name));$('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions · showing ${Math.min(shown,cs.length)}`;$('#champ-results').innerHTML=cs.length?cs.slice(0,shown).map(c=>championCard(db,c,immunityFilters)).join(''):'<div class="empty"><h3>No champions match these filters.</h3><p>Try another effect, form or activation setting, or clear other filters. Reviewed coverage is incomplete; no result does not mean no immunity exists.</p></div>';more.hidden=shown>=cs.length;const p=new URLSearchParams();if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(form)p.set('form',form);if(activation!=='always')p.set('activation',activation);if(coverage)p.set('guide',coverage);if(rarity)p.set('rarity',rarity);history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));syncSaved();};
   more.onclick=()=>{shown+=24;render();};
   ['#champ-query','#class-filter','#immune-filter','#immunity-form','#immunity-activation','#coverage-filter','#rarity-filter'].forEach(id=>$(id).addEventListener('input',()=>{shown=24;render();}));render();
  }
@@ -109,7 +109,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.ffc56c51ace261f8.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.2b4311202f66b132.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 

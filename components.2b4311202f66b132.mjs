@@ -1,9 +1,10 @@
-import {matchingProtections,protectionFilterActive,protectionLabel,protectionRecords} from './protections.ffc56c51ace261f8.mjs';
-import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.ffc56c51ace261f8.mjs';
-import {requirementCheck} from './roster.ffc56c51ace261f8.mjs';
-import {escapeHtml as e,names,getCounters} from './domain.ffc56c51ace261f8.mjs';
-import {counterMechanicSummary} from './counter-mechanics-ui.ffc56c51ace261f8.mjs';
-import {counterEvidenceLabel} from './counter-provenance.ffc56c51ace261f8.mjs';
+import {matchingProtections,protectionFilterActive,protectionLabel,protectionRecords} from './protections.2b4311202f66b132.mjs';
+import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.2b4311202f66b132.mjs';
+import {requirementCheck} from './roster.2b4311202f66b132.mjs';
+import {escapeHtml as e,names,getCounters} from './domain.2b4311202f66b132.mjs';
+import {counterMechanicSummary} from './counter-mechanics-ui.2b4311202f66b132.mjs';
+import {counterEvidenceLabel,counterEvidenceFacts} from './counter-provenance.2b4311202f66b132.mjs';
+import {guideStatusLabel} from './guide-status.2b4311202f66b132.mjs';
 
 export const badge=c=>`<span class="badge ${c.toLowerCase()}">${e(c)}</span>`;
 export const avatar=(c,large=false)=>`<span aria-hidden="true" class="avatar ${c.class?.toLowerCase()||'boss'} ${large?'large':''}">${e(c.initials||c.name.slice(0,2).toUpperCase())}</span>`;
@@ -17,7 +18,7 @@ export function protectionPanel(db,c){
 }
 
 export function championCard(db,c,filters={}){
- const coverage=c.coverage==='roster'?(c.referenceFacts?.status==='source-link-only'?'Kit guide pending':c.referenceFacts?'Source catalogue':'Guide pending'):'Detailed guide';
+ const coverage=guideStatusLabel(c);
  return `<article class="champion-card champion-card--${e(c.class?.toLowerCase()||'universal')}">
   <div class="champion-card-identity"><div class="card-top">${avatar(c)}<button class="save" data-save="${c.id}" aria-label="Save ${e(c.name)}" aria-pressed="false">☆</button></div>
   <div class="champion-card-title">${badge(c.class)}<h3><a href="/summoner-index/champions/${c.id}">${e(c.name)}</a></h3></div></div>
@@ -53,10 +54,13 @@ function buildRows(db,c){
 export function counterCard(db,c,owned){
  const a=db.champions.find(a=>a.id===c.attackerId);
  const confidence=counterConfidence(c,db);
+ const facts=counterEvidenceFacts(c,db);
+ const firstChecks=(c.conditions||[]).slice(0,2);
+ const evidencePanel=`<section class="counter-evidence-summary" aria-label="Recommendation evidence and limits"><div class="counter-evidence-meta"><span><strong>Evidence</strong> ${e(facts.evidenceType)} · ${facts.citedReferences} cited</span><span><strong>Editorial review date</strong> ${e(facts.lastSourceReview)}</span><span><strong>Game version</strong> ${e(facts.gameVersion)}</span></div><p><strong>Test status:</strong> ${e(facts.testStatus)}. ${e(facts.nodeStatus)}.</p>${firstChecks.length?`<div class="counter-preflight"><strong>Before choosing:</strong><ul>${firstChecks.map(x=>`<li>${e(x)}</li>`).join('')}</ul></div>`:''}<p class="muted">${e(facts.sourceCaution)}</p></section>`;
  const rows=buildRows(db,c);
  const ownership=owned?`<p class="ownership owned">Owned · ${e(requirementCheck(c,owned).message)}</p>`:owned===null?'<p class="ownership not-owned">Not in your roster</p>':'<p class="ownership"><a href="/summoner-index/roster">Add to My Roster to check requirements →</a></p>';
  return `<article class="counter-card"><div class="counter-head">${avatar(a)}<div><a href="/summoner-index/champions/${a.id}"><h3>${e(a.name)}</h3></a>${badge(a.class)}</div><span class="confidence-badge ${confidence.className}">${e(confidence.label)}</span></div>
- ${ownership}<section class="counter-glance" aria-label="Counter at a glance"><h4>At a glance</h4><div class="counter-glance-grid"><div><strong>Relevant utility</strong><div class="chips">${chips(names(db,'abilities',c.abilityIds).slice(0,4))||'<span class="muted">See detailed evidence</span>'}</div></div><div><strong>Game modes</strong><p>${e(names(db,'gameModes',c.modeIds).join(', ')||'Check matchup context')}</p></div><div><strong>Awakening</strong><p>${c.requirements?.awakened===true?'Required':c.requirements?.awakened===false?'Not required for recorded plan':'Not established'}</p></div><div><strong>Known signature minimum</strong><p>${Number.isInteger(c.requirements?.minSignature)?e(String(c.requirements.minSignature)):'Not established'}</p></div></div><p class="counter-glance-plan"><strong>Fight plan:</strong> ${e(c.strategy)}</p><p class="counter-glance-risk"><strong>Watch out:</strong> ${e(c.risks)}</p></section><details class="counter-context"><summary>Matchup rationale and conditions</summary><div class="chips">${chips(names(db,'gameModes',c.modeIds))}</div><p><strong>Proposed interaction:</strong> ${e(c.why)}</p>${counterMechanicSummary(db,c)}<div class="chips">${chips(names(db,'abilities',c.abilityIds))}</div>
+ ${ownership}${evidencePanel}<section class="counter-glance" aria-label="Counter at a glance"><h4>At a glance</h4><div class="counter-glance-grid"><div><strong>Relevant utility</strong><div class="chips">${chips(names(db,'abilities',c.abilityIds).slice(0,4))||'<span class="muted">See detailed evidence</span>'}</div></div><div><strong>Game modes</strong><p>${e(names(db,'gameModes',c.modeIds).join(', ')||'Check matchup context')}</p></div><div><strong>Awakening</strong><p>${c.requirements?.awakened===true?'Required':c.requirements?.awakened===false?'Not required for recorded plan':'Not established'}</p></div><div><strong>Known signature minimum</strong><p>${Number.isInteger(c.requirements?.minSignature)?e(String(c.requirements.minSignature)):'Not established'}</p></div></div><p class="counter-glance-plan"><strong>Fight plan:</strong> ${e(c.strategy)}</p><p class="counter-glance-risk"><strong>Watch out:</strong> ${e(c.risks)}</p></section><details class="counter-context"><summary>Matchup rationale and conditions</summary><div class="chips">${chips(names(db,'gameModes',c.modeIds))}</div><p><strong>Proposed interaction:</strong> ${e(c.why)}</p>${counterMechanicSummary(db,c)}<div class="chips">${chips(names(db,'abilities',c.abilityIds))}</div>
  <section class="counter-plan"><h4>Fight plan</h4><p>${e(c.strategy)}</p>${c.conditions?.length?`<h4>Check before choosing</h4><ul>${c.conditions.map(condition=>`<li>${e(condition)}</li>`).join('')}</ul>`:''}${rows.length?`<dl class="counter-build">${rows.map(([label,value])=>`<dt>${e(label)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`:''}<p class="risk"><strong>Watch out</strong> ${e(c.risks)}</p></section></details><details class="confidence-details"><summary>Why this confidence?</summary><p>${e(c.scoreReason)}</p><p class="muted">${e(c.review?.status||'community-sourced')}${c.review?.reviewedAt?' · sources reviewed '+e(c.review.reviewedAt):''}${c.review?.gameVersion?' · claimed game version '+e(c.review.gameVersion):''}</p><p class="muted counter-rights-pending">Source-linked editorial selection; current-client testing and independent expression/compilation review are not documented. A reference link is not a reuse license.</p></details>${sources(db,c.sourceIds)}</article>`;
 }
 

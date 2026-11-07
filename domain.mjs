@@ -24,6 +24,7 @@ export function search(db, query='', filters={}) {
   const immune=/\b(immune|immunity)\b/.test(text);
   const defense=/\bdefenders?\b/.test(text);
   const matches=db.champions.filter(c=>{
+    if(filters.guideStatus && c.guideStatus!==filters.guideStatus) return false;
     if(filters.coverage && c.coverage!==filters.coverage) return false;
     if(filters.class && c.class!==filters.class) return false;
     if(protectionFilterActive(filters) && !matchingProtections(c,{activation:'always',...filters}).length) return false;

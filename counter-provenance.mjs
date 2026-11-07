@@ -43,3 +43,23 @@ export function counterEvidenceLabel(c,db){
  if(ev.kindCounts.official>0)return {label:'Official source · matchup untested',className:'confidence-community'};
  return {label:'Source-linked option · untested',className:'confidence-limited'};
 }
+
+export function counterEvidenceFacts(counter,db){
+ const evidence=counterSourceEvidence(db,counter);
+ const review=counter.review||{};
+ const verified=evidence.recordedTest===true;
+ const type=evidence.kindCounts.communityReports?
+   'Player reports':evidence.kindCounts.official?
+   'Official mechanic reference':evidence.onlyCompilation?
+   'Compilation-based reference':'Source-linked kit reference';
+ return {
+  evidenceType: evidence.count?type:'No traceable source',
+  citedReferences:evidence.count,
+  lastSourceReview:/^\d{4}-\d{2}-\d{2}$/.test(review.reviewedAt||'')?review.reviewedAt:'Not documented',
+  gameVersion: typeof review.gameVersion==='string'&&review.gameVersion.trim()?review.gameVersion:'Not documented',
+  testStatus:verified?'Documented gameplay test':'No documented current-build combat test',
+  nodeStatus:verified?'Read the linked test evidence and node details':'Exact nodes and matchup outcome not independently verified',
+  sourceCaution:evidence.onlyCompilation?'Only compilation-style references on record; independently check the actual matchup.':
+   evidence.missing.length?'One or more cited references are unresolved.':'Linked sources describe mechanics or community observations, not guaranteed wins.'
+ };
+}

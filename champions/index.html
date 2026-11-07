@@ -1,168 +1,168 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Champion database | Summoner Index · MCOC</title><meta name="description" content="Search a curated MCOC champion collection by class, abilities and immunity conditions."><meta name="theme-color" content="#101315"><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://mcoc1all1.github.io/summoner-index/champions"><meta property="og:title" content="Champion database · Summoner Index"><meta property="og:description" content="Search a curated MCOC champion collection by class, abilities and immunity conditions."><meta property="og:url" content="https://mcoc1all1.github.io/summoner-index/champions"><meta property="og:type" content="website"><meta property="og:image" content="https://mcoc1all1.github.io/summoner-index/og.svg"><link rel="icon" href="/summoner-index/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/summoner-index/styles.ffc56c51ace261f8.css"><script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"Summoner Index","url":"https://mcoc1all1.github.io/summoner-index/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Summoner Index","item":"https://mcoc1all1.github.io/summoner-index/"},{"@type":"ListItem","position":2,"name":"Champion database","item":"https://mcoc1all1.github.io/summoner-index/champions"}]}]</script><script type="module" src="/summoner-index/app.ffc56c51ace261f8.mjs"></script><script type="module" src="/summoner-index/feedback.ffc56c51ace261f8.mjs"></script><link rel="stylesheet" href="/summoner-index/ux-cleanup.css"></head><body data-base="/summoner-index" data-page="/champions"><a class="skip" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="/summoner-index/"><b>S</b><span>SUMMONER INDEX<small>MCOC FIELDGUIDE</small></span></a><div class="nav-label">YOUR FIGHT, FIGURED OUT</div><nav aria-label="Main navigation"><a href="/summoner-index/events"><i aria-hidden="true">●</i>Events &amp; News</a><a href="/summoner-index/" ><i aria-hidden="true">◈</i>Home</a><a href="/summoner-index/counters" ><i aria-hidden="true">⌖</i>Counter Finder</a><a href="/summoner-index/champions" class="active" aria-current="page"><i aria-hidden="true">▦</i>Champions</a><a href="/summoner-index/guides" ><i aria-hidden="true">▤</i>Guides</a><a href="/summoner-index/roster" ><i aria-hidden="true">◇</i>My Roster</a><a href="/summoner-index/tools" ><i aria-hidden="true">⇄</i>Tools</a></nav><div class="sidebar-bottom"><strong><span class="status-dot"></span>Independent. Player-focused.</strong><p>A little preparation.<br>A better next fight.</p><a href="/summoner-index/methodology">Sources & methodology ↗</a></div></aside><div class="app"><header class="topbar"><a class="brand mobile-brand" href="/summoner-index/"><b>S</b>SUMMONER INDEX</a><form class="search-form" action="/summoner-index/search" role="search"><input type="search" name="q" aria-label="Search champions, counters and immunities" placeholder="Search champions, counters, immunities…" autocomplete="off"><button aria-label="Search">⌕</button></form><small><span class="status-dot"></span>EXPANDED ROSTER · V0.3</small></header><main id="main" tabindex="-1"><p class="beta-bar"><strong>Public beta</strong> <a href="/summoner-index/methodology">How recommendations are sourced →</a></p><div class="hero"><div><span class="eyebrow">THE CHAMPION DATABASE</span><h1>Find the right toolkit.</h1><p>Search by name, class, ability or immunity. Browse the expanded roster. Use the coverage filter to separate detailed guides from profiles still awaiting individual research. Ability search uses individually structured utility labels; community kit reference lists are linked externally rather than mirrored here. Immunity filters use reviewed and explicitly scoped data.</p></div></div><div class="toolbar"><div class="field"><label for="champ-query">Champion or utility</label><input id="champ-query" type="search" placeholder="Name, ability, tag…"></div><div class="field"><label for="class-filter">Class</label><select id="class-filter"><option value="">All classes</option><option>Cosmic</option><option>Tech</option><option>Mutant</option><option>Skill</option><option>Science</option><option>Mystic</option><option>Universal</option></select></div><div class="field"><label for="immune-filter">Immunity effect</label><select id="immune-filter"><option value="">All immunities</option><option value="ability-accuracy-reduction">Ability Accuracy Reduction</option><option value="armor-break">Armor Break</option><option value="armor-shatter">Armor Shatter</option><option value="bad-vibes">Bad Vibes</option><option value="bleed">Bleed</option><option value="buff">Buff</option><option value="coldsnap">Coldsnap</option><option value="concussion">Concussion</option><option value="crush">Crush</option><option value="death">Death</option><option value="delirium">Delirium</option><option value="disintegration">Disintegration</option><option value="disorient">Disorient</option><option value="exhaustion">Exhaustion</option><option value="falter">Falter</option><option value="fate-seal">Fate Seal</option><option value="fatigue">Fatigue</option><option value="frostbite">Frostbite</option><option value="heal-block">Heal Block</option><option value="incinerate">Incinerate</option><option value="infuriate">Infuriate</option><option value="intimidate">Intimidate</option><option value="neuroshock">Neuroshock</option><option value="neutralize">Neutralize</option><option value="nova-flame">Nova Flame</option><option value="nullify">Nullify</option><option value="petrify">Petrify</option><option value="poison">Poison</option><option value="power-burn">Power Burn</option><option value="power-drain">Power Drain</option><option value="power-lock">Power Lock</option><option value="power-steal">Power Steal</option><option value="power-sting">Power Sting</option><option value="precision">Precision</option><option value="regen-rate-mod">Regen Rate Modification</option><option value="reversed-controls">Reversed Controls</option><option value="rupture">Rupture</option><option value="shock">Shock</option><option value="slow">Slow</option><option value="special-lock">Special Lock</option><option value="spectre">Spectre</option><option value="stagger">Stagger</option><option value="stun">Stun</option><option value="taunt">Taunt</option><option value="wither">Wither</option></select></div><div class="field"><label for="immunity-form">Effect form</label><select id="immunity-form"><option value="">Any form · includes unreviewed</option><option value="debuff">Debuffs</option><option value="passive">Passives</option><option value="effect">Other effects</option></select></div><div class="field"><label for="immunity-activation">When immunity applies</label><select id="immunity-activation"><option value="always">Always active</option><option value="conditional">Conditional</option><option value="either">Always or conditional</option></select></div></div><details class="notice compact-disclosure"><summary>Advanced immunity filters · beta</summary><p>Effect-form and activation filters only include explicitly reviewed records. Missing results do not prove a champion lacks protection. Resistance, Purify and Cleanse are separate mechanics.</p></details><div class="field"><label for="coverage-filter">Content coverage</label><select id="coverage-filter"><option value="">All entries</option><option value="curated">Curated guides</option><option value="roster">Detailed guide pending</option></select></div><p id="champ-count" class="result-count" role="status">334 champions</p><div id="champ-results" class="champion-grid"><article class="champion-card champion-card--science">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Champion database | Summoner Index · MCOC</title><meta name="description" content="Search a curated MCOC champion collection by class, abilities and immunity conditions."><meta name="theme-color" content="#101315"><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://mcoc1all1.github.io/summoner-index/champions"><meta property="og:title" content="Champion database · Summoner Index"><meta property="og:description" content="Search a curated MCOC champion collection by class, abilities and immunity conditions."><meta property="og:url" content="https://mcoc1all1.github.io/summoner-index/champions"><meta property="og:type" content="website"><meta property="og:image" content="https://mcoc1all1.github.io/summoner-index/og.svg"><link rel="icon" href="/summoner-index/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/summoner-index/styles.2b4311202f66b132.css"><script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebSite","name":"Summoner Index","url":"https://mcoc1all1.github.io/summoner-index/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Summoner Index","item":"https://mcoc1all1.github.io/summoner-index/"},{"@type":"ListItem","position":2,"name":"Champion database","item":"https://mcoc1all1.github.io/summoner-index/champions"}]}]</script><script type="module" src="/summoner-index/app.2b4311202f66b132.mjs"></script><script type="module" src="/summoner-index/feedback.2b4311202f66b132.mjs"></script><link rel="stylesheet" href="/summoner-index/ux-cleanup.css"></head><body data-base="/summoner-index" data-page="/champions"><a class="skip" href="#main">Skip to content</a><aside class="sidebar"><a class="brand" href="/summoner-index/"><b>S</b><span>SUMMONER INDEX<small>MCOC FIELDGUIDE</small></span></a><div class="nav-label">YOUR FIGHT, FIGURED OUT</div><nav aria-label="Main navigation"><a href="/summoner-index/events"><i aria-hidden="true">●</i>Events &amp; News</a><a href="/summoner-index/" ><i aria-hidden="true">◈</i>Home</a><a href="/summoner-index/counters" ><i aria-hidden="true">⌖</i>Counter Finder</a><a href="/summoner-index/champions" class="active" aria-current="page"><i aria-hidden="true">▦</i>Champions</a><a href="/summoner-index/guides" ><i aria-hidden="true">▤</i>Guides</a><a href="/summoner-index/roster" ><i aria-hidden="true">◇</i>My Roster</a><a href="/summoner-index/tools" ><i aria-hidden="true">⇄</i>Tools</a></nav><div class="sidebar-bottom"><strong><span class="status-dot"></span>Independent. Player-focused.</strong><p>A little preparation.<br>A better next fight.</p><a href="/summoner-index/methodology">Sources & methodology ↗</a></div></aside><div class="app"><header class="topbar"><a class="brand mobile-brand" href="/summoner-index/"><b>S</b>SUMMONER INDEX</a><form class="search-form" action="/summoner-index/search" role="search"><input type="search" name="q" aria-label="Search champions, counters and immunities" placeholder="Search champions, counters, immunities…" autocomplete="off"><button aria-label="Search">⌕</button></form><small><span class="status-dot"></span>EXPANDED ROSTER · V0.3</small></header><main id="main" tabindex="-1"><p class="beta-bar"><strong>Public beta</strong> <a href="/summoner-index/methodology">How recommendations are sourced →</a></p><div class="hero"><div><span class="eyebrow">THE CHAMPION DATABASE</span><h1>Find the right toolkit.</h1><p>Search by name, class, ability or immunity. Browse the expanded roster. Filter individually authored tactical drafts, curated profiles and research holds; all combat plans still need current-client testing. Ability search uses individually structured utility labels; community kit reference lists are linked externally rather than mirrored here. Immunity filters use reviewed and explicitly scoped data.</p></div></div><div class="toolbar"><div class="field"><label for="champ-query">Champion or utility</label><input id="champ-query" type="search" placeholder="Name, ability, tag…"></div><div class="field"><label for="class-filter">Class</label><select id="class-filter"><option value="">All classes</option><option>Cosmic</option><option>Tech</option><option>Mutant</option><option>Skill</option><option>Science</option><option>Mystic</option><option>Universal</option></select></div><div class="field"><label for="immune-filter">Immunity effect</label><select id="immune-filter"><option value="">All immunities</option><option value="ability-accuracy-reduction">Ability Accuracy Reduction</option><option value="armor-break">Armor Break</option><option value="armor-shatter">Armor Shatter</option><option value="bad-vibes">Bad Vibes</option><option value="bleed">Bleed</option><option value="buff">Buff</option><option value="coldsnap">Coldsnap</option><option value="concussion">Concussion</option><option value="crush">Crush</option><option value="death">Death</option><option value="delirium">Delirium</option><option value="disintegration">Disintegration</option><option value="disorient">Disorient</option><option value="exhaustion">Exhaustion</option><option value="falter">Falter</option><option value="fate-seal">Fate Seal</option><option value="fatigue">Fatigue</option><option value="frostbite">Frostbite</option><option value="heal-block">Heal Block</option><option value="incinerate">Incinerate</option><option value="infuriate">Infuriate</option><option value="intimidate">Intimidate</option><option value="neuroshock">Neuroshock</option><option value="neutralize">Neutralize</option><option value="nova-flame">Nova Flame</option><option value="nullify">Nullify</option><option value="petrify">Petrify</option><option value="poison">Poison</option><option value="power-burn">Power Burn</option><option value="power-drain">Power Drain</option><option value="power-lock">Power Lock</option><option value="power-steal">Power Steal</option><option value="power-sting">Power Sting</option><option value="precision">Precision</option><option value="regen-rate-mod">Regen Rate Modification</option><option value="reversed-controls">Reversed Controls</option><option value="rupture">Rupture</option><option value="shock">Shock</option><option value="slow">Slow</option><option value="special-lock">Special Lock</option><option value="spectre">Spectre</option><option value="stagger">Stagger</option><option value="stun">Stun</option><option value="taunt">Taunt</option><option value="wither">Wither</option></select></div><div class="field"><label for="immunity-form">Effect form</label><select id="immunity-form"><option value="">Any form · includes unreviewed</option><option value="debuff">Debuffs</option><option value="passive">Passives</option><option value="effect">Other effects</option></select></div><div class="field"><label for="immunity-activation">When immunity applies</label><select id="immunity-activation"><option value="always">Always active</option><option value="conditional">Conditional</option><option value="either">Always or conditional</option></select></div></div><details class="notice compact-disclosure"><summary>Advanced immunity filters · beta</summary><p>Effect-form and activation filters only include explicitly reviewed records. Missing results do not prove a champion lacks protection. Resistance, Purify and Cleanse are separate mechanics.</p></details><div class="field"><label for="coverage-filter">Guide editorial status</label><select id="coverage-filter"><option value="">All entries</option><option value="authored">Tactical drafts</option><option value="curated">Curated profiles</option><option value="held">Research holds</option></select></div><p id="champ-count" class="result-count" role="status">334 champions</p><div id="champ-results" class="champion-grid"><article class="champion-card champion-card--science">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar science ">A</span><button class="save" data-save="abomination" aria-label="Save Abomination" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge science">Science</span><h3><a href="/summoner-index/champions/abomination">Abomination</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Detailed guide</small>
+  <small class="coverage-label">Not listed as 7★ · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Use Fury-backed attacks and awakened contact Poison in susceptible matchups.</p>
   <div class="chips"><span class="chip">Poison</span><span class="chip">Fury</span></div>
   
   <a class="card-link" href="/summoner-index/champions/abomination">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--science">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar science ">AI</span><button class="save" data-save="abomination-immortal" aria-label="Save Abomination (Immortal)" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge science">Science</span><h3><a href="/summoner-index/champions/abomination-immortal">Abomination (Immortal)</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Feed Toxic Aura with self-Poisons to trigger Acid Burn.</p>
   <div class="chips"><span class="chip">Poison</span><span class="chip">Petrify</span></div>
   
   <a class="card-link" href="/summoner-index/champions/abomination-immortal">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mystic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mystic ">AM</span><button class="save" data-save="absorbing-man" aria-label="Save Absorbing Man" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mystic">Mystic</span><h3><a href="/summoner-index/champions/absorbing-man">Absorbing Man</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Curated profile · not gameplay tested</small>
   <p class="champion-card-summary">Two forms trade damage types, resistance and conditional immunities.</p>
   <div class="chips"><span class="chip">Form switching</span><span class="chip">Regeneration</span></div>
   
   <a class="card-link" href="/summoner-index/champions/absorbing-man">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--cosmic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar cosmic ">AW</span><button class="save" data-save="adam-warlock" aria-label="Save Adam Warlock" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge cosmic">Cosmic</span><h3><a href="/summoner-index/champions/adam-warlock">Adam Warlock</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Maintain Sovereignty pressure to turn short buffs into lasting Fury.</p>
   <div class="chips"><span class="chip">Fury</span><span class="chip">Unblockable</span></div>
   
   <a class="card-link" href="/summoner-index/champions/adam-warlock">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--skill">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar skill ">A</span><button class="save" data-save="aegon" aria-label="Save Aegon" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge skill">Skill</span><h3><a href="/summoner-index/champions/aegon">Aegon</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Detailed guide</small>
+  <small class="coverage-label">Not listed as 7★ · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Preserve combo across a quest to unlock progressively stronger critical-hit utility.</p>
   <div class="chips"><span class="chip">Combo Shield</span><span class="chip">Fury</span></div>
   
   <a class="card-link" href="/summoner-index/champions/aegon">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mystic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mystic ">AH</span><button class="save" data-save="agatha-harkness" aria-label="Save Agatha Harkness" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mystic">Mystic</span><h3><a href="/summoner-index/champions/agatha-harkness">Agatha Harkness</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Fight inside Rune Prison to accelerate empowered specials.</p>
   <div class="chips"><span class="chip">Atrophy</span><span class="chip">Power Steal</span></div>
   
   <a class="card-link" href="/summoner-index/champions/agatha-harkness">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--skill">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar skill ">AV</span><button class="save" data-save="agent-venom" aria-label="Save Agent Venom" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge skill">Skill</span><h3><a href="/summoner-index/champions/agent-venom">Agent Venom</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Detailed guide</small>
+  <small class="coverage-label">Not listed as 7★ · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Spend power on Bleed opportunities while preserving awakened Klyntar Rage.</p>
   <div class="chips"><span class="chip">Purify</span><span class="chip">Bleed</span></div>
   
   <a class="card-link" href="/summoner-index/champions/agent-venom">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--cosmic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar cosmic ">AW</span><button class="save" data-save="air-walker" aria-label="Save Air-Walker" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge cosmic">Cosmic</span><h3><a href="/summoner-index/champions/air-walker">Air-Walker</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Detailed guide</small>
+  <small class="coverage-label">Not listed as 7★ · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Build Dark Tide before converting the setup into Special 2 damage.</p>
   <div class="chips"><span class="chip">Armor Break</span><span class="chip">Power Gain</span></div>
   
   <a class="card-link" href="/summoner-index/champions/air-walker">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mystic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mystic ">AC</span><button class="save" data-save="america-chavez" aria-label="Save America Chavez" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mystic">Mystic</span><h3><a href="/summoner-index/champions/america-chavez">America Chavez</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Select dimensions by heavy-hit timing, then tailor the special payoff.</p>
   <div class="chips"><span class="chip">Power control</span><span class="chip">Regeneration</span></div>
   
   <a class="card-link" href="/summoner-index/champions/america-chavez">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--cosmic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar cosmic ">A</span><button class="save" data-save="angela" aria-label="Save Angela" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge cosmic">Cosmic</span><h3><a href="/summoner-index/champions/angela">Angela</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Manage power levels to collect Huntress buffs and strengthen specials.</p>
   <div class="chips"><span class="chip">Armor Break</span><span class="chip">Fury</span></div>
   
   <a class="card-link" href="/summoner-index/champions/angela">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--cosmic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar cosmic ">A</span><button class="save" data-save="annihilus" aria-label="Save Annihilus" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge cosmic">Cosmic</span><h3><a href="/summoner-index/champions/annihilus">Annihilus</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Detailed guide</small>
+  <small class="coverage-label">Not listed as 7★ · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Accumulate Stifle and convert it into a damaging Fury window.</p>
   <div class="chips"><span class="chip">Stifle</span><span class="chip">Armor Break</span></div>
   
   <a class="card-link" href="/summoner-index/champions/annihilus">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--science">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar science ">AM</span><button class="save" data-save="ant-man" aria-label="Save Ant-Man" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge science">Science</span><h3><a href="/summoner-index/champions/ant-man">Ant-Man</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Build Pym Particles and Fatigue before converting them into damage.</p>
   <div class="chips"><span class="chip">Power Sting</span><span class="chip">Fatigue</span></div>
   
   <a class="card-link" href="/summoner-index/champions/ant-man">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--tech">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar tech ">AM</span><button class="save" data-save="ant-man-future" aria-label="Save Ant-Man (Future)" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge tech">Tech</span><h3><a href="/summoner-index/champions/ant-man-future">Ant-Man (Future)</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Build Nano-Armor and time burst damage around Power Detonation.</p>
   <div class="chips"><span class="chip">Armor Up</span><span class="chip">Disintegration</span></div>
   
   <a class="card-link" href="/summoner-index/champions/ant-man-future">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--science">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar science ">AV</span><button class="save" data-save="anti-venom" aria-label="Save Anti-Venom" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge science">Science</span><h3><a href="/summoner-index/champions/anti-venom">Anti-Venom</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Select Genetic Memory debuffs before cashing them into Fury.</p>
   <div class="chips"><span class="chip">Spectre</span><span class="chip">Disorient</span></div>
   
   <a class="card-link" href="/summoner-index/champions/anti-venom">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mutant">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mutant ">A</span><button class="save" data-save="apocalypse" aria-label="Save Apocalypse" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mutant">Mutant</span><h3><a href="/summoner-index/champions/apocalypse">Apocalypse</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Curated profile · not gameplay tested</small>
   <p class="champion-card-summary">Genetic Code and Prowess support ramp-up; some immunities develop through exposure.</p>
   <div class="chips"><span class="chip">Genetic Code</span><span class="chip">Prowess</span></div>
   
   <a class="card-link" href="/summoner-index/champions/apocalypse">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--tech">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar tech ">A</span><button class="save" data-save="arcade" aria-label="Save Arcade" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge tech">Tech</span><h3><a href="/summoner-index/champions/arcade">Arcade</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Keep the opponent inside traps and build tokens to strengthen damage over time.</p>
   <div class="chips"><span class="chip">Poison</span><span class="chip">Shock</span></div>
   
   <a class="card-link" href="/summoner-index/champions/arcade">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mutant">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mutant ">AA</span><button class="save" data-save="archangel" aria-label="Save Archangel" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mutant">Mutant</span><h3><a href="/summoner-index/champions/archangel">Archangel</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Curated profile · not gameplay tested</small>
   <p class="champion-card-summary">Bleed and Poison combine into passive Neurotoxins.</p>
   <div class="chips"><span class="chip">Bleed</span><span class="chip">Poison</span></div>
   
   <a class="card-link" href="/summoner-index/champions/archangel">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--tech">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar tech ">AZ</span><button class="save" data-save="arnim-zola" aria-label="Save Arnim Zola" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge tech">Tech</span><h3><a href="/summoner-index/champions/arnim-zola">Arnim Zola</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Build Energize before converting it into Special 2 Disintegration.</p>
   <div class="chips"><span class="chip">Disintegration</span><span class="chip">Fury</span></div>
   
   <a class="card-link" href="/summoner-index/champions/arnim-zola">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--skill">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar skill ">A</span><button class="save" data-save="attuma" aria-label="Save Attuma" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge skill">Skill</span><h3><a href="/summoner-index/champions/attuma">Attuma</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Use personal Concussion to improve chances and build Hydration.</p>
   <div class="chips"><span class="chip">Hydration</span><span class="chip">Concussion</span></div>
   
   <a class="card-link" href="/summoner-index/champions/attuma">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--skill">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar skill ">BZ</span><button class="save" data-save="baron-zemo" aria-label="Save Baron Zemo" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge skill">Skill</span><h3><a href="/summoner-index/champions/baron-zemo">Baron Zemo</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Root the opponent to accumulate indefinite Bleeds.</p>
   <div class="chips"><span class="chip">Bleed</span><span class="chip">Cleanse</span></div>
   
   <a class="card-link" href="/summoner-index/champions/baron-zemo">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--tech">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar tech ">B</span><button class="save" data-save="bastion" aria-label="Save Bastion" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge tech">Tech</span><h3><a href="/summoner-index/champions/bastion">Bastion</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Build Virus charges into Infection, then amplify damage with Fury.</p>
   <div class="chips"><span class="chip">Disintegration</span><span class="chip">Fury</span></div>
   
   <a class="card-link" href="/summoner-index/champions/bastion">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mutant">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mutant ">B</span><button class="save" data-save="beast" aria-label="Save Beast" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mutant">Mutant</span><h3><a href="/summoner-index/champions/beast">Beast</a></h3></div></div>
-  <small class="coverage-label">Not listed as 7★ · Kit guide pending</small>
+  <small class="coverage-label">Not listed as 7★ · Research hold · guide withheld</small>
   <p class="champion-card-summary">November 2026 redesigned kit: combat rotations, utility conditions and investment advice require a fresh current-build review.</p>
   <div class="chips"></div>
   
   <a class="card-link" href="/summoner-index/champions/beast">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--cosmic">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar cosmic ">BR</span><button class="save" data-save="beta-ray-bill" aria-label="Save Beta Ray Bill" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge cosmic">Cosmic</span><h3><a href="/summoner-index/champions/beta-ray-bill">Beta Ray Bill</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Pause buffs, then time Shock expiration inside Special 1.</p>
   <div class="chips"><span class="chip">Shock</span><span class="chip">Intensify</span></div>
   
   <a class="card-link" href="/summoner-index/champions/beta-ray-bill">View champion <span aria-hidden="true">↗</span></a></article><article class="champion-card champion-card--mutant">
   <div class="champion-card-identity"><div class="card-top"><span aria-hidden="true" class="avatar mutant ">B</span><button class="save" data-save="bishop" aria-label="Save Bishop" aria-pressed="false">☆</button></div>
   <div class="champion-card-title"><span class="badge mutant">Mutant</span><h3><a href="/summoner-index/champions/bishop">Bishop</a></h3></div></div>
-  <small class="coverage-label">7★ available · Detailed guide</small>
+  <small class="coverage-label">7★ available · Tactical draft · not gameplay tested</small>
   <p class="champion-card-summary">Spend Prowess deliberately and account for power carried between quest fights.</p>
   <div class="chips"><span class="chip">Prowess</span><span class="chip">Incinerate</span></div>
   
