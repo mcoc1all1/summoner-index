@@ -12363,26 +12363,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Power Gain before the opener",
-            "text": "Before bringing Air-Walker into this fight, inspect Armor Break, Dark Tide and Power Gain in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Understand his quest ramp",
+            "text": "Air-Walker's Power Cosmic progression and Dark Tide pressure need a different plan in the first fight than after quest development. Inspect the actual starting charges and whether an earlier fight has provided persistent value before choosing the next opponent."
           },
           {
-            "title": "Develop Power Gain and monitor Armor Break",
-            "text": "The catalog identifies Power Gain as a potential power or control interaction for Air-Walker. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Armor Break separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Apply Dark Tide before expecting payoff",
+            "text": "Dark Tide can change the utility of later attacks. Confirm its application and duration against the current defender; one source-linked label does not establish that a full multi-step quest rotation has already been completed."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Air-Walker, the index highlights Power Gain alongside Armor Break, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Use specials according to progression",
+            "text": "His higher-power payoff can be tied to accumulated Power Cosmic context. If the present encounter has not met the requirement, favor a safe smaller special or a different attacker rather than forcing an unavailable SP3 plan."
           },
           {
-            "title": "Handle Power Gain failure conditions",
-            "text": "When Power Gain does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Avoid claiming fan-proposed kit buffs",
+            "text": "Several community posts suggest redesigned versions of his Dark Tide and Power Cosmic abilities. Treat those as suggestions, not live-game facts; check the current kit and target's immunity, and do not promise permanent Dark Tide without confirmation."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -28702,26 +28702,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Precision before the opener",
-            "text": "Before bringing Jabari Panther into this fight, inspect Bleed, Cleanse, Ensnare and Precision in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Set up a controlled Cleanse window",
+            "text": "Jabari Panther uses Cleanse and hunt-oriented pressure, but Cleanse is a conditional defensive resource rather than permanent immunity. Check whether the debuff can be removed and how many available Cleanse interactions remain before deliberately taking a hit."
           },
           {
-            "title": "Develop Precision and monitor Bleed",
-            "text": "Precision appears in Jabari Panther's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Bleed separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Build the hunt without trading",
+            "text": "Her attacks can create a sharper burst once the relevant Hunt state is active. Use safe recoveries to maintain momentum rather than committing to reckless intercepts merely to keep the timer going."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Jabari Panther, the index highlights Precision alongside Bleed, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Cash out the correct special",
+            "text": "Pick a Special Attack based on the current Hunt, Bleed and charge indicators. If the opponent is Bleed immune, do not assume the usual finishing damage will arrive; track direct damage and special safety separately."
           },
           {
-            "title": "Handle Precision failure conditions",
-            "text": "If Precision stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Know what Cleanse cannot fix",
+            "text": "Passive damage, debuff immunity nodes, anti-Purify interactions and defensive ability-accuracy rules can change the setup. A Cleanse label alone does not demonstrate a safe matchup, especially against multi-hit specials or opponents who ignore the expected Bleed."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -33046,26 +33046,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Poison before the opener",
-            "text": "Before bringing Man-Thing into this fight, inspect Armor Break, Nullify, Poison and Unstoppable in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Start from the updated Agitation mechanic",
+            "text": "Man-Thing's late-2026 changes adjust how Agitation is built, including value from Nullifying a Buff. Recheck the current kit instead of relying on older Fury or regeneration explanations; this update changes what a good opening looks like."
           },
           {
-            "title": "Develop Poison and monitor Armor Break",
-            "text": "For Man-Thing, Poison is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Armor Break separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Check the defender's buff supply",
+            "text": "His Nullify-centered plan needs eligible Buff interactions, not just a favorable class matchup. Confirm that the opponent can gain removable Buffs before committing to a long Agitation build; passive effects may not provide the same trigger."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Man-Thing, the index highlights Poison alongside Armor Break, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Choose the special with the active state",
+            "text": "Use a special during a reliable punish when the Agitation or personal damage effects you need are active. A fixed rotation from before the tune-up may waste the buildup; consider a short direct-damage punish when the node restricts Nullify."
           },
           {
-            "title": "Handle Poison failure conditions",
-            "text": "When the target blocks Poison through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. A structured Bleed protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Separate healing changes from safety",
+            "text": "The publisher changed the Signature Ability regeneration to a passive linked to missing health. Do not call that a permanent heal or an ordinary Regeneration Buff that behaves identically under every node; confirm signature status and the live wording."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -34294,26 +34294,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Precision before the opener",
-            "text": "Before bringing Misty Knight into this fight, inspect Armor Break, Coldsnap, Precision and Purify in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Check the cybernetic charge state",
+            "text": "Misty Knight develops specialized charge-based pressure involving her metal arm and cryogenic effects. Watch the actual charge and defensive icons before a heavy or special; the fight may not start with the same resources as an earlier matchup."
           },
           {
-            "title": "Develop Precision and monitor Coldsnap",
-            "text": "Precision appears in Misty Knight's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Coldsnap separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use Cold effects deliberately",
+            "text": "Crouching behind a generic Bleed or energy-damage tag misses her control options. Verify whether the opponent can receive the relevant Cold or Coldsnap effect and whether their Evade mechanics are actually affected before treating it as an anti-Evade solution."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Misty Knight, the index highlights Precision alongside Coldsnap, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Select a safe special conversion",
+            "text": "Spend power when the relevant charge state is developed and the defender is recovering. Against an opponent with repeated Purify, a shorter direct-hit plan may produce more value than saving meter for an effect that cannot remain active."
           },
           {
-            "title": "Handle Precision failure conditions",
-            "text": "If Precision stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Read defensive immunity separately",
+            "text": "Her defensive passives and cryogenic interactions do not grant blanket immunity to all incoming damage. Check the node's effect form, Armor Break and ability-accuracy restrictions, and do not assume every cybernetic effect works against all Robot champions."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -34536,26 +34536,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Power Gain before the opener",
-            "text": "Before bringing Mojo into this fight, inspect Degeneration, Nullify, Power Gain and Regeneration in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Read the active audience prompt",
+            "text": "Mojo rewards fulfilling the active prompt conditions, so the first decision is what the screen currently asks you to do. Avoid treating a previous fight's prompt as an instruction for this one, and do not chase a prompt during an unsafe Special Attack."
           },
           {
-            "title": "Develop Power Gain and monitor Degeneration",
-            "text": "The catalog identifies Power Gain as a potential power or control interaction for Mojo. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Degeneration separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Develop followers before cashing out",
+            "text": "The number and persistence of his followers change how much value he gets from a favorable exchange. Watch the active follower state and opponent buffs instead of assuming a short fight can reproduce a long-fight ramp."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Mojo, the index highlights Power Gain alongside Degeneration, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Use buff interactions as the matchup test",
+            "text": "Mojo can punish the defender's Buff behavior, but not all buffs are removable or available in every node. First determine whether the target gains ordinary Buffs or passives, then decide whether a special is worth spending on that interaction."
           },
           {
-            "title": "Handle Power Gain failure conditions",
-            "text": "When Power Gain does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Watch prompt conflicts and anti-Nullify",
+            "text": "Neutralize, Nullify immunity, buff denial and nodes that force awkward attack patterns can make his prompt cycle unreliable. Preserve safe defense over completing every prompt, and check whether any proposed synergy is actually present on the team."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -39560,26 +39560,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Armor Break before the opener",
-            "text": "Before bringing Punisher 2099 into this fight, inspect Armor Break, Disintegration and Heal Block in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Treat the Nano-Tech battery as a clock",
+            "text": "Punisher 2099's Battery recharges until Overdrive, where it becomes a limited combat window. Watch its meter independently of your own Special Attack bars; a premature Overdrive can expire before the desired damage and control opportunity."
           },
           {
-            "title": "Develop Armor Break and monitor Disintegration",
-            "text": "The recorded Armor Break mechanic may help Punisher 2099 access certain defenders, but the opposing ability, node restrictions, and trigger must be checked. Do not use this label alone as evidence that a difficult matchup is solved. Track Disintegration separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use the Heavy to control entry timing",
+            "text": "Under appropriate kit conditions, landing a Heavy can consume Battery and provide a Stun. Use this only during a genuine punish; holding Overdrive back for an SP2 setup is not worth getting intercepted by a Stun-immune defender."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Punisher 2099, the index highlights Armor Break alongside Disintegration, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Convert SP2 into controlled pressure",
+            "text": "An SP2 Armor Break and the Overdrive damage state can reinforce one another. Plan the first SP2 around current Battery and defender Armor immunity, then decide whether SP1's battery support is more useful than saving for another expensive special."
           },
           {
-            "title": "Handle Armor Break failure conditions",
-            "text": "If Armor Break cannot interact with this defender, do not force the risky matchup: check another attacker or a node-specific counter rather than relying on an ability keyword. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Do not call Overdrive a total power lock",
+            "text": "Overdrive heavily reduces the opponent's combat power rate but may not suppress other power sources or all rank/node modifiers. Monitor the actual power bar every combo and keep a safe bait window; Battery-based healing and Heal Block also require their own triggers."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -41553,26 +41553,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Fury before the opener",
-            "text": "Before bringing Sabretooth into this fight, inspect Bleed, Fury and Regeneration in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Build Fury for the quest length",
+            "text": "Sabretooth can develop Fury through his fighting rhythm and reward deliberate resource preservation across a longer quest. Count the current passive Fury effects before deciding whether a short fight is worth a setup-heavy plan."
           },
           {
-            "title": "Develop Fury and monitor Bleed",
-            "text": "Fury appears in Sabretooth's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Bleed separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use a Heavy during a real opening",
+            "text": "A safe Heavy can affect his Fury management and damage route. Avoid forcing one into an alert defender simply to maintain a long-term resource; use recovery from the defender's Heavy or Special Attack when available."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Sabretooth, the index highlights Fury alongside Bleed, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Watch persistent resources between fights",
+            "text": "The advantage of a multi-fight Sabretooth run is not the same as his opening state in an isolated duel. Inspect the persistent charge and Fury state before each new defender and adapt the special choice to the resources actually carried forward."
           },
           {
-            "title": "Handle Fury failure conditions",
-            "text": "If Fury stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. A structured Frostbite protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Confirm synergies and updated kit",
+            "text": "His stronger long-path interactions can rely on roster-specific partners, while opponent Purify or buff-related restrictions may change their value. The publisher announced a rebirth-era review; verify the current live kit before recommending old charge limits or synergy-dependent numbers."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -45982,26 +45982,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Exhaustion before the opener",
-            "text": "Before bringing Spider-Man 2099 into this fight, inspect Exhaustion, Rupture, Slow and Wither in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Keep Rupture and power linked",
+            "text": "Spider-Man 2099 applies Rupture through basic attacks, with additional burst opportunities connected to changes in the defender's power bars. Watch the opponent's meter before pushing another combo; the value of a Rupture stack depends on when the next power event occurs."
           },
           {
-            "title": "Develop Exhaustion and monitor Rupture",
-            "text": "The catalog identifies Exhaustion as a potential power or control interaction for Spider-Man 2099. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Rupture separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Use a buff attempt to extend debuffs",
+            "text": "Instead of receiving ordinary Buffs, Spider-Man 2099 pauses his personal Debuffs when he would gain one. A Dexterity dodge can help maintain the setup; check the pause icon and the available Resistance Up stacks rather than assuming every dash preserves all effects."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Spider-Man 2099, the index highlights Exhaustion alongside Rupture, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Build the SP2 around unique debuffs",
+            "text": "SP2 rewards the number of different Debuff types on the opponent and introduces Wither, which can alter Power Gain interactions. Set up Physical Vulnerability, Exhaustion or other available effects first only when safe; a high Rupture count alone is not the same as varied Debuff types."
           },
           {
-            "title": "Handle Exhaustion failure conditions",
-            "text": "When Exhaustion does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Do not force a Purify matchup",
+            "text": "Frequent Purify removes the debuffs that support his burst, while damage-over-time nodes can bypass his ordinary resistances. Verify whether the target actually permits Rupture and Wither, and remember that his personal avoidance is not immunity to an entire Special Attack."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
@@ -48452,26 +48452,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Power Gain before the opener",
-            "text": "Before bringing Terrax into this fight, inspect Armor Break, Indestructible and Power Gain in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Enter Rock Field with enough space",
+            "text": "Terrax's Rock Field applies close-range pressure but does not make every trade safe. Before starting it, control the defender's special bar and your position; backing yourself into a corner can lose much of the field's offensive value."
           },
           {
-            "title": "Develop Power Gain and monitor Armor Break",
-            "text": "The catalog identifies Power Gain as a potential power or control interaction for Terrax. Confirm the exact trigger and duration in the live kit; do not assume this mechanic stops every special or every source of power gain. Track Armor Break separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Manage Power Cosmic rather than rushing",
+            "text": "Power Cosmic and attack-charge interactions affect the longer fight. Inspect available charges before spending another special; trying to recreate a peak-field sequence without the resources can leave you exposed to an aggressive defender."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Terrax, the index highlights Power Gain alongside Armor Break, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Keep the defender inside the field",
+            "text": "Field pressure is strongest when the opponent remains within the relevant proximity. Use safe spacing and baiting rather than blindly dashing forward; the next Special Attack should come from a recovery window, not from chasing the opponent during its animation."
           },
           {
-            "title": "Handle Power Gain failure conditions",
-            "text": "When Power Gain does not control the defender under this node, bait a normal special and return to ordinary recovery punishes instead of taking damage while waiting for the missing effect. A structured Bleed protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Respect anti-buff and node damage",
+            "text": "Nullify, Neutralize, buff duration changes and node effects that punish power gain can disrupt the plan. Do not infer Poison immunity or extra Indestructible charges from community-proposed buffs; verify only effects that exist in the current live kit."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -49628,26 +49628,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Fury before the opener",
-            "text": "Before bringing The Overseer into this fight, inspect Disorient, Fury, Physical Vulnerability and Taunt in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Observe the opponent's power events",
+            "text": "The Overseer earns Gamma Power through power-related interactions. Watch his Gamma count and the defender's meter together; running directly to a Special Attack before enough Gamma Power is available can leave the next Cosmic Mode too short to be worthwhile."
           },
           {
-            "title": "Develop Fury and monitor Taunt",
-            "text": "Fury appears in The Overseer's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Taunt separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Enter Cosmic Mode at a useful moment",
+            "text": "An eligible Special Attack converts developed Gamma Power into Cosmic Mode, where Light attacks provide additional damage. Choose an opening that leaves room for more basic attacks and defensive movement instead of entering the mode immediately before an unavoidable opponent special."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For The Overseer, the index highlights Fury alongside Taunt, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Choose the special for the problem",
+            "text": "SP2 can provide Disorient, while the Cosmic Mode interaction can change power and damage planning. If the current node is more about safe recovery than ability-accuracy reduction, consider whether a shorter special route better preserves the mode's remaining time."
           },
           {
-            "title": "Handle Fury failure conditions",
-            "text": "If Fury stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. A structured Poison protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Separate immunity triggers from free charges",
+            "text": "An awakened Overseer can gain additional value when eligible immunity or ability-accuracy interactions occur, but that is conditional on the actual ability failing. Poison or Nullify immunity does not justify ignoring unrelated damage, and defensive Auto-Block is not guaranteed in every state."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -50605,26 +50605,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Prowess before the opener",
-            "text": "Before bringing Toad into this fight, inspect Poison, Prowess, Regeneration and Slow in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Count the Poison exposure",
+            "text": "Toad's Poison pressure rewards attention to which effects have actually landed and how long they remain active. Use safe basic-attack openings first rather than assuming that every defender can be poisoned or that a large damage outcome will arrive automatically."
           },
           {
-            "title": "Develop Prowess and monitor Poison",
-            "text": "Prowess appears in Toad's ability index as a potential buildup or payoff state. Check whether the current fight actually grants it and what action consumes it, rather than copying a fixed stack count from an older guide. Track Poison separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Track the passive and attack state",
+            "text": "His offensive damage and defensive retaliation can change with active personal states. Check the current ability text and stack indicators before attempting a riskier heavy or special conversion; older footage may show different values after the announced rebalance review."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For Toad, the index highlights Prowess alongside Poison, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Pick the special when the debuffs stick",
+            "text": "If the opponent is susceptible to Poison and keeps the stacks long enough, a special can capitalize on that state. Against fast Purify or Poison immunity, avoid spending a full two-bar setup on a damage-over-time payoff that cannot develop."
           },
           {
-            "title": "Handle Prowess failure conditions",
-            "text": "If Prowess stacks cannot be built or maintained, take the available safe special opening rather than prolonging the encounter for an unavailable theoretical maximum. A structured Poison protection is also listed; verify its availability, effect form and conditions instead of calling it unconditional immunity. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Treat 2026 rebalance details as version-sensitive",
+            "text": "The publisher named Toad among champions in a rebalance batch. Until the exact live-kit implementation is independently confirmed, do not present pre-update percentages, timers or fixed rotation counts as current facts. Bring a different matchup answer when Poison is denied."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
         {
@@ -52841,26 +52841,26 @@
         ],
         "decisions": [
           {
-            "title": "Check Rupture before the opener",
-            "text": "Before bringing War Machine into this fight, inspect Armor Break, Armor Up, Rupture and Suppression in the live kit and read the quest node. Start with one safe basic-attack punish and observe which listed mechanic actually activates. Treat this as a research-derived starting checklist, not a verified opening rotation."
+            "title": "Allocate prefight support before entry",
+            "text": "War Machine's prefight tools can alter a Tech teammate's value, so choose the intended target before committing to a quest path. Do not describe support options as automatically active on every ally or available again after the prefight has been consumed."
           },
           {
-            "title": "Develop Rupture and monitor Armor Break",
-            "text": "For War Machine, Rupture is a recorded damage interaction, but its damage form and stacking rules are not independently validated here. Check the defender for relevant immunity, Purify or resistance before trying to maintain uptime. Track Armor Break separately: the appearance of one ability does not prove that the second triggers on the same attack or persists for the same duration. Reset spacing before committing to another sequence."
+            "title": "Plan around Armor and Suppression",
+            "text": "His personal Armor Up and suppression-related effects create different defensive and control opportunities. Identify which buff or debuff is active before attacking into a difficult defender, rather than assuming a generic Tech champion has universal power control."
           },
           {
-            "title": "Choose a safe special payoff",
-            "text": "Choose an SP1, SP2 or SP3 only after checking the current meter, actual active effects and whether the defender has a safe punish window. For War Machine, the index highlights Rupture alongside Armor Break, but it does not demonstrate a validated special order or measured damage outcome. If the opponent is close to a dangerous special, bait that attack before attempting a longer payoff."
+            "title": "Use specials to establish the right state",
+            "text": "Choose a Special Attack based on whether the fight needs offensive pressure, suppression or a safer Armor-based approach. Verify the active charges and opening before launching; a delayed payoff is not helpful if the node immediately removes the required state."
           },
           {
-            "title": "Handle Rupture failure conditions",
-            "text": "When the target blocks Rupture through immunity, resistance or purification, prefer a shorter direct-hit route instead of holding power for an effect that never applies. No independently confirmed protection is established by this checklist; check incoming damage types before deliberately trading hits. Recheck the defender after a special, cleanse or node transition, and avoid treating this research draft as a guaranteed counter to a named champion."
+            "title": "Check energy threats and buff removal",
+            "text": "Armor suppression, Nullify and opponents immune to the planned Debuff can erase the intended support. Treat an Armor Up resource separately from immunity to passive damage, and validate the updated kit and prefight availability in the current client."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
-        "editorialDepth": "conditional-research-playbook-v1",
-        "depthVersion": "2026-11-07-conditional-source-limited",
-        "editorialWrittenAt": "2026-11-07"
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
+        "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
         "status": "verified",
