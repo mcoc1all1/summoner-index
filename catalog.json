@@ -10537,19 +10537,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Energy resistance in this encounter",
-            "text": "Havok is catalogued with Energy resistance. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Track Plasma before attacking into Armor",
+            "text": "Havok's Plasma Charge interactions and their timing are central to the matchup. Watch both champions' active charges and the defender's Armor Up effects before following an automatic special sequence."
           },
           {
-            "title": "Track Prowess before committing",
-            "text": "The catalogue also records Prowess for Havok. Watch for its actual trigger while also tracking Energy resistance; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Bank resources with spacing",
+            "text": "Keep the opponent at a manageable power level while Plasma effects develop. If a node accelerates special gain or restricts movement, favor clean bait-and-punish windows over attempting to wait for a perfect charge state."
           },
           {
-            "title": "Confirm Incinerate protection",
-            "text": "The structured records flag Incinerate protection for Havok. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Choose the special for current charges",
+            "text": "SP2 is most meaningful when its damage conditions are met, so inspect the resources and defender's energy resistance before spending power. If the charge state has been disrupted, rebuilding may beat a premature burst."
+          },
+          {
+            "title": "Respect armor and purification differences",
+            "text": "Armor Up, Plasma immunity, power-drain interactions and debuff or passive-effect restrictions do not all operate identically. Validate the current defender and node wording instead of treating Havok as a universal energy-damage answer."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -15459,19 +15465,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Blade's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Establish Bleed only when permitted",
+            "text": "Blade's offensive rhythm benefits from Bleed against eligible opponents. Verify the target's Bleed immunity and purification behavior before building the whole damage plan around repeated debuffs."
           },
           {
-            "title": "Track Danger Sense before committing",
-            "text": "The catalogue also records Danger Sense for Blade. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Preserve power for a useful special",
+            "text": "A safe special can help maintain his pressure, but spending power without a Bleed or Danger Sense opportunity may be inefficient. Bait the defender's special and choose the next action around the actual state."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Blade, look for opponent immunities, resistances and node effects that interrupt Bleed. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Check Danger Sense prerequisites",
+            "text": "Danger Sense requires the relevant opponent or team conditions; it is not a universal bonus against every defender. Confirm tags and synergy partners on the actual quest team before counting on the matchup advantage."
+          },
+          {
+            "title": "Treat regeneration as a tradeoff",
+            "text": "Blade's recovery has resource and timing constraints. Holding Block to recover can give the opponent space and power, so use it in a controlled window rather than presenting it as free healing during an unsafe node."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -19675,19 +19687,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Nullify in this encounter",
-            "text": "Diablo is catalogued with Nullify. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Plan the potion setup early",
+            "text": "Diablo's utility depends on his potion and philosopher's-mixture mechanics. Confirm the active mixture and its remaining duration before relying on a special or a defensive interaction that needs an established resource."
           },
           {
-            "title": "Track Poison before committing",
-            "text": "The catalogue also records Poison for Diablo. Watch for its actual trigger while also tracking Nullify; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Choose healing or damage by matchup",
+            "text": "His Poison-focused damage can be attractive against susceptible opponents, but immune or purifying defenders change the tradeoff. Prioritize survival and an appropriate mixture rather than pushing a Poison sequence that cannot stick."
           },
           {
-            "title": "Confirm Armor Break protection",
-            "text": "The structured records flag Armor Break protection for Diablo. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Wait for a real conversion window",
+            "text": "Watch the active potion state before launching a special and make sure the defender's next attack is manageable. If the timer is nearly over, a safe shorter punish may deliver more value than a late idealized burst."
+          },
+          {
+            "title": "Beware of nullification and poison limits",
+            "text": "Poison immunity, Purify, buff control and nodes that shorten or block effects can defeat the planned loop. Recheck the actual mixture and debuff indicators every cycle, particularly after a special or power-drain event."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -21498,19 +21516,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Coldsnap in this encounter",
-            "text": "The current research index lists Coldsnap among Elsa Bloodstone's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Keep the opponent's status in view",
+            "text": "Elsa's skill kit can reward specific opponent debuff and defensive conditions. Check which debuffs and ammunition-related effects are active rather than assuming each basic combo creates the same damage state."
           },
           {
-            "title": "Track Evade before committing",
-            "text": "The catalogue also records Evade for Elsa Bloodstone. Watch for its actual trigger while also tracking Coldsnap; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use clean spacing for the opening",
+            "text": "Her attacks can pressure opponents while preserving distance, but an aggressive defender can still intercept a predictable dash. Keep room to bait specials and use a reliable recovery punish before committing to longer sequences."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Elsa Bloodstone, look for opponent immunities, resistances and node effects that interrupt Coldsnap. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Choose which special fits the fight",
+            "text": "Different specials can serve different damage and control purposes depending on the current debuff state. Check whether the defender can be affected by the intended effects before spending power on a fixed rotation."
+          },
+          {
+            "title": "Avoid blanket immunity claims",
+            "text": "Purify, debuff immunity and ability-accuracy effects may change Elsa's interactions with the defender. Read current kit language and node effects before assuming her class or a single damage tag guarantees a favorable matchup."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -26182,19 +26206,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Hulkbuster is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Develop Armor before risky trades",
+            "text": "Hulkbuster's Armor Up effects can matter for both defense and offense. Check the present Armor state and an opponent's Armor Break or Nullify tools before deciding that a blocked attack is an acceptable trade."
           },
           {
-            "title": "Track Armor Up before committing",
-            "text": "The catalogue also records Armor Up for Hulkbuster. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use control when power threatens",
+            "text": "His kit can interfere with the defender's power under specific circumstances. Verify which special and trigger applies in the current build, then choose a safe punish rather than assuming every contact drains power."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Hulkbuster, look for opponent immunities, resistances and node effects that interrupt Armor Break. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Time the special with Armor active",
+            "text": "A developed Armor state can change the damage available through a special. Keep track of the defender's energy resistance and the node's power rules; do not force a burst if the next opening will be interrupted."
+          },
+          {
+            "title": "Check for armor disruption",
+            "text": "Armor Break, Armor Shatter, buff prevention and ability accuracy reduction can undo the expected payoff. Rebuild or switch to ordinary attacks when the necessary defensive buff is unavailable, especially in longer encounters."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -31217,19 +31247,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Concussion in this encounter",
-            "text": "Luke Cage is catalogued with Concussion. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Protect the Indestructible window",
+            "text": "Luke Cage's Indestructible effect has specific activation and recovery rules. Confirm the icon before taking a risky interaction; a defensive ability that is cooling down should never be treated as guaranteed protection."
           },
           {
-            "title": "Track Debilitate before committing",
-            "text": "The catalogue also records Debilitate for Luke Cage. Watch for its actual trigger while also tracking Concussion; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build Exhaustion through safe contact",
+            "text": "His Exhaustion effects are useful when an opponent's damage or power-related mechanics respond to them. Use safe basic openings to see whether the debuffs apply instead of assuming the defender is vulnerable from its class alone."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Luke Cage. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Use specials when they preserve pressure",
+            "text": "Choose a Special Attack according to the current Exhaustion and debuff state, and leave enough distance for the next punish. If the defender can shrug off debuffs, direct hit damage may be more reliable than an extended setup."
+          },
+          {
+            "title": "Distinguish immunity from armor",
+            "text": "Luke Cage's Bleed protection does not mean every damaging effect is harmless, and Indestructible does not solve every node interaction. Check the damage type and any buff-removal restrictions before committing to a long trade."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -41589,19 +41625,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Sentinel is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Build Analysis with safe contact",
+            "text": "Sentinel's Analysis charges reward repeatable interactions, but building them without managing the opponent's power can be costly. Use predictable punishes and inspect the Analysis count rather than blindly extending a combo."
           },
           {
-            "title": "Track Heal Block before committing",
-            "text": "The catalogue also records Heal Block for Sentinel. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use a special for the available matchup",
+            "text": "His Special Attacks offer different debuff and damage opportunities. Check the defender's immunity before choosing a familiar Incinerate or Shock plan, and make sure the chosen special is safe to finish."
           },
           {
-            "title": "Confirm Bleed protection",
-            "text": "The structured records flag Bleed protection for Sentinel. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Exploit the completed Analysis state",
+            "text": "The value of a developed Analysis stack can change offensive and defensive decisions. Verify the visible state and relevant ability text before attempting a heavy or special payoff that assumes the stack is complete."
+          },
+          {
+            "title": "Don't rely on Robot tags alone",
+            "text": "Sentinel's Robot identity does not guarantee immunity to every node-generated effect. Read whether the encounter uses passive damage, armor removal, heal prevention or a debuff before depending on a generic technology matchup."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -43337,19 +43379,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Aptitude in this encounter",
-            "text": "Silver Surfer is catalogued with Aptitude. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Develop his phase buffs deliberately",
+            "text": "Silver Surfer cycles through different phase-associated buffs. Check which phase and buff are active before launching a special, because a rotation that ignores the cycle may spend power without its intended benefit."
           },
           {
-            "title": "Track Armor Break before committing",
-            "text": "The catalogue also records Armor Break for Silver Surfer. Watch for its actual trigger while also tracking Aptitude; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use controlled heavy opportunities",
+            "text": "A heavy during a safe recovery can help manage his buff sequence. Don't attempt to force that action in an aggressive node just to align the ideal phase; protect the next special window first."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Silver Surfer, look for opponent immunities, resistances and node effects that interrupt Aptitude. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Match damage to the defender",
+            "text": "His burst depends on available buffs and the target's resistance to the relevant effects. Check whether the fight favors sustained attacks or a timed special, and avoid claiming universal effectiveness from buff count alone."
+          },
+          {
+            "title": "Respect Nullify and buff denial",
+            "text": "Neutralize, Nullify, Stagger and buff immunity can remove the resources the plan assumes. Verify whether the protection or resistance is tied to an active buff instead of assuming Silver Surfer can ignore all damaging nodes."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -45626,19 +45674,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Physical Vulnerability in this encounter",
-            "text": "Spot is catalogued with Physical Vulnerability. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Build Spots without rushing",
+            "text": "Spot gains offensive opportunities through his Spot and portal-related states. Start with ordinary controlled exchanges and verify the visible Spot count before attempting a riskier heavy or special sequence near the wall."
           },
           {
-            "title": "Track Rupture before committing",
-            "text": "The catalogue also records Rupture for Spot. Watch for its actual trigger while also tracking Physical Vulnerability; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Turn Untouchable into positioning",
+            "text": "Untouchable provides a chance to avoid selected contact under its actual rules, not a blanket defense against every attack. Use the window to regain distance and confirm the defender has no anti-Miss answer before relying on it."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Spot, look for opponent immunities, resistances and node effects that interrupt Physical Vulnerability. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Choose when to spend the setup",
+            "text": "His special payoff depends on the relevant Spot state and its duration. If the defender is already holding dangerous power, bait an attack first rather than cashing out an ideal stack at the cost of an unsafe intercept."
+          },
+          {
+            "title": "Check portal and damage restrictions",
+            "text": "Anti-Miss effects, ability-accuracy modification, and nodes that punish state buildup can frustrate the plan. Recheck the count after each exchange and avoid assuming a setup from the previous fight carries into this encounter."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -46090,19 +46144,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Precision in this encounter",
-            "text": "Storm is catalogued with Precision. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Identify the version and prowess rules",
+            "text": "Storm's effectiveness depends on which version and ability text the current profile represents. Confirm how Prowess is earned and retained before entering a long chain; don't import a rotation from an alternate Storm champion."
           },
           {
-            "title": "Track Prowess before committing",
-            "text": "The catalogue also records Prowess for Storm. Watch for its actual trigger while also tracking Precision; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Build a safe special opportunity",
+            "text": "Use reliable basic-attack punishes while tracking active Prowess rather than chasing an arbitrary maximum count. If a defender is about to reach a difficult special, prioritize baiting it over extending an idealized setup."
           },
           {
-            "title": "Confirm Shock protection",
-            "text": "The structured records flag Shock protection for Storm. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Spend Prowess for an appropriate burst",
+            "text": "Select the special according to the current Prowess state and the target's Shock or stun resistance where relevant. A direct-damage window is worth more than a theoretical high stack if you cannot finish the sequence safely."
+          },
+          {
+            "title": "Plan around control restrictions",
+            "text": "Shock immunity, stun immunity, purify and ability-accuracy modifiers can remove parts of Storm's utility. Check whether the actual kit effect is a passive or debuff before relying on the same interaction in every node."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
@@ -46929,19 +46989,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Armor Break in this encounter",
-            "text": "Symbiote Supreme is catalogued with Armor Break. Confirm what action triggers it in the current champion version, then check whether the active quest node changes that interaction. Choose a repeatable safe opening based on what you see rather than assuming a copied rotation fits this encounter."
+            "title": "Track the blessing phase",
+            "text": "Symbiote Supreme's blessing cycle changes his available utility. Identify the current phase before attacking into a defender's buffs or planning the next special; the same button press does not have equal value in every phase."
           },
           {
-            "title": "Track Bleed before committing",
-            "text": "The catalogue also records Bleed for Symbiote Supreme. Watch for its actual trigger while also tracking Armor Break; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Favor buff-rich opponents with caution",
+            "text": "His Nullify-oriented toolkit can be strong when the defender generates removable buffs. First check whether those are ordinary buffs, passive effects or node-protected states before expecting any control payoff."
           },
           {
-            "title": "Check the defender's countermeasures",
-            "text": "Before using Symbiote Supreme, look for opponent immunities, resistances and node effects that interrupt Armor Break. If the planned trigger is missing, adapt the fight instead of assuming a favorable matchup from a source list. This profile does not present a documented current-client win."
+            "title": "Line up the special with the cycle",
+            "text": "A well-timed special can exploit the current blessing and the opponent's buff state. Keep space to finish the animation and do not spend power purely because the preferred phase is approaching if the defender can punish immediately."
+          },
+          {
+            "title": "Know when the engine is missing",
+            "text": "Buff immunity on the defender, Nullify immunity, Neutralize prevention or aggressive special pressure may reduce his utility. Switch to patient punishes when the buff-removal interaction cannot be established reliably."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "rarityAvailability": {
@@ -50169,19 +50235,25 @@
         ],
         "decisions": [
           {
-            "title": "Verify Bleed in this encounter",
-            "text": "The current research index lists Bleed among Venompool's tools. Verify its activation in the live kit and whether this defender resists or ignores the effect before treating it as a damage plan. Its presence on an ability list does not establish reliable uptime or a completed fight."
+            "title": "Plan which buffs to develop",
+            "text": "Venompool's buff-oriented kit rewards watching what has actually been generated. Establish safe openings and read the current buffs before choosing a special; random or conditional buff development is not a fixed opening script."
           },
           {
-            "title": "Track Degeneration before committing",
-            "text": "The catalogue also records Degeneration for Venompool. Watch for its actual trigger while also tracking Bleed; do not assume the two effects activate together or survive the same countermeasure. Spend power only after confirming that the expected state is present, and reset the plan when it drops."
+            "title": "Use an appropriate special payoff",
+            "text": "A Special Attack can be more valuable after a useful buff state is present, but waiting too long exposes the fight to more opponent specials. Pick a safe conversion point based on the resources visible right now."
           },
           {
-            "title": "Confirm Shock protection",
-            "text": "The structured records flag Shock protection for Venompool. Check whether the incoming effect is a debuff, a passive or a node-specific interaction, and verify any activation condition before depending on that protection. One recorded protection does not establish blanket immunity to related effects."
+            "title": "Verify opponent-specific utility",
+            "text": "Symbiote and champion-tag interactions depend on the current kit and the opponent. Inspect the defender's identity, buffs, and actual node restrictions before presenting a particular matchup as automatic."
+          },
+          {
+            "title": "Watch buff prevention and duration",
+            "text": "Nullify, Neutralize, Stagger and reduced buff duration can undercut the engine that makes Venompool effective. If the necessary buffs will not persist, shift toward short safe punishes rather than forcing a long setup."
           }
         ],
         "editorialMethod": "original-structured-mechanic-checks",
+        "editorialDepth": "champion-specific-tactical-v1",
+        "depthVersion": "2026-11-06-original-tactical-v1",
         "editorialWrittenAt": "2026-11-06"
       },
       "protections": [
