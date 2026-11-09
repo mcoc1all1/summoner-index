@@ -1,5 +1,5 @@
-import {readRoster} from './roster.1a12529853c7533e.mjs';
-import {escapeHtml as e} from './domain.1a12529853c7533e.mjs';
+import {readRoster} from './roster.61209059971b6ee9.mjs';
+import {escapeHtml as e} from './domain.61209059971b6ee9.mjs';
 
 export function feedbackPage(value,origin,base='') {
  try {
@@ -33,7 +33,7 @@ async function mountChallengeRoster(){
  const host=document.querySelector('[data-challenge-roster]');if(!host)return;
  const base=document.body.dataset.base||'';
  try{
-  const db=await fetch(base+'/catalog.1a12529853c7533e.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();});
+  const db=await fetch(base+'/catalog.61209059971b6ee9.json').then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json();});
   const roster=readRoster(db).champions;
   const core=(host.dataset.coreTeam||'').split(',').filter(Boolean);
   const optional=(host.dataset.challengeRoster||'').split(',').filter(id=>id&&!core.includes(id));

@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './domain.1a12529853c7533e.mjs';
+import {escapeHtml as e} from './domain.61209059971b6ee9.mjs';
 const KEY='fieldguide:roster:v1';
 export function normalizeRoster(value,db){
  if(!value||value.version!==1||!Array.isArray(value.champions))throw Error('Expected a version 1 roster with a champions list.');

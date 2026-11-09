@@ -2,13 +2,24 @@ const DAY=86400000;
 const source=document.querySelector('#live-event-source');
 const filters=[...document.querySelectorAll('[data-live-filter]')];
 const format=value=>new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric',year:'numeric'}).format(new Date(`${value}T00:00:00Z`));
-const todayKey=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;};
+// Kabam's published event dates use a Pacific calendar. Never use each
+// visitor's timezone to move an event into 'ongoing' before its Pacific date.
+const todayKey=()=>{
+ const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+ const value=type=>parts.find(part=>part.type===type)?.value;
+ return value('year')+'-'+value('month')+'-'+value('day');
+};
 
 function classify(card){
  const today=todayKey(),start=card.dataset.start,end=card.dataset.end;
- if(today<start)return 'upcoming';
- if(end&&today>end){
-  const elapsed=Date.now()-Date.parse(`${end}T23:59:59Z`);
+ // A published start date without an exact start hour is not proof that
+ // the event has opened. Keep it in the scheduled section on day one.
+ if(today<=start)return 'upcoming';
+ // Date-only announcements have no verified end date. Do not label them
+ // active indefinitely after their scheduled start.
+ if(!end)return 'archive';
+ if(today>end){
+  const elapsed=Date.parse(`${today}T00:00:00Z`)-Date.parse(`${end}T00:00:00Z`);
   return elapsed<=14*DAY?'ended':'archive';
  }
  return 'live';
@@ -18,14 +29,14 @@ function relative(card,state){
  const start=card.dataset.start,end=card.dataset.end;
  const today=Date.parse(`${todayKey()}T00:00:00Z`);
  if(state==='upcoming'){
-  const days=Math.max(0,Math.ceil((Date.parse(`${start}T00:00:00Z`)-today)/DAY));
-  return days===0?'Starts today':days===1?'Starts tomorrow':`Starts in ${days} days`;
+  const days=Math.max(0,Math.round((Date.parse(`${start}T00:00:00Z`)-today)/DAY));
+  return days===0?'Scheduled today · check game':days===1?'Starts tomorrow (PT)':`Starts in ${days} days (PT)`;
  }
  if(state==='live'&&end){
-  const days=Math.max(0,Math.ceil((Date.parse(`${end}T23:59:59Z`)-Date.now())/DAY));
-  return days===0?'Ends today':days===1?'Ends tomorrow':`Ends in ${days} days`;
+  const days=Math.max(0,Math.round((Date.parse(`${end}T00:00:00Z`)-today)/DAY));
+  return days===0?'Scheduled to end today (PT)':days===1?'Ends tomorrow (PT)':`Scheduled to end in ${days} days (PT)`;
  }
- return state==='live'?'Live now':'Recently ended';
+ return state==='live'?'Scheduled ongoing · check game':'Recently ended';
 }
 
 function placeEvents(){
