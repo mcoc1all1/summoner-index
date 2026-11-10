@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './domain.61209059971b6ee9.mjs';
+import {escapeHtml as e} from './domain.c32c687237b6b3a1.mjs';
 export function rotationPanel(c){
  if(!c.rotation?.length)return '';
  const checked=c.kitReview?.checkedAt?` · source checked ${e(c.kitReview.checkedAt)}`:'';
@@ -8,5 +8,5 @@ export function rotationPanel(c){
 export function synergyPanel(db,c){
  const rows=db.synergies.filter(s=>s.championId===c.id);
  if(!rows.length)return '<p>No reviewed recommendations yet.</p>';
- return rows.map(s=>`<div><strong>${s.partnerIds.map(id=>{const p=db.champions.find(p=>p.id===id);return `<a href="/summoner-index/champions/${e(id)}">${e(p?.name||id)}</a>`;}).join(' + ')}</strong><p>${e(s.summary)}</p><small>${e(s.conditions)}</small></div>`).join('');
+ return rows.map(s=>`<div><strong>${s.partnerIds.map(id=>{const p=db.champions.find(p=>p.id===id);return `<a href="/champions/${e(id)}">${e(p?.name||id)}</a>`;}).join(' + ')}</strong><p>${e(s.summary)}</p><small>${e(s.conditions)}</small></div>`).join('');
 }

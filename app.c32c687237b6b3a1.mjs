@@ -1,17 +1,17 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
-import {mountLoadouts} from './loadouts.61209059971b6ee9.mjs';
-import {mountRoster,readRoster} from './roster.61209059971b6ee9.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.61209059971b6ee9.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.61209059971b6ee9.mjs';
+import {mountLoadouts} from './loadouts.c32c687237b6b3a1.mjs';
+import {mountRoster,readRoster} from './roster.c32c687237b6b3a1.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.c32c687237b6b3a1.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.c32c687237b6b3a1.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.61209059971b6ee9.json',roster:'/catalog-roster.61209059971b6ee9.json',champions:'/catalog-champions.61209059971b6ee9.json',
- search:'/catalog-search.61209059971b6ee9.json',counters:'/catalog-counters.61209059971b6ee9.json',
- compare:'/catalog-compare.61209059971b6ee9.json',loadouts:'/catalog-loadouts.61209059971b6ee9.json',full:'/catalog.61209059971b6ee9.json'
+ finder:'/catalog-finder.c32c687237b6b3a1.json',roster:'/catalog-roster.c32c687237b6b3a1.json',champions:'/catalog-champions.c32c687237b6b3a1.json',
+ search:'/catalog-search.c32c687237b6b3a1.json',counters:'/catalog-counters.c32c687237b6b3a1.json',
+ compare:'/catalog-compare.c32c687237b6b3a1.json',loadouts:'/catalog-loadouts.c32c687237b6b3a1.json',full:'/catalog.c32c687237b6b3a1.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -28,7 +28,7 @@ function toast(text){const t=$('#toast');if(!t)return;t.textContent=text;t.hidde
 function track(name,properties={}) { window.dispatchEvent(new CustomEvent('fieldguide:analytics',{detail:{name,properties}}));}
 function readSaved(){try{const ids=JSON.parse(localStorage.getItem('fieldguide:saved')||'[]');return Array.isArray(ids)?(db?ids.filter(id=>db.champions.some(c=>c.id===id)):ids):[];}catch{return [];}}
 function syncSaved(){document.querySelectorAll('[data-save]').forEach(b=>{const saved=readSaved().includes(b.dataset.save);b.setAttribute('aria-pressed',String(saved));b.textContent=saved?'★':'☆';});}
-function showSaved(){if(!$('#saved-results')||!db)return;const cs=db.champions.filter(c=>readSaved().includes(c.id));$('#saved-results').innerHTML=cs.length?cs.map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>Your shortlist starts here.</h3><p>Tap the star on any champion to save them on this browser.</p><a class="text-link" href="/summoner-index/champions">Browse champions →</a></div>';syncSaved();}
+function showSaved(){if(!$('#saved-results')||!db)return;const cs=db.champions.filter(c=>readSaved().includes(c.id));$('#saved-results').innerHTML=cs.length?cs.map(c=>championCard(db,c)).join(''):'<div class="empty"><h3>Your shortlist starts here.</h3><p>Tap the star on any champion to save them on this browser.</p><a class="text-link" href="/champions">Browse champions →</a></div>';syncSaved();}
 document.addEventListener('click',event=>{
  const compareButton=event.target.closest('[data-compare-toggle]');
  if(compareButton){
@@ -100,7 +100,7 @@ if(db){
   const input=$('#global-query');input.value=params.get('q')||'';
   const guideLinks=[...document.querySelectorAll('[data-challenge-search]')];
   const filterGuides=q=>{let count=0;const words=q.toLowerCase().replace(/[’']/g,'').split(/\s+/).filter(Boolean);for(const link of guideLinks){link.hidden=!words.length||!words.every(w=>link.dataset.challengeSearch.replace(/[’']/g,'').includes(w));if(!link.hidden)count++;}if($('#challenge-search-results'))$('#challenge-search-results').hidden=!count;return count;};
-  const render=()=>{const q=input.value.trim(),guideCount=filterGuides(q);if(!q){$('#search-results').innerHTML='<p class="notice">Search for a champion, boss, ability or immunity.</p>';return;}const {champions,bosses}=search(db,q);const wantsCounter=/counter/i.test(q),count=champions.length+bosses.length+guideCount;$('#search-results').innerHTML=`<p class="result-count">${count} results for “${e(q)}”${/best/i.test(q)?' · Matching profiles, not a ranked tier list':''}</p>`+champions.map(c=>`<a class="search-result" href="/summoner-index/${wantsCounter?'counters':'champions'}/${c.id}">${avatar(c)}<div><h3>${e(c.name)}${wantsCounter?' counters':''}</h3><p>${e(c.class)} · ${e(c.summary)}</p></div><span>→</span></a>`).join('')+bosses.map(b=>`<a class="search-result" href="/summoner-index/${wantsCounter?'counters':'bosses'}/${b.id}"><div><h3>${e(b.name)}${wantsCounter?' counters':''}</h3><p>Boss guide · ${b.chapter}</p></div><span>→</span></a>`).join('')+(count?'':'<div class="empty"><h3>No match in this starter collection.</h3><p>Try a shorter name or browse all champions.</p><a class="text-link" href="/summoner-index/champions">Open database →</a></div>');};
+  const render=()=>{const q=input.value.trim(),guideCount=filterGuides(q);if(!q){$('#search-results').innerHTML='<p class="notice">Search for a champion, boss, ability or immunity.</p>';return;}const {champions,bosses}=search(db,q);const wantsCounter=/counter/i.test(q),count=champions.length+bosses.length+guideCount;$('#search-results').innerHTML=`<p class="result-count">${count} results for “${e(q)}”${/best/i.test(q)?' · Matching profiles, not a ranked tier list':''}</p>`+champions.map(c=>`<a class="search-result" href="/${wantsCounter?'counters':'champions'}/${c.id}">${avatar(c)}<div><h3>${e(c.name)}${wantsCounter?' counters':''}</h3><p>${e(c.class)} · ${e(c.summary)}</p></div><span>→</span></a>`).join('')+bosses.map(b=>`<a class="search-result" href="/${wantsCounter?'counters':'bosses'}/${b.id}"><div><h3>${e(b.name)}${wantsCounter?' counters':''}</h3><p>Boss guide · ${b.chapter}</p></div><span>→</span></a>`).join('')+(count?'':'<div class="empty"><h3>No match in this starter collection.</h3><p>Try a shorter name or browse all champions.</p><a class="text-link" href="/champions">Open database →</a></div>');};
   input.addEventListener('input',render);input.form.addEventListener('submit',event=>{event.preventDefault();history.replaceState(null,'',base+'/search?q='+encodeURIComponent(input.value));render();track('search',{query:input.value.slice(0,120),resultCount:search(db,input.value).champions.length+search(db,input.value).bosses.length});});render();
  }
  if($('#content-editor')){
@@ -109,7 +109,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.61209059971b6ee9.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.c32c687237b6b3a1.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 
