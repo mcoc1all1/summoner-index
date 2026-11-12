@@ -14232,7 +14232,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-arcade",
           "deep-arcade"
@@ -14244,7 +14244,7 @@
           },
           {
             "title": "Build tokens through the correct trap activations",
-            "text": "Track the token count produced by eligible trap interactions while preserving enough room to bait a special. A long trap sequence is not useful if the defender's retreat or immunity prevents triggers."
+            "text": "Arcade earns a Token whenever the opponent would receive Poison, even if that Poison is prevented; entering a Poisonous Cloud is another Token trigger. Check the current Token count before relying on defensive Auto-Block, and remember that being knocked down spends Tokens. Avoid assuming that every Poison-immune matchup prevents Token generation or that Tokens come only from a successful trap sequence."
           },
           {
             "title": "Spend power while trap damage is established",
@@ -14930,7 +14930,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-bastion",
           "deep-bastion"
@@ -14938,7 +14938,7 @@
         "decisions": [
           {
             "title": "Count Virus charges before expecting Infection",
-            "text": "Bastion's attacking plan builds Virus charges toward an Infection state. Inspect the charge counter and whether the target can be infected rather than relying on a memorized hit count from another defender."
+            "text": "Before building Techno-Mechanical Virus, count the opponent's unique buffs: Bastion cannot apply Virus Charges while the opponent has more than three different buffs active. Light and Medium contacts and well-timed blocks are opportunities when this condition is satisfied; check the visible charge total rather than forcing a long combo. Infection requires the charge threshold, and a later drop in charges can end that state."
           },
           {
             "title": "Use Pursuit and Fury in the real pressure window",
@@ -27049,7 +27049,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-green-goblin-stellar-forged",
           "deep-green-goblin-stellar-forged",
@@ -27058,7 +27058,7 @@
         "decisions": [
           {
             "title": "Apply different debuffs before counting Fury",
-            "text": "Green Goblin (Stellar-Forged) benefits from the variety of debuff types on the defender. Check whether Exhaustion, Wither and Halt actually landed; Torment belongs to her Signature Ability, so confirm that she is awakened before counting it. Repeating one debuff type is not the same as establishing multiple unique types."
+            "text": "Count debuff types, not duplicate stacks: Exhaustion, Halt and Wither provide different conditions, while Torment comes from his awakened Signature Ability. Check whether each effect actually landed before expecting extra Fury for unique debuffs. If Green Goblin (Stellar Forged) is unawakened, do not count Torment as part of his starting combination; use the debuffs you can apply reliably."
           },
           {
             "title": "Use distinct effects without sacrificing the punish window",
@@ -28061,7 +28061,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-gwenom",
           "deep-gwenom",
@@ -28070,7 +28070,7 @@
         "decisions": [
           {
             "title": "Develop distinct Symbiote buffs before cashing out",
-            "text": "Gwenom rotates through Symbiote Buffs such as Fury, Precision, Grit and Undermine. Check which unique buffs are active before making the next heavy or special; their variety can matter more than identical repeated buffs."
+            "text": "Gwenom's Heavy can produce a Symbiote Buff based on the most recent basic attack, so check that specific input before repeating it. Fury, Precision, Grit and Undermine have different tactical roles; the first-Light Grit and first-Medium Undermine triggers do not activate against Mystic opponents. Confirm the active unique buffs and their current restrictions instead of treating all Heavy follow-ups as interchangeable."
           },
           {
             "title": "Use Spider-Sense for the intended Corrosion action",
@@ -28968,7 +28968,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-high-evolutionary",
           "deep-high-evolutionary"
@@ -28984,7 +28984,7 @@
           },
           {
             "title": "Choose the detonation cashout from the current setup",
-            "text": "Spend the relevant special or attack after the field and detonation resource overlap. If the defender is about to reach an unavoidable special, take a safe earlier punish rather than extending the field sequence."
+            "text": "Check the current Combo Detonation charges and the opponent's power meter separately: the charge-triggered Detonation occurs when the opponent gains a bar of Power, not simply because the Evolutionary Field is visible. Special 2 or 3 can establish the field, and Special 1 has its own interaction with an active Detonation. Only plan that conversion once those conditions line up; otherwise choose a safe attack instead of treating field placement as an automatic burst."
           },
           {
             "title": "Treat Devolve and power reduction as conditional",
@@ -52112,7 +52112,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-solvarch",
           "deep-solvarch",
@@ -52129,7 +52129,7 @@
           },
           {
             "title": "Convert in Release mode when power can be used",
-            "text": "Use a real special opening when Release Energize, Coldsnap or Power Drain can contribute. Verify the target's Coldsnap immunity and power source before assuming the same combo controls every defender."
+            "text": "Solvarch changes ISO Core mode when activating Special 1. During a Special Attack, tapping Block spends different resources depending on the active mode: Absorb can turn Core Charge into Armor Up, while Release can spend Armor Up for Energize. Verify both the current mode and remaining Armor before tapping; only then plan whether the resulting power pace, Coldsnap or later Heal Block actually helps against this defender."
           },
           {
             "title": "Check Reverb and heal-control limits separately",
