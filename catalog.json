@@ -15178,7 +15178,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-beta-ray-bill",
           "deep-beta-ray-bill",
@@ -15195,7 +15195,7 @@
           },
           {
             "title": "Use SP1 around the Shock expiration payoff",
-            "text": "The intended burst can depend on Shock expiring in the SP1 sequence. Inspect the actual stack and timer and use a reliable punish instead of presuming that launching SP1 at any power level guarantees the same result."
+            "text": "Beta Ray Bill's Shock damage can burst when Shocks expire during SP1, but a player discussion clarifies that the apparent Shock reapplication needs an additional buff-pause setup from charging Heavy into SP2. Without that setup, do not expect Shocks that expired during SP1 to return automatically. Inspect the current Shock effects and whether the pause condition is active before choosing to cycle another SP1; this is source-linked guidance, not a documented site-tested rotation."
           },
           {
             "title": "Check Shock immunity and buff denial separately",
@@ -21276,7 +21276,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-dark-phoenix",
           "deep-dark-phoenix"
@@ -21292,7 +21292,7 @@
           },
           {
             "title": "Cash out an SP2 during the Fury window",
-            "text": "A developed Ember state can reinforce SP2 Fury and flame damage. Use it while the resource is present and the defender can be punished; do not assume Pulverize and Nova Flame interact identically against every target."
+            "text": "Dark Phoenix's SP2 grants Fury whose potency increases with her current Ember Charges, but it also consumes half of those charges for an attacker. Count Embers before launching instead of assuming the same Fury can be maintained through every SP2. Nova Flame follows a separate post-special channeling window that opposing hits can shorten, so distinguish the instant SP2 resource exchange from delayed flame damage."
           },
           {
             "title": "Check passive and debuff flame restrictions",
@@ -23241,7 +23241,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-dracula",
           "deep-dracula"
@@ -23249,7 +23249,7 @@
         "decisions": [
           {
             "title": "Activate Dire Degeneration deliberately",
-            "text": "Dracula's damage route depends on Dire Degeneration being active before the next attack sequence. Confirm the intended status and available meter; committing to a long setup without it may waste the most useful offensive window."
+            "text": "Dracula applies a long-duration Degeneration automatically as an attacker at the beginning of the fight; it becomes Dire when he charges a Heavy Attack or interrupts an attack with a Light Attack. Check that one of these triggers occurred before relying on the faster damage ticks. Continued attacking can maintain the Dire state, but an unsafe Heavy setup may cost more than the damage gained; do not treat the opening Degeneration and its accelerated Dire form as the same state."
           },
           {
             "title": "Keep pressure while the degeneration persists",
@@ -23730,7 +23730,7 @@
         ]
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-dust",
           "deep-dust",
@@ -23739,7 +23739,7 @@
         "decisions": [
           {
             "title": "Build Sand before selecting the Prowess conversion",
-            "text": "Dust's personal Sand resource can be converted into Prowess. Check the Sand counter and whether the opponent gives you space for the required action; do not assume every dash adds the same amount."
+            "text": "Dust applies Sand effects to the opponent with eligible Medium hits, successful punishes and other triggers; Sand is not simply a personal counter to spend. As an attacker, a Heavy Attack starts Sandstorm, removing the opponent's Sand effects and turning that setup into Prowess for its duration. Confirm the current Sand effects and a safe Heavy opening before converting them; if the opponent Purifies Sand, check whether indefinite Sand Passives replaced it."
           },
           {
             "title": "Enter Sandstorm with the relevant state prepared",
@@ -31699,7 +31699,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-iron-man-infamous",
           "deep-iron-man-infamous",
@@ -31716,7 +31716,7 @@
           },
           {
             "title": "Convert Shock into Power Burn in the real window",
-            "text": "When Aura and Shock overlap, use a safe special to achieve the intended power reduction. Track the opponent's meter afterward, as node-generated power may continue independently of the normal burn."
+            "text": "During Aura of Iron, newly inflicted personal Shocks are immediately converted into instant Power Burn, so a Shock icon need not remain visible for that conversion to happen. SP1 can start the Aura, while consuming existing Shocks can also trigger it if the required Armor Up is available. Check Aura and the defender's current Power before striking, then use specials from a safe opening; do not promise that an SP2 launched without the Aura automatically burns Power."
           },
           {
             "title": "Separate Special Lock from hard immunity",
@@ -32415,7 +32415,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-isophyne",
           "deep-isophyne",
@@ -32428,7 +32428,7 @@
           },
           {
             "title": "Use Ego and vulnerability for a clear goal",
-            "text": "Different current effects can support Nullify, Wither or Energy Vulnerability interactions. Choose the one relevant to the defender rather than building all of them without regard to the opponent's buffs or power."
+            "text": "Isophyne gains Ego Passives when crossing a bar of Power or when Nullifying an opponent's buff. Those stacks strengthen the next Special Attack and can affect healing, but they expire if the setup is delayed. SP1 establishes Energy Vulnerability, whereas SP2 applies Wither; the latter can be made passively Unblockable when activated after a Light or Medium hit into the opponent's Block. Verify Ego count, the chosen special and the defender's buff/power situation separately."
           },
           {
             "title": "Spend the selected special when the intended state exists",
@@ -32754,7 +32754,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-jack-olantern",
           "deep-jack-olantern"
@@ -32762,7 +32762,7 @@
         "decisions": [
           {
             "title": "Build Inflamed before expecting Incinerate damage",
-            "text": "Jack O'Lantern develops Inflamed for his offensive plan. Check the current personal stack and the target's Incinerate susceptibility before extending a combo toward a theoretical peak."
+            "text": "Jack O'Lantern gains Inflamed from groups of eligible damaging effects, including those on the opponent and certain damaging Passives on himself; SP1 also grants Inflamed directly. Check actual stacks before deciding how long to build, since not every blocked hit or ordinary combo awards one. His critical-hit replacements are Incinerates against many enemies but become Plasma against Mutants, so assess the defender's effects before assuming an identical damage route."
           },
           {
             "title": "Use Heavy only with a safe Precision opportunity",
@@ -35989,7 +35989,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-lizard",
           "deep-lizard"
@@ -36001,7 +36001,7 @@
           },
           {
             "title": "Build Retribution through the supported interaction",
-            "text": "Track Retribution and any Rejuvenate or Tracking state while controlling the opponent's spacing. Their resource and defensive roles differ; a health-related icon is not a guarantee that chip damage will be healed."
+            "text": "Lizard builds Retribution when his own Special Attack hits connect, are blocked or whiff; an opponent dodging an attack is different and does not grant it. As Retribution approaches expiry, the opponent is encouraged to throw a Special Attack, which can trigger a burst based on the eligible Physical or Direct Damage Over Time effects already on them. Track these separate conditions, and do not confuse SP1 Rejuvenate or punish-triggered Tracking with Retribution itself."
           },
           {
             "title": "Cash out the developed rupture window deliberately",
@@ -37204,7 +37204,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-maestro",
           "deep-maestro"
@@ -37212,7 +37212,7 @@
         "decisions": [
           {
             "title": "Build Neutronium before an expensive damage route",
-            "text": "Maestro uses Neutronium to prepare a Superior Rage window. Monitor the active resource and the defender's power; rushing an encounter with too little Neutronium may produce a very different result."
+            "text": "Track Maestro's Neutronium thresholds rather than treating Superior Rage as an ordinary buff rotation. A lower threshold grants a Glancing effect, later thresholds add Pierce and Cosmic Radiation, and reaching 40 Neutronium starts Superior Rage. During that state Neutronium drains and new generation is disabled, so choose the damage opening before the resource runs out; being knocked down can also remove Neutronium. Confirm the active indicators instead of assuming a special always starts Superior Rage."
           },
           {
             "title": "Use Glancing to reduce risk only when active",
@@ -40376,7 +40376,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-morbius",
           "deep-morbius"
@@ -40392,7 +40392,7 @@
           },
           {
             "title": "Spend SP2 during the developed debuff window",
-            "text": "His SP2 can consume the prepared damaging debuffs for a stronger payoff. Check actual stacks and defender health, then launch from safe recovery instead of trying to build a large amount of unavailable Bleed."
+            "text": "Morbius's second SP2 hit only becomes the guaranteed Critical cashout that consumes the opponent's damaging debuffs when Petrify is active on the opponent. Check Petrify and the actual debuff count before spending the special; if the opponent is not Petrified, do not expect that conversion or its associated healing. In a Bleed-immune matchup, reassess whether enough eligible damaging effects can be established for the trigger."
           },
           {
             "title": "Respect Bleed immunity and Miss limitations",
@@ -57970,7 +57970,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-the-leader",
           "deep-the-leader"
@@ -57978,7 +57978,7 @@
         "decisions": [
           {
             "title": "Create severe debuffs before opening the Green Door",
-            "text": "The Leader's plan uses severe debuffs and a Green Door area. Confirm the intended Spectre, Wither or Power Dissolve is on the opponent and position them where the area effect can actually interact."
+            "text": "The Green Door begins closed and opens after the Leader accumulates enough Gamma Radiation. While it is closed, an opponent who activates a Special Attack while standing on the Door can receive Wither and Spectre; when the Door is open, positioning the opponent on it produces the damaging interaction. Build and inspect Gamma Radiation and the current Door state rather than assuming that placing debuffs opens the Door immediately."
           },
           {
             "title": "Keep the defender over the active Door safely",
@@ -57986,7 +57986,7 @@
           },
           {
             "title": "Convert the debuff mix into Degeneration",
-            "text": "When Green Door and the relevant debuffs overlap, choose a safe special or punish that can benefit from Degeneration. Verify the target permits it, as Purify or immunity may remove the expected delayed damage."
+            "text": "An open Green Door causes repeated instant Degeneration while the opponent stands on it, with the amount tied to debuffs already on that opponent. SP3 has its own Degeneration interaction and should not be confused with the Door's location-based ticks. Before committing a special, check whether the Door is currently open, the target remains inside, and eligible debuffs are present; if the Door closes, rebuild the setup instead of expecting its damage to continue."
           },
           {
             "title": "Do not call Wither universal power denial",
