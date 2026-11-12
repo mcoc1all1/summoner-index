@@ -64700,8 +64700,8 @@
         "bahamet",
         "shang"
       ],
-      "why": "Shang-Chi is a community-listed Bahamet choice; Cleanse gives debuff utility alongside the required fight mechanics.",
-      "strategy": "Save a special to answer radiation waves. Follow the guide's phase changes.",
+      "why": "Shang-Chi is a community-proposed Bahamet attacker because Cleanse may help manage debuffs while the player handles the encounter's mandatory radiation interactions. Cleanse itself does not remove Corrupted Armor; this recommendation remains untested.",
+      "strategy": "For the first three phases, check that Bahamet has produced a reflectable Radiation Blast and that you have enough power to intercept it with SP1 or SP2. After earning a Removal charge, use the phase-specific armor-removal action; if the blast is red, evade it instead of attempting a reflection. In the final phase, follow the returning radiation exchange without assuming a Removal charge is needed.",
       "risks": "Champion choice does not bypass armor or wave reflection. Practice the mechanic first.",
       "awakening": null,
       "signature": null,
@@ -64851,8 +64851,8 @@
         "archangel-signature",
         "archangel-absorbing-report"
       ],
-      "why": "A player-reported option after removing the form that prevents Bleed.",
-      "strategy": "Punish special recovery with a safe heavy to remove the form, then establish Bleed and Poison for Neurotoxins. Watch for the form returning.",
+      "why": "Archangel is a player-reported option, but the Neurotoxin plan depends on Bleed and Poison being available after Absorbing Man leaves the form that blocks the initial Bleed setup. This is a conditional interaction, not a proven low-execution win.",
+      "strategy": "Before relying on Archangel's debuffs, identify whether Black Uru is active. Look for a punishable special-recovery window to remove that form with a Heavy; only then attempt to establish both Bleed and Poison. If the form returns or the node prevents either effect, reset the plan rather than continuing a Neurotoxin rotation that cannot start.",
       "risks": "Black Uru blocks Bleed setup. Missing the heavy punish or losing debuff access can collapse the plan; do not treat this as a low-execution counter.",
       "conditions": [
         "Use an awakened Archangel for Neurotoxin healing prevention.",
