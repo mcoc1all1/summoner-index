@@ -1,5 +1,18 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
+// The bottom navigation is intentionally horizontally scrollable on phones.
+// Center its active item so deep pages (Tools, Roster, Guides) are discoverable
+// without squeezing seven labels into unreadable 9px columns.
+if(window.matchMedia('(max-width: 800px)').matches){
+ const nav=document.querySelector('.sidebar nav');
+ const active=nav?.querySelector('[aria-current="page"]');
+ if(nav&&active)requestAnimationFrame(()=>{
+  const center=active.getBoundingClientRect().left-nav.getBoundingClientRect().left
+    +active.getBoundingClientRect().width/2-nav.clientWidth/2;
+  nav.scrollLeft+=center;
+ });
+}
+
 import {mountLoadouts} from './loadouts.mjs';
 import {mountRoster,readRoster} from './roster.mjs';
 import {search,escapeHtml as e,validate,getCounters} from './domain.mjs';

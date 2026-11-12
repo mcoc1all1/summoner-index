@@ -50,14 +50,6 @@ function placeEvents(){
   if(badge){badge.textContent=relative(card,state);badge.dataset.state=state;}
   if(target)target.append(card);
  }
- for(const state of ['live','upcoming','ended']){
-  const target=document.querySelector(`[data-live-target="${state}"]`);
-  const count=target?.children.length||0;
-  const label=document.querySelector(`[data-count-for="${state}"]`);
-  const empty=document.querySelector(`[data-empty-for="${state}"]`);
-  if(label)label.textContent=`${count} ${count===1?'item':'items'}`;
-  if(empty)empty.hidden=count>0;
- }
  source.remove();
 }
 
@@ -66,8 +58,25 @@ function applyFilter(value){
   const category=card.querySelector('.live-category')?.textContent?.trim().toLowerCase()||card.dataset.newsCategory||'';
   card.hidden=value!=='all'&&category!==value;
  });
- filters.forEach(button=>button.classList.toggle('active',button.dataset.liveFilter===value));
+ filters.forEach(button=>{
+  const selected=button.dataset.liveFilter===value;
+  button.classList.toggle('active',selected);
+  button.setAttribute('aria-pressed',String(selected));
+ });
+ for(const state of ['live','upcoming','ended']){
+  const target=document.querySelector(`[data-live-target="${state}"]`);
+  const count=target?[...target.children].filter(card=>!card.hidden).length:0;
+  const label=document.querySelector(`[data-count-for="${state}"]`);
+  const empty=document.querySelector(`[data-empty-for="${state}"]`);
+  if(label)label.textContent=`${count} ${count===1?'item':'items'}`;
+  if(empty)empty.hidden=count>0;
+ }
+ const news=document.querySelector('#latest-news .live-grid');
+ const newsCount=news?[...news.children].filter(card=>!card.hidden).length:0;
+ const newsEmpty=document.querySelector('[data-empty-news]');
+ if(newsEmpty)newsEmpty.hidden=newsCount>0;
 }
 
 placeEvents();
+applyFilter('all');
 filters.forEach(button=>button.addEventListener('click',()=>applyFilter(button.dataset.liveFilter)));

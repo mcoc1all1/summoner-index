@@ -1,17 +1,30 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
-import {mountLoadouts} from './loadouts.8ec701ede4e65f33.mjs';
-import {mountRoster,readRoster} from './roster.8ec701ede4e65f33.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.8ec701ede4e65f33.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.8ec701ede4e65f33.mjs';
+// The bottom navigation is intentionally horizontally scrollable on phones.
+// Center its active item so deep pages (Tools, Roster, Guides) are discoverable
+// without squeezing seven labels into unreadable 9px columns.
+if(window.matchMedia('(max-width: 800px)').matches){
+ const nav=document.querySelector('.sidebar nav');
+ const active=nav?.querySelector('[aria-current="page"]');
+ if(nav&&active)requestAnimationFrame(()=>{
+  const center=active.getBoundingClientRect().left-nav.getBoundingClientRect().left
+    +active.getBoundingClientRect().width/2-nav.clientWidth/2;
+  nav.scrollLeft+=center;
+ });
+}
+
+import {mountLoadouts} from './loadouts.226686700623e6c3.mjs';
+import {mountRoster,readRoster} from './roster.226686700623e6c3.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.226686700623e6c3.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.226686700623e6c3.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.8ec701ede4e65f33.json',roster:'/catalog-roster.8ec701ede4e65f33.json',champions:'/catalog-champions.8ec701ede4e65f33.json',
- search:'/catalog-search.8ec701ede4e65f33.json',counters:'/catalog-counters.8ec701ede4e65f33.json',
- compare:'/catalog-compare.8ec701ede4e65f33.json',loadouts:'/catalog-loadouts.8ec701ede4e65f33.json',full:'/catalog.8ec701ede4e65f33.json'
+ finder:'/catalog-finder.226686700623e6c3.json',roster:'/catalog-roster.226686700623e6c3.json',champions:'/catalog-champions.226686700623e6c3.json',
+ search:'/catalog-search.226686700623e6c3.json',counters:'/catalog-counters.226686700623e6c3.json',
+ compare:'/catalog-compare.226686700623e6c3.json',loadouts:'/catalog-loadouts.226686700623e6c3.json',full:'/catalog.226686700623e6c3.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -109,7 +122,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.8ec701ede4e65f33.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.226686700623e6c3.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 
