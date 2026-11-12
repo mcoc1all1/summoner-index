@@ -71627,7 +71627,7 @@
       "chapter": "7.1.6",
       "questId": "act-7",
       "nodeIds": [],
-      "reviewedAt": "2026-10-29",
+      "reviewedAt": "2026-11-12",
       "videoIds": [],
       "id": "ice-phoenix",
       "name": "Ice Phoenix",
@@ -71640,7 +71640,7 @@
       "phases": [
         {
           "name": "Opening — cover Coldsnap",
-          "text": "Bring dependable Coldsnap protection before entry. Ice Phoenix applies it immediately; do not assume Phoenix visuals mean Phoenix abilities."
+          "text": "Before entering, verify that your attacker can withstand or prevent the Coldsnap applied as the fight starts. If you cannot survive long enough to establish the first safe opening, change that pre-fight protection plan rather than relying on a special attack to rescue the attempt. Confirm the encounter's current effects and your chosen champion's actual Coldsnap protection."
         },
         {
           "name": "Repeat — reserve a special",
@@ -72208,15 +72208,15 @@
         },
         {
           "name": "Opening • 100–81%",
-          "text": "Look for SP1. Once its trap is armed, move Scytalis across it with a well-spaced heavy or special knockdown. Use the resulting armor-down interval for damage; when she changes phase, expect protection to return."
+          "text": "During the opening phase, bait SP1 and allow roughly 1.5 seconds after it finishes for the trap to arm. Plan a safe strike or knockdown that places Scytalis onto the active marker while she is not blocking. If the trap has only appeared and not yet armed, hold your damage rotation and reposition instead of trying to force the armor-down window."
         },
         {
           "name": "Middle • 80–41%",
-          "text": "The trap now comes from SP2. Contact from ordinary combo hits is no longer enough to spring it on Scytalis: line up an actual knockdown. If the trap disappears before you connect, reset rather than forcing an attack into Corrupted Armor."
+          "text": "At 80–41% health, bait SP2 rather than SP1. The new trap needs roughly 3.5 seconds to arm; ordinary combo hits no longer trigger it on Scytalis, so line up an actual Heavy or Special knockdown only after the marker becomes active. If it disappears before the valid hit, rebuild the setup rather than attacking through Corrupted Armor."
         },
         {
           "name": "Late • 40–6%",
-          "text": "Return to baiting SP1, but keep the middle-phase habit of using a knockdown to connect with the armed trap. This is still a temporary armor-down opening; do not confuse it with the different finish mechanic."
+          "text": "At 40–6% health, return to SP1 but do not reuse the opening phase's faster trap timing: this one takes roughly 5.5 seconds to arm. Watch the active marker before attempting a knockdown, then use the temporary armor-down interval for damage. If the window closes or the trap expires, create a new opening instead of chasing a stalled combo."
         },
         {
           "name": "Finish • 5–0%",
@@ -72234,7 +72234,7 @@
       "videoIds": [
         "scytalis-noob"
       ],
-      "reviewedAt": "2026-11-04",
+      "reviewedAt": "2026-11-12",
       "guideDetails": {
         "attackerProfile": [
           "A champion comfortable with special-attack timing and repositioning can execute the trap loop without relying on one specific matchup recommendation.",
@@ -72873,7 +72873,7 @@
     {
       "questId": "act-9",
       "nodeIds": [],
-      "reviewedAt": "2026-10-30",
+      "reviewedAt": "2026-11-12",
       "videoIds": [],
       "id": "dread-emperor-doom",
       "name": "Dread Emperor Doom",
@@ -72894,11 +72894,11 @@
         },
         {
           "name": "Second stage — create charges",
-          "text": "Knockdowns now generate Amplify. Wait for the Aura to end for normal knockdowns, then use the new charges against his special animation."
+          "text": "In this phase, a knockdown gives Doom Amplify, which is needed before contact during his Special Attack can remove Will through that interaction. If you touch his special but the Will counter does not move, check whether any personal Amplify is active before repeating the attempt. His SP1 Aura blocks most ordinary knockdowns while active, so wait for a safe opportunity rather than forcing an attack into the Aura."
         },
         {
           "name": "Third stage — manage SP2",
-          "text": "SP2 generates Amplify through Countdown Charges, but exhausting the countdown gives him SP3. Track both counters and avoid spending every special cycle on SP2."
+          "text": "Track the SP2 Countdown Charges separately from Amplify. When SP2 spends the last Countdown Charge, Doom immediately gains three bars of Power; in this stage, missing Charges also increase the Amplify he can gain. Treat that final-charge point as dangerous because his SP3 is lethal, and avoid assuming a single safe dodge removes the need to manage both counters."
         },
         {
           "name": "Final 1% — empty Will, then heavy",
