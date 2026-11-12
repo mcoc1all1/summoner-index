@@ -14427,7 +14427,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-arnim-zola",
           "deep-arnim-zola",
@@ -14436,7 +14436,7 @@
         "decisions": [
           {
             "title": "Establish Energize before the long special plan",
-            "text": "Arnim Zola's offensive route depends on Energize buildup. Check the personal Energize effect and the opponent’s current bar before extending the fight; an empty opening SP2 does not equal a developed conversion."
+            "text": "Arnim Zola gains a personal Energize Passive when he activates SP1, up to the current stack limit. The SP2 buzzsaw hits can spend those Energizes to add Disintegration Passives, so an opening SP2 without any SP1 preparation does not deliver the same follow-up. Check the visible Energize stack and the defender's power before deciding whether the next safe special should develop the resource or spend it."
           },
           {
             "title": "Maintain pressure while avoiding Sleep mistakes",
@@ -14444,7 +14444,7 @@
           },
           {
             "title": "Convert Energize into SP2 Disintegration",
-            "text": "Use SP2 once the resource and safe opening align, and verify Disintegration can affect the target. If the opponent Purifies immediately or has relevant immunity, choose a simpler damage plan instead of rebuilding indefinitely."
+            "text": "Zola's SP2 inflicts its own Disintegration on activation; each buzzsaw hit can consume one personal Energize for an additional Disintegration effect. Separately, a Heavy Attack can apply short Disintegration Debuffs that are removed for burst damage by a Special Attack, so these are not a single undifferentiated resource. Plan a safe Heavy or SP1 setup according to what is already active, then use SP2 only when the extra effects can contribute."
           },
           {
             "title": "Distinguish personal Energize from node Power Gain",
@@ -16117,7 +16117,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-black-tarantula",
           "deep-black-tarantula"
@@ -16125,7 +16125,7 @@
         "decisions": [
           {
             "title": "Build Cunning through controlled combo progress",
-            "text": "Black Tarantula uses combo-based Cunning to prepare a later damage window. Watch the personal count rather than assuming every blocked attack contributes and preserve room to bait the opponent's next special."
+            "text": "Black Tarantula gains an indefinite Cunning Passive each time his Combo Meter reaches another multiple of twenty; the final SP1 hit can also grant two Cunning Passives unless it is Well-Timed Blocked. Check the meter milestone and active Cunning count instead of presuming any ordinary contact produces another stack. Evade and eligible non-damaging Debuffs can move the Combo Meter under separate conditions, but they do not remove the need to verify the actual resource."
           },
           {
             "title": "Use Evade and Regeneration only when available",
@@ -16133,7 +16133,7 @@
           },
           {
             "title": "Spend SP2 in the developed Cunning window",
-            "text": "The intended payoff involves repeated SP2 bursts once the proper Cunning state exists. Verify the active effect and safe launch opportunity; a long chain fails when the opponent becomes unblockable or power-immune."
+            "text": "Black Tarantula begins each fight with SP2 on a sixty-second cooldown, and each gained Cunning Passive shortens that countdown. Building Cunning can bring the first SP2 forward, but it is incorrect to plan an immediate SP2 chain before the attack is available. Confirm that cooldown has ended before committing power, then use a safe opening for the attack's Vulnerability and burst interaction; the opponent's block or critical defenses can change the result."
           },
           {
             "title": "Respect anti-Evade and anti-healing counters",
@@ -16942,7 +16942,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-blade-stellar-forged",
           "deep-blade-stellar-forged",
@@ -16951,7 +16951,7 @@
         "decisions": [
           {
             "title": "Establish Degeneration and Torment first",
-            "text": "Blade (Stellar Forged) has distinct Torment and Degeneration interactions. Confirm these effects and the correct variant before attempting a long special loop; do not import the ordinary Skill Blade's Danger Sense rotation."
+            "text": "Blade (Stellar Forged) can inflict Degeneration Passives through Well-Timed Blocks, so confirm that the relevant effect was actually established instead of expecting ordinary attacks to create it automatically. His SP1 has a separate Atrophy and Torment role. Watch the opponent's existing Degenerations and the fractured meter before choosing an attack; classic Skill Blade's Danger Sense and regeneration rules must not be treated as a substitute rotation."
           },
           {
             "title": "Control Fractured Power rather than holding indefinitely",
@@ -16959,7 +16959,7 @@
           },
           {
             "title": "Use SP2 in the developed Torment window",
-            "text": "Spend a special after Degeneration and Torment are active and a safe opening exists. The actual damage depends on target resistance and duration, so do not promise a guaranteed infinite SP2 cycle."
+            "text": "The community-reported damage plan emphasizes building Degeneration through repeated SP3 use, while SP1 contributes Atrophy/Torment and SP2 has situational Power Steal. That player account does not establish the fastest or safest sequence for every node. Verify the current Degeneration count and duration before choosing whether a safe SP3 setup or a power-control SP2 is actually useful; do not advertise an automatic infinite SP2 loop."
           },
           {
             "title": "Check Degeneration and power-rule counters",
@@ -18524,7 +18524,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-carina-tivan",
           "deep-carina-tivan",
@@ -18533,11 +18533,11 @@
         "decisions": [
           {
             "title": "Plan for overflow rather than ordinary Power Gain",
-            "text": "Carina Tivan's resource plan can convert excess power into Unblockable stacks. Confirm the meter actually overflowed and count the resulting stacks before pressing aggressively; being at SP3 is not proof of a safe window."
+            "text": "Carina does not turn an overflowing power meter directly into Unblockable. Her Power Gain Buffs have a twenty-stack limit; gaining another of those Buffs while at that limit instead grants an indefinite Unblockable Buff. Use her first landed Light hit, actual whiffed basic attacks, or SP1 to develop Power Gain Buffs, then check both the Buff count and the Unblockable stack before taking another aggressive opening. Simply reaching SP3 is not this trigger."
           },
           {
             "title": "Build Myriad under the actual conditions",
-            "text": "Myriad influences the Corrosion-focused payoff, but its resource condition matters. Watch whether Myriad is active while preserving enough space to bait the defender's special instead of pushing into a reckless Unblockable sequence."
+            "text": "Carina gains Myriad when she activates a Special Attack while carrying at least ten Unblockable Buffs. The new Buff raises Attack Rating according to the number of different Buffs currently on her; it does not trigger merely by having a high power meter or a few Armor Breaks. Count the Unblockables first, launch a safe Special at the threshold, and then decide whether a later SP2 Corrosion application can benefit from Myriad while it lasts."
           },
           {
             "title": "Cash out with Corrosion once resources align",
@@ -19474,7 +19474,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-colossus-age-of-apocalypse",
           "deep-colossus-age-of-apocalypse",
@@ -19484,7 +19484,7 @@
         "decisions": [
           {
             "title": "Build Steel Burst through clean combo extensions",
-            "text": "Colossus (Age of Apocalypse) develops Steel Burst as part of his combo-based offensive plan. Check actual combo progression and which attack continues the sequence; do not treat the ordinary Colossus kit as interchangeable."
+            "text": "Colossus (Age of Apocalypse) activates Steel Burst with a double-tap of Block during a permitted basic-attack sequence, dash or Root. That extra non-contact hit briefly makes him Unstoppable and can extend the combo, but the input is not the same as simply completing another normal hit. Check whether the input actually fired before continuing the combo; player reports note that an imprecise double-tap may register as a normal Block and interrupt the intended sequence."
           },
           {
             "title": "Stock Osmium Prowess before entering Berserk",
@@ -22276,7 +22276,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-doctor-bong",
           "deep-doctor-bong"
@@ -22288,11 +22288,11 @@
           },
           {
             "title": "Build Reverb without standing in danger",
-            "text": "Track active Reverb and Panic-related statuses as the Heavy plan develops. Defensive pressure from Reverb does not make the next enemy special harmless; keep enough space to retreat if the opponent stops cooperating."
+            "text": "Doctor Bong gains Reverb Buffs from the separate hits of his Special Attacks, while activating a Special grants Heavy Proficiency. Reverb can shorten the Heavy Proficiency duration, although the special hits and Critical Hits can restore some time. Track the active Reverb count and Heavy Proficiency timer together before extending the fight; using Panic from SP1 is a different choice from simply stockpiling Reverb."
           },
           {
             "title": "Use the developed Heavy damage window",
-            "text": "When Heavy Proficiency and the proper control resource overlap, choose the most reliable Heavy or special conversion. Verify an Unblockable effect actually applies to that attack before throwing it into a blocking defender."
+            "text": "Charging Doctor Bong's Heavy grants an Unblockable Buff for that attack, but it does not prevent an opponent from interrupting him. His SP1 or SP2 can Stun at nine or more Reverb Buffs, creating a more reliable punish than an unsafe neutral Heavy. Check the Reverb threshold, the Heavy Proficiency timer and the defender's Stun immunity first, then take the safe attack window rather than treating a listed Unblockable effect as full protection."
           },
           {
             "title": "Watch Stun immunity and heavy-punish counters",
@@ -48240,7 +48240,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-ruby-thursday",
           "deep-ruby-thursday"
@@ -48256,7 +48256,7 @@
           },
           {
             "title": "Use SP2 when Circuitry and damage effects align",
-            "text": "The intended cashout involves current Circuitry and a Disintegration payoff. Confirm that the target can receive the effect and use a real recovery opening instead of committing meter at the wrong resource count."
+            "text": "Ruby Thursday cannot activate SP2 without her Organic Circuitry Passive. SP1 establishes Circuitry, and SP2 must be used while that state is still active; its activation cannot be assumed just because she has reached two bars of Power. Check the Circuitry timer before starting the damage sequence. If the state expires, take a safe opportunity to re-establish it with SP1 rather than trying to launch a locked special."
           },
           {
             "title": "Check Auto-Block, Purify and power restrictions",
@@ -62522,7 +62522,7 @@
         "relicCheckedAt": null
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "roster-wave",
           "deep-wave",
@@ -62531,7 +62531,7 @@
         "decisions": [
           {
             "title": "Build Physical Vulnerability before the Heavy",
-            "text": "Wave's offensive plan involves preparing Heavy punish windows and applying Physical Vulnerability. Check the target's actual debuff state and distance before charging a Heavy into an alert defender."
+            "text": "Wave's first Heavy hit can inflict Physical Vulnerability; her fourth basic-combo hit applies Debilitate. After a non-combo-ending attack, she can charge a Heavy that briefly Passively Stuns the opponent, which can help create the Heavy opening. Check the actual combo position and opponent power rather than charging in neutral and assuming the defender must remain stunned. Physical Vulnerability and Debilitate need separate timing checks."
           },
           {
             "title": "Use Debilitate to preserve the setup when eligible",
@@ -62539,7 +62539,7 @@
           },
           {
             "title": "Cash out in the Battered window",
-            "text": "A developed Battered state can change the damage value of the next attack. Launch from a real recovery and verify any Tracking interaction if the defender relies on avoidance; a high stack count alone is not a safe opening."
+            "text": "Wave applies Battered with SP2 and can also apply it using SP3, so the effect should be checked after the relevant special rather than inferred from Physical Vulnerability stacks alone. SP1 instead interacts with her Debilitate and Physical Vulnerability debuffs. Use a safe special opening based on the effect you need, then watch the Battered status before planning the follow-up damage. Missing Battered should not be treated as a successful cashout."
           },
           {
             "title": "Check vulnerability immunity and Heavy risks",
@@ -64426,7 +64426,7 @@
         "batch": "sourced-rotation-review"
       },
       "fieldNotes": {
-        "checkedAt": "2026-11-05",
+        "checkedAt": "2026-11-12",
         "sourceIds": [
           "official-v59-release-notes-20261002",
           "official-robbie-reyes-recap-20261002",
@@ -64436,7 +64436,7 @@
         "decisions": [
           {
             "title": "Build Ignition Buffs before expecting Soul Barb",
-            "text": "Robbie Reyes' Ghost Rider kit uses Ignition resources and Soul Barb interactions. Verify the active Ignition count and target buff state; ordinary Ghost Rider's Judgement loop is a different champion guide."
+            "text": "Robbie Reyes can develop Ignition Buffs through the triggers tied to Grit, Amplify and buff removal, while his awakened Signature Ability can supply starting Ignitions. Do not count the signature-granted starting stacks on an unawakened copy. SP1 can apply Soul Barb on its final hit; check the target's buff interactions and the active Ignition count separately before spending more power. This is the 2026 Robbie Reyes kit, not the classic Ghost Rider Judgement cycle."
           },
           {
             "title": "Use Grit to maintain spacing rather than tank hits",
@@ -64444,7 +64444,7 @@
           },
           {
             "title": "Spend power when Soul Barb can actually apply",
-            "text": "Choose a special that benefits from the active Ignition and Soul Barb setup, then launch during safe recovery. Power Gain can accelerate your own route but does not disable the opponent's independent node power."
+            "text": "SP1 supplies an Energy Vulnerability and applies a Soul Barb Debuff on its last hit. SP2 instead inflicts its own Soul Barb Passive and can pause that Passive during the special when Robbie's Energy Vulnerability is already present; SP2 hits also spend Speed to produce Ignition Buffs. Decide whether the defender permits those effects before committing, and check available Speed and a safe opening. The two Soul Barb forms and the Speed conversion are not interchangeable."
           },
           {
             "title": "Check anti-buff and Soul Barb resistance",
