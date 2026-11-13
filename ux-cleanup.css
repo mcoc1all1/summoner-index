@@ -3,9 +3,17 @@ body{line-height:1.55}
 p{font-size:14px}
 .muted,.result-count,.coverage-label,.ownership,.sources small,.score-note p,.confidence-details p{font-size:13px}
 .badge,.chip,.eyebrow{font-size:11px}
-.beta-bar{display:flex;align-items:center;gap:10px;padding:10px 13px;margin:0 0 24px;border:1px solid var(--line);border-radius:7px;background:#ffffff03;color:var(--muted);font-size:12px}
-.beta-bar strong{color:var(--text)}
-.beta-bar a{color:var(--accent)}
+/* Public beta status belongs in the shared footer; the home reminder is
+   intentionally low-profile, so interior pages begin with their task. */
+.home-beta-note{margin:0 0 14px;padding:0;color:var(--muted);font-size:12px;line-height:1.5}
+.home-beta-note strong{color:#d9c9aa;font-weight:650}
+.home-beta-note a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.footer .footer-beta{margin:7px 0 0;color:var(--muted);font-size:11px;line-height:1.5}
+.footer .footer-beta a{margin:0;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){
+ body[data-page="/"] .home-beta-note{margin:0 0 9px;font-size:11px}
+ .footer .footer-beta{margin:8px 0 4px}
+}
 .confidence-badge{margin-left:auto;align-self:flex-start;border:1px solid var(--line);border-radius:999px;padding:6px 9px;font-size:11px;line-height:1.2;white-space:nowrap;color:var(--muted);background:#ffffff04}
 .confidence-supported,.confidence-tested{border-color:#577463;color:#b9d9c4;background:#26362c}
 .confidence-community{border-color:#756247;color:#e1c79a;background:#332b20}
