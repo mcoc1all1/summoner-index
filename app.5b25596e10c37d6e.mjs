@@ -1,5 +1,29 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
+// Runtime cards, counter results and search results are inserted after the
+// static HTML build. Keep their internal links in the current Pages base path.
+function pageLink(href){
+ if(!base||!href?.startsWith('/')||href.startsWith('//')||
+    href===base||href.startsWith(base+'/')||href.startsWith(base+'?')||href.startsWith(base+'#'))return href;
+ return base+href;
+}
+function prefixRuntimeLinks(root){
+ if(root.nodeType!==1)return;
+ const fix=el=>{
+  const href=el.getAttribute('href');
+  const next=pageLink(href);
+  if(next!==href)el.setAttribute('href',next);
+ };
+ if(root.matches('a[href^="/"]'))fix(root);
+ root.querySelectorAll('a[href^="/"]').forEach(fix);
+}
+if(base){
+ prefixRuntimeLinks(document.body);
+ new MutationObserver(records=>{
+  for(const record of records)
+   for(const node of record.addedNodes)prefixRuntimeLinks(node);
+ }).observe(document.body,{childList:true,subtree:true});
+}
 // The bottom navigation is intentionally horizontally scrollable on phones.
 // Center its active item so deep pages (Tools, Roster, Guides) are discoverable
 // without squeezing seven labels into unreadable 9px columns.
@@ -13,18 +37,18 @@ if(window.matchMedia('(max-width: 800px)').matches){
  });
 }
 
-import {mountLoadouts} from './loadouts.b63b5b3e9a48d8c9.mjs';
-import {mountRoster,readRoster} from './roster.b63b5b3e9a48d8c9.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.b63b5b3e9a48d8c9.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.b63b5b3e9a48d8c9.mjs';
+import {mountLoadouts} from './loadouts.5b25596e10c37d6e.mjs';
+import {mountRoster,readRoster} from './roster.5b25596e10c37d6e.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.5b25596e10c37d6e.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.5b25596e10c37d6e.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.b63b5b3e9a48d8c9.json',roster:'/catalog-roster.b63b5b3e9a48d8c9.json',champions:'/catalog-champions.b63b5b3e9a48d8c9.json',
- search:'/catalog-search.b63b5b3e9a48d8c9.json',counters:'/catalog-counters.b63b5b3e9a48d8c9.json',
- compare:'/catalog-compare.b63b5b3e9a48d8c9.json',loadouts:'/catalog-loadouts.b63b5b3e9a48d8c9.json',full:'/catalog.b63b5b3e9a48d8c9.json'
+ finder:'/catalog-finder.5b25596e10c37d6e.json',roster:'/catalog-roster.5b25596e10c37d6e.json',champions:'/catalog-champions.5b25596e10c37d6e.json',
+ search:'/catalog-search.5b25596e10c37d6e.json',counters:'/catalog-counters.5b25596e10c37d6e.json',
+ compare:'/catalog-compare.5b25596e10c37d6e.json',loadouts:'/catalog-loadouts.5b25596e10c37d6e.json',full:'/catalog.5b25596e10c37d6e.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -135,7 +159,7 @@ if(db){
   const render=()=>{const target=$('#counter-results').dataset.target,mode=$('#counter-mode').value;$('#counter-results').innerHTML=($('#roster-only').checked?counterResults(db,target,mode,readRoster(db).champions):groupedCounterResults(db,target,mode,readRoster(db).champions));history.replaceState(null,'',location.pathname+(mode?'?mode='+mode:''));track('counter_tool',{target,mode,count:getCounters(db,target,mode).length});};$('#counter-mode').addEventListener('change',render);$('#roster-only').addEventListener('change',render);render();
  }
  if($('#compare-controls')){
-  if(params.has('ids')){const ids=[...new Set(params.get('ids').split(','))].filter(id=>db.champions.some(c=>c.id===id)).slice(0,3);if(ids.length){$('#compare-0').value=ids[0];$('#compare-1').value=ids[1]||db.champions.find(c=>c.id!==ids[0]).id;$('#compare-2').value=ids[2]||'';}}
+  if(params.has('ids')){const ids=[...new Set(params.get('ids').split(','))].filter(id=>db.champions.some(c=>c.id===id)).slice(0,3);if(ids.length){$('#compare-0').value=ids[0];if(ids.length===1){if(!$('#compare-1').querySelector('option[value=""]'))$('#compare-1').insertAdjacentHTML('afterbegin','<option value="">Choose a champion</option>');$('#compare-1').value='';}else $('#compare-1').value=ids[1];$('#compare-2').value=ids[2]||'';}}
   const render=()=>{const all=[...document.querySelectorAll('[data-compare]')].map(s=>s.value).filter(Boolean),ids=[...new Set(all)];$('#compare-status').textContent=ids.length<all.length?'Duplicate selections are shown once. Choose distinct champions for a comparison.':`${ids.length} champions selected. Share this page URL to keep the comparison.`;$('#compare-table').innerHTML=compareTable(db,ids);history.replaceState(null,'',base+'/compare?ids='+ids.join(','));track('compare',{ids});};document.querySelectorAll('[data-compare]').forEach(s=>s.addEventListener('change',render));render();
  }
  if($('#global-query')){
@@ -151,7 +175,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.b63b5b3e9a48d8c9.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.5b25596e10c37d6e.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 

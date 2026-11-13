@@ -1,5 +1,29 @@
 const base=document.body.dataset.base||'';
 const route=document.body.dataset.page;
+// Runtime cards, counter results and search results are inserted after the
+// static HTML build. Keep their internal links in the current Pages base path.
+function pageLink(href){
+ if(!base||!href?.startsWith('/')||href.startsWith('//')||
+    href===base||href.startsWith(base+'/')||href.startsWith(base+'?')||href.startsWith(base+'#'))return href;
+ return base+href;
+}
+function prefixRuntimeLinks(root){
+ if(root.nodeType!==1)return;
+ const fix=el=>{
+  const href=el.getAttribute('href');
+  const next=pageLink(href);
+  if(next!==href)el.setAttribute('href',next);
+ };
+ if(root.matches('a[href^="/"]'))fix(root);
+ root.querySelectorAll('a[href^="/"]').forEach(fix);
+}
+if(base){
+ prefixRuntimeLinks(document.body);
+ new MutationObserver(records=>{
+  for(const record of records)
+   for(const node of record.addedNodes)prefixRuntimeLinks(node);
+ }).observe(document.body,{childList:true,subtree:true});
+}
 // The bottom navigation is intentionally horizontally scrollable on phones.
 // Center its active item so deep pages (Tools, Roster, Guides) are discoverable
 // without squeezing seven labels into unreadable 9px columns.
@@ -135,7 +159,7 @@ if(db){
   const render=()=>{const target=$('#counter-results').dataset.target,mode=$('#counter-mode').value;$('#counter-results').innerHTML=($('#roster-only').checked?counterResults(db,target,mode,readRoster(db).champions):groupedCounterResults(db,target,mode,readRoster(db).champions));history.replaceState(null,'',location.pathname+(mode?'?mode='+mode:''));track('counter_tool',{target,mode,count:getCounters(db,target,mode).length});};$('#counter-mode').addEventListener('change',render);$('#roster-only').addEventListener('change',render);render();
  }
  if($('#compare-controls')){
-  if(params.has('ids')){const ids=[...new Set(params.get('ids').split(','))].filter(id=>db.champions.some(c=>c.id===id)).slice(0,3);if(ids.length){$('#compare-0').value=ids[0];$('#compare-1').value=ids[1]||db.champions.find(c=>c.id!==ids[0]).id;$('#compare-2').value=ids[2]||'';}}
+  if(params.has('ids')){const ids=[...new Set(params.get('ids').split(','))].filter(id=>db.champions.some(c=>c.id===id)).slice(0,3);if(ids.length){$('#compare-0').value=ids[0];if(ids.length===1){if(!$('#compare-1').querySelector('option[value=""]'))$('#compare-1').insertAdjacentHTML('afterbegin','<option value="">Choose a champion</option>');$('#compare-1').value='';}else $('#compare-1').value=ids[1];$('#compare-2').value=ids[2]||'';}}
   const render=()=>{const all=[...document.querySelectorAll('[data-compare]')].map(s=>s.value).filter(Boolean),ids=[...new Set(all)];$('#compare-status').textContent=ids.length<all.length?'Duplicate selections are shown once. Choose distinct champions for a comparison.':`${ids.length} champions selected. Share this page URL to keep the comparison.`;$('#compare-table').innerHTML=compareTable(db,ids);history.replaceState(null,'',base+'/compare?ids='+ids.join(','));track('compare',{ids});};document.querySelectorAll('[data-compare]').forEach(s=>s.addEventListener('change',render));render();
  }
  if($('#global-query')){
