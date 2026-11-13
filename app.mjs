@@ -24,18 +24,119 @@ if(base){
    for(const node of record.addedNodes)prefixRuntimeLinks(node);
  }).observe(document.body,{childList:true,subtree:true});
 }
-// The bottom navigation is intentionally horizontally scrollable on phones.
-// Center its active item so deep pages (Tools, Roster, Guides) are discoverable
-// without squeezing seven labels into unreadable 9px columns.
-if(window.matchMedia('(max-width: 800px)').matches){
- const nav=document.querySelector('.sidebar nav');
- const active=nav?.querySelector('[aria-current="page"]');
- if(nav&&active)requestAnimationFrame(()=>{
-  const center=active.getBoundingClientRect().left-nav.getBoundingClientRect().left
-    +active.getBoundingClientRect().width/2-nav.clientWidth/2;
-  nav.scrollLeft+=center;
+// Keep the original full navigation as a no-JavaScript fallback and on desktop.
+// On phones, present four common destinations plus one reversible More drawer.
+function setupMobileNavigation(){
+ const bar=document.querySelector('.sidebar nav');
+ if(!bar)return;
+ const original=[...bar.querySelectorAll(':scope > a')];
+ const routeOf=a=>{
+  const pathname=new URL(a.href,location.origin).pathname;
+  const local=base&&pathname.startsWith(base+'/')?pathname.slice(base.length):pathname;
+  return local.replace(/\/$/,'')||'/';
+ };
+ const primaryRoutes=['/','/counters','/champions','/live'];
+ const primary=primaryRoutes.map(path=>{
+  const existing=original.find(a=>routeOf(a)===path);
+  if(existing||path!=='/live')return existing;
+  // The Events link is injected by the publishing build after the base build.
+  // Keep the mobile destination available even in a local preview build.
+  const fallback=document.createElement('a');
+  fallback.href=pageLink('/live');
+  fallback.innerHTML='<i aria-hidden="true">●</i>Events &amp; News';
+  if(route==='/live'||route==='/events'){fallback.className='active';fallback.setAttribute('aria-current','page');}
+  return fallback;
  });
+ if(primary.some(a=>!a))return;
+ const more=document.createElement('button');
+ more.type='button';
+ more.id='mobile-more-toggle';
+ more.className='mobile-more-toggle';
+ more.setAttribute('aria-controls','mobile-more-panel');
+ more.setAttribute('aria-expanded','false');
+ more.setAttribute('aria-label','More site sections');
+ more.innerHTML='<i aria-hidden="true">☷</i><span>More</span>';
+ const panel=document.createElement('div');
+ panel.id='mobile-more-panel';
+ panel.className='mobile-more-panel';
+ panel.hidden=true;
+ panel.innerHTML='<strong class="mobile-more-heading">More from Summoner Index</strong>';
+ const links=document.createElement('nav');
+ links.className='mobile-more-links';
+ links.setAttribute('aria-label','Additional site sections');
+ const extras=[
+  ['/guides','Guides'],['/roster','My Roster'],['/tools','Tools'],
+  ['/loadouts','Relics & Stat Focus'],['/compare','Compare champions'],
+  ['/saved','Saved champions'],['/masteries','Masteries'],
+  ['/search','Search all'],['/feedback','Report an issue']
+ ];
+ const localPath=location.pathname.startsWith(base+'/')?location.pathname.slice(base.length):location.pathname;
+ const currentPath=localPath.replace(/\/$/,'')||'/';
+ for(const [href,label] of extras){
+  const link=document.createElement('a');
+  link.href=pageLink(href);
+  link.textContent=label;
+  if(currentPath===href||(href==='/guides'&&['/quests','/bosses','/challenges'].some(p=>currentPath.startsWith(p)))
+   ||(href==='/tools'&&currentPath==='/content-workbench'))link.setAttribute('aria-current','page');
+  links.append(link);
+ }
+ panel.append(links);
+ const shade=document.createElement('button');
+ shade.type='button';
+ shade.className='mobile-more-shade';
+ shade.hidden=true;
+ shade.setAttribute('aria-label','Close More menu');
+ bar.parentElement.append(shade,panel);
+ const mobile=window.matchMedia('(max-width:800px)');
+ const close=(restoreFocus=false)=>{
+  more.setAttribute('aria-expanded','false');
+  panel.hidden=true;
+  shade.hidden=true;
+  document.body.classList.remove('mobile-more-open');
+  if(restoreFocus&&mobile.matches)more.focus();
+ };
+ const open=()=>{
+  more.setAttribute('aria-expanded','true');
+  panel.hidden=false;
+  shade.hidden=false;
+  document.body.classList.add('mobile-more-open');
+  const destination=links.querySelector('[aria-current="page"]')||links.querySelector('a');
+  destination?.focus();
+ };
+ const arrange=()=>{
+  close();
+  if(mobile.matches){
+   bar.replaceChildren(...primary,more);
+   const moreActive=!primary.some(a=>a.hasAttribute('aria-current'));
+   more.classList.toggle('active',moreActive);
+   document.body.classList.add('mobile-nav-ready');
+  }else{
+   document.body.classList.remove('mobile-nav-ready');
+   bar.replaceChildren(...original);
+  }
+ };
+ more.addEventListener('click',()=>panel.hidden?open():close(true));
+ shade.addEventListener('click',()=>close(true));
+ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden)close(true);});
+ links.addEventListener('click',event=>{if(event.target.closest('a'))close();});
+ mobile.addEventListener('change',arrange);
+ arrange();
 }
+setupMobileNavigation();
+// Counter cards are server-rendered on boss guides and re-rendered when mode
+// or roster filters change. Keep their evidence expanded on desktop and
+// collapsible on phones, without removing the cited limitations or risk text.
+const counterEvidenceScreen=window.matchMedia('(max-width:800px)');
+const syncCounterEvidence=root=>{
+ if(root?.nodeType!==1&&root!==document)return;
+ if(root.matches?.('details.counter-evidence-mobile'))root.open=!counterEvidenceScreen.matches;
+ root.querySelectorAll('details.counter-evidence-mobile').forEach(item=>item.open=!counterEvidenceScreen.matches);
+};
+syncCounterEvidence(document);
+new MutationObserver(records=>{
+ for(const record of records)for(const node of record.addedNodes)syncCounterEvidence(node);
+}).observe(document.body,{childList:true,subtree:true});
+counterEvidenceScreen.addEventListener('change',()=>syncCounterEvidence(document));
 
 import {mountLoadouts} from './loadouts.mjs';
 import {mountRoster,readRoster} from './roster.mjs';
