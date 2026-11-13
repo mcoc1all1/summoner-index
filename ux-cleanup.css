@@ -780,3 +780,42 @@ body[data-page="/events"] #live-more-news[hidden]{display:none!important}
  body[data-page="/loadouts"] #loadout-results .loadout-mobile-summary{gap:6px}
  body[data-page="/loadouts"] .loadout-mobile-summary>div{padding:8px}
 }
+
+/* Champion directory: compact single-row tiles on phones, with an optional
+   full card view. All presentation overrides are scoped to <=800px. */
+.champ-view-switch{display:none}
+@media(max-width:800px){
+ body[data-page="/champions"] .champ-view-switch{order:7;display:flex;justify-content:flex-end;align-items:center;gap:3px;margin:0 0 7px}
+ body[data-page="/champions"] .champ-view-option{min-width:81px;min-height:44px;padding:8px 11px;border:1px solid #56615d;border-radius:8px;background:#20292b;color:var(--muted);font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+ body[data-page="/champions"] .champ-view-option.active{background:#3a2d20;border-color:#a88758;color:#ffe0a2}
+ body[data-page="/champions"] .champ-view-option:focus-visible{outline:2px solid #f8c77c;outline-offset:2px}
+ body[data-page="/champions"] #champ-results{order:8}
+ body[data-page="/champions"] #champ-more{order:9}
+ body[data-page="/champions"] main#main>.notice{order:10}
+ body[data-page="/champions"] main#main>.coverage-link{order:11}
+ body[data-page="/champions"].champions-view-compact #champ-results{grid-template-columns:minmax(0,1fr);gap:6px}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card{position:relative;display:block;min-height:64px;border-radius:10px;box-shadow:none;transform:none}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card:hover{transform:none}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card-identity{display:flex;align-items:center;min-height:64px;gap:10px;padding:9px 59px 9px 10px;border-bottom:0}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .avatar{width:43px;height:45px;min-width:43px;font-size:15px;border-radius:10px 4px 10px 4px}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card-title{min-width:0;flex:1;padding:0}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card-title .badge{display:inline-block;font-size:10px;line-height:1.2;margin-bottom:2px}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card h3{font-size:15px;line-height:1.24;overflow-wrap:anywhere}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .card-top .save{position:absolute;top:50%;right:9px;transform:translateY(-50%);min-width:44px;min-height:44px;z-index:3}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .coverage-label,
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card-summary,
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card>.chips,
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .card-link{display:none}
+ /* When users filter by immunities, retain the matching conditions rather than
+    showing a misleading name-only row without the protection context. */
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .protection-matches{display:block;position:relative;z-index:2;margin:0 10px 9px 62px;padding:7px 9px 7px 19px;border-top:1px solid #ffffff18;font-size:11px;line-height:1.4}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card .protection-matches:empty{display:none}
+ body[data-page="/champions"].champions-view-detailed #champ-results{gap:8px}
+}
+@media(min-width:541px) and (max-width:800px){
+ body[data-page="/champions"].champions-view-compact #champ-results{grid-template-columns:minmax(0,1fr)}
+ body[data-page="/champions"].champions-view-detailed #champ-results{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){
+ body[data-page="/champions"] .champ-view-option{transition:none}
+}

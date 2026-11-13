@@ -247,6 +247,42 @@ if(db){
    mobileFiltersOpen=!mobileFiltersOpen;
    syncMobileFilters();
   });
+  // Compact champion rows are the default only for phones. Keep the original
+  // full card markup available for Detailed mode and for every desktop width.
+  const viewStorageKey='summonerindex:champions-view:v1';
+  const viewSwitch=document.createElement('div');
+  viewSwitch.id='champ-view-switch';
+  viewSwitch.className='champ-view-switch';
+  viewSwitch.setAttribute('role','group');
+  viewSwitch.setAttribute('aria-label','Champion directory display');
+  const viewButtons={};
+  for(const [mode,label] of [['compact','Compact'],['detailed','Detailed']]){
+   const button=document.createElement('button');
+   button.type='button';
+   button.className='champ-view-option';
+   button.dataset.champView=mode;
+   button.textContent=label;
+   button.setAttribute('aria-controls','champ-results');
+   viewSwitch.append(button);
+   viewButtons[mode]=button;
+  }
+  $('#champ-count').after(viewSwitch);
+  let chosenView='compact';
+  try{if(localStorage.getItem(viewStorageKey)==='detailed')chosenView='detailed';}catch{}
+  const syncChampionView=()=>{
+   document.body.classList.toggle('champions-view-compact',chosenView==='compact');
+   document.body.classList.toggle('champions-view-detailed',chosenView==='detailed');
+   for(const [mode,button] of Object.entries(viewButtons)){
+    button.classList.toggle('active',mode===chosenView);
+    button.setAttribute('aria-pressed',String(mode===chosenView));
+   }
+  };
+  for(const [mode,button] of Object.entries(viewButtons))button.addEventListener('click',()=>{
+   chosenView=mode;
+   try{localStorage.setItem(viewStorageKey,mode);}catch{}
+   syncChampionView();
+  });
+  syncChampionView();
   document.body.classList.add('champions-mobile-ready');
   let shown=24;
   const more=document.createElement('button');more.id='champ-more';more.textContent='Show 24 more';more.className='primary';$('#champ-results').after(more);
