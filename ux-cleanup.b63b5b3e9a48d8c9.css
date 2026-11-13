@@ -590,3 +590,57 @@ body[data-page="/"] .finder-form .primary{width:100%;font-size:15px}
  body[data-page="/champions"] #champ-results{grid-template-columns:repeat(2,minmax(0,1fr))}
  body[data-page="/champions"] #champ-results .champion-card h3{font-size:15px}
 }
+
+.profile-desktop-preface{display:contents}
+.profile-mobile-preface{display:none}
+/* Champion profile phone ergonomics (2026-11-13): desktop layout preserved. */
+.profile-action-mobile,.champion-research-mobile{display:none}
+@media(max-width:800px){
+ body[data-page^="/champions/"] .topbar{padding-block:8px}
+ body[data-page^="/champions/"] .crumbs{margin:0 0 8px;line-height:1.4}
+ body[data-page^="/champions/"] .profile-desktop-preface{display:none}
+ body[data-page^="/champions/"] .profile-mobile-preface{display:block;margin:0 0 10px}
+ body[data-page^="/champions/"] .profile-mobile-preface>.notice{margin:7px 0;padding:12px 13px;line-height:1.5;font-size:12px}
+ body[data-page^="/champions/"] .champion-research-disclosure{display:none}
+ body[data-page^="/champions/"] .champion-research-mobile{display:block;margin:0 0 12px;padding:0;border-left:3px solid #9d865c}
+ body[data-page^="/champions/"] .champion-research-mobile>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;margin:0;padding:9px 12px;font-size:12px;line-height:1.4}
+ body[data-page^="/champions/"] .champion-research-mobile>summary span{font-size:19px;line-height:1;flex-shrink:0}
+ body[data-page^="/champions/"] .champion-research-mobile[open]>summary span{transform:rotate(180deg)}
+ body[data-page^="/champions/"] .champion-research-mobile>p{margin:0;padding:1px 12px 12px;font-size:12px;line-height:1.55}
+ body[data-page^="/champions/"] .profile-head-upgraded{align-items:flex-start;gap:12px;margin:0 0 12px;padding:3px 0 0}
+ body[data-page^="/champions/"] .profile-head-upgraded .save{width:44px;height:44px;min-width:44px;min-height:44px;padding:0}
+ body[data-page^="/champions/"] .profile-title h1{margin:1px 0 7px;font-size:clamp(24px,6.5vw,33px);line-height:1.14;overflow-wrap:anywhere}
+ body[data-page^="/champions/"] .profile-title .badge{margin-bottom:3px}
+ body[data-page^="/champions/"] .profile-title p{font-size:13px;line-height:1.45;margin:0;overflow-wrap:break-word}
+ body[data-page^="/champions/"] .profile-title small{margin-top:6px;font-size:11px;line-height:1.35;overflow-wrap:break-word}
+ body[data-page^="/champions/"] .profile-decision-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:4px 0 11px}
+ body[data-page^="/champions/"] .profile-decision-strip>div{padding:9px 10px;min-width:0}
+ body[data-page^="/champions/"] .profile-decision-strip span{font-size:10px;line-height:1.2}
+ body[data-page^="/champions/"] .profile-decision-strip strong{font-size:12px;line-height:1.35;overflow-wrap:break-word}
+ body[data-page^="/champions/"] .profile-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0 0 10px}
+ body[data-page^="/champions/"] .profile-actions>a{min-width:0;min-height:44px;font-size:13px;padding:8px 7px;line-height:1.35}
+ body[data-page^="/champions/"] .profile-action-desktop{display:none}
+ body[data-page^="/champions/"] .profile-action-mobile{display:inline}
+ body[data-page^="/champions/"] .profile-jump{display:flex;flex-wrap:nowrap;gap:7px;overflow-x:auto;scrollbar-width:thin;overscroll-behavior-x:contain;scroll-snap-type:x proximity;margin:0 0 14px;padding:4px 0 12px}
+ body[data-page^="/champions/"] .profile-jump a{flex:0 0 auto;min-height:44px;padding:9px 12px;display:inline-flex;align-items:center;white-space:nowrap;scroll-snap-align:start;font-size:12px}
+ body[data-page^="/champions/"] .profile-overview{gap:10px;margin-bottom:14px}
+ body[data-page^="/champions/"] .profile-overview .overview-card{padding:13px 14px}
+ body[data-page^="/champions/"] .profile-overview .overview-card h2{font-size:19px;line-height:1.25;margin-bottom:8px}
+ body[data-page^="/champions/"] .profile-overview .overview-card p,
+ body[data-page^="/champions/"] .profile-overview .overview-card dd{font-size:13px;line-height:1.5}
+ body[data-page^="/champions/"] .profile-overview .overview-card .eyebrow{margin-bottom:5px}
+ body[data-page^="/champions/"] #overview,
+ body[data-page^="/champions/"] #play-plan,
+ body[data-page^="/champions/"] #field-notes,
+ body[data-page^="/champions/"] #immunities,
+ body[data-page^="/champions/"] #matchups,
+ body[data-page^="/champions/"] #loadout,
+ body[data-page^="/champions/"] #research-center{scroll-margin-top:12px}
+}
+@media(max-width:540px){
+ body[data-page^="/champions/"] .profile-head-upgraded{display:grid;grid-template-columns:52px minmax(0,1fr) 44px;gap:10px}
+ body[data-page^="/champions/"] .profile-head-upgraded .avatar.large{width:52px;height:58px;font-size:20px}
+ body[data-page^="/champions/"] .profile-title h1{font-size:clamp(23px,6.7vw,29px)}
+ body[data-page^="/champions/"] .profile-title p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+ body[data-page^="/champions/"] .profile-overview{grid-template-columns:1fr}
+}

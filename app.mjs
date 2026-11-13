@@ -56,6 +56,10 @@ document.addEventListener('click',event=>{
  if(b){const ids=readSaved(),id=b.dataset.save;const next=ids.includes(id)?ids.filter(x=>x!==id):[...ids,id];try{localStorage.setItem('fieldguide:saved',JSON.stringify(next));toast(next.includes(id)?'Champion saved on this browser':'Champion removed');syncSaved();showSaved();}catch{toast('Browser storage is unavailable. Champion was not saved.');}}
  const v=event.target.closest('[data-video]');if(v)track('outbound_youtube',{videoId:v.dataset.video});
 });
+// Sync saved stars even on individual profiles that do not fetch a full catalog.
+syncSaved();
+// Expose interaction readiness for reliable browser QA after module hydration.
+document.body.dataset.appReady='true';
 track('pageview',{path:location.pathname});
 const params=new URLSearchParams(location.search);
 if(db){
