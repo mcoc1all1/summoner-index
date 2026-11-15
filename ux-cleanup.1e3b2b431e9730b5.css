@@ -939,3 +939,106 @@ body[data-page="/twitch-drops"] :is(a,summary):focus-visible{outline:2px solid #
  body[data-page="/twitch-drops"] .twitch-quicklinks strong{font-size:11.5px}
  body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:10px}
 }
+
+
+/* Preserve the original desktop navigation until the phone-only layout is active. */
+.mobile-nav-icon,.mobile-nav-short-label{display:none}
+
+/* Mobile presentation polish (2026-11-15).
+   A consistent hierarchy for text, controls and neutral surfaces.
+   Deliberately presentation-only: desktop, editorial caveats, active status
+   semantics, data filters, and information visibility are unchanged. */
+@media(max-width:800px){
+ :root{--mobile-surface:#1b2325;--mobile-surface-raised:#20292a;--mobile-soft-line:#ffffff1c;--mobile-body-text:#c9d1ce}
+ body{font-size:15px}
+ /* 1. Improve readability: readable body copy, quiet metadata, fewer shouting
+       labels. Leave compact navigational eyebrow text and page heights intact. */
+ body :is(.panel,.counter-card,.live-card,.news-card,.loadout-card,.guide-hub-card,.overview-card,.protection-card) p{font-size:14px;line-height:1.55;color:var(--mobile-body-text)}
+ body :is(.panel,.counter-card,.live-card,.news-card,.loadout-card,.guide-hub-card) :is(li,dd){line-height:1.55}
+ body :is(.panel,.counter-card,.live-card,.news-card,.loadout-card) :is(.muted,small){line-height:1.5}
+ body :is(.field,.toolbar) label{font-size:13px;line-height:1.3;letter-spacing:0;color:#c6d0cb;font-weight:600}
+ body :is(.panel,.live-card,.news-card,.counter-card,.loadout-card) :is(h2,h3){letter-spacing:-.015em}
+ body .eyebrow{letter-spacing:.1em}
+ body .badge{font-size:11px;line-height:1.3;letter-spacing:.035em;margin-bottom:5px}
+ body .chip{border-color:transparent;background:#ffffff0c;padding:5px 9px;border-radius:999px;font-size:12px;line-height:1.4;color:#d0dad6}
+ body :is(.coverage-label,.result-count,.ownership){font-size:12.5px;line-height:1.45}
+ /* 2. More cohesive cards and disclosure surfaces. Preserve distinct active
+       warning, class, and event colors instead of re-coloring status badges. */
+ body :is(.panel,.counter-card,.live-card,.news-card,.loadout-card,.guide-hub-card,.boss-card,.overview-card){border-radius:14px;border-color:var(--mobile-soft-line);box-shadow:0 2px 12px #0000001e}
+ body :is(.counter-glance,.counter-mechanics,.profile-decision-strip>div,.loadout-mobile-summary>div,.loadout-summary-grid>div){border-radius:11px;border-color:var(--mobile-soft-line);background:var(--mobile-surface-raised)}
+ body .finder-panel{border-top:2px solid var(--accent)}
+ body .loadout-card{border-top:2px solid #7a694b}
+ body .notice{border-radius:10px;line-height:1.55}
+ body .empty{border-radius:13px;background:#ffffff04}
+ /* 3. Consistent control shapes and deliberate selection feedback. Keep
+       44px+ primary targets and avoid forcing larger toolbar heights. */
+ body :is(input[type="search"],input[type="text"],select,textarea){border-radius:10px}
+ body :is(.primary,.champ-mobile-filters,.loadout-mobile-filters,.champ-view-option){border-radius:10px}
+ body .primary{box-shadow:inset 0 1px #ffffff28;font-weight:700}
+ body :is(.champ-mobile-filters,.loadout-mobile-filters){background:var(--mobile-surface-raised);border-color:#53615d;font-size:13.5px}
+ body :is(.champ-mobile-filters,.loadout-mobile-filters):active{background:#344140}
+ body :is(.field,.toolbar) :is(input,select):focus-visible{outline-offset:2px}
+ /* 4. Bottom navigation: one family of outline SVG icons and shorter visible
+       labels; original full names remain aria-labels and on desktop. */
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a i{display:none}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a .desktop-nav-label{display:none}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a .mobile-nav-icon,
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle .mobile-nav-icon{display:grid;place-items:center;width:23px;height:23px;flex:0 0 23px}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"] .mobile-nav-icon svg{display:block;width:22px;height:22px;stroke:currentColor}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a .mobile-nav-short-label,
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle .mobile-nav-short-label{display:block;font-size:11.5px;font-weight:650;line-height:1.2;white-space:nowrap;letter-spacing:0}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a,
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle{gap:4px;border-radius:10px}
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a.active,
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle.active{background:#362a1c;border-color:#6e5131;color:#ffe0ad}
+ .mobile-nav-ready .sidebar .mobile-more-panel{border-radius:17px}
+ .mobile-nav-ready .sidebar nav.mobile-more-links a{border-radius:11px}
+ /* 5. Champion profiles: quick facts should read as facts, not as tiny
+       technical form labels. Evidence disclosure remains discoverable. */
+ body[data-page^="/champions/"] .champion-research-mobile{border-radius:10px;background:#25251f;border-left:3px solid #b08b52;overflow:hidden}
+ body[data-page^="/champions/"] .champion-research-mobile>summary{font-size:13px;line-height:1.35;color:#e7dabf;font-weight:650}
+ body[data-page^="/champions/"] .champion-research-mobile>p{font-size:13px;line-height:1.55;color:#d0c5ac}
+ body[data-page^="/champions/"] .profile-decision-strip{gap:7px}
+ body[data-page^="/champions/"] .profile-decision-strip>div{padding:10px 10px}
+ body[data-page^="/champions/"] .profile-decision-strip span{font-size:11px;line-height:1.3;text-transform:none;letter-spacing:0;color:#c1c9c5;margin-bottom:4px}
+ body[data-page^="/champions/"] .profile-decision-strip strong{font-size:13px;line-height:1.42}
+ body[data-page^="/champions/"] .profile-title small{font-size:12px;line-height:1.45}
+ body[data-page^="/champions/"] .profile-jump a{font-size:13px;border-color:#ffffff22;background:#ffffff08}
+ body[data-page^="/champions/"] .profile-title p{font-size:13.5px;line-height:1.5}
+ /* 6. The mobile champion directory remains compact while its class label
+       and letter jump targets are easier to read and touch. */
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card{border-color:#ffffff24;background:#1c2426;border-radius:12px}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card-title .badge{font-size:11px;margin-bottom:2px}
+ body[data-page="/champions"].champions-view-compact #champ-results .champion-card h3{font-size:15.5px;line-height:1.3}
+ body[data-page="/champions"] .champ-letter-heading{font-size:15px;letter-spacing:.02em}
+ body[data-page="/champions"] .champ-index-layout:has(.champ-alpha-rail:not([hidden])){grid-template-columns:minmax(0,1fr) 36px;gap:6px}
+ body[data-page="/champions"] .champ-alpha-rail:not([hidden]){border-color:#ffffff2a;background:#222d2f;border-radius:11px;padding:4px 1px;scrollbar-width:thin}
+ body[data-page="/champions"] .champ-alpha-rail button{width:32px;min-height:32px;flex-basis:32px;font-size:12.5px;font-weight:750}
+ body[data-page="/champions"] .champ-view-option{font-size:13px}
+ /* 7. Event cards: status remains visually meaningful; metadata recedes and
+       the event title and the practical one-line summary lead the eye. */
+ body[data-page="/events"] .live-card,body[data-page="/events"] .news-card{background:var(--mobile-surface);padding:13px 14px}
+ body[data-page="/events"] .live-card h3,body[data-page="/events"] .news-card h3{font-size:18px;line-height:1.28;letter-spacing:-.015em;margin:7px 0 5px}
+ body[data-page="/events"] .live-category,body[data-page="/events"] .live-status{padding:4px 8px;font-size:11.5px;line-height:1.3}
+ body[data-page="/events"] .live-card-teaser{font-size:14px;line-height:1.5;color:#cbd4d0}
+ body[data-page="/events"] .live-card-details[open]>p{font-size:14px;line-height:1.55}
+ body[data-page="/events"] .live-dates{font-size:12.5px;line-height:1.45;border-color:#ffffff15;background:#ffffff06;border-radius:9px}
+ body[data-page="/events"] :is(.live-jump a,.live-filter-bar button){border-radius:999px;font-size:12.5px}
+ /* 8. Relics, Counter Finder, feedback and guidance share the same typographic
+       rhythm without hiding requirements, risk notes or evidence. */
+ body[data-page="/loadouts"] .loadout-mobile-caution{font-size:12.5px;line-height:1.48}
+ body[data-page="/loadouts"] .loadout-mobile-summary strong{font-size:12px;line-height:1.3}
+ body[data-page="/loadouts"] .loadout-mobile-summary span{font-size:13px;line-height:1.5}
+ body[data-page="/loadouts"] #loadout-results .loadout-mobile-details>summary{font-size:13.5px}
+ body[data-page^="/counters/"] .counter-glance-grid strong{font-size:13px}
+ body[data-page^="/counters/"] .counter-glance-grid p{font-size:14px;line-height:1.55}
+ body[data-page="/counters"] .finder-panel .field label{font-size:13px}
+ body[data-page="/feedback"] main :is(.panel p,.notice){font-size:13.5px;line-height:1.55}
+ body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:11.5px}
+ body[data-page="/twitch-drops"] .twitch-step-grid p{font-size:14px;line-height:1.5}
+}
+@media(max-width:360px){
+ /* Retain clean one-line navigation at 320px. */
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a .mobile-nav-short-label,
+ .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle .mobile-nav-short-label{font-size:11px}
+}
