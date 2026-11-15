@@ -1,7 +1,7 @@
-import {rotationPanel} from './guidance.51f38ff91b9ca916.mjs';
-import {loadoutPanel} from './loadouts.51f38ff91b9ca916.mjs';
-import {escapeHtml as e,names} from './domain.51f38ff91b9ca916.mjs';
-import {counterCard,championCard,sources} from './components.51f38ff91b9ca916.mjs';
+import {rotationPanel} from './guidance.5f217a7dcd2dfe1b.mjs';
+import {loadoutPanel} from './loadouts.5f217a7dcd2dfe1b.mjs';
+import {escapeHtml as e,names} from './domain.5f217a7dcd2dfe1b.mjs';
+import {counterCard,championCard,sources} from './components.5f217a7dcd2dfe1b.mjs';
 
 export function updateRecord(db,table,row){
  const next=structuredClone(db),index=next[table].findIndex(x=>x.id===row.id);

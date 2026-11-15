@@ -285,11 +285,101 @@ if(db){
   });
   syncChampionView();
   document.body.classList.add('champions-mobile-ready');
+  // Keep the existing desktop paging and no-JavaScript HTML. On mobile,
+  // group every matching champion once so the alphabet can jump to any letter
+  // without an extra "Show 24 more" action.
+  const results=$('#champ-results');
+  const indexLayout=document.createElement('div');
+  indexLayout.className='champ-index-layout';
+  results.before(indexLayout);
+  indexLayout.append(results);
+  const alphabet=document.createElement('nav');
+  alphabet.className='champ-alpha-rail';
+  alphabet.setAttribute('aria-label','Jump to champions by first letter');
+  alphabet.hidden=true;
+  indexLayout.append(alphabet);
+  const phoneDirectory=window.matchMedia('(max-width:800px)');
+  const az='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const startingLetter=name=>{
+   const first=(name||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').charAt(0).toUpperCase();
+   return az.includes(first)?first:'#';
+  };
   let shown=24;
-  const more=document.createElement('button');more.id='champ-more';more.textContent='Show 24 more';more.className='primary';$('#champ-results').after(more);
+  const more=document.createElement('button');more.id='champ-more';more.textContent='Show 24 more';more.className='primary';indexLayout.after(more);
+  const syncActiveLetter=()=>{
+   if(!phoneDirectory.matches||alphabet.hidden)return;
+   const headings=results.querySelectorAll('.champ-letter-heading');
+   let current=headings[0]?.textContent.trim();
+   for(const heading of headings){
+    if(heading.getBoundingClientRect().top<=90)current=heading.textContent.trim();
+    else break;
+   }
+   for(const button of alphabet.querySelectorAll('button:not(:disabled)')){
+    if(button.dataset.champLetter===current)button.setAttribute('aria-current','location');
+    else button.removeAttribute('aria-current');
+   }
+  };
+  let pendingScrollFrame=0;
+  window.addEventListener('scroll',()=>{
+   if(!phoneDirectory.matches||alphabet.hidden||pendingScrollFrame)return;
+   pendingScrollFrame=requestAnimationFrame(()=>{pendingScrollFrame=0;syncActiveLetter();});
+  },{passive:true});
+  alphabet.addEventListener('click',event=>{
+   const button=event.target.closest('button[data-champ-letter]:not(:disabled)');
+   if(!button)return;
+   const heading=document.getElementById('champ-letter-'+button.dataset.champLetter.toLowerCase());
+   if(!heading)return;
+   heading.focus({preventScroll:true});
+   heading.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+   for(const other of alphabet.querySelectorAll('button[aria-current]'))other.removeAttribute('aria-current');
+   button.setAttribute('aria-current','location');
+  });
   if(['authored','curated','held'].includes(params.get('guide')))$('#coverage-filter').value=params.get('guide');
-  const render=()=>{const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value,rarity=$('#rarity-filter').value,form=$('#immunity-form').value,activation=$('#immunity-activation').value;const immunityFilters={immunity:im,form,activation};let cs=search(db,query,{class:cl,...immunityFilters,guideStatus:coverage}).champions;if(rarity==='7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===true);if(rarity==='not-7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===false);cs.sort((a,b)=>a.name.localeCompare(b.name));$('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions · showing ${Math.min(shown,cs.length)}`;$('#champ-results').innerHTML=cs.length?cs.slice(0,shown).map(c=>championCard(db,c,immunityFilters)).join(''):'<div class="empty"><h3>No champions match these filters.</h3><p>Try another effect, form or activation setting, or clear other filters. Reviewed coverage is incomplete; no result does not mean no immunity exists.</p></div>';more.hidden=shown>=cs.length;const p=new URLSearchParams();if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(form)p.set('form',form);if(activation!=='always')p.set('activation',activation);if(coverage)p.set('guide',coverage);if(rarity)p.set('rarity',rarity);history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));syncSaved();syncMobileFilters();};
+  const render=()=>{
+   const query=$('#champ-query').value,cl=$('#class-filter').value,im=$('#immune-filter').value,coverage=$('#coverage-filter').value,rarity=$('#rarity-filter').value,form=$('#immunity-form').value,activation=$('#immunity-activation').value;
+   const immunityFilters={immunity:im,form,activation};
+   let cs=search(db,query,{class:cl,...immunityFilters,guideStatus:coverage}).champions;
+   if(rarity==='7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===true);
+   if(rarity==='not-7')cs=cs.filter(c=>c.rarityAvailability?.status==='verified'&&c.rarityAvailability.sevenStarAvailable===false);
+   cs.sort((a,b)=>a.name.localeCompare(b.name));
+   const onPhone=phoneDirectory.matches;
+   $('#champ-count').textContent=`${cs.length} of ${db.champions.length} champions`+(onPhone?'':` · showing ${Math.min(shown,cs.length)}`);
+   if(!cs.length){
+    results.innerHTML='<div class="empty"><h3>No champions match these filters.</h3><p>Try another effect, form or activation setting, or clear other filters. Reviewed coverage is incomplete; no result does not mean no immunity exists.</p></div>';
+    alphabet.hidden=true;
+    alphabet.replaceChildren();
+   }else if(onPhone){
+    const groups=new Map();
+    for(const champion of cs){
+     const letter=startingLetter(champion.name);
+     if(!groups.has(letter))groups.set(letter,[]);
+     groups.get(letter).push(champion);
+    }
+    results.innerHTML=[...groups].map(([letter,champions])=>{
+     const id=letter==='#'?'champ-letter-other':'champ-letter-'+letter.toLowerCase();
+     return `<section class="champ-letter-section" aria-labelledby="${id}"><h2 class="champ-letter-heading" id="${id}" tabindex="-1">${letter}</h2><div class="champ-letter-grid">${champions.map(c=>championCard(db,c,immunityFilters)).join('')}</div></section>`;
+    }).join('');
+    // The alphabet always reflects active search/filters; letters without
+    // matches are disabled instead of pretending they have a destination.
+    alphabet.hidden=groups.size<2;
+    alphabet.innerHTML=az.split('').map(letter=>{
+     const enabled=groups.has(letter);
+     return `<button type="button" data-champ-letter="${letter}" aria-label="${enabled?'Jump to':'No matching'} champions starting with ${letter}" ${enabled?'':'disabled'}>${letter}</button>`;
+    }).join('');
+   }else{
+    alphabet.hidden=true;
+    alphabet.replaceChildren();
+    results.innerHTML=cs.slice(0,shown).map(c=>championCard(db,c,immunityFilters)).join('');
+   }
+   more.hidden=onPhone||shown>=cs.length;
+   const p=new URLSearchParams();
+   if(query)p.set('q',query);if(cl)p.set('class',cl);if(im)p.set('immunity',im);if(form)p.set('form',form);
+   if(activation!=='always')p.set('activation',activation);if(coverage)p.set('guide',coverage);if(rarity)p.set('rarity',rarity);
+   history.replaceState(null,'',base+'/champions'+(p.size?'?'+p:''));
+   syncSaved();syncMobileFilters();syncActiveLetter();
+  };
   more.onclick=()=>{shown+=24;render();};
+  phoneDirectory.addEventListener('change',render);
   ['#champ-query','#class-filter','#immune-filter','#immunity-form','#immunity-activation','#coverage-filter','#rarity-filter'].forEach(id=>$(id).addEventListener('input',()=>{shown=24;render();}));render();
  }
  if($('#counter-results')){

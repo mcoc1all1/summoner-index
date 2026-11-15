@@ -828,6 +828,33 @@ body[data-page="/events"] #live-more-news[hidden]{display:none!important}
  body[data-page="/champions"] .champ-view-option{transition:none}
 }
 
+
+/* Mobile Champion A–Z index: jump directly to every matching letter.
+   Desktop keeps its original cards and Show 24 more pagination. */
+.champ-index-layout{display:contents}
+.champ-alpha-rail{display:none}
+@media(max-width:800px){
+ body[data-page="/champions"] .champ-index-layout{order:8;display:grid;grid-template-columns:minmax(0,1fr);gap:6px;min-width:0;width:100%;align-items:start}
+ body[data-page="/champions"] .champ-index-layout:has(.champ-alpha-rail:not([hidden])){grid-template-columns:minmax(0,1fr) 31px}
+ body[data-page="/champions"] .champ-index-layout #champ-results{order:initial;min-width:0;width:100%;display:grid;grid-template-columns:minmax(0,1fr);gap:9px}
+ body[data-page="/champions"] #champ-more{display:none!important}
+ body[data-page="/champions"] .champ-letter-section{min-width:0;display:block}
+ body[data-page="/champions"] .champ-letter-heading{margin:0 0 6px;padding:3px 2px;color:#f3ca8f;font-size:14px;font-weight:750;line-height:1.4;scroll-margin-top:14px}
+ body[data-page="/champions"] .champ-letter-heading:focus{outline:none}
+ body[data-page="/champions"] .champ-letter-heading:focus-visible{outline:2px solid #f8c77c;outline-offset:2px}
+ body[data-page="/champions"] .champ-letter-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;min-width:0}
+ body[data-page="/champions"] .champ-alpha-rail:not([hidden]){position:sticky;top:8px;display:flex;flex-direction:column;align-items:stretch;gap:2px;align-self:start;max-height:calc(100dvh - 128px);min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;padding:4px 1px;background:#20292b;border:1px solid #52615d;border-radius:11px;z-index:4}
+ body[data-page="/champions"] .champ-alpha-rail::-webkit-scrollbar{display:none}
+ body[data-page="/champions"] .champ-alpha-rail button{appearance:none;display:flex;align-items:center;justify-content:center;flex:0 0 27px;width:27px;min-height:27px;margin:0;padding:0;background:transparent;color:#e5ded0;border:0;border-radius:6px;font:700 12px/1 system-ui,sans-serif;cursor:pointer}
+ body[data-page="/champions"] .champ-alpha-rail button[disabled]{opacity:.26;cursor:default}
+ body[data-page="/champions"] .champ-alpha-rail button[aria-current="location"]{background:#a77a43;color:#141719}
+ body[data-page="/champions"] .champ-alpha-rail button:focus-visible{outline:2px solid #f8c77c;outline-offset:-2px}
+ body[data-page="/champions"] .champ-index-layout #champ-results .empty{grid-column:1/-1}
+}
+@media(min-width:541px) and (max-width:800px){
+ body[data-page="/champions"].champions-view-detailed .champ-letter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
 /* Twitch Drops help: original text-only resource with trusted outbound links.
    Scoping keeps champion directory, Events, and desktop UI unchanged. */
 body[data-page="/twitch-drops"] .twitch-hero{margin:0 0 16px;padding:27px 28px 26px;border:1px solid #4e554b;border-radius:17px;background:radial-gradient(circle at 92% 18%,#b47d3b1e,transparent 41%),linear-gradient(135deg,#192629,#13191b)}
