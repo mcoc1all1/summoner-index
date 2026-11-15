@@ -1,6 +1,6 @@
-import {loadoutCoverage} from './loadout-coverage.9dacc32ac801a910.mjs';
-import {referenceLoadout} from './reference.9dacc32ac801a910.mjs';
-import {escapeHtml as e} from './domain.9dacc32ac801a910.mjs';
+import {loadoutCoverage} from './loadout-coverage.32d501a961121702.mjs';
+import {referenceLoadout} from './reference.32d501a961121702.mjs';
+import {escapeHtml as e} from './domain.32d501a961121702.mjs';
 
 export const focusOptions=['Critical Rating','Critical Damage Rating','Special Damage','Armor Penetration','Block Penetration','Adrenaline','Armor Rating','Block Proficiency','Physical Resistance','Energy Resistance'];
 export const defenderFocusOptions=focusOptions.filter(x=>x!=='Adrenaline');
@@ -30,8 +30,14 @@ function unverifiedFocusBlock(c,reviewedAt){
  return `<div><h3>7★ stat focus</h3><p class="notice"><strong>${e(state.label)}.</strong> Exact attacker and defender focus drafts are withheld from public guidance until eligibility is confirmed with a dated source.</p><p class="muted">Editorial draft reviewed ${e(reviewedAt||'not recorded')} · Not shown as an actionable recommendation</p></div>`;
 }
 function unpublishedFocusBlock(c){return `<div><h3>7★ stat focus · research pending</h3><p class="notice">${e(focusEligibilityState(c).label)}. Champion-specific attacker and defender explanations have not passed editorial publication review, so recommended settings are withheld.</p><p>Confirm options in-game and test them against comparable matchups before investing.</p></div>`;}
+// Missing alternatives are an editorial absence, not something visitors need
+// to read in every profile. This does not create or alter any Focus suggestion.
+function publicFocusAlternative(value){
+ const text=typeof value==='string'?value.trim():'';
+ return text&&text!=='Not reviewed'?`<p class="muted">Alternative to test: ${e(text)}</p>`:'';
+}
 function verifiedFocusBlock(c,l){
- return `<div><h3>7★ stat focus · eligibility verified</h3><dl><dt>Attacker starting point</dt><dd>${e(l.attackFocus)}</dd></dl><p>${e(l.attackReason)}</p><p class="muted">Alternative to test: ${e(l.attackAlternative)}</p><dl><dt>Defender starting point</dt><dd>${e(l.defenseFocus)}</dd></dl><p>${e(l.defenseReason)}</p><p class="muted">Alternative to test: ${e(l.defenseAlternative)}</p><p class="muted">Eligibility checked ${e(c.statFocusEligibility.checkedAt)}.</p></div>`;
+ return `<div><h3>7★ stat focus · eligibility verified</h3><dl><dt>Attacker starting point</dt><dd>${e(l.attackFocus)}</dd></dl><p>${e(l.attackReason)}</p>${publicFocusAlternative(l.attackAlternative)}<dl><dt>Defender starting point</dt><dd>${e(l.defenseFocus)}</dd></dl><p>${e(l.defenseReason)}</p>${publicFocusAlternative(l.defenseAlternative)}<p class="muted">Eligibility checked ${e(c.statFocusEligibility.checkedAt)}.</p></div>`;
 }
 
 function originalRelicTrial(db,c){
@@ -75,7 +81,7 @@ export function loadoutPanel(db,c){
   if(!f)return referenceLoadout(c);
   const state=focusEligibilityState(c);
   if(!state.confirmed)return referenceLoadout(c)+`<section class="loadout-notes" aria-label="${e(c.name)} stat focus eligibility"><p class="eyebrow">STAT FOCUS WITHHELD · ELIGIBILITY UNVERIFIED</p><h3>${e(state.label)}</h3><p>The catalog contains an editorial focus draft, but the exact setting is intentionally hidden until this champion’s 7★ Stat Focus eligibility is confirmed with dated evidence.</p><p class="notice">${e(f.eligibility)}</p><p class="muted">Editorial draft reviewed ${e(f.reviewedAt)} · Not gameplay-tested</p>${focusEvidence(db,c)}</section>`;
-  return referenceLoadout(c)+`<section class="loadout-notes" aria-label="${e(c.name)} standalone stat focus trial"><p class="eyebrow">EDITORIAL FOCUS TRIAL · ELIGIBILITY VERIFIED · RELIC PAIRING UNREVIEWED</p><h3>7★ attacker starting point: ${e(f.attackFocus)}</h3><p>${e(f.attackReason)}</p><p>Alternative to test: ${e(f.attackAlternative)}</p><p class="notice">${e(f.eligibility)}</p><p class="muted">Eligibility checked ${e(c.statFocusEligibility.checkedAt)} · Editorial trial reviewed ${e(f.reviewedAt)} · Not gameplay-tested. Defender focus remains unreviewed.</p>${focusEvidence(db,c)}<ul>${f.sourceIds.map(id=>{const s=db.sources.find(s=>s.id===id);return `<li><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)} ↗</a></li>`;}).join('')}</ul></section>`;
+  return referenceLoadout(c)+`<section class="loadout-notes" aria-label="${e(c.name)} standalone stat focus trial"><p class="eyebrow">EDITORIAL FOCUS TRIAL · ELIGIBILITY VERIFIED · RELIC PAIRING UNREVIEWED</p><h3>7★ attacker starting point: ${e(f.attackFocus)}</h3><p>${e(f.attackReason)}</p>${publicFocusAlternative(f.attackAlternative)}<p class="notice">${e(f.eligibility)}</p><p class="muted">Eligibility checked ${e(c.statFocusEligibility.checkedAt)} · Editorial trial reviewed ${e(f.reviewedAt)} · Not gameplay-tested. Defender focus remains unreviewed.</p>${focusEvidence(db,c)}<ul>${f.sourceIds.map(id=>{const s=db.sources.find(s=>s.id===id);return `<li><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.title)} ↗</a></li>`;}).join('')}</ul></section>`;
  }
  const state=focusEligibilityState(c);
  const isCatalogTrial=c.statFocusReview?.status==='catalog-trial';
