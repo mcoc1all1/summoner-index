@@ -4,5 +4,5 @@
   try{light=localStorage.getItem(key)==='light';}catch(_){}
   document.documentElement.dataset.theme=light?'light':'dark';
   var meta=document.querySelector('meta[name="theme-color"]');
-  if(meta)meta.setAttribute('content',light?'#F2F5F8':'#0B1422');
+  if(meta)meta.setAttribute('content',light?'#F7F3FC':'#120D22');
 })();

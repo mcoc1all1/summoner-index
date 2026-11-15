@@ -1,3 +1,5 @@
+import './boss-prep.mjs';
+
 /* Accessible, persistent theme choice. Dark is the explicit first-visit default. */
 const STORAGE_KEY='summonerindex:theme:v1';
 const buttons=[...document.querySelectorAll('[data-theme-toggle]')];
@@ -10,9 +12,9 @@ const setTheme=(mode,persist=false)=>{
  const light=mode==='light';
  root.dataset.theme=light?'light':'dark';
  const meta=document.querySelector('meta[name="theme-color"]');
- meta?.setAttribute('content',light?'#F2F5F8':'#0B1422');
+ meta?.setAttribute('content',light?'#F7F3FC':'#120D22');
  for(const button of buttons){
-  const next=light?'Switch to Arctic Nexus dark mode':'Switch to Frosted Slate light mode';
+  const next=light?'Switch to Violet Realm dark mode':'Switch to Lilac Dawn light mode';
   button.setAttribute('aria-label',next);
   button.setAttribute('title',next);
   button.setAttribute('aria-pressed',String(light));
