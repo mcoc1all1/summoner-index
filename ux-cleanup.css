@@ -1042,3 +1042,111 @@ body[data-page="/twitch-drops"] :is(a,summary):focus-visible{outline:2px solid #
  .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a .mobile-nav-short-label,
  .mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle .mobile-nav-short-label{font-size:11px}
 }
+
+
+/* Mobile centered typography (2026-11-15).
+   Center short, scannable presentation while preserving conventional reading
+   alignment for paragraphs with multiple steps, input labels, evidence, and
+   data-dense content. Desktop and all application logic are untouched. */
+@media(max-width:800px){
+ /* Page titles, introductions and section headings. */
+ main :is(.hero,.home-beta-note,.section-head,.empty,.coverage-link),
+ .footer{
+  text-align:center;
+ }
+ main .hero :is(h1,p,.eyebrow),
+ main .section-head :is(h2,h3,.eyebrow){
+  text-align:center;
+ }
+ main .hero p{margin-inline:auto}
+ main .section-head{justify-content:center}
+ main .section-head>div{min-width:0}
+ main .section-head :is(.text-link,small){text-align:center}
+
+ /* Short summaries, featured cards, quick facts and dashboards. */
+ main :is(.home-proof,.stats-strip,.live-home-callout,.guide-hub-card,
+   .boss-card,.mastery-card,.mastery-preset-card,.live-card,.news-card,
+   .overview-card,.profile-decision-strip,.boss-fast-grid,
+   .challenge-glance-grid,.counter-glance-grid,.quick-facts,
+   .loadout-mobile-summary,.empty){
+  text-align:center;
+ }
+ main .home-proof>div{align-items:center;justify-content:center}
+ main :is(.quick-row:not(.live-jump),.profile-actions,.profile-jump,.boss-fast-tags){
+  justify-content:center;
+ }
+ main :is(.champion-card,.loadout-card>.section-head,.profile-title,
+   .profile-overview .overview-card,.live-editorial-note>.eyebrow,
+   .live-editorial-note>h2,.twitch-quicklinks,.twitch-type-grid,
+   .twitch-trouble-grid){
+  text-align:center;
+ }
+ main .champion-card :is(.chip,.badge,.coverage-label,.champion-card-summary,.card-link){
+  text-align:center;
+ }
+ main .champion-card>.chips{justify-content:center}
+ main .live-card-top{justify-content:center}
+ main .live-card :is(.live-category,.live-status),
+ main .news-card :is(.live-category,.live-status){text-align:center}
+ main .live-freshness{justify-content:center}
+ main .live-jump a,
+ main .live-filter-bar button,
+ main .twitch-jump a,
+ main .profile-jump a{
+  text-align:center;
+ }
+
+ /* Center brief section leads, but not the full reference content below. */
+ main :is(.finder-panel,.boss-fast-plan)>.eyebrow,
+ main :is(.finder-panel,.boss-fast-plan)>h2,
+ main .finder-panel>.muted,
+ main .home-counter-coverage,
+ main .twitch-section>.section-head{
+  text-align:center;
+ }
+ main .counter-glance>h4,
+ main .counter-glance-grid :is(strong,small),
+ main .loadout-mobile-caution,
+ main .loadout-card>.section-head,
+ main .loadout-mobile-details>summary,
+ main .profile-overview .overview-card :is(h2,.eyebrow){
+  text-align:center;
+ }
+
+ /* Don't center high-density reading or controls: alignment conveys sequence
+    and keeps labels associated with the corresponding inputs. */
+ main :is(.prose,.steps,.boss-phase-rail,.boss-cheat-sheet,
+   .challenge-fight-card,.mastery-priority-list,.counter-plan,
+   .counter-mechanics,.counter-evidence-summary,.counter-preflight,
+   .counter-context,.counter-evidence-mobile,.sources,
+   .relic-original-editorial,.loadout-notes,.loadout-intro-details>.notice,
+   .loadout-intro-details>#loadout-coverage-summary,
+   .research-center-body,.notice:not(.home-beta-note),
+   .twitch-step-grid,.twitch-faq,.twitch-resource-links){
+  text-align:left;
+ }
+ main :is(.field,.toolbar,.finder-form,.roster-build,.table-scroll,table,
+   input,select,textarea,option,label,dt,dd){
+  text-align:left;
+ }
+ main :is(.counter-card,.profile-grid,.matchup-directions,.twitch-section) :is(
+   p,li,dd,dt){
+  text-align:left;
+ }
+ main :is(.live-card-details>p,.news-card .live-card-details>p,
+   .live-editorial-note>p,.twitch-trouble-grid .panel>p){
+  text-align:left;
+ }
+
+ /* The dense A–Z champion index is a scanable directory, not a hero grid.
+    Preserve name/avatar association and the A–Z rail's original geometry. */
+ body[data-page="/champions"] #champ-results .champion-card,
+ body[data-page="/champions"] #champ-results .champion-card :is(
+   .champion-card-title,.champion-card-summary,.coverage-label){
+  text-align:left;
+ }
+ body[data-page="/champions"] .champ-letter-heading{text-align:center}
+ body[data-page="/champions"] #champ-results .champion-card>.chips{
+  justify-content:flex-start;
+ }
+}

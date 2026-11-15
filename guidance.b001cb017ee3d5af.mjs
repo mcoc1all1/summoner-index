@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './domain.32d501a961121702.mjs';
+import {escapeHtml as e} from './domain.b001cb017ee3d5af.mjs';
 export function rotationPanel(c){
  if(!c.rotation?.length)return '';
  const checked=c.kitReview?.checkedAt?` · source checked ${e(c.kitReview.checkedAt)}`:'';
