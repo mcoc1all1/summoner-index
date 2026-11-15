@@ -827,3 +827,88 @@ body[data-page="/events"] #live-more-news[hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){
  body[data-page="/champions"] .champ-view-option{transition:none}
 }
+
+/* Twitch Drops help: original text-only resource with trusted outbound links.
+   Scoping keeps champion directory, Events, and desktop UI unchanged. */
+body[data-page="/twitch-drops"] .twitch-hero{margin:0 0 16px;padding:27px 28px 26px;border:1px solid #4e554b;border-radius:17px;background:radial-gradient(circle at 92% 18%,#b47d3b1e,transparent 41%),linear-gradient(135deg,#192629,#13191b)}
+body[data-page="/twitch-drops"] .twitch-hero h1{max-width:850px;font-size:clamp(29px,3.5vw,44px);line-height:1.13;margin:6px 0 12px}
+body[data-page="/twitch-drops"] .twitch-hero p{max-width:770px;line-height:1.65;margin:8px 0;font-size:15px}
+body[data-page="/twitch-drops"] .twitch-hero .twitch-checked{margin:13px 0 0;color:var(--muted);font-size:12px}
+body[data-page="/twitch-drops"] .twitch-quicklinks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+body[data-page="/twitch-drops"] .twitch-quicklinks>a{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0;min-height:98px;padding:15px 14px;border:1px solid #66533a;border-radius:12px;background:#272823;color:#e9d7b8;text-decoration:none}
+body[data-page="/twitch-drops"] .twitch-quicklinks>a:hover{background:#343024;border-color:#b4915b}
+body[data-page="/twitch-drops"] .twitch-quicklinks>a>span:first-child{display:flex;flex-direction:column;gap:5px;min-width:0;font-size:11px;color:#ccad80}
+body[data-page="/twitch-drops"] .twitch-quicklinks strong{font-size:15px;line-height:1.25;color:#ffe1ae;overflow-wrap:anywhere}
+body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:11px;color:#bfcbc5;line-height:1.35}
+body[data-page="/twitch-drops"] .twitch-jump{margin:16px 0 0;gap:8px}
+body[data-page="/twitch-drops"] .twitch-section{margin:23px 0 32px;scroll-margin-top:14px}
+body[data-page="/twitch-drops"] .twitch-section>.section-head{margin:0 0 13px}
+body[data-page="/twitch-drops"] .twitch-section>.section-head h2{font-size:25px}
+body[data-page="/twitch-drops"] .twitch-step-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));list-style:none;gap:12px;padding:0;margin:0}
+body[data-page="/twitch-drops"] .twitch-step-grid>li{position:relative;min-width:0;padding:20px 21px 19px}
+body[data-page="/twitch-drops"] .twitch-step-grid h3{font-size:18px;line-height:1.3;margin:4px 0 11px;color:var(--text)}
+body[data-page="/twitch-drops"] .twitch-step-grid p{font-size:13px;line-height:1.64;margin:0 0 10px}
+body[data-page="/twitch-drops"] .twitch-step-grid p:last-child{margin-bottom:0}
+body[data-page="/twitch-drops"] .twitch-step-index{font-size:12px;font-weight:800;letter-spacing:.1em;color:#f0bf77}
+body[data-page="/twitch-drops"] .twitch-step-note{padding:9px 10px;border-left:2px solid #9b7752;background:#ffffff05;color:#c9d0c9}
+body[data-page="/twitch-drops"] .twitch-step-grid a,
+body[data-page="/twitch-drops"] .twitch-type-grid a,
+body[data-page="/twitch-drops"] .twitch-trouble-grid a,
+body[data-page="/twitch-drops"] .twitch-faq a{color:#f1c58a;text-underline-offset:3px}
+body[data-page="/twitch-drops"] .twitch-type-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+body[data-page="/twitch-drops"] .twitch-type-grid>.panel{min-width:0;padding:18px}
+body[data-page="/twitch-drops"] .twitch-type-grid h3{font-size:17px;margin:9px 0}
+body[data-page="/twitch-drops"] .twitch-type-grid p{font-size:13px;line-height:1.65;margin:0}
+body[data-page="/twitch-drops"] .twitch-callout{padding:13px 15px;margin:12px 0 0;border:1px solid #495955;border-radius:10px;font-size:13px;line-height:1.65;background:#1c2929}
+body[data-page="/twitch-drops"] .twitch-callout a{color:#f1c58a}
+body[data-page="/twitch-drops"] .twitch-trouble-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+body[data-page="/twitch-drops"] .twitch-trouble-grid>.panel{min-width:0;padding:18px 20px}
+body[data-page="/twitch-drops"] .twitch-trouble-grid h3{font-size:17px;margin:0 0 10px}
+body[data-page="/twitch-drops"] .twitch-trouble-grid p{font-size:13px;line-height:1.65;margin:0}
+body[data-page="/twitch-drops"] .twitch-support-note{margin-top:11px;padding:16px 18px}
+body[data-page="/twitch-drops"] .twitch-support-note h3{font-size:17px;margin:0 0 8px}
+body[data-page="/twitch-drops"] .twitch-support-note p{font-size:13px;line-height:1.6}
+body[data-page="/twitch-drops"] .twitch-faq{display:grid;gap:8px}
+body[data-page="/twitch-drops"] .twitch-faq details{border:1px solid #495652;border-radius:10px;background:#1d2628;padding:0 15px}
+body[data-page="/twitch-drops"] .twitch-faq summary{min-height:50px;display:list-item;cursor:pointer;padding:15px 4px;font-size:14px;font-weight:700;line-height:1.5;color:var(--text)}
+body[data-page="/twitch-drops"] .twitch-faq details[open] summary{border-bottom:1px solid #3e4b49}
+body[data-page="/twitch-drops"] .twitch-faq p{font-size:13px;line-height:1.65;margin:13px 0 15px;color:#ccd5d0}
+body[data-page="/twitch-drops"] .twitch-resource-links{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0;padding:0}
+body[data-page="/twitch-drops"] .twitch-resource-links li{display:flex;flex-direction:column;justify-content:center;gap:3px;min-width:0;padding:13px 15px;border:1px solid #394a49;border-radius:9px;background:#1c2728}
+body[data-page="/twitch-drops"] .twitch-resource-links a{font-size:14px;font-weight:700;line-height:1.4;color:#efc48a}
+body[data-page="/twitch-drops"] .twitch-resource-links span{font-size:12px;color:var(--muted);line-height:1.4}
+body[data-page="/twitch-drops"] .twitch-reviewed-footer{margin:15px 0;font-size:12px;line-height:1.6;color:var(--muted)}
+body[data-page="/twitch-drops"] :is(a,summary):focus-visible{outline:2px solid #f6cb88;outline-offset:3px}
+@media(max-width:1000px){
+ body[data-page="/twitch-drops"] .twitch-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="/twitch-drops"] .twitch-type-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:800px){
+ body[data-page="/twitch-drops"] main#main>.crumbs{margin:0 0 7px;font-size:11px}
+ body[data-page="/twitch-drops"] .twitch-hero{padding:17px 15px 16px;margin:0 0 10px;border-radius:12px}
+ body[data-page="/twitch-drops"] .twitch-hero h1{font-size:clamp(25px,6.8vw,32px);line-height:1.15;margin:4px 0 6px}
+ body[data-page="/twitch-drops"] .twitch-hero p{font-size:13px;line-height:1.5;margin:5px 0}
+ body[data-page="/twitch-drops"] .twitch-hero .twitch-checked{font-size:11px;line-height:1.4;margin-top:8px}
+ body[data-page="/twitch-drops"] .twitch-quicklinks{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ body[data-page="/twitch-drops"] .twitch-quicklinks>a{min-height:84px;padding:10px 9px;gap:4px}
+ body[data-page="/twitch-drops"] .twitch-quicklinks strong{font-size:12.5px}
+ body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:10.5px}
+ body[data-page="/twitch-drops"] .twitch-jump{margin:10px 0 0;padding:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;max-width:100%;gap:6px}
+ body[data-page="/twitch-drops"] .twitch-jump a{white-space:nowrap;min-height:44px;display:inline-flex;align-items:center;padding:8px 10px;font-size:12px}
+ body[data-page="/twitch-drops"] .twitch-section{margin:17px 0 24px}
+ body[data-page="/twitch-drops"] .twitch-section>.section-head{margin:0 0 10px}
+ body[data-page="/twitch-drops"] .twitch-section>.section-head h2{font-size:20px}
+ body[data-page="/twitch-drops"] .twitch-step-grid,body[data-page="/twitch-drops"] .twitch-type-grid,body[data-page="/twitch-drops"] .twitch-trouble-grid,body[data-page="/twitch-drops"] .twitch-resource-links{grid-template-columns:1fr}
+ body[data-page="/twitch-drops"] .twitch-step-grid{gap:9px}
+ body[data-page="/twitch-drops"] .twitch-step-grid>li{padding:14px 15px}
+ body[data-page="/twitch-drops"] .twitch-step-grid h3{font-size:16px;margin:4px 0 7px}
+ body[data-page="/twitch-drops"] .twitch-step-grid p{font-size:13px}
+ body[data-page="/twitch-drops"] .twitch-type-grid>.panel,body[data-page="/twitch-drops"] .twitch-trouble-grid>.panel{padding:14px 15px}
+ body[data-page="/twitch-drops"] .twitch-faq details{padding:0 12px}
+ body[data-page="/twitch-drops"] .twitch-faq summary{font-size:13px;min-height:48px;padding:12px 3px}
+ body[data-page="/twitch-drops"] .twitch-resource-links li{padding:12px 13px}
+}
+@media(max-width:360px){
+ body[data-page="/twitch-drops"] .twitch-quicklinks strong{font-size:11.5px}
+ body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:10px}
+}

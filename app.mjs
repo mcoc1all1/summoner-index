@@ -68,6 +68,7 @@ function setupMobileNavigation(){
   ['/guides','Guides'],['/roster','My Roster'],['/tools','Tools'],
   ['/loadouts','Relics & Stat Focus'],['/compare','Compare champions'],
   ['/saved','Saved champions'],['/masteries','Masteries'],
+  ['/twitch-drops','Twitch Drops guide'],
   ['/search','Search all'],['/feedback','Report an issue']
  ];
  const localPath=location.pathname.startsWith(base+'/')?location.pathname.slice(base.length):location.pathname;
