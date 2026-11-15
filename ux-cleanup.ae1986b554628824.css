@@ -1150,3 +1150,46 @@ body[data-page="/twitch-drops"] :is(a,summary):focus-visible{outline:2px solid #
   justify-content:flex-start;
  }
 }
+
+/* Mobile visual QA fixes (2026-11-15): keep detailed reference tables inside
+   their cards, leave the first horizontal section tab reachable, and prevent
+   orphan navigation arrows and unreadably small evidence labels. */
+@media(max-width:800px){
+ /* Long boss tables are a scrollable subregion, NOT a wider page. */
+ body[data-page^="/bosses/"] .boss-cheat-sheet{min-width:0;max-width:100%}
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap{
+  display:block;min-width:0;max-width:100%;
+  overflow-x:auto;overflow-y:hidden;
+  overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;
+  scrollbar-width:thin;border:1px solid var(--line);border-radius:9px
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap table{
+  width:max-content;min-width:610px;max-width:none
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap :is(th,td){
+  min-width:155px;max-width:250px;padding:12px 14px;
+  white-space:normal;overflow-wrap:anywhere
+ }
+ /* Centered presentations must not center an overflowing tab strip: that
+    sends the first links into negative x coordinates on narrow phones. */
+ body[data-page^="/champions/"] main .profile-jump,main .twitch-jump.quick-row,
+ body[data-page="/events"] main .live-jump,
+ body[data-page="/events"] main .live-filter-bar{
+  justify-content:flex-start;
+ }
+ main .profile-jump,main .twitch-jump{
+  scroll-padding-inline:8px;overscroll-behavior-x:contain
+ }
+ /* Keep mobile headlines visually balanced without changing paragraph,
+    evidence, form-label or desktop alignment. */
+ main :is(.boss-card h3,.news-card h3,.live-card h3,.hero h1){
+  text-wrap:balance;overflow-wrap:break-word
+ }
+ main .boss-card h3{font-size:clamp(18px,4.9vw,21px);line-height:1.29}
+ /* Evidence dates and cited-source types are useful, not decorative footnotes. */
+ main :is(.sources small,.prose li>small,.panel li>small){
+  font-size:12px;line-height:1.5;overflow-wrap:anywhere
+ }
+ body[data-page="/"] .home-beta-note{font-size:12px;line-height:1.55}
+ body[data-page="/twitch-drops"] .twitch-checked{font-size:12px;line-height:1.5}
+}

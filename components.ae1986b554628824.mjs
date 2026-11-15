@@ -1,10 +1,10 @@
-import {matchingProtections,protectionFilterActive,protectionLabel,protectionRecords} from './protections.b001cb017ee3d5af.mjs';
-import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.b001cb017ee3d5af.mjs';
-import {requirementCheck} from './roster.b001cb017ee3d5af.mjs';
-import {escapeHtml as e,names,getCounters} from './domain.b001cb017ee3d5af.mjs';
-import {counterMechanicSummary} from './counter-mechanics-ui.b001cb017ee3d5af.mjs';
-import {counterEvidenceLabel,counterEvidenceFacts} from './counter-provenance.b001cb017ee3d5af.mjs';
-import {guideStatusLabel} from './guide-status.b001cb017ee3d5af.mjs';
+import {matchingProtections,protectionFilterActive,protectionLabel,protectionRecords} from './protections.ae1986b554628824.mjs';
+import {relicName,focusPublicValue,focusEligibilityState} from './loadouts.ae1986b554628824.mjs';
+import {requirementCheck} from './roster.ae1986b554628824.mjs';
+import {escapeHtml as e,names,getCounters} from './domain.ae1986b554628824.mjs';
+import {counterMechanicSummary} from './counter-mechanics-ui.ae1986b554628824.mjs';
+import {counterEvidenceLabel,counterEvidenceFacts} from './counter-provenance.ae1986b554628824.mjs';
+import {guideStatusLabel} from './guide-status.ae1986b554628824.mjs';
 
 export const badge=c=>`<span class="badge ${c.toLowerCase()}">${e(c)}</span>`;
 export const avatar=(c,large=false)=>`<span aria-hidden="true" class="avatar ${c.class?.toLowerCase()||'boss'} ${large?'large':''}">${e(c.initials||c.name.slice(0,2).toUpperCase())}</span>`;
@@ -64,7 +64,7 @@ export function counterCard(db,c,owned){
  <section class="counter-plan"><h4>Fight plan</h4><p>${e(c.strategy)}</p>${c.conditions?.length?`<h4>Check before choosing</h4><ul>${c.conditions.map(condition=>`<li>${e(condition)}</li>`).join('')}</ul>`:''}${rows.length?`<dl class="counter-build">${rows.map(([label,value])=>`<dt>${e(label)}</dt><dd>${e(value)}</dd>`).join('')}</dl>`:''}<p class="risk"><strong>Watch out</strong> ${e(c.risks)}</p></section></details><details class="confidence-details"><summary>Why this confidence?</summary><p>${e(c.scoreReason)}</p><p class="muted">${e(c.review?.status||'community-sourced')}${c.review?.reviewedAt?' · sources reviewed '+e(c.review.reviewedAt):''}${c.review?.gameVersion?' · claimed game version '+e(c.review.gameVersion):''}</p><p class="muted counter-rights-pending">Source-linked editorial selection; current-client testing and independent expression/compilation review are not documented. A reference link is not a reuse license.</p></details>${sources(db,c.sourceIds)}</article>`;
 }
 
-export function bossCard(b){return `<a class="boss-card" href="/bosses/${b.id}"><div class="boss-art ${b.id}" aria-hidden="true"><span>${b.id==='bahamet'?'◈':'⌖'}</span><small>${/^\d/.test(b.chapter)?'ACT ':''}${e(b.chapter)}</small></div><div><span class="eyebrow">${/^\d/.test(b.chapter)?'STORY QUEST':'SPECIAL QUEST'} · ${e(b.chapter)}</span><h3>${e(b.name)} <span>↗</span></h3><p>${e(b.summary)}</p><span class="text-link">Open fight guide →</span></div></a>`;}
+export function bossCard(b){return `<a class="boss-card" href="/bosses/${b.id}"><div class="boss-art ${b.id}" aria-hidden="true"><span>${b.id==='bahamet'?'◈':'⌖'}</span><small>${/^\d/.test(b.chapter)?'ACT ':''}${e(b.chapter)}</small></div><div><span class="eyebrow">${/^\d/.test(b.chapter)?'STORY QUEST':'SPECIAL QUEST'} · ${e(b.chapter)}</span><h3>${e(b.name)}&nbsp;<span>↗</span></h3><p>${e(b.summary)}</p><span class="text-link">Open fight guide →</span></div></a>`;}
 
 export function compareTable(db,ids){
  const cs=ids.map(id=>db.champions.find(c=>c.id===id)).filter(Boolean);
