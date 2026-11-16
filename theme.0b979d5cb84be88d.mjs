@@ -1,4 +1,4 @@
-import './boss-prep.a8ed81e7f886081d.mjs';
+import './boss-prep.0b979d5cb84be88d.mjs';
 
 /* Accessible, persistent theme choice. Dark is the explicit first-visit default. */
 const STORAGE_KEY='summonerindex:theme:v1';

@@ -6461,6 +6461,48 @@
       "checkedAt": "2026-11-06"
     },
     {
+      "id": "counter-gap-wolverine-reliquary-20261116",
+      "title": "Player reports: ReliQuary Wolverine regeneration and attacker options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/319599/side-quest-difficulty-enter-the-reliquary-legendary-difficulty",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "counter-gap-wolverine-rol-20261116",
+      "title": "Player discussion: Realm of Legends Wolverine healing-control options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/214985/wolverine-rol",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "counter-gap-act74-20261116",
+      "title": "Player-reported Act 7.4 encounter-specific counter options (2022)",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/300107/all-7-4-boss-fights-counters",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "counter-gap-act8crucible-20261116",
+      "title": "Community Act 8 Crucible attacker list for specific defenders",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list/p3",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "counter-gap-spiderwoman-20261116",
+      "title": "Community discussion naming Okoye as a Spider-Woman matchup",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1mx4aoa/list_of_hard_counters_for_specific_champs_and_as/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "counter-gap-archangel-fam-20261116",
+      "title": "Player debate: high-signature Future Ant-Man versus Archangel",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/359017/which-champions-are-at-a-class-disadvantage-but-really-have-an-advantage",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
       "id": "counter-tough-defenders-20261101",
       "title": "Player discussion: counters for difficult defenders",
       "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p2",
@@ -68694,6 +68736,1091 @@
         "reviewedAt": "2026-11-01",
         "gameVersion": "59.0"
       }
+    },
+    {
+      "id": "warlock-wolverine",
+      "attackerId": "warlock",
+      "defenderId": "wolverine",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-wolverine-reliquary-20261116"
+      ],
+      "score": 2,
+      "why": "Players specifically named Warlock against Wolverine in Wolverine quest encounters with regeneration. The mechanical hypothesis to inspect is: Use Warlock's Heal Block/tech infection interaction to limit regeneration; confirm that the node permits the effect and bait specials instead of racing the health bar.",
+      "strategy": "Use Warlock's Heal Block/tech infection interaction to limit regeneration; confirm that the node permits the effect and bait specials instead of racing the health bar.",
+      "risks": "Wolverine may regenerate faster than an under-ranked attacker's damage, especially with extra regeneration nodes. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Wolverine quest encounters with regeneration.",
+        "Check warlock's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If wolverine resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates warlock with wolverine in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "doctor-octopus-wolverine",
+      "attackerId": "doctor-octopus",
+      "defenderId": "wolverine",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-wolverine-reliquary-20261116"
+      ],
+      "score": 2,
+      "why": "Players specifically named Doctor Octopus against Wolverine in Wolverine quest encounters with regeneration. The mechanical hypothesis to inspect is: Build Doctor Octopus's control setup and check whether the current fight lets you maintain Heal Block through safe Heavy opportunities.",
+      "strategy": "Build Doctor Octopus's control setup and check whether the current fight lets you maintain Heal Block through safe Heavy opportunities.",
+      "risks": "Heal Block uptime may change with node restrictions, specials and defender power. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Wolverine quest encounters with regeneration.",
+        "Check doctor octopus's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If wolverine resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates doctor octopus with wolverine in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "omega-sentinel-wolverine",
+      "attackerId": "omega-sentinel",
+      "defenderId": "wolverine",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-wolverine-reliquary-20261116"
+      ],
+      "score": 2,
+      "why": "Players specifically named Omega Sentinel against Wolverine in Wolverine quest encounters with regeneration. The mechanical hypothesis to inspect is: Select Omega Sentinel's Heal Block pre-fight option if available; verify it is active before committing to repeated attacks.",
+      "strategy": "Select Omega Sentinel's Heal Block pre-fight option if available; verify it is active before committing to repeated attacks.",
+      "risks": "The pre-fight configuration and matchup nodes decide whether healing control is available. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Wolverine quest encounters with regeneration.",
+        "Check omega sentinel's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If wolverine resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates omega sentinel with wolverine in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "magneto-ultron",
+      "attackerId": "magneto",
+      "defenderId": "ultron",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Magneto against Ultron in Act 7.4.1 Ultron route. The mechanical hypothesis to inspect is: Confirm the Ultron variant is Metal before relying on Magneto's Magnetism; plan around the Evade and Armor cycles while building a safe special.",
+      "strategy": "Confirm the Ultron variant is Metal before relying on Magneto's Magnetism; plan around the Evade and Armor cycles while building a safe special.",
+      "risks": "The 2022 Act 7.4 report is not proof for every Ultron version, ability trigger or modern node. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Ultron route.",
+        "Check magneto's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If ultron resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates magneto with ultron in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "venompool-ultron",
+      "attackerId": "venompool",
+      "defenderId": "ultron",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Venompool against Ultron in Act 7.4.1 Ultron route. The mechanical hypothesis to inspect is: Review the route's buff and healing interactions and use Venompool's available special punish windows rather than assuming a fast universal matchup.",
+      "strategy": "Review the route's buff and healing interactions and use Venompool's available special punish windows rather than assuming a fast universal matchup.",
+      "risks": "Ultron's Evade, regeneration and node package can change safe damage windows. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Ultron route.",
+        "Check venompool's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If ultron resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates venompool with ultron in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "magneto-darkhawk",
+      "attackerId": "magneto",
+      "defenderId": "darkhawk",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Magneto against Darkhawk in Act 7.4.1 Darkhawk route. The mechanical hypothesis to inspect is: Check Metal tagging and Darkhawk's current modes; use Magneto's ability interaction only when the fight actually allows it.",
+      "strategy": "Check Metal tagging and Darkhawk's current modes; use Magneto's ability interaction only when the fight actually allows it.",
+      "risks": "Darkhawk's mode cycling and node effects remain active concerns despite favorable mechanics. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Darkhawk route.",
+        "Check magneto's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If darkhawk resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates magneto with darkhawk in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "guardian-darkhawk",
+      "attackerId": "guardian",
+      "defenderId": "darkhawk",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Guardian against Darkhawk in Act 7.4.1 Darkhawk route. The mechanical hypothesis to inspect is: Plan Guardian's special damage around Darkhawk's mode transitions and avoid rushing the damage window while the defender's mode is unknown.",
+      "strategy": "Plan Guardian's special damage around Darkhawk's mode transitions and avoid rushing the damage window while the defender's mode is unknown.",
+      "risks": "The historical route suggestion does not verify today's Darkhawk fight or special timing. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Darkhawk route.",
+        "Check guardian's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If darkhawk resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates guardian with darkhawk in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "guardian-guillotine-2099",
+      "attackerId": "guardian",
+      "defenderId": "guillotine-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Guardian against Guillotine 2099 in Act 7.4.1 Guillotine 2099 route. The mechanical hypothesis to inspect is: Use Guardian's Tech offense as a route-specific option and watch the defender's combo and power buildup before committing to Specials.",
+      "strategy": "Use Guardian's Tech offense as a route-specific option and watch the defender's combo and power buildup before committing to Specials.",
+      "risks": "Do not assume the same result against an altered node or more developed 2099 kit. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Guillotine 2099 route.",
+        "Check guardian's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If guillotine 2099 resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates guardian with guillotine 2099 in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "nebula-guillotine-2099",
+      "attackerId": "nebula",
+      "defenderId": "guillotine-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Nebula against Guillotine 2099 in Act 7.4.1 Guillotine 2099 route. The mechanical hypothesis to inspect is: Respect the route's power and attack-timing rules; make Nebula's Shock setup only if the defender's conditions allow it.",
+      "strategy": "Respect the route's power and attack-timing rules; make Nebula's Shock setup only if the defender's conditions allow it.",
+      "risks": "The report names the attacker but does not establish a current Shock-based optimal rotation. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.1 Guillotine 2099 route.",
+        "Check nebula's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If guillotine 2099 resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates nebula with guillotine 2099 in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "nimrod-sabretooth",
+      "attackerId": "nimrod",
+      "defenderId": "sabretooth",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Nimrod against Sabretooth in Act 7.4.2 Sabretooth route. The mechanical hypothesis to inspect is: Use Nimrod's Mutant-focused toolkit, while observing Sabretooth's regeneration and any effects that block the chosen damage channel.",
+      "strategy": "Use Nimrod's Mutant-focused toolkit, while observing Sabretooth's regeneration and any effects that block the chosen damage channel.",
+      "risks": "Node-driven healing or immunity changes can invalidate the usual Mutant matchup advantage. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.2 Sabretooth route.",
+        "Check nimrod's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If sabretooth resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates nimrod with sabretooth in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "warlock-sabretooth",
+      "attackerId": "warlock",
+      "defenderId": "sabretooth",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Warlock against Sabretooth in Act 7.4.2 Sabretooth route. The mechanical hypothesis to inspect is: Check that Warlock's infection and Heal Block can apply before trading extended combos into Sabretooth's regeneration.",
+      "strategy": "Check that Warlock's infection and Heal Block can apply before trading extended combos into Sabretooth's regeneration.",
+      "risks": "If the node prevents Heal Block or changes power gain, the planned sustain control may fail. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.2 Sabretooth route.",
+        "Check warlock's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If sabretooth resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates warlock with sabretooth in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "magneto-crossbones",
+      "attackerId": "magneto",
+      "defenderId": "crossbones",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Magneto against Crossbones in Act 7.4.2 Crossbones route. The mechanical hypothesis to inspect is: Look at the path node and whether Magneto has a relevant target interaction; use safe special punish windows instead of depending on stun control.",
+      "strategy": "Look at the path node and whether Magneto has a relevant target interaction; use safe special punish windows instead of depending on stun control.",
+      "risks": "Crossbones can Purify effects and the exact 7.4.2 node matters; the player's list is an old route report. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.2 Crossbones route.",
+        "Check magneto's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If crossbones resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates magneto with crossbones in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "kingpin-crossbones",
+      "attackerId": "kingpin",
+      "defenderId": "crossbones",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "The Act 7.4.2 player list explicitly names Kingpin with The Hood synergy for Crossbones. That dependency is part of the report; without it, the same matchup is not independently supported.",
+      "strategy": "Respect Crossbones's shrug-off behavior and choose repeatable openings for Kingpin rather than planning around permanent debuffs.",
+      "risks": "An attacker that also relies on debuff stacks can lose value when Crossbones Purifies. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.2 Crossbones route.",
+        "The historical recommendation specifies The Hood synergy with Kingpin. Verify that the synergy is equipped and its interaction still functions in this node.",
+        "If crossbones resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "One historical Act 7.4.2 report specifically lists Kingpin WITH The Hood. Neither the solo capability without that synergy nor a modern quest result has been verified."
+    },
+    {
+      "id": "black-widow-claire-voyant-king-groot",
+      "attackerId": "black-widow-claire-voyant",
+      "defenderId": "king-groot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Black Widow (Claire Voyant) against King Groot in Act 7.4.3 King Groot route. The mechanical hypothesis to inspect is: Use an appropriate Claire Voyant phase to manage King Groot's available buffs and regeneration only if the fight permits Nullify.",
+      "strategy": "Use an appropriate Claire Voyant phase to manage King Groot's available buffs and regeneration only if the fight permits Nullify.",
+      "risks": "King Groot's buffs and regeneration windows may differ with the route's nodes. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.3 King Groot route.",
+        "Check black widow claire voyant's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If king groot resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates black widow claire voyant with king groot in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "symbiote-supreme-king-groot",
+      "attackerId": "symbiote-supreme",
+      "defenderId": "king-groot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Symbiote Supreme against King Groot in Act 7.4.3 King Groot route. The mechanical hypothesis to inspect is: Check how many active buffs King Groot generates and whether Symbiote Supreme's control windows can be maintained safely.",
+      "strategy": "Check how many active buffs King Groot generates and whether Symbiote Supreme's control windows can be maintained safely.",
+      "risks": "Buff immunity, Nullify restrictions or power nodes can disrupt the proposed approach. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.3 King Groot route.",
+        "Check symbiote supreme's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If king groot resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates symbiote supreme with king groot in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "human-torch-purgatory",
+      "attackerId": "human-torch",
+      "defenderId": "purgatory",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Human Torch against Purgatory in Act 7.4.3 Purgatory route. The mechanical hypothesis to inspect is: Manage Human Torch's temperature and energy-damage exposure during Purgatory's route, then take safe special punish windows.",
+      "strategy": "Manage Human Torch's temperature and energy-damage exposure during Purgatory's route, then take safe special punish windows.",
+      "risks": "Purgatory may interact with energy attacks and her current buffs; this is not a universal auto-win. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.3 Purgatory route.",
+        "Check human torch's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If purgatory resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates human torch with purgatory in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "spider-ham-purgatory",
+      "attackerId": "spider-ham",
+      "defenderId": "purgatory",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Spider-Ham against Purgatory in Act 7.4.3 Purgatory route. The mechanical hypothesis to inspect is: Use Spider-Ham as a route-reported alternative and check the defender's special timing before committing Power Sting pressure.",
+      "strategy": "Use Spider-Ham as a route-reported alternative and check the defender's special timing before committing Power Sting pressure.",
+      "risks": "The report does not document a precise SP timing or modern node-safe win. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.3 Purgatory route.",
+        "Check spider ham's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If purgatory resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates spider ham with purgatory in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "black-widow-claire-voyant-super-skrull",
+      "attackerId": "black-widow-claire-voyant",
+      "defenderId": "super-skrull",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Black Widow (Claire Voyant) against Super-Skrull in Act 7.4.4 Super-Skrull route. The mechanical hypothesis to inspect is: Track Super-Skrull's buffs and plan Claire Voyant's Nullify window rather than assuming the buff is always removable.",
+      "strategy": "Track Super-Skrull's buffs and plan Claire Voyant's Nullify window rather than assuming the buff is always removable.",
+      "risks": "Node-imposed Buff immunity, Nullify restrictions or specials may change the result. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.4 Super-Skrull route.",
+        "Check black widow claire voyant's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If super skrull resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates black widow claire voyant with super skrull in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "symbiote-supreme-super-skrull",
+      "attackerId": "symbiote-supreme",
+      "defenderId": "super-skrull",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Symbiote Supreme against Super-Skrull in Act 7.4.4 Super-Skrull route. The mechanical hypothesis to inspect is: Prepare Symbiote Supreme's buff-control setup for Super-Skrull's active buff phases and confirm the route does not suppress your control.",
+      "strategy": "Prepare Symbiote Supreme's buff-control setup for Super-Skrull's active buff phases and confirm the route does not suppress your control.",
+      "risks": "If the defender's buffs cannot be removed, this plan needs reassessment. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.4 Super-Skrull route.",
+        "Check symbiote supreme's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If super skrull resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates symbiote supreme with super skrull in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "warlock-namor",
+      "attackerId": "warlock",
+      "defenderId": "namor",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Warlock against Namor in Act 7.4.5 Namor route. The mechanical hypothesis to inspect is: Check Namor's available reflective and special-attack effects before using Warlock's safe Tech damage windows.",
+      "strategy": "Check Namor's available reflective and special-attack effects before using Warlock's safe Tech damage windows.",
+      "risks": "Namor's signature and the old path nodes can punish poorly timed attacks; do not extrapolate to every version. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.5 Namor route.",
+        "Check warlock's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If namor resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates warlock with namor in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "ultron-namor",
+      "attackerId": "ultron",
+      "defenderId": "namor",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Ultron against Namor in Act 7.4.5 Namor route. The mechanical hypothesis to inspect is: Use the reported Ultron route option with deliberate parry and special timing after checking Namor's current signature effects.",
+      "strategy": "Use the reported Ultron route option with deliberate parry and special timing after checking Namor's current signature effects.",
+      "risks": "The source does not establish current rank matchups or safe aggressive hit sequences. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.5 Namor route.",
+        "Check ultron's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If namor resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates ultron with namor in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "nick-fury-mister-negative",
+      "attackerId": "nick-fury",
+      "defenderId": "mister-negative",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Nick Fury against Mister Negative in Act 7.4.5 Mister Negative route. The mechanical hypothesis to inspect is: Keep Nick Fury's Bleed and direct-attack openings conditional on the current Mr.",
+      "strategy": "Keep Nick Fury's Bleed and direct-attack openings conditional on the current Mr. Negative light/dark charge behavior.",
+      "risks": "Power, reversal and light-energy nodes may materially change the route experience. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.5 Mister Negative route.",
+        "Check nick fury's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If mister negative resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates nick fury with mister negative in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "human-torch-mister-negative",
+      "attackerId": "human-torch",
+      "defenderId": "mister-negative",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Human Torch against Mister Negative in Act 7.4.5 Mister Negative route. The mechanical hypothesis to inspect is: Check how the current Mr.",
+      "strategy": "Check how the current Mr. Negative matchup responds to Torch's Incinerate/Nova damage and avoid unsafe counterhits.",
+      "risks": "The reported 7.4 node setup is specific and not proof of a general counter. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 7.4.5 Mister Negative route.",
+        "Check human torch's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If mister negative resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates human torch with mister negative in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "nimrod-omega-red",
+      "attackerId": "nimrod",
+      "defenderId": "omega-red",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name nimrod for omega red in Act 8.4.4 Crucible Omega Red route. Check the reported route and the specific interaction rather than extrapolating to every mode. Use Nimrod's Mutant-focused toolkit as an Act 8.4.4 route suggestion; verify Omega Red's spore damage, tentacle range and debuff interactions before settling into the rotation.",
+      "strategy": "Use Nimrod's Mutant-focused toolkit as an Act 8.4.4 route suggestion; verify Omega Red's spore damage, tentacle range and debuff interactions before settling into the rotation.",
+      "risks": "Omega Red's spores and nodes can punish long close-range exchanges; an old Crucible list does not establish a universal or current-season result. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.4.4 Crucible Omega Red route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates nimrod with omega red in Act 8.4.4 Crucible Omega Red route. The site did not conduct combat testing."
+    },
+    {
+      "id": "warlock-omega-red",
+      "attackerId": "warlock",
+      "defenderId": "omega-red",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name warlock for omega red in Act 8.4.4 Crucible Omega Red route. Check the reported route and the specific interaction rather than extrapolating to every mode. Check Warlock's ability to maintain safe healing and power-control windows while respecting Omega Red's spore pressure during the reported Crucible route.",
+      "strategy": "Check Warlock's ability to maintain safe healing and power-control windows while respecting Omega Red's spore pressure during the reported Crucible route.",
+      "risks": "Omega Red's spore pressure can affect attackers regardless of Heal Block. Matchup success is not independently tested on modern node configurations. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.4.4 Crucible Omega Red route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates warlock with omega red in Act 8.4.4 Crucible Omega Red route. The site did not conduct combat testing."
+    },
+    {
+      "id": "bishop-aegon",
+      "attackerId": "bishop",
+      "defenderId": "aegon",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name bishop for aegon in Act 8.4.1 Crucible Aegon route. Check the reported route and the specific interaction rather than extrapolating to every mode. Treat Bishop as a community-listed Act 8.4.1 Crucible attacker; examine the defender's actual attack/defense effects and quest nodes before relying on special-attack loops.",
+      "strategy": "Treat Bishop as a community-listed Act 8.4.1 Crucible attacker; examine the defender's actual attack/defense effects and quest nodes before relying on special-attack loops.",
+      "risks": "The cited list does not record a tested Bishop rotation, awakened requirement or Battlegrounds suitability against Aegon. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.4.1 Crucible Aegon route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates bishop with aegon in Act 8.4.1 Crucible Aegon route. The site did not conduct combat testing."
+    },
+    {
+      "id": "storm-aegon",
+      "attackerId": "storm",
+      "defenderId": "aegon",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name storm for aegon in Act 8.4.1 Crucible Aegon route. Check the reported route and the specific interaction rather than extrapolating to every mode. Investigate the reported original Storm versus Aegon Act 8.4.1 route choice and confirm whether available special punish windows support her Prowess buildup.",
+      "strategy": "Investigate the reported original Storm versus Aegon Act 8.4.1 route choice and confirm whether available special punish windows support her Prowess buildup.",
+      "risks": "Quest path nodes and Aegon's current mechanics may invalidate assumptions from this historic list; no current-client test is claimed. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.4.1 Crucible Aegon route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates storm with aegon in Act 8.4.1 Crucible Aegon route. The site did not conduct combat testing."
+    },
+    {
+      "id": "diablo-misty-knight",
+      "attackerId": "diablo",
+      "defenderId": "misty-knight",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name diablo for misty knight in Act 8.3.4 Crucible Misty Knight route. Check the reported route and the specific interaction rather than extrapolating to every mode. The Act 8 Crucible discussion names Diablo for Misty Knight.",
+      "strategy": "The Act 8 Crucible discussion names Diablo for Misty Knight. Check his poison-based damage and control tools against this exact defender's current protections and route effects.",
+      "risks": "Poison resistance, node-specific protections and Misty Knight's actual defensive triggers require a separate fight check. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.3.4 Crucible Misty Knight route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates diablo with misty knight in Act 8.3.4 Crucible Misty Knight route. The site did not conduct combat testing."
+    },
+    {
+      "id": "bishop-misty-knight",
+      "attackerId": "bishop",
+      "defenderId": "misty-knight",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-act8crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Players name bishop for misty knight in Act 8.3.4 Crucible Misty Knight route. Check the reported route and the specific interaction rather than extrapolating to every mode. The Act 8 Crucible route list separately names Bishop into Misty Knight.",
+      "strategy": "The Act 8 Crucible route list separately names Bishop into Misty Knight. Confirm whether his available special and Prowess sequence fits the active node and defender attack pattern.",
+      "risks": "The discussion does not establish a specific current-build fight win or exact signature and rank requirements. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Act 8.3.4 Crucible Misty Knight route.",
+        "Check the current kit's activation, awakening and setup conditions before spending resources.",
+        "Do not assume a reported Act 8 path choice proves the matchup in other modes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player list associates bishop with misty knight in Act 8.3.4 Crucible Misty Knight route. The site did not conduct combat testing."
+    },
+    {
+      "id": "okoye-spider-woman",
+      "attackerId": "okoye",
+      "defenderId": "spider-woman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-spiderwoman-20261116"
+      ],
+      "score": 1,
+      "why": "Players specifically named Okoye against Spider-Woman in Community-reported general Spider-Woman matchup. The mechanical hypothesis to inspect is: Check Spider-Woman's defensive trigger and debuff windows against Okoye's actual current kit before committing an intercept-heavy plan.",
+      "strategy": "Check Spider-Woman's defensive trigger and debuff windows against Okoye's actual current kit before committing an intercept-heavy plan.",
+      "risks": "A short player claim does not establish node safety, signature requirements, or current-version reliability. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Community-reported general Spider-Woman matchup.",
+        "Check okoye's current activation rules, awakening and any setup needed before taking the matchup.",
+        "If spider woman resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "A dated player report associates okoye with spider woman in its own route; this site has not tested the current fight or cleared expressive reuse rights."
+    },
+    {
+      "id": "ant-man-future-archangel",
+      "attackerId": "ant-man-future",
+      "defenderId": "archangel",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "counter-gap-archangel-fam-20261116"
+      ],
+      "score": 1,
+      "why": "A player describes a sufficiently high-signature Future Ant-Man as a conditional Archangel answer because regeneration can prevent Bleeds from lasting; the same discussion notes Archangel might still form Neurotoxin stacks.",
+      "strategy": "At sufficiently high signature, verify that Future Ant-Man's regeneration is actually preventing Archangel's Bleeds from persisting before extending the fight.",
+      "risks": "This is a debated player observation, not a guaranteed counter; Neurotoxin can still become dangerous if Bleed and Poison overlap. Matchup execution has not been independently tested here.",
+      "conditions": [
+        "Confirm the exact current encounter and node rules; the cited evidence concerns Signature-dependent Archangel matchup.",
+        "High signature was central to the reported interaction. No exact minimum signature number is documented; do not assume merely awakening him is enough.",
+        "If archangel resists the intended mechanic or a node blocks it, abandon the proposed setup."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "One debated player comment names high-signature Future Ant-Man into Archangel. The minimum signature, modern node conditions and final outcome are not independently established."
     },
     {
       "id": "attuma-high-evolutionary",
