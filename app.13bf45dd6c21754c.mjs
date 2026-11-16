@@ -156,6 +156,79 @@ function setupMobileNavigation(){
  arrange();
 }
 setupMobileNavigation();
+
+// Mobile task-first flow: preserve DOM/tab order while exposing the finder first.
+// Restore the original desktop order when the viewport grows.
+function setupMobileHomePriority(){
+ const main=document.querySelector('body[data-page="/"] main#main');
+ const proof=main?.querySelector(':scope > .home-proof');
+ const eventCard=main?.querySelector(':scope > .live-home-callout');
+ const workspace=main?.querySelector(':scope > .workspace-grid');
+ const finder=workspace?.querySelector(':scope > .finder-panel');
+ const shortcuts=workspace?.querySelector(':scope > .panel:not(.finder-panel)');
+ if(!proof||!eventCard||!workspace||!finder||!shortcuts)return;
+ const phone=window.matchMedia('(max-width:800px)');
+ const arrange=()=>{
+  if(phone.matches){
+   main.insertBefore(finder,proof);
+   main.insertBefore(eventCard,proof);
+   document.body.classList.add('mobile-home-task-first');
+  }else{
+   workspace.insertBefore(finder,shortcuts);
+   main.insertBefore(proof,eventCard);
+   document.body.classList.remove('mobile-home-task-first');
+  }
+ };
+ phone.addEventListener('change',arrange);
+ arrange();
+}
+setupMobileHomePriority();
+
+// Keep a single-row search affordance in the phone header. The full search
+// form remains in the HTML as the no-JavaScript fallback.
+function setupMobileHeaderSearch(){
+ const header=document.querySelector('.topbar');
+ if(!header||!header.querySelector('.search-form'))return;
+ const link=document.createElement('a');
+ link.className='mobile-header-search';
+ link.href=pageLink('/search');
+ link.setAttribute('aria-label','Search all champions and guides');
+ link.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m16 16 5 5"/></svg><span>Search</span>';
+ header.querySelector('.theme-switch-mobile')?.before(link);
+ document.body.classList.add('mobile-header-search-ready');
+}
+setupMobileHeaderSearch();
+
+// Optional game mode never blocks the main opponent search on phones.
+function setupMobileHomeMode(){
+ const mode=document.querySelector('body[data-page="/"] #mode');
+ const field=mode?.closest('.field');
+ if(!field)return;
+ const details=document.createElement('details');
+ details.className='home-mode-options';
+ details.open=true;
+ const summary=document.createElement('summary');
+ summary.textContent='Game mode (optional)';
+ field.before(details);
+ details.append(summary,field);
+ const phone=window.matchMedia('(max-width:800px)');
+ const sync=()=>{details.open=!phone.matches||Boolean(mode.value)||new URLSearchParams(location.search).has('mode');};
+ phone.addEventListener('change',sync);
+ sync();
+}
+setupMobileHomeMode();
+
+// The quick loop is enough for a phone's initial scan. All numbered steps
+// remain available, and desktop retains the fully expanded instructions.
+function setupMobileFightSteps(){
+ const details=[...document.querySelectorAll('.play-plan .fight-step-details')];
+ if(!details.length)return;
+ const phone=window.matchMedia('(max-width:800px)');
+ const sync=()=>{for(const item of details)item.open=!phone.matches;};
+ phone.addEventListener('change',sync);
+ sync();
+}
+setupMobileFightSteps();
 // Counter cards are server-rendered on boss guides and re-rendered when mode
 // or roster filters change. Keep their evidence expanded on desktop and
 // collapsible on phones, without removing the cited limitations or risk text.
@@ -171,18 +244,18 @@ new MutationObserver(records=>{
 }).observe(document.body,{childList:true,subtree:true});
 counterEvidenceScreen.addEventListener('change',()=>syncCounterEvidence(document));
 
-import {mountLoadouts} from './loadouts.8f2289e080b4d173.mjs';
-import {mountRoster,readRoster} from './roster.8f2289e080b4d173.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.8f2289e080b4d173.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.8f2289e080b4d173.mjs';
+import {mountLoadouts} from './loadouts.13bf45dd6c21754c.mjs';
+import {mountRoster,readRoster} from './roster.13bf45dd6c21754c.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.13bf45dd6c21754c.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.13bf45dd6c21754c.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.8f2289e080b4d173.json',roster:'/catalog-roster.8f2289e080b4d173.json',champions:'/catalog-champions.8f2289e080b4d173.json',
- search:'/catalog-search.8f2289e080b4d173.json',counters:'/catalog-counters.8f2289e080b4d173.json',
- compare:'/catalog-compare.8f2289e080b4d173.json',loadouts:'/catalog-loadouts.8f2289e080b4d173.json',full:'/catalog.8f2289e080b4d173.json'
+ finder:'/catalog-finder.13bf45dd6c21754c.json',roster:'/catalog-roster.13bf45dd6c21754c.json',champions:'/catalog-champions.13bf45dd6c21754c.json',
+ search:'/catalog-search.13bf45dd6c21754c.json',counters:'/catalog-counters.13bf45dd6c21754c.json',
+ compare:'/catalog-compare.13bf45dd6c21754c.json',loadouts:'/catalog-loadouts.13bf45dd6c21754c.json',full:'/catalog.13bf45dd6c21754c.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -300,6 +373,12 @@ if(db){
    viewButtons[mode]=button;
   }
   $('#champ-count').after(viewSwitch);
+  // Align filters and display mode in one row on phones; keep both controls
+  // independent and fully accessible without changing desktop layout.
+  const mobileControls=document.createElement('div');
+  mobileControls.className='champ-mobile-controls';
+  mobileFilterButton.before(mobileControls);
+  mobileControls.append(mobileFilterButton,viewSwitch);
   let chosenView='compact';
   try{if(localStorage.getItem(viewStorageKey)==='detailed')chosenView='detailed';}catch{}
   const syncChampionView=()=>{
@@ -435,7 +514,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.8f2289e080b4d173.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.13bf45dd6c21754c.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 
