@@ -7070,6 +7070,118 @@
       "checkedAt": "2026-11-06"
     },
     {
+      "id": "direct-counters-mordo1-20261116",
+      "title": "Mordo quest encounter counter discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/234842/act-6-2-5-mordo/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-mordo2-20261116",
+      "title": "First-person Void versus Mordo Act 6 exploration",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/229660/act-6-exploration-review-opening",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-mordo3-20261116",
+      "title": "Shang-Chi Slow versus Mordo discussion",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1083ki6/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-kingpin-20261116",
+      "title": "Kingpin buffed counter discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/252899/kingpin-counter",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-yelena-20261116",
+      "title": "Yelena counter discussion with player mode notes",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1mx4aoa/list_of_hard_counters_for_specific_champs_and_as/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-torch-20261116",
+      "title": "Player mentions Absorbing Man versus Human Torch",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1pfqrp2/which_champions_make_the_most_unlikely_matches/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-apoc-20261116",
+      "title": "Apocalypse Alliance Quest boss counter experiences",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/241495/anyone-have-a-good-apocalypse-counter",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-hulkbuster-20261116",
+      "title": "Buffed Hulkbuster player solutions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/247619/how-do-i-fight-the-new-buffed-hulkbuster",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-hulkbuster2-20261116",
+      "title": "Act 7 Hulkbuster player Magneto encounter report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/240381/act-7-guide-be-prepared-its-looong/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-juggs-20261116",
+      "title": "Immortal Abomination versus Juggernaut discussion",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/16qt09d/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-scorp-20261116",
+      "title": "Scorpion Act 8 Crucible options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list/p3",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-scorp2-20261116",
+      "title": "Crucible Scorpion first-person awakened Crossbones report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2863124",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-act74-20261116",
+      "title": "Specific Act 7.4 boss matchup list",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/300107/all-7-4-boss-fights-counters/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-goblin-20261116",
+      "title": "Act 7 Green Goblin encounter with Ghost report",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/239583/book-2-exploration-counters-tips-loot-from-a-noob",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-redhulk-20261116",
+      "title": "Act 7 Red Hulk encounter discussion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/240381/act-7-guide-be-prepared-its-looong",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "direct-counters-crucible-20261116",
+      "title": "Act 8 Crucible-specific Hercules Black Cat Professor X pairings",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list/p3",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -71231,6 +71343,779 @@
           "buff-control"
         ]
       }
+    },
+    {
+      "id": "void-mordo",
+      "attackerId": "void",
+      "defenderId": "mordo",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-mordo1-20261116",
+        "direct-counters-mordo2-20261116"
+      ],
+      "score": 2,
+      "why": "Community-sourced encounter-specific candidate for Act 6 Mordo power-gain route. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Use Void's Petrify uptime to test whether the encounter's power-gain effects can be suppressed before committing to long attack cycles.",
+      "risks": "This historic fight includes node-driven power gain. One Petrify does not guarantee complete denial, and later quest modes may behave differently.",
+      "conditions": [
+        "Evidence applies to Act 6 Mordo power-gain route; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "falcon-mordo",
+      "attackerId": "falcon",
+      "defenderId": "mordo",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-mordo1-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Mordo Astral Evade quest. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Prepare Falcon's Lock On before attempting a stun punish and confirm that Mordo's Astral Evade actually remains suppressed during the attack window.",
+      "risks": "Falcon needs Lock On to be active; some nodes resist ability accuracy reduction, and Mordo's power gain remains dangerous.",
+      "conditions": [
+        "Evidence applies to Mordo Astral Evade quest; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "shang-chi-mordo",
+      "attackerId": "shang-chi",
+      "defenderId": "mordo",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-mordo3-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Mordo normal quest. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Use Shang-Chi's Slow only when its application is legal under the class and node rules, and force safe heavy openings instead of attacking straight after a stun.",
+      "risks": "Slow effects can be blocked by certain matchup restrictions; Mordo can still gain dangerous power if his specials are not managed.",
+      "conditions": [
+        "Evidence applies to Mordo normal quest; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "apocalypse-kingpin",
+      "attackerId": "apocalypse",
+      "defenderId": "kingpin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-kingpin-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Kingpin buffed debuff-purification fight. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Apply Apocalypse's documented persistent debuffs and check that Kingpin cannot shrug them through his normal Rage-to-Overpower interaction.",
+      "risks": "Kingpin's threshold, awakened behavior and quest nodes still matter. A counter to purification is not immunity to every other threat.",
+      "conditions": [
+        "Evidence applies to Kingpin buffed debuff-purification fight; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "omega-red-kingpin",
+      "attackerId": "omega-red",
+      "defenderId": "kingpin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-kingpin-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Kingpin with debuff purification. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Maintain Omega Red's Death Spore pressure rather than relying on regular debuffs that Kingpin can remove. Space carefully between contact windows.",
+      "risks": "Keeping spores stacked requires proximity and can expose the attacker to dangerous punishes. No rank or mastery requirement was verified.",
+      "conditions": [
+        "Evidence applies to Kingpin with debuff purification; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "mister-sinister-yelena-belova",
+      "attackerId": "mister-sinister",
+      "defenderId": "yelena-belova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-yelena-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Yelena Belova defender. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Use Mister Sinister as a reported starting choice, then watch for Yelena's change from Observation to Elimination before committing to attacks.",
+      "risks": "The source is an individual player suggestion, not a tested modern hard counter. Hitting Yelena during the wrong state may trigger damaging reversals.",
+      "conditions": [
+        "Evidence applies to Yelena Belova defender; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "onslaught-yelena-belova",
+      "attackerId": "onslaught",
+      "defenderId": "yelena-belova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-yelena-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Yelena Belova defender. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Onslaught is a community-named option, but the fight still revolves around controlling Yelena's combo-dependent states and correctly baiting specials.",
+      "risks": "This is a provisional report without a documented current build or node. Do not assume class advantage or Neuroshocks bypass the reversal mechanics.",
+      "conditions": [
+        "Evidence applies to Yelena Belova defender; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "absorbing-man-human-torch",
+      "attackerId": "absorbing-man",
+      "defenderId": "human-torch",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-torch-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Human Torch ordinary defender. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "A modern player reports using Absorbing Man into Human Torch. Before attacking, verify the current form and how it handles ordinary Incinerate.",
+      "risks": "Nova Flame differs from ordinary Incinerate, and the report does not establish form, node or rank conditions. Do not infer universal immunity.",
+      "conditions": [
+        "Evidence applies to Human Torch ordinary defender; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "warlock-apocalypse",
+      "attackerId": "warlock",
+      "defenderId": "apocalypse",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-apoc-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Alliance Quest Apocalypse boss. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Warlock was reported as a successful Apocalypse AQ attacker. Plan around the boss's specials and inspect the exact path rules before relying on his robot interactions.",
+      "risks": "AQ mechanics and changing versions can undermine the proposed attack. A Robot attacker is not a guaranteed answer to all Apocalypse abilities.",
+      "conditions": [
+        "Evidence applies to Alliance Quest Apocalypse boss; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "guillotine-2099-apocalypse",
+      "attackerId": "guillotine-2099",
+      "defenderId": "apocalypse",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-apoc-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Alliance Quest Apocalypse boss. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "A player directly named Guillotine 2099 as a good Apocalypse AQ answer. Preserve safe spacing and combo control while learning the boss's specials.",
+      "risks": "The older map and the present defender may differ. A dropped combo or incorrect Special dodge can completely change the fight.",
+      "conditions": [
+        "Evidence applies to Alliance Quest Apocalypse boss; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "magneto-hulkbuster",
+      "attackerId": "magneto",
+      "defenderId": "hulkbuster",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-hulkbuster-20261116",
+        "direct-counters-hulkbuster2-20261116"
+      ],
+      "score": 2,
+      "why": "Community-sourced encounter-specific candidate for Act 7 Hulkbuster armor/shock encounter. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Verify that the Hulkbuster variant is Metal; in an Act 7 report Magneto applied Armor Break before building to heavy special damage.",
+      "risks": "Armor stacks, shock effects and last-phase recovery still need attention. Magnetism does not automatically negate all path node effects.",
+      "conditions": [
+        "Evidence applies to Act 7 Hulkbuster armor/shock encounter; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "guardian-hulkbuster",
+      "attackerId": "guardian",
+      "defenderId": "hulkbuster",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-hulkbuster-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Buffed Hulkbuster regular matchup. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Guardian was named as a Hulkbuster option. Review the active node's critical-hit and Armor Up penalties before choosing the non-critical damage route.",
+      "risks": "The defender can still apply Shock and gain Armor. Guardian's energy resistance must not be mistaken for blanket protection.",
+      "conditions": [
+        "Evidence applies to Buffed Hulkbuster regular matchup; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "abomination-immortal-juggernaut",
+      "attackerId": "abomination-immortal",
+      "defenderId": "juggernaut",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-juggs-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Juggernaut standard defender. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "A player singled out Immortal Abomination as effective against Juggernaut. Treat the damage plan as secondary to handling Unstoppable and keeping safe spacing.",
+      "risks": "The single report supplies no exact node or rotation. If the opponent stays Unstoppable, poison pressure alone will not protect the attacker.",
+      "conditions": [
+        "Evidence applies to Juggernaut standard defender; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "crossbones-scorpion",
+      "attackerId": "crossbones",
+      "defenderId": "scorpion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-scorp-20261116",
+        "direct-counters-scorp2-20261116"
+      ],
+      "score": 2,
+      "why": "Community-sourced encounter-specific candidate for Act 8 Crucible Scorpion. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "A player explicitly reported an awakened Crossbones used against Scorpion in the Crucible. Verify Fury and node interactions before selecting him.",
+      "risks": "The report confirms awakening but not an exact minimum signature. Scorpion's special and Sting mechanics can still cause heavy damage.",
+      "conditions": [
+        "Evidence applies to Act 8 Crucible Scorpion; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "valkyrie-scorpion",
+      "attackerId": "valkyrie",
+      "defenderId": "scorpion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-scorp-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 8 Crucible Scorpion. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "The Crucible discussion recommends Valkyrie for this exact Scorpion fight. Prepare the relevant Pierce setup and only pressure block while it is safe.",
+      "risks": "Neither guaranteed block-contact safety nor a verified solo is documented. Crucible nodes can turn normally safe blocked hits into a liability.",
+      "conditions": [
+        "Evidence applies to Act 8 Crucible Scorpion; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "human-torch-mangog",
+      "attackerId": "human-torch",
+      "defenderId": "mangog",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-act74-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 7.4.3 Mangog. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "The historical Act 7.4 attacker list names Human Torch against Mangog. Check the Mystic matchup's node before choosing a prefight or damage plan.",
+      "risks": "Mangog can become Unstoppable and punish careless spacing. Other Mangog encounters may not share the Act 7.4 route assumptions.",
+      "conditions": [
+        "Evidence applies to Act 7.4.3 Mangog; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "ghost-green-goblin",
+      "attackerId": "ghost",
+      "defenderId": "green-goblin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-goblin-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 7 Green Goblin power-reserve route. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "A first-person Act 7 report used Ghost against Green Goblin. Time phasing and special usage around the route's power-reserve rule.",
+      "risks": "The report warns that holding a Special too long creates a difficult timing window; a different Goblin node may alter the outcome.",
+      "conditions": [
+        "Evidence applies to Act 7 Green Goblin power-reserve route; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "nick-fury-red-hulk",
+      "attackerId": "nick-fury",
+      "defenderId": "red-hulk",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-redhulk-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 7 Red Hulk with Buffet. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Nick Fury is named as an Act 7 Red Hulk option. Keep attacks straightforward and verify whether a buff triggers Buffet before taking unnecessary risk.",
+      "risks": "The source is a historic specific lane with disorient and Buffet; newer Red Hulk fights can play differently.",
+      "conditions": [
+        "Evidence applies to Act 7 Red Hulk with Buffet; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "jack-olantern-hercules",
+      "attackerId": "jack-olantern",
+      "defenderId": "hercules",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 8 Crucible Hercules. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "The Act 8 Crucible list identifies Jack O'Lantern for a Hercules encounter where non-critical hits help satisfy the route condition.",
+      "risks": "This is not a universal Hercules shutdown, and awakened Immortality may still require a separate finish plan.",
+      "conditions": [
+        "Evidence applies to Act 8 Crucible Hercules; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "guardian-hercules",
+      "attackerId": "guardian",
+      "defenderId": "hercules",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 8 Crucible Hercules. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "Guardian is listed as another route option where non-critical damage can avoid triggering the relevant Crucible punishment.",
+      "risks": "The node-specific logic should not be generalized to all Hercules fights; Immortality and special-bait windows still matter.",
+      "conditions": [
+        "Evidence applies to Act 8 Crucible Hercules; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "ebony-maw-black-cat",
+      "attackerId": "ebony-maw",
+      "defenderId": "black-cat",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 8.4.2 Crucible Black Cat. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "The Act 8 Crucible list calls Ebony Maw a situational answer to Black Cat. Confirm the timing of his Miss and her relevant attack types.",
+      "risks": "The casual player report does not verify her entire offensive kit against Miss. Node-based ability suppression may defeat the interaction.",
+      "conditions": [
+        "Evidence applies to Act 8.4.2 Crucible Black Cat; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "spiral-professor-x",
+      "attackerId": "spiral",
+      "defenderId": "professor-x",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "direct-counters-crucible-20261116"
+      ],
+      "score": 1,
+      "why": "Community-sourced encounter-specific candidate for Act 8.4.2 Crucible Professor X. Historical player reports mention the exact opponent and attacker; no present-game testing or guaranteed counter rating is established.",
+      "strategy": "The same Crucible list names Spiral against Professor X. Check his Falter and Miss timing as the fight develops before spending resources.",
+      "risks": "No specific rotation or successful solo is verified; Professor X charges and active nodes can change the interaction.",
+      "conditions": [
+        "Evidence applies to Act 8.4.2 Crucible Professor X; verify the game version, defender variant and node text before choosing this attacker.",
+        "Confirm the relevant mechanism actually works in the current fight before committing to a long rotation.",
+        "If protection, a node, or a special interrupts the proposed interaction, change the fight plan rather than treating this report as a proven counter."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
     },
     {
       "id": "venom-maestro",
