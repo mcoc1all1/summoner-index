@@ -782,3 +782,125 @@ body .seo-roster-groups a:hover{color:var(--accent);text-decoration-color:curren
  body .seo-roster-groups{grid-template-columns:1fr 1fr}
 }
 
+
+/* 2026-11-16: compact, legible phone-first presentation.
+   Keep reading text >=14px, metadata >=12px and active controls >=44px.
+   No change to desktop grids, mechanics, game-data presentation or indexing. */
+@media(max-width:800px){
+ body main>.hero:not(.live-hero){
+  padding-block:8px 15px;margin-bottom:14px;
+ }
+ body main>.hero:not(.live-hero) h1{line-height:1.16}
+ body main .guide-hub-grid{gap:9px}
+ body main .guide-hub-card{
+  min-height:0;padding:12px 14px;border-radius:12px;
+ }
+ body main .guide-hub-card :is(h3,h2){font-size:18px;line-height:1.25;margin:5px 0 6px}
+ body main .guide-hub-card p{font-size:14px;line-height:1.5}
+ body main .guide-hub-action{padding-top:8px}
+ body main .guide-hub-section{margin:18px 0}
+ body main .guide-hub-section>.section-head{margin:14px 0 9px}
+ body main .boss-fast-plan{padding:14px;margin-bottom:14px}
+ body main .boss-fast-grid{gap:8px}
+ body main .boss-fast-grid article{padding:11px 12px;border-radius:10px}
+ body main .boss-fast-grid article>span{font-size:12px;margin-bottom:4px}
+ body main .boss-fast-grid article p{font-size:14px;line-height:1.5}
+ body main .profile-overview{gap:9px}
+ body main .profile-overview .overview-card{padding:12px;min-height:0}
+ body main .profile-overview .overview-card h2{font-size:18px;line-height:1.3}
+ body main .quick-profile{padding:14px}
+ body main .counter-card{padding:13px;border-radius:12px;margin-bottom:12px}
+ body main .counter-glance{padding:11px 12px}
+ body main .counter-glance-grid{gap:8px}
+ body main .counter-card :is(p,li,dd){font-size:14px;line-height:1.5}
+ body main .seo-related{margin-top:14px;padding:12px}
+ body main .seo-related-links a{min-height:44px}
+ body main .boss-prep-panel{padding:14px 13px;margin:15px 0}
+ body main .boss-prep-step{padding:10px 11px}
+ body main .boss-prep-step-body small{font-size:12px;line-height:1.45}
+ body main .chip{font-size:12px;line-height:1.45;padding:5px 8px}
+ body main .badge{line-height:1.35}
+ /* Events: make the schedule the primary activity, not several stacked
+    navigation, introduction and decoration blocks. */
+ body[data-page="/events"] main .live-hero{margin:0 0 3px;padding:5px 0 9px}
+ body[data-page="/events"] main .live-hero h1{font-size:clamp(25px,6.8vw,30px);line-height:1.14}
+ body[data-page="/events"] main .live-mobile-intro{font-size:14px;line-height:1.43;margin:5px 0}
+ body[data-page="/events"] main .live-freshness{font-size:12px;line-height:1.4;margin:5px 0 0;padding:4px 8px}
+ body[data-page="/events"] main .live-jump{
+  margin:7px 0 8px;padding-bottom:3px;gap:6px;
+ }
+ body[data-page="/events"] main .live-jump a{
+  min-height:44px;padding:8px 11px;font-size:12px;
+ }
+ body[data-page="/events"] main .live-filter-bar{margin:0 0 7px;padding-bottom:4px;gap:6px}
+ body[data-page="/events"] main .live-filter-bar button{
+  min-height:44px;padding:7px 11px;font-size:12px;
+ }
+ body[data-page="/events"] main .live-section{margin-top:13px}
+ body[data-page="/events"] main .live-section>.section-head{
+  gap:3px;margin:0 0 8px
+ }
+ body[data-page="/events"] main .live-section>.section-head h2{
+  font-size:clamp(19px,5vw,22px);line-height:1.2
+ }
+ body[data-page="/events"] main .live-count{font-size:12px;padding:2px 8px;min-height:24px}
+ body[data-page="/events"] main .live-grid{gap:8px}
+ body[data-page="/events"] main :is(.live-card,.news-card){
+  padding:11px 12px;border-radius:11px;min-height:0;
+  box-shadow:0 2px 9px var(--ui-shadow);
+ }
+ body[data-page="/events"] main :is(.live-card,.news-card) h3{
+  font-size:16px;line-height:1.28;margin:6px 0 4px;letter-spacing:-.01em;
+ }
+ body[data-page="/events"] main .live-card-top{gap:4px 6px}
+ body[data-page="/events"] main :is(.live-status,.live-category){
+  font-size:12px;line-height:1.4;padding:3px 7px
+ }
+ body[data-page="/events"] main .news-card .live-card-top time{
+  font-size:12px;line-height:1.35
+ }
+ body[data-page="/events"] main .live-card-details{margin-top:0;padding-top:0}
+ body[data-page="/events"] main .live-card-details>summary{
+  min-height:44px;padding:4px 0 3px
+ }
+ body[data-page="/events"] main .live-card-teaser{
+  font-size:14px;line-height:1.45;color:var(--ui-soft-text);
+  -webkit-line-clamp:2
+ }
+ body[data-page="/events"] main .live-card-details :is(.live-card-more,.live-card-less){
+  font-size:12px;line-height:1.35;margin-top:4px;color:var(--accent)
+ }
+ body[data-page="/events"] main .live-card-details[open]>p{
+  font-size:14px;line-height:1.52;margin:5px 0 7px
+ }
+ body[data-page="/events"] main .live-dates{
+  width:100%;margin:5px 0 7px;padding:5px 8px;
+  line-height:1.4;font-size:12px;border-radius:8px
+ }
+ body[data-page="/events"] main .live-card-actions a,
+ body[data-page="/events"] main .news-card>.text-link{
+  font-size:12.5px;line-height:1.35;min-height:44px;
+  padding:5px 0;
+ }
+ body[data-page="/events"] main .live-mobile-context{margin-top:17px}
+ body[data-page="/events"] main .live-mobile-context>h2{font-size:19px;margin:0 0 8px}
+ body[data-page="/events"] main .live-editorial-note{
+  padding:12px 13px;margin:0 0 8px;border-radius:11px
+ }
+ body[data-page="/events"] main .live-editorial-note h2{
+  font-size:17px;line-height:1.3;margin:5px 0 6px
+ }
+ body[data-page="/events"] main .live-editorial-note p{
+  font-size:14px;line-height:1.5;margin:5px 0 8px
+ }
+ body[data-page="/events"] main .live-source-note{
+  padding:13px 14px;margin-top:17px
+ }
+ body[data-page="/events"] main .live-source-note h2{font-size:18px}
+}
+@media(max-width:360px){
+ body[data-page="/events"] main :is(.live-card,.news-card){padding:10px}
+ body[data-page="/events"] main .live-status{font-size:12px}
+ body main .profile-overview .overview-card{padding:11px}
+}
+
