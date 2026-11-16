@@ -218,6 +218,38 @@ function setupMobileHomeMode(){
 }
 setupMobileHomeMode();
 
+// Homepage: preserve the full source/coverage caveat but keep the first
+// mobile screen focused on finding a counter. No-JS markup remains readable.
+function setupMobileHomeCoverage(){
+ const panel=document.querySelector('body[data-page="/"] .finder-panel');
+ const coverage=panel?.querySelector('.home-counter-coverage');
+ const finder=panel?.querySelector('#finder');
+ if(!coverage||!finder)return;
+ const disclosure=document.createElement('details');
+ disclosure.className='home-coverage-disclosure';
+ disclosure.open=true;
+ const summary=document.createElement('summary');
+ const count=document.createElement('strong');
+ count.textContent=coverage.querySelector('strong')?.textContent.trim()||'Some opponents';
+ summary.append(count,document.createTextNode(' have named counter suggestions'));
+ disclosure.append(summary);
+ coverage.before(disclosure);
+ disclosure.append(coverage);
+ const phone=window.matchMedia('(max-width:800px)');
+ const arrange=()=>{
+  if(phone.matches){
+   finder.after(disclosure);
+   disclosure.open=false;
+  }else{
+   finder.before(disclosure);
+   disclosure.open=true;
+  }
+ };
+ phone.addEventListener('change',arrange);
+ arrange();
+}
+setupMobileHomeCoverage();
+
 // The quick loop is enough for a phone's initial scan. All numbered steps
 // remain available, and desktop retains the fully expanded instructions.
 function setupMobileFightSteps(){
@@ -244,18 +276,18 @@ new MutationObserver(records=>{
 }).observe(document.body,{childList:true,subtree:true});
 counterEvidenceScreen.addEventListener('change',()=>syncCounterEvidence(document));
 
-import {mountLoadouts} from './loadouts.13bf45dd6c21754c.mjs';
-import {mountRoster,readRoster} from './roster.13bf45dd6c21754c.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.13bf45dd6c21754c.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.13bf45dd6c21754c.mjs';
+import {mountLoadouts} from './loadouts.a8ed81e7f886081d.mjs';
+import {mountRoster,readRoster} from './roster.a8ed81e7f886081d.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.a8ed81e7f886081d.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.a8ed81e7f886081d.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.13bf45dd6c21754c.json',roster:'/catalog-roster.13bf45dd6c21754c.json',champions:'/catalog-champions.13bf45dd6c21754c.json',
- search:'/catalog-search.13bf45dd6c21754c.json',counters:'/catalog-counters.13bf45dd6c21754c.json',
- compare:'/catalog-compare.13bf45dd6c21754c.json',loadouts:'/catalog-loadouts.13bf45dd6c21754c.json',full:'/catalog.13bf45dd6c21754c.json'
+ finder:'/catalog-finder.a8ed81e7f886081d.json',roster:'/catalog-roster.a8ed81e7f886081d.json',champions:'/catalog-champions.a8ed81e7f886081d.json',
+ search:'/catalog-search.a8ed81e7f886081d.json',counters:'/catalog-counters.a8ed81e7f886081d.json',
+ compare:'/catalog-compare.a8ed81e7f886081d.json',loadouts:'/catalog-loadouts.a8ed81e7f886081d.json',full:'/catalog.a8ed81e7f886081d.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -514,7 +546,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.13bf45dd6c21754c.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.a8ed81e7f886081d.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 

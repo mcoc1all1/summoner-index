@@ -218,6 +218,38 @@ function setupMobileHomeMode(){
 }
 setupMobileHomeMode();
 
+// Homepage: preserve the full source/coverage caveat but keep the first
+// mobile screen focused on finding a counter. No-JS markup remains readable.
+function setupMobileHomeCoverage(){
+ const panel=document.querySelector('body[data-page="/"] .finder-panel');
+ const coverage=panel?.querySelector('.home-counter-coverage');
+ const finder=panel?.querySelector('#finder');
+ if(!coverage||!finder)return;
+ const disclosure=document.createElement('details');
+ disclosure.className='home-coverage-disclosure';
+ disclosure.open=true;
+ const summary=document.createElement('summary');
+ const count=document.createElement('strong');
+ count.textContent=coverage.querySelector('strong')?.textContent.trim()||'Some opponents';
+ summary.append(count,document.createTextNode(' have named counter suggestions'));
+ disclosure.append(summary);
+ coverage.before(disclosure);
+ disclosure.append(coverage);
+ const phone=window.matchMedia('(max-width:800px)');
+ const arrange=()=>{
+  if(phone.matches){
+   finder.after(disclosure);
+   disclosure.open=false;
+  }else{
+   finder.before(disclosure);
+   disclosure.open=true;
+  }
+ };
+ phone.addEventListener('change',arrange);
+ arrange();
+}
+setupMobileHomeCoverage();
+
 // The quick loop is enough for a phone's initial scan. All numbered steps
 // remain available, and desktop retains the fully expanded instructions.
 function setupMobileFightSteps(){

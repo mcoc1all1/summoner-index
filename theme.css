@@ -991,3 +991,255 @@ body .seo-roster-groups a:hover{color:var(--accent);text-decoration-color:curren
   min-width:56px;padding-inline:5px;font-size:11.5px
  }
 }
+
+
+/* 2026-11-16: visual, low-copy HOMEPAGE on phones only. The desktop headline,
+   links, evidence and complete champion/boss guides stay available. */
+.home-heading-mobile,.home-event-mobile{display:none}
+body[data-page="/"] .home-coverage-disclosure{display:contents}
+body[data-page="/"] .home-coverage-disclosure>summary{display:none}
+@media(max-width:800px){
+ body[data-page="/"] main#main>.hero{
+  padding:13px 14px 14px;margin:0 0 10px;border-radius:13px;
+  min-height:0
+ }
+ body[data-page="/"] main#main>.hero .eyebrow,
+ body[data-page="/"] main#main>.hero p{display:none}
+ body[data-page="/"] main#main>.hero h1{
+  margin:0;font-size:clamp(23px,6.1vw,29px);
+  line-height:1.18;letter-spacing:-.025em;
+  text-align:center;text-wrap:balance
+ }
+ /* Both step banners repeat what the finder already offers. */
+ body[data-page="/"] main#main>.home-proof,
+ body[data-page="/"] main#main>.stats-strip{display:none}
+ /* The finder is the first meaningful action on a phone. */
+ body[data-page="/"] main#main>.finder-panel{
+  padding:13px 13px 12px;margin:0 0 10px;border-radius:12px;
+  background:var(--panel);border:1px solid var(--line);
+  border-top:2px solid var(--accent);box-shadow:none
+ }
+ body[data-page="/"] main#main>.finder-panel>.eyebrow,
+ body[data-page="/"] main#main>.finder-panel>.muted:not(.home-counter-coverage){
+  display:none
+ }
+ body[data-page="/"] main#main>.finder-panel h2{
+  margin:0 0 8px;font-size:clamp(18px,5vw,22px);
+  line-height:1.25;letter-spacing:-.015em
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form{
+  gap:8px;margin:0
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form .field{
+  min-width:0
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form :is(input,select){
+  min-height:44px
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form .primary{
+  min-height:46px;margin-top:0;font-size:14px
+ }
+ body[data-page="/"] main#main>.finder-panel #opponent-status{
+  font-size:12px;line-height:1.4
+ }
+ /* Optional transparency stays one tap away, not an introductory paragraph. */
+ body[data-page="/"] .home-coverage-disclosure{
+  display:block;margin:9px 0 0;padding:0;border-top:1px solid var(--line);
+  color:var(--muted)
+ }
+ body[data-page="/"] .home-coverage-disclosure>summary{
+  display:flex;align-items:center;min-height:44px;gap:4px;
+  padding:9px 2px;font-size:12.5px;line-height:1.35;
+  cursor:pointer;list-style:revert
+ }
+ body[data-page="/"] .home-coverage-disclosure>summary strong{
+  color:var(--text);font-weight:700
+ }
+ body[data-page="/"] .home-coverage-disclosure .home-counter-coverage{
+  padding:0 2px 9px;margin:0;font-size:13px;line-height:1.5;
+  text-align:left
+ }
+ body[data-page="/"] main#main>.finder-panel .quick-row{
+  display:flex;flex-wrap:nowrap;justify-content:flex-start;align-items:center;
+  max-width:100%;min-width:0;overflow-x:auto;white-space:nowrap;
+  overscroll-behavior-x:contain;scrollbar-width:thin;
+  gap:6px;margin:8px 0 0;padding:0 0 4px;font-size:12px
+ }
+ body[data-page="/"] main#main>.finder-panel .quick-row a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;padding:8px 10px;border-radius:999px;
+  background:var(--ui-elevated);border:1px solid var(--line);
+  font-size:12px
+ }
+ /* Small event announcement rather than another text-heavy panel. */
+ body[data-page="/"] main#main>.live-home-callout{
+  display:grid;grid-template-columns:35px minmax(0,1fr) auto;
+  gap:8px;align-items:center;padding:10px 11px;margin:0 0 11px;
+  min-height:64px;border:1px solid var(--line);border-radius:12px;
+  border-top:1px solid var(--line);background:var(--panel);
+  box-shadow:none;text-align:left
+ }
+ body[data-page="/"] main#main>.live-home-callout::before{
+  content:"◈";display:grid;place-items:center;
+  width:35px;height:35px;border-radius:10px;
+  background:var(--ui-elevated);border:1px solid var(--line);
+  font-size:23px;line-height:1;color:var(--accent)
+ }
+ body[data-page="/"] main#main>.live-home-callout :is(.eyebrow,p){
+  display:none
+ }
+ body[data-page="/"] main#main>.live-home-callout h2{
+  margin:0;font-size:15px;line-height:1.25;text-align:left;
+  overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.live-home-callout .primary{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:7px 9px;min-height:44px;margin:0;font-size:12px;
+  border-radius:9px;white-space:nowrap
+ }
+ body[data-page="/"] .home-event-desktop,
+ body[data-page="/"] .home-heading-desktop{display:none}
+ body[data-page="/"] .home-event-mobile,
+ body[data-page="/"] .home-heading-mobile{display:inline}
+ /* Icon-led action tiles: labels only, with the full explanation on destination pages. */
+ body[data-page="/"] main#main>.workspace-grid{
+  display:block;margin:0 0 7px;min-width:0
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;padding:9px;border:1px solid var(--line);
+  border-radius:13px;background:var(--panel);
+  box-shadow:none
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel>.eyebrow{
+  display:none
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel>.shortcut{
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:7px;min-width:0;min-height:94px;
+  margin:0;padding:9px 7px;border:1px solid var(--line);
+  border-radius:11px;background:var(--ui-elevated);
+  color:var(--text);text-align:center
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut-icon{
+  width:37px;height:37px;min-height:37px;border-radius:11px;
+  color:var(--accent);background:var(--ui-accent-wash);
+  border-color:var(--line);font-size:20px
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut h3{
+  margin:0;font-size:13px;line-height:1.3;letter-spacing:-.01em;
+  overflow-wrap:break-word;text-wrap:balance
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut p{
+  display:none
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut:last-child{
+  grid-column:1 / -1;flex-direction:row;min-height:60px;
+  justify-content:center;gap:10px
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut:focus-visible,
+ body[data-page="/"] main#main>.live-home-callout .primary:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px
+ }
+ /* Two compact champion portrait-free tiles per row. */
+ body[data-page="/"] main#main>.section-head{
+  display:flex;flex-direction:row;justify-content:space-between;
+  align-items:center;gap:9px;margin:17px 0 9px
+ }
+ body[data-page="/"] main#main>.section-head h2{
+  flex:1 1 auto;min-width:0;margin:0;
+  font-size:17px;line-height:1.25;text-align:left
+ }
+ body[data-page="/"] main#main>.section-head .text-link{
+  flex:0 0 auto;white-space:nowrap;font-size:12px;
+  min-height:44px;display:inline-flex;align-items:center
+ }
+ body[data-page="/"] main#main>.champion-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;margin:0
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card{
+  position:relative;min-width:0;min-height:119px;
+  border-radius:12px;background:var(--panel);
+  border:1px solid var(--line);box-shadow:none;transform:none
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-identity{
+  display:flex;flex-direction:column;gap:5px;
+  align-items:center;justify-content:center;
+  padding:12px 8px 10px;min-height:119px;border:0
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .card-top{
+  display:flex;justify-content:center;width:100%;
+  padding:0;position:static
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .avatar{
+  width:43px;height:43px;min-width:43px;
+  font-size:15px;border-radius:11px
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-title{
+  padding:0;min-width:0;text-align:center
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-title .badge{
+  display:none
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card h3{
+  margin:5px 0 0;font-size:14px;line-height:1.26;
+  text-align:center;overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card h3 a::after{
+  content:"";position:absolute;inset:0;z-index:1
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .save{
+  position:absolute;top:4px;right:4px;z-index:2;
+  min-height:44px;min-width:44px;border-radius:9px
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card :is(
+  .coverage-label,.champion-card-summary,.chips,.card-link
+ ){display:none}
+ body[data-page="/"] main#main>.champion-grid .champion-card:focus-within{
+  border-color:var(--accent)
+ }
+ /* Boss previews become swipeable, image-like stage tiles, without text extracts. */
+ body[data-page="/"] main#main>.boss-grid{
+  display:flex;flex-wrap:nowrap;gap:9px;min-width:0;
+  max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;
+  scroll-snap-type:x proximity;scroll-padding-inline:2px;
+  scrollbar-width:thin;padding:0 0 8px;margin:0
+ }
+ body[data-page="/"] main#main>.boss-grid>.boss-card{
+  display:flex;flex:0 0 min(76vw,255px);
+  flex-direction:column;min-width:0;width:auto;
+  border:1px solid var(--line);border-radius:12px;
+  background:var(--panel);overflow:hidden;scroll-snap-align:start;
+  box-shadow:none;transform:none
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-art{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;height:78px;min-height:78px;border-radius:0
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-art small{
+  font-size:12px;line-height:1.4
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card>div:last-child{
+  padding:11px 12px
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card h3{
+  margin:0;font-size:14px;line-height:1.35;
+  text-align:left;overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card :is(
+  p,.eyebrow,.text-link
+ ){display:none}
+ body[data-page="/"] main#main>.boss-grid .boss-card:focus-visible{
+  outline:2px solid var(--accent);outline-offset:-2px
+ }
+ body[data-page="/"] main#main>.coverage-link{margin:18px 0 10px}
+}
+@media(max-width:360px){
+ body[data-page="/"] main#main>.live-home-callout{grid-template-columns:31px minmax(0,1fr) auto;gap:6px;padding:8px}
+ body[data-page="/"] main#main>.live-home-callout::before{width:31px;height:31px;font-size:19px}
+ body[data-page="/"] main#main>.live-home-callout h2{font-size:13.5px}
+ body[data-page="/"] main#main>.live-home-callout .primary{font-size:11.5px;padding-inline:7px}
+ body[data-page="/"] main#main>.workspace-grid .shortcut h3{font-size:12.5px}
+ body[data-page="/"] main#main>.champion-grid .champion-card h3{font-size:13.5px}
+}
