@@ -261,6 +261,133 @@ function setupMobileFightSteps(){
  sync();
 }
 setupMobileFightSteps();
+
+// 2026-11-16 mobile visual-density audit. Keep complete, accessible source
+// content in the document and restore the original desktop order on resize.
+function setupMobileAuditDensity(){
+ const phone=window.matchMedia('(max-width:800px)');
+ const syncCallbacks=[];
+ const register=sync=>{
+  phone.addEventListener('change',sync);
+  syncCallbacks.push(sync);
+ };
+ const page=document.body.dataset.page;
+ if(page==='/'){
+  const main=document.querySelector('main#main');
+  const disclaimer=main?.querySelector(':scope > .home-beta-note');
+  if(main&&disclaimer){
+   register(()=>{
+    if(phone.matches)main.append(disclaimer);
+    else main.prepend(disclaimer);
+   });
+  }
+  const form=main?.querySelector('#finder');
+  const select=form?.querySelector('#opponent');
+  const label=form?.querySelector('label[for="opponent"]');
+  const query=form?.querySelector('#opponent-query');
+  if(select&&label&&query){
+   const details=document.createElement('details');
+   details.className='home-opponent-options';
+   details.open=true;
+   const summary=document.createElement('summary');
+   summary.textContent='Browse opponents';
+   label.before(details);
+   details.append(summary,label,select);
+   const update=()=>{
+    const count=select.options.length;
+    const selected=select.selectedOptions[0]?.textContent?.trim()||'None';
+    summary.textContent=query.value.trim()?
+     count===0?'No opponent matches':
+      count===1?'Match: '+selected:count+' matches · choose opponent':
+     'Opponent: '+selected+' · change';
+   };
+   register(()=>{details.open=!phone.matches;update();});
+   query.addEventListener('input',()=>{
+    // Run after the existing catalog filter handles the same input event.
+    Promise.resolve().then(()=>{
+     update();
+     if(phone.matches)details.open=select.options.length>1&&select.options.length<=8;
+    });
+   });
+   select.addEventListener('change',()=>{
+    update();
+    if(phone.matches)details.open=false;
+   });
+  }
+ }
+ if(page==='/champions'){
+  // The 334-link SEO directory stays in the HTML, but not above the search.
+  const main=document.querySelector('main#main');
+  const index=main?.querySelector(':scope > .seo-roster-index');
+  if(main&&index)register(()=>main.append(index));
+ }
+ if(page==='/loadouts'){
+  const main=document.querySelector('main#main');
+  const section=main?.querySelector(':scope > #champion-loadouts');
+  const intro=main?.querySelector(':scope > .loadout-intro-details');
+  const links=main?.querySelector(':scope > nav.quick-row');
+  if(section&&intro&&links){
+   register(()=>{
+    if(phone.matches)intro.before(section);
+    else links.after(section);
+    document.body.classList.toggle('loadouts-task-first',phone.matches);
+   });
+  }
+ }
+ if(page.startsWith('/champions/')&&page!=='/champions/'){
+  const facts=document.querySelector('main#main > .profile-decision-strip');
+  if(facts){
+   const details=document.createElement('details');
+   details.className='profile-facts-mobile';
+   details.open=true;
+   const summary=document.createElement('summary');
+   summary.textContent='Guide facts and research status';
+   facts.before(details);
+   details.append(summary,facts);
+   register(()=>{details.open=!phone.matches;});
+  }
+ }
+ if(page==='/events'){
+  const bar=document.querySelector('main#main .live-filter-bar');
+  if(bar){
+   const details=document.createElement('details');
+   details.className='live-mobile-categories';
+   details.open=true;
+   const summary=document.createElement('summary');
+   summary.textContent='Filter event category';
+   bar.before(details);
+   details.append(summary,bar);
+   const update=()=>{
+    const active=bar.querySelector('button.active');
+    summary.textContent='Category: '+(active?.textContent?.trim()||'All');
+   };
+   register(()=>{details.open=!phone.matches;update();});
+   bar.addEventListener('click',event=>{
+    if(event.target.closest('button[data-live-filter]')){
+     Promise.resolve().then(()=>{
+      update();
+      if(phone.matches)details.open=false;
+     });
+    }
+   });
+  }
+ }
+ if(page.startsWith('/bosses/')){
+  for(const table of document.querySelectorAll('main#main .boss-cheat-sheet table')){
+   const headings=[...table.querySelectorAll('thead th')].map(th=>th.textContent.trim());
+   table.setAttribute('role','table');
+   for(const row of table.querySelectorAll('tbody tr')){
+    row.setAttribute('role','row');
+    [...row.querySelectorAll('td')].forEach((cell,index)=>{
+     cell.setAttribute('role','cell');
+     cell.dataset.phaseLabel=headings[index]||'Detail';
+    });
+   }
+  }
+ }
+ syncCallbacks.forEach(sync=>sync());
+}
+setupMobileAuditDensity();
 // Counter cards are server-rendered on boss guides and re-rendered when mode
 // or roster filters change. Keep their evidence expanded on desktop and
 // collapsible on phones, without removing the cited limitations or risk text.

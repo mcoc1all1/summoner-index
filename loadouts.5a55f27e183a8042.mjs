@@ -1,6 +1,6 @@
-import {loadoutCoverage} from './loadout-coverage.174c5ff03b05ffea.mjs';
-import {referenceLoadout} from './reference.174c5ff03b05ffea.mjs';
-import {escapeHtml as e} from './domain.174c5ff03b05ffea.mjs';
+import {loadoutCoverage} from './loadout-coverage.5a55f27e183a8042.mjs';
+import {referenceLoadout} from './reference.5a55f27e183a8042.mjs';
+import {escapeHtml as e} from './domain.5a55f27e183a8042.mjs';
 
 export const focusOptions=['Critical Rating','Critical Damage Rating','Special Damage','Armor Penetration','Block Penetration','Adrenaline','Armor Rating','Block Proficiency','Physical Resistance','Energy Resistance'];
 export const defenderFocusOptions=focusOptions.filter(x=>x!=='Adrenaline');
@@ -165,7 +165,13 @@ export function mountLoadouts(db){
  const restore=()=>{const p=new URLSearchParams(location.search);query.value=p.get('q')||'';filter.value=[...filter.options].some(o=>o.value===p.get('class'))?p.get('class'):'';coverage.value=['verified','drafts','references','trials'].includes(p.get('coverage'))?p.get('coverage'):'';page=Math.max(1,Math.floor(Number(p.get('page')))||1);
   if(!p.has('page')){const index=loadoutMatches(db,query.value,filter.value,coverage.value).findIndex(c=>c.id===location.hash.slice(1));if(index>=0)page=Math.floor(index/12)+1;}
  };
- const render=()=>{const result=loadoutCards(db,query.value,filter.value,{coverage:coverage.value,page,pageSize:12});page=result.page;$('#loadout-results').innerHTML=result.html;$('#loadout-count').textContent=result.count?`${result.count} champion ${result.count===1?'entry':'entries'} · showing ${result.start}–${result.end}`:'No matching champion entries';$('#loadout-page').textContent=`Page ${page} of ${result.pages}`;$('#loadout-prev').disabled=page===1;$('#loadout-next').disabled=page===result.pages;$('#loadout-pagination').hidden=false;$('#loadout-clear').hidden=!(query.value.trim()||filter.value||coverage.value);
+ const render=()=>{const result=loadoutCards(db,query.value,filter.value,{coverage:coverage.value,page,pageSize:12});page=result.page;$('#loadout-results').innerHTML=result.html;$('#loadout-count').textContent=result.count?`${result.count} champion ${result.count===1?'entry':'entries'} · showing ${result.start}–${result.end}`:'No matching champion entries';$('#loadout-page').textContent=`Page ${page} of ${result.pages}`;$('#loadout-prev').disabled=page===1;$('#loadout-next').disabled=page===result.pages;const hasFilters=Boolean(query.value.trim()||filter.value||coverage.value);
+  const singlePage=result.pages<=1;
+  $('#loadout-prev').hidden=singlePage;
+  $('#loadout-next').hidden=singlePage;
+  $('#loadout-page').hidden=singlePage;
+  $('#loadout-clear').hidden=!hasFilters;
+  $('#loadout-pagination').hidden=singlePage&&!hasFilters;
   const p=new URLSearchParams();if(query.value.trim())p.set('q',query.value.trim());if(filter.value)p.set('class',filter.value);if(coverage.value)p.set('coverage',coverage.value);if(page>1)p.set('page',String(page));history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);
   syncCards();
  };
