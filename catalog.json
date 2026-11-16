@@ -7182,6 +7182,104 @@
       "checkedAt": "2026-11-16"
     },
     {
+      "id": "defender-review-20261116-bull-okoye-report",
+      "title": "Players describe Okoye's Dexterity/Ensnare interaction against Bullseye",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/402033/okoye-vs-bullseye",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-bull-choices",
+      "title": "Battlegrounds players discuss Okoye, Gentle and Dazzler against Bullseye",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/395620/help-me-pick-another-bullseye-counter/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-bull-dazzler-kit",
+      "title": "Dazzler champion review explains awakened Pursuit versus Bullseye Evade",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2693075",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-bull-dazzler-player",
+      "title": "Player counter discussion distinguishes awakened Dazzler Pursuit from Okoye Ensnare",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2761725",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-bull-gentle-player",
+      "title": "Battlegrounds players describe repeated use of Gentle versus Bullseye",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400799/better-defender-bullseye-vs-yelena",
+      "kind": "community-report",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-bull-balance",
+      "title": "Kabam balance note confirms Bullseye Killer Instinct Evade and unavoidable Bleed pressure",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/369780/balance-update-bullseye-and-white-tiger",
+      "kind": "official",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-spotlight",
+      "title": "Kabam Ruby Thursday champion spotlight and ability description",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-ruby-thursday/",
+      "kind": "official",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-forum",
+      "title": "Ruby Thursday publisher-deep-dive discussion naming Undermine attackers",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/413461/deep-dive-ruby-thursday/p1",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-reddit",
+      "title": "Community examination of Ruby Thursday's Undermine counters",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1scgbmr/ruby_thursday_deep_dive_is_out/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-vox-kit",
+      "title": "Vox reference: SP1 grants a short Undermine window",
+      "url": "https://mcocscout.com/champions/vox",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-scream-kit",
+      "title": "Scream kit: Undermine after maintaining two Hybrid Buff stacks",
+      "url": "https://mcochub.insaneskull.com/champions/scream",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-scream-official",
+      "title": "Kabam describes Scream as an effective Tech defender attacker",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/391528/balance-update-scream-and-jack-o-lantern",
+      "kind": "official",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-gorr-kit",
+      "title": "Gorr Godhunter signature grants Undermine with Shadow Magic",
+      "url": "https://marvel-contestofchampions.fandom.com/wiki/Gorr",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "defender-review-20261116-ruby-super-skrull-kit",
+      "title": "Super-Skrull gains Undermine from Cosmic Energy Overload with Fury setup",
+      "url": "https://www.mcoc.help/champions/super-skrull/",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-16"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -72116,6 +72214,277 @@
         "gameplayTested": false
       },
       "scoreReason": "Direct player discussion or route list, not independent repeatable testing, a universal recommendation, or commercial content clearance."
+    },
+    {
+      "id": "okoye-bullseye",
+      "attackerId": "okoye",
+      "defenderId": "bullseye",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-bull-okoye-report",
+        "defender-review-20261116-bull-choices",
+        "defender-review-20261116-bull-balance"
+      ],
+      "score": 2,
+      "why": "Players report Okoye defeating Bullseye efficiently; Dexterity-generated Ensnare is the key reported Evade-control interaction rather than generic class advantage.",
+      "strategy": "Use a safe Dexterity opening to attempt Okoye's Ensnare, confirm Bullseye's Killer Instinct Evade is prevented during its active window, then build Okoye's Bleed/Shock damage while retaining room to bait his Specials.",
+      "risks": "Okoye is not Bleed-immune and can still suffer chip and Instant Bleeds from Bullseye. The Ensnare window and defender AI matter; do not attack into an active Evade unless the prevention is confirmed.",
+      "conditions": [
+        "Verify the current bullseye encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Confirm Ensnare is actually active and preventing Killer Instinct before performing longer basic combos; its general ability-accuracy reduction alone is not a proven answer to every Evade rule.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named community matchup with an articulated mechanic; no independently repeated current-game test or universal node guarantee."
+    },
+    {
+      "id": "gentle-bullseye",
+      "attackerId": "gentle",
+      "defenderId": "bullseye",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-bull-choices",
+        "defender-review-20261116-bull-gentle-player",
+        "defender-review-20261116-bull-balance"
+      ],
+      "score": 2,
+      "why": "Battlegrounds players repeatedly identify Gentle as a safe Bullseye option, with Bleed immunity and defensive mitigation helping against the defender's critical and Bleed pressure.",
+      "strategy": "Use Gentle's documented Bleed immunity to reduce the Bleed problem while managing his Reinforce and attack windows; allow Bullseye's Killer Instinct to expire or bait a Special instead of forcing an unsafe basic attack into Evade.",
+      "risks": "Bleed immunity is not immunity to every direct hit or critical effect. Gentle's defensive resources and the current Battlegrounds nodes still determine how much damage he survives.",
+      "conditions": [
+        "Verify the current bullseye encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Before relying on Gentle, confirm his Bleed immunity and defensive resources are functioning on the current fight and do not treat the matchup as an Evade-disable effect.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named community matchup with an articulated mechanic; no independently repeated current-game test or universal node guarantee."
+    },
+    {
+      "id": "dazzler-bullseye",
+      "attackerId": "dazzler",
+      "defenderId": "bullseye",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-bull-dazzler-kit",
+        "defender-review-20261116-bull-dazzler-player",
+        "defender-review-20261116-bull-choices"
+      ],
+      "score": 2,
+      "why": "Community guides and players identify awakened Dazzler's Pursuit gained from Dazzling Dash as a counter to Bullseye's Evade-heavy defense.",
+      "strategy": "With an awakened Dazzler, build the required Tempo, execute a properly spaced Dazzling Dash to activate Pursuit, and use the active Pursuit window for offense rather than swinging during unprotected Killer Instinct.",
+      "risks": "Awakening is required for Pursuit; Dazzling Dash and Tempo setup can fail under poor spacing. Her mobility and critical-damage mitigation do not confer Bleed immunity against Bullseye.",
+      "conditions": [
+        "Verify the current bullseye encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Confirm Dazzler is awakened and Pursuit is visibly active before relying on Evade prevention; respect the node and special-damage interactions during setup.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named community matchup with an articulated mechanic; no independently repeated current-game test or universal node guarantee."
+    },
+    {
+      "id": "vox-ruby-thursday",
+      "attackerId": "vox",
+      "defenderId": "ruby-thursday",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-ruby-forum",
+        "defender-review-20261116-ruby-reddit",
+        "defender-review-20261116-ruby-spotlight",
+        "defender-review-20261116-ruby-vox-kit"
+      ],
+      "score": 1,
+      "why": "Ruby Thursday's defensive Auto-Block is specifically vulnerable to Undermine. Players discussing her released kit identify Vox as a candidate because his Special 1 can grant Undermine.",
+      "strategy": "Build Vox to Special 1 safely, activate the brief Undermine window, then strike only while the effect is present so Ruby's Auto-Block counterattack does not interrupt the planned basic hits. Reassess after each Ruby Special.",
+      "risks": "Vox's Undermine window is short, and Ruby can gain another Auto-Block after her Specials or a burst of incoming damage. Ruby's Organic Circuitry, Suppression and potentially Unblockable Special 2 remain separate threats.",
+      "conditions": [
+        "Verify the current ruby-thursday encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Check the Undermine status and Ruby's Auto-Block icon before each attack cycle; True Accuracy, True Strike or True Sense alone are unreliable against her stated accuracy suppression.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Ruby-specific forum and Reddit discussion predicts the Undermine interaction from the released kit; the site has no independently verified fight footage or measured win rate."
+    },
+    {
+      "id": "scream-ruby-thursday",
+      "attackerId": "scream",
+      "defenderId": "ruby-thursday",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-ruby-forum",
+        "defender-review-20261116-ruby-reddit",
+        "defender-review-20261116-ruby-scream-kit",
+        "defender-review-20261116-ruby-scream-official",
+        "defender-review-20261116-ruby-spotlight"
+      ],
+      "score": 1,
+      "why": "Players identify Scream's Undermine as a possible Ruby Thursday Auto-Block answer; Scream's ability requires a specific Hybrid Buff setup rather than simply entering the fight.",
+      "strategy": "Build and maintain Madness, then reach two stacks of an eligible Hybrid Buff before gaining another to trigger Scream's brief Undermine. Attack Ruby during that window; otherwise stop before her Auto-Block laser counterattack.",
+      "risks": "Undermine has setup and duration limits, and a poorly timed dash may be punished by Ruby's Auto-Block or Suppression. No demonstrated Ruby-specific fight result is independently verified.",
+      "conditions": [
+        "Verify the current ruby-thursday encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Confirm Scream has the two-stack Hybrid Buff setup and active Undermine before attacking; the auto-block bypass cannot be assumed from Scream's class alone.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Ruby-specific forum and Reddit discussion predicts the Undermine interaction from the released kit; the site has no independently verified fight footage or measured win rate."
+    },
+    {
+      "id": "gorr-ruby-thursday",
+      "attackerId": "gorr",
+      "defenderId": "ruby-thursday",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-ruby-forum",
+        "defender-review-20261116-ruby-reddit",
+        "defender-review-20261116-ruby-gorr-kit",
+        "defender-review-20261116-ruby-spotlight"
+      ],
+      "score": 1,
+      "why": "Community discussions nominate awakened Gorr because his Godhunter signature grants Undermine when he gains Shadow Magic Buffs, giving an Auto-Block bypass route against Ruby Thursday.",
+      "strategy": "Use an awakened Gorr, rotate Shadow Magic normally and verify the resulting Undermine Buff is active before attacking Ruby through her Auto-Block. Keep time to bait her Specials and refresh the necessary resources.",
+      "risks": "Undermine is from Gorr's signature ability; an unawakened Gorr must not be presented as having this solution. Undermine does not disable Ruby's Disintegration, power suppression or Unblockable Special 2.",
+      "conditions": [
+        "Verify the current ruby-thursday encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Require an awakened Gorr and check the actual Undermine timer after gaining a Shadow Magic Buff, rather than assuming a base-kit effect.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Ruby-specific forum and Reddit discussion predicts the Undermine interaction from the released kit; the site has no independently verified fight footage or measured win rate."
+    },
+    {
+      "id": "super-skrull-ruby-thursday",
+      "attackerId": "super-skrull",
+      "defenderId": "ruby-thursday",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "defender-review-20261116-ruby-forum",
+        "defender-review-20261116-ruby-reddit",
+        "defender-review-20261116-ruby-super-skrull-kit",
+        "defender-review-20261116-ruby-spotlight"
+      ],
+      "score": 1,
+      "why": "Players flag Super-Skrull's Undermine access as a potential Ruby Thursday answer. His Fury/Cosmic Energy Overload setup can grant Undermine, bypassing her Auto-Block when active.",
+      "strategy": "Build Super-Skrull's Cosmic Energy Receptor and Fury state until Undermine becomes available, then use the active buff for a controlled attacking window. Keep track of Ruby's next Special and the resulting Auto-Block before extending combos.",
+      "risks": "The Overload and Fury setup takes time, Ruby reduces Combat Power Rate through Suppression, and Undermine alone does not negate incoming Disintegration or Unblockable Special damage.",
+      "conditions": [
+        "Verify the current ruby-thursday encounter and all Battlegrounds or Alliance War nodes; cited discussions do not certify every seasonal defensive tactic.",
+        "Check the required Fury and Cosmic Energy Overload threshold for Undermine; do not infer that Vigilance or ordinary True Strike bypasses Ruby's 100% True-effect accuracy reduction.",
+        "Do not assume an untested matchup has a guaranteed finish, safe Special bait or identical results at a different rank and signature."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-16",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Ruby-specific forum and Reddit discussion predicts the Undermine interaction from the released kit; the site has no independently verified fight footage or measured win rate."
     },
     {
       "id": "venom-maestro",
