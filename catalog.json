@@ -7553,6 +7553,62 @@
       "checkedAt": "2026-11-20"
     },
     {
+      "id": "dracula-showcase-20261120-b3",
+      "title": "Firsthand AW Showcase Dracula fight reports: Viv Vision, Bastion, Nefaria, Silk, Spider-Woman and others",
+      "url": "https://www.reddit.com/r/MarvelContestOfChamps/comments/1rm92bb/what_to_do_against_this_dracula/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "fam-counter-discussion-20261120-b3",
+      "title": "Future Ant-Man defender matchups discussed by AW and BG players, including Pierce and armor-management limits",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/336398/the-best-future-antman-counter",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "fam-official-spotlight-20261120-b3",
+      "title": "Official Ant-Man (Future) champion spotlight and defensive mechanics",
+      "url": "https://playcontestofchampions.com/news/champion-spotlight-ant-man-future/",
+      "kind": "official",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "ghost-defender-reports-20261120-b3",
+      "title": "Player discussion of Corvus Glaive armor breaks and Doctor Doom versus defending Ghost",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/155724/list-of-counters-to-ghost-or-quake",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "ghost-miss-kit-20261120-b3",
+      "title": "Ghost defensive Phase and Miss ability reference",
+      "url": "https://mcochub.insaneskull.com/champions/ghost",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "mole-sos-dani-20261120-b3",
+      "title": "Summer of Suffering Mole Man encounter, firsthand Dani Moonstar solo discussion",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1f3gzne",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "mole-epo-jean-20261120-b3",
+      "title": "Epoch of Pain Hero run planning post lists Jean Grey versus Mole Man",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2943727",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "mole-forum-guide-20261120-b3",
+      "title": "Community guide to Mole Man's defensive behavior and possible options; disagreements about Archangel noted",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/389997/mcoc-1-champ-per-week-ep-58-mole-man",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-20"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -74550,6 +74606,727 @@
         "gameplayTested": false
       },
       "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "viv-vision-dracula-20261120-b3",
+      "attackerId": "viv-vision",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A player completing the Dracula Alliance War Showcase encounter specifically calls Viv Vision their standout option because she can fight without relying on Parry stuns or a constant stream of debuffs.",
+      "strategy": "Use medium-ending combinations to avoid repeatedly introducing unnecessary debuffs. Bait Specials from an appropriate distance and favor controlled interceptions over Parry-heavy play, because the Showcase version can punish debuffs and forced contact.",
+      "risks": "The account is from a specific AW Showcase encounter, not a general Alliance War placement. Viv can still apply some effects; her Suppression is not always passive, so verify the current mechanics and node.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the viv vision plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "bastion-dracula-20261120-b3",
+      "attackerId": "bastion",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Several Showcase participants name Bastion as a comfortable Dracula attacker, with one describing an approach based on intercepting rather than repeatedly Parrying into his healing or Invisibility.",
+      "strategy": "Use Bastion's normal attack plan while prioritizing intercept opportunities and safe special baiting. Avoid leaning on Parry as the default entry, and watch for Dracula's Invisibility window after Heavy baits before resuming pressure.",
+      "risks": "The Showcase reportedly modifies how non-damaging debuffs trigger Dracula's defensive response. Bastion is not automatically immune to Invisibility, healing or additional seasonal nodes.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the bastion plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "spider-woman-dracula-20261120-b3",
+      "attackerId": "spider-woman",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Several players report clearing the Dracula Showcase with Spider-Woman, describing interception and her Special 2 into Special 1 as workable offensive sequences without relying on frequent Parry stuns.",
+      "strategy": "Play through clean intercepts, manage spacing to bait Dracula's Specials, and use Special 2 then Special 1 only when it is safe to maintain the sequence. Check whether her non-damaging debuffs are triggering unwanted Unblockable states.",
+      "risks": "Players disagreed about the defensive response to Spider-Woman's debuffs, and one reported significant health loss. This is not a universally safe or zero-damage counter for other nodes.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the spider woman plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "count-nefaria-dracula-20261120-b3",
+      "attackerId": "count-nefaria",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Multiple players report successful Dracula Showcase fights using Count Nefaria. One describes finishing at full health by cycling Special 1, while another highlights avoiding the dangerous regeneration timing.",
+      "strategy": "Use Nefaria's sustainable Special 1 cycle and keep Dracula's recovery in sight. Bait Specials when healing or Invisibility pressure rises, and avoid attacking during an unsafe defensive cooldown or node-triggered Unblockable phase.",
+      "risks": "A full-health finish was a player report, not a verified guarantee. The exact encounter, Nefaria rank, Special-bait timing and Draco node effects can materially change the result.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the count nefaria plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "human-torch-dracula-20261120-b3",
+      "attackerId": "human-torch",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 1,
+      "why": "One Showcase commenter reports Human Torch as an easy Dracula option, but cautions that bringing him may offer less value across the other encounters on that particular path.",
+      "strategy": "Check that Torch's Incinerate and temperature interactions are useful rather than being punished by the current Dracula node. Establish normal Science pressure while minimizing avoidable Parry or debuff triggers and bait Specials deliberately.",
+      "risks": "This source includes limited explanation of a Torch win, and the surrounding Showcase path may discourage using a specialist only for Dracula. Do not assume Incinerate bypasses all regeneration or Invisibility.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the human torch plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "kushala-dracula-20261120-b3",
+      "attackerId": "kushala",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 1,
+      "why": "A Showcase participant says a high-signature Kushala can handle Dracula, with the qualification that successful execution relies on intercepting rather than passively parrying and retreating.",
+      "strategy": "Use precise interceptions to take openings without feeding Dracula his preferred defensive triggers. Keep an eye on the Mystic attacker’s debuffs and special effects, then sequence Kushala's damage only through safe recovery windows.",
+      "risks": "The cited report specifies a high-signature copy, and does not establish the minimum signature or exact spell state. Her debuffs can interact poorly with some Showcase nodes.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the kushala plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "silk-dracula-20261120-b3",
+      "attackerId": "silk",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 1,
+      "why": "Players identify Silk as a fast Dracula Showcase solution, including one account recommending an aggressive Special 3-based combo rather than trying to completely shut off healing.",
+      "strategy": "Treat Dracula's regeneration as a timing and damage race when using Silk. Build toward the Special 3 route without repeatedly triggering avoidable Parry or node debuffs, and keep Specials baited before committing the final combo.",
+      "risks": "One report assumes an R3 or similarly strong Silk; weaker ranks may not beat the healing race. This does not amount to a general regeneration immunity or a verified current-meta Battlegrounds clear.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the silk plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "yelena-belova-dracula-20261120-b3",
+      "attackerId": "yelena-belova",
+      "defenderId": "dracula",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "dracula-showcase-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Two Showcase players report using Yelena Belova against Dracula. One explicitly advises avoiding Parry and Heavy sequences that apply unwanted debuffs and instead playing through safe spacing.",
+      "strategy": "Avoid Heavy attacks or relic activations that introduce Bleed Vulnerability or other unwanted debuffs into Dracula's node. Use controlled openings and safe special-block or dex timing instead of chasing risky intercepts into Invisibility.",
+      "risks": "The accounts are Showcase-specific and may depend on relic and path choices. Yelena does not gain automatic immunity to an Unblockable state triggered by debuffs.",
+      "conditions": [
+        "Confirm the cited interaction in dracula's current fight before committing to the yelena belova plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "hulkling-ant-man-future-20261120-b3",
+      "attackerId": "hulkling",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Multiple Future Ant-Man defender discussions identify Hulkling as a strong pick due to Pierce buffs, which can reduce how much the defender's Glancing and Armor Up interfere with offensive damage.",
+      "strategy": "Establish Hulkling's usual buff rotation, confirm that Pierce is active against Future Ant-Man's defenses, and avoid pushing into Disintegration or Special 1 Power Drain while his protection is highest.",
+      "risks": "Pierce improves the interaction but does not prevent all Disintegration or Power Drain. Certain buffs or Alliance War nodes may change the timing, and player results were not independently tested here.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the hulkling plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "valkyrie-ant-man-future-20261120-b3",
+      "attackerId": "valkyrie",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A player reports successful Alliance War use of Valkyrie against Future Ant-Man, while other commenters also place her among reliable picks because her block-oriented play avoids parts of his direct-hit pressure.",
+      "strategy": "Build Valkyrie's utility and Pierce with the opponent blocking when the matchup permits, then take openings during safer Armor Up windows. Watch Future Ant-Man's Disintegration stack and Special 1 rather than assuming block contact is harmless.",
+      "risks": "The firsthand success was in Alliance War and the nodes were not specified. Pierce and block pressure do not automatically bypass each debuff or defensive timer in every Battlegrounds season.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the valkyrie plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "magneto-ant-man-future-20261120-b3",
+      "attackerId": "magneto",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 2,
+      "why": "Multiple commenters recommend Red Magneto against Future Ant-Man, treating his Metal-related ability accuracy reduction as a way to soften the defender's Armor Up and defensive complication.",
+      "strategy": "Confirm the Metal tag and Magneto's Magnetism interaction in the current version, then build a controlled Magneto damage cycle while minimizing repeated glancing contact. Read the Armor Up and Disintegration icons before the big special.",
+      "risks": "Not all node effects or passive mechanics are suppressed by Magnetism. Magneto's personal rank and heavy-charge timing can affect safety, and a suggested counter is not a documented universal solo.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the magneto plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "corvus-glaive-ant-man-future-20261120-b3",
+      "attackerId": "corvus-glaive",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 1,
+      "why": "One commenter reports good Corvus Glaive results versus Future Ant-Man, likely drawing on Corvus's burst offense when the encounter permits rapid damage and defensive Armor breaks.",
+      "strategy": "Use Corvus only if you have enough Glaive charges or a suitable fight length for his damage to matter. Monitor Glancing, Armor Ups and Disintegration rather than assuming guaranteed critical hits fully bypass them.",
+      "risks": "The defender's Safeguard or damage limits can work against high-burst attackers; another participant specifically warns that some Cosmic burst approaches are poor. Treat this as uncertain outside the reported context.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the corvus glaive plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "ghost-ant-man-future-20261120-b3",
+      "attackerId": "ghost",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A participant in the Future Ant-Man counter discussion says Ghost worked well, offering an alternative for players able to control Phase timing around a defending Tech champion.",
+      "strategy": "Use Ghost's practiced Phase and counterattack rhythm to create safe openings, with careful attention to how Future Ant-Man's Disintegration and Power Drain behave during Phase and Specials.",
+      "risks": "Ghost's Phase does not necessarily protect against every passive Disintegration or node. This is a single player experience without a detailed current-patch fight log.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the ghost plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "red-guardian-ant-man-future-20261120-b3",
+      "attackerId": "red-guardian",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A later player in the Future Ant-Man forum discussion calls Red Guardian a fast personal counter because Heavy-focused play rarely activates the defender's Nano Armor in their fights.",
+      "strategy": "Use measured Heavy windows and learn the defender's exact Special recovery. If the Nano Armor is not being triggered, keep the pattern controlled instead of adding unnecessary basic hits and triggering Glancing pressure.",
+      "risks": "The claim comes from one player and is sensitive to AI, Heavy spacing, and nodes. Red Guardian's Heavy-based plan is not risk-free, especially where the encounter punishes charging a Heavy.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the red guardian plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "blade-ant-man-future-20261120-b3",
+      "attackerId": "blade",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds",
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 1,
+      "why": "Future Ant-Man forum participants propose Blade because of a claimed Dimensional Being interaction and Ability Accuracy Reduction, making him an alternative when stronger Pierce picks are unavailable.",
+      "strategy": "Check the defender's current tags and Blade's relevant Danger Sense conditions, including any required synergy. Use the mechanic only when the reduction actually activates, then attack during gaps between Nano Armor and Specials.",
+      "risks": "The original discussion proposes this route rather than documenting a solo. Blade's synergies and tags matter, and Ability Accuracy Reduction does not override all passive or node-granted defenses.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the blade plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "longshot-ant-man-future-20261120-b3",
+      "attackerId": "longshot",
+      "defenderId": "ant-man-future",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "fam-counter-discussion-20261120-b3",
+        "fam-official-spotlight-20261120-b3"
+      ],
+      "score": 1,
+      "why": "Players in the Future Ant-Man thread call Longshot a usable option, but another directly warns that high-signature defenders can make the interaction much less favorable.",
+      "strategy": "Check the defender's signature level and the Armor Up interactions before drafting Longshot. Attempt damage during the safe Karma or Special windows only if the relevant buffs persist and the defender is not reducing them.",
+      "risks": "This is explicitly NOT a preferred high-signature answer; the thread includes a negative experience. Never mark Longshot as a universal Future Ant-Man counter or infer consistent damage on a max-sig target.",
+      "conditions": [
+        "Confirm the cited interaction in ant man future's current fight before committing to the longshot plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "corvus-glaive-ghost-20261120-b3",
+      "attackerId": "corvus-glaive",
+      "defenderId": "ghost",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "ghost-defender-reports-20261120-b3",
+        "ghost-miss-kit-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A player explaining counters to defending Ghost highlights Corvus Glaive's Parry-triggered Armor Break as a way to disable Phase, and mentions True Strike if the appropriate synergy is available.",
+      "strategy": "Use Corvus's Armor Break on a safe Parry, then attack while Ghost's Phase is actually disabled. If using a True Strike synergy, verify the activation before depending on hits through Miss; respect any anti-Parry node.",
+      "risks": "Ghost cannot Phase under some Armor Break conditions, but nodes or passive Armor Break immunity could change the effect. The forum report is old and cannot guarantee a current-meta Battlegrounds score.",
+      "conditions": [
+        "Confirm the cited interaction in ghost's current fight before committing to the corvus glaive plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "doctor-doom-ghost-20261120-b3",
+      "attackerId": "doctor-doom",
+      "defenderId": "ghost",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "ghost-defender-reports-20261120-b3",
+        "ghost-miss-kit-20261120-b3"
+      ],
+      "score": 1,
+      "why": "Another participant in a Ghost defender discussion explicitly identifies Doctor Doom as an effective attacker. Doom's controlled Mystic rhythm can provide a familiar answer without gambling on an unprepared intercept.",
+      "strategy": "Maintain controlled Parry and special timing while watching Ghost's active Phase and whether your attacks can land. If her Phase is live, disengage until a safe entry and use Doom's normal power-management rotation.",
+      "risks": "The source names Doom without a detailed recorded clear. Do not assume that Doom automatically turns off Miss, and any phase- or stun-affecting node can invalidate the standard approach.",
+      "conditions": [
+        "Confirm the cited interaction in ghost's current fight before committing to the doctor doom plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "dani-moonstar-mole-man-20261120-b3",
+      "attackerId": "dani-moonstar",
+      "defenderId": "mole-man",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mole-sos-dani-20261120-b3",
+        "mole-forum-guide-20261120-b3"
+      ],
+      "score": 2,
+      "why": "A Summer of Suffering Mole Man discussion includes a firsthand Dani Moonstar solo with very high remaining health, demonstrating that she can handle at least that particular encounter when played well.",
+      "strategy": "Use Dani's safe openings and special-based offense while monitoring Mole Man's Monster Mass and Frenzy behavior. Avoid relying on a predictable Parry chain if his Purify or Unstoppable state interferes, and control his specials.",
+      "risks": "The solo was in Summer of Suffering, whose nodes may differ sharply from ordinary Mole Man defense. The community guide includes disputed alternatives; do not infer that Dani ignores every node.",
+      "conditions": [
+        "Confirm the cited interaction in mole man's current fight before committing to the dani moonstar plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player encounter with direct qualitative success or matchup mechanics; no independent validation."
+    },
+    {
+      "id": "jean-grey-mole-man-20261120-b3",
+      "attackerId": "jean-grey",
+      "defenderId": "mole-man",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mole-epo-jean-20261120-b3",
+        "mole-forum-guide-20261120-b3"
+      ],
+      "score": 1,
+      "why": "A 2026 Epoch of Pain Hero team-planning discussion names Jean Grey as an option for the Mole Man fight, offering a tentative Mutant route rather than a fully documented combat test.",
+      "strategy": "Use Jean only after checking Mole Man's node and his current Monster Mass, Purify and Frenzy indicators. Build power through patient special baiting rather than forcing debuffs that will be shrugged off before they can matter.",
+      "risks": "The cited Epoch discussion is a planned team route, not a confirmed Jean solo, and Jean's own effects may interact badly with Mole Man or the event nodes. Treat this as a low-confidence candidate.",
+      "conditions": [
+        "Confirm the cited interaction in mole man's current fight before committing to the jean grey plan.",
+        "Before attempting this matchup, check the actual defender variant, game version, awakening, nodes, relevant effect icons and your attacker setup. Player reports do not establish independently tested wins.",
+        "Where evidence comes from a Showcase, event, or a single player report, do not extrapolate to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
     },
     {
       "id": "venom-maestro",
