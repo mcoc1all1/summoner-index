@@ -1,8 +1,8 @@
-import {focusOptions,defenderFocusOptions} from './loadouts.cdc3e65c69ac9bdc.mjs';
-import {escapeHtml as e,validate} from './domain.cdc3e65c69ac9bdc.mjs';
-import {downloadJson} from './roster.cdc3e65c69ac9bdc.mjs';
-import {readField,writeField,reviewQueue} from './review.cdc3e65c69ac9bdc.mjs';
-import {updateRecord,draftPreview} from './draft.cdc3e65c69ac9bdc.mjs';
+import {focusOptions,defenderFocusOptions} from './loadouts.24d0b8f7ec451fd6.mjs';
+import {escapeHtml as e,validate} from './domain.24d0b8f7ec451fd6.mjs';
+import {downloadJson} from './roster.24d0b8f7ec451fd6.mjs';
+import {readField,writeField,reviewQueue} from './review.24d0b8f7ec451fd6.mjs';
+import {updateRecord,draftPreview} from './draft.24d0b8f7ec451fd6.mjs';
 const KEY='fieldguide:content-draft:v1';
 const fields={
  champions:{name:'Name',class:['Class',['Cosmic','Tech','Mutant','Skill','Science','Mystic','Universal']],initials:'Short initials',summary:'Summary',strengths:'Strengths',risks:'Risks',playstyle:'Playstyle',awakening:'Awakening notes',signatureTarget:'Signature target (blank = unreviewed)',abilityIds:['Abilities','abilities'],immunityIds:['Unconditional immunities','immunities'],tagIds:['Tags','tags'],sourceIds:['Sources','sources'],'loadout.battlecastId':['Battlecast option','relics',true],'loadout.statcastId':['Statcast option','relics',true],'loadout.attackFocus':['Attacker focus',focusOptions],'loadout.defenseFocus':['Defender focus',defenderFocusOptions],'loadout.attackAlternative':['Attacker alternative',focusOptions],'loadout.defenseAlternative':['Defender alternative',defenderFocusOptions],'loadout.attackReason':'Attacker reasoning','loadout.defenseReason':'Defender reasoning','loadout.relicNotes':'Relic caveats','loadout.eligibility':'Eligibility caveats','loadout.reviewedAt':'Loadout editorial review (YYYY-MM-DD)','loadout.status':['Evidence status',['editorial-trial']],'loadout.sourceIds':['Loadout sources','sources']},
