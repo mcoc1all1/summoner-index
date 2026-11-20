@@ -7427,6 +7427,55 @@
       "checkedAt": "2026-11-20"
     },
     {
+      "id": "kushala-community-counter-20261120",
+      "title": "Forum discussion on Kushala's buff-triggered power and named Science answers",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/386125/how-to-defeat-kushala",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "nick-fury-bg-counter-20261120",
+      "title": "Battlegrounds discussion: Archangel, Peni Parker and Nick Fury second life",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376757/bg-counters-for-tough-defenders",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "nick-fury-nefaria-20261120",
+      "title": "Player account of Count Nefaria's regeneration mitigation versus Fury",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376757/bg-counters-for-tough-defenders",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "bastion-community-counters-20261120",
+      "title": "Bastion counter mentions from long-form community champion guide",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/411606/mcoc-1-champ-per-week-ep-108-bastion-amazing-xmen-97-scene-against-jubilee",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "warlock-bg-community-20261120",
+      "title": "Community counter list for Warlock and other Tech defenders",
+      "url": "https://www.reddit.com/r/mcoccodes/comments/1nolepq/mcoc_battleground_counter_list/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "warlock-defender-risk-20261120",
+      "title": "Players detail Warlock's infection, buff and armor requirements",
+      "url": "https://www.reddit.com/r/ContestOfChampions/comments/1g3jqhw/niche_defenders_who_get_ws_for_you/",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "warlock-reference-20261120",
+      "title": "Warlock champion reference for infection, Armor Up and Power Drain",
+      "url": "https://mcocscout.com/champions/warlock",
+      "kind": "community-reference",
+      "checkedAt": "2026-11-20"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -73166,6 +73215,548 @@
         "gameplayTested": false
       },
       "scoreReason": "Specific player-reported encounter with named attacker and mechanical reasoning; still not independently tested by Summoner Index."
+    },
+    {
+      "id": "titania-kushala-20261120-index",
+      "attackerId": "titania",
+      "defenderId": "kushala",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 2,
+      "why": "Players answering a Kushala power-gain question specifically recommend Titania for her Buff Immunity, preventing one source of the defender's extra Power.",
+      "strategy": "Choose Titania when Kushala gains Power in response to your own buffs. Maintain normal contact openings while monitoring the defender's Power bar. Because you avoid triggering personal buffs, you can minimize the interaction described in the cited Incursions case.",
+      "risks": "This is based on a player discussion, not a timed Battlegrounds test. Extra Power Gain, immunity bypass or nodes that require buffs can change the result.",
+      "conditions": [
+        "Confirm the current titania versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "silk-kushala-20261120-index",
+      "attackerId": "silk",
+      "defenderId": "kushala",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 2,
+      "why": "The same Kushala thread names Silk, specifically because her Dexterity interactions avoid generating the usual Precision buff that can feed the defender's Power.",
+      "strategy": "Use Silk to manage Kushala's Power while spacing and dexing specials. Check that no other active buff from your setup triggers the cited power interaction, then attack only in safe special-recovery windows.",
+      "risks": "The recommendation targets buff-triggered Power Gain rather than every possible Kushala node. Other player buffs, quest hacks or special effects can still supply Power.",
+      "conditions": [
+        "Confirm the current silk versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "luke-cage-kushala-20261120-index",
+      "attackerId": "luke-cage",
+      "defenderId": "kushala",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 2,
+      "why": "A Kushala counter discussion specifically identifies Luke Cage as an alternative because of his interaction with opposing Power Gain.",
+      "strategy": "Watch Kushala's Power Gain indicator and Luke Cage's active utility. Avoid granting her fresh Power through careless personal buffs; use controlled strings and safely bait specials before activating offense.",
+      "risks": "Luke Cage does not guarantee that all sources of defender Power are removed. The original report concerns an Incursions setup and may not translate to seasonal Battlegrounds nodes.",
+      "conditions": [
+        "Confirm the current luke cage versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "spider-ham-kushala-20261120-index",
+      "attackerId": "spider-ham",
+      "defenderId": "kushala",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 2,
+      "why": "Spider-Ham is another community-named Kushala answer because his mechanics can punish defenders for using special attacks, potentially offsetting power pressure.",
+      "strategy": "Keep the fight controlled and track Kushala's special attacks rather than simply pushing her to high Power. Use Spider-Ham's punishment mechanics only after confirming the conditions on his kit and any power-modifying nodes.",
+      "risks": "This is a pressure-management approach, not Power Gain prevention. A particularly unsafe special or an Incursions node can still make the fight a poor choice.",
+      "conditions": [
+        "Confirm the current spider ham versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "cassie-lang-kushala-20261120-index",
+      "attackerId": "cassie-lang",
+      "defenderId": "kushala",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 1,
+      "why": "A community member lists Cassie Lang among buff-immune Science alternatives when fighting a Kushala whose Power increases as the attacker gains buffs.",
+      "strategy": "Choose Cassie for an encounter where withholding attacker buffs is the key requirement. Check her current buff-immunity state before triggering evasion or other effects, and avoid powering Kushala through unrelated node buffs.",
+      "risks": "The forum gives a class-and-mechanics suggestion, not a documented Cassie solo. Quest-specific nodes and any changes to her abilities must be checked.",
+      "conditions": [
+        "Confirm the current cassie lang versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "ant-man-kushala-20261120-index",
+      "attackerId": "ant-man",
+      "defenderId": "kushala",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 1,
+      "why": "The cited player discussion names Ant-Man as another buff-immune Science option against Kushala's buff-triggered Power Gain.",
+      "strategy": "Use an Ant-Man build only after confirming his buff-immunity interaction in the current version. Keep power control conservative, bait specials and check that the encounter is not granting unrelated buffs that undermine the tactic.",
+      "risks": "This is a mechanism-led community suggestion without an individual fight record. Do not assume that buff immunity blocks Kushala's own special attacks or independent power effects.",
+      "conditions": [
+        "Confirm the current ant man versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "spider-man-2099-kushala-20261120-index",
+      "attackerId": "spider-man-2099",
+      "defenderId": "kushala",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kushala-community-counter-20261120"
+      ],
+      "score": 1,
+      "why": "Spider-Man 2099 is included in the Kushala discussion as a buff-immune attacker that should avoid feeding a common power-gain trigger.",
+      "strategy": "Keep Spider-Man 2099's attacker buffs suppressed and check Kushala's Power Gain triggers before using long combinations. Focus on steady, controlled damage and safe special baiting while the buff restriction is active.",
+      "risks": "His buff immunity alone does not grant universal protection from Power Gain nodes, energy damage or Kushala's specials. Treat this as an untested named alternative.",
+      "conditions": [
+        "Confirm the current spider man 2099 versus kushala interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "archangel-nick-fury-20261120-index",
+      "attackerId": "archangel",
+      "defenderId": "nick-fury",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nick-fury-bg-counter-20261120"
+      ],
+      "score": 2,
+      "why": "A Battlegrounds player describes Archangel as a reliable Nick Fury counter, planning Special 3 as Fury leaves his first life to limit the second-life regeneration.",
+      "strategy": "Manage Bleed and Neurotoxin setup during Fury's first life while avoiding overcommitting into his unblockable pressure. Build to Special 3 and time it around the Life Model Decoy transition when the current nodes permit the cited tactic.",
+      "risks": "Timing and debuff immunities matter. The discussion reports success but is not a universal 45-second guarantee; avoid assuming Neurotoxins override all second-life rules.",
+      "conditions": [
+        "Confirm the current archangel versus nick fury interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "peni-parker-nick-fury-20261120-index",
+      "attackerId": "peni-parker",
+      "defenderId": "nick-fury",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nick-fury-bg-counter-20261120"
+      ],
+      "score": 2,
+      "why": "Players in the same thread specifically name Peni Parker as a hard answer to Nick Fury's second life because her effects can interfere with his regeneration.",
+      "strategy": "Play to Peni's power and control cycle, confirm the Heal Block or relevant second-life interruption is active before Fury crosses the LMD threshold, and then finish the remaining health without eating unblockable attacks.",
+      "risks": "The phase change can happen unexpectedly with critical hits or nodes. Heal Block uptime and Fury's awakening are crucial; the forum report does not prove every fight variant.",
+      "conditions": [
+        "Confirm the current peni parker versus nick fury interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "count-nefaria-nick-fury-20261120-index",
+      "attackerId": "count-nefaria",
+      "defenderId": "nick-fury",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nick-fury-bg-counter-20261120"
+      ],
+      "score": 2,
+      "why": "Additional discussion in the Nick Fury Battlegrounds thread identifies Count Nefaria's regeneration reduction as useful even after Fury moves into his second life.",
+      "strategy": "Set up Count Nefaria's regeneration-mitigation effect before Fury's second-life transition, then conserve resources for the final health push while staying clear of the unblockable pressure.",
+      "risks": "Regeneration reduction is not necessarily equivalent to fully preventing a heal in every situation. Confirm effect duration, defender awakening and any regeneration-modifying nodes.",
+      "conditions": [
+        "Confirm the current count nefaria versus nick fury interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named player scenario with a plausible described interaction; not independently gameplay-tested."
+    },
+    {
+      "id": "angela-bastion-20261120-index",
+      "attackerId": "angela",
+      "defenderId": "bastion",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "bastion-community-counters-20261120"
+      ],
+      "score": 1,
+      "why": "A community Bastion guide lists Angela among the attackers worth considering when dealing with Bastion on defense, but gives limited fight-specific explanation.",
+      "strategy": "Use Angela's regular Cosmic damage cycle and establish relevant buffs only if they remain safe against Bastion's node and kit. Prioritize a clean special bait and monitor any retaliatory damage before extending the combo.",
+      "risks": "This is a named community lead rather than an independently tested hard counter. Bastion's high Special 1 damage and defenses can still make the fight punishing.",
+      "conditions": [
+        "Confirm the current angela versus bastion interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "cull-obsidian-bastion-20261120-index",
+      "attackerId": "cull-obsidian",
+      "defenderId": "bastion",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "bastion-community-counters-20261120"
+      ],
+      "score": 1,
+      "why": "Cull Obsidian appears in the Bastion community-guide list of attackers, suggesting a high-damage Cosmic alternative when nodes and ramp allow it.",
+      "strategy": "Consider Cull when the fight length and mode permit his ramp-up. Establish enough damage before committing to a heavy sequence, and avoid being caught by Bastion's Special 1 or unusually resistant phases.",
+      "risks": "The cited guide names Cull without a detailed recorded clear. Cull's ramp and fragile fights can be unsuitable for short Battlegrounds matches or restrictive nodes.",
+      "conditions": [
+        "Confirm the current cull obsidian versus bastion interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "serpent-bastion-20261120-index",
+      "attackerId": "serpent",
+      "defenderId": "bastion",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "bastion-community-counters-20261120"
+      ],
+      "score": 1,
+      "why": "Community members also name Serpent in their Bastion-defender options, but without a detailed timing demonstration for a specific node.",
+      "strategy": "Plan for a sustained Cosmic damage exchange and protect Serpent's own special rotation from interruption. Verify what happens when Bastion triggers passive protection or disintegration-related effects.",
+      "risks": "Do not read the name mention as a blanket Bastion immunity or a verified fastest counter. The strategy is conditional on nodes and defensive timing.",
+      "conditions": [
+        "Confirm the current serpent versus bastion interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "america-chavez-warlock-20261120-index",
+      "attackerId": "america-chavez",
+      "defenderId": "warlock",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "warlock-bg-community-20261120",
+        "warlock-defender-risk-20261120",
+        "warlock-reference-20261120"
+      ],
+      "score": 1,
+      "why": "A community Battlegrounds counter list names America Chavez against Warlock. Separate player discussion identifies Warlock's Armor Up, infection and Power Drain as the effects to plan around.",
+      "strategy": "Check whether Chavez can maintain her attack rotation without Warlock's Infection building dangerously. Watch the Armor Up state before relying on critical special damage and make room for power interactions when your buffs change.",
+      "risks": "The published counter list is not an individual Chavez fight test. Do not infer immunity to infection, Power Drain or heal block. Warlock's special crit resistance may slow the fight.",
+      "conditions": [
+        "Confirm the current america chavez versus warlock interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "king-groot-warlock-20261120-index",
+      "attackerId": "king-groot",
+      "defenderId": "warlock",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "warlock-bg-community-20261120",
+        "warlock-defender-risk-20261120",
+        "warlock-reference-20261120"
+      ],
+      "score": 1,
+      "why": "A community counter list names King Groot as a Warlock choice, while player experience indicates multiple unique buffs and the Armor Up state are important to understand.",
+      "strategy": "Assess whether King Groot's available buffs are enough to interact favorably with Warlock's Infection rules; track Warlock's Armor Up and avoid triggering a power-drain loop. Play safely around his Special 1 and the defender's Heal Block.",
+      "risks": "King Groot's regeneration should not be treated as safe while Heal Block or Infection is active. This is an untested community-named option, not a confirmed immunity counter.",
+      "conditions": [
+        "Confirm the current king groot versus warlock interaction before entering; community evidence alone does not prove a universal counter.",
+        "Check the active game mode, defender awakening, node and current patch before relying on the described interaction. A community report is not a guaranteed or independently tested win.",
+        "Check awakening, node-triggered buffs and the defender's currently displayed effects."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
     },
     {
       "id": "venom-maestro",
