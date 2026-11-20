@@ -7476,6 +7476,83 @@
       "checkedAt": "2026-11-20"
     },
     {
+      "id": "cassandra-valiant-eq-20261120b2",
+      "title": "Player reports for Cassandra Nova in Valiant Event Quest, with attackers and Special 1 timings",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400849/what-are-the-best-counters-for-cassandra-nova-in-the-valiant-eq",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "cassandra-aug25-kit-20261120b2",
+      "title": "Kabam August 2025 official livestream recap with Cassandra Nova mechanics",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400316/stream-recap-august-1-2025",
+      "kind": "official",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spot-spiderbots-20261120b2",
+      "title": "Side Quest reports naming Nick Fury, Scorpion and Venom against Spot",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/338249/spider-bots-sq-counters-for-kate-bishop-and-spot",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spot-crucible-20261120b2",
+      "title": "Player Crucible route list naming Bullseye as a Spot attacker",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list/p3",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spot-balance-20261120b2",
+      "title": "Kabam balance discussion describing Spot's Portal Block and Untouchable mechanics",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/326412/spider-man-supreme-and-spot-balancing-update",
+      "kind": "official",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "invisible-woman-forum-20261120b2",
+      "title": "Community discussion on Invisible Woman Miss and Force Field; Bullseye and Silver Sable named",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/391045/mcoc-1-champ-per-week-ep-60-invisible-woman",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "jessica-counter-forum-20261120b2",
+      "title": "Battlegrounds counter discussion listing Nick Fury and Silk for Jessica Jones",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "jessica-balance-20261120b2",
+      "title": "Kabam balancing post discussing Jessica Jones, Cleanse and node interactions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/332215/mantis-and-jessica-jones-balancing-update/p1",
+      "kind": "official",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spider-ham-forum-20261120b2",
+      "title": "Detailed player report explaining Jabari Panther Hunt versus Spider-Ham evade and Poppers",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2761559",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spider-ham-crucible-20261120b2",
+      "title": "Player reports using Jabari Panther without awakening against Spider-Ham in a Legendary Crucible run",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/373454/my-9-revive-legendary-crucible-run-part-2",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
+      "id": "spider-ham-nick-20261120b2",
+      "title": "Player accounts including Nick Fury versus Spider-Ham and bleed-heavy Skill approach",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders/p2",
+      "kind": "community-report",
+      "checkedAt": "2026-11-20"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -73757,6 +73834,722 @@
         "gameplayTested": false
       },
       "scoreReason": "Named or mechanics-led community suggestion with limited direct fight evidence; untested and node-dependent."
+    },
+    {
+      "id": "jack-olantern-cassandra-nova-20261120-b2",
+      "attackerId": "jack-olantern",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2",
+        "cassandra-aug25-kit-20261120b2"
+      ],
+      "score": 2,
+      "why": "Several Valiant EQ players specifically report Jack O’Lantern as their strongest or easiest attacker against Cassandra Nova, with successful fights focused on controlling her Special 1.",
+      "strategy": "Maintain a manageable distance, avoid trying to intercept while Cassandra is charging a Heavy, and steer her toward Special 1. Once you can consistently evade its animation, return to Jack’s normal damage cycle rather than chasing a risky burst.",
+      "risks": "These reports concern a specific Valiant EQ setup. A seasonal node or altered Special 2 pressure could change the approach; the site has not independently repeated the clear.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited jack olantern interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "bastion-cassandra-nova-20261120-b2",
+      "attackerId": "bastion",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2",
+        "cassandra-aug25-kit-20261120b2"
+      ],
+      "score": 2,
+      "why": "Multiple players in the Valiant EQ thread report Bastion solos against Cassandra Nova, naming him alongside other Tech attackers as an effective answer.",
+      "strategy": "Use Bastion’s normal offense while restricting Cassandra to a predictable Special 1 bait. Respect her Heavy-charge window and check whether the active node changes when she gains attack or power effects.",
+      "risks": "The source documents success in the Valiant EQ, not guaranteed Battlegrounds speed or immunity to every Neuroshock and non-contact interaction.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited bastion interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "warlock-cassandra-nova-20261120-b2",
+      "attackerId": "warlock",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2",
+        "cassandra-aug25-kit-20261120b2"
+      ],
+      "score": 2,
+      "why": "More than one player lists Warlock as successful against Valiant EQ Cassandra Nova, making him a documented Tech alternative where his offensive tempo suits the encounter.",
+      "strategy": "Stay aware of Infection and other power effects without assuming they alone disable Cassandra. Control the fight by baiting Special 1, dexing it safely and avoiding attacks during the defender’s Heavy-charge threat.",
+      "risks": "The named forum reports do not establish a general Neuroshock immunity or a universal counter on every node. Warlock’s offensive rhythm can vary by version and power rules.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited warlock interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "prowler-cassandra-nova-20261120-b2",
+      "attackerId": "prowler",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "Players specifically describe Prowler as a workable Valiant EQ Cassandra Nova attacker, including a report that his Falter interactions made intercept management easier.",
+      "strategy": "Watch for Prowler’s actual Falter and opening windows instead of rushing Cassandra’s Heavy. Use controlled intercepts only when her active mechanics make them safe, then return to special baiting at a comfortable distance.",
+      "risks": "The original report is mode-specific. Falter can be bypassed or behave differently under nodes, and the cited account is not a measured or reproduced solo test.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited prowler interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "ant-man-future-cassandra-nova-20261120-b2",
+      "attackerId": "ant-man-future",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "Several reports name Future Ant-Man as an effective Cassandra Nova Valiant EQ answer; one player describes his damage as especially strong while the node made the defender more aggressive.",
+      "strategy": "Let Cassandra approach during predictable attack windows and use Future Ant-Man’s regular Tech damage rotation. Do not dash forward while she charges Heavy; bait Special 1 and use its recovery time for offense.",
+      "risks": "The cited damage performance depends on the Valiant EQ encounter and its aggressiveness node. It should not be presented as a guaranteed fast Battlegrounds matchup.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited ant man future interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "ironheart-cassandra-nova-20261120-b2",
+      "attackerId": "ironheart",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "Ironheart appears in several independent player reports of Cassandra Nova Valiant EQ clears, including a post listing her among the attackers that soloed the defender.",
+      "strategy": "Build Ironheart’s offensive setup only after confirming a safe special bait. Keep Cassandra around Special 1 when practical, avoid her charging Heavy, and preserve enough distance to evade before returning to your rotation.",
+      "risks": "Specific Incinerate or debuff interactions should be checked on the defender. A positive EQ report does not prove that every debuff will stick or that Ironheart bypasses all of Cassandra’s protection.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited ironheart interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "shuri-cassandra-nova-20261120-b2",
+      "attackerId": "shuri",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "Players call Shuri one of the easiest Cassandra Nova Valiant EQ picks; a report highlights awakened Shuri’s ability to block otherwise Unblockable specials when her Shock setup is active.",
+      "strategy": "Check Shuri’s awakening and the correct Shock state before depending on special-blocking. Build her charges through safe spacing, keep Cassandra near Special 1, and punish recovery rather than attacking into a charged Heavy.",
+      "risks": "The special-block tactic specifically relies on Shuri’s awakened ability and state conditions. An unawakened copy or a shock-immune node must not be assumed to behave the same.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited shuri interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "guardian-cassandra-nova-20261120-b2",
+      "attackerId": "guardian",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "The Valiant EQ thread includes a player who explicitly soloed Cassandra Nova with Guardian, while other commenters independently described the fight as easy with him.",
+      "strategy": "Use a stable Guardian damage cycle and prioritize spacing around Cassandra’s Heavy and Special 1. Get the evade timing consistent before committing power to a damaging special of your own.",
+      "risks": "A solo on one EQ encounter does not prove a guaranteed counter for future Battlegrounds metas. Guardian is not automatically immune to all Neuroshock or node effects.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited guardian interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "red-skull-cassandra-nova-20261120-b2",
+      "attackerId": "red-skull",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 2,
+      "why": "Multiple players identify Red Skull as a strong Cassandra Nova EQ choice. One player reports using his block-based power management to keep her at Special 1.",
+      "strategy": "Keep Cassandra’s Power in a manageable window using Red Skull’s applicable control and block interactions. Bait Special 1, evade fully, and re-enter offense only when the defender’s Heavy and non-contact attacks cannot punish.",
+      "risks": "Power control can be overridden by encounter nodes and is not a substitute for learning the special evade. The available reports concern the 2025 Valiant EQ.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited red skull interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "sentinel-cassandra-nova-20261120-b2",
+      "attackerId": "sentinel",
+      "defenderId": "cassandra-nova",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "cassandra-valiant-eq-20261120b2"
+      ],
+      "score": 1,
+      "why": "A Valiant EQ player lists Sentinel as one of the attackers used against Cassandra Nova alongside Bastion and Prowler, providing a modest direct encounter lead.",
+      "strategy": "Play a conservative Tech fight: confirm Sentinel’s actual analysis and defensive state, bait Cassandra’s first special, and maintain a distance that avoids her Heavy-charge punish before using damaging specials.",
+      "risks": "The source names Sentinel but does not detail a clean timed solo. Treat this as a lower-confidence alternate that may be slower than the better-documented Jack or Guardian examples.",
+      "conditions": [
+        "Use this as a cassandra nova-specific plan only after confirming the cited sentinel interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "nick-fury-spot-20261120-b2",
+      "attackerId": "nick-fury",
+      "defenderId": "spot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spot-spiderbots-20261120b2",
+        "spot-balance-20261120b2"
+      ],
+      "score": 2,
+      "why": "Several players recommend Nick Fury specifically for the Spider-Bots Side Quest Spot encounter, with one explaining that Disorient can suppress part of Spot’s defensive behavior.",
+      "strategy": "Use Nick Fury’s available Disorient or other ability-accuracy effects only when they are actually active, then attack through safe openings. Track Spot’s Untouchable timer and do not force normal hits while his Miss mechanic is threatening.",
+      "risks": "A second-life Nick Fury may survive the encounter but has limited remaining health, as the original poster noted. Disorient does not guarantee every Spot ability is suppressed on all nodes.",
+      "conditions": [
+        "Use this as a spot-specific plan only after confirming the cited nick fury interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "scorpion-spot-20261120-b2",
+      "attackerId": "scorpion",
+      "defenderId": "spot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spot-spiderbots-20261120b2",
+        "spot-balance-20261120b2"
+      ],
+      "score": 2,
+      "why": "A Side Quest player explicitly uses Scorpion against Spot and describes his ability to handle much of the incoming pressure, making him a named questing option.",
+      "strategy": "Use Scorpion’s selected sting setup while watching Spot’s Portal Block and Untouchable charges. Delay long combos until the defender’s Miss window is safe, then bait specials rather than standing inside its active timer.",
+      "risks": "The thread does not establish blanket immunity to all Spot damage types. Sting selection, class modifiers and any node that changes Miss behavior can alter the matchup.",
+      "conditions": [
+        "Use this as a spot-specific plan only after confirming the cited scorpion interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "venom-spot-20261120-b2",
+      "attackerId": "venom",
+      "defenderId": "spot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spot-spiderbots-20261120b2",
+        "spot-balance-20261120b2"
+      ],
+      "score": 2,
+      "why": "One player reports using Venom against Spot in Spider-Bots Side Quest because Venom can gain Vigilance and use it to avoid attacks missing.",
+      "strategy": "Check whether Venom’s Vigilance is active before striking Spot through an Untouchable interval. If Vigilance is unavailable, disengage, wait out the dangerous window, and bait the defender’s special with enough spacing.",
+      "risks": "A random or temporary Vigilance window is not permanent Miss immunity. Seasonal node changes can prevent or shorten buffs, and this is a side-quest report rather than a universal defender counter.",
+      "conditions": [
+        "Use this as a spot-specific plan only after confirming the cited venom interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "bullseye-spot-20261120-b2",
+      "attackerId": "bullseye",
+      "defenderId": "spot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spot-crucible-20261120b2",
+        "spot-balance-20261120b2"
+      ],
+      "score": 1,
+      "why": "An Act 8 Crucible player’s counter list names Bullseye as an attacker for the Spot encounter; this is a route-specific candidate rather than a complete damage demonstration.",
+      "strategy": "Monitor Spot’s Untouchable and Portal Block before committing to Bullseye’s attacks. Use only the defender-relevant accuracy interaction that the current Bullseye kit actually provides, and reset your spacing after Spot’s specials.",
+      "risks": "The cited list does not include a detailed solo or show whether any Crucible node changed the interaction. Do not treat a named route recommendation as complete proof of Miss bypass.",
+      "conditions": [
+        "Use this as a spot-specific plan only after confirming the cited bullseye interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "bullseye-invisible-woman-20261120-b2",
+      "attackerId": "bullseye",
+      "defenderId": "invisible-woman",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "invisible-woman-forum-20261120b2"
+      ],
+      "score": 1,
+      "why": "In a discussion distinguishing Invisible Woman’s Miss from her Force Field, another player points to Bullseye as an attacker whose hits can avoid missing; that solves only one part of her defense.",
+      "strategy": "Check that Bullseye’s attack accuracy or anti-Miss interaction applies to the specific Invisible Woman effect, and plan separately for reducing the Force Field. Avoid driving into long specials while the shield is still active.",
+      "risks": "Even if hits avoid Miss, the Force Field can still reduce output. The forum discussion disputes several generic counters, so this matchup is intentionally not labeled a verified hard counter.",
+      "conditions": [
+        "Use this as a invisible woman-specific plan only after confirming the cited bullseye interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "silver-sable-invisible-woman-20261120-b2",
+      "attackerId": "silver-sable",
+      "defenderId": "invisible-woman",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "invisible-woman-forum-20261120b2"
+      ],
+      "score": 1,
+      "why": "A player identifies Silver Sable as a particularly relevant Invisible Woman counter in a discussion centered on bypassing Miss and dealing with Force Field pressure.",
+      "strategy": "Review Sable’s current specific Miss-bypass and offensive effects in the champion kit before entering. Use openings that let those effects activate, while continuing to track the Force Field instead of assuming the shield disappears.",
+      "risks": "This is a named community recommendation, not a documented time-to-kill result. Force Field, node restrictions and exact Miss conditions can still change the outcome.",
+      "conditions": [
+        "Use this as a invisible woman-specific plan only after confirming the cited silver sable interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "nick-fury-jessica-jones-20261120-b2",
+      "attackerId": "nick-fury",
+      "defenderId": "jessica-jones",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "jessica-counter-forum-20261120b2",
+        "jessica-balance-20261120b2"
+      ],
+      "score": 1,
+      "why": "A Battlegrounds counter discussion names Nick Fury for Jessica Jones; separate Kabam balancing notes stress how Cleanse interactions and nodes can increase her defensive threat.",
+      "strategy": "Plan around Jessica’s defensive triggers and preserve Fury’s Bleed and second-life utility for the part of the fight where they help. Avoid blindly throwing specials while the active node makes them risky.",
+      "risks": "The name appears in a community shortlist rather than a verified current-season solo. Cleanse, debuff immunity or anti-Bleed nodes can undermine Fury’s expected offensive pattern.",
+      "conditions": [
+        "Use this as a jessica jones-specific plan only after confirming the cited nick fury interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "silk-jessica-jones-20261120-b2",
+      "attackerId": "silk",
+      "defenderId": "jessica-jones",
+      "modeIds": [
+        "battlegrounds",
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "jessica-counter-forum-20261120b2",
+        "jessica-balance-20261120b2"
+      ],
+      "score": 1,
+      "why": "A Battlegrounds player specifically lists Silk as their usual Jessica Jones answer, providing a credible roster-selection starting point rather than proof of a universal shutdown.",
+      "strategy": "Use Silk’s normal evade-safe and burst offense only after checking Jessica’s current Cleanse and special-attack rules. Prioritize safe openings over cycling specials into an unknown defensive response.",
+      "risks": "No individual Silk-versus-Jessica fight log was provided. Node-dependent Cleanse, special retaliation, or immunity effects can make a familiar Silk rotation unsafe.",
+      "conditions": [
+        "Use this as a jessica jones-specific plan only after confirming the cited silk interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
+    },
+    {
+      "id": "jabari-panther-spider-ham-20261120-b2",
+      "attackerId": "jabari-panther",
+      "defenderId": "spider-ham",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spider-ham-forum-20261120b2",
+        "spider-ham-crucible-20261120b2"
+      ],
+      "score": 2,
+      "why": "A detailed player counter explanation identifies Jabari Panther for Spider-Ham because Hunt and her Special 1 help suppress his Evade, while her kit can handle Porker Popper pressure. Another player reports using an unawakened Jabari in a Crucible fight.",
+      "strategy": "Use Hunt and Special 1 timing to keep Spider-Ham’s Evade manageable. Read Popper status before forcing dashes, and use Jabari’s debuff-cleanse only when its activation conditions are actually met.",
+      "risks": "The mechanism requires correct Hunt and cleanse timing. A named successful Crucible route is not a guaranteed fast Battlegrounds score and node rules may change how Poppers apply.",
+      "conditions": [
+        "Use this as a spider ham-specific plan only after confirming the cited jabari panther interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named firsthand player matchup or encounter report, with explicit fight-plan limitations; untested by Summoner Index."
+    },
+    {
+      "id": "nick-fury-spider-ham-20261120-b2",
+      "attackerId": "nick-fury",
+      "defenderId": "spider-ham",
+      "modeIds": [
+        "questing",
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "spider-ham-nick-20261120b2"
+      ],
+      "score": 1,
+      "why": "A community list names Nick Fury for Spider-Ham as a Bleed-heavy Skill choice, with other players reporting Fury use on a Spider-Ham quest lane.",
+      "strategy": "Apply reliable Bleeds where Spider-Ham is susceptible, reduce unnecessary dash-back inputs that can trigger the defender’s pressure, and avoid throwing Special attacks without checking Porker Poppers.",
+      "risks": "The original accounts include a slower Fury clear, so the recommendation should not promise speed. Purify, Bleed immunity, nodes or poor Popper management can turn the fight unfavorably.",
+      "conditions": [
+        "Use this as a spider ham-specific plan only after confirming the cited nick fury interaction in the live encounter.",
+        "Check defender awakening, exact mode and node modifications, active effect icons, and the present champion version. These are community-sourced leads, not independently gameplay-tested results.",
+        "Avoid extrapolating a single event or Raid experience to unrelated Battlegrounds or Alliance War nodes."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-20",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Mechanics-based named community suggestion with incomplete direct-fight validation; conditional and untested."
     },
     {
       "id": "venom-maestro",
