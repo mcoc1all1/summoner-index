@@ -7693,6 +7693,34 @@
       "checkedAt": "2026-11-21"
     },
     {
+      "id": "crucible-firsthand-20261121-b6",
+      "title": "Act 8 Legendary Crucible: player account with fight-by-fight picks and outcomes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/401406/burn-the-battlerealm-my-4-revive-act-8-legendary-crucible-run",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "crucible-video-description-20261121-b6",
+      "title": "Act 8 Legendary Crucible recorded run: creator's timestamped attacker and outcome descriptions",
+      "url": "https://www.youtube.com/watch?v=URivsVYccPs",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "crucible-discussion-20261121-b6",
+      "title": "Act 8 Crucible planning discussion, chapter-specific recommended options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/400109/act-8-crucible-counters-list",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "medusa-voxab-20261121-b6",
+      "title": "Player discussion of Auto-Block, including Vox versus Medusa",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399145/auto-block-counters",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -76184,6 +76212,1058 @@
         "gameplayTested": false
       },
       "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "luke-cage-the-hood-20261121-b6",
+      "attackerId": "luke-cage",
+      "defenderId": "the-hood",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "Luke Cage's Bleed immunity is useful for the movement-triggered damage in this encounter. The player reports successfully using an unawakened Luke in the Legendary Crucible.",
+      "strategy": "Retreat when needed without accumulating Bleed from the Caltrops node. Keep Hood near his first special and reserve your next entry for when his invisibility is absent or safe to play around.",
+      "risks": "Bleed immunity addresses Caltrops rather than Hood's entire kit. Hex damage, power changes and Miss still affect Luke, particularly if the fight differs from the cited quest.",
+      "conditions": [
+        "Check Caltrops and avoid attacking into Hood's active invisibility.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "prowler-stryfe-20261121-b6",
+      "attackerId": "prowler",
+      "defenderId": "stryfe",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A Legendary Crucible player reports a clear using Prowler's Incinerate setup to manage a Stryfe fight with restrictions on Rupture damage.",
+      "strategy": "Secure the opening heavy and confirm Incinerate is applied before investing in the next damage cycle. Monitor both the encounter's Rupture threat and Stryfe's invisibility.",
+      "risks": "The reported attacker was highly ranked and awakened. Incinerate restrictions or the absence of the Crucible node can alter this rotation, and Rupture alone is not suitable here.",
+      "conditions": [
+        "Confirm that the fight uses the cited chapter's Incinerate interaction.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "sunspot-stryfe-20261121-b6",
+      "attackerId": "sunspot",
+      "defenderId": "stryfe",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-video-description-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The creator's timestamped Legendary Crucible run description reports that an unawakened rank-one seven-star Sunspot defeated this Stryfe without a revive.",
+      "strategy": "Use controlled basic attacks and specials to establish Sunspot's Incinerates. If Stryfe enters a defensive state or the debuffs fail, back away and re-establish the setup before committing damage.",
+      "risks": "The description gives an outcome, not a complete independently verified rotation. Incinerate immunity, altered nodes or missed attacks can cause this damage plan to fail.",
+      "conditions": [
+        "Check Incinerate application and Stryfe's current defensive effects.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "knull-war-machine-20261121-b6",
+      "attackerId": "knull",
+      "defenderId": "war-machine",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported Legendary Crucible clear uses Knull to remove War Machine's armor buildup, reducing the armor-related punishment in the encounter.",
+      "strategy": "Prioritize safe heavy opportunities and establish Living Abyss before approaching corruption. Once the defender's armor count is controlled, spend your damage window while continuing to manage his specials.",
+      "risks": "Reverberation and other node-based damage may remain if armor control fails. This is a report from a particular War Machine quest placement, not a universal bypass.",
+      "conditions": [
+        "Check armor status and any reflection node before attacking.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "abomination-immortal-war-machine-20261121-b6",
+      "attackerId": "abomination-immortal",
+      "defenderId": "war-machine",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-video-description-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The recorded-run description names Immortal Abomination as a successful solo pick for this War Machine encounter in the Legendary Crucible.",
+      "strategy": "Use the normal poison and Acid Burn approach when the defender allows those effects. Watch the armor-related damage trigger, and pause between attacks if the fight is returning damage.",
+      "risks": "The creator describes a successful result but does not establish a general armor-control mechanism. Do not assume poison immunity or Acid Burn prevents reflection.",
+      "conditions": [
+        "Check poison susceptibility and the encounter's armor-related punishment.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "odin-black-panther-civil-war-20261121-b6",
+      "attackerId": "odin",
+      "defenderId": "black-panther-civil-war",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A player reports completing this Crucible Black Panther fight using Odin's buffs and special-based access to an accuracy effect to help manage defensive blocking.",
+      "strategy": "Build to Odin's first special while avoiding unnecessary contact with the defender's block. Use the active accuracy window to attack, and avoid Parry when the reflection effect is active.",
+      "risks": "This was reported as a close clear, not an effortless solution. Reflective effects, Cleanse and the specific armor-related node can all disrupt ordinary combinations.",
+      "conditions": [
+        "Verify the relevant accuracy buff and reflective matrix before entering.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "professor-x-she-hulk-20261121-b6",
+      "attackerId": "professor-x",
+      "defenderId": "she-hulk",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The cited Legendary Crucible account describes Professor X as a successful alternative in a She-Hulk encounter where repeated Unstoppable effects make normal entries difficult.",
+      "strategy": "Use safe Falter-assisted entry opportunities to establish charges. Plan specials around the node's interception requirements and be prepared to disengage when She-Hulk becomes Unstoppable.",
+      "risks": "Falter is not immunity to Unstoppable. The defender's awakened abilities or node rules can interfere with unblockable attacks and interrupt Professor X's special cycle.",
+      "conditions": [
+        "Read the current interception and Unstoppable conditions.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "hulk-diablo-20261121-b6",
+      "attackerId": "hulk",
+      "defenderId": "diablo",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A Legendary Crucible player reports a solo with Hulk, using his Poison immunity and burst damage to manage the Diablo encounter's hazards.",
+      "strategy": "Avoid attacking into the opening Unblockable period. After a special, look for a safe heavy punish to address the encounter's temporary Unstoppable before returning to Hulk's normal damage cycle.",
+      "risks": "Poison immunity does not prevent Diablo's healing or every defensive effect. This reported fight used a particular set of nodes that may not recur elsewhere.",
+      "conditions": [
+        "Confirm the post-special knockdown interaction in the cited fight.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "doctor-doom-diablo-20261121-b6",
+      "attackerId": "doctor-doom",
+      "defenderId": "diablo",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-video-description-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The timestamped description of a recorded Legendary Crucible run reports a no-revive clear against Diablo using an ascended six-star Doctor Doom.",
+      "strategy": "Use Doom's power management to create room for safe special cycles. Respect the opening unblockable state and wait for a heavy punish when the encounter calls for removing protection.",
+      "risks": "The source describes the outcome without providing a verified rotation. Diablo's healing, poison and any altered Unstoppable conditions still require attention.",
+      "conditions": [
+        "Confirm immunity and current node restrictions before using Doom.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "angela-psycho-man-20261121-b6",
+      "attackerId": "angela",
+      "defenderId": "psycho-man",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "An awakened Angela was used successfully in the reported Crucible Psycho-Man matchup; her buff-dependent defensive ability-accuracy interaction is the relevant Auto-Block option.",
+      "strategy": "Maintain sufficient buffs to support the signature-based interaction and avoid reckless attacks into the defender's block. Check the current Control Box state before choosing how to enter.",
+      "risks": "The cited Angela was signature 80, not a proof that every lower signature level will work. Buff removal or increased defensive ability accuracy can change the result.",
+      "conditions": [
+        "Awakening and adequate active buffs are important; inspect the signature scaling.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "shathra-corvus-glaive-20261121-b6",
+      "attackerId": "shathra",
+      "defenderId": "corvus-glaive",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported solo against the Crucible Corvus encounter highlights Shathra's Atrophy as a useful response to the buffs generated by Footloose.",
+      "strategy": "Set up the first special's buff-duration control before committing to prolonged pressure. Build her wasp resources in safe openings, then use a damage special when the defender is vulnerable.",
+      "risks": "Atrophy is not unconditional immunity to Evade or Unstoppable. The published result is specific to a Footloose encounter and depends on effects being applied.",
+      "conditions": [
+        "Confirm the Footloose node and active Atrophy duration.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "absorbing-man-proxima-midnight-20261121-b6",
+      "attackerId": "absorbing-man",
+      "defenderId": "proxima-midnight",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The player describes using Absorbing Man's Magma pre-fight in the Legendary Crucible Proxima encounter to avoid the relevant Coldsnap hazard.",
+      "strategy": "Choose Magma before entering and plan the fight around its active duration. Respect the ebb-and-flow protection window, using safe transitions and knockdowns to establish damage.",
+      "risks": "Magma availability and maintenance are essential to this approach. Other Proxima variants may have different nodes, and her defensive effects are not all disabled.",
+      "conditions": [
+        "Select Magma and read the current protection-removal condition.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "spider-ham-wasp-20261121-b6",
+      "attackerId": "spider-ham",
+      "defenderId": "wasp",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6",
+        "crucible-discussion-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The first-hand Crucible account describes a debuff-heavy approach with Spider-Ham, matching a separate chapter-specific discussion that also suggests him for this Wasp encounter.",
+      "strategy": "Build the relevant node charges with controlled debuff applications, then bait a defender special. Only continue sustained basic attacks when the node's Coldsnap effect is actually suppressing Evade.",
+      "risks": "The Coldsnap interaction belongs to this quest encounter, not Spider-Ham's universal kit. If the node does not trigger, Wasp can still evade and punish contact.",
+      "conditions": [
+        "Verify the required charge threshold and Coldsnap status.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "bishop-daredevil-hells-kitchen-20261121-b6",
+      "attackerId": "bishop",
+      "defenderId": "daredevil-hells-kitchen",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The first-hand report describes a Bishop clear against Daredevil in the Legendary Crucible, using his Prowess to address the particular node's Unstoppable condition.",
+      "strategy": "Build Prowess without overextending and watch the node's battery state. Attack only while the encounter allows a safe opening, saving the damage special for that window.",
+      "risks": "This does not show that Bishop universally disables Daredevil's Unstoppable or purification. Different nodes and energy interactions can change the matchup.",
+      "conditions": [
+        "Confirm the Prowess and battery requirements of the encounter.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "serpent-vision-20261121-b6",
+      "attackerId": "serpent",
+      "defenderId": "vision",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A Legendary Crucible player reports a solo against original Vision with Serpent, citing the accuracy interaction after his special and the opponent's armor-related damage opportunity.",
+      "strategy": "Use a safe first special to activate the relevant accuracy utility, then prepare damage specials while tracking Vision's power gain. Vary your approach if the encounter's Miss rule is still active.",
+      "risks": "Vision's Synthesis can create sudden power pressure. This interaction is scoped to the cited Tunnel Vision encounter and assumes Serpent's relevant effect is active.",
+      "conditions": [
+        "Check Tunnel Vision, current accuracy utility and Vision's power.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "hyperion-scarlet-witch-sigil-20261121-b6",
+      "attackerId": "hyperion",
+      "defenderId": "scarlet-witch-sigil",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A player reports that Hyperion's offensive buffs combined effectively with the Cosmic-specific interaction in the Legendary Crucible Sigil Witch fight.",
+      "strategy": "Watch the opening created by the defender's special and build Furies with safe heavies. Use Hyperion's second special when the node's temporary buff protection is present.",
+      "risks": "This approach relies on the quest's Cosmic-specific buff interaction. Hyperion is not generally immune to Nullify, and Scarlet Witch's power can still become dangerous.",
+      "conditions": [
+        "Verify that the encounter grants the reported temporary protection.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "hercules-black-panther-20261121-b6",
+      "attackerId": "hercules",
+      "defenderId": "black-panther",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported Legendary Crucible clear uses Hercules for original Black Panther, taking advantage of the encounter's intercept and debuff-transfer opportunities.",
+      "strategy": "Favor clean intercepts and use the first special when the encounter permits the relevant transfer. Keep space when the Fight or Flight effect is active instead of forcing a risky approach.",
+      "risks": "The reported attacker was awakened and highly invested. Do not assume immortality is available or that every Black Panther placement uses the same transfer effect.",
+      "conditions": [
+        "Read the current Fight or Flight and transfer rules.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "sunspot-elektra-20261121-b6",
+      "attackerId": "sunspot",
+      "defenderId": "elektra",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A player reports using Sunspot to handle the Legendary Crucible Elektra encounter's Incinerate-themed mechanics.",
+      "strategy": "Establish Incinerates and damage during safe openings, but give Elektra room before she accumulates additional Fury effects. Prefer special punish openings when a debuff can interfere with Parry.",
+      "risks": "Elektra may reduce defensive ability accuracy while debuffs are present. Node-specific Fury buildup can increase incoming damage even when Sunspot is managing the primary hazard.",
+      "conditions": [
+        "Track the Fury count and do not rely on every Parry succeeding.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "jack-olantern-deadpool-x-force-20261121-b6",
+      "attackerId": "jack-olantern",
+      "defenderId": "deadpool-x-force",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6",
+        "crucible-video-description-20261121-b6"
+      ],
+      "score": 2,
+      "why": "Two independent run descriptions identify Jack O'Lantern as a successful pick in the Legendary Crucible Deadpool X-Force fight, including a reported unawakened clear.",
+      "strategy": "Use his reversed-control protection to maintain deliberate movement and apply damage consistently. Evaluate whether the current debuffs and masteries reduce healing before using a longer rotation.",
+      "risks": "Reversed-control protection is not direct proof of permanent Heal Block. The first report explicitly depended in part on its mastery setup, and altered healing nodes may require another answer.",
+      "conditions": [
+        "Check healing and reversed-control effects rather than assuming the fight is solved.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "cheeilth-joe-fixit-20261121-b6",
+      "attackerId": "cheeilth",
+      "defenderId": "joe-fixit",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported solo with Chee'ilth against Legendary Crucible Joe Fixit uses her debuff management to retain openings when the defender applies Weakness.",
+      "strategy": "Watch the defender's charge-related purification and obtain safe knockdowns to manage the encounter's protection. Use Chee'ilth's damage window after the defensive condition clears.",
+      "risks": "The cited run used an awakened attacker. Cleanse availability is conditional and does not remove every effect; the protection node still needs its own response.",
+      "conditions": [
+        "Confirm current Cleanse charges and knockdown requirement.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "gladiator-ronan-20261121-b6",
+      "attackerId": "gladiator",
+      "defenderId": "ronan",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The cited player describes Gladiator handling the Crucible Ronan encounter after activating his Confidence-dependent answer to Auto-Block.",
+      "strategy": "Build Confidence through safe engagements, verify the required effect, and use heavy openings when the node calls for them. Be prepared to disengage when Ronan's power becomes threatening.",
+      "risks": "Ronan's attacks may become more dangerous with many attacker buffs. Confidence-dependent protection is not guaranteed before activation, and the node may punish Parry.",
+      "conditions": [
+        "Check Confidence and the current buff-related threat before committing.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "dust-masacre-20261121-b6",
+      "attackerId": "dust",
+      "defenderId": "masacre",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A Legendary Crucible run reports Dust successfully handling Masacre on a Biohazard encounter, where her relevant immunities help manage contact-related damage.",
+      "strategy": "Check the Biohazard effects before beginning, then use controlled attack windows to build Dust's normal damage. Avoid relying on blocks to absorb Masacre's strongest attacks.",
+      "risks": "Masacre can deal heavy damage through block, and the node may clear or interfere with some damaging effects. The hazard immunity does not make the whole fight risk-free.",
+      "conditions": [
+        "Confirm Biohazard and avoid unnecessary blocking.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "mole-man-quick-silver-20261121-b6",
+      "attackerId": "mole-man",
+      "defenderId": "quick-silver",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The first-hand Crucible report uses Mole Man against Quicksilver and describes intercepting to capitalize on the encounter's damage interactions.",
+      "strategy": "Retain the defensive utility needed to deal with Evade, and time interceptions for the node's bonus damage. Disengage if the node disables the protection you expected from Mole Man.",
+      "risks": "Mole Man's Evade control depends on his current state; his Unstoppable can also be affected by this encounter. Do not assume every attack bypasses Quicksilver's defenses.",
+      "conditions": [
+        "Check Frenzy and the relevant Electric Fluctuations interaction.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "ironheart-howard-the-duck-20261121-b6",
+      "attackerId": "ironheart",
+      "defenderId": "howard-the-duck",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A player reports completing the Legendary Crucible Howard fight with Ironheart, using Incinerate and sufficient debuff application to address Evade and Miss in that encounter.",
+      "strategy": "Use safe attacks to establish Incinerate and the required debuff count, then verify both effects before launching a longer combo. Keep Howard near his first special where practical.",
+      "risks": "Her anti-Miss utility has conditions, and the source's reported threshold may not apply to every Howard fight. The encounter's Unblockable effect still requires spacing.",
+      "conditions": [
+        "Confirm active Incinerate, applicable debuff threshold and Unblockable status.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "vox-medusa-20261121-b6",
+      "attackerId": "vox",
+      "defenderId": "medusa",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "medusa-voxab-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A player specifically recommends Vox for Medusa because his Undermine can address Auto-Block and his third special has additional buff-control utility against Inhumans.",
+      "strategy": "Build to the first special for the relevant blocking interaction, then consider the third special to apply the Inhuman-specific Neutralize. Track Medusa's Furies while either effect is unavailable.",
+      "risks": "This is qualitative community advice, not a measured current-season result. The plan needs sufficient power, and Neutralize does not automatically remove already active buffs.",
+      "conditions": [
+        "Confirm Medusa's Inhuman tag and both effect activation requirements.",
+        "Confirm present game version, defender awakening and any additional encounter restrictions.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "nick-fury-anti-venom-20261121-b6",
+      "attackerId": "nick-fury",
+      "defenderId": "anti-venom",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A Legendary Crucible player reports a no-death clear with Nick Fury in the Anti-Venom encounter and identifies damage-over-time as the relevant approach.",
+      "strategy": "Use clean contact openings to apply Bleed and build damage while tracking Anti-Venom's defensive debuff effects. Keep his power at a level you can reliably bait.",
+      "risks": "The cited rank and signature describe one player's setup, not a minimum requirement. Bleed immunity, altered node conditions or unavailable damage effects can change the result.",
+      "conditions": [
+        "Verify the fight's damage-over-time interaction before choosing Fury.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "werewolf-by-night-venompool-20261121-b6",
+      "attackerId": "werewolf-by-night",
+      "defenderId": "venompool",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported Legendary Crucible clear with Werewolf by Night uses steady pressure while managing Venompool's encounter-specific stun restriction.",
+      "strategy": "Use spacing and interceptions rather than blocking every incoming dash, and establish Werewolf's normal damage cycle once the node permits it. Bait specials from a safe distance.",
+      "risks": "The reported fight includes a Window of Opportunity restriction. Werewolf's normal power and damage effects do not automatically overcome changed quest rules or healing.",
+      "conditions": [
+        "Read the Window of Opportunity and dash-attack conditions.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "black-widow-claire-voyant-ikaris-20261121-b6",
+      "attackerId": "black-widow-claire-voyant",
+      "defenderId": "ikaris",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-video-description-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A timestamped Legendary Crucible run description identifies Black Widow Claire Voyant as the attacker for a reported solo against Ikaris.",
+      "strategy": "Choose a curse and special plan that addresses the current buffs and damage conditions. Watch the power detonation effects and use safe openings rather than blindly retaining a long combo.",
+      "risks": "The creator-supplied description does not establish an exact rotation or universal buff suppression. The specific encounter may reward different attacks from ordinary Ikaris fights.",
+      "conditions": [
+        "Confirm current power detonation and buff interactions.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "mister-sinister-valkyrie-20261121-b6",
+      "attackerId": "mister-sinister",
+      "defenderId": "valkyrie",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "The player reports completing the Legendary Crucible Valkyrie fight with Mister Sinister using damage-over-time during the node's allowed special windows.",
+      "strategy": "Wait for the encounter to permit the first special, then deploy it and manage the resulting Degeneration duration. Avoid spending power when the node will reject that special.",
+      "risks": "This specifically addresses the alternating special condition and Power Shield behavior. Valkyrie's normal block-based offense and other nodes are not automatically controlled.",
+      "conditions": [
+        "Verify which special is permitted and when.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "king-groot-deathless-captain-america-sam-wilson-20261121-b6",
+      "attackerId": "king-groot-deathless",
+      "defenderId": "captain-america-sam-wilson",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-firsthand-20261121-b6"
+      ],
+      "score": 2,
+      "why": "A reported Legendary Crucible clear with Deathless King Groot describes using the first special to address the Coldsnap hazard and ramping buffs against Sam Wilson.",
+      "strategy": "Set up the first special early where safe, then build Furies while checking the defender's Auto-Block state. Stop after a blocked entry rather than assuming the required buff count guarantees bypass.",
+      "risks": "The player explicitly reports unexpected Auto-Block despite many Furies. This is a conditional completed-fight lead, not a reliable bypass claim or independently proven bug.",
+      "conditions": [
+        "Read the Coldsnap and Auto-Block conditions and prepare fallback openings.",
+        "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
+        "No independent current-build gameplay test is claimed; inspect actual icons and node effects before spending resources."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
     },
     {
       "id": "venom-maestro",
