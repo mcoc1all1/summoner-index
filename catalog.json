@@ -7609,6 +7609,90 @@
       "checkedAt": "2026-11-20"
     },
     {
+      "id": "tigra-bg-report-20261121-b4",
+      "title": "Battlegrounds matchup discussion: Tigra, Torch and Scorpion",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/348218/help-with-bg-fights-may-be-of-interest-to-everyone",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "mystic-bg-report-20261121-b4",
+      "title": "Battlegrounds players describe Hulk and Titania against Chavez, Wong and Werewolf",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/350255/battleground-counters",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "werewolf-balance-20261121-b4",
+      "title": "Kabam balance review identifies ability power rate control and Rupture management against Werewolf",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/360358/morbius-and-werewolf-by-night-balance-update",
+      "kind": "official",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "zemo-bg-report-20261121-b4",
+      "title": "Battlegrounds defender discussion: Hulkling, Juggernaut and Dani Moonstar against Zemo",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376757/bg-counters-for-tough-defenders",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "weapon-x-bg-report-20261121-b4",
+      "title": "Battlegrounds defender picks including Sentinel against Weapon X",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/389577/best-counters-for-tough-defenders",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "nc-rework-20261121-b5",
+      "title": "Player-reported checks against reworked Nightcrawler",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/361854/who-are-some-good-counters-for-the-newly-buffed-nightcrawler",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "imiw-armor-20261121-b5",
+      "title": "Kabam staff clarification of passive Molecular Armor and Armor Shatter",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/505095",
+      "kind": "official",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "imiw-deflector-20261121-b5",
+      "title": "Player discussion of Iron Man Infinity War finishing tactics",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/139636/how-do-you-fight-imiw-iron-man-infinity-war-when-he-activates-deflector-protocol",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "imiw-medusa-20261121-b5",
+      "title": "Player reports on Medusa and other Iron Man Infinity War options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/67975/iw-iron-man",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "auto-block-20261121-b5",
+      "title": "Alliance War discussion of MODOK and Iron Man Infinity War Auto-Block options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/193550/auto-block",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "galan-balance-20261121-b5",
+      "title": "Kabam balance follow-up identifying Galan against Infamous Iron Man in Alliance War",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/320162/galan-and-quicksilver-balancing-follow-up",
+      "kind": "official",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "imiw-war-20261121-b5",
+      "title": "Player-reported Corvus and Proxima synergy on an older Alliance War node",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/72138/iron-man-infinity-war-tier-3-and-above-aw",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -75327,6 +75411,779 @@
         "gameplayTested": false
       },
       "scoreReason": "Limited named or theory-driven community lead; additional node or signature confirmation required."
+    },
+    {
+      "id": "human-torch-tigra-20261121-b4",
+      "attackerId": "human-torch",
+      "defenderId": "tigra",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "tigra-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A Battlegrounds player names Human Torch as a preferred attacker against Tigra. His damage and Mystic class matchup make him a practical candidate, rather than a way to ignore every defensive mechanic.",
+      "strategy": "Use short openings and build temperature through clean contact. Bait and evade her special before committing to another combination; choose the pre-fight only if available and justified by the round.",
+      "risks": "Torch is not a universal answer to Tigra's spacing or Rupture effects. The account predates the current season and does not establish a particular clear time.",
+      "conditions": [
+        "Do not assume the recent Coliseum scoring rules apply to BG.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "scorpion-tigra-20261121-b4",
+      "attackerId": "scorpion",
+      "defenderId": "tigra",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "tigra-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "Scorpion is specifically suggested alongside Torch in a player discussion about defending Tigra. His damaging effects offer an alternative when Torch is unavailable in the draft.",
+      "strategy": "Choose a valid sting type for the defender and nodes, then attack during safe punish windows. Keep space to bait specials and avoid charging into her active defensive effects.",
+      "risks": "The cited recommendation is qualitative. Scorpion's selected sting immunities do not establish Rupture immunity, and the defender's special spacing still matters.",
+      "conditions": [
+        "Confirm the selected sting is appropriate before entering.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "hulk-america-chavez-20261121-b4",
+      "attackerId": "hulk",
+      "defenderId": "america-chavez",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A Battlegrounds participant reports using Hulk among their Science options for Chavez and other Mystic defenders, with Hulk singled out as a fast option in that group.",
+      "strategy": "Work toward the normal Hulk damage cycle with controlled openings. Watch Chavez's dimension effects and power before committing to longer stun sequences or pushing her toward another special.",
+      "risks": "A fast historical Science matchup is not proof of reliable stun control under current nodes. Power gain or damage reflection may punish an overextended sequence.",
+      "conditions": [
+        "Check dimension icons and stun restrictions.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "titania-america-chavez-20261121-b4",
+      "attackerId": "titania",
+      "defenderId": "america-chavez",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "Titania is included in a player's reported Battlegrounds attacker pool against Chavez. Her buff immunity avoids reliance on personal buffs, and her burst is useful in a timed round.",
+      "strategy": "Manage Haymaker and use the protected attack window to build damage rather than racing blindly into specials. Leave room to evade and monitor Chavez's dimension-related effects.",
+      "risks": "Buff immunity is not immunity to reflected damage or every power mechanic. The report does not specify awakening, rank, or a current seasonal node.",
+      "conditions": [
+        "Check Haymaker availability and active dimension effects.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "hulk-wong-20261121-b4",
+      "attackerId": "hulk",
+      "defenderId": "wong",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A player describes using Hulk successfully within a group of Science attackers against Wong and other Mystic defenders in Battlegrounds, with Hulk highlighted for speed.",
+      "strategy": "Try to establish Hulk's damage sequence promptly while Wong is still manageable. Watch spell and charge changes, bait specials when necessary and reset if a stun is not available.",
+      "risks": "Wong can become harder to manage as his spells develop. This broad reported matchup does not show that Hulk can suppress all spells or overcome every unstunnable node.",
+      "conditions": [
+        "Check the defender's active spells before extending a combo.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "titania-wong-20261121-b4",
+      "attackerId": "titania",
+      "defenderId": "wong",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "Titania is among a reported pool of Science attackers used against defending Wong in Battlegrounds, particularly for her ability to finish Mystic fights quickly.",
+      "strategy": "Use Haymaker openings for controlled pressure and build toward damage specials. Avoid wasting the protected window while Wong holds power, and respond to spell changes before re-entering.",
+      "risks": "The source is an older group-level experience rather than a current individual fight recording. Buff immunity does not disable all of Wong's spells.",
+      "conditions": [
+        "Check seasonal power and spell interactions.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "hulk-werewolf-by-night-20261121-b4",
+      "attackerId": "hulk",
+      "defenderId": "werewolf-by-night",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4",
+        "werewolf-balance-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A Battlegrounds player includes Hulk in their reported attacker pool against Werewolf. Kabam separately identifies ability power rate and Rupture management as important defensive considerations.",
+      "strategy": "Use Hulk's burst after clean openings, with particular attention to Werewolf's power bar. Give up a damage window rather than allowing an uncontrolled special sequence or unsafe contact.",
+      "risks": "The balance review does not endorse Hulk specifically or establish Rupture immunity. Power-rate control is a general counter principle, not a claimed Hulk ability.",
+      "conditions": [
+        "Check Rupture exposure and available stun windows.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "titania-werewolf-by-night-20261121-b4",
+      "attackerId": "titania",
+      "defenderId": "werewolf-by-night",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "mystic-bg-report-20261121-b4",
+        "werewolf-balance-20261121-b4"
+      ],
+      "score": 2,
+      "why": "Titania appears in a player's Science attacker pool against Werewolf in Battlegrounds. Kabam's separate balance note identifies power-rate control and Ruptures as key defensive threats.",
+      "strategy": "Time Haymaker around safe entries, build damage and bait specials before the opponent's power becomes difficult to manage. Monitor Rupture effects before taking another contact opening.",
+      "risks": "Titania's buff immunity does not automatically solve Rupture or power-rate effects. The combined sources do not establish a current-build solo or guaranteed time.",
+      "conditions": [
+        "Observe the current Rupture and power conditions.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "hulkling-baron-zemo-20261121-b4",
+      "attackerId": "hulkling",
+      "defenderId": "baron-zemo",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "zemo-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A Battlegrounds defender user reports avoiding Zemo placements when opponents have Hulkling, describing quick defeats. This supports a conditional burst-damage option rather than a hard-counter guarantee.",
+      "strategy": "Build Hulkling's normal offensive state through controlled openings, then use his damage special when the defender's power is manageable. Do not rely on striking through every defensive effect.",
+      "risks": "The report comes from the defender's experience and does not specify exactly which nodes were active. Zemo's Cleanse and Root still require attention.",
+      "conditions": [
+        "Check Cleanse and Root behavior in the current version.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "juggernaut-baron-zemo-20261121-b4",
+      "attackerId": "juggernaut",
+      "defenderId": "baron-zemo",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "zemo-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "Juggernaut is specifically named by a Battlegrounds player as an attacker they avoid placing Baron Zemo against, suggesting he can be effective in time-limited fights.",
+      "strategy": "Keep Juggernaut's momentum and Gem state in mind, using safe interceptions and controlled specials rather than assuming Unstoppable makes every exchange safe.",
+      "risks": "Root or effects that disrupt the Gem may interrupt the normal Juggernaut cycle. The cited defender account is not a current independent gameplay test.",
+      "conditions": [
+        "Avoid committing while Root is imminent.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "dani-moonstar-baron-zemo-20261121-b4",
+      "attackerId": "dani-moonstar",
+      "defenderId": "baron-zemo",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "zemo-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A separate participant in the same Battlegrounds discussion specifically recommends Dani Moonstar against Zemo. This supports trying her as an alternative to the reported burst attackers.",
+      "strategy": "Use Dani's normal damage build-up while tracking the defender's Cleanse effects. Plan specials around safe power thresholds and avoid treating every debuff as guaranteed to stick.",
+      "risks": "The comment does not document the exact mechanism, rank, sig level, fight time or node. Treat it as a matchup lead and do not assume universal Cleanse suppression.",
+      "conditions": [
+        "Confirm debuff and Cleanse interactions in the actual fight.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "sentinel-wolverine-weapon-x-20261121-b4",
+      "attackerId": "sentinel",
+      "defenderId": "wolverine-weapon-x",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "weapon-x-bg-report-20261121-b4"
+      ],
+      "score": 2,
+      "why": "A player listing their go-to Battlegrounds picks explicitly names Sentinel against Weapon X. Sentinel's durability and robot kit make this a useful matchup to investigate.",
+      "strategy": "Use safe openings to develop Analysis, monitor Weapon X's Rage and regeneration, and apply the appropriate special utility only when the defender's current state permits it.",
+      "risks": "Rage, Unstoppable and regeneration can still disrupt the fight. The report gives no rank or node details and does not prove that every heal can be prevented.",
+      "conditions": [
+        "Check Rage thresholds and actual healing control before committing.",
+        "Compare the current defender variant, awakening and seasonal nodes with the cited historical report.",
+        "No independently recorded clear, rank, signature or game version is asserted."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional reported Battlegrounds matchup; no independent gameplay validation."
+    },
+    {
+      "id": "iceman-nightcrawler-20261121-b5",
+      "attackerId": "iceman",
+      "defenderId": "nightcrawler",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nc-rework-20261121-b5"
+      ],
+      "score": 2,
+      "why": "A player reporting checks after Nightcrawler's rework identifies Iceman's Coldsnap as a way to stop Evade without relying on reduced defensive ability accuracy.",
+      "strategy": "Enter attacks while Coldsnap is active. If it falls off, stop extending normal combos and use a safe opening to reapply it, watching Nightcrawler's special power.",
+      "risks": "This is a historical player report, not a documented current-version test. Coldsnap immunity, debuff duration restrictions or changed nodes could undermine the plan.",
+      "conditions": [
+        "Check the Coldsnap icon before launching a full combo.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "kate-bishop-nightcrawler-20261121-b5",
+      "attackerId": "kate-bishop",
+      "defenderId": "nightcrawler",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nc-rework-20261121-b5"
+      ],
+      "score": 2,
+      "why": "The same post-rework player check specifically includes Kate Bishop as a Coldsnap attacker, distinguishing that effect from ordinary ability-accuracy reduction.",
+      "strategy": "Select the appropriate arrow, establish Coldsnap through a reliable opening, and maintain it with well-timed specials. If the effect expires, wait for a safe chance to restore it.",
+      "risks": "Kate's arrow selection matters, and her damage rotation is not automatically safe when Evade returns. Debuff immunity can invalidate the advertised interaction.",
+      "conditions": [
+        "Confirm the selected arrow and active Coldsnap effect.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "killmonger-nightcrawler-20261121-b5",
+      "attackerId": "killmonger",
+      "defenderId": "nightcrawler",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nc-rework-20261121-b5"
+      ],
+      "score": 2,
+      "why": "A player answering a specific question about Killmonger after the rework confirms that True Strike remained effective against the updated Nightcrawler's Evade.",
+      "strategy": "Bait and safely punish the defender's special to establish True Strike. Use that window for controlled combinations and retreat if the effect ends before another opening.",
+      "risks": "Killmonger cannot assume True Strike is active at the start. The historical account does not document a specific node, fight duration or current game build.",
+      "conditions": [
+        "Verify the True Strike icon after a special punish.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "ghost-nightcrawler-20261121-b5",
+      "attackerId": "ghost",
+      "defenderId": "nightcrawler",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nc-rework-20261121-b5"
+      ],
+      "score": 2,
+      "why": "The post-rework discussion identifies Ghost's guaranteed critical attacks as an Evade-bypassing option, rather than saying every hit from Ghost ignores Evade.",
+      "strategy": "Phase a safe incoming attack and use the resulting guaranteed critical opening for your damage. Avoid extending into unprotected basic attacks while Evade is still possible.",
+      "risks": "The cited interaction applies to the relevant critical attacks, not all contact. Phase-disabling nodes, mistimed entries or defender changes can remove this advantage.",
+      "conditions": [
+        "Check that the attack will be a guaranteed critical.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "medusa-iron-man-infinity-war-20261121-b5",
+      "attackerId": "medusa",
+      "defenderId": "iron-man-infinity-war",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "imiw-medusa-20261121-b5",
+        "imiw-armor-20261121-b5"
+      ],
+      "score": 2,
+      "why": "Players report success using Medusa against Infinity War Iron Man, while Kabam clarifies that his passive armor is distinct from the active buffs prevented by Armor Shatter.",
+      "strategy": "Manage armor with individual breaks when possible. If Molecular Armor builds again, disengage and wait or punish a heavy with a heavy; keep a safe finishing special available.",
+      "risks": "Do not assume Armor Shatter prevents every new Molecular Armor effect. Awakened low-health Auto-Block and power gain can still make routine basic attacks unsafe.",
+      "conditions": [
+        "Inspect the passive armor count and low-health behavior.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "corvus-glaive-iron-man-infinity-war-20261121-b5",
+      "attackerId": "corvus-glaive",
+      "defenderId": "iron-man-infinity-war",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "imiw-war-20261121-b5"
+      ],
+      "score": 2,
+      "why": "An older war discussion specifically recommends Corvus with the Proxima Midnight synergy against a difficult Infinity War Iron Man placement, citing its access to True Strike.",
+      "strategy": "Bring Proxima when team selection permits, then establish the relevant persistent mission and True Strike before attacking through Auto-Block. Use armor breaks when possible and bait specials.",
+      "risks": "This is an old node-specific report, not a current war placement guarantee. The synergy, mission completion and charge state matter, and armor-break immunity may limit damage.",
+      "conditions": [
+        "Proxima Midnight synergy and its activation conditions are required for this plan.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "hyperion-iron-man-infinity-war-20261121-b5",
+      "attackerId": "hyperion",
+      "defenderId": "iron-man-infinity-war",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "imiw-deflector-20261121-b5"
+      ],
+      "score": 2,
+      "why": "A player describes handling Infinity War Iron Man with Hyperion by punishing heavy attacks and applying damage before the dangerous low-health phase begins.",
+      "strategy": "Use Hyperion's power gain to prepare a finishing special. Make conservatively timed heavy punishes rather than long basic sequences when armor is high, and avoid feeding defensive specials.",
+      "risks": "This is a historical anecdote and does not prove Hyperion bypasses every Auto-Block. Nodes changing buff gain, armor or special access can force a different rotation.",
+      "conditions": [
+        "Reserve a safe finishing option before the low-health phase.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "killmonger-modok-20261121-b5",
+      "attackerId": "killmonger",
+      "defenderId": "modok",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "auto-block-20261121-b5"
+      ],
+      "score": 2,
+      "why": "A war discussion identifies Killmonger among the options for MODOK's Auto-Block, alongside advice to exploit the temporary vulnerability after his shield is used.",
+      "strategy": "Establish True Strike by safely punishing an opponent special, then attack while its effect is active. If it expires, use the shield's cooldown rather than forcing a risky full combo.",
+      "risks": "The thread predates current seasonal mechanics. Neither True Strike uptime nor a stun opening is guaranteed; additional nodes can change MODOK's defensive behavior.",
+      "conditions": [
+        "Check True Strike and shield state before each long combo.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "corvus-glaive-modok-20261121-b5",
+      "attackerId": "corvus-glaive",
+      "defenderId": "modok",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "auto-block-20261121-b5"
+      ],
+      "score": 2,
+      "why": "A participant discussing Auto-Block in older Alliance War placements names Corvus as an option for MODOK; his conditional True Strike is the relevant interaction to prepare.",
+      "strategy": "If relying on True Strike, bring the Proxima synergy and meet its mission conditions first. Otherwise, bait the shield and attack during its recovery rather than trusting an unprepared Corvus.",
+      "risks": "The report does not state the exact team or charges used. A synergy-dependent approach is unsuitable for modes that disallow it and cannot promise uninterrupted shield bypass.",
+      "conditions": [
+        "Verify the synergy and mission if using the True Strike approach.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
+    },
+    {
+      "id": "galan-iron-man-infamous-20261121-b5",
+      "attackerId": "galan",
+      "defenderId": "iron-man-infamous",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "galan-balance-20261121-b5"
+      ],
+      "score": 2,
+      "why": "Kabam's Galan balance follow-up explicitly identifies Infamous Iron Man among the Tech defenders players were using Galan to attack in Alliance War.",
+      "strategy": "Build Planetary Mass through safe attacks and relevant defender interactions, then plan the Harvest window around defender power and safe spacing rather than striking blindly into a blocked attack.",
+      "risks": "The official observation is historical and not a current-node fight recording. Harvest damage, mass generation or immunity interactions may be affected by seasonal rules.",
+      "conditions": [
+        "Check current Armor Up, power manipulation and node rules.",
+        "Check the current awakening, node, game version and actual effect state before committing resources.",
+        "The linked source does not establish an independently validated current-build fight outcome."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Historical matchup observation or explicit official matchup reference, with conditional strategy."
     },
     {
       "id": "venom-maestro",
