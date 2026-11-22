@@ -7763,6 +7763,76 @@
       "checkedAt": "2026-11-21"
     },
     {
+      "id": "nico-20261122-b8",
+      "title": "March 2026 discussion of Nico Minoru's defensive poison, invisibility and player matchup suggestions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/412706/we-really-need-to-start-talking-about-nico-minoru",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "abs-20261122-b8",
+      "title": "Necropolis Air-Walker spacing and knockdown advice for Absorbing Man",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/388032/absorbing-man-in-necro/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "worthy-20261122-b8",
+      "title": "Firsthand Necropolis challenge results including an Air-Walker solo and Wiccan clear",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/394480/serpentless-worthy-gods-and-cul-s-worthy-run",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "kate-20261122-b8",
+      "title": "Firsthand Necropolis path report with Kate Bishop results",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/353568/necropolis-sauron-to-guardian-path-guide-kate-supremacy",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "chavez-20261122-b8",
+      "title": "Necropolis completion account using America Chavez for Air-Walker",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/2441124",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "wong-20261122-b8",
+      "title": "Carina challenge Necropolis run including Wong's Air-Walker attempt",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/383165/new-challengers-approaching-my-10-year-carina-challenge-guide",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "crucible-20261122-b8",
+      "title": "Firsthand Act 7 Legendary Crucible path 2 completion and fight notes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376218/crucible-path-2-completion",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "orochi-20261122-b8",
+      "title": "September 2024 Orochi matchup discussion, including actual and suggested options",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/376474/9-1-boss-orochi-counter",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "act6-20261122-b8",
+      "title": "Historical Act 6 completion account with boss-specific results",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/374769/f2p-valiant-speedrun-round-2-crucible-edition/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "act6change-20261122-b8",
+      "title": "Official historical Act 6 encounter revisions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/comment/887179/",
+      "kind": "official",
+      "checkedAt": "2026-11-22"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -78642,6 +78712,815 @@
         "gameplayTested": false
       },
       "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "spider-woman-nico-minoru-20261122-b8",
+      "attackerId": "spider-woman",
+      "defenderId": "nico-minoru",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nico-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A defensive discussion specifically recommends Spider-Woman, emphasizing poison protection as a useful starting point rather than promising an effortless win.",
+      "strategy": "Confirm the poison interaction before committing. Give Nico room to finish her special and attack in visible recovery windows; build damage without relying on a buff-immunity interaction to solve the fight.",
+      "risks": "The cited recommendation does not establish a solo on every war placement. Invisibility, recovery and node-driven power can still cost health or time.",
+      "conditions": [
+        "Check poison protection and the actual war node.",
+        "Historical player suggestion; verify current defender kit, season or placement before using.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "sentinel-nico-minoru-20261122-b8",
+      "attackerId": "sentinel",
+      "defenderId": "nico-minoru",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nico-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A separate participant identifies Sentinel as a robot alternative against Nico. This is a suggested defensive matchup, not a measured finish.",
+      "strategy": "Use Sentinel's damage-over-time access after safely building Analysis. Do not chase her while she is invisible; bait a lower special and check the defender's power before taking the next opening.",
+      "risks": "Poison protection is not a solution to every spell or recovery effect. Node changes, rank differences and a long ramp may make a timed or difficult fight unsuitable.",
+      "conditions": [
+        "Verify that the current kit and node allow the robot's rotation.",
+        "Historical player suggestion; verify current defender kit, season or placement before using.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "human-torch-nico-minoru-20261122-b8",
+      "attackerId": "human-torch",
+      "defenderId": "nico-minoru",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nico-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The player discussion identifies Human Torch as an offensive option against Nico, while also describing the defender's invisibility and power problems.",
+      "strategy": "If the appropriate damage setup is available, spend the opening developing temperature and take only confirmed hits. Keep space for a special bait instead of forcing a long combo into a dangerous power bar.",
+      "risks": "Torch's damage does not guarantee protection from every poison or spell interaction. The source is a player's general observation, not a controlled timed test.",
+      "conditions": [
+        "Check poison exposure and whether pre-fight access is available.",
+        "Historical player suggestion; verify current defender kit, season or placement before using.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "scorpion-nico-minoru-20261122-b8",
+      "attackerId": "scorpion",
+      "defenderId": "nico-minoru",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nico-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A participant names Scorpion among the attackers that can finish Nico quickly, but does not document a specific rank, season or fight record.",
+      "strategy": "Select the available pre-fight choice with the relevant protection and damage type in mind. Keep the special cycle manageable with Taunt where it works and punish only after her defensive miss window ends.",
+      "risks": "The cited observation does not show whether the pre-fight, health, node or AI were favorable. Buff immunity interactions can be dangerous; do not assume class advantage is sufficient.",
+      "conditions": [
+        "Confirm current poison and buff interactions before drafting.",
+        "Historical player suggestion; verify current defender kit, season or placement before using.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "silk-nico-minoru-20261122-b8",
+      "attackerId": "silk",
+      "defenderId": "nico-minoru",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nico-20261122-b8"
+      ],
+      "score": 1,
+      "why": "Silk is another attacker named in the discussion of Nico's defense; the source supplies an anecdotal lead rather than a reproducible clear.",
+      "strategy": "Build the fight around clean opening and recovery windows, and keep a way to disengage if the defender's miss protection is active. Reserve your burst for a window where she cannot simply avoid the hits.",
+      "risks": "Silk is not being recommended as a universal poison solution. Exposure to damage over time and fast opposing power can undermine the timed result.",
+      "conditions": [
+        "Check poison risk and the seasonal node.",
+        "Historical player suggestion; verify current defender kit, season or placement before using.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "absorbing-man-air-walker-20261122-b8",
+      "attackerId": "absorbing-man",
+      "defenderId": "air-walker",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "abs-20261122-b8",
+        "worthy-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A reported Necropolis challenge solo and a separate discussion both support Absorbing Man for Air-Walker when knockdown timing is maintained.",
+      "strategy": "Set up the appropriate form and preserve space for a heavy after a safe special recovery. In the cited Necropolis encounter, use knockdowns proactively rather than waiting until the dangerous timer is nearly exhausted.",
+      "risks": "Necropolis-specific penalties can compound after failed attempts. Node timing and blocking choices differ from ordinary Air-Walker fights; a solo by another player is not a guarantee.",
+      "conditions": [
+        "Check the Necropolis timer, form and knockdown rules.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kate-bishop-air-walker-20261122-b8",
+      "attackerId": "kate-bishop",
+      "defenderId": "air-walker",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kate-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The cited Necropolis path report cleared this placement with Kate Bishop using one revive, so this is a workable reported route rather than a clean solo.",
+      "strategy": "Prioritize a safe heavy and the relevant arrow selection for control before extending damage. Refresh effects in short, reliable windows, and treat each knockdown deadline as more important than maximizing a combo.",
+      "risks": "Kate's setup takes time, and failure to maintain the encounter's countdown can make a later attempt harder. The report reflects one roster and a historical path.",
+      "conditions": [
+        "Check the cited Necropolis placement and arrow availability.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "america-chavez-air-walker-20261122-b8",
+      "attackerId": "america-chavez",
+      "defenderId": "air-walker",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "chavez-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A firsthand Necropolis completion account used America Chavez here. The account frames the choice around buffs, but this does not establish a universal defensive counter.",
+      "strategy": "Use heavy dimension setup only when there is a secure punish window. Maintain the encounter's knockdown requirement with specials or heavies without forcing a dangerous opening solely to extend damage.",
+      "risks": "The source's approach to persistent charges should not be treated as a default strategy; letting Air-Walker snowball can increase the cost of failed attempts.",
+      "conditions": [
+        "Check the encounter's persistent charge and countdown mechanics.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "wong-air-walker-20261122-b8",
+      "attackerId": "wong",
+      "defenderId": "air-walker",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "wong-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A Carina challenge clear reports that Wong finished the Air-Walker encounter but required several revives, making him a fallback rather than a preferred safe choice.",
+      "strategy": "Budget time for the useful spell setup and prioritize handling the special safely. Keep the knockdown timer visible and interrupt the ramp plan if the defender is about to reach a dangerous state.",
+      "risks": "The report describes substantial revive usage and dark-tide damage. Without the challenge roster restriction, consider a more efficient option instead of assuming Wong is optimal.",
+      "conditions": [
+        "Check the exact Carina challenge restrictions and Necropolis rules.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kate-bishop-wiccan-20261122-b8",
+      "attackerId": "kate-bishop",
+      "defenderId": "wiccan",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kate-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The cited Necropolis completion report records a solo with Kate Bishop against Wiccan, with mastery and arrow choices important to the plan.",
+      "strategy": "Use arrow effects to manage the healing interaction and build damage while preserving safe special punish windows. Avoid unnecessary buffs or extra parries if the encounter turns those into a liability.",
+      "risks": "The report uses a particular mastery setup and does not establish identical healing control for every account. Check the current Wiccan encounter before using the same rotation.",
+      "conditions": [
+        "Check healing, masteries and the Necropolis path effects.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "hulk-wiccan-20261122-b8",
+      "attackerId": "hulk",
+      "defenderId": "wiccan",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "worthy-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A Necropolis challenge participant cleared Wiccan using Hulk with several revives and describes stun pressure as the central tactic.",
+      "strategy": "Plan damage around Hulk's stun opportunities if permitted. Avoid gifting Wiccan a favorable special cycle; end your pressure when stuns are resisted rather than assuming a continuous lock.",
+      "risks": "The historical clear needed five revives and should be considered a challenge-roster fallback. Stun immunity or healing mechanics can negate the approach.",
+      "conditions": [
+        "Check stun duration, healing and challenge restrictions.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kate-bishop-red-guardian-20261122-b8",
+      "attackerId": "kate-bishop",
+      "defenderId": "red-guardian",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kate-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A Necropolis route account reports a Kate Bishop clear with three revives and stresses handling Red Guardian's defensive stun early.",
+      "strategy": "Start with the relevant control arrow and watch the shield state before investing in a long combo. Time heavies to safe recovery windows and avoid trading hits for an unnecessary ramp step.",
+      "risks": "The cited clear encountered stun trouble. Nodes, effect immunity and the defender's shield mechanics may undermine the control setup.",
+      "conditions": [
+        "Check shield and stun triggers on this specific Necropolis encounter.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kate-bishop-captain-america-infinity-war-20261122-b8",
+      "attackerId": "kate-bishop",
+      "defenderId": "captain-america-infinity-war",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "kate-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The firsthand Necropolis report records a Kate Bishop finish against Captain America (Infinity War) with one revive, supporting a scoped option.",
+      "strategy": "Use the arrow damage cycle after a confirmed opening rather than repeatedly attacking into glancing or block. Keep the special bait and lane-specific effects in mind as you refresh damage.",
+      "risks": "A successful Necropolis clear does not establish viability against the Act 6 boss or other node sets. Damage reduction can extend the fight considerably.",
+      "conditions": [
+        "Scope is the Necropolis Captain America encounter, not Act 6.3.6.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "odin-ultron-classic-20261122-b8",
+      "attackerId": "odin",
+      "defenderId": "ultron-classic",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A completed Legendary Crucible path 2 account identifies Odin for the classic Ultron placement and describes a heavy-to-special rotation.",
+      "strategy": "Use heavies when the evade and recovery situation allows them, then organize the longer power setup around safe special launches. Check the current node before attempting repeated heavy attacks.",
+      "risks": "The historical completion account does not document every interaction, rank or clean finish. Heavy repetition without an opening can be intercepted or punished.",
+      "conditions": [
+        "Confirm the classic Ultron variant and Act 7 Crucible placement.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "archangel-symbiote-supreme-20261122-b8",
+      "attackerId": "archangel",
+      "defenderId": "symbiote-supreme",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "crucible-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The reported Act 7 Crucible path 2 clear used Archangel for Symbiote Supreme and required a revive after an attack sequence.",
+      "strategy": "Where the encounter allows both required damage types, build Archangel's Neurotoxin through short safe heavy windows. Watch the defender's power and avoid taking a full combo while attempting to ramp.",
+      "risks": "If bleed or poison is prevented, this damage plan may not function. The source is a historical clear with a mistake, not a current-build universal counter.",
+      "conditions": [
+        "Verify susceptibility to both damage types and quest nodes.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "omega-sentinel-orochi-20261122-b8",
+      "attackerId": "omega-sentinel",
+      "defenderId": "orochi",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "orochi-20261122-b8"
+      ],
+      "score": 1,
+      "why": "An early Act 9.1 boss discussion includes a player who actually used Omega Sentinel successfully, although exact health and revive outcomes are not provided.",
+      "strategy": "Select a debuff mode that the current boss can receive; check the boss's phase objective before trying to extend your normal damage cycle. Punish specials rather than forcing a phase transition through a risky combo.",
+      "risks": "The 2024 discussion is historical. Resistances, phase restrictions and later Unshackled variants may differ; this is not a guarantee of a current solo.",
+      "conditions": [
+        "Check Act 9.1.6 phase objectives and actual debuff susceptibility.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "scorpion-orochi-20261122-b8",
+      "attackerId": "scorpion",
+      "defenderId": "orochi",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "orochi-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A participant in the Orochi thread reports that Scorpion works well; this supports a candidate, without a specific run record or revive count.",
+      "strategy": "Choose a pre-fight damage type that survives the boss's immunities and maintain safe spacing during phase objectives. Use damage openings when the encounter permits them instead of assuming a normal champion fight.",
+      "risks": "This brief historical report provides no detailed rotation, rank or phase breakdown. An unsuitable pre-fight or restricted node can make the approach ineffective.",
+      "conditions": [
+        "Confirm actual phase rules and Scorpion pre-fight choice.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "prowler-orochi-20261122-b8",
+      "attackerId": "prowler",
+      "defenderId": "orochi",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "orochi-20261122-b8"
+      ],
+      "score": 1,
+      "why": "Prowler is named as another workable option in a historical Orochi matchup discussion, without a detailed clear report or independent test.",
+      "strategy": "Use the current phase objective as the primary decision point; develop Prowler's normal damage only once safe attack windows are established. Hold specials if the next phase requires a particular action.",
+      "risks": "The source does not document which effects worked in each phase. Do not infer a reliable full-fight clear or assume Unshackled Orochi has identical rules.",
+      "conditions": [
+        "Check phase prompts and relevant damage immunities.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "juggernaut-orochi-20261122-b8",
+      "attackerId": "juggernaut",
+      "defenderId": "orochi",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "orochi-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The thread proposes Juggernaut as an aggressive alternative for Orochi. The comment is an enthusiastic suggestion rather than a detailed combat result.",
+      "strategy": "Use his damage cycle only after verifying current phase requirements. Keep an eye on gem availability and prioritize the intended boss objective over continuous attacks when the phase is not yet vulnerable.",
+      "risks": "The suggestion is not evidence that boss mechanics can be ignored. Debuffs, a disabled gem or alternate encounter restrictions may materially alter the result.",
+      "conditions": [
+        "Confirm gem status and boss-phase vulnerability.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kate-bishop-medusa-act6-20261122-b8",
+      "attackerId": "kate-bishop",
+      "defenderId": "medusa-act6",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "act6-20261122-b8",
+        "act6change-20261122-b8"
+      ],
+      "score": 1,
+      "why": "A historical Act 6 completion recap records a boosted Kate Bishop clear of 6.3.1 with no revives in that quest; Kabam separately documented revisions to this boss.",
+      "strategy": "Confirm the actual bleed requirement before selecting arrows; use the damage effect that the boss node accepts and refresh it during safe heavy windows. Keep the defensive autoblock timing in mind.",
+      "risks": "The result used boosts and historical rules. The source is not evidence that every arrow or unboosted setup will satisfy all versions of the boss's damage restriction.",
+      "conditions": [
+        "Check the current 6.3.1 boss text, not ordinary Medusa.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "captain-marvel-champion-act6-20261122-b8",
+      "attackerId": "captain-marvel",
+      "defenderId": "champion-act6",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "act6-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The cited Act 6 clear used Captain Marvel for the Champion boss and reported several revives during the encounter, so the choice is a fallback with historical evidence.",
+      "strategy": "Check how the current boss phases treat unstoppable, damage and special evades. Use Captain Marvel's safe damage windows to progress while preserving resources for the final phase objective.",
+      "risks": "The run needed four revives in the quest and relied on a particular roster. Fast damage is not a substitute for completing the final mechanic; verify live node text.",
+      "conditions": [
+        "Check the current Act 6.2.6 final-phase objective.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "captain-marvel-captain-america-iw-act6-20261122-b8",
+      "attackerId": "captain-marvel",
+      "defenderId": "captain-america-iw-act6",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "act6-20261122-b8",
+        "act6change-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The Act 6 recap credits Captain Marvel's critical damage during a team-assisted 6.3.6 boss clear; the official changelog identifies an earlier node revision.",
+      "strategy": "Use available critical-damage windows while tracking the boss's power. Confirm the node's damage condition and avoid trading into a special merely to build Binary faster.",
+      "risks": "This was a team clear involving a revive, not a solo. The historical node revision does not establish all current rules, and a changed critical restriction can alter effectiveness.",
+      "conditions": [
+        "Confirm the 6.3.6 critical-hit condition and current boss nodes.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "scorpion-captain-america-iw-act6-20261122-b8",
+      "attackerId": "scorpion",
+      "defenderId": "captain-america-iw-act6",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "act6-20261122-b8",
+        "act6change-20261122-b8"
+      ],
+      "score": 1,
+      "why": "The same completion account describes Scorpion's Taunt helping extend the Captain America fight during a team clear; this is evidence for power pacing, not proof of solo damage.",
+      "strategy": "Use Taunt if it remains effective on the actual node, bait specials before a dangerous power threshold and use only damage windows that satisfy the boss restriction. Reassess if the health bar is not moving.",
+      "risks": "The source did not show Scorpion alone finishing the boss. If the encounter ignores damage-over-time or resists Taunt, another attacker may be needed to finish.",
+      "conditions": [
+        "Check boss damage restrictions and whether Taunt works.",
+        "Only the encounter identified in the cited report; do not transfer to other nodes without checking.",
+        "Check awakening, rank and current game rules; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
     },
     {
       "id": "venom-maestro",
