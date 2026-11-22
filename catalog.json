@@ -7833,6 +7833,27 @@
       "checkedAt": "2026-11-22"
     },
     {
+      "id": "unusual-20261122-b9",
+      "title": "Direct player matchup observations for Jean Grey and Yelena Belova",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/408577/unexpected-yet-effective-counters",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "shocker-20261122-b9",
+      "title": "Shocker community kit discussion and proposed defensive counters",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/388474/mcoc-1-champ-per-week-ep-55-shocker/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "sable-20261122-b9",
+      "title": "Act 9.3.5 Silver Sable boss completed-run suggestions and matchup cautions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/403340/counter-suggestions-9-3-5-silver-sable-boss/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -79521,6 +79542,461 @@
         "gameplayTested": false
       },
       "scoreReason": "Conditional source-linked lead; editorial strategy is not independently tested."
+    },
+    {
+      "id": "kushala-jean-grey-20261122-b9",
+      "attackerId": "kushala",
+      "defenderId": "jean-grey",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "unusual-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A separate player names Kushala as an attacker who handles Jean Grey well; no exact rank, mastery setup or timed fight is supplied.",
+      "strategy": "Handle the control-reversal window before extending a fire-based damage rotation. Check the shield before committing the next punish and use specials only after a safe recovery window.",
+      "risks": "The source is a brief community endorsement and gives no reproducible fight sequence. Do not assume that all Jean Grey quest nodes or defensive tactics match the example.",
+      "conditions": [
+        "Check Jean Grey's current shield and control rules.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "gorr-yelena-belova-20261122-b9",
+      "attackerId": "gorr",
+      "defenderId": "yelena-belova",
+      "modeIds": [
+        "alliance-war"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "unusual-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A player describes Gorr as a particularly safe answer to Yelena in Alliance War, reporting that repeated Bleeds feed his Regeneration buffs even on a specific war node.",
+      "strategy": "Accept only manageable Bleed triggers and keep the important shadow effects available. Focus on safe special baits and sustain rather than a speed run, especially if the node encourages repeated blocking.",
+      "risks": "The report specifically warns that Gorr is too slow for many Battlegrounds fights. Healing can fail if you overcommit or the war tactic changes the interaction.",
+      "conditions": [
+        "Scope is the cited Alliance War context, not a fast Battlegrounds clear.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "knull-yelena-belova-20261122-b9",
+      "attackerId": "knull",
+      "defenderId": "yelena-belova",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "unusual-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A participant reports that Knull handles Yelena, but the discussion does not give a recorded time, rotation or complete battle conditions.",
+      "strategy": "Check which Yelena abilities punish Bleed-related contact before committing. If the matchup allows your normal Corruption setup, keep pressure measured and choose a safe special window.",
+      "risks": "This is a short player suggestion with no documented solo or detailed mechanics. Do not generalize from it to every Alliance War node or claim a guaranteed good timer.",
+      "conditions": [
+        "Check Yelena's current defensive kit and seasonal tactic.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "beta-ray-bill-yelena-belova-20261122-b9",
+      "attackerId": "beta-ray-bill",
+      "defenderId": "yelena-belova",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "unusual-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A forum participant calls Beta Ray Bill against Yelena an unusual counter, without providing combat footage or details of the node.",
+      "strategy": "Test the special and energy-damage interaction only after confirming the node. Avoid a greedy power cycle; take the opening after a safely evaded special before investing in burst.",
+      "risks": "This single passing mention does not explain why the matchup works or provide a result. Treat it as a low-confidence research lead, not a recommended universal solution.",
+      "conditions": [
+        "Check the champion's current kit and the defender's Bleed mechanics.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "black-cat-shocker-20261122-b9",
+      "attackerId": "black-cat",
+      "defenderId": "shocker",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "shocker-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A community Shocker overview lists Black Cat as a possible defender counter, but gives no specific result or node-specific rotation.",
+      "strategy": "Plan around Shocker's Autoblock and stun interactions. Use Black Cat's defensive ability control when available, then punish only safe specials instead of forcing contact into high Vibro charge states.",
+      "risks": "The post provides a name rather than a demonstrated clear. Limber, defense tactics and Shocker's stun effects can undermine a routine Black Cat damage loop.",
+      "conditions": [
+        "Review Shocker's current charge and Autoblock rules.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "hulkling-shocker-20261122-b9",
+      "attackerId": "hulkling",
+      "defenderId": "shocker",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "shocker-20261122-b9"
+      ],
+      "score": 1,
+      "why": "Hulkling appears in the community's Shocker counter shortlist, suggesting a way to play through defensive Autoblock when the necessary offensive buff is available.",
+      "strategy": "Use a confirmed opening to establish the appropriate offensive buffs, then manage power before committing to a larger special. Keep the defender's stun and Autoblock thresholds visible.",
+      "risks": "The shortlist contains no fight timing or rank information. A badly timed special or a node that punishes buffs can make this approach unsafe.",
+      "conditions": [
+        "Confirm Autoblock bypass and the current BG defensive node.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "rocket-raccoon-shocker-20261122-b9",
+      "attackerId": "rocket-raccoon",
+      "defenderId": "shocker",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "shocker-20261122-b9"
+      ],
+      "score": 1,
+      "why": "Rocket Raccoon is named in a Shocker counter shortlist, but another participant questions the exact kit-based interaction, so this is an unverified lead.",
+      "strategy": "Treat Rocket as a short-fight damage experiment rather than a hard-counter claim. Avoid the opponent's defensive charge trigger and do not commit to a combo without verifying Autoblock behavior.",
+      "risks": "The community thread explicitly questions this choice and supplies no explanation or clear. This matchup should remain provisional until directly gameplay-tested.",
+      "conditions": [
+        "Check current Shocker Autoblock, charge thresholds and Rocket's relevant utility.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "spider-man-miles-morales-shocker-20261122-b9",
+      "attackerId": "spider-man-miles-morales",
+      "defenderId": "shocker",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "shocker-20261122-b9"
+      ],
+      "score": 1,
+      "why": "Miles Morales is suggested in the Shocker overview, although the same conversation asks what in his kit makes it a true matchup answer.",
+      "strategy": "Approach this as a cautious evasion-and-spacing option. Test whether the actual defender node permits Miles's protection before relying on it, and punish only after Shocker finishes a special.",
+      "risks": "No documented fight or mechanism is provided in the cited post, and another reader questions the suggestion. Do not treat it as a verified counter or score it as tested.",
+      "conditions": [
+        "Confirm Miles's interaction with Shocker's special and Autoblock effects.",
+        "Community observation or suggestion; do not transfer to other game modes without checking.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "lady-deathstrike-silver-sable-20261122-b9",
+      "attackerId": "lady-deathstrike",
+      "defenderId": "silver-sable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "sable-20261122-b9"
+      ],
+      "score": 1,
+      "why": "For Act 9.3.5, a player describes Lady Deathstrike as a slow but safe answer because of her Regeneration Rate behavior and Rupture damage through Weakness.",
+      "strategy": "Prioritize surviving the node before maximizing damage. Keep a short punish window and use Rupture pressure while avoiding unnecessarily long combinations when the boss is powered up.",
+      "risks": "The same player cautions that the fight can be very long. The claim is specific to the Act 9.3.5 boss and does not establish a quick general Battlegrounds clear.",
+      "conditions": [
+        "Scope is the Act 9.3.5 Silver Sable boss.",
+        "Historical Act 9.3.5 encounter only; recheck the current boss node.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "omega-sentinel-silver-sable-20261122-b9",
+      "attackerId": "omega-sentinel",
+      "defenderId": "silver-sable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "sable-20261122-b9"
+      ],
+      "score": 1,
+      "why": "Multiple participants describe Omega Sentinel as a workable Act 9.3.5 Silver Sable boss solution, with some emphasizing that it remains a lengthy fight.",
+      "strategy": "Keep the appropriate debuff mode active and use safe specials to maintain control. Manage healing or recovery only where the node permits, rather than relying on a fast damage race.",
+      "risks": "Player reports differ in how easy the clear feels, and one explicitly warns it is still a long fight. No present-version testing is recorded.",
+      "conditions": [
+        "Check Silver Sable's healing, node effects and Omega Sentinel pre-fight selection.",
+        "Historical Act 9.3.5 encounter only; recheck the current boss node.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "sentinel-silver-sable-20261122-b9",
+      "attackerId": "sentinel",
+      "defenderId": "silver-sable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "sable-20261122-b9"
+      ],
+      "score": 1,
+      "why": "Two forum replies name Sentinel for the Act 9.3.5 Silver Sable encounter, and one specifically attributes its usefulness to long-lasting Heal Block.",
+      "strategy": "Build Analysis only when a safe opening is available and refresh Heal Block before the defender can recover significant health. Avoid extending the fight solely to stack charges.",
+      "risks": "The discussion does not establish a particular run time. Node-based power, block damage or an outdated Heal Block interaction can invalidate an otherwise practical plan.",
+      "conditions": [
+        "Confirm current Heal Block duration on the 9.3.5 boss.",
+        "Historical Act 9.3.5 encounter only; recheck the current boss node.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "red-skull-silver-sable-20261122-b9",
+      "attackerId": "red-skull",
+      "defenderId": "silver-sable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "sable-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A participant reports using Red Skull for the Act 9.3.5 Silver Sable boss, but does not describe the actual finish or a special rotation.",
+      "strategy": "Choose controlled special baits and avoid unnecessary hits when the boss node is favoring its defensive conditions. Confirm that your intended armor-based defense is active before absorbing any damage.",
+      "risks": "The source consists of a short completion claim without health, boosts or node details. It should be a fallback lead rather than a preferred proven solution.",
+      "conditions": [
+        "Scope is Act 9.3.5, and there is no documented current-client test.",
+        "Historical Act 9.3.5 encounter only; recheck the current boss node.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "viv-vision-silver-sable-20261122-b9",
+      "attackerId": "viv-vision",
+      "defenderId": "silver-sable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "sable-20261122-b9"
+      ],
+      "score": 1,
+      "why": "A player identifies Viv Vision as a useful option for accounts with the seven-star version in the discussion of the Act 9.3.5 Silver Sable boss.",
+      "strategy": "Use safe special-recovery windows for Viv's usual power and damage cycle. Check whether the current node allows her control tools before committing to the phase that deals most of her damage.",
+      "risks": "The poster did not give a completed fight log or a revive count. This is a roster-specific suggestion rather than evidence that Viv is the fastest or safest solution.",
+      "conditions": [
+        "Verify exact Viv availability, node interactions and boss phase.",
+        "Historical Act 9.3.5 encounter only; recheck the current boss node.",
+        "Check awakening, rank, roster restrictions and current game version; no independent gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
     },
     {
       "id": "venom-maestro",
