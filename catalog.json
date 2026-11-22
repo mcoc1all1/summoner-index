@@ -7721,6 +7721,48 @@
       "checkedAt": "2026-11-21"
     },
     {
+      "id": "run1-20261121-b7",
+      "title": "Act 7 Crucible path-specific completed run and champion selections",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/373502/advice-for-crucible",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "run2-20261121-b7",
+      "title": "Act 7 Crucible Path 1 firsthand run, results, and other players' completed runs",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/373612/the-crucible-path-1-write-up-by-an-average-valiant",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "run3-20261121-b7",
+      "title": "Act 7 Legendary Crucible firsthand fight results and node cautions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/373353/my-9-revive-legendary-crucible-run-part-1/p1",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "run4-20261121-b7",
+      "title": "Act 7 Crucible speedrun discussion: reported finishes and limitations",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/374769/f2p-valiant-speedrun-round-2-crucible-edition/p2",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "monkey-20261121-b7",
+      "title": "Player suggestions for Hit-Monkey in a January Legendary side quest",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/293699/hit-monkey-jan-side-quest-legendary-boss-advice-need",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "magneto-20261121-b7",
+      "title": "Defender discussion reporting Archangel against Magneto",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/255019/annoying-defenders-and-their-counters",
+      "kind": "community-report",
+      "checkedAt": "2026-11-21"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -77264,6 +77306,1342 @@
         "gameplayTested": false
       },
       "scoreReason": "Named conditional encounter lead; outcome or mechanics as described by source, no independent validation."
+    },
+    {
+      "id": "gamora-yondu-20261121-b7",
+      "attackerId": "gamora",
+      "defenderId": "yondu",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A Crucible participant reports a relatively quick Gamora practice clear of the Yondu placement compared with their longer actual attempt using King Groot.",
+      "strategy": "Build Gamora's offensive buffs through controlled openings and take the defender's power into account before heavy attacks. Prioritize clean special punishes rather than relying on repeated blocked hits.",
+      "risks": "This is a historical practice-run result, not the same roster or health state as a normal Yondu fight. Yondu's ranged attacks and any node-related penalties remain relevant.",
+      "conditions": [
+        "Check the actual encounter and Gamora's buff uptime.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "valkyrie-yondu-20261121-b7",
+      "attackerId": "valkyrie",
+      "defenderId": "yondu",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A separate completion account in the Crucible thread lists Valkyrie for the Yondu placement, providing a conditional alternative to an ordinary direct-damage approach.",
+      "strategy": "Establish Valkyrie's combo-dependent utility using carefully chosen blocked attacks when the nodes permit it. Keep sufficient space to evade specials and disengage if a block-related hazard appears.",
+      "risks": "The report does not establish a particular clear time or guarantee that hitting into block remains safe. Yondu's debuffs and the matchup's node effects can change the rotation.",
+      "conditions": [
+        "Check blocked-hit rules and Valkyrie's active utility.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "storm-pyramid-x-black-widow-deadly-origin-20261121-b7",
+      "attackerId": "storm-pyramid-x",
+      "defenderId": "black-widow-deadly-origin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "An Act 7 Crucible participant lists Storm (Pyramid X) as their attacker for the Black Widow (Deadly Origin) encounter in their completed route.",
+      "strategy": "Build Prowess with conservative punish windows and launch the damage special only when defensive effects are manageable. Watch the defender's Evade and Shock conditions before extending combinations.",
+      "risks": "The source gives a roster choice, not a specific proof of permanent Evade suppression. The quest's original nodes and the current kit may differ from this reported encounter.",
+      "conditions": [
+        "Confirm the current Evade state before using longer combinations.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "emma-frost-black-widow-deadly-origin-20261121-b7",
+      "attackerId": "emma-frost",
+      "defenderId": "black-widow-deadly-origin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A second player completion account identifies Emma Frost for the Deadly Origin encounter, making her a plausible alternative for the specific Act 7 route.",
+      "strategy": "Track Emma's form before making a long attack sequence. Use the appropriate form's utility and safe special punish openings, and avoid assuming a form switch will happen at the perfect moment.",
+      "risks": "Emma's protection and offensive interactions depend on her current form. The reported selection does not show uninterrupted Evade prevention or immunity to every node effect.",
+      "conditions": [
+        "Check Emma's active form and the actual node.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "red-guardian-black-widow-claire-voyant-20261121-b7",
+      "attackerId": "red-guardian",
+      "defenderId": "black-widow-claire-voyant",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Red Guardian appears as the Claire Voyant attacker in a player's completed Act 7 Crucible route; his buff-independent offense is a useful approach to investigate.",
+      "strategy": "Fight without depending on personal buffs, build a safe damage window, and track the defender's current curse before committing special attacks. Avoid unnecessary blocked damage while her power is high.",
+      "risks": "Being buff immune does not neutralize Claire's curse effects or eliminate their damage. The source describes a particular quest selection rather than a matchup tested across game modes.",
+      "conditions": [
+        "Check the curse, debuffs and quest conditions.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "spider-gwen-black-widow-claire-voyant-20261121-b7",
+      "attackerId": "spider-gwen",
+      "defenderId": "black-widow-claire-voyant",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A participant describing their Crucible route used Spider-Gwen against Claire Voyant; the matchup provides another reported option for planning this encounter.",
+      "strategy": "Use short, deliberate attacks to establish damage and manage distance before committing to a special. Do not intentionally rely on Evade as a substitute for learning the defender's special timing.",
+      "risks": "The completion list provides neither exact fight duration nor a hard-counter explanation. Claire's buff management or additional effects may make some usual Spider-Gwen tactics inappropriate.",
+      "conditions": [
+        "Inspect special and curse effects before attacking.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "kushala-venom-20261121-b7",
+      "attackerId": "kushala",
+      "defenderId": "venom",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Two Act 7 Crucible completion accounts list Kushala against Venom, supporting a quest-specific option that can exploit his active buffs.",
+      "strategy": "Build toward the relevant buff-related damage utility and time specials while Venom has manageable power. Track each buff rather than attacking into a fresh dangerous defensive condition.",
+      "risks": "The reports refer to an older Crucible placement. Buff immunity, immunity to removal or different seasonal nodes can limit Kushala's usual buff-based damage.",
+      "conditions": [
+        "Check what buffs can be removed or punished in this encounter.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "the-destroyer-venom-20261121-b7",
+      "attackerId": "the-destroyer",
+      "defenderId": "venom",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "One player describes using Destroyer for the Venom fight in their Act 7 Crucible completion account, a useful alternate option when planning team usage.",
+      "strategy": "Use controlled openings to develop Destroyer's damage setup and inspect whether the defender's buffs support the desired interaction. Bait specials before a prolonged attack sequence.",
+      "risks": "The account does not establish that Destroyer suppresses every Venom buff or bypasses every defensive node. Attack timing and resource availability can alter the outcome.",
+      "conditions": [
+        "Confirm the relevant active buffs and encounter mechanics.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "masacre-rhino-20261121-b7",
+      "attackerId": "masacre",
+      "defenderId": "rhino",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "The reported Act 7 Crucible route names Masacre for its Rhino placement, making him a conditional quest choice rather than a guaranteed anti-Unstoppable attacker.",
+      "strategy": "Keep space when Rhino prepares a dash, avoid trying to intercept through a live Unstoppable effect, and set up Masacre's damage during safe block or special punish windows.",
+      "risks": "Masacre does not automatically cancel Rhino's dash protection. Block-based damage and Incinerate can be restricted by node rules, and the source provides no detailed timing.",
+      "conditions": [
+        "Inspect Rhino's dash effects and blocked-hit restrictions.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "spider-man-classic-rhino-20261121-b7",
+      "attackerId": "spider-man-classic",
+      "defenderId": "rhino",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Another Act 7 completion report lists original Spider-Man as the attacker against Rhino, supporting a specific alternative when that quest route is being planned.",
+      "strategy": "Bait Rhino's dash and special attacks from controlled spacing. If the selected attacker's Slow is available, verify it is actually affecting the defensive mechanic before extending pressure.",
+      "risks": "A historical roster list does not confirm that Slow always works against Rhino or that the relevant current node permits it. Do not treat Evade as a guaranteed safety net.",
+      "conditions": [
+        "Check Slow applicability and Unstoppable state.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "doctor-doom-hela-20261121-b7",
+      "attackerId": "doctor-doom",
+      "defenderId": "hela",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A Crucible participant identifies Doctor Doom as their selected attacker for the Hela encounter. His buff and power control suggest a plan for managing her ramp.",
+      "strategy": "Use safe heavy and first-special opportunities to manage active buffs and keep Hela's power predictable. Plan a finishing attack around her survival mechanic instead of assuming a single burst ends it.",
+      "risks": "The account is a historical quest result. Hela's survival effect and node interactions may not all respond to Doom's buff control, and her current signature ability matters.",
+      "conditions": [
+        "Check the active survival effect before the finishing hit.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "wiccan-hela-20261121-b7",
+      "attackerId": "wiccan",
+      "defenderId": "hela",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A different completion account names Wiccan for Hela in the same Act 7 route, suggesting an alternative when her offensive buffs are central to the fight.",
+      "strategy": "Establish Wiccan's Neutralize setup in safe openings and confirm its uptime before launching long combos. Bait specials when the defender approaches unsafe power thresholds.",
+      "risks": "Neutralize affects incoming buffs rather than removing every existing effect. The source does not show that all versions of Hela's survival mechanic can be prevented.",
+      "conditions": [
+        "Confirm Neutralize can affect the encounter's relevant buffs.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "titania-magneto-20261121-b7",
+      "attackerId": "titania",
+      "defenderId": "magneto",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run3-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A firsthand Legendary Crucible report records a no-revive Titania clear against red Magneto and specifically identifies buff independence as useful on that quest placement.",
+      "strategy": "Use Haymaker to establish controlled attack windows without depending on personal buffs. Give Magneto room to throw a safely punishable special, and respect any Unblockable period.",
+      "risks": "The reported fight had Spite and unblockable specials. Titania's buff immunity does not itself make every special safe or remove every defensive effect.",
+      "conditions": [
+        "Confirm Spite, special properties and Haymaker timing.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "archangel-magneto-20261121-b7",
+      "attackerId": "archangel",
+      "defenderId": "magneto",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "magneto-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A separate community defender discussion recommends Archangel against red Magneto, citing his ability-accuracy interaction and damage-over-time approach.",
+      "strategy": "If both Bleed and Poison can be applied, build Neurotoxins with safe heavy openings and keep the defender's power manageable. Reassess if the effects are not applying.",
+      "risks": "This older recommendation is not a current fight test. The interaction between Magnetism, Archangel's ability accuracy and any immunities or node rules needs checking.",
+      "conditions": [
+        "Verify both required debuffs can apply and check the current Magnetism interaction.",
+        "Historical player suggestion; confirm current mechanics before relying on it.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "corvus-glaive-guardian-20261121-b7",
+      "attackerId": "corvus-glaive",
+      "defenderId": "guardian",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A player gives a completed Guardian fight with Corvus in their Crucible write-up and highlights control of the armor and special attack interaction.",
+      "strategy": "Pay attention to Guardian's Armor Up before choosing a special. Apply Armor Break when viable, keep track of Corvus's charges, and exploit a verified opening for the damage special.",
+      "risks": "This particular run was not a high-health speed clear. Corvus's charges, armor interactions and the quest's own Power Shield condition can change whether the approach is efficient.",
+      "conditions": [
+        "Verify armor status and special Auto-Block conditions.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "cosmic-ghost-rider-guardian-20261121-b7",
+      "attackerId": "cosmic-ghost-rider",
+      "defenderId": "guardian",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run4-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A firsthand Act 7 Crucible speedrun update reports a solo against Guardian using Cosmic Ghost Rider, providing another specific quest completion lead.",
+      "strategy": "Prepare the Cosmic Ghost Rider damage cycle while managing armor and defender power. Time damage specials for a confirmed opening and do not fire into an unresolved Auto-Block condition.",
+      "risks": "The report is not a frame-by-frame demonstration of why the special landed. Other Guardian placements may use different Armor Up and Power Shield rules.",
+      "conditions": [
+        "Check Guardian's armor and special-block interactions before spending power.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "omega-sentinel-magneto-house-of-x-20261121-b7",
+      "attackerId": "omega-sentinel",
+      "defenderId": "magneto-house-of-x",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "The completed route in the cited Act 7 Crucible discussion uses Omega Sentinel against the House of X Magneto encounter; this is a historical roster selection.",
+      "strategy": "Choose the appropriate debuff setup and monitor application before relying on damage. Keep spacing for special attacks and avoid extending a rotation if Magnetism disrupts the expected utility.",
+      "risks": "The source does not establish general immunity to this defender's dangerous interactions or an exact clear time. Check current Metal-tag and node interactions.",
+      "conditions": [
+        "Verify that relevant effects actually apply before committing a damage special.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "bullseye-venom-the-duck-20261121-b7",
+      "attackerId": "bullseye",
+      "defenderId": "venom-the-duck",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A participant reports completing the Venom the Duck placement using Bullseye, with a relatively lengthy fight indicating that it is an option rather than an automatic fast clear.",
+      "strategy": "Build Bullseye's damage through deliberate attacks and try to obtain the intended precision windows. Track Venom the Duck's buff state and power, especially on a critical-hit damage node.",
+      "risks": "The reported clear required sustained play and the player noted limited experience with the attacker. A different buff or critical-hit rule could materially affect the result.",
+      "conditions": [
+        "Verify the node's critical-hit requirement and active buffs.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "rocket-raccoon-venom-the-duck-20261121-b7",
+      "attackerId": "rocket-raccoon",
+      "defenderId": "venom-the-duck",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run4-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A separate Crucible speedrun update records a solo against Venom the Duck using Rocket Raccoon, giving a damage-focused alternative for the reported quest.",
+      "strategy": "Protect Rocket's combo as far as practical, develop critical damage and bait specials before pushing into another attack. Attack only when the current node permits meaningful damage.",
+      "risks": "The report does not specify a general answer to Venom the Duck's buff ramp. Rocket can lose considerable value if the combo or critical-hit conditions are disrupted.",
+      "conditions": [
+        "Check critical damage rules and keep the defender's buff buildup in view.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "black-widow-deadly-origin-hit-monkey-20261121-b7",
+      "attackerId": "black-widow-deadly-origin",
+      "defenderId": "hit-monkey",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "monkey-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A player discussing an older Legendary side-quest Hit-Monkey encounter describes using Deadly Origin with repeated heavies and a second-special damage window.",
+      "strategy": "Avoid unnecessary knockdowns until a useful damage special is ready. Check whether the current Evade and Falter conditions allow a safe heavy or special punish rather than assuming Parry always works.",
+      "risks": "The source's side quest had extra healing and Falter rules, so this sequence is not interchangeable with current Battlegrounds. Hit-Monkey's defensive stance can still disrupt debuffs.",
+      "conditions": [
+        "Compare the active stance, Falter timer and healing node with the cited encounter.",
+        "Scope: the cited historical Legendary side-quest encounter, not a generic BG or AW guarantee.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "professor-x-hit-monkey-20261121-b7",
+      "attackerId": "professor-x",
+      "defenderId": "hit-monkey",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "monkey-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Another player in the specific Legendary Hit-Monkey side-quest discussion suggests Professor X as a workable alternative without providing an independently recorded fight result.",
+      "strategy": "Build charges from safe opportunities while preserving a verified opening for the intended damage cycle. If his relevant anti-Evade utility is not active, stop extending basic attacks.",
+      "risks": "The brief source recommendation does not establish a tested rotation or a guaranteed answer to the healing node. Professor X's ramp can be unsuitable for a short round.",
+      "conditions": [
+        "Check charge-dependent utility and whether the encounter allows the intended ramp.",
+        "Scope: the cited historical Legendary side-quest encounter, not a generic BG or AW guarantee.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "hulkbuster-punisher-2099-20261121-b7",
+      "attackerId": "hulkbuster",
+      "defenderId": "punisher-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A detailed Act 7 Crucible write-up lists a completed Punisher 2099 encounter using Hulkbuster, giving one reported damage-oriented route.",
+      "strategy": "Establish Hulkbuster's Shock setup and use heavy or special attacks only when spacing is favorable. Keep track of Punisher's battery-related power behavior before extending a combination.",
+      "risks": "The reported clear concerns a particular quest node and does not demonstrate that Punisher's battery or defensive power mechanics are fully disabled.",
+      "conditions": [
+        "Verify battery state, power and the current Shock interaction.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "lady-deathstrike-void-20261121-b7",
+      "attackerId": "lady-deathstrike",
+      "defenderId": "void",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "One player sharing their completed Act 7 Crucible route lists Lady Deathstrike for Void, showing a usable historical choice for that encounter.",
+      "strategy": "Keep the combo count in view and plan attacks around clearing Void's Intimidating Presence debuffs. Use Deathstrike's damage setup without ignoring the need to deal with accumulating effects.",
+      "risks": "This roster choice is not evidence that Lady Deathstrike is immune to Void's damage or automatically cleanses every debuff. The account does not establish exact rank requirements.",
+      "conditions": [
+        "Check Void's debuff timer and retain control of the combo count.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "dust-platinum-pool-20261121-b7",
+      "attackerId": "dust",
+      "defenderId": "platinum-pool",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A player reports completing the Platinumpool Crucible encounter using Dust and identifies access to debuffs as helpful for the particular fight.",
+      "strategy": "Establish Dust's normal damage effects in safe openings and watch which debuffs the current node actually recognizes. Stay disciplined about special baiting so that the defender cannot build unchecked power.",
+      "risks": "This result belongs to a specific card-related Platinumpool encounter. The report gives a useful selection but does not prove every card combination is countered.",
+      "conditions": [
+        "Confirm the required debuff interaction and current card effects.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "photon-platinum-pool-20261121-b7",
+      "attackerId": "photon",
+      "defenderId": "platinum-pool",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Photon is listed against Platinumpool in two completed Act 7 Crucible route accounts, supporting a second conditional option for that quest fight.",
+      "strategy": "Develop Photon damage through safe contacts while monitoring whichever defensive card and debuff effects are present. Use a suitable special window rather than racing through uncertain node interactions.",
+      "risks": "The two reports name the selection without establishing a universal counter mechanism. Current card combinations and node effects may make the matchup less reliable.",
+      "conditions": [
+        "Confirm the relevant debuffs can land and check the defender's active cards.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "ronan-red-goblin-20261121-b7",
+      "attackerId": "ronan",
+      "defenderId": "red-goblin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "The cited completed Act 7 Crucible route selects Ronan for Red Goblin, giving a useful historical buff-dependent matchup to investigate.",
+      "strategy": "Look for the active defender buffs that support Ronan's awakened stun duration. Only attempt a repeat-special stun sequence if the actual duration and power cycle are sufficient.",
+      "risks": "A buff-heavy defender alone does not guarantee a permanent stun. Stun immunity, buff changes or insufficient signature potency can interrupt the entire plan.",
+      "conditions": [
+        "Awakening matters for the buff-dependent stun plan; verify signature scaling.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": true,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "dani-moonstar-taskmaster-20261121-b7",
+      "attackerId": "dani-moonstar",
+      "defenderId": "taskmaster",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Dani Moonstar is listed for Taskmaster in the player's completed second Crucible route, providing a conditional roster option rather than a guaranteed mechanic shutdown.",
+      "strategy": "Use varied, safe attacks and build Dani's normal damage without overcommitting to repeated debuffs. Notice when Taskmaster's defensive adaptation starts to interfere with the intended effect.",
+      "risks": "Taskmaster can develop resistance to repeated debuff effects and attack patterns. The route account gives no exact clear time or independent demonstration of a hard counter.",
+      "conditions": [
+        "Check adaptation and current debuff application before spending a special.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "mole-man-hulk-immortal-20261121-b7",
+      "attackerId": "mole-man",
+      "defenderId": "hulk-immortal",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Two Act 7 completion accounts name Mole Man for Immortal Hulk. These are quest roster results, not proof that he bypasses Immortality itself.",
+      "strategy": "Build damage carefully and plan sufficient health and spacing to survive the defender's Immortality window. Pause when safe rather than forcing a damage rotation into an unkillable opponent.",
+      "risks": "Mole Man is not shown by these reports to suppress Immortal Hulk's survival effect. The specific quest's threat and his own Frenzy state can change the fight.",
+      "conditions": [
+        "Watch the defender's Immortality and current health state.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "the-destroyer-cosmic-ghost-rider-20261121-b7",
+      "attackerId": "the-destroyer",
+      "defenderId": "cosmic-ghost-rider",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "One Act 7 Crucible completion account lists Destroyer against Cosmic Ghost Rider. The historical Mystic pick is a conditional approach to the Cosmic defender's buffs.",
+      "strategy": "Look for safe entries and track Cosmic Ghost Rider's buffs before spending damage specials. Keep enough space to dodge specials and do not rush into a dangerous Judgment sequence.",
+      "risks": "The source does not establish a full buff lock or an ability to prevent every Judgment interaction. The quest restrictions and current defender may differ.",
+      "conditions": [
+        "Inspect the defender's buffs and Judgment state before engaging.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "omega-sentinel-old-man-logan-20261121-b7",
+      "attackerId": "omega-sentinel",
+      "defenderId": "old-man-logan",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "The player route account selects Omega Sentinel for the Old Man Logan placement, offering a recorded quest choice against his regeneration-related defense.",
+      "strategy": "Choose a useful debuff rotation and check whether any healing-control effect actually applies before relying on it. Keep power and defensive Fury buildup under control during safe attack windows.",
+      "risks": "The source does not specify a permanent Heal Block interaction or exact encounter execution. Old Man Logan's current regeneration and node rules may require another approach.",
+      "conditions": [
+        "Observe regeneration and the active debuff effects.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "magneto-spider-man-stark-enhanced-20261121-b7",
+      "attackerId": "magneto",
+      "defenderId": "spider-man-stark-enhanced",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A completed Act 7 Crucible route lists red Magneto for Stark Enhanced Spider-Man. His conditional Metal interaction is the relevant matchup feature to investigate.",
+      "strategy": "Confirm Magnetism is present and check whether the defender is still evading. Use safe heavy openings to build Prowess, and avoid attacking through an active Evade condition without verified protection.",
+      "risks": "The roster choice alone does not establish complete Evade suppression. Defender tags, ability-accuracy resistance and seasonal node changes can alter the interaction.",
+      "conditions": [
+        "Confirm the Metal tag and Magnetism's current effect.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "onslaught-spider-man-stealth-suit-20261121-b7",
+      "attackerId": "onslaught",
+      "defenderId": "spider-man-stealth-suit",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Two completed route descriptions name Onslaught for the Stealth-Suit Spider-Man encounter, supporting a damage-oriented option for that specific quest.",
+      "strategy": "Build Onslaught's damaging effects during deliberate openings and maintain safe spacing for defender specials. Watch Evade and cartridge-related defensive effects before extending combinations.",
+      "risks": "The completion reports do not show universal Evade immunity or establish that the same rotation will work on unrelated nodes. Current debuff restrictions may affect damage.",
+      "conditions": [
+        "Check the current Evade condition and damage effect application.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "america-chavez-doctor-strange-20261121-b7",
+      "attackerId": "america-chavez",
+      "defenderId": "doctor-strange",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "A completed Crucible route includes America Chavez for Doctor Strange. Her damage-focused approach is a plausible alternative when preparing that historical quest encounter.",
+      "strategy": "Set up Chavez's dimensions through safe heavy and special opportunities while tracking Strange's rotating defensive abilities. Avoid extending a special cycle into unexpected power gain.",
+      "risks": "This is a quest roster observation, not direct proof that Chavez disables every blessing or buff interaction. Doctor Strange's current kit and nodes must be considered.",
+      "conditions": [
+        "Read the current blessing and power conditions before committing.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "titania-sorcerer-supreme-20261121-b7",
+      "attackerId": "titania",
+      "defenderId": "sorcerer-supreme",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Two player route accounts identify Titania for Sorcerer Supreme in Act 7 Crucible. Buff-independent pressure is a useful candidate for this Mystic placement.",
+      "strategy": "Build a controlled Haymaker window and use it to develop damage rather than push the defender to unexpected power. Monitor the current blessing effects and bait specials.",
+      "risks": "Buff immunity is not blanket immunity to Sorcerer Supreme's Slow, healing or other effects. These reports concern a specific old quest placement.",
+      "conditions": [
+        "Confirm active blessings, special timing and Haymaker state.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "storm-pyramid-x-elsa-bloodstone-20261121-b7",
+      "attackerId": "storm-pyramid-x",
+      "defenderId": "elsa-bloodstone",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "An Act 7 Crucible route report gives Storm (Pyramid X) as its Elsa Bloodstone attacker, supporting a conditional class-advantage damage pick.",
+      "strategy": "Use safe Prowess-building opportunities and plan damage specials around Elsa's recovery. Watch any debuff purification or dodge effects before relying on repeated attack patterns.",
+      "risks": "The reported selection gives no proof of immunity to all of Elsa's defensive effects. Seasonal debuff and purification rules could disrupt the intended rotation.",
+      "conditions": [
+        "Verify the current defender purify and evade interactions.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "doctor-doom-cable-20261121-b7",
+      "attackerId": "doctor-doom",
+      "defenderId": "cable",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7",
+        "run2-20261121-b7"
+      ],
+      "score": 2,
+      "why": "Two player completion accounts select Doctor Doom for the Cable placement in Act 7 Crucible, giving a historical power-control-oriented option.",
+      "strategy": "Keep Cable's power predictable with safe openings and Doom's available control effects. Check regeneration and avoid applying effects that could trigger Cable's defensive response.",
+      "risks": "The route accounts do not demonstrate a universal power lock or complete regeneration suppression. Additional nodes or changed abilities may invalidate the approach.",
+      "conditions": [
+        "Confirm which power effects and damaging debuffs are permitted.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "serpent-kang-20261121-b7",
+      "attackerId": "serpent",
+      "defenderId": "kang",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "The completed Act 7 Crucible route names Serpent for Kang, giving a reported Cosmic option for the ordinary Kang champion encounter.",
+      "strategy": "Watch Kang's power and use reliable attacks to build Serpent's offensive state. Bait manageable specials and only spend power when current encounter rules allow damage.",
+      "risks": "This is not a recommendation for a distinct Kang story boss, whose special phase rules differ. It is limited to the cited Crucible champion placement.",
+      "conditions": [
+        "Verify the target is ordinary Kang, not a story-boss variant.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
+    },
+    {
+      "id": "archangel-yellow-jacket-20261121-b7",
+      "attackerId": "archangel",
+      "defenderId": "yellow-jacket",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "run1-20261121-b7"
+      ],
+      "score": 2,
+      "why": "An Act 7 Crucible completion report identifies Archangel for Yellowjacket, supporting a conditional debuff-based damage alternative.",
+      "strategy": "Check whether Bleed and Poison are permitted, then build Neurotoxins in controlled heavy openings. Keep enough space to manage specials and avoid unnecessary power sting triggers.",
+      "risks": "The source does not prove that Neurotoxin suppresses every Yellowjacket interaction. Debuff immunities, power-sting triggers and node rules can make this unsuitable.",
+      "conditions": [
+        "Confirm both damage debuffs can apply and check current power stings.",
+        "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
+        "Check current awakening, actual node rules and game version; no independent current-build gameplay test is claimed."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-21",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditional player-reported selection or suggested matchup; strategy is editorial analysis, not independent gameplay validation."
     },
     {
       "id": "venom-maestro",

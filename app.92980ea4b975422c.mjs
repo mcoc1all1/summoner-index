@@ -403,18 +403,18 @@ new MutationObserver(records=>{
 }).observe(document.body,{childList:true,subtree:true});
 counterEvidenceScreen.addEventListener('change',()=>syncCounterEvidence(document));
 
-import {mountLoadouts} from './loadouts.1de469b3120fcac6.mjs';
-import {mountRoster,readRoster} from './roster.1de469b3120fcac6.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.1de469b3120fcac6.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.1de469b3120fcac6.mjs';
+import {mountLoadouts} from './loadouts.92980ea4b975422c.mjs';
+import {mountRoster,readRoster} from './roster.92980ea4b975422c.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.92980ea4b975422c.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.92980ea4b975422c.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.1de469b3120fcac6.json',roster:'/catalog-roster.1de469b3120fcac6.json',champions:'/catalog-champions.1de469b3120fcac6.json',
- search:'/catalog-search.1de469b3120fcac6.json',counters:'/catalog-counters.1de469b3120fcac6.json',
- compare:'/catalog-compare.1de469b3120fcac6.json',loadouts:'/catalog-loadouts.1de469b3120fcac6.json',full:'/catalog.1de469b3120fcac6.json'
+ finder:'/catalog-finder.92980ea4b975422c.json',roster:'/catalog-roster.92980ea4b975422c.json',champions:'/catalog-champions.92980ea4b975422c.json',
+ search:'/catalog-search.92980ea4b975422c.json',counters:'/catalog-counters.92980ea4b975422c.json',
+ compare:'/catalog-compare.92980ea4b975422c.json',loadouts:'/catalog-loadouts.92980ea4b975422c.json',full:'/catalog.92980ea4b975422c.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -673,7 +673,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.1de469b3120fcac6.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.92980ea4b975422c.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 
