@@ -1297,3 +1297,10 @@ body[data-page="/twitch-drops"] :is(a,summary):focus-visible{outline:2px solid #
   flex-direction:column;align-items:center;gap:5px
  }
 }
+
+/* Keep substantive SEO landing guidance after the interactive champion list.
+   The mobile directory uses explicit flex ordering; an unclassified direct
+   child would otherwise jump before the search and push results off screen. */
+@media(max-width:800px){
+ body[data-page="/champions"] main#main>.search-landing-guidance{order:12}
+}
