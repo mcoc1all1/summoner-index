@@ -403,18 +403,18 @@ new MutationObserver(records=>{
 }).observe(document.body,{childList:true,subtree:true});
 counterEvidenceScreen.addEventListener('change',()=>syncCounterEvidence(document));
 
-import {mountLoadouts} from './loadouts.691374f317aea18c.mjs';
-import {mountRoster,readRoster} from './roster.691374f317aea18c.mjs';
-import {search,escapeHtml as e,validate,getCounters} from './domain.691374f317aea18c.mjs';
-import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.691374f317aea18c.mjs';
+import {mountLoadouts} from './loadouts.bfbb5c36e708fde9.mjs';
+import {mountRoster,readRoster} from './roster.bfbb5c36e708fde9.mjs';
+import {search,escapeHtml as e,validate,getCounters} from './domain.bfbb5c36e708fde9.mjs';
+import {championCard,counterResults,groupedCounterResults,compareTable,avatar} from './components.bfbb5c36e708fde9.mjs';
 const $=s=>document.querySelector(s);
 const catalogSelectors=['#research-rows','#finder','#champ-results','[data-boss-counters]','#counter-results','#compare-controls','#global-query','#content-editor','#roster-manager','#loadout-query','#saved-results'];
 const needsCatalog=catalogSelectors.some(selector=>document.querySelector(selector));
 // These literal URLs are rewritten to content-hashed assets at build time.
 const catalogs={
- finder:'/catalog-finder.691374f317aea18c.json',roster:'/catalog-roster.691374f317aea18c.json',champions:'/catalog-champions.691374f317aea18c.json',
- search:'/catalog-search.691374f317aea18c.json',counters:'/catalog-counters.691374f317aea18c.json',
- compare:'/catalog-compare.691374f317aea18c.json',loadouts:'/catalog-loadouts.691374f317aea18c.json',full:'/catalog.691374f317aea18c.json'
+ finder:'/catalog-finder.bfbb5c36e708fde9.json',roster:'/catalog-roster.bfbb5c36e708fde9.json',champions:'/catalog-champions.bfbb5c36e708fde9.json',
+ search:'/catalog-search.bfbb5c36e708fde9.json',counters:'/catalog-counters.bfbb5c36e708fde9.json',
+ compare:'/catalog-compare.bfbb5c36e708fde9.json',loadouts:'/catalog-loadouts.bfbb5c36e708fde9.json',full:'/catalog.bfbb5c36e708fde9.json'
 };
 function catalogForPage(){
  if(route==='/'||route==='/counters')return 'finder';
@@ -473,10 +473,33 @@ if(db){
  for(const host of document.querySelectorAll('[data-boss-counters]'))host.innerHTML=groupedCounterResults(db,host.dataset.bossCounters,'questing',readRoster(db).champions);
  const finder=$('#finder');
  if(finder){
-  const choices=[...$('#opponent').options].map(o=>({id:o.value,label:o.textContent}));
-  $('#opponent-query')?.addEventListener('input',event=>{const q=event.target.value.toLowerCase(),previous=$('#opponent').value,matched=choices.filter(o=>o.label.toLowerCase().includes(q));$('#opponent').innerHTML=matched.map(o=>'<option value="'+e(o.id)+'">'+e(o.label)+'</option>').join('');if(matched.some(o=>o.id===previous))$('#opponent').value=previous;finder.querySelector('button').disabled=!matched.length;$('#opponent-status').textContent=matched.length+' opponents match';});
+  const choices=[...$('#opponent').options].map(o=>({id:o.value,label:o.textContent,research:o.parentElement.tagName==='OPTGROUP'&&o.parentElement.label.startsWith('Research only')}));
+  const matchingOptions=(matched)=>[false,true].map(research=>{
+   const items=matched.filter(o=>o.research===research);
+   if(!items.length)return '';
+   const label=research?'Research only — no named counters yet':'Source-linked counter ideas';
+   return '<optgroup label="'+e(label)+'">'+items.map(o=>'<option value="'+e(o.id)+'">'+e(o.label)+'</option>').join('')+'</optgroup>';
+  }).join('');
+  const syncFinderChoice=()=>{
+   const selected=choices.find(o=>o.id===$('#opponent').value);
+   finder.querySelector('button').disabled=!selected;
+   finder.querySelector('button').textContent=selected?.research?'Explore mechanic notes →':'Find my counters →';
+   const status=$('#opponent-status');
+   if(status)status.textContent=selected?.research?'Research only: no named counters yet.':'Choose an opponent with source-linked matchup ideas.';
+  };
+  $('#opponent-query')?.addEventListener('input',event=>{
+   const q=event.target.value.trim().toLowerCase(),previous=$('#opponent').value;
+   const matched=choices.filter(o=>o.label.toLowerCase().includes(q));
+   $('#opponent').innerHTML=matchingOptions(matched);
+   if(matched.some(o=>o.id===previous))$('#opponent').value=previous;
+   syncFinderChoice();
+   const status=$('#opponent-status');
+   if(status)status.textContent=matched.length?matched.length+' opponents match'+(choices.find(o=>o.id===$('#opponent').value)?.research?' · selected: research only':''):'No matching opponents';
+  });
+  $('#opponent').addEventListener('change',syncFinderChoice);
   if(db.champions.some(c=>c.id===params.get('opponent'))||db.bosses.some(c=>c.id===params.get('opponent')))$('#opponent').value=params.get('opponent');
   if(db.gameModes.some(m=>m.id===params.get('mode')))$('#mode').value=params.get('mode');
+  syncFinderChoice();
   finder.addEventListener('submit',event=>{event.preventDefault();track('counter_search',{opponent:$('#opponent').value,mode:$('#mode').value});location.href=`${base}/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`;});
   if(route==='/counters'&&params.has('opponent'))location.replace(`${base}/counters/${$('#opponent').value}${$('#mode').value?'?mode='+$('#mode').value:''}`);
  }
@@ -673,7 +696,7 @@ if(db){
   $('#validate-content').onclick=check;$('#reset-content').onclick=()=>{editor.value=JSON.stringify(db,null,2);$('#validation-results').textContent='Published content reloaded.';};
   $('#download-content').onclick=()=>{const data=check();if(!data)return;const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='catalog.candidate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  }
- if($('#content-editor')){try{const {mountEditor}=await import('./editor.691374f317aea18c.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
+ if($('#content-editor')){try{const {mountEditor}=await import('./editor.bfbb5c36e708fde9.mjs');mountEditor(db,toast);}catch{toast('The editor could not load. Refresh to retry.');}}
 }else if(needsCatalog)toast('Interactive content could not load. Refresh to retry; reference pages remain readable.');
 if($('#clear-storage'))$('#clear-storage').onclick=()=>{try{localStorage.removeItem('fieldguide:saved');toast('Saved champions cleared');}catch{toast('Browser storage could not be cleared');}};
 

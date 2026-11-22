@@ -76267,9 +76267,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "Luke Cage's Bleed immunity is useful for the movement-triggered damage in this encounter. The player reports successfully using an unawakened Luke in the Legendary Crucible.",
-      "strategy": "Retreat when needed without accumulating Bleed from the Caltrops node. Keep Hood near his first special and reserve your next entry for when his invisibility is absent or safe to play around.",
-      "risks": "Bleed immunity addresses Caltrops rather than Hood's entire kit. Hex damage, power changes and Miss still affect Luke, particularly if the fight differs from the cited quest.",
+      "why": "Luke Cage is a candidate for the Act 8 Crucible Hood encounter because the Caltrops hazard tests Bleed protection. A player reports a clear with an unawakened Luke.",
+      "strategy": "Treat spacing as a resource: choose a retreat when the alternative is an unsafe block or an attack into Miss. Before trying to punish, confirm Hood's invisibility can no longer interfere with the intended hit.",
+      "risks": "This does not establish Luke as a general Hood counter. Caltrops is a quest condition, while Hex and Miss need separate answers; the cited result is one player's historical run.",
       "conditions": [
         "Check Caltrops and avoid attacking into Hood's active invisibility.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76302,9 +76302,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A Legendary Crucible player reports a clear using Prowler's Incinerate setup to manage a Stryfe fight with restrictions on Rupture damage.",
-      "strategy": "Secure the opening heavy and confirm Incinerate is applied before investing in the next damage cycle. Monitor both the encounter's Rupture threat and Stryfe's invisibility.",
-      "risks": "The reported attacker was highly ranked and awakened. Incinerate restrictions or the absence of the Crucible node can alter this rotation, and Rupture alone is not suitable here.",
+      "why": "Prowler's usefulness in the reported Act 8 Stryfe encounter is tied to its node-dependent damage conversion. The recorded roster selection was a highly invested Prowler.",
+      "strategy": "Read the node and verify the Incinerate applied through the opening heavy before choosing a damage cycle. If Rupture damage remains ineffective, evaluate whether the encounter's alternative damage trigger is actually available.",
+      "risks": "The report does not establish that Prowler's ordinary Rupture rotation beats Stryfe in unrelated fights. Incinerate application and the encounter's damage rules are essential.",
       "conditions": [
         "Confirm that the fight uses the cited chapter's Incinerate interaction.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76372,9 +76372,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A reported Legendary Crucible clear uses Knull to remove War Machine's armor buildup, reducing the armor-related punishment in the encounter.",
-      "strategy": "Prioritize safe heavy opportunities and establish Living Abyss before approaching corruption. Once the defender's armor count is controlled, spend your damage window while continuing to manage his specials.",
-      "risks": "Reverberation and other node-based damage may remain if armor control fails. This is a report from a particular War Machine quest placement, not a universal bypass.",
+      "why": "The relevant selection criterion for this War Machine encounter is an attacker who can interrupt the armor state responsible for return damage. Knull is a player-reported example.",
+      "strategy": "Before spending a special, assess whether your hits are causing return damage. Use a safe armor-control window to establish Knull's resources, and check whether the actual armor count falls when corruption becomes active.",
+      "risks": "The original quest report is not evidence against every type of damage reflection. Different armor immunities or nodes can prevent the interaction even when Knull's usual damage setup is available.",
       "conditions": [
         "Check armor status and any reflection node before attacking.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76442,9 +76442,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A player reports completing this Crucible Black Panther fight using Odin's buffs and special-based access to an accuracy effect to help manage defensive blocking.",
-      "strategy": "Build to Odin's first special while avoiding unnecessary contact with the defender's block. Use the active accuracy window to attack, and avoid Parry when the reflection effect is active.",
-      "risks": "This was reported as a close clear, not an effortless solution. Reflective effects, Cleanse and the specific armor-related node can all disrupt ordinary combinations.",
+      "why": "This Act 8 placement combines defensive blocking with a punishing reflection state. The historical Odin clear was close, so treat it as a conditional option rather than a preferred effortless counter.",
+      "strategy": "Check Odin's True Strike after an appropriate activation and distinguish his available armor buffs from his accuracy tool. If the defender's reflective state is live, wait for a clean recovery rather than attempting another Parry.",
+      "risks": "A successful fight does not show that True Strike removes reflection or Cleanse. The published account explicitly indicates a narrow finish, and suitability depends on the player's setup.",
       "conditions": [
         "Verify the relevant accuracy buff and reflective matrix before entering.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76512,9 +76512,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A Legendary Crucible player reports a solo with Hulk, using his Poison immunity and burst damage to manage the Diablo encounter's hazards.",
-      "strategy": "Avoid attacking into the opening Unblockable period. After a special, look for a safe heavy punish to address the encounter's temporary Unstoppable before returning to Hulk's normal damage cycle.",
-      "risks": "Poison immunity does not prevent Diablo's healing or every defensive effect. This reported fight used a particular set of nodes that may not recur elsewhere.",
+      "why": "Hulk can address the Poison aspect of this Act 8 Diablo placement; the cited player reports completing it without a death. The encounter's separate protection effects require different actions.",
+      "strategy": "Separate the damage plan from the safety plan. When the encounter grants Unstoppable after a special, verify that a knockdown removes it before attempting Hulk's longer offensive sequence.",
+      "risks": "The reported clear is not proof of immunity to Diablo's healing, direct damage or all node effects. If the knockdown interaction is absent, choose a different approach for that fight.",
       "conditions": [
         "Confirm the post-special knockdown interaction in the cited fight.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76582,9 +76582,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "An awakened Angela was used successfully in the reported Crucible Psycho-Man matchup; her buff-dependent defensive ability-accuracy interaction is the relevant Auto-Block option.",
-      "strategy": "Maintain sufficient buffs to support the signature-based interaction and avoid reckless attacks into the defender's block. Check the current Control Box state before choosing how to enter.",
-      "risks": "The cited Angela was signature 80, not a proof that every lower signature level will work. Buff removal or increased defensive ability accuracy can change the result.",
+      "why": "Angela is a historical option for the Act 8 Psycho-Man placement when awakened and sufficiently buffed. The source reports a successful fight using a signature-80 Angela.",
+      "strategy": "Before committing to a full combo, check the number of active buffs and the signature's Auto-Block ability-accuracy reduction. If the required reduction is uncertain, use a short safe punish instead.",
+      "risks": "A particular signature-80 result is not a minimum signature recommendation. Increased defensive ability accuracy or loss of buffs can leave Auto-Block effective.",
       "conditions": [
         "Awakening and adequate active buffs are important; inspect the signature scaling.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76617,9 +76617,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A reported solo against the Crucible Corvus encounter highlights Shathra's Atrophy as a useful response to the buffs generated by Footloose.",
-      "strategy": "Set up the first special's buff-duration control before committing to prolonged pressure. Build her wasp resources in safe openings, then use a damage special when the defender is vulnerable.",
-      "risks": "Atrophy is not unconditional immunity to Evade or Unstoppable. The published result is specific to a Footloose encounter and depends on effects being applied.",
+      "why": "For Corvus with Footloose, the practical question is whether the attacker's buff-duration control leaves a real punish window. A historical player clear identifies Shathra as one such option.",
+      "strategy": "After applying Atrophy, watch the actual time remaining on the defensive buffs following a Corvus special. Only commit to the next heavy or damage sequence once a safe opening is clear.",
+      "risks": "Do not treat Atrophy as immediate removal or universal Evade immunity. The available window depends on the encounter and the duration-control effects that are active.",
       "conditions": [
         "Confirm the Footloose node and active Atrophy duration.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76652,9 +76652,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "The player describes using Absorbing Man's Magma pre-fight in the Legendary Crucible Proxima encounter to avoid the relevant Coldsnap hazard.",
-      "strategy": "Choose Magma before entering and plan the fight around its active duration. Respect the ebb-and-flow protection window, using safe transitions and knockdowns to establish damage.",
-      "risks": "Magma availability and maintenance are essential to this approach. Other Proxima variants may have different nodes, and her defensive effects are not all disabled.",
+      "why": "A player completing the Act 8 Proxima fight selected Absorbing Man's Magma form to address Coldsnap. The defensive protection node is a separate part of this encounter.",
+      "strategy": "Plan the form and protection windows together: confirm Magma remains active before exposing yourself to Coldsnap, then perform the encounter's required action before investing in damage.",
+      "risks": "A successful Magma selection does not establish a universal Proxima counter. A lost form or a changed protection rule can invalidate the reported approach.",
       "conditions": [
         "Select Magma and read the current protection-removal condition.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76688,9 +76688,9 @@
         "crucible-discussion-20261121-b6"
       ],
       "score": 2,
-      "why": "The first-hand Crucible account describes a debuff-heavy approach with Spider-Ham, matching a separate chapter-specific discussion that also suggests him for this Wasp encounter.",
-      "strategy": "Build the relevant node charges with controlled debuff applications, then bait a defender special. Only continue sustained basic attacks when the node's Coldsnap effect is actually suppressing Evade.",
-      "risks": "The Coldsnap interaction belongs to this quest encounter, not Spider-Ham's universal kit. If the node does not trigger, Wasp can still evade and punish contact.",
+      "why": "The historical Wasp encounter rewards debuff application with access to a node-generated answer to Evade. Spider-Ham is a reported roster choice for this specific fight.",
+      "strategy": "Treat the node's charge and Coldsnap indicators as separate checks. If Wasp has not gained Coldsnap yet, use a single safe punish instead of extending a multi-hit combo.",
+      "risks": "The Coldsnap is provided by this encounter, not Spider-Ham's ordinary kit. Do not infer that the same attacker will suppress Wasp's Evade in other modes.",
       "conditions": [
         "Verify the required charge threshold and Coldsnap status.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76758,9 +76758,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A Legendary Crucible player reports a solo against original Vision with Serpent, citing the accuracy interaction after his special and the opponent's armor-related damage opportunity.",
-      "strategy": "Use a safe first special to activate the relevant accuracy utility, then prepare damage specials while tracking Vision's power gain. Vary your approach if the encounter's Miss rule is still active.",
-      "risks": "Vision's Synthesis can create sudden power pressure. This interaction is scoped to the cited Tunnel Vision encounter and assumes Serpent's relevant effect is active.",
+      "why": "A player reports using The Serpent against the Act 8 Vision placement. The reliable selection question here is whether the attacker can manage the quest's Miss rule without losing control of Vision's power.",
+      "strategy": "Before using an extended combo, verify that the relevant accuracy effect has activated. If Vision's power rises unexpectedly, reset the attack plan and create a safe special-baiting window.",
+      "risks": "The source describes a specific Tunnel Vision placement rather than proving that every Vision defender or node responds identically. Synthesis can still create dangerous power pressure.",
       "conditions": [
         "Check Tunnel Vision, current accuracy utility and Vision's power.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -76793,9 +76793,9 @@
         "crucible-firsthand-20261121-b6"
       ],
       "score": 2,
-      "why": "A player reports that Hyperion's offensive buffs combined effectively with the Cosmic-specific interaction in the Legendary Crucible Sigil Witch fight.",
-      "strategy": "Watch the opening created by the defender's special and build Furies with safe heavies. Use Hyperion's second special when the node's temporary buff protection is present.",
-      "risks": "This approach relies on the quest's Cosmic-specific buff interaction. Hyperion is not generally immune to Nullify, and Scarlet Witch's power can still become dangerous.",
+      "why": "The reported Sigil Witch encounter gives Cosmic attackers a situational advantage after her specials. Hyperion is an example of a champion who may benefit from that node, not a general Nullify answer.",
+      "strategy": "Inspect the actual protection effect after the defender throws a special. Use a short heavy opening to build offense only while the node permits, then reassess before committing power.",
+      "risks": "The node-dependent protection is not an unconditional part of Hyperion's kit. If it is absent or expires, the defender may interfere with the buff-based damage plan.",
       "conditions": [
         "Verify that the encounter grants the reported temporary protection.",
         "Applies specifically to the cited historical Act 8 Legendary Crucible encounter; do not extrapolate to other quest nodes, Battlegrounds or Alliance War.",
@@ -77319,9 +77319,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "A Crucible participant reports a relatively quick Gamora practice clear of the Yondu placement compared with their longer actual attempt using King Groot.",
-      "strategy": "Build Gamora's offensive buffs through controlled openings and take the defender's power into account before heavy attacks. Prioritize clean special punishes rather than relying on repeated blocked hits.",
-      "risks": "This is a historical practice-run result, not the same roster or health state as a normal Yondu fight. Yondu's ranged attacks and any node-related penalties remain relevant.",
+      "why": "The original Act 7 write-up distinguishes the actual Yondu fight (King Groot) from a faster practice attempt with Gamora. The latter is the evidence for this candidate.",
+      "strategy": "Decide whether you need a durable option or a short damage window. For Gamora, check that the current encounter allows offensive buff buildup and prioritize a clean punish before attempting a heavy.",
+      "risks": "This is a practice-run observation, not proof of a completed route fight with Gamora. The roster choice and damage pacing need to be checked against your own encounter.",
       "conditions": [
         "Check the actual encounter and Gamora's buff uptime.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -77494,9 +77494,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "A participant describing their Crucible route used Spider-Gwen against Claire Voyant; the matchup provides another reported option for planning this encounter.",
-      "strategy": "Use short, deliberate attacks to establish damage and manage distance before committing to a special. Do not intentionally rely on Evade as a substitute for learning the defender's special timing.",
-      "risks": "The completion list provides neither exact fight duration nor a hard-counter explanation. Claire's buff management or additional effects may make some usual Spider-Gwen tactics inappropriate.",
+      "why": "The thread author mentions Spider-Gwen in practice, and another contributor lists her in their completed route. The evidence supports a conditional option for this Claire Voyant placement.",
+      "strategy": "Determine the defender's current curse and whether the node permits your intended debuff or control effect. Commit to the special only after creating a verified opening rather than trusting the attacker's Evade.",
+      "risks": "The source supplies roster evidence, not a demonstrated counter mechanism or a measured clear time for Spider-Gwen. Buff control and curse effects still need to be handled.",
       "conditions": [
         "Inspect special and curse effects before attacking.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -77565,9 +77565,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "One player describes using Destroyer for the Venom fight in their Act 7 Crucible completion account, a useful alternate option when planning team usage.",
-      "strategy": "Use controlled openings to develop Destroyer's damage setup and inspect whether the defender's buffs support the desired interaction. Bait specials before a prolonged attack sequence.",
-      "risks": "The account does not establish that Destroyer suppresses every Venom buff or bypasses every defensive node. Attack timing and resource availability can alter the outcome.",
+      "why": "A player in the Act 7 discussion lists Destroyer for the Venom placement. The useful question for this candidate is whether current buff-related mechanics support the desired damage plan.",
+      "strategy": "Assess the active buffs and check what changes when the attacker establishes their damage setup. If the interaction does not occur, prioritize safe special punishes over an uninterrupted damage cycle.",
+      "risks": "The source records a roster pick, not specific buff removal or a validated rotation. Do not extrapolate from that placement to another Venom fight without reading its nodes.",
       "conditions": [
         "Confirm the relevant active buffs and encounter mechanics.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -77635,9 +77635,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "Another Act 7 completion report lists original Spider-Man as the attacker against Rhino, supporting a specific alternative when that quest route is being planned.",
-      "strategy": "Bait Rhino's dash and special attacks from controlled spacing. If the selected attacker's Slow is available, verify it is actually affecting the defensive mechanic before extending pressure.",
-      "risks": "A historical roster list does not confirm that Slow always works against Rhino or that the relevant current node permits it. Do not treat Evade as a guaranteed safety net.",
+      "why": "A contributor reports original Spider-Man for Rhino in their Act 7 route. This is historical roster evidence; the recommendation rests on checking the actual dash protection in your fight.",
+      "strategy": "Keep enough distance to react to a dash, and confirm any relevant anti-Unstoppable effect before intercepting. If it does not apply, rely on a clean special punish rather than forcing a hit.",
+      "risks": "The source does not demonstrate a permanent Slow interaction or establish that any ability from the present kit was used in the historical fight.",
       "conditions": [
         "Check Slow applicability and Unstoppable state.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -77810,9 +77810,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "A player gives a completed Guardian fight with Corvus in their Crucible write-up and highlights control of the armor and special attack interaction.",
-      "strategy": "Pay attention to Guardian's Armor Up before choosing a special. Apply Armor Break when viable, keep track of Corvus's charges, and exploit a verified opening for the damage special.",
-      "risks": "This particular run was not a high-health speed clear. Corvus's charges, armor interactions and the quest's own Power Shield condition can change whether the approach is efficient.",
+      "why": "A player reports completing the Act 7 Guardian fight with Corvus and notes that armor control was useful. They had to work through the defender's charges more than once.",
+      "strategy": "Check Guardian's armor and the conditions for blocking a special before committing limited Corvus charges. Establish a clean opening or reset when the protection state changes.",
+      "risks": "The report is a completed quest fight, not proof of an automatic win in BG or every Guardian node. The attacker's remaining charges may limit a repeat damage cycle.",
       "conditions": [
         "Verify armor status and special Auto-Block conditions.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -77915,9 +77915,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "A participant reports completing the Venom the Duck placement using Bullseye, with a relatively lengthy fight indicating that it is an option rather than an automatic fast clear.",
-      "strategy": "Build Bullseye's damage through deliberate attacks and try to obtain the intended precision windows. Track Venom the Duck's buff state and power, especially on a critical-hit damage node.",
-      "risks": "The reported clear required sustained play and the player noted limited experience with the attacker. A different buff or critical-hit rule could materially affect the result.",
+      "why": "The original Act 7 account describes a successful but lengthy Bullseye fight against Venom the Duck. The author also notes limited practice with the attacker.",
+      "strategy": "Use this as a backup roster option rather than a time-saving recommendation. Evaluate whether the encounter's critical-hit requirement is satisfied and reset if defensive buffs begin to disrupt the attack window.",
+      "risks": "The account is not a competitive speed benchmark. It gives no reason to assume that Bullseye will prevent the defender's buff buildup or repeat the same damage on unrelated nodes.",
       "conditions": [
         "Verify the node's critical-hit requirement and active buffs.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",
@@ -78090,9 +78090,9 @@
         "run2-20261121-b7"
       ],
       "score": 2,
-      "why": "One player sharing their completed Act 7 Crucible route lists Lady Deathstrike for Void, showing a usable historical choice for that encounter.",
-      "strategy": "Keep the combo count in view and plan attacks around clearing Void's Intimidating Presence debuffs. Use Deathstrike's damage setup without ignoring the need to deal with accumulating effects.",
-      "risks": "This roster choice is not evidence that Lady Deathstrike is immune to Void's damage or automatically cleanses every debuff. The account does not establish exact rank requirements.",
+      "why": "A commenter lists Lady Deathstrike against Void in a completed Act 7 route, without giving a detailed fight breakdown. The evidence supports a conditional roster choice only.",
+      "strategy": "Prioritize the encounter's debuff-removal and combo conditions ahead of special timing. If passive damage begins to exceed your safe damage window, change pace rather than extending a risky rotation.",
+      "risks": "The source does not demonstrate immunity to Intimidating Presence, automatic cleansing, a minimum rank or a particular clear time. Check the current node and your roster.",
       "conditions": [
         "Check Void's debuff timer and retain control of the combo count.",
         "Scope: cited historical Act 7 Crucible champion encounter, not unrelated quest nodes, Battlegrounds or Alliance War.",

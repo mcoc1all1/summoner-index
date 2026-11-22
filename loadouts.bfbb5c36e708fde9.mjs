@@ -1,6 +1,6 @@
-import {loadoutCoverage} from './loadout-coverage.691374f317aea18c.mjs';
-import {referenceLoadout} from './reference.691374f317aea18c.mjs';
-import {escapeHtml as e} from './domain.691374f317aea18c.mjs';
+import {loadoutCoverage} from './loadout-coverage.bfbb5c36e708fde9.mjs';
+import {referenceLoadout} from './reference.bfbb5c36e708fde9.mjs';
+import {escapeHtml as e} from './domain.bfbb5c36e708fde9.mjs';
 
 export const focusOptions=['Critical Rating','Critical Damage Rating','Special Damage','Armor Penetration','Block Penetration','Adrenaline','Armor Rating','Block Proficiency','Physical Resistance','Energy Resistance'];
 export const defenderFocusOptions=focusOptions.filter(x=>x!=='Adrenaline');
