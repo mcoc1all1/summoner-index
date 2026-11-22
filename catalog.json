@@ -7854,6 +7854,62 @@
       "checkedAt": "2026-11-22"
     },
     {
+      "id": "necd-20261122-b10",
+      "title": "Completed Necropolis path 5 guide: Deathless roster, specific fight outcomes and caveats",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/386959/guide-necro-path-5-red-goblin-with-the-deathless",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "nece-20261122-b10",
+      "title": "Necropolis exploration replies: named completed fights, reverse-control and right-side planning",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/393887/necropolis-exploration",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "nect-20261122-b10",
+      "title": "Completed Carina ten-year Necropolis right-side challenge with two player run reports and revive notes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/383522/completing-the-10-year-challenge-run-on-the-right-side-of-necro-a-writeup",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "necn-20261122-b10",
+      "title": "Deathless Necropolis path 4 player discussion and fight-by-fight retrospective",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/414197/taking-on-necro-path-4-with-deathless-team",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "necp-20261122-b10",
+      "title": "Right-side Necropolis team planning discussion, proposed picks distinguished from finishes",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399622/help-me-decide-my-4th-and-5th-champion-for-necropolis-red-goblin-into-mantis-paths",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "necs-20261122-b10",
+      "title": "Necropolis Sandman versus Knull planning and community matchup suggestions",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/399779/is-it-better-to-not-have-a-counter-for-necropolis-sandman-or-knull",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "neca-20261122-b10",
+      "title": "Adam Warlock defensive impressions including a proposed Longshot matchup",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/340381/is-adam-warlock-a-good-defender",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "necy-20261122-b10",
+      "title": "Necropolis exploration advice contrasting champion roles and conditional challenge runs",
+      "url": "https://forums.playcontestofchampions.com/en/discussion/403720/best-necropolis-exploration-champ-2025",
+      "kind": "community-report",
+      "checkedAt": "2026-11-22"
+    },
+    {
       "id": "immunity-index-bleed-2026-11",
       "title": "MCOC Bleed immunity index",
       "url": "https://mcoc.app/immunities/bleed",
@@ -79997,6 +80053,1336 @@
         "gameplayTested": false
       },
       "scoreReason": "Single forum source; conditional editorial guidance and unresolved matchup testing."
+    },
+    {
+      "id": "sentry-jubilee-20261122-b10",
+      "attackerId": "sentry",
+      "defenderId": "jubilee",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "The ten-year Carina run reports Sentry against Necropolis Jubilee, using Wither to restrain the defender's power gain and finishing with three revives.",
+      "strategy": "Use the early part of the fight to develop Sentry's Warps before counting on long Wither uptime. Check the power bar after each attack and avoid spending a special just as Jubilee's boon becomes active.",
+      "risks": "The author needed several revives and notes that Wither cannot be maintained reliably during the first few Warps; this does not prove a clean solo or utility outside this lane.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "hulkbuster-jubilee-20261122-b10",
+      "attackerId": "hulkbuster",
+      "defenderId": "jubilee",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A second completed ten-year-challenge report lists Hulkbuster for the same Necropolis Jubilee placement and records four revives, rather than a perfect fight.",
+      "strategy": "Build toward Hulkbuster's controlled special rhythm and bait an attack before committing to a heavy. Track the trap node's power-rate penalty and preserve a reliable way to interrupt Jubilee's power.",
+      "risks": "The alternative report used a different roster and still needed multiple revives; the source does not establish this as a universal Jubilee answer or a reliable one-attempt win.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "count-nefaria-jubilee-20261122-b10",
+      "attackerId": "count-nefaria",
+      "defenderId": "jubilee",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis explorer says Count Nefaria handled Jubilee and the neighboring Diablo placement on the completed path, offering a different option from the Carina-limited teams.",
+      "strategy": "Check the exact Jubilee lane and the defender's power-generation windows. Build Nefaria's effects without trading away health for a long ramp, and switch to a special punish when the node grants an opening.",
+      "risks": "The report does not include the rank, revive count or stepwise fight details for Jubilee. It is a player-tested lane choice, not independent verification by Summoner Index.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "guillotine-deathless-squirrel-girl-20261122-b10",
+      "attackerId": "guillotine-deathless",
+      "defenderId": "squirrel-girl",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Deathless Necropolis path 5 completion used Guillotine against Squirrel Girl, noting that removing Tippy promptly mattered more than squeezing in long combos.",
+      "strategy": "Hold a special if the defender's Tippy timer is close to an unsafe threshold. Recover from the heavy or special opening, remove the nuisance effect, then resume normal damage instead of parry-heavy autopilot.",
+      "risks": "The path has a separate power-detonation hazard, and the writer reports that small errors cost revives. This advice is not a general Squirrel Girl arena or Battlegrounds rotation.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "thanos-deathless-squirrel-girl-20261122-b10",
+      "attackerId": "thanos-deathless",
+      "defenderId": "squirrel-girl",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "The same completed Deathless path guide describes Thanos as a viable alternative to Guillotine for Necropolis Squirrel Girl, with a specific power-detonation plan.",
+      "strategy": "Plan an early Special 3 when the node's power-detonation timer would otherwise punish a long build. Carefully manage Tippy using permitted heavy openings, and confirm your Corrode setup is actually active.",
+      "risks": "The author treats the fight as feasible rather than a guaranteed solo. This approach depends on Deathless Thanos's ramp and Necropolis node timing, not ordinary Squirrel Girl defense.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-squirrel-girl-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "squirrel-girl",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A player who recently explored Necropolis says Onslaught handled Squirrel Girl among several reverse-controls-path encounters, using Degeneration and heavy punishes.",
+      "strategy": "Prefer consistent parry-heavy or special-recovery punish windows once the defender's mechanics permit them. Avoid an unneeded long combo during reverse-controls pressure and let Degeneration contribute between openings.",
+      "risks": "The account describes a broad successful path rather than a detailed Squirrel Girl solo. Reverse controls, Tippy and the chosen lane may demand different execution than other versions.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "wong-squirrel-girl-20261122-b10",
+      "attackerId": "wong",
+      "defenderId": "squirrel-girl",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed Carina ten-year challenge uses Wong for Necropolis Squirrel Girl; two reports include one-revive and four-revive finishes with attention to Tippy and Rupture.",
+      "strategy": "Use well-timed Wong specials to keep Tippy under control while maintaining useful spell effects. Review Rupture exposure before pursuing extra healing or a longer special-attack rotation.",
+      "risks": "Two recorded attempts needed different revive totals, so the approach is not a deterministic result. The cited fight is under ten-year challenge restrictions and Necropolis nodes.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "vision-deathless-silver-centurion-20261122-b10",
+      "attackerId": "vision-deathless",
+      "defenderId": "silver-centurion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Deathless path 5 run reports that Deathless Vision made Necropolis Silver Centurion comparatively manageable through power burn and rapid phase-charge access.",
+      "strategy": "Watch Silver Centurion's next power threshold and land Vision's Special 1 after the defender reaches a bar when practical. Keep enough power for the node's detonation countdown and do not over-block.",
+      "risks": "This is a favorable firsthand roster report, not a documented current-client repeat test. Phase access, power control and challenge synergies may change the matchup.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "hulkbuster-silver-centurion-20261122-b10",
+      "attackerId": "hulkbuster",
+      "defenderId": "silver-centurion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "Two completed Necropolis ten-year challenge reports used Hulkbuster on Silver Centurion, each requiring four revives despite the intended power-control utility.",
+      "strategy": "Use Hulkbuster's Special 2 or a compatible force-block setup to limit enemy power. If the lane reduces your combat power rate, deliberately reserve a special for the node timer instead of rushing damage.",
+      "risks": "Both reports show this as workable but resource-intensive. The trap's Stifle and Silver Centurion's defenses can slow down the cycle and prevent an efficient clear.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "aegon-silver-centurion-20261122-b10",
+      "attackerId": "aegon",
+      "defenderId": "silver-centurion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis exploration account reports using a ramped Aegon for the frustrating Silver Centurion and Spider-Man 2099 encounters, rather than claiming an easy solo.",
+      "strategy": "Only choose Aegon here with an adequately prepared combo bank and resources for a long fight. Use openings after specials to protect combo continuity and recheck the lane's power-detonation mechanics.",
+      "risks": "The source reports use of Aegon but supplies no precise Silver Centurion revive count. He is an expensive long-form fallback, not a top timed arena recommendation.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "kate-bishop-silver-centurion-20261122-b10",
+      "attackerId": "kate-bishop",
+      "defenderId": "silver-centurion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necp-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A right-side Necropolis planning conversation proposes Kate Bishop as a difficult Silver Centurion fallback using ongoing Coldsnap and special baiting.",
+      "strategy": "When Lock-On and other defensive effects permit it, bait a special and maintain Kate's Coldsnap without committing to excessive hits. Prioritize a reliable special response over a perfect arrow rotation.",
+      "risks": "This is a forum suggestion, not a reported completed fight. The commenter specifically calls it less ideal than dedicated power control; treat viability and timer as unconfirmed.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "ant-man-future-silver-centurion-20261122-b10",
+      "attackerId": "ant-man-future",
+      "defenderId": "silver-centurion",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necy-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis exploration adviser identifies Future Ant-Man as a strong option for Silver Centurion within a specific Carina challenge, but does not describe a completed fight.",
+      "strategy": "Use the normal control and defensive tools only when the current node supports them; check how the defender gains power and whether Nano Armor changes the planned attack window.",
+      "risks": "The forum post is planning advice, not a documented finish. Avoid assuming that a particular challenge roster or node allows an easy Future Ant-Man clear.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "cheeilth-spider-man-2099-20261122-b10",
+      "attackerId": "cheeilth",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed ten-year challenge report used Chee'ilth on Necropolis Spider-Man 2099 and finished with one revive, emphasizing safe Special 1 Bleed pressure.",
+      "strategy": "Use Tranquilize when the node makes debuffs dangerous, then consider a Special 1 cycle while keeping the defender's power manageable. Punish a predictable Special 1 with a safe heavy rather than forcing an extended combo.",
+      "risks": "The successful attempt depended on the Necropolis power-gain interaction and careful special baiting. Do not extrapolate the revive count to other quests or game versions.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-spider-man-2099-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A player completing Necropolis's reverse-controls section reports that Onslaught covered Spider-Man 2099 with Degeneration and heavy-focused play.",
+      "strategy": "Avoid excessive basic contact if the lane punishes controls or forces missed attacks. Build Degeneration through controlled punishes and use the next opening to refresh effects before they expire.",
+      "risks": "The forum report groups several fights and does not give a separate Spider-Man 2099 revive tally. Exact damage reduction, reverse controls and node rules need verification.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "she-hulk-deathless-spider-man-2099-20261122-b10",
+      "attackerId": "she-hulk-deathless",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "In the Deathless path 5 account, Deathless She-Hulk was attempted against Spider-Man 2099, but the author struggled to remove his damage-reduction charges.",
+      "strategy": "Treat this as a conditional method, not a preferred easy answer. If you can safely interrupt the defender's heavy to clear his protection, then capitalize on She-Hulk's offensive windows; otherwise reassess.",
+      "risks": "The writer could not execute the needed heavy interruption and found damage poor. This is evidence of a difficult attempted counter, not proof of an effective finish.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "thanos-deathless-spider-man-2099-20261122-b10",
+      "attackerId": "thanos-deathless",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "The same Deathless run says the player switched much of the Spider-Man 2099 damage work to Deathless Thanos because the original She-Hulk plan stalled.",
+      "strategy": "Use Thanos's available damaging effects after confirming the defender's damage-reduction state. Avoid spending the whole ramp hitting into full protection; wait for a safer special or phase objective.",
+      "risks": "The report does not claim a solo or fully bypassed defensive charges. This is a route-specific fallback with considerable damage pacing and resource uncertainty.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "vox-spider-man-2099-20261122-b10",
+      "attackerId": "vox",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A second Carina ten-year run used Vox against Necropolis Spider-Man 2099 and reports ten revives, relying on Degeneration to bypass part of his resistance.",
+      "strategy": "Develop the necessary Degeneration effect while monitoring enemy Wither and power-gain behavior. Take short windows and avoid extending a combo when the defender's protection is about to become dangerous.",
+      "risks": "The firsthand run was very expensive at ten revives and the player described difficulty managing buffs and power. Label this as a challenge-restricted fallback, not a smooth default.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "aegon-spider-man-2099-20261122-b10",
+      "attackerId": "aegon",
+      "defenderId": "spider-man-2099",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis explorer reports selecting Aegon for Spider-Man 2099 because the fight was frustrating with other choices; details beyond the actual selection are limited.",
+      "strategy": "Use the choice only when the combo bank is already built and your revive budget accommodates long fights. Play to predictable special-recovery punishes and watch the defender's damage-reduction charges.",
+      "risks": "The source does not show a clean Spider-Man 2099 result or prove that Aegon neutralizes the resistance mechanic. It is a reported route choice, not a verified solution.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "thanos-deathless-sunspot-20261122-b10",
+      "attackerId": "thanos-deathless",
+      "defenderId": "sunspot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A finished Deathless path 5 guide credits Deathless Thanos's lasting Corrode effect with making the Necropolis Sunspot power-detonation timing easier.",
+      "strategy": "Try to establish Corrode through a safe Special 3 cycle before Sunspot's solar-flare effects disrupt special access. Pause damage when a Power Sting would make the next action dangerous.",
+      "risks": "The player still describes this as a difficult timer encounter. Corrode setup, power gain and the solar-flare phase cannot be assumed identical outside Necropolis.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-sunspot-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "sunspot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A recent Necropolis explorer lists Sunspot among the fights completed with Onslaught on the reverse-controls side, alongside Odin and Spider-Man 2099.",
+      "strategy": "Use Degeneration to maintain pressure while staying aware of solar-flare and power-sting windows. Prefer short heavy or special punish sequences rather than repeatedly triggering risky basic attacks.",
+      "risks": "The source confirms the player's broad path use, but gives no separate Sunspot solo result or exact rotation. The encounter can punish special use when charge states change.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "wong-sunspot-20261122-b10",
+      "attackerId": "wong",
+      "defenderId": "sunspot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed ten-year Carina run used Wong against Necropolis Sunspot and needed two revives after accounting for Nova Flame-related Power Stings.",
+      "strategy": "Refresh Wong's important spells just before Sunspot enters the dangerous charge phase, then give the defender an opportunity to use specials while effects are paused when appropriate.",
+      "risks": "Power Stings can overcome Wong's regeneration if you play greedily. The two-revive historical finish depends on lane restrictions, spell access and power timing.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "hulkbuster-sunspot-20261122-b10",
+      "attackerId": "hulkbuster",
+      "defenderId": "sunspot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A second ten-year challenge report used Hulkbuster for Necropolis Sunspot and records four revives using power control similar to Silver Centurion.",
+      "strategy": "Consider a Special 2 or force-block power-control rhythm if the encounter allows it, and remain ready to halt attacks once Sunspot's charge state begins punishing contact.",
+      "risks": "The author required several revives; extra power from the trap or a delayed special can be costly. This is not evidence for a routine quick Sunspot defeat.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "guillotine-deathless-sunspot-20261122-b10",
+      "attackerId": "guillotine-deathless",
+      "defenderId": "sunspot",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "The Deathless path 5 write-up says Guillotine can handle Necropolis Sunspot, although the player found Thanos's enduring Corrode easier for the trap.",
+      "strategy": "Use Guillotine's ongoing damage to keep progress while carefully pacing specials around the Power Sting and detonation windows. Prefer certainty over forcing a long combo for incremental damage.",
+      "risks": "This is an alternative mentioned by the run author, not a fully documented Guillotine finish. The timing problem remains and the Deathless team has challenge-specific interactions.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "she-hulk-deathless-sandman-20261122-b10",
+      "attackerId": "she-hulk-deathless",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed Deathless path 5 run describes Deathless She-Hulk defeating Necropolis Sandman by converting special punishes into access to Grit against Unstoppable.",
+      "strategy": "Stay close enough to punish a safely evaded special and maintain the Grit opportunity when Sandman becomes Unstable. Keep offensive Trauma effects alive without challenging Unstoppable blindly.",
+      "risks": "The reported interaction is specific to the Deathless version and the Necropolis placement. Missing the special punish can stall all damage as the defender remains Unstoppable.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "cheeilth-sandman-20261122-b10",
+      "attackerId": "cheeilth",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis explorer says Chee'ilth handled Sandman in roughly one or two revives, providing a roster alternative to the Deathless team's She-Hulk.",
+      "strategy": "Plan the bleed and cleansing cycle around Sandman's Unstable state. Use a confirmed heavy or special recovery window rather than attacking into Unstoppable, and take breaks when defensive effects are active.",
+      "risks": "The report is a brief completed-run observation with no full sequence or nodes supplied. It does not establish a zero-revive fight or safe approach outside Necropolis.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "shang-chi-sandman-20261122-b10",
+      "attackerId": "shang-chi",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necs-20261122-b10"
+      ],
+      "score": 1,
+      "why": "In a Necropolis team-planning discussion, Shang-Chi is proposed against Sandman for access to Slow, which can address Unstoppable when permitted by the node.",
+      "strategy": "Confirm whether Sandman's current rules allow Slow to prevent the relevant Unstoppable. Preserve an opening for the necessary Wushu sequence and reset before committing to a heavy damage cycle.",
+      "risks": "This is a suggested alternative without a documented clear. Slow immunity, Unstable timing or Necropolis restrictions may prevent the proposed interaction.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "quick-silver-sandman-20261122-b10",
+      "attackerId": "quick-silver",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed ten-year challenge run used Quicksilver for Necropolis Sandman and required eight revives, citing control over Miss and Unstoppable mechanics.",
+      "strategy": "Use Quicksilver's defensive utility to manage Sandman's Unstable state and avoid landing unnecessary attacks during the trap's Miss window. Plan for a lengthy health pool and frequent special baits.",
+      "risks": "The author reports several extra revives from Rooted timing mistakes. Despite the useful mechanics, eight revives is not evidence of a quick or guaranteed win.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "sentry-sandman-20261122-b10",
+      "attackerId": "sentry",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "Another ten-year challenge run beat Necropolis Sandman using Sentry but needed seven revives while navigating resistance and the trap-node Miss timer.",
+      "strategy": "Prioritize survival until the encounter reaches a safer special-punish phase; use the rooted Special 1 recovery to refresh Sentry's effects with a controlled combo when possible.",
+      "risks": "Seven revives and the player's admitted early mistakes make this a resource-heavy example. The source does not support calling Sentry a universal Sandman counter.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "kate-bishop-sandman-20261122-b10",
+      "attackerId": "kate-bishop",
+      "defenderId": "sandman",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necp-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis planner shortlisted Kate Bishop for Sandman, while acknowledging the roster and synergy tradeoffs; this is a prospective plan rather than a recorded fight.",
+      "strategy": "If your roster includes her, test whether the arrow control you rely on survives the Unstable and trap-node interactions. Maintain spacing, use special recovery windows, and keep your rotation compact.",
+      "risks": "The source contains no Kate versus Sandman finish. Any assumed synergy, freeze or damage efficiency needs independent confirmation against the exact Necropolis placement.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-odin-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "odin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis explorer reports taking Odin with Onslaught on the reverse-controls path and emphasizes Degeneration damage with parry-heavy play.",
+      "strategy": "Use Onslaught's short heavy punish pattern to generate pressure without depending on uninterrupted five-hit combos. Verify the active controls condition before attacking after a special.",
+      "risks": "The account covers several defenders and supplies no Odin-specific revive count. It also does not mean Onslaught can ignore every other node attached to Odin.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "kushala-odin-20261122-b10",
+      "attackerId": "kushala",
+      "defenderId": "odin",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A player who completed Necropolis exploration recommends Kushala as an Odin alternative because her ability to block Unblockable attacks can reduce some lane risk.",
+      "strategy": "Check the exact reverse-controls and unblockable triggers before selecting her. Build and refresh Incinerate damage during safe openings and reserve power for a controlled special punish.",
+      "risks": "This is advice from a finisher, not a statement that they cleared Odin with Kushala. The recommendation depends on the current block and power interactions.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "guillotine-deathless-kraven-20261122-b10",
+      "attackerId": "guillotine-deathless",
+      "defenderId": "kraven",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necd-20261122-b10"
+      ],
+      "score": 1,
+      "why": "The completed Deathless path 5 guide reports Guillotine against Necropolis Kraven and stresses reserving special attacks for the defender's trap mechanic.",
+      "strategy": "Avoid spending all available power simply to maximize damage. Bait a heavy or special to escape safely, and retain a special for an unavoidable trap situation rather than relying on parry.",
+      "risks": "The author does not describe a universal Kraven solo, and trap timing can punish premature specials. This recommendation is scoped to the specific Necropolis route.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-kraven-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "kraven",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necp-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A right-side Necropolis plan names Onslaught for Kraven among several route fights; the discussion does not confirm that the original planner finished that choice.",
+      "strategy": "Assess trap buildup and reserve enough space to punish specials without getting forced into repeated basic contact. Let Degeneration contribute while deciding whether a heavy is safe.",
+      "risks": "The source is a proposed team plan, not a recorded win. Onslaught's normal damage does not itself solve Kraven's root or trap rules.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "juggernaut-mantis-20261122-b10",
+      "attackerId": "juggernaut",
+      "defenderId": "mantis",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "necp-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A Necropolis team-planning post chooses Juggernaut for the Mantis encounter because the player expects more comfortable intercept opportunities.",
+      "strategy": "Plan a series of reliable intercepts using Juggernaut's movement utility and break off when Mantis's defensive state changes. Verify the challenge restrictions before relying on his gem.",
+      "risks": "This is an intended roster choice and not a completed Mantis fight log. The source explicitly says many champions may work, so Juggernaut should not be presented as mandatory.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "longshot-adam-warlock-20261122-b10",
+      "attackerId": "longshot",
+      "defenderId": "adam-warlock",
+      "modeIds": [
+        "battlegrounds"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "neca-20261122-b10"
+      ],
+      "score": 1,
+      "why": "In a Battlegrounds defender discussion, a participant considers Adam Warlock favorable for Longshot, pointing toward buff-based punishment rather than an elaborate roster requirement.",
+      "strategy": "Watch Adam's Cocoon and Special 2 pattern before trying to convert his buffs into offensive damage. Preserve spacing while avoiding contact when the pod can punish attackers.",
+      "risks": "This is a forum opinion without a timed Longshot result. Adam's buffs and defensive pod timing vary by mode and tactic, so the matchup needs checking before it is recommended broadly.",
+      "conditions": [
+        "Battlegrounds defender discussion only; this is not a reported timed clear.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "onslaught-stryfe-20261122-b10",
+      "attackerId": "onslaught",
+      "defenderId": "stryfe",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nece-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A recent Necropolis explorer credits Onslaught with bypassing the troublesome Miss condition on the Stryfe lane while maintaining damage through Degeneration.",
+      "strategy": "Keep the lane's five-hit requirement in view and use Onslaught's special-recovery or heavy punish only when the trap timer is satisfied. Check both Stryfe's personal Miss and the quest Miss.",
+      "risks": "The report summarizes completed exploration rather than a precise Stryfe solo. Ignoring a combo deadline can still make an otherwise favorable attacker miss.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "quick-silver-stryfe-20261122-b10",
+      "attackerId": "quick-silver",
+      "defenderId": "stryfe",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A second Carina ten-year run switched from Wong to Quicksilver against Necropolis Stryfe and reports a simpler fight, though two revives were still used.",
+      "strategy": "Use Quicksilver's ability to address Miss and Unstoppable while preserving the lane's active combo count. Avoid attacks into Stryfe's cloak and keep enough space to punish a special safely.",
+      "risks": "The player still used revives, and the comparison is between two specific challenge-roster choices. It does not establish that Quicksilver trivializes all Stryfe nodes.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
+    },
+    {
+      "id": "wong-stryfe-20261122-b10",
+      "attackerId": "wong",
+      "defenderId": "stryfe",
+      "modeIds": [
+        "questing"
+      ],
+      "abilityIds": [],
+      "sourceIds": [
+        "nect-20261122-b10"
+      ],
+      "score": 1,
+      "why": "A completed ten-year challenge used Wong against Necropolis Stryfe but found the overlapping Miss and Unblockable interactions cumbersome and needed a revive.",
+      "strategy": "Before committing to a charged heavy, check whether the lane trap timer is still running. Avoid striking into Stryfe's cloak and keep your spell effects active during safer special-recovery windows.",
+      "risks": "The original author nearly finished the fight but required a revive; a second report says Wong was less comfortable than Quicksilver. This is a conditional fallback rather than a preferred counter.",
+      "conditions": [
+        "Encounter scope: historical Necropolis placement and its cited nodes; do not generalize to other quest or PvP rules.",
+        "Check the current node, defender version, rank and mode before entering.",
+        "Community report or proposal; no independent current-build gameplay test was performed for Summoner Index."
+      ],
+      "awakening": null,
+      "signature": null,
+      "relicId": null,
+      "requirements": {
+        "awakened": null,
+        "minSignature": null
+      },
+      "review": {
+        "status": "community-sourced",
+        "reviewedAt": "2026-11-22",
+        "gameVersion": null,
+        "gameplayTested": false
+      },
+      "scoreReason": "Conditionally cited player report, completed historical attempt or proposal as clearly described; no current-build combat verification."
     },
     {
       "id": "venom-maestro",
