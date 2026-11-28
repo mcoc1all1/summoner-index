@@ -1585,7 +1585,7 @@ body[data-page="/"] .home-coverage-disclosure>summary{display:none}
  body[data-page="/events"] main .live-hero h1{font-size:21px}
 }
 
-/* Highlight the Doomscrip tracker in Tools without affecting other routes. */
+/* Highlight the Doomscrip rewards guide in Tools without affecting other routes. */
 body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"]{
   background:var(--ui-active);border-color:var(--ui-active-border)
 }
