@@ -69,6 +69,38 @@ if(!fs.existsSync(path.join(root,'asset-manifest.json'))||
  fs.readFileSync(path.join(root,'asset-manifest.json'),'utf8')!==manifest){
  fs.writeFileSync(path.join(root,'asset-manifest.json'),manifest);
 }
+// Owner-authorized indexing policy for exactly two public pages.
+// Run on every site-publish push so a regenerated HTML/sitemap cannot silently
+// restore an old noindex state. Other pages' robots directives stay untouched.
+const indexablePages=['tools','doomscrip'];
+let indexingChanges=0;
+for(const slug of indexablePages){
+ const htmlFile=path.join(root,slug,'index.html');
+ if(!fs.existsSync(htmlFile))throw new Error('Approved public index page missing: '+slug);
+ const previous=fs.readFileSync(htmlFile,'utf8');
+ const canonical='https://summonerindex.com/'+slug;
+ if(!previous.includes('<link rel="canonical" href="'+canonical+'">'))
+  throw new Error('Canonical mismatch in public index page: '+slug);
+ const robots=/<meta name="robots" content="(?:noindex|index),follow">/g;
+ if([...previous.matchAll(robots)].length!==1)
+  throw new Error('Cannot safely update robots directive: '+slug);
+ const updated=previous.replace(robots,'<meta name="robots" content="index,follow">');
+ if(updated!==previous){fs.writeFileSync(htmlFile,updated);indexingChanges++;}
+}
+const sitemapFile=path.join(root,'sitemap.xml');
+let sitemap=fs.readFileSync(sitemapFile,'utf8');
+if(!sitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')||
+ !sitemap.includes('</urlset>'))throw new Error('Unexpected sitemap format');
+for(const slug of indexablePages){
+ const canonical='https://summonerindex.com/'+slug;
+ if(sitemap.includes('<loc>'+canonical+'</loc>'))continue;
+ sitemap=sitemap.replace('</urlset>','  <url><loc>'+canonical+'</loc></url>\n</urlset>');
+ indexingChanges++;
+}
+if(sitemap!==fs.readFileSync(sitemapFile,'utf8'))
+ fs.writeFileSync(sitemapFile,sitemap);
+console.log('Owner-approved indexing: /tools and /doomscrip; '+
+ indexingChanges+' HTML/sitemap updates; all other routes unchanged.');
 const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const required of ['styles.css','app.mjs','theme.css','theme.mjs','theme-boot.js']){
  if(!assets[required]||!home.includes('="/'+assets[required]+'"'))
