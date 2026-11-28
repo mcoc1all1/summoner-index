@@ -1,0 +1,41 @@
+name: Refresh content-hashed site assets
+
+on:
+  push:
+    branches: [site-publish]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: summoner-index-cache-bust
+  cancel-in-progress: false
+
+jobs:
+  fingerprint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out published site
+        uses: actions/checkout@v4
+        with:
+          ref: site-publish
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh all generated asset references
+        run: node scripts/cache-bust-published.mjs
+      - name: Commit cache-busted site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "All asset URLs are current."
+          else
+            git commit -m "chore: automatically refresh content-hashed CSS and JS"
+            git push origin HEAD:site-publish
+          fi
