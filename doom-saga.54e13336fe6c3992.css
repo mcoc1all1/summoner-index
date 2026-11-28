@@ -1,0 +1,57 @@
+/* Empire of Doom editorial guide. Scoped to the standalone /doom-saga page. */
+body[data-page="/doom-saga"] .doom-hero{margin-bottom:15px}
+body[data-page="/doom-saga"] .doom-hero p{max-width:850px}
+body[data-page="/doom-saga"] .doom-updated{font-size:12px;line-height:1.55;color:var(--muted);margin-top:16px}
+body[data-page="/doom-saga"] .doom-jump{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+body[data-page="/doom-saga"] .doom-jump a{font-size:12px;padding:8px 11px;border-radius:8px;white-space:nowrap}
+body[data-page="/doom-saga"] .doom-section{margin:28px 0 0;scroll-margin-top:80px}
+body[data-page="/doom-saga"] .doom-section .section-head{margin:0 0 12px}
+body[data-page="/doom-saga"] .doom-section h2{line-height:1.2}
+body[data-page="/doom-saga"] .doom-dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+body[data-page="/doom-saga"] .doom-priority-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+body[data-page="/doom-saga"] .doom-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+body[data-page="/doom-saga"] .doom-reward-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+body[data-page="/doom-saga"] .doom-small-label{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:6px}
+body[data-page="/doom-saga"] .doom-date{font-weight:750;color:var(--accent);margin:6px 0}
+body[data-page="/doom-saga"] .panel h3{line-height:1.3;margin:5px 0 9px}
+body[data-page="/doom-saga"] .panel p{font-size:13px;line-height:1.65}
+body[data-page="/doom-saga"] .doom-muted,body[data-page="/doom-saga"] .doom-source{margin:12px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+body[data-page="/doom-saga"] .doom-muted a,body[data-page="/doom-saga"] .doom-source a{color:var(--accent);text-decoration:underline}
+body[data-page="/doom-saga"] .doom-steps{padding:0;margin:12px 0 0;display:grid;gap:8px;counter-reset:step;list-style:none}
+body[data-page="/doom-saga"] .doom-steps li{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;background:rgba(145,84,232,.06);border:1px solid var(--line);border-radius:10px;font-size:13px}
+body[data-page="/doom-saga"] .doom-steps li:before{counter-increment:step;content:counter(step,decimal-leading-zero);color:var(--accent);font-weight:800;flex:0 0 26px}
+body[data-page="/doom-saga"] .doom-steps li strong{min-width:180px}
+body[data-page="/doom-saga"] .doom-steps li span{flex:1}
+body[data-page="/doom-saga"] .doom-note{margin-top:12px;font-size:13px;line-height:1.55}
+body[data-page="/doom-saga"] .doom-event-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+body[data-page="/doom-saga"] .doom-event-head{display:flex;gap:10px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}
+body[data-page="/doom-saga"] .doom-event-head h3{flex:1;min-width:180px}
+body[data-page="/doom-saga"] .doom-period{font-size:11px;font-weight:650;border:1px solid var(--line);border-radius:999px;padding:4px 7px;white-space:nowrap;color:var(--accent)}
+body[data-page="/doom-saga"] .doom-event-list .text-link{font-size:12px}
+body[data-page="/doom-saga"] .doom-faq{display:grid;gap:8px}
+body[data-page="/doom-saga"] .doom-faq details{padding:0 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+body[data-page="/doom-saga"] .doom-faq summary{cursor:pointer;padding:14px 0;font-size:14px;font-weight:700}
+body[data-page="/doom-saga"] .doom-faq details p{padding:0 0 13px;margin:0;font-size:13px;line-height:1.6}
+body[data-page="/doom-saga"] .doom-sources{margin:28px 0}
+body[data-page="/doom-saga"] .doom-sources ul{padding-left:20px}
+body[data-page="/doom-saga"] .doom-sources li{margin:7px 0;font-size:12px}
+body[data-page="/doom-saga"] .doom-sources a{color:var(--accent)}
+@media(max-width:900px){
+ body[data-page="/doom-saga"] .doom-dates,body[data-page="/doom-saga"] .doom-priority-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="/doom-saga"] .doom-steps li{display:block}
+ body[data-page="/doom-saga"] .doom-steps li:before{display:inline-block;margin-right:10px}
+ body[data-page="/doom-saga"] .doom-steps li strong{display:inline}
+ body[data-page="/doom-saga"] .doom-steps li span{display:block;margin-top:6px}
+}
+@media(max-width:640px){
+ body[data-page="/doom-saga"] .doom-dates,body[data-page="/doom-saga"] .doom-priority-grid,body[data-page="/doom-saga"] .doom-reward-grid,body[data-page="/doom-saga"] .doom-event-list{grid-template-columns:1fr}
+ body[data-page="/doom-saga"] .doom-hero h1{font-size:clamp(25px,6.5vw,33px);line-height:1.13}
+ body[data-page="/doom-saga"] .doom-hero p{font-size:13px}
+ body[data-page="/doom-saga"] .doom-section{margin-top:23px}
+ body[data-page="/doom-saga"] .doom-jump{gap:5px}
+ body[data-page="/doom-saga"] .doom-jump a{padding:7px 9px;font-size:11px}
+ body[data-page="/doom-saga"] .panel{padding:14px}
+ body[data-page="/doom-saga"] .doom-steps li{padding:10px;font-size:12px}
+ body[data-page="/doom-saga"] .doom-faq summary{min-height:44px}
+ body[data-page="/doom-saga"] .doom-event-head h3{min-width:0}
+}

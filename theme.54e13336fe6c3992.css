@@ -1,0 +1,1600 @@
+/*
+ * Summoner Index color system — Violet Realm (default) / Lilac Dawn (opt-in).
+ * Loaded after existing layout CSS. Semantic class/state colors remain distinct.
+ * Use tokens for surfaces and typography instead of hard-coded accent colors.
+ */
+:root {
+ color-scheme:dark;
+ --bg:#120D22;
+ --panel:#211935;
+ --line:#493A60;
+ --text:#F5F0FF;
+ --muted:#C2B4D5;
+ --accent:#C4A3FF;
+ --green:#78D8AB;
+ --surface-raised:#2E2447;
+ --mobile-surface:#211935;
+ --mobile-surface-raised:#2E2447;
+ --mobile-soft-line:#59486F;
+ --mobile-body-text:#D9CCE9;
+ --ui-sidebar:#191329;
+ --ui-header:#191329;
+ --ui-input:#1D1730;
+ --ui-elevated:#2A2143;
+ --ui-soft:#302548;
+ --ui-faint:#C4A3FF0B;
+ --ui-hover:#44335F;
+ --ui-active:#3A2858;
+ --ui-active-border:#9E7ADB;
+ --ui-active-text:#E2CEFF;
+ --ui-contrast:#211333;
+ --ui-shadow:#09051585;
+ --ui-overlay:#0D071ACC;
+ --ui-inset:#F0E3FF16;
+ --ui-chip:#302449;
+ --ui-chip-text:#E0D2F3;
+ --ui-soft-text:#D3C5E8;
+ --ui-disclaimer:#30263E;
+ --ui-disclaimer-border:#65517A;
+ --ui-disclaimer-text:#EEE0FF;
+ --ui-accent-wash:#C4A3FF20;
+ --ui-success-text:#A5E6C2;
+ --ui-success-bg:#153E38;
+ --ui-success-border:#3F8F72;
+ --ui-warning-text:#F1D29B;
+ --ui-warning-bg:#403426;
+ --ui-warning-border:#9C7340;
+ --ui-danger-text:#F3B7B8;
+ --ui-danger-bg:#422A35;
+ --ui-danger-border:#995C6B;
+}
+:root[data-theme="light"]{
+ color-scheme:light;
+ --bg:#F7F3FC;
+ --panel:#FFFFFF;
+ --line:#DED3EB;
+ --text:#2D2141;
+ --muted:#665A77;
+ --accent:#7245A9;
+ --green:#23724F;
+ --surface-raised:#EFE8F7;
+ --mobile-surface:#FFFFFF;
+ --mobile-surface-raised:#EFE8F7;
+ --mobile-soft-line:#DED3EB;
+ --mobile-body-text:#4B3E60;
+ --ui-sidebar:#EEE7F6;
+ --ui-header:#FBF9FE;
+ --ui-input:#FFFFFF;
+ --ui-elevated:#F5EFFA;
+ --ui-soft:#F0E8F7;
+ --ui-faint:#7245A909;
+ --ui-hover:#E8DCF5;
+ --ui-active:#E9DEF7;
+ --ui-active-border:#B69AD6;
+ --ui-active-text:#5D2D9A;
+ --ui-contrast:#FFFFFF;
+ --ui-shadow:#2E174924;
+ --ui-overlay:#180F2870;
+ --ui-inset:#FFFFFF;
+ --ui-chip:#EEE5F7;
+ --ui-chip-text:#533C6D;
+ --ui-soft-text:#5C4D70;
+ --ui-disclaimer:#F5F8E9;
+ --ui-disclaimer-border:#A5B97D;
+ --ui-disclaimer-text:#344827;
+ --ui-accent-wash:#7245A91A;
+ --ui-success-text:#155C3D;
+ --ui-success-bg:#E4F3EA;
+ --ui-success-border:#8CC7AA;
+ --ui-warning-text:#835A16;
+ --ui-warning-bg:#FFF3DC;
+ --ui-warning-border:#DBB56C;
+ --ui-danger-text:#933E4B;
+ --ui-danger-bg:#FCECF0;
+ --ui-danger-border:#D89DAC;
+ --class-mystic:#7843B5;
+ --class-cosmic:#275B9C;
+ --class-tech:#147B7E;
+ --class-mutant:#846415;
+ --class-skill:#AA434A;
+ --class-science:#3B752A;
+}
+
+/* Global typography, chrome and containers. */
+body{background:var(--bg);color:var(--text)}
+body :is(p,.muted,.result-count,.coverage-label){color:var(--muted)}
+body :is(.panel,.counter-card,.champion-card,.boss-card,.live-card,.news-card,
+ .loadout-card,.guide-hub-card,.overview-card,.protection-card,.mastery-card,
+ .mastery-preset-card,.challenge-fight-card){
+ background:var(--panel);border-color:var(--line);
+ box-shadow:0 3px 14px var(--ui-shadow)
+}
+body :is(.topbar,.sidebar,.footer){border-color:var(--line)}
+body .sidebar{background:var(--ui-sidebar)}
+body .topbar{background:var(--ui-header)}
+body .footer{background:var(--bg)}
+body .sidebar .nav-label,
+body .sidebar .sidebar-bottom,
+body .sidebar .brand small{color:var(--muted)}
+body .sidebar nav[aria-label="Main navigation"]>a{color:var(--ui-soft-text)}
+body .sidebar nav[aria-label="Main navigation"]>a:hover{background:var(--ui-hover);border-color:var(--line)}
+body .sidebar nav[aria-label="Main navigation"]>a.active,
+body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a.active,
+body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle.active{
+ color:var(--ui-active-text);
+ background:var(--ui-active);
+ border-color:var(--ui-active-border)
+}
+body .sidebar nav a.active i{color:var(--accent)}
+body .sidebar-bottom strong{color:var(--green)}
+body :is(.eyebrow,.text-link){color:var(--accent)}
+body :is(.search-form,.topbar .search-form){background:var(--ui-input);border-color:var(--line)}
+body .topbar .search-form:focus-within{border-color:var(--accent);box-shadow:0 0 0 2px var(--ui-accent-wash)}
+body :is(input,select,textarea){background:var(--ui-input);color:var(--text);border-color:var(--line)}
+body :is(input,textarea)::placeholder{color:var(--muted);opacity:1}
+body :is(button,.secondary,.quick-row a){border-color:var(--line)}
+body .primary{background:var(--accent);border-color:var(--accent);color:var(--ui-contrast)}
+body .primary:hover{background:var(--ui-active-text);color:var(--ui-contrast);border-color:var(--accent)}
+body .secondary{color:var(--text);background:var(--ui-elevated);border-color:var(--line)}
+body .secondary:hover{border-color:var(--accent);background:var(--ui-hover)}
+body .brand b{background:var(--accent);color:var(--ui-contrast)}
+body :is(.chip,.status-chip){background:var(--ui-chip);border-color:var(--line);color:var(--ui-chip-text)}
+body .search-result,
+body .shortcut,
+body .section-head,
+body .champion-card .card-link{border-color:var(--line)}
+body :is(.profile-overview .overview-card,.profile-decision-strip>div,
+ .counter-glance,.counter-mechanics,.boss-fast-grid>article,
+ .challenge-glance-grid>article,.loadout-mobile-summary>div,
+ .loadout-summary-grid>div){background:var(--ui-elevated);border-color:var(--line)}
+body :is(.table-scroll,.table-wrap,.table-scroll table,
+ table,td,th){border-color:var(--line)}
+body :is(.notice,.profile-mobile-preface .notice){color:var(--ui-disclaimer-text);
+ background:var(--ui-disclaimer);border-color:var(--ui-disclaimer-border)}
+body :is(.notice p,.notice small){color:var(--ui-disclaimer-text)}
+body .home-beta-note strong{color:var(--text)}
+body .home-beta-note a{color:var(--accent)}
+body .save[aria-pressed="true"]{color:var(--accent)}
+body .mobile-more-shade{background:var(--ui-overlay)}
+body.mobile-nav-ready .sidebar .mobile-more-panel:not([hidden]){
+ background:var(--ui-sidebar);border-color:var(--line);
+ box-shadow:0 16px 45px var(--ui-shadow)
+}
+body.mobile-nav-ready .sidebar nav.mobile-more-links a{
+ background:var(--ui-elevated);color:var(--text);border-color:var(--line)
+}
+body.mobile-nav-ready .sidebar nav.mobile-more-links a:hover{background:var(--ui-hover)}
+body :is(.live-source-note,.live-editorial-note){background:var(--panel)}
+body .live-dates{background:var(--ui-elevated);border-color:var(--line);color:var(--text)}
+body .live-filter-bar button{background:var(--ui-elevated);color:var(--muted);border-color:var(--line)}
+body .live-filter-bar button.active{background:var(--ui-active);color:var(--ui-active-text);border-color:var(--ui-active-border)}
+body :is(.live-jump a,.profile-jump a,.twitch-jump a,.quick-row a){border-color:var(--line)}
+body .live-freshness{border-color:var(--line);background:var(--ui-elevated);color:var(--muted)}
+body .live-card-teaser{color:var(--ui-soft-text)}
+body .live-card :is(.live-card-more,.live-card-less){color:var(--accent)}
+body .news-card time{color:var(--muted)}
+body .live-section>.section-head .live-count{background:var(--ui-elevated);border-color:var(--line);color:var(--muted)}
+body .counter-head .confidence-badge{border-color:var(--line)}
+body .research-center-body{color:var(--text)}
+body .finder-panel{border-top-color:var(--accent)}
+
+/* State semantics (success / timing / caution / risk) are NOT theme-accent colors. */
+body :is(.confidence-supported,.confidence-tested,.mechanic-handled .counter-mechanic-chips span,
+ .live-status[data-state="live"]){
+ color:var(--ui-success-text);background:var(--ui-success-bg);border-color:var(--ui-success-border)
+}
+body :is(.confidence-community,.mechanic-helps .counter-mechanic-chips span,
+ .live-status[data-state="upcoming"]){
+ color:var(--ui-warning-text);background:var(--ui-warning-bg);border-color:var(--ui-warning-border)
+}
+body :is(.confidence-limited,.mechanic-watch .counter-mechanic-chips span){
+ color:var(--ui-danger-text);background:var(--ui-danger-bg);border-color:var(--ui-danger-border)
+}
+body .live-category{color:var(--ui-warning-text);background:var(--ui-warning-bg);border-color:var(--ui-warning-border)}
+body .live-status[data-state="ended"]{color:var(--muted);background:var(--ui-elevated);border-color:var(--line)}
+
+/* Keep Marvel champion classes independently recognizable on BOTH backgrounds. */
+body :is(.mystic,.class-mystic){color:var(--class-mystic,#BC9CE7)}
+body :is(.cosmic,.class-cosmic){color:var(--class-cosmic,#91B8E0)}
+body :is(.tech,.class-tech){color:var(--class-tech,#8CCBC3)}
+body :is(.mutant,.class-mutant){color:var(--class-mutant,#E4C55F)}
+body :is(.skill,.class-skill){color:var(--class-skill,#E6928C)}
+body :is(.science,.class-science){color:var(--class-science,#9EC77F)}
+
+/* Theme control in the existing header/sidebar. No new navigation destination. */
+body .theme-switch{
+ display:inline-flex;align-items:center;justify-content:center;gap:9px;
+ min-height:44px;max-width:100%;padding:9px 12px;
+ border:1px solid var(--line);border-radius:11px;
+ color:var(--text);background:var(--ui-elevated);
+ font:600 12.5px/1.3 system-ui,sans-serif;cursor:pointer;
+ text-align:center;white-space:nowrap;
+}
+body .theme-switch:hover{border-color:var(--accent);background:var(--ui-hover)}
+body .theme-switch:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+body .theme-switch-icon{font-size:20px;line-height:1;flex:0 0 22px}
+body .theme-switch-label{font-size:12.5px}
+body .theme-switch-mobile{display:none}
+body .sidebar-bottom>.theme-switch{width:100%;margin:0 0 16px}
+body .theme-switch[aria-pressed="true"]{border-color:var(--ui-active-border)}
+
+/* Light surfaces must override legacy dark-only hex declarations. */
+:root[data-theme="light"] body :is(.topbar,.sidebar,.footer,.panel,.counter-card,
+ .champion-card,.boss-card,.live-card,.news-card,.loadout-card,.guide-hub-card,
+ .overview-card,.protection-card,.mastery-card,.mastery-preset-card){
+ color:var(--text)
+}
+:root[data-theme="light"] body :is(.badge,.eyebrow,.text-link){text-shadow:none}
+:root[data-theme="light"] body :is(.chip,.quick-facts,.counter-glance-grid,.counter-preflight,
+ .counter-context,.profile-decision-strip,.loadout-mobile-summary,
+ .champion-research-mobile,.loadout-intro-details,.compact-disclosure){
+ border-color:var(--line)
+}
+:root[data-theme="light"] body :is(.champion-research-mobile,.loadout-mobile-caution,
+ .counter-glance,.counter-preflight,.counter-context,.counter-evidence-mobile,
+ .counter-evidence-summary){background:var(--ui-disclaimer);color:var(--text);border-color:var(--line)}
+:root[data-theme="light"] body .champion-research-mobile>summary,
+:root[data-theme="light"] body .champion-research-mobile>p{color:var(--ui-disclaimer-text)}
+:root[data-theme="light"] body :is(.field label,.toolbar label,
+ .panel label,.profile-decision-strip strong,.profile-decision-strip span,
+ .profile-overview dd,.section-head h2,.live-editorial-note h2,
+ .guide-hub-card h3,.champion-card h3){color:var(--text)}
+:root[data-theme="light"] body :is(.sources small,.muted,.coverage-label,.live-card-teaser,
+ .champion-card-summary,.score-note p,.counter-glance p,
+ .counter-plan p,.loadout-notes,.news-card p,.live-card p){color:var(--muted)}
+:root[data-theme="light"] body .boss-art{background-color:#EDE1FA;color:#336A67}
+:root[data-theme="light"] body .boss-art.scytalis{background-color:#E9E4F6;color:#684A9A}
+:root[data-theme="light"] body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a,
+:root[data-theme="light"] body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle{
+ color:var(--text);background:var(--ui-sidebar);border-color:var(--line)
+}
+:root[data-theme="light"] body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a.active,
+:root[data-theme="light"] body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle.active{
+ color:var(--ui-active-text);background:var(--ui-active);border-color:var(--ui-active-border)
+}
+:root[data-theme="light"] body .live-editorial-note .eyebrow,
+:root[data-theme="light"] body .live-mobile-context .eyebrow{color:var(--accent)}
+:root[data-theme="light"] body .live-card-details .live-card-teaser{color:var(--muted)}
+:root[data-theme="light"] body .live-dates{color:var(--text)}
+:root[data-theme="light"] body .live-mobile-context .live-editorial-note .muted{color:var(--muted)}
+:root[data-theme="light"] body :is(.live-news-footer,.live-news-count,.live-count,.result-count){color:var(--muted)}
+:root[data-theme="light"] body .profile-actions a,
+:root[data-theme="light"] body .profile-jump a{color:var(--text);border-color:var(--line);background:var(--ui-elevated)}
+:root[data-theme="light"] body .live-jump a{background:var(--ui-elevated);color:var(--text)}
+:root[data-theme="light"] body .live-filter-bar button.active{background:var(--ui-active);color:var(--ui-active-text)}
+:root[data-theme="light"] body .footer a{color:var(--accent)}
+:root[data-theme="light"] body .search-result:hover,
+:root[data-theme="light"] body .champion-card:hover,
+:root[data-theme="light"] body .boss-card:hover{background:var(--ui-hover)}
+:root[data-theme="light"] body .status-dot{background:var(--green)}
+
+/* Mobile-specific navigation and surfaces, applied after legacy mobile rules. */
+@media(max-width:800px){
+ :root{
+  --mobile-surface:#211935;
+  --mobile-surface-raised:#2E2447;
+  --mobile-soft-line:#59486F;
+  --mobile-body-text:#D9CCE9
+ }
+ :root[data-theme="light"]{
+  --mobile-surface:#FFFFFF;
+  --mobile-surface-raised:#EFE8F7;
+  --mobile-soft-line:#DED3EB;
+  --mobile-body-text:#4B3E60
+ }
+ body .theme-switch-desktop{display:none}
+ body .theme-switch-mobile{
+  display:inline-flex;order:1;flex:0 0 44px;
+  width:44px;min-width:44px;max-width:44px;
+  padding:8px 7px;margin-inline-start:auto;
+  border-radius:10px
+ }
+ body .theme-switch-mobile .theme-switch-label{display:none}
+ body .topbar .mobile-brand{min-width:0}
+ body .topbar .theme-switch-icon{font-size:21px}
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]{
+  background:var(--ui-sidebar);border-color:var(--line)
+ }
+ body.mobile-nav-ready .sidebar .mobile-more-panel:not([hidden]){
+  background:var(--ui-sidebar);border-color:var(--line)
+ }
+ body :is(.panel,.counter-card,.live-card,.news-card,.loadout-card,.guide-hub-card){
+  border-color:var(--mobile-soft-line)
+ }
+ body .live-card-teaser{color:var(--ui-soft-text)}
+ body .live-section>.section-head .live-count{background:var(--ui-elevated);color:var(--muted);border-color:var(--line)}
+}
+@media(max-width:360px){
+ body .topbar .theme-switch-mobile{margin-inline-start:auto}
+}
+
+/* Homepage featured surfaces need paired background/foreground colors in the
+   light scheme; legacy image gradients alone make headings unreadable. */
+body[data-page="/"] .hero{
+ background:radial-gradient(circle at 88% 45%,#C4A3FF15,transparent 36%),
+  linear-gradient(130deg,#34214F 0%,#190F2E 78%);
+ border-color:var(--ui-disclaimer-border);
+ color:#F5F0FF;
+}
+body[data-page="/"] .hero:before{
+ border-color:#C4A3FF2B;box-shadow:0 0 0 35px #C4A3FF0D,0 0 0 75px #C4A3FF07
+}
+body[data-page="/"] .hero h1{color:#F5F0FF}
+body[data-page="/"] .hero .eyebrow{color:#DECAFF}
+body[data-page="/"] .hero p{color:#D8CAE9}
+body .home-proof>div{background:var(--ui-elevated);border-color:var(--line)}
+body .home-proof span{color:var(--ui-soft-text)}
+body[data-page="/"] .finder-panel{
+ background:var(--panel);border-color:var(--line);border-top:3px solid var(--accent)
+}
+body :is(.live-home-callout,.shortcut,.home-proof>div){color:var(--text)}
+body .shortcut:hover{background:var(--ui-hover)}
+body .shortcut-icon{color:var(--accent);background:var(--ui-elevated);border-color:var(--line)}
+body .champion-card{background:var(--panel)}
+body .champion-card-identity{
+ background:radial-gradient(circle at 6% -5%,
+  color-mix(in srgb,var(--class-accent) 12%,transparent),transparent 70%),var(--ui-elevated);
+ border-bottom-color:var(--line)
+}
+body .champion-card .card-link{background:var(--panel)}
+body .boss-card>div:last-child{background:var(--panel)}
+body .live-home-callout{border-top:2px solid var(--accent)}
+:root[data-theme="light"] body :is(.live-home-callout,.home-proof>div,
+ .shortcut,.champion-card,.boss-card,.loadout-card,.guide-hub-card,
+ .finder-panel,.counter-card,.profile-overview .overview-card){
+ color:var(--text)
+}
+:root[data-theme="light"] body :is(.live-home-callout,.panel,.shortcut,
+ .home-proof>div,.champion-card,.boss-card,.counter-card,
+ .loadout-card,.guide-hub-card) :is(h1,h2,h3,strong){
+ color:var(--text)
+}
+:root[data-theme="light"] body .home-proof strong{color:var(--accent)}
+:root[data-theme="light"] body .live-home-callout :is(p,.muted){color:var(--muted)}
+:root[data-theme="light"] body .live-home-callout .primary{color:#FFFFFF}
+:root[data-theme="light"] body .sidebar .brand{color:var(--text)}
+:root[data-theme="light"] body .sidebar nav[aria-label="Main navigation"]>a{
+ color:var(--ui-soft-text)
+}
+:root[data-theme="light"] body .sidebar nav[aria-label="Main navigation"]>a.active{
+ color:var(--ui-active-text)
+}
+@media(max-width:800px){
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]{
+  background:var(--ui-sidebar);border-top:1px solid var(--line);
+  box-shadow:0 -4px 18px var(--ui-shadow)
+ }
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a:not(.active),
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle:not(.active){
+  background:transparent;color:var(--muted);border-color:transparent
+ }
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>a.active,
+ body.mobile-nav-ready .sidebar nav[aria-label="Main navigation"]>.mobile-more-toggle.active{
+  background:var(--ui-active);color:var(--ui-active-text);border-color:var(--ui-active-border)
+ }
+}
+/* Champion directory's high-specificity compact view must use the active
+   theme surface instead of retaining its legacy permanent charcoal tile. */
+:root[data-theme="light"] body[data-page="/champions"].champions-view-compact #champ-results .champion-card{
+ background:var(--panel);border-color:var(--line)
+}
+:root[data-theme="light"] body[data-page="/champions"].champions-view-compact #champ-results .champion-card :is(h3,.champion-card-title){
+ color:var(--text)
+}
+:root[data-theme="light"] body[data-page="/champions"] .champ-alpha-rail:not([hidden]){
+ background:var(--ui-elevated);border-color:var(--line)
+}
+:root[data-theme="light"] body[data-page="/champions"] .champ-alpha-rail button{
+ color:var(--text)
+}
+
+/* Keep original Champion directory, Loadouts and A–Z controls functional,
+   but map their previously hardcoded gold/charcoal colors to theme tokens. */
+body[data-page="/champions"] .champ-mobile-filters,
+body[data-page="/loadouts"] .loadout-mobile-filters{
+ background:var(--ui-elevated);border-color:var(--line);color:var(--text)
+}
+body[data-page="/champions"] .champ-mobile-filters:active,
+body[data-page="/loadouts"] .loadout-mobile-filters:active{
+ background:var(--ui-hover)
+}
+body[data-page="/champions"] .champ-view-option{
+ background:var(--ui-elevated);border-color:var(--line);color:var(--text)
+}
+body[data-page="/champions"] .champ-view-option.active{
+ background:var(--ui-active);border-color:var(--ui-active-border);color:var(--ui-active-text)
+}
+body[data-page="/champions"] .champ-view-option:focus-visible,
+body[data-page="/champions"] .champ-alpha-rail button:focus-visible{
+ outline-color:var(--accent)
+}
+body[data-page="/champions"] .champ-alpha-rail:not([hidden]){
+ background:var(--ui-elevated);border-color:var(--line)
+}
+body[data-page="/champions"] .champ-alpha-rail button{
+ color:var(--text);background:transparent
+}
+body[data-page="/champions"] .champ-alpha-rail button[aria-current="location"]{
+ color:var(--ui-active-text);background:var(--ui-active);
+ border:1px solid var(--ui-active-border)
+}
+body[data-page="/champions"] .champ-letter-heading{color:var(--accent)}
+:root[data-theme="light"] body[data-page="/champions"] #champ-results .champion-card .avatar{
+ background:color-mix(in srgb,var(--class-accent) 12%,#FFFFFF);
+ color:var(--class-accent);border-color:var(--class-accent)
+}
+:root[data-theme="light"] body[data-page="/champions"] #champ-results .champion-card .save{
+ background:var(--ui-elevated);color:var(--accent);
+ border:1px solid var(--line);border-radius:999px
+}
+:root[data-theme="light"] body[data-page="/champions"] #champ-results .champion-card .save[aria-pressed="true"]{
+ background:var(--ui-active);color:var(--ui-active-text);border-color:var(--ui-active-border)
+}
+:root[data-theme="light"] body[data-page="/champions"] .champ-view-option.active{
+ background:var(--ui-active);color:var(--ui-active-text)
+}
+
+/* Boss strategy labels and Loadouts utility controls use readable token pairs
+   in Lilac Dawn, not old gold text on pale cards or dark-only toolbars. */
+body .boss-fast-grid article>span{color:var(--accent);font-weight:750}
+body .boss-fast-grid article p{color:var(--text)}
+body .boss-phase-rail>strong{color:var(--accent)}
+body .boss-phase-rail li{color:var(--text);background:var(--ui-elevated);border-color:var(--line)}
+body .boss-fast-plan{background:var(--panel);border-color:var(--line)}
+body[data-page="/loadouts"] .loadout-intro-details{
+ background:var(--ui-disclaimer);color:var(--ui-disclaimer-text);
+ border-color:var(--ui-disclaimer-border)
+}
+body[data-page="/loadouts"] .loadout-intro-details>summary{
+ color:var(--ui-disclaimer-text);background:transparent
+}
+body[data-page="/loadouts"] :is(.loadout-mobile-details,.loadout-intro-details)>summary:focus-visible{
+ outline-color:var(--accent)
+}
+body[data-page="/loadouts"] #loadout-pagination button{
+ background:var(--ui-elevated);border-color:var(--line);color:var(--text)
+}
+body[data-page="/loadouts"] #loadout-pagination button:hover:not(:disabled){
+ background:var(--ui-hover);border-color:var(--accent)
+}
+body[data-page="/loadouts"] #loadout-pagination button:disabled{
+ background:var(--ui-elevated);color:var(--muted);opacity:.6
+}
+body[data-page="/loadouts"] :is(.loadout-decision-strip>div,.loadout-mobile-summary>div,
+ .loadout-summary-grid>div){
+ background:var(--ui-elevated);color:var(--text);border-color:var(--line)
+}
+body[data-page="/loadouts"] :is(.loadout-decision-strip,.loadout-mobile-summary,.loadout-summary-grid)
+ :is(strong,b,h3){color:var(--text)}
+body[data-page="/loadouts"] :is(.loadout-decision-strip,.loadout-mobile-summary,.loadout-summary-grid)
+ :is(p,small){color:var(--muted)}
+
+/* Violet Realm: a restrained game-guide visual language rather than false
+   XP, rankings or rewards. The boss tracker below is actual user input. */
+:root{
+ --quest-glow:#C4A3FF2A;
+ --quest-edge:#8058B6;
+ --quest-track:#392C52;
+ --quest-milestone:#D9C5FF;
+}
+:root[data-theme="light"]{
+ --quest-glow:#7245A91C;
+ --quest-edge:#9B78C6;
+ --quest-track:#E5DCF2;
+ --quest-milestone:#643997;
+}
+body .sidebar .brand b,
+body .topbar .brand b{
+ background:linear-gradient(145deg,var(--accent),var(--ui-active-border));
+ box-shadow:0 0 0 3px var(--ui-accent-wash);
+ border-radius:10px;
+}
+body :is(.primary,.theme-switch,.guide-hub-card,.boss-card,.champion-card){
+ transition:border-color .2s ease,box-shadow .2s ease,background-color .2s ease,transform .2s ease;
+}
+body :is(.primary,.theme-switch):hover{
+ box-shadow:0 0 0 3px var(--ui-accent-wash),0 7px 20px var(--ui-shadow);
+}
+body .primary:active{transform:translateY(1px)}
+body .save[aria-pressed="true"]{
+ color:var(--accent);
+ box-shadow:0 0 0 3px var(--ui-accent-wash),0 0 14px var(--quest-glow);
+}
+body .champion-card:hover{
+ border-color:var(--ui-active-border);
+ box-shadow:0 10px 26px var(--ui-shadow),0 0 0 1px var(--quest-glow);
+}
+body .guide-hub-card{
+ position:relative;overflow:hidden;
+ border:1px solid var(--line);border-radius:14px;
+ background:var(--panel);
+}
+body .guide-hub-card::before{
+ content:"";position:absolute;inset:0 auto 0 0;width:4px;
+ background:linear-gradient(180deg,var(--accent),var(--ui-active-border));
+}
+body .guide-hub-card:hover,
+body .guide-hub-card:focus-visible{
+ transform:translateY(-2px);border-color:var(--ui-active-border);
+ box-shadow:0 12px 32px var(--ui-shadow),0 0 0 1px var(--quest-glow);
+}
+body .guide-hub-card .eyebrow{
+ display:inline-flex;align-items:center;min-height:22px;
+ padding:4px 8px;border:1px solid var(--ui-active-border);
+ border-radius:999px;background:var(--ui-accent-wash);
+ letter-spacing:.075em;font-size:10px;
+}
+body .guide-hub-action{
+ display:inline-flex;align-items:center;gap:6px;
+ padding:7px 11px;margin-top:12px;
+ border:1px solid var(--ui-active-border);border-radius:999px;
+ background:var(--ui-active);color:var(--ui-active-text);font-weight:700;
+}
+body .guide-start-steps div{
+ position:relative;min-width:0;min-height:68px;
+ background:var(--ui-elevated);
+ border:1px solid var(--line);border-radius:12px;
+}
+body .guide-start-steps strong{
+ flex-shrink:0;background:var(--accent);color:var(--ui-contrast);
+ box-shadow:0 0 0 4px var(--ui-accent-wash);
+}
+body .boss-fast-plan{border-top:3px solid var(--accent)}
+body .boss-fast-grid article{
+ position:relative;overflow:hidden;background:var(--ui-elevated);
+ border:1px solid var(--line);border-radius:12px
+}
+body .boss-fast-grid article:before{
+ content:"";position:absolute;top:0;left:0;right:0;height:3px;
+ background:linear-gradient(90deg,var(--quest-edge),transparent);
+}
+body .boss-fast-grid article>span{
+ font-size:11px;color:var(--accent);letter-spacing:.09em
+}
+body .boss-phase-rail li{
+ border-radius:10px;background:var(--ui-elevated);
+ border:1px solid var(--line)
+}
+body .boss-phase-rail .phase-index{
+ border-radius:7px;background:var(--ui-active);
+ color:var(--ui-active-text);border:1px solid var(--ui-active-border);
+}
+body .boss-fast-tags .chip{
+ border:1px solid var(--line);background:var(--ui-chip);color:var(--ui-chip-text);
+}
+body .live-status[data-state="live"]{
+ position:relative;box-shadow:0 0 0 2px var(--ui-success-border);
+}
+body .live-status[data-state="live"]:before{
+ content:"";display:inline-block;width:6px;height:6px;
+ border-radius:50%;background:currentColor;margin-right:6px;vertical-align:middle;
+ animation:si-live-pulse 2.3s ease-in-out infinite;
+}
+@keyframes si-live-pulse{
+ 0%,100%{opacity:.9}50%{opacity:.35}
+}
+
+/* A compact, honest step tracker: checking tasks changes progress only. */
+body .boss-prep-panel{
+ margin:22px 0 24px;padding:21px;
+ background:linear-gradient(145deg,var(--panel),var(--ui-elevated));
+ border:1px solid var(--ui-active-border);border-radius:16px;
+ box-shadow:0 0 0 1px var(--quest-glow),0 10px 26px var(--ui-shadow);
+}
+body .boss-prep-heading{
+ display:flex;align-items:center;justify-content:space-between;gap:12px;
+ margin-bottom:7px;text-align:left
+}
+body .boss-prep-heading h2{
+ font-size:clamp(20px,2.3vw,25px);line-height:1.25;margin:6px 0 0;
+ color:var(--text);text-wrap:balance;
+}
+body .boss-prep-heading .eyebrow{color:var(--accent)}
+body .boss-prep-emblem{
+ display:grid;place-items:center;flex:0 0 42px;
+ width:42px;height:42px;border-radius:13px;
+ border:1px solid var(--ui-active-border);background:var(--ui-active);
+ font-size:31px;color:var(--ui-active-text);line-height:1;
+ box-shadow:0 0 17px var(--quest-glow);
+}
+body .boss-prep-intro{
+ max-width:68ch;margin:4px 0 14px;
+ font-size:13px;line-height:1.55;color:var(--muted);text-align:left;
+}
+body .boss-prep-progress{
+ display:flex;align-items:center;gap:12px;min-width:0;margin:0 0 15px;
+}
+body .boss-prep-progress progress{
+ display:block;flex:1 1 auto;min-width:0;width:100%;height:12px;
+ border:1px solid var(--line);border-radius:999px;
+ overflow:hidden;appearance:none;background:var(--quest-track);
+}
+body .boss-prep-progress progress::-webkit-progress-bar{background:var(--quest-track)}
+body .boss-prep-progress progress::-webkit-progress-value{
+ background:linear-gradient(90deg,var(--quest-edge),var(--accent));
+ border-radius:999px;transition:width .22s ease;
+}
+body .boss-prep-progress progress::-moz-progress-bar{
+ background:linear-gradient(90deg,var(--quest-edge),var(--accent));
+ border-radius:999px;
+}
+body .boss-prep-progress [data-prep-progress]{
+ font-weight:800;font-size:12px;white-space:nowrap;
+ color:var(--ui-active-text);font-variant-numeric:tabular-nums;
+}
+body .boss-prep-tasks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+body .boss-prep-step{
+ display:flex;align-items:flex-start;gap:9px;min-width:0;
+ padding:12px 10px;border:1px solid var(--line);border-radius:12px;
+ background:var(--panel);cursor:pointer;
+ transition:border-color .2s ease,background-color .2s ease,box-shadow .2s ease;
+ text-align:left;color:var(--text);
+}
+body .boss-prep-step:hover{
+ border-color:var(--ui-active-border);
+ box-shadow:0 0 0 2px var(--ui-accent-wash)
+}
+body .boss-prep-step:has(input:focus-visible){
+ outline:2px solid var(--accent);outline-offset:3px;
+}
+body .boss-prep-step:has(input:checked){
+ background:var(--ui-active);
+ border-color:var(--ui-active-border);
+}
+body .boss-prep-step input[type="checkbox"]{
+ flex:0 0 18px;width:18px;height:18px;min-height:0;
+ padding:0;margin:3px 0 0;
+ accent-color:var(--accent);cursor:pointer;
+}
+body .boss-prep-index{
+ align-self:flex-start;font-size:11px;
+ font-weight:800;letter-spacing:.025em;line-height:1.7;
+ color:var(--accent);
+}
+body .boss-prep-step-body{display:block;min-width:0}
+body .boss-prep-step-body strong{
+ display:block;font-size:13px;line-height:1.35;
+ font-weight:750;color:var(--text);
+}
+body .boss-prep-step-body small{
+ display:block;font-size:11px;line-height:1.45;
+ margin-top:5px;color:var(--muted);
+}
+body .boss-prep-footer{
+ display:flex;align-items:center;justify-content:space-between;gap:12px;
+ margin-top:13px;font-size:11.5px;line-height:1.5;color:var(--muted);
+ text-align:left;
+}
+body .boss-prep-footer button:not([hidden]){
+ background:var(--ui-elevated);border:1px solid var(--line);
+ color:var(--text);padding:7px 12px;border-radius:8px;
+ font-size:12px;min-height:38px;
+}
+body .boss-prep-panel[data-prep-complete="true"]{
+ border-color:var(--ui-success-border);
+ box-shadow:0 0 0 2px var(--ui-success-border),0 12px 28px var(--ui-shadow);
+}
+body .boss-prep-panel[data-prep-complete="true"] .boss-prep-progress [data-prep-progress]{
+ color:var(--ui-success-text)
+}
+@media(max-width:800px){
+ body .boss-prep-panel{padding:16px 14px;margin:17px 0 20px}
+ body .boss-prep-heading{align-items:center}
+ body .boss-prep-tasks{grid-template-columns:1fr;gap:8px}
+ body .boss-prep-step{padding:12px;align-items:center}
+ body .boss-prep-step-body strong{font-size:13.5px}
+ body .boss-prep-step-body small{font-size:12px}
+ body .boss-prep-progress{gap:9px}
+ body .boss-prep-footer{flex-wrap:wrap}
+ body .boss-prep-heading h2{text-align:left}
+}
+@media(max-width:360px){
+ body .boss-prep-progress{flex-direction:column;align-items:stretch;gap:6px}
+ body .boss-prep-progress [data-prep-progress]{text-align:right}
+}
+@media(prefers-reduced-motion:reduce){
+ body :is(.primary,.theme-switch,.guide-hub-card,.boss-card,.champion-card,.boss-prep-step){
+  transition:none!important;animation:none!important;
+ }
+ body .live-status[data-state="live"]:before{animation:none!important}
+ body .boss-prep-progress progress::-webkit-progress-value{transition:none}
+}
+
+/* Search navigation: genuinely helpful HTML links, not decorative link farms.
+   Compact on mobile and usable without script execution. */
+body .seo-guide-crumbs{
+ display:flex;align-items:center;flex-wrap:wrap;gap:5px;
+ min-width:0;margin:0 0 15px;font-size:12px;line-height:1.5;
+ color:var(--muted);text-align:left;
+}
+body .seo-guide-crumbs a{margin:0;color:var(--accent);text-decoration:none}
+body .seo-guide-crumbs a:hover{text-decoration:underline;text-underline-offset:3px}
+body .seo-guide-crumbs [aria-current="page"]{
+ color:var(--text);font-weight:650;overflow-wrap:anywhere
+}
+body .seo-related{
+ clear:both;margin:20px 0 0;padding:17px 19px;
+ background:var(--panel);border:1px solid var(--line);
+ border-radius:14px;max-width:100%;min-width:0;
+}
+body .seo-related .section-head{margin:0 0 7px}
+body .seo-related h2{margin:3px 0 0;line-height:1.28;text-wrap:balance}
+body .seo-related>p{
+ font-size:13px;line-height:1.55;color:var(--muted);
+ margin:0 0 13px;max-width:68ch;text-align:left;
+}
+body .seo-related-links{
+ display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+ gap:9px;padding:0;margin:0;list-style:none
+}
+body .seo-related-links li{min-width:0;margin:0;padding:0}
+body .seo-related-links a{
+ display:flex;align-items:center;min-height:42px;
+ padding:9px 12px;border:1px solid var(--line);border-radius:10px;
+ background:var(--ui-elevated);color:var(--text);
+ text-decoration:none;font-weight:650;font-size:13px;line-height:1.4;
+ overflow-wrap:anywhere;
+}
+body .seo-related-links a:hover{
+ color:var(--ui-active-text);background:var(--ui-active);
+ border-color:var(--ui-active-border)
+}
+body .seo-related-links a:focus-visible,
+body .seo-roster-index a:focus-visible{
+ outline:2px solid var(--accent);outline-offset:3px
+}
+body .seo-roster-index{margin:22px 0 0;padding:16px 18px}
+body .seo-roster-index>summary{
+ cursor:pointer;min-height:42px;display:list-item;
+ padding:10px 4px;font-weight:750;color:var(--text);
+ font-size:14px;line-height:1.5
+}
+body .seo-roster-index[open]>summary{border-bottom:1px solid var(--line);margin-bottom:12px}
+body .seo-roster-index>p{color:var(--muted);font-size:13px;line-height:1.55;text-align:left}
+body .seo-roster-groups{
+ display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+ gap:14px;align-items:start
+}
+body .seo-roster-groups section{min-width:0}
+body .seo-roster-groups h2{
+ font-size:15px;line-height:1.3;color:var(--accent);margin:0 0 7px;
+}
+body .seo-roster-groups ul{padding:0;margin:0;list-style:none}
+body .seo-roster-groups li{margin:0 0 5px;min-width:0}
+body .seo-roster-groups a{
+ color:var(--text);font-size:12.5px;line-height:1.4;
+ display:inline-block;padding:3px 0;
+ overflow-wrap:anywhere;text-decoration:underline;
+ text-decoration-color:var(--line);text-underline-offset:3px;
+}
+body .seo-roster-groups a:hover{color:var(--accent);text-decoration-color:currentColor}
+@media(max-width:800px){
+ body .seo-related{padding:14px;margin:17px 0 0}
+ body .seo-related .section-head,body .seo-related .section-head h2{text-align:center}
+ body .seo-related>p{text-align:left;font-size:12.5px}
+ body .seo-related-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ body .seo-related-links a{font-size:12px;padding:9px;min-height:44px}
+ body .seo-roster-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ body .seo-roster-index{padding:13px}
+}
+@media(max-width:360px){
+ body .seo-related-links{grid-template-columns:1fr}
+ body .seo-roster-groups{grid-template-columns:1fr 1fr}
+}
+
+
+/* 2026-11-16: compact, legible phone-first presentation.
+   Keep reading text >=14px, metadata >=12px and active controls >=44px.
+   No change to desktop grids, mechanics, game-data presentation or indexing. */
+@media(max-width:800px){
+ body main>.hero:not(.live-hero){
+  padding-block:8px 15px;margin-bottom:14px;
+ }
+ body main>.hero:not(.live-hero) h1{line-height:1.16}
+ body main .guide-hub-grid{gap:9px}
+ body main .guide-hub-card{
+  min-height:0;padding:12px 14px;border-radius:12px;
+ }
+ body main .guide-hub-card :is(h3,h2){font-size:18px;line-height:1.25;margin:5px 0 6px}
+ body main .guide-hub-card p{font-size:14px;line-height:1.5}
+ body main .guide-hub-action{padding-top:8px}
+ body main .guide-hub-section{margin:18px 0}
+ body main .guide-hub-section>.section-head{margin:14px 0 9px}
+ body main .boss-fast-plan{padding:14px;margin-bottom:14px}
+ body main .boss-fast-grid{gap:8px}
+ body main .boss-fast-grid article{padding:11px 12px;border-radius:10px}
+ body main .boss-fast-grid article>span{font-size:12px;margin-bottom:4px}
+ body main .boss-fast-grid article p{font-size:14px;line-height:1.5}
+ body main .profile-overview{gap:9px}
+ body main .profile-overview .overview-card{padding:12px;min-height:0}
+ body main .profile-overview .overview-card h2{font-size:18px;line-height:1.3}
+ body main .quick-profile{padding:14px}
+ body main .counter-card{padding:13px;border-radius:12px;margin-bottom:12px}
+ body main .counter-glance{padding:11px 12px}
+ body main .counter-glance-grid{gap:8px}
+ body main .counter-card :is(p,li,dd){font-size:14px;line-height:1.5}
+ body main .seo-related{margin-top:14px;padding:12px}
+ body main .seo-related-links a{min-height:44px}
+ body main .boss-prep-panel{padding:14px 13px;margin:15px 0}
+ body main .boss-prep-step{padding:10px 11px}
+ body main .boss-prep-step-body small{font-size:12px;line-height:1.45}
+ body main .chip{font-size:12px;line-height:1.45;padding:5px 8px}
+ body main .badge{line-height:1.35}
+ /* Events: make the schedule the primary activity, not several stacked
+    navigation, introduction and decoration blocks. */
+ body[data-page="/events"] main .live-hero{margin:0 0 3px;padding:5px 0 9px}
+ body[data-page="/events"] main .live-hero h1{font-size:clamp(25px,6.8vw,30px);line-height:1.14}
+ body[data-page="/events"] main .live-mobile-intro{font-size:14px;line-height:1.43;margin:5px 0}
+ body[data-page="/events"] main .live-freshness{font-size:12px;line-height:1.4;margin:5px 0 0;padding:4px 8px}
+ body[data-page="/events"] main .live-jump{
+  margin:7px 0 8px;padding-bottom:3px;gap:6px;
+ }
+ body[data-page="/events"] main .live-jump a{
+  min-height:44px;padding:8px 11px;font-size:12px;
+ }
+ body[data-page="/events"] main .live-filter-bar{margin:0 0 7px;padding-bottom:4px;gap:6px}
+ body[data-page="/events"] main .live-filter-bar button{
+  min-height:44px;padding:7px 11px;font-size:12px;
+ }
+ body[data-page="/events"] main .live-section{margin-top:13px}
+ body[data-page="/events"] main .live-section>.section-head{
+  gap:3px;margin:0 0 8px
+ }
+ body[data-page="/events"] main .live-section>.section-head h2{
+  font-size:clamp(19px,5vw,22px);line-height:1.2
+ }
+ body[data-page="/events"] main .live-count{font-size:12px;padding:2px 8px;min-height:24px}
+ body[data-page="/events"] main .live-grid{gap:8px}
+ body[data-page="/events"] main :is(.live-card,.news-card){
+  padding:11px 12px;border-radius:11px;min-height:0;
+  box-shadow:0 2px 9px var(--ui-shadow);
+ }
+ body[data-page="/events"] main :is(.live-card,.news-card) h3{
+  font-size:16px;line-height:1.28;margin:6px 0 4px;letter-spacing:-.01em;
+ }
+ body[data-page="/events"] main .live-card-top{gap:4px 6px}
+ body[data-page="/events"] main :is(.live-status,.live-category){
+  font-size:12px;line-height:1.4;padding:3px 7px
+ }
+ body[data-page="/events"] main .news-card .live-card-top time{
+  font-size:12px;line-height:1.35
+ }
+ body[data-page="/events"] main .live-card-details{margin-top:0;padding-top:0}
+ body[data-page="/events"] main .live-card-details>summary{
+  min-height:44px;padding:4px 0 3px
+ }
+ body[data-page="/events"] main .live-card-teaser{
+  font-size:14px;line-height:1.45;color:var(--ui-soft-text);
+  -webkit-line-clamp:2
+ }
+ body[data-page="/events"] main .live-card-details :is(.live-card-more,.live-card-less){
+  font-size:12px;line-height:1.35;margin-top:4px;color:var(--accent)
+ }
+ body[data-page="/events"] main .live-card-details[open]>p{
+  font-size:14px;line-height:1.52;margin:5px 0 7px
+ }
+ body[data-page="/events"] main .live-dates{
+  width:100%;margin:5px 0 7px;padding:5px 8px;
+  line-height:1.4;font-size:12px;border-radius:8px
+ }
+ body[data-page="/events"] main .live-card-actions a,
+ body[data-page="/events"] main .news-card>.text-link{
+  font-size:12.5px;line-height:1.35;min-height:44px;
+  padding:5px 0;
+ }
+ body[data-page="/events"] main .live-mobile-context{margin-top:17px}
+ body[data-page="/events"] main .live-mobile-context>h2{font-size:19px;margin:0 0 8px}
+ body[data-page="/events"] main .live-editorial-note{
+  padding:12px 13px;margin:0 0 8px;border-radius:11px
+ }
+ body[data-page="/events"] main .live-editorial-note h2{
+  font-size:17px;line-height:1.3;margin:5px 0 6px
+ }
+ body[data-page="/events"] main .live-editorial-note p{
+  font-size:14px;line-height:1.5;margin:5px 0 8px
+ }
+ body[data-page="/events"] main .live-source-note{
+  padding:13px 14px;margin-top:17px
+ }
+ body[data-page="/events"] main .live-source-note h2{font-size:18px}
+}
+@media(max-width:360px){
+ body[data-page="/events"] main :is(.live-card,.news-card){padding:10px}
+ body[data-page="/events"] main .live-status{font-size:12px}
+ body main .profile-overview .overview-card{padding:11px}
+}
+
+
+
+/* 2026-11-16 task-first mobile finish: accessible controls, full-width champion
+   names, less header repetition. Desktop typography and editorial data untouched. */
+.mobile-header-search{display:none}
+.champ-mobile-controls{display:contents}
+.fight-step-details{display:contents}
+.fight-step-details>summary{display:none}
+.home-mode-options{display:contents}
+.home-mode-options>summary{display:none}
+@media(max-width:800px){
+ body.mobile-header-search-ready .topbar .search-form{display:none}
+ body .topbar .mobile-header-search{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  min-height:44px;padding:9px 11px;border:1px solid var(--line);
+  border-radius:10px;color:var(--text);background:var(--ui-elevated);
+  font-size:13px;font-weight:650;text-decoration:none
+ }
+ body .topbar .mobile-brand{flex:1 1 auto;min-width:0;font-size:clamp(12px,3.6vw,16px);white-space:nowrap}
+ body .topbar .mobile-header-search:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+ body.mobile-home-task-first main#main>.finder-panel{
+  width:100%;min-width:0;margin:0 0 12px;padding:15px 14px;border-radius:12px
+ }
+ body.mobile-home-task-first main#main>.finder-panel h2{font-size:clamp(20px,5.3vw,24px);margin:5px 0 7px}
+ body.mobile-home-task-first main#main>.live-home-callout{margin-bottom:12px}
+ body.mobile-home-task-first main#main>.home-proof{margin-bottom:12px}
+ body.mobile-home-task-first main#main>.workspace-grid{margin-bottom:15px}
+ body.mobile-home-task-first .home-mode-options{
+  display:block;margin:0 0 9px;border:1px solid var(--line);
+  border-radius:9px;background:var(--ui-elevated)
+ }
+ body.mobile-home-task-first .home-mode-options>summary{
+  display:flex;align-items:center;min-height:44px;padding:9px 12px;
+  font-size:13px;font-weight:650;cursor:pointer
+ }
+ body.mobile-home-task-first .home-mode-options>.field{padding:0 12px 12px}
+ body.mobile-home-task-first .home-mode-options .field label{font-size:13px}
+ body[data-page="/champions"] .champ-mobile-controls{
+  order:4;display:flex;align-items:stretch;gap:6px;
+  min-width:0;margin:0 0 6px
+ }
+ body[data-page="/champions"] .champ-mobile-controls .champ-mobile-filters{
+  flex:1 1 auto;order:0;width:auto;min-width:0;min-height:44px;
+  padding:8px;margin:0;font-size:12px
+ }
+ body[data-page="/champions"] .champ-mobile-controls .champ-view-switch{
+  order:0;flex:0 0 auto;display:flex;align-items:stretch;gap:4px;margin:0
+ }
+ body[data-page="/champions"] .champ-mobile-controls .champ-view-option{
+  min-width:62px;min-height:44px;padding:7px 8px;font-size:12px
+ }
+ body[data-page="/champions"] .champ-index-layout:has(.champ-alpha-rail:not([hidden])){
+  grid-template-columns:minmax(0,1fr)
+ }
+ body[data-page="/champions"] .champ-index-layout .champ-alpha-rail:not([hidden]){
+  order:-1;position:sticky;top:0;display:flex;flex-direction:row;
+  width:100%;max-height:none;min-height:0;overflow-x:auto;overflow-y:hidden;
+  gap:4px;padding:4px;scroll-snap-type:x proximity;
+  scroll-padding-inline:4px;align-self:stretch
+ }
+ body[data-page="/champions"] .champ-alpha-rail button{
+  flex:0 0 40px;min-width:40px;width:40px;height:40px;min-height:40px;
+  scroll-snap-align:start;font-size:13px
+ }
+ body[data-page="/champions"] .champ-index-layout #champ-results{order:1}
+ body[data-page="/champions"] .champ-letter-heading{scroll-margin-top:60px}
+ body[data-page^="/champions/"] .fight-step-details{
+  display:block;margin:8px 0 14px;border:1px solid var(--line);
+  border-radius:10px;background:var(--ui-elevated)
+ }
+ body[data-page^="/champions/"] .fight-step-details>summary{
+  display:flex;align-items:center;min-height:44px;padding:10px 12px;
+  font-size:14px;font-weight:650;cursor:pointer
+ }
+ body[data-page^="/champions/"] .fight-step-details .steps{margin:0 12px 12px}
+ body[data-page^="/champions/"] .basic-loop{margin-bottom:10px}
+ /* Preserve readable text even in the compact guide and tutorial cards. */
+ body[data-page="/twitch-drops"] .twitch-quicklinks small{font-size:12px;line-height:1.4}
+ body[data-page="/twitch-drops"] .twitch-step-grid p{font-size:14px;line-height:1.5}
+ body[data-page="/champions"] .champ-mobile-filters{font-weight:650}
+}
+@media(max-width:360px){
+ body .topbar .mobile-header-search{padding-inline:8px;gap:4px;font-size:12px}
+ body[data-page="/champions"] .champ-mobile-controls .champ-view-option{
+  min-width:56px;padding-inline:5px;font-size:11.5px
+ }
+}
+
+
+/* 2026-11-16: visual, low-copy HOMEPAGE on phones only. The desktop headline,
+   links, evidence and complete champion/boss guides stay available. */
+.home-heading-mobile,.home-event-mobile{display:none}
+body[data-page="/"] .home-coverage-disclosure{display:contents}
+body[data-page="/"] .home-coverage-disclosure>summary{display:none}
+@media(max-width:800px){
+ body[data-page="/"] main#main>.hero{
+  padding:13px 14px 14px;margin:0 0 10px;border-radius:13px;
+  min-height:0
+ }
+ body[data-page="/"] main#main>.hero .eyebrow,
+ body[data-page="/"] main#main>.hero p{display:none}
+ body[data-page="/"] main#main>.hero h1{
+  margin:0;font-size:clamp(23px,6.1vw,29px);
+  line-height:1.18;letter-spacing:-.025em;
+  text-align:center;text-wrap:balance
+ }
+ /* Both step banners repeat what the finder already offers. */
+ body[data-page="/"] main#main>.home-proof,
+ body[data-page="/"] main#main>.stats-strip{display:none}
+ /* The finder is the first meaningful action on a phone. */
+ body[data-page="/"] main#main>.finder-panel{
+  padding:13px 13px 12px;margin:0 0 10px;border-radius:12px;
+  background:var(--panel);border:1px solid var(--line);
+  border-top:2px solid var(--accent);box-shadow:none
+ }
+ body[data-page="/"] main#main>.finder-panel>.eyebrow,
+ body[data-page="/"] main#main>.finder-panel>.muted:not(.home-counter-coverage){
+  display:none
+ }
+ body[data-page="/"] main#main>.finder-panel h2{
+  margin:0 0 8px;font-size:clamp(18px,5vw,22px);
+  line-height:1.25;letter-spacing:-.015em
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form{
+  gap:8px;margin:0
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form .field{
+  min-width:0
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form :is(input,select){
+  min-height:44px
+ }
+ body[data-page="/"] main#main>.finder-panel .finder-form .primary{
+  min-height:46px;margin-top:0;font-size:14px
+ }
+ body[data-page="/"] main#main>.finder-panel #opponent-status{
+  font-size:12px;line-height:1.4
+ }
+ /* Optional transparency stays one tap away, not an introductory paragraph. */
+ body[data-page="/"] .home-coverage-disclosure{
+  display:block;margin:9px 0 0;padding:0;border-top:1px solid var(--line);
+  color:var(--muted)
+ }
+ body[data-page="/"] .home-coverage-disclosure>summary{
+  display:flex;align-items:center;min-height:44px;gap:4px;
+  padding:9px 2px;font-size:12.5px;line-height:1.35;
+  cursor:pointer;list-style:revert
+ }
+ body[data-page="/"] .home-coverage-disclosure>summary strong{
+  color:var(--text);font-weight:700
+ }
+ body[data-page="/"] .home-coverage-disclosure .home-counter-coverage{
+  padding:0 2px 9px;margin:0;font-size:13px;line-height:1.5;
+  text-align:left
+ }
+ body[data-page="/"] main#main>.finder-panel .quick-row{
+  display:flex;flex-wrap:nowrap;justify-content:flex-start;align-items:center;
+  max-width:100%;min-width:0;overflow-x:auto;white-space:nowrap;
+  overscroll-behavior-x:contain;scrollbar-width:thin;
+  gap:6px;margin:8px 0 0;padding:0 0 4px;font-size:12px
+ }
+ body[data-page="/"] main#main>.finder-panel .quick-row a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;padding:8px 10px;border-radius:999px;
+  background:var(--ui-elevated);border:1px solid var(--line);
+  font-size:12px
+ }
+ /* Small event announcement rather than another text-heavy panel. */
+ body[data-page="/"] main#main>.live-home-callout{
+  display:grid;grid-template-columns:35px minmax(0,1fr) auto;
+  gap:8px;align-items:center;padding:10px 11px;margin:0 0 11px;
+  min-height:64px;border:1px solid var(--line);border-radius:12px;
+  border-top:1px solid var(--line);background:var(--panel);
+  box-shadow:none;text-align:left
+ }
+ body[data-page="/"] main#main>.live-home-callout::before{
+  content:"◈";display:grid;place-items:center;
+  width:35px;height:35px;border-radius:10px;
+  background:var(--ui-elevated);border:1px solid var(--line);
+  font-size:23px;line-height:1;color:var(--accent)
+ }
+ body[data-page="/"] main#main>.live-home-callout :is(.eyebrow,p){
+  display:none
+ }
+ body[data-page="/"] main#main>.live-home-callout h2{
+  margin:0;font-size:15px;line-height:1.25;text-align:left;
+  overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.live-home-callout .primary{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:7px 9px;min-height:44px;margin:0;font-size:12px;
+  border-radius:9px;white-space:nowrap
+ }
+ body[data-page="/"] .home-event-desktop,
+ body[data-page="/"] .home-heading-desktop{display:none}
+ body[data-page="/"] .home-event-mobile,
+ body[data-page="/"] .home-heading-mobile{display:inline}
+ /* Icon-led action tiles: labels only, with the full explanation on destination pages. */
+ body[data-page="/"] main#main>.workspace-grid{
+  display:block;margin:0 0 7px;min-width:0
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;padding:9px;border:1px solid var(--line);
+  border-radius:13px;background:var(--panel);
+  box-shadow:none
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel>.eyebrow{
+  display:none
+ }
+ body[data-page="/"] main#main>.workspace-grid>.panel>.shortcut{
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:7px;min-width:0;min-height:94px;
+  margin:0;padding:9px 7px;border:1px solid var(--line);
+  border-radius:11px;background:var(--ui-elevated);
+  color:var(--text);text-align:center
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut-icon{
+  width:37px;height:37px;min-height:37px;border-radius:11px;
+  color:var(--accent);background:var(--ui-accent-wash);
+  border-color:var(--line);font-size:20px
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut h3{
+  margin:0;font-size:13px;line-height:1.3;letter-spacing:-.01em;
+  overflow-wrap:break-word;text-wrap:balance
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut p{
+  display:none
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut:last-child{
+  grid-column:1 / -1;flex-direction:row;min-height:60px;
+  justify-content:center;gap:10px
+ }
+ body[data-page="/"] main#main>.workspace-grid .shortcut:focus-visible,
+ body[data-page="/"] main#main>.live-home-callout .primary:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px
+ }
+ /* Two compact champion portrait-free tiles per row. */
+ body[data-page="/"] main#main>.section-head{
+  display:flex;flex-direction:row;justify-content:space-between;
+  align-items:center;gap:9px;margin:17px 0 9px
+ }
+ body[data-page="/"] main#main>.section-head h2{
+  flex:1 1 auto;min-width:0;margin:0;
+  font-size:17px;line-height:1.25;text-align:left
+ }
+ body[data-page="/"] main#main>.section-head .text-link{
+  flex:0 0 auto;white-space:nowrap;font-size:12px;
+  min-height:44px;display:inline-flex;align-items:center
+ }
+ body[data-page="/"] main#main>.champion-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;margin:0
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card{
+  position:relative;min-width:0;min-height:119px;
+  border-radius:12px;background:var(--panel);
+  border:1px solid var(--line);box-shadow:none;transform:none
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-identity{
+  display:flex;flex-direction:column;gap:5px;
+  align-items:center;justify-content:center;
+  padding:12px 8px 10px;min-height:119px;border:0
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .card-top{
+  display:flex;justify-content:center;width:100%;
+  padding:0;position:static
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .avatar{
+  width:43px;height:43px;min-width:43px;
+  font-size:15px;border-radius:11px
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-title{
+  padding:0;min-width:0;text-align:center
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card-title .badge{
+  display:none
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card h3{
+  margin:5px 0 0;font-size:14px;line-height:1.26;
+  text-align:center;overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card h3 a::after{
+  content:"";position:absolute;inset:0;z-index:1
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card .save{
+  position:absolute;top:4px;right:4px;z-index:2;
+  min-height:44px;min-width:44px;border-radius:9px
+ }
+ body[data-page="/"] main#main>.champion-grid .champion-card :is(
+  .coverage-label,.champion-card-summary,.chips,.card-link
+ ){display:none}
+ body[data-page="/"] main#main>.champion-grid .champion-card:focus-within{
+  border-color:var(--accent)
+ }
+ /* Boss previews become swipeable, image-like stage tiles, without text extracts. */
+ body[data-page="/"] main#main>.boss-grid{
+  display:flex;flex-wrap:nowrap;gap:9px;min-width:0;
+  max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;
+  scroll-snap-type:x proximity;scroll-padding-inline:2px;
+  scrollbar-width:thin;padding:0 0 8px;margin:0
+ }
+ body[data-page="/"] main#main>.boss-grid>.boss-card{
+  display:flex;flex:0 0 min(76vw,255px);
+  flex-direction:column;min-width:0;width:auto;
+  border:1px solid var(--line);border-radius:12px;
+  background:var(--panel);overflow:hidden;scroll-snap-align:start;
+  box-shadow:none;transform:none
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-art{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;height:78px;min-height:78px;border-radius:0
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-art small{
+  font-size:12px;line-height:1.4
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card>div:last-child{
+  padding:11px 12px
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card h3{
+  margin:0;font-size:14px;line-height:1.35;
+  text-align:left;overflow-wrap:break-word
+ }
+ body[data-page="/"] main#main>.boss-grid .boss-card :is(
+  p,.eyebrow,.text-link
+ ){display:none}
+ body[data-page="/"] main#main>.boss-grid .boss-card:focus-visible{
+  outline:2px solid var(--accent);outline-offset:-2px
+ }
+ body[data-page="/"] main#main>.coverage-link{margin:18px 0 10px}
+}
+@media(max-width:360px){
+ body[data-page="/"] main#main>.live-home-callout{grid-template-columns:31px minmax(0,1fr) auto;gap:6px;padding:8px}
+ body[data-page="/"] main#main>.live-home-callout::before{width:31px;height:31px;font-size:19px}
+ body[data-page="/"] main#main>.live-home-callout h2{font-size:13.5px}
+ body[data-page="/"] main#main>.live-home-callout .primary{font-size:11.5px;padding-inline:7px}
+ body[data-page="/"] main#main>.workspace-grid .shortcut h3{font-size:12.5px}
+ body[data-page="/"] main#main>.champion-grid .champion-card h3{font-size:13.5px}
+}
+
+
+/* Counter Finder evidence expansion (2026-11-16): clearly separate sourced
+   matchups from unverified mechanic research. All 362 opponent routes are
+   discoverable without fabricating tested wins or removing content guards. */
+.counter-research{margin:14px 0 18px;padding:17px}
+.counter-research-intro h2{margin:4px 0 7px;font-size:19px}
+.counter-research-intro p{margin:0 0 13px;max-width:76ch;font-size:13.5px;line-height:1.55}
+.counter-research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+.counter-research-card{min-width:0;padding:12px;border-radius:11px;border:1px solid var(--line);background:var(--ui-elevated)}
+.counter-research-card h3{margin:0 0 5px;font-size:15px;line-height:1.3}
+.counter-research-card p{margin:0 0 9px;font-size:13px;line-height:1.5}
+.counter-research-links{display:flex;flex-wrap:wrap;gap:7px}
+.counter-research-links a{display:flex;align-items:center;justify-content:space-between;gap:7px;min-height:44px;min-width:0;padding:8px 9px;border:1px solid var(--line);border-radius:9px;background:var(--panel);font-size:13px;overflow-wrap:anywhere}
+.counter-research-links small{font-size:11.5px;color:var(--muted);white-space:nowrap}
+.counter-research-disclaimer{margin:11px 0;font-size:12.5px;line-height:1.5}
+.counter-research-expander{margin-top:14px;border:1px solid var(--line);border-radius:11px}
+.counter-research-expander>summary{min-height:44px;display:flex;align-items:center;padding:10px 13px;cursor:pointer;font-weight:650;font-size:13px}
+.counter-research-expander .counter-research{margin:0;border:0;box-shadow:none}
+.counter-all-opponents{margin-top:22px}
+.counter-all-opponents>summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;gap:9px;align-items:center}
+.counter-all-opponents>summary small{font-size:12px;color:var(--muted);font-weight:450}
+.counter-all-opponents-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:12px 0}
+.counter-all-opponents-grid a{display:flex;gap:4px;justify-content:space-between;align-items:center;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;overflow-wrap:anywhere}
+.counter-all-opponents-grid small{font-size:11px;color:var(--muted);flex:0 0 auto}
+@media(max-width:800px){
+ body[data-page^="/counters/"] .counter-research{padding:12px;margin:10px 0 13px}
+ body[data-page^="/counters/"] .counter-research-grid{grid-template-columns:1fr;gap:8px}
+ body[data-page^="/counters/"] .counter-research-card{padding:11px}
+ body[data-page^="/counters/"] .counter-research-links a{flex:1 1 130px;justify-content:center;flex-direction:column;gap:2px;text-align:center}
+ body[data-page^="/counters/"] .counter-research-intro h2{font-size:17px}
+ body[data-page^="/counters/"] .counter-research-intro p{font-size:13px}
+ body[data-page="/counters"] .counter-all-opponents-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="/counters"] .counter-all-opponents-grid a{display:block;text-align:center;padding:10px 7px}
+ body[data-page="/counters"] .counter-all-opponents-grid small{display:block;margin-top:3px;font-size:11px}
+ body[data-page="/counters"] .counter-all-opponents>summary{flex-wrap:wrap;gap:4px}
+}
+@media(max-width:360px){
+ body[data-page^="/counters/"] .counter-research-links a{flex:1 1 100%}
+}
+
+
+/* mobile-visual-audit-v2 2026-11-16
+   Mobile-only hierarchy and density fixes; preserve full editorial content,
+   no-JS HTML fallback, desktop detail layout, gameplay and indexing policy. */
+.home-opponent-options,.profile-facts-mobile,.live-mobile-categories{display:contents}
+.home-opponent-options>summary,.profile-facts-mobile>summary,
+.live-mobile-categories>summary{display:none}
+@media(max-width:800px){
+ /* General mobile hierarchy: fewer heavy nested boxes, readable controls. */
+ body main#main{min-width:0}
+ body main#main .eyebrow{letter-spacing:.055em}
+ body main#main .coverage-link{font-size:12px;line-height:1.5}
+ body main#main :is(.profile-jump,.twitch-jump,.live-jump){
+  scroll-padding-inline:10px;scrollbar-width:thin
+ }
+ body main#main :is(.profile-jump,.twitch-jump) {
+  justify-content:flex-start!important;overscroll-behavior-x:contain;
+  mask-image:linear-gradient(to right,#000 0%,#000 92%,transparent 100%);
+  -webkit-mask-image:linear-gradient(to right,#000 0%,#000 92%,transparent 100%)
+ }
+ /* Homepage: one main action and a discreet, reachable disclaimer at the end. */
+ body[data-page="/"] main#main>.home-beta-note{
+  margin:18px 0 6px;padding:9px 10px;
+  border-top:1px solid var(--line);font-size:12px;line-height:1.5;
+  text-align:left!important
+ }
+ body[data-page="/"] main#main>.hero{
+  padding:9px 10px 10px;min-height:0;margin-bottom:8px
+ }
+ body[data-page="/"] main#main>.hero h1{
+  font-size:clamp(20px,5.5vw,25px);line-height:1.14;margin:0
+ }
+ body[data-page="/"] main#main>.finder-panel{
+  padding:12px 12px 10px;margin:0 0 9px
+ }
+ body[data-page="/"] main#main>.finder-panel h2{
+  font-size:19px;margin:0 0 8px;line-height:1.22
+ }
+ body[data-page="/"] #finder .field{gap:4px}
+ body[data-page="/"] #finder #opponent-query{
+  min-height:48px;font-size:16px
+ }
+ body[data-page="/"] #finder #opponent-status{
+  font-size:12px;min-height:0;margin:2px 0 0
+ }
+ body[data-page="/"] .home-opponent-options{
+  display:block;margin:6px 0 8px;border:1px solid var(--line);
+  border-radius:9px;background:var(--ui-elevated)
+ }
+ body[data-page="/"] .home-opponent-options>summary{
+  display:flex;align-items:center;min-height:44px;gap:6px;
+  padding:8px 10px;cursor:pointer;line-height:1.35;
+  font-size:12.5px;font-weight:650;color:var(--muted)
+ }
+ body[data-page="/"] .home-opponent-options[open]>summary{
+  border-bottom:1px solid var(--line)
+ }
+ body[data-page="/"] .home-opponent-options>label{
+  display:block;font-size:12px;margin:9px 10px 3px
+ }
+ body[data-page="/"] .home-opponent-options>select{
+  display:block;width:calc(100% - 20px);margin:0 10px 10px;
+  min-height:44px;font-size:14px
+ }
+ body[data-page="/"] .home-opponent-options>summary:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px
+ }
+ body[data-page="/"] .home-mode-options{margin:0 0 7px}
+ body[data-page="/"] .home-mode-options>summary{font-size:12.5px;padding-block:8px}
+ body[data-page="/"] .home-coverage-disclosure{margin-top:6px}
+ body[data-page="/"] main#main>.finder-panel .quick-row{
+  gap:5px;margin-top:5px;padding-bottom:3px
+ }
+ body[data-page="/"] main#main>.finder-panel .quick-row a{
+  min-height:40px;padding:6px 9px
+ }
+ body[data-page="/"] main#main>.live-home-callout{min-height:58px}
+ /* Champion directory: the SEO A-Z directory lives at the end, not above search. */
+ body[data-page="/champions"] main#main>.seo-roster-index{
+  order:50!important;margin:16px 0 0;padding:9px 11px;min-width:0
+ }
+ body[data-page="/champions"] main#main>.seo-roster-index>summary{
+  min-height:44px;padding:8px 5px;font-size:13px;line-height:1.3
+ }
+ body[data-page="/champions"] main#main>.hero{
+  padding-block:9px;margin-bottom:5px
+ }
+ body[data-page="/champions"] main#main>.hero :is(.eyebrow,p){display:none}
+ body[data-page="/champions"] main#main>.hero h1{
+  font-size:clamp(22px,5.5vw,26px);line-height:1.16;margin:0
+ }
+ body[data-page="/champions"] main#main>.mobile-champions-intro{
+  margin:4px 0 8px;font-size:12px;line-height:1.4
+ }
+ body[data-page="/champions"] main#main>.toolbar{
+  margin:3px 0 5px
+ }
+ body[data-page="/champions"] #champ-count{
+  margin:0 0 4px;line-height:1.3
+ }
+ body[data-page="/champions"] .champ-index-layout{
+  gap:2px
+ }
+ body[data-page="/champions"] .champ-index-layout .champ-alpha-rail:not([hidden]){
+  position:static!important;padding:3px;gap:3px;min-height:0
+ }
+ body[data-page="/champions"] .champ-alpha-rail button{
+  flex-basis:36px;min-width:36px;width:36px;
+  height:36px;min-height:36px;font-size:12.5px
+ }
+ body[data-page="/champions"] .champ-letter-heading{
+  margin:1px 0 3px;padding-block:0
+ }
+ body[data-page="/champions"] #champ-results .champion-card{
+  border-radius:10px
+ }
+ /* Loadouts: search first, avoid dead pagination and duplicative hero copy. */
+ body[data-page="/loadouts"] main#main>.hero{
+  padding:10px 8px 8px;margin:0 0 4px
+ }
+ body[data-page="/loadouts"] main#main>.hero h1{
+  font-size:clamp(21px,5.5vw,25px);margin:0;line-height:1.18
+ }
+ body[data-page="/loadouts"] main#main>.hero :is(.eyebrow,p){display:none}
+ body[data-page="/loadouts"] main#main>.loadout-mobile-caution{
+  margin:4px 0 8px;padding:6px 8px;font-size:12px;line-height:1.4;
+  border:1px solid var(--line);border-radius:9px
+ }
+ body[data-page="/loadouts"] #champion-loadouts{
+  margin:0 0 8px
+ }
+ body[data-page="/loadouts"] #champion-loadouts>.section-head{
+  margin:0 0 6px
+ }
+ body[data-page="/loadouts"] #champion-loadouts>.section-head .eyebrow{
+  display:none
+ }
+ body[data-page="/loadouts"] #champion-loadouts>.section-head h2{
+  margin:0;font-size:18px;line-height:1.25
+ }
+ body[data-page="/loadouts"] #champion-loadouts>.toolbar{
+  margin:0 0 4px;gap:6px
+ }
+ body[data-page="/loadouts"] #champion-loadouts>.muted{
+  display:none
+ }
+ body[data-page="/loadouts"] #loadout-query{
+  min-height:46px;font-size:16px
+ }
+ body[data-page="/loadouts"] #loadout-count{
+  font-size:12px;line-height:1.3;margin:4px 0 7px
+ }
+ body[data-page="/loadouts"] #loadout-pagination[hidden],
+ body[data-page="/loadouts"] #loadout-pagination [hidden]{
+  display:none!important
+ }
+ body[data-page="/loadouts"] #loadout-pagination:not([hidden]){
+  margin:3px 0 8px
+ }
+ body[data-page="/loadouts"] #loadout-results>.loadout-card{
+  margin-bottom:10px
+ }
+ body[data-page="/loadouts"] main#main>.loadout-intro-details{
+  margin:10px 0;padding:0
+ }
+ body[data-page="/loadouts"] main#main>nav.quick-row{
+  margin:12px 0
+ }
+ /* Profiles: the repeated metadata summary remains in a native disclosure. */
+ body[data-page^="/champions/"] .profile-facts-mobile{
+  display:block;margin:0 0 9px;border:1px solid var(--line);
+  background:var(--ui-elevated);border-radius:10px
+ }
+ body[data-page^="/champions/"] .profile-facts-mobile>summary{
+  display:flex;align-items:center;min-height:44px;padding:9px 12px;
+  cursor:pointer;font-size:13px;line-height:1.35;font-weight:650;
+  color:var(--muted)
+ }
+ body[data-page^="/champions/"] .profile-facts-mobile>.profile-decision-strip{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:6px;margin:0;padding:0 8px 9px;border:none;background:transparent
+ }
+ body[data-page^="/champions/"] .profile-facts-mobile .profile-decision-strip>div{
+  margin:0;padding:8px;min-width:0;min-height:0;border-radius:8px
+ }
+ body[data-page^="/champions/"] .profile-head{
+  padding-block:9px;margin-bottom:8px
+ }
+ body[data-page^="/champions/"] .profile-actions{
+  margin:0 0 6px;gap:7px
+ }
+ body[data-page^="/champions/"] .profile-jump{
+  margin:0 0 10px;padding-bottom:8px
+ }
+ body[data-page^="/champions/"] .profile-overview{
+  margin-top:7px;gap:7px
+ }
+ /* Events: one section navigation row; category chips only when requested. */
+ body[data-page="/events"] .live-mobile-categories{
+  display:block;margin:4px 0 8px;border:1px solid var(--line);
+  border-radius:9px;background:var(--ui-elevated)
+ }
+ body[data-page="/events"] .live-mobile-categories>summary{
+  display:flex;align-items:center;min-height:44px;padding:9px 12px;
+  font-size:13px;line-height:1.3;font-weight:650;
+  cursor:pointer;color:var(--text)
+ }
+ body[data-page="/events"] .live-mobile-categories .live-filter-bar{
+  display:flex;flex-wrap:wrap;overflow:visible;gap:5px;
+  margin:0;padding:5px 8px 9px;border-top:1px solid var(--line)
+ }
+ body[data-page="/events"] .live-mobile-categories .live-filter-bar button{
+  min-height:44px;padding:7px 10px
+ }
+ body[data-page="/events"] main .live-jump{
+  margin:5px 0 3px
+ }
+ body[data-page="/events"] main .live-hero{
+  padding:11px 12px;margin-bottom:5px
+ }
+ body[data-page="/events"] main .live-hero :is(.eyebrow,p){
+  display:none
+ }
+ body[data-page="/events"] main .live-hero h1{
+  margin:0 0 3px;font-size:clamp(22px,5.5vw,26px)
+ }
+ body[data-page="/events"] main .live-section{
+  margin-top:8px
+ }
+ /* Boss phase cheat sheets become readable cards instead of cut-off tables. */
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap{
+  overflow:visible!important;max-width:100%;border:0!important;
+  outline-offset:2px
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap table{
+  display:block!important;min-width:0!important;width:100%!important;
+  max-width:100%!important;table-layout:auto
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap thead{
+  position:absolute!important;width:1px;height:1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap tbody{
+  display:grid!important;grid-template-columns:minmax(0,1fr);
+  gap:8px;min-width:0
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap tbody tr{
+  display:block!important;min-width:0;max-width:100%;
+  padding:9px 11px;border:1px solid var(--line);
+  border-radius:10px;background:var(--ui-elevated)
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap tbody td{
+  display:block!important;min-width:0!important;max-width:100%!important;
+  padding:4px 0!important;border:0!important;
+  white-space:normal!important;overflow-wrap:anywhere;
+  font-size:13px;line-height:1.45;text-align:left
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap tbody td:first-child{
+  padding-bottom:7px!important;margin-bottom:6px;
+  border-bottom:1px solid var(--line)!important;
+  font-size:15px;font-weight:750;color:var(--text)
+ }
+ body[data-page^="/bosses/"] .boss-cheat-sheet .table-wrap tbody td:not(:first-child):before{
+  content:attr(data-phase-label);
+  display:block;margin:0 0 2px;font-size:11.5px;
+  font-weight:750;color:var(--accent);letter-spacing:.025em
+ }
+ /* Additional low-risk polish on tool and guide landing cards. */
+ body[data-page="/tools"] main#main>.hero{
+  padding:11px;margin-bottom:10px
+ }
+ body[data-page="/tools"] main#main>.boss-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel{
+  min-width:0;margin:0;padding:12px 10px;min-height:90px;
+  border-radius:11px;text-align:center
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel h2{
+  font-size:14px;line-height:1.32;margin:0
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel p{
+  display:none
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel:last-child{
+  grid-column:1/-1;min-height:62px
+ }
+ body[data-page="/guides"] main#main>.guide-start-panel{
+  margin-top:9px
+ }
+ body[data-page="/masteries"] main#main>.hero{
+  padding:12px;margin-bottom:9px
+ }
+}
+@media(max-width:360px){
+ body[data-page="/tools"] main#main>.boss-grid>a.panel h2{font-size:13px}
+ body[data-page="/"] main#main>.finder-panel h2{font-size:18px}
+ body[data-page="/events"] main .live-hero h1{font-size:21px}
+}
+
+/* Highlight the Doomscrip rewards guide in Tools without affecting other routes. */
+body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"]{
+  background:var(--ui-active);border-color:var(--ui-active-border)
+}
+@media(max-width:760px){
+ body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"]{
+  grid-column:1/-1;min-height:88px;padding:14px 15px
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"] p{
+  display:block!important;margin:5px auto 0;
+  color:var(--ui-soft-text);font-size:11px;line-height:1.45;max-width:360px
+ }
+}
