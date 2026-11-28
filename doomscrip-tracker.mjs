@@ -3,19 +3,26 @@ const KEY='summonerindex:doomscrip-tracker:v1';
 const sourceInputs=[...document.querySelectorAll('[data-ds-amount]')];
 const milestoneInputs=[...document.querySelectorAll('[data-ds-milestone]')];
 const weekInputs=[...document.querySelectorAll('[data-ds-week]')];
+const victoriousInputs=[...document.querySelectorAll('[data-ds-v4]')];
+const doomOwned=document.getElementById('ds-a1-doom-owned');
+const a1Talismans=document.getElementById('ds-a1-talismans');
 const spent=document.getElementById('ds-spent');
 const format=value=>new Intl.NumberFormat('en-IN',{maximumFractionDigits:0}).format(value);
 const safe=value=>{const n=Number(value);return Number.isFinite(n)&&n>=0?Math.min(Math.trunc(n),9999999):0};
 let storageAvailable=true;
-let saved={amounts:{},spent:0,milestones:[],weeks:[]};
+let saved={amounts:{},spent:0,milestones:[],weeks:[],doomOwned:false,v4A2:[],a1Talismans:0};
 try{const raw=localStorage.getItem(KEY);if(raw){const incoming=JSON.parse(raw);if(incoming&&typeof incoming==='object')saved={...saved,...incoming};}}catch{storageAvailable=false;}
 if(!saved.amounts||typeof saved.amounts!=='object')saved.amounts={};
 if(!Array.isArray(saved.milestones))saved.milestones=[];
 if(!Array.isArray(saved.weeks))saved.weeks=[];
+if(!Array.isArray(saved.v4A2))saved.v4A2=[];
 for(const el of sourceInputs){el.value=safe(saved.amounts[el.dataset.dsAmount]??0);}
 spent.value=safe(saved.spent);
 for(const el of milestoneInputs)el.checked=saved.milestones.includes(Number(el.dataset.dsMilestone));
 for(const el of weekInputs)el.checked=saved.weeks.includes(el.dataset.dsWeek);
+for(const el of victoriousInputs)el.checked=saved.v4A2.includes(el.dataset.dsV4);
+doomOwned.checked=saved.doomOwned===true;
+a1Talismans.value=Math.min(100,safe(saved.a1Talismans));
 const el=id=>document.getElementById(id);
 function update(){
  const earned=sourceInputs.reduce((sum,input)=>sum+safe(input.value),0);
@@ -28,6 +35,27 @@ function update(){
  el('ds-goal-caption').textContent=earned>=500000?'You have recorded enough total lifetime earnings for the base Doom cost. Check your spendable balance before purchasing.':format(500000-earned)+' more recorded Doomscrip to reach the base cost.';
  el('ds-progress').setAttribute('aria-valuenow',String(Math.min(earned,500000)));
  el('ds-progress-fill').style.width=Math.min(100,earned/500000*100)+'%';
+ // Show cumulative earnings versus the estimated full-spend route, not spendable currency.
+ const a1Budget=945000;
+ const a1EarnPct=Math.min(100,Math.round(earned/a1Budget*100));
+ el('ds-a1-earned-progress').textContent=a1EarnPct+'%';
+ el('ds-a1-meter').setAttribute('aria-valuenow',String(Math.min(earned,a1Budget)));
+ el('ds-a1-meter-fill').style.width=(Math.min(100,earned/a1Budget*100))+'%';
+ el('ds-a1-budget-caption').textContent=earned<a1Budget
+   ? format(a1Budget-earned)+' in additional lifetime earnings to match the community full-cost estimate (actual required amount can differ).'
+   : 'Your recorded lifetime earnings meet this community estimate; check spending, purchases, and all prerequisites separately.';
+ const victoriousAtA2=victoriousInputs.filter(x=>x.checked).length;
+ const talismansOwned=Math.min(100,safe(a1Talismans.value));
+ const a1Steps=Number(doomOwned.checked)+Number(victoriousAtA2>=2)+Number(talismansOwned>=100);
+ el('ds-a1-v4-count').textContent=Math.min(victoriousAtA2,2)+' / 2';
+ el('ds-a1-ready-count').textContent=a1Steps+' / 3 steps';
+ el('ds-a1-ready').textContent=a1Steps===3
+    ? 'All three steps are marked complete. Check the live Armory and champion Ascension screen before completing A1.'
+    : 'Remaining: '+[
+      !doomOwned.checked?'unlock 7-Star Doom':null,
+      victoriousAtA2<2?'get '+(2-victoriousAtA2)+' more Victorious Four to A2':null,
+      talismansOwned<100?'collect '+(100-talismansOwned)+' more Doom Ascension Talismans':null
+     ].filter(Boolean).join('; ')+'.';
  el('ds-milestones-count').textContent=milestoneInputs.filter(x=>x.checked).length;
  const checkedWeeks=weekInputs.filter(x=>x.checked).length;
  el('ds-weekly-count').textContent=checkedWeeks+' / '+weekInputs.length+' activities checked';
@@ -36,13 +64,16 @@ function update(){
  for(let n=1;n<=9;n++)el('ds-week-progress-'+n).textContent=weekInputs.filter(x=>x.checked&&x.dataset.dsWeek.startsWith(n+'-')).length+' / 3';
  const output={amounts:Object.fromEntries(sourceInputs.map(x=>[x.dataset.dsAmount,safe(x.value)])),spent:spentValue,
   milestones:milestoneInputs.filter(x=>x.checked).map(x=>Number(x.dataset.dsMilestone)),
-  weeks:weekInputs.filter(x=>x.checked).map(x=>x.dataset.dsWeek)};
+  weeks:weekInputs.filter(x=>x.checked).map(x=>x.dataset.dsWeek),
+  doomOwned:doomOwned.checked,
+  v4A2:victoriousInputs.filter(x=>x.checked).map(x=>x.dataset.dsV4),
+  a1Talismans:talismansOwned};
  try{localStorage.setItem(KEY,JSON.stringify(output));}
  catch{storageAvailable=false;}
  el('ds-save-status').textContent=storageAvailable?'Saved on this device only. No data sent to Summoner Index.':'Browser storage is unavailable. Your changes may be lost when this page closes.';
 }
-for(const input of [...sourceInputs,spent])input.addEventListener('input',update);
-for(const input of [...milestoneInputs,...weekInputs])input.addEventListener('change',update);
+for(const input of [...sourceInputs,spent,a1Talismans])input.addEventListener('input',update);
+for(const input of [...milestoneInputs,...weekInputs,...victoriousInputs,doomOwned])input.addEventListener('change',update);
 el('ds-filter').addEventListener('change',e=>{
  const filter=e.target.value;
  for(const card of document.querySelectorAll('[data-ds-source]')){
@@ -52,10 +83,11 @@ el('ds-filter').addEventListener('change',e=>{
  }
 });
 el('ds-clear').addEventListener('click',()=>{
- if(!confirm('Reset all recorded Doomscrip amounts, spending, 18 milestones and weekly checks on this device?'))return;
+ if(!confirm('Reset all Doomscrip amounts, spending, Doom A1 prerequisites, 18 milestones, and weekly checks on this device?'))return;
  for(const x of sourceInputs)x.value=0;
  spent.value=0;
- for(const x of [...milestoneInputs,...weekInputs])x.checked=false;
+ for(const x of [...milestoneInputs,...weekInputs,...victoriousInputs,doomOwned])x.checked=false;
+ a1Talismans.value=0;
  try{localStorage.removeItem(KEY);}catch{}
  update();
  el('ds-save-status').textContent='Your tracker was reset on this device.';
