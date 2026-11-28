@@ -1584,3 +1584,17 @@ body[data-page="/"] .home-coverage-disclosure>summary{display:none}
  body[data-page="/"] main#main>.finder-panel h2{font-size:18px}
  body[data-page="/events"] main .live-hero h1{font-size:21px}
 }
+
+/* Highlight the Doomscrip tracker in Tools without affecting other routes. */
+body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"]{
+  background:var(--ui-active);border-color:var(--ui-active-border)
+}
+@media(max-width:760px){
+ body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"]{
+  grid-column:1/-1;min-height:88px;padding:14px 15px
+ }
+ body[data-page="/tools"] main#main>.boss-grid>a.panel[href="/doomscrip"] p{
+  display:block!important;margin:5px auto 0;
+  color:var(--ui-soft-text);font-size:11px;line-height:1.45;max-width:360px
+ }
+}
