@@ -108,3 +108,67 @@ body[data-page="/doomscrip"] .ds-page :is(input,select,button,a,summary):focus-v
 @media(max-width:760px){body[data-page="/doomscrip"] .ds-weekly-grid{grid-template-columns:1fr}body[data-page="/doomscrip"] .ds-weekly-overview{grid-template-columns:1fr;gap:12px}body[data-page="/doomscrip"] .ds-sources{grid-template-columns:1fr}body[data-page="/doomscrip"] .ds-hero{border-radius:14px;padding:19px 16px}body[data-page="/doomscrip"] .ds-hero>p{font-size:12.5px}body[data-page="/doomscrip"] .ds-source-top h3{font-size:15px}body[data-page="/doomscrip"] .ds-source-bottom{flex-wrap:wrap}}
 @media(max-width:440px){body[data-page="/doomscrip"] .ds-page{max-width:100%}body[data-page="/doomscrip"] .ds-summary{gap:7px}body[data-page="/doomscrip"] .ds-stat{padding:12px 10px;border-radius:11px}body[data-page="/doomscrip"] .ds-stat strong{font-size:22px}body[data-page="/doomscrip"] .ds-stat small{font-size:10px}body[data-page="/doomscrip"] .ds-goal{padding:14px}body[data-page="/doomscrip"] .ds-milestone-grid{grid-template-columns:1fr 1fr;gap:5px}body[data-page="/doomscrip"] .ds-milestone{padding:8px 6px;gap:5px}body[data-page="/doomscrip"] .ds-milestone small{font-size:9px}body[data-page="/doomscrip"] .ds-hero-meta span{font-size:10px}body[data-page="/doomscrip"] .ds-toolbar button{margin-left:0}body[data-page="/doomscrip"] .ds-source-bottom a{width:100%}}
 @media(prefers-reduced-motion:reduce){body[data-page="/doomscrip"] .ds-progress>span,body[data-page="/doomscrip"] .ds-weekly-meter span{transition:none}}
+
+/* A1: distinct prerequisite tracker with estimate labelling and mobile-safe layout. */
+body[data-page="/doomscrip"] .ds-a1-section{margin-top:27px}
+body[data-page="/doomscrip"] .ds-a1-cost{padding:20px;border:1px solid var(--ui-active-border);background:linear-gradient(145deg,var(--ui-active),var(--panel) 52%);margin:0 0 12px}
+body[data-page="/doomscrip"] .ds-a1-cost-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+body[data-page="/doomscrip"] .ds-a1-cost-header strong{display:block;font-size:clamp(27px,4vw,36px);letter-spacing:-.035em;line-height:1.16;color:var(--text);margin:5px 0}
+body[data-page="/doomscrip"] .ds-a1-cost-header strong small{font-size:12px;letter-spacing:0;font-weight:650;color:var(--muted)}
+body[data-page="/doomscrip"] .ds-a1-cost-header p{font-size:12px;line-height:1.5;color:var(--muted);margin:0}
+body[data-page="/doomscrip"] .ds-a1-estimate{flex:none;align-self:center;border:1px solid var(--ui-warning-border);background:var(--ui-warning-bg);color:var(--ui-warning-text);font-size:10px;font-weight:750;padding:7px 10px;border-radius:12px}
+body[data-page="/doomscrip"] .ds-a1-cost-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:19px 0}
+body[data-page="/doomscrip"] .ds-a1-cost-grid>div{min-width:0;padding:12px;border-radius:11px;border:1px solid var(--line);background:var(--panel)}
+body[data-page="/doomscrip"] .ds-a1-cost-grid :is(small,span){display:block;font-size:10px;line-height:1.4;color:var(--muted)}
+body[data-page="/doomscrip"] .ds-a1-cost-grid strong{display:block;margin:6px 0;font-size:clamp(17px,2.7vw,24px);letter-spacing:-.02em;color:var(--text);font-variant-numeric:tabular-nums}
+body[data-page="/doomscrip"] .ds-a1-meter-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:10px 0 9px}
+body[data-page="/doomscrip"] .ds-a1-meter-top span{font-size:12px;font-weight:750;color:var(--ui-soft-text)}
+body[data-page="/doomscrip"] .ds-a1-meter-top strong{color:var(--accent);font-size:16px;font-variant-numeric:tabular-nums}
+body[data-page="/doomscrip"] .ds-a1-tracker{padding:18px;margin:0 0 12px}
+body[data-page="/doomscrip"] .ds-a1-tracker-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+body[data-page="/doomscrip"] .ds-a1-tracker-heading h3{font-size:17px;color:var(--text);margin:0 0 5px}
+body[data-page="/doomscrip"] .ds-a1-tracker-heading p{font-size:11px;line-height:1.5;color:var(--muted);margin:0}
+body[data-page="/doomscrip"] .ds-a1-tracker-heading>strong{font-size:12px;color:var(--accent);white-space:nowrap;font-variant-numeric:tabular-nums}
+body[data-page="/doomscrip"] .ds-a1-checklist{display:grid;gap:10px}
+body[data-page="/doomscrip"] .ds-a1-step{display:flex;min-width:0;gap:12px;align-items:flex-start;background:var(--ui-soft);border:1px solid var(--line);border-radius:11px;padding:13px}
+body[data-page="/doomscrip"] label.ds-a1-step{cursor:pointer}
+body[data-page="/doomscrip"] .ds-a1-step>input[type=checkbox]{width:18px;height:18px;flex-shrink:0;margin-top:6px;accent-color:#a57ae8}
+body[data-page="/doomscrip"] .ds-a1-index{width:29px;height:29px;border-radius:8px;flex-shrink:0;display:inline-grid;place-items:center;background:var(--ui-active);color:var(--accent);font-size:12px;font-weight:850}
+body[data-page="/doomscrip"] .ds-a1-step strong{display:block;font-size:13px;line-height:1.45;color:var(--text)}
+body[data-page="/doomscrip"] .ds-a1-step small{display:block;font-size:11px;line-height:1.5;color:var(--muted);margin-top:3px}
+body[data-page="/doomscrip"] .ds-a1-step:has(>input:checked){background:var(--ui-success-bg);border-color:var(--ui-success-border)}
+body[data-page="/doomscrip"] .ds-a1-v4-step{display:block}
+body[data-page="/doomscrip"] .ds-a1-step-heading{display:flex;gap:12px;align-items:flex-start}
+body[data-page="/doomscrip"] .ds-a1-step-heading>div{flex:1;min-width:0}
+body[data-page="/doomscrip"] .ds-a1-step-heading b{margin-left:auto;color:var(--accent);font-size:12px;white-space:nowrap}
+body[data-page="/doomscrip"] .ds-a1-v4-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:12px}
+body[data-page="/doomscrip"] .ds-a1-v4-grid label{display:flex;gap:8px;align-items:center;cursor:pointer;min-height:42px;border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--panel);font-size:11px;line-height:1.35;color:var(--text)}
+body[data-page="/doomscrip"] .ds-a1-v4-grid input{margin:0;width:17px;height:17px;flex:none;accent-color:#a57ae8}
+body[data-page="/doomscrip"] .ds-a1-v4-grid label:has(input:checked){border-color:var(--ui-success-border);background:var(--ui-success-bg)}
+body[data-page="/doomscrip"] .ds-a1-talisman-step label{flex:1;min-width:0}
+body[data-page="/doomscrip"] #ds-a1-talismans{width:78px;flex:none;text-align:center;min-height:40px;border:1px solid var(--line);border-radius:10px;background:var(--ui-input);color:var(--text);font-size:15px;font-weight:800;font-variant-numeric:tabular-nums}
+body[data-page="/doomscrip"] .ds-a1-count-label{color:var(--muted);white-space:nowrap;font-size:12px;align-self:center}
+body[data-page="/doomscrip"] .ds-a1-readiness{font-size:12px;line-height:1.55;color:var(--ui-soft-text);padding:12px 14px;border-radius:10px;border:1px solid var(--ui-active-border);background:var(--ui-active);margin:12px 0 0}
+body[data-page="/doomscrip"] .ds-a1-advice{padding:17px 19px}
+body[data-page="/doomscrip"] .ds-a1-advice h3{font-size:17px;color:var(--text);margin:0 0 11px}
+body[data-page="/doomscrip"] .ds-a1-advice ol{margin:0;padding-left:19px}
+body[data-page="/doomscrip"] .ds-a1-advice li{font-size:12px;color:var(--muted);line-height:1.6;padding-left:4px;margin:7px 0}
+body[data-page="/doomscrip"] .ds-a1-advice li b{color:var(--text)}
+@media(max-width:760px){
+ body[data-page="/doomscrip"] .ds-a1-cost-grid{grid-template-columns:1fr}
+ body[data-page="/doomscrip"] .ds-a1-cost-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:9px;align-items:center}
+ body[data-page="/doomscrip"] .ds-a1-cost-grid>div small{grid-column:1}
+ body[data-page="/doomscrip"] .ds-a1-cost-grid>div strong{grid-column:2;grid-row:1/3;margin:0;font-size:19px}
+ body[data-page="/doomscrip"] .ds-a1-cost-grid>div span{grid-column:1}
+}
+@media(max-width:440px){
+ body[data-page="/doomscrip"] .ds-a1-cost,body[data-page="/doomscrip"] .ds-a1-tracker{padding:14px}
+ body[data-page="/doomscrip"] .ds-a1-cost-header{flex-wrap:wrap}
+ body[data-page="/doomscrip"] .ds-a1-estimate{align-self:auto}
+ body[data-page="/doomscrip"] .ds-a1-step{padding:10px;gap:8px}
+ body[data-page="/doomscrip"] .ds-a1-v4-grid{grid-template-columns:1fr}
+ body[data-page="/doomscrip"] .ds-a1-talisman-step{flex-wrap:wrap}
+ body[data-page="/doomscrip"] .ds-a1-talisman-step label{flex:1 1 calc(100% - 44px)}
+ body[data-page="/doomscrip"] #ds-a1-talismans{margin-left:37px}
+ body[data-page="/doomscrip"] .ds-a1-tracker-heading{align-items:flex-start}
+}
