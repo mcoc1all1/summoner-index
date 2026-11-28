@@ -56,7 +56,11 @@ function update(){
       victoriousAtA2<2?'get '+(2-victoriousAtA2)+' more Victorious Four to A2':null,
       talismansOwned<100?'collect '+(100-talismansOwned)+' more Doom Ascension Talismans':null
      ].filter(Boolean).join('; ')+'.';
- el('ds-milestones-count').textContent=milestoneInputs.filter(x=>x.checked).length;
+ const markedMilestones=milestoneInputs.filter(x=>x.checked);
+ const claimedWarScrip=markedMilestones.reduce((sum,x)=>sum+safe(x.dataset.dsReward),0);
+ el('ds-war-claimed-currency').textContent=format(claimedWarScrip);
+ el('ds-war-remaining-currency').textContent=format(Math.max(0,300000-claimedWarScrip));
+ el('ds-milestones-count').textContent=markedMilestones.length;
  const checkedWeeks=weekInputs.filter(x=>x.checked).length;
  el('ds-weekly-count').textContent=checkedWeeks+' / '+weekInputs.length+' activities checked';
  el('ds-weekly-meter').setAttribute('aria-valuenow',String(checkedWeeks));
@@ -81,6 +85,19 @@ el('ds-filter').addEventListener('change',e=>{
   const uncertain=status.classList.contains('ds-status-unknown')||status.classList.contains('ds-status-pending');
   card.hidden=filter==='ongoing'?uncertain:filter==='uncertain'?!uncertain:false;
  }
+});
+// Explicit opt-in: milestone checkboxes alone never alter earned Doomscrip.
+el('ds-war-sync').addEventListener('click',()=>{
+ const source=sourceInputs.find(x=>x.dataset.dsAmount==='reclamation');
+ if(!source)return;
+ const claimedTotal=milestoneInputs.filter(x=>x.checked).reduce((n,x)=>n+safe(x.dataset.dsReward),0);
+ const existing=safe(source.value);
+ if(existing!==0&&existing!==claimedTotal&&!confirm(
+   'Replace your previously entered Reclamation War Doomscrip ('+format(existing)+') with '+format(claimedTotal)+' from checked milestones?'
+ ))return;
+ source.value=claimedTotal;
+ update();
+ el('ds-save-status').textContent='Reclamation earnings updated from your checked milestones ('+format(claimedTotal)+' Doomscrip).';
 });
 el('ds-clear').addEventListener('click',()=>{
  if(!confirm('Reset all Doomscrip amounts, spending, Doom A1 prerequisites, 18 milestones, and weekly checks on this device?'))return;
